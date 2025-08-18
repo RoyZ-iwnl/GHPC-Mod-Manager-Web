@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "PactIL",
+    "Name": {
+      "en-US": "Pact Increased Lethality",
+      "zh-CN": "华约增强模组"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "PactIncreasedLethality.dll",
+    "ConfigSectionName": "PactIncreasedLethality",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "M1A1",
+    "Name": {
+      "en-US": "M1A1 Abrams",
+      "zh-CN": "M1A1艾布拉姆斯"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "M1A1Abrams.dll",
+    "ConfigSectionName": "M1A1Config",
+    "InstallMethod": "DirectRelease"
+  }
+]
