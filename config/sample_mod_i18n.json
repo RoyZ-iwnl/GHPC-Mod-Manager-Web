@@ -1,0 +1,81 @@
+{
+  "ModConfigs": {
+    "PactIL": {
+      "ModId": "PactIL",
+      "ConfigLabels": {
+        "AP Round (T-72M)": {
+          "zh-CN": "穿甲弹 (T-72M)",
+          "en-US": "AP Round (T-72M)"
+        },
+        "HEAT Round (T-72M)": {
+          "zh-CN": "破甲弹 (T-72M)",
+          "en-US": "HEAT Round (T-72M)"
+        },
+        "Enable Advanced Ballistics": {
+          "zh-CN": "启用高级弹道学",
+          "en-US": "Enable Advanced Ballistics"
+        }
+      },
+      "ConfigDescriptions": {
+        "AP Round (T-72M)": {
+          "zh-CN": "T-72M坦克使用的穿甲弹类型",
+          "en-US": "Type of armor-piercing round used by T-72M tank"
+        },
+        "HEAT Round (T-72M)": {
+          "zh-CN": "T-72M坦克使用的破甲弹类型",
+          "en-US": "Type of HEAT round used by T-72M tank"
+        },
+        "Enable Advanced Ballistics": {
+          "zh-CN": "启用更真实的弹道计算模式",
+          "en-US": "Enable more realistic ballistic calculation mode"
+        }
+      },
+      "ConfigChoices": {
+        "AP Round (T-72M)": [
+          "3BM15",
+          "3BM22", 
+          "3BM32",
+          "3BM26",
+          "3BM42",
+          "3BM46",
+          "3BM60"
+        ]
+      }
+    },
+    "M1A1": {
+      "ModId": "M1A1",
+      "ConfigLabels": {
+        "Armor Package": {
+          "zh-CN": "装甲套件",
+          "en-US": "Armor Package"
+        },
+        "FCS Version": {
+          "zh-CN": "火控系统版本",
+          "en-US": "FCS Version"
+        }
+      },
+      "ConfigDescriptions": {
+        "Armor Package": {
+          "zh-CN": "选择M1A1的装甲配置方案",
+          "en-US": "Select M1A1 armor configuration scheme"
+        },
+        "FCS Version": {
+          "zh-CN": "选择火控系统的版本",
+          "en-US": "Select fire control system version"
+        }
+      },
+      "ConfigChoices": {
+        "Armor Package": [
+          "Standard",
+          "Heavy",
+          "Urban"
+        ],
+        "FCS Version": [
+          "A1",
+          "A1+",
+          "A1D"
+        ]
+      }
+    }
+  }
+}

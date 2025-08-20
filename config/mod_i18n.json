@@ -1,0 +1,258 @@
+{
+  "ModConfigs": {
+    "PactIL": {
+      "ModId": "PactIL",
+      "ConfigLabels": {
+        "T-55 Patch": {
+          "zh-CN": "T-55 补丁",
+          "en-US": "T-55 Patch"
+        },
+        "Use 3BK17M": {
+          "zh-CN": "使用 3BK17M",
+          "en-US": "Use 3BK17M"
+        },
+        "Use 9M117": {
+          "zh-CN": "使用 9M117",
+          "en-US": "Use 9M117"
+        },
+        "Better Stabilizer": {
+          "zh-CN": "更好的稳定器",
+          "en-US": "Better Stabilizer"
+        },
+        "Laser Rangefinder": {
+          "zh-CN": "激光测距仪",
+          "en-US": "Laser Rangefinder"
+        },
+        "Drozd APS (T-55)": {
+          "zh-CN": "Drozd 主动防护系统 (T-55)",
+          "en-US": "Drozd APS (T-55)"
+        },
+        "T-72 Patch": {
+          "zh-CN": "T-72 补丁",
+          "en-US": "T-72 Patch"
+        },
+        "AP Round (T-72M)": {
+          "zh-CN": "穿甲弹 (T-72M)",
+          "en-US": "AP Round (T-72M)"
+        },
+        "AP Round (T-72M1)": {
+          "zh-CN": "穿甲弹 (T-72M1)",
+          "en-US": "AP Round (T-72M1)"
+        },
+        "Random AP Round (T-72M)": {
+          "zh-CN": "随机穿甲弹 (T-72M)",
+          "en-US": "Random AP Round (T-72M)"
+        },
+        "Random AP Round (T-72M1)": {
+          "zh-CN": "随机穿甲弹 (T-72M1)",
+          "en-US": "Random AP Round (T-72M1)"
+        },
+        "Has Thermals (T-72)": {
+          "zh-CN": "配备热成像 (T-72)",
+          "en-US": "Has Thermals (T-72)"
+        },
+        "Thermals Quality (T-72)": {
+          "zh-CN": "热成像质量 (T-72)",
+          "en-US": "Thermals Quality (T-72)"
+        },
+        "Kontakt-5 ERA (T-72M1)": {
+          "zh-CN": "Kontakt-5 反应装甲 (T-72M1)",
+          "en-US": "Kontakt-5 ERA (T-72M1)"
+        },
+        "Kontakt-5 ERA (T-72M)": {
+          "zh-CN": "Kontakt-5 反应装甲 (T-72M)",
+          "en-US": "Kontakt-5 ERA (T-72M)"
+        },
+        "Kontakt-1 ERA (T-72M1)": {
+          "zh-CN": "Kontakt-1 反应装甲 (T-72M1)",
+          "en-US": "Kontakt-1 ERA (T-72M1)"
+        },
+        "Kontakt-1 ERA (T-72M)": {
+          "zh-CN": "Kontakt-1 反应装甲 (T-72M)",
+          "en-US": "Kontakt-1 ERA (T-72M)"
+        },
+        "Reduced Ammo Load": {
+          "zh-CN": "减少弹药装填",
+          "en-US": "Reduced Ammo Load"
+        },
+        "Empty Ammo Racks (T-72M)": {
+          "zh-CN": "清空弹药架 (T-72M)",
+          "en-US": "Empty Ammo Racks (T-72M)"
+        },
+        "Empty Ammo Racks (T-72M1)": {
+          "zh-CN": "清空弹药架 (T-72M1)",
+          "en-US": "Empty Ammo Racks (T-72M1)"
+        },
+        "Soviet Crew (T-72M)": {
+          "zh-CN": "苏联乘员 (T-72M)",
+          "en-US": "Soviet Crew (T-72M)"
+        },
+        "Soviet Crew (T-72M1)": {
+          "zh-CN": "苏联乘员 (T-72M1)",
+          "en-US": "Soviet Crew (T-72M1)"
+        },
+        "Super FCS (T-72M)": {
+          "zh-CN": "高级火控系统 (T-72M)",
+          "en-US": "Super FCS (T-72M)"
+        },
+        "Super FCS (T-72M1)": {
+          "zh-CN": "高级火控系统 (T-72M1)",
+          "en-US": "Super FCS (T-72M1)"
+        }
+      }
+    },
+    "M1A1": {
+      "ModId": "M1A1",
+      "ConfigLabels": {
+        "M829": {
+          "zh-CN": "M829 穿甲弹数",
+          "en-US": "M829"
+        },
+        "M830": {
+          "zh-CN": "M830 破甲弹数",
+          "en-US": "M830"
+        },
+        "AP Round (M1E1)": {
+          "zh-CN": "穿甲弹 (M1E1)",
+          "en-US": "AP Round (M1E1)"
+        },
+        "AP Round (M1A1)": {
+          "zh-CN": "穿甲弹 (M1A1)",
+          "en-US": "AP Round (M1A1)"
+        },
+        "HEAT Round (M1E1)": {
+          "zh-CN": "破甲弹 (M1E1)",
+          "en-US": "HEAT Round (M1E1)"
+        },
+        "HEAT Round (M1A1)": {
+          "zh-CN": "破甲弹 (M1A1)",
+          "en-US": "HEAT Round (M1A1)"
+        },
+        "Rotate Azimuth": {
+          "zh-CN": "旋转方位角",
+          "en-US": "Rotate Azimuth"
+        },
+        "Digital Enhancement (M1E1)": {
+          "zh-CN": "数字增强 (M1E1)",
+          "en-US": "Digital Enhancement (M1E1)"
+        },
+        "Digital Enhancement (M1A1)": {
+          "zh-CN": "数字增强 (M1A1)",
+          "en-US": "Digital Enhancement (M1A1)"
+        },
+        "Fixed Reticle Size": {
+          "zh-CN": "固定准星大小",
+          "en-US": "Fixed Reticle Size"
+        },
+        "CITV (M1E1)": {
+          "zh-CN": "指挥官热成像视野 (M1E1)",
+          "en-US": "CITV (M1E1)"
+        },
+        "CITV (M1A1)": {
+          "zh-CN": "指挥官热成像视野 (M1A1)",
+          "en-US": "CITV (M1A1)"
+        },
+        "No Blur CITV": {
+          "zh-CN": "无模糊 CITV",
+          "en-US": "No Blur CITV"
+        },
+        "CITV Reticle": {
+          "zh-CN": "CITV 准星",
+          "en-US": "CITV Reticle"
+        },
+        "Perfect CITV Override": {
+          "zh-CN": "完美 CITV 超控",
+          "en-US": "Perfect CITV Override"
+        },
+        "Smooth CITV Panning": {
+          "zh-CN": "平滑 CITV 平移",
+          "en-US": "Smooth CITV Panning"
+        },
+        "Alternate GPS FLIR Colour": {
+          "zh-CN": "替代 GPS 热成像颜色",
+          "en-US": "Alternate GPS FLIR Colour"
+        },
+        "DU Armour": {
+          "zh-CN": "贫铀装甲",
+          "en-US": "DU Armour"
+        },
+        "DU Generation": {
+          "zh-CN": "贫铀代数",
+          "en-US": "DU Generation"
+        },
+        "CROWS (M1E1)": {
+          "zh-CN": "远程武器系统 (M1E1)",
+          "en-US": "CROWS (M1E1)"
+        },
+        "CROWS (M1A1)": {
+          "zh-CN": "远程武器系统 (M1A1)",
+          "en-US": "CROWS (M1A1)"
+        },
+        "Alternative Position": {
+          "zh-CN": "备用位置",
+          "en-US": "Alternative Position"
+        },
+        "Use Mk 211 Mod 0": {
+          "zh-CN": "使用 Mk 211 Mod 0 弹药",
+          "en-US": "Use Mk 211 Mod 0"
+        },
+        "2nd Generation Thermals (M1E1)": {
+          "zh-CN": "二代热成像 (M1E1)",
+          "en-US": "2nd Generation Thermals (M1E1)"
+        },
+        "2nd Generation Thermals (M1A1)": {
+          "zh-CN": "二代热成像 (M1A1)",
+          "en-US": "2nd Generation Thermals (M1A1)"
+        },
+        "M1E1": {
+          "zh-CN": "M1E1 版本",
+          "en-US": "M1E1"
+        },
+        "Random": {
+          "zh-CN": "随机转换",
+          "en-US": "Random"
+        },
+        "ConversionChance": {
+          "zh-CN": "转换概率",
+          "en-US": "ConversionChance"
+        },
+        "Rotate Azimuth (M1E1)": {
+          "zh-CN": "旋转方位角 (M1E1)",
+          "en-US": "Rotate Azimuth (M1E1)"
+        },
+        "Rotate Azimuth (M1A1)": {
+          "zh-CN": "旋转方位角 (M1A1)",
+          "en-US": "Rotate Azimuth (M1A1)"
+        },
+        "FLIR Generation (M1E1)": {
+          "zh-CN": "热成像代数 (M1E1)",
+          "en-US": "FLIR Generation (M1E1)"
+        },
+        "FLIR Generation (M1A1)": {
+          "zh-CN": "热成像代数 (M1A1)",
+          "en-US": "FLIR Generation (M1A1)"
+        },
+        "DU Armour (M1A1)": {
+          "zh-CN": "贫铀装甲 (M1A1)",
+          "en-US": "DU Armour (M1A1)"
+        },
+        "DU Generation (M1A1)": {
+          "zh-CN": "贫铀代数 (M1A1)",
+          "en-US": "DU Generation (M1A1)"
+        },
+        "DU Armour (M1E1)": {
+          "zh-CN": "贫铀装甲 (M1E1)",
+          "en-US": "DU Armour (M1E1)"
+        },
+        "DU Generation (M1E1)": {
+          "zh-CN": "贫铀代数 (M1E1)",
+          "en-US": "DU Generation (M1E1)"
+        },
+        "M1E1 -> M1A1": {
+          "zh-CN": "M1E1 转换为 M1A1",
+          "en-US": "M1E1 -> M1A1"
+        }
+      }
+    }
+  }
+}

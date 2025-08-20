@@ -1,0 +1,82 @@
+[
+  {
+    "Id": "PactIL",
+    "Name": {
+      "en-US": "Pact Increased Lethality",
+      "zh-CN": "华约增强模组"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "PactIncreasedLethality.dll",
+    "ConfigSectionName": "PactIncreasedLethality",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "M1A1",
+    "Name": {
+      "en-US": "M1A1 Abrams",
+      "zh-CN": "M1A1艾布拉姆斯"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "M1A1Abrams.dll",
+    "ConfigSectionName": "M1A1Config",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "sample",
+    "Name": {
+      "en-US": "sample",
+      "zh-CN": "Msample"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/REPO-OWNER/REPO/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "sample.dll",
+    "ConfigSectionName": "sample",
+    "InstallMethod": "Scripted",
+    "InstallScript_Base64": "QGVjaG8gb2ZmCnNldCBET1dOTE9BRF9VUkw9JTEKLi4u" //base编码的bat脚本
+    /*
+    ModConfig安装模式中的base64 bat格式
+
+      数据模型
+
+      在ModConfig类中定义了：
+      public string? InstallScript_Base64 { get; set; }
+
+      处理流程
+
+      1. 存储格式：原始bat脚本内容通过Base64编码后存储在InstallScript_Base64字段中
+      2. 解码过程：
+      var scriptContent = Encoding.UTF8.GetString(Convert.FromBase64String(base64Script));
+      3. 执行过程：
+        - 解码后的脚本内容写入临时bat文件：install_{Guid.NewGuid()}.bat
+        - 在游戏根目录下执行该bat文件
+        - 传递下载URL作为参数：Arguments = $"\"{downloadUrl}\""
+
+      Bat脚本格式要求
+
+      根据执行方式，bat脚本应该：
+      - 工作目录：在游戏根目录(gameRootPath)下运行
+      - 参数接收：接收下载URL作为第一个参数 %1
+      - 标准Windows批处理：使用标准的Windows批处理命令
+      - 编码：使用UTF-8编码
+
+      示例bat脚本结构
+
+      @echo off
+      set DOWNLOAD_URL=%1
+      set GAME_PATH=%CD%
+
+      REM 下载文件
+      powershell -Command "Invoke-WebRequest -Uri '%DOWNLOAD_URL%' -OutFile 'temp_mod.zip'"
+
+      REM 解压到Mods目录
+      powershell -Command "Expand-Archive -Path 'temp_mod.zip' -DestinationPath 'Mods' -Force"
+
+      REM 清理临时文件
+      del temp_mod.zip
+
+      echo 安装完成
+    */
+  }
+]
