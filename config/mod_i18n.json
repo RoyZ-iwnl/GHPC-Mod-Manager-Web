@@ -530,7 +530,7 @@
           "en-US": "Intercepts incoming projectiles; covers the frontal arc of the tank relative to where the turret is facing"
         },
         "3BM15, 3BM22, 3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46, 3BM60": {
-          "zh-CN": "3BM15、3BM22、3BM32、3BM26（复合装甲优化）、3BM42（复合装甲优化）、3BM46、3BM60",
+          "zh-CN": "3BM15, 3BM22, 3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46, 3BM60 [composite optimized意为复合装甲优化]",
           "en-US": "3BM15, 3BM22, 3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46, 3BM60"
         },
         "Replaces night vision sight with thermal sight": {
@@ -538,7 +538,7 @@
           "en-US": "Replaces night vision sight with thermal sight"
         },
         "Low, High": {
-          "zh-CN": "低、高",
+          "zh-CN": "Low（低）, High（高）[填英文]",
           "en-US": "Low, High"
         },
         "B           I           G           brick": {
@@ -566,7 +566,7 @@
           "en-US": "Also renames the tank to T-72A and removes NVA decals"
         },
         "Sosna-U: point-n-shoot, thermal sight, autotracking": {
-          "zh-CN": "松纳-U：点射即中，热成像瞄准镜，自动跟踪",
+          "zh-CN": "松树-U：点射即中，热成像瞄准镜，自动跟踪",
           "en-US": "Sosna-U: point-n-shoot, thermal sight, autotracking"
         },
         "vrrrrrrrrrrooooooooom": {
@@ -578,7 +578,7 @@
           "en-US": "Replaces the coincidence rangefinder with a laser rangefinder"
         },
         "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized)": {
-          "zh-CN": "3BM32、3BM26（复合装甲优化）、3BM42（复合装甲优化）",
+          "zh-CN": "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized) [composite optimized意为复合装甲优化]",
           "en-US": "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized)"
         },
         "Randomizes ammo selection for T-64As (3BM26, 3BM32, 3BM42), 3BM46": {
@@ -718,7 +718,7 @@
           "en-US": "3BM26, 3BM32, 3BM42, 3BM46"
         },
         "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46": {
-          "zh-CN": "3BM32、3BM26（复合装甲优化）、3BM42（复合装甲优化）、3BM46",
+          "zh-CN": "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46 [composite optimized意为复合装甲优化]",
           "en-US": "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46"
         },
         "3BM26, 3BM32, 3BM42, 3BM46, 3B60": {
