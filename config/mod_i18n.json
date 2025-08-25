@@ -507,6 +507,248 @@
           "zh-CN": "使用 VOG-17M1 HEDP弹药",
           "en-US": "Use VOG-17M1 HEDP"
         }
+      },
+      "ConfigComments": {
+        "Replaces 3BK5M (improved ballistics, marginally better penetration)": {
+          "zh-CN": "替换3BK5M弹药（改进弹道性能，穿透力略有提升）",
+          "en-US": "Replaces 3BK5M (improved ballistics, marginally better penetration)"
+        },
+        "Replaces 3OF412; GLATGM, has its own sight with fixed 8x magnification": {
+          "zh-CN": "替换3OF412；炮射导弹，有固定8倍放大倍率的专用瞄准镜",
+          "en-US": "Replaces 3OF412; GLATGM, has its own sight with fixed 8x magnification"
+        },
+        "Less reticle blur, shake while on the move": {
+          "zh-CN": "减少移动时的准星模糊和晃动",
+          "en-US": "Less reticle blur, shake while on the move"
+        },
+        "Only gives range: user will need to set range manually": {
+          "zh-CN": "只提供距离：用户需要手动设置距离",
+          "en-US": "Only gives range: user will need to set range manually"
+        },
+        "Intercepts incoming projectiles; covers the frontal arc of the tank relative to where the turret is facing": {
+          "zh-CN": "拦截来袭弹药；覆盖相对于炮塔朝向的坦克正面弧形区域",
+          "en-US": "Intercepts incoming projectiles; covers the frontal arc of the tank relative to where the turret is facing"
+        },
+        "3BM15, 3BM22, 3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46, 3BM60": {
+          "zh-CN": "3BM15、3BM22、3BM32、3BM26（复合装甲优化）、3BM42（复合装甲优化）、3BM46、3BM60",
+          "en-US": "3BM15, 3BM22, 3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46, 3BM60"
+        },
+        "Replaces night vision sight with thermal sight": {
+          "zh-CN": "用热成像瞄准镜替换夜视瞄准镜",
+          "en-US": "Replaces night vision sight with thermal sight"
+        },
+        "Low, High": {
+          "zh-CN": "低、高",
+          "en-US": "Low, High"
+        },
+        "B           I           G           brick": {
+          "zh-CN": "大块反应装甲",
+          "en-US": "B           I           G           brick"
+        },
+        "BRICK ME UP LADS": {
+          "zh-CN": "给我装上砖块，兄弟们",
+          "en-US": "BRICK ME UP LADS"
+        },
+        "Allows you to specify which ammo racks should be emptied (except carousel)": {
+          "zh-CN": "允许指定清空哪些弹药架（自动装弹机除外）",
+          "en-US": "Allows you to specify which ammo racks should be emptied (except carousel)"
+        },
+        "Hull Wet, Hull Rear, Hull Front, Turret Spare": {
+          "zh-CN": "车体湿式、车体后部、车体前部、炮塔备用",
+          "en-US": "Hull Wet, Hull Rear, Hull Front, Turret Spare"
+        },
+        "Also renames the tank to T-72 and removes NVA decals": {
+          "zh-CN": "同时将坦克改名为T-72并移除东德军标志",
+          "en-US": "Also renames the tank to T-72 and removes NVA decals"
+        },
+        "Also renames the tank to T-72A and removes NVA decals": {
+          "zh-CN": "同时将坦克改名为T-72A并移除东德军标志",
+          "en-US": "Also renames the tank to T-72A and removes NVA decals"
+        },
+        "Sosna-U: point-n-shoot, thermal sight, autotracking": {
+          "zh-CN": "松纳-U：点射即中，热成像瞄准镜，自动跟踪",
+          "en-US": "Sosna-U: point-n-shoot, thermal sight, autotracking"
+        },
+        "vrrrrrrrrrrooooooooom": {
+          "zh-CN": "引擎轰鸣声",
+          "en-US": "vrrrrrrrrrrooooooooom"
+        },
+        "Replaces the coincidence rangefinder with a laser rangefinder": {
+          "zh-CN": "用激光测距仪替换重合测距仪",
+          "en-US": "Replaces the coincidence rangefinder with a laser rangefinder"
+        },
+        "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized)": {
+          "zh-CN": "3BM32、3BM26（复合装甲优化）、3BM42（复合装甲优化）",
+          "en-US": "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized)"
+        },
+        "Randomizes ammo selection for T-64As (3BM26, 3BM32, 3BM42), 3BM46": {
+          "zh-CN": "随机化T-64A的弹药选择（3BM26、3BM32、3BM42），3BM46",
+          "en-US": "Randomizes ammo selection for T-64As (3BM26, 3BM32, 3BM42), 3BM46"
+        },
+        "Press middle mouse to instantly switch between low and high magnification on the daysight": {
+          "zh-CN": "按鼠标中键在日间瞄准镜的低倍和高倍之间快速切换",
+          "en-US": "Press middle mouse to instantly switch between low and high magnification on the daysight"
+        },
+        "T-80U conversion (comes with rubber flaps, minor cosmetic changes to default day sight)": {
+          "zh-CN": "T-80U改装（带橡胶挡板，默认日间瞄准镜的小幅外观变化）",
+          "en-US": "T-80U conversion (comes with rubber flaps, minor cosmetic changes to default day sight)"
+        },
+        "Replaces PKT coax with AGS-17D 30mm grenade launcher": {
+          "zh-CN": "用AGS-17D 30毫米榴弹发射器替换PKT并列机枪",
+          "en-US": "Replaces PKT coax with AGS-17D 30mm grenade launcher"
+        },
+        "Fictional grenade for the AGS-17D. Behaves like a HEAT round": {
+          "zh-CN": "AGS-17D的虚构榴弹。表现类似破甲弹",
+          "en-US": "Fictional grenade for the AGS-17D. Behaves like a HEAT round"
+        },
+        "Replaces 3UBR6; has improved penetration and better ballistics": {
+          "zh-CN": "替换3UBR6；提升穿透力和弹道性能",
+          "en-US": "Replaces 3UBR6; has improved penetration and better ballistics"
+        },
+        "Mixed belt of 3UOR6 and 3UOF8 (1:2); 3UOF8 has more explosive filler but no tracer": {
+          "zh-CN": "3UOR6和3UOF8的混合弹链（1:2）；3UOF8有更多爆炸装药但无曳光",
+          "en-US": "Mixed belt of 3UOR6 and 3UOF8 (1:2); 3UOF8 has more explosive filler but no tracer"
+        },
+        "Fictional overfly-top-attack ATGM with dual warhead; aim above target": {
+          "zh-CN": "虚构的掠顶攻击反坦克导弹，双弹头；瞄准目标上方",
+          "en-US": "Fictional overfly-top-attack ATGM with dual warhead; aim above target"
+        },
+        "Quad 23mm autocannons with mixed BZT (API-T)/OFZ (HE) and APDS-T belts; laser rangefinder; single-axis stabilized automatic lead": {
+          "zh-CN": "四联装23毫米机炮，混合BZT（穿甲燃烧曳光）/OFZ（榴弹）和APDS-T弹链；激光测距仪；单轴稳定自动提前量",
+          "en-US": "Quad 23mm autocannons with mixed BZT (API-T)/OFZ (HE) and APDS-T belts; laser rangefinder; single-axis stabilized automatic lead"
+        },
+        "Integer; default: 30%": {
+          "zh-CN": "整数；默认：30%",
+          "en-US": "Integer; default: 30%"
+        },
+        "Drastically increases Kontakt-1's ability to stop AP rounds": {
+          "zh-CN": "大幅提升Kontakt-1阻挡穿甲弹的能力",
+          "en-US": "Drastically increases Kontakt-1's ability to stop AP rounds"
+        },
+        "Changes how Kontakt-1 handles collisions. FPS increase at the cost of jankier hit detection": {
+          "zh-CN": "改变Kontakt-1处理碰撞的方式。提升FPS但命中检测更不稳定",
+          "en-US": "Changes how Kontakt-1 handles collisions. FPS increase at the cost of jankier hit detection"
+        },
+        "Allow Drozd to intercept projectiles going faster than 700 m/s": {
+          "zh-CN": "允许Drozd拦截速度超过700米/秒的弹药",
+          "en-US": "Allow Drozd to intercept projectiles going faster than 700 m/s"
+        },
+        "Probability of Drozd detecting or successfully intercepting a projectile going 70-700 m/s": {
+          "zh-CN": "Drozd检测或成功拦截70-700米/秒弹药的概率",
+          "en-US": "Probability of Drozd detecting or successfully intercepting a projectile going 70-700 m/s"
+        },
+        "Probability of Drozd detecting or successfully intercepting a projectile going >700 m/s": {
+          "zh-CN": "Drozd检测或成功拦截>700米/秒弹药的概率",
+          "en-US": "Probability of Drozd detecting or successfully intercepting a projectile going >700 m/s"
+        },
+        "Minimum projectile caliber that Drozd can detect": {
+          "zh-CN": "Drozd能够检测的最小弹药口径",
+          "en-US": "Minimum projectile caliber that Drozd can detect"
+        },
+        "Default: 0.30": {
+          "zh-CN": "默认：0.30",
+          "en-US": "Default: 0.30"
+        },
+        "Default: 0.15": {
+          "zh-CN": "默认：0.15",
+          "en-US": "Default: 0.15"
+        },
+        "3BK14M, 3BK18M": {
+          "zh-CN": "3BK14M、3BK18M",
+          "en-US": "3BK14M, 3BK18M"
+        },
+        "BTR-60A conversion; has fixed 6x magnification day sight and passive night vision sight": {
+          "zh-CN": "BTR-60A改装；具有固定6倍放大日间瞄准镜和被动夜视瞄准镜",
+          "en-US": "BTR-60A conversion; has fixed 6x magnification day sight and passive night vision sight"
+        },
+        "Creates a box border around the sight": {
+          "zh-CN": "在瞄准镜周围创建边框",
+          "en-US": "Creates a box border around the sight"
+        },
+        "For use with the standard sight; displays a number that corresponds to the horizontal markings on the sight": {
+          "zh-CN": "配合标准瞄准镜使用；显示与瞄准镜水平刻度对应的数字",
+          "en-US": "For use with the standard sight; displays a number that corresponds to the horizontal markings on the sight"
+        },
+        "Adds kvartz composite cheeks to the turret of T-72Ms": {
+          "zh-CN": "为T-72M炮塔添加石英复合装甲侧板",
+          "en-US": "Adds kvartz composite cheeks to the turret of T-72Ms"
+        },
+        "For use with the standard sight; displays a number that corresponds to the horizontal markings on the sight (LRF required)": {
+          "zh-CN": "配合标准瞄准镜使用；显示与瞄准镜水平刻度对应的数字（需要激光测距仪）",
+          "en-US": "For use with the standard sight; displays a number that corresponds to the horizontal markings on the sight (LRF required)"
+        },
+        "Replaces 3BM20 (improved penetration)": {
+          "zh-CN": "替换3BM20（提升穿透力）",
+          "en-US": "Replaces 3BM20 (improved penetration)"
+        },
+        "GLATGM, has its own sight with fixed 8x magnification": {
+          "zh-CN": "炮射导弹，有固定8倍放大倍率的专用瞄准镜",
+          "en-US": "GLATGM, has its own sight with fixed 8x magnification"
+        },
+        "Replaces 3OF412 with BR-412D APHE-T": {
+          "zh-CN": "用BR-412D穿甲高爆曳光弹替换3OF412",
+          "en-US": "Replaces 3OF412 with BR-412D APHE-T"
+        },
+        "Replaces the night sight with the one found on the T-80B/T-64B": {
+          "zh-CN": "用T-80B/T-64B的夜视瞄准镜替换原有夜视瞄准镜",
+          "en-US": "Replaces the night sight with the one found on the T-80B/T-64B"
+        },
+        "Composite applique hull and turret cheek armour": {
+          "zh-CN": "复合装甲贴附车体和炮塔侧板装甲",
+          "en-US": "Composite applique hull and turret cheek armour"
+        },
+        "3BM22, 3BM26, 3BM32, 3BM42, 3BM46, 3BM60": {
+          "zh-CN": "3BM22、3BM26、3BM32、3BM42、3BM46、3BM60",
+          "en-US": "3BM22, 3BM26, 3BM32, 3BM42, 3BM46, 3BM60"
+        },
+        "None, 9M119, 9M119M1": {
+          "zh-CN": "无、9M119、9M119M1",
+          "en-US": "None, 9M119, 9M119M1"
+        },
+        "Adds slat armour to the turret rear and hull sides, Relikt ERA to the turret and hull sides (T-72B3 Exclusive)": {
+          "zh-CN": "为炮塔后部和车体侧面添加格栅装甲，为炮塔和车体侧面添加Relikt反应装甲（T-72B3专用）",
+          "en-US": "Adds slat armour to the turret rear and hull sides, Relikt ERA to the turret and hull sides (T-72B3 Exclusive)"
+        },
+        "ultra thick": {
+          "zh-CN": "超厚",
+          "en-US": "ultra thick"
+        },
+        "3BM26, 3BM32, 3BM42, 3BM46": {
+          "zh-CN": "3BM26、3BM32、3BM42、3BM46",
+          "en-US": "3BM26, 3BM32, 3BM42, 3BM46"
+        },
+        "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46": {
+          "zh-CN": "3BM32、3BM26（复合装甲优化）、3BM42（复合装甲优化）、3BM46",
+          "en-US": "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46"
+        },
+        "3BM26, 3BM32, 3BM42, 3BM46, 3B60": {
+          "zh-CN": "3BM26、3BM32、3BM42、3BM46、3BM60",
+          "en-US": "3BM26, 3BM32, 3BM42, 3BM46, 3B60"
+        },
+        "9M112M, 9M119, 9M119M1": {
+          "zh-CN": "9M112M、9M119、9M119M1",
+          "en-US": "9M112M, 9M119, 9M119M1"
+        },
+        "bricks": {
+          "zh-CN": "砖块",
+          "en-US": "bricks"
+        },
+        "thicker, more effective turret composite array": {
+          "zh-CN": "更厚、更有效的炮塔复合装甲阵列",
+          "en-US": "thicker, more effective turret composite array"
+        },
+        "4x ready-to-fire missiles w/ 1 reload; stabilized launchers; 40 second reload time": {
+          "zh-CN": "4枚待发导弹，1次重装；稳定发射器；40秒重装时间",
+          "en-US": "4x ready-to-fire missiles w/ 1 reload; stabilized launchers; 40 second reload time"
+        },
+        "Point-n-shoot; automatic lead": {
+          "zh-CN": "点射即中；自动提前量",
+          "en-US": "Point-n-shoot; automatic lead"
+        },
+        "Increases effectiveness of the composite blocks inside the BDD applique armour against AP and HEAT rounds": {
+          "zh-CN": "提高BDD贴附装甲内复合块对穿甲弹和破甲弹的防护效果",
+          "en-US": "Increases effectiveness of the composite blocks inside the BDD applique armour against AP and HEAT rounds"
+        }
       }
     },
     "M1A1": {
@@ -660,6 +902,100 @@
           "zh-CN": "使用 Mk 211 Mod 0 高爆弹",
           "en-US": "Use Mk 211 Mod 0"
         }
+      },
+      "ConfigComments": {
+      "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round.": {
+        "zh-CN": "每辆M1A1应携带多少发M829（尾翼稳定脱壳穿甲弹）、M830（破甲弹）。总计最多40发。至少携带一发M829。",
+        "en-US": "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round."
+      },
+      "Customize which rounds M1A1s/M1E1s use": {
+        "zh-CN": "自定义M1A1/M1E1使用的弹药类型",
+        "en-US": "Customize which rounds M1A1s/M1E1s use"
+      },
+      "M827, M829, M829A1, M829A2, M829A3": {
+        "zh-CN": "M827、M829、M829A1、M829A2、M829A3",
+        "en-US": "M827, M829, M829A1, M829A2, M829A3"
+      },
+      "M830, M830A1 (has proximity fuse that can be toggled using middle mouse)": {
+        "zh-CN": "M830、M830A1（具有可用鼠标中键切换的近炸引信）",
+        "en-US": "M830, M830A1 (has proximity fuse that can be toggled using middle mouse)"
+      },
+      "Horizontal stabilization of M1A1 sights when applying lead.": {
+        "zh-CN": "应用提前量时M1A1瞄准镜的水平稳定。",
+        "en-US": "Horizontal stabilization of M1A1 sights when applying lead."
+      },
+      "Additional zoom levels for thermals.": {
+        "zh-CN": "热成像的额外放大倍率。",
+        "en-US": "Additional zoom levels for thermals."
+      },
+      "Digitally enhanced zoom levels will not increase the size of the reticle.": {
+        "zh-CN": "数字增强放大倍率不会增加准星大小。",
+        "en-US": "Digitally enhanced zoom levels will not increase the size of the reticle."
+      },
+      "Replaces commander's NVGs with variable-zoom thermals.": {
+        "zh-CN": "用可变放大热成像替换车长夜视镜。",
+        "en-US": "Replaces commander's NVGs with variable-zoom thermals."
+      },
+      "Basically lets you point-n-shoot with the CITV.": {
+        "zh-CN": "基本上让你可以用CITV点射即中。",
+        "en-US": "Basically lets you point-n-shoot with the CITV."
+      },
+      "Makes CITV feel more like a camera.": {
+        "zh-CN": "让CITV操作感更像摄像头。",
+        "en-US": "Makes CITV feel more like a camera."
+      },
+      "[Requires CITV to be enabled] Gives the gunner's sight FLIR the same colour palette as the CITV.": {
+        "zh-CN": "【需要启用CITV】给炮手瞄准镜FLIR与CITV相同的色彩。",
+        "en-US": "[Requires CITV to be enabled] Gives the gunner's sight FLIR the same colour palette as the CITV."
+      },
+      "DU inserts for the composite turret cheeks: increased KE protection. M1A1 exclusive. Increased weight.": {
+        "zh-CN": "炮塔复合装甲侧板的贫铀插件：提升动能防护。M1A1专用。增加重量。",
+        "en-US": "DU inserts for the composite turret cheeks: increased KE protection. M1A1 exclusive. Increased weight."
+      },
+      "Higher generation = more KE protection (1-3, integer)": {
+        "zh-CN": "更高代数 = 更强动能防护（1-3，整数）",
+        "en-US": "Higher generation = more KE protection (1-3, integer)"
+      },
+      "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals.": {
+        "zh-CN": "装备.50口径M2HB的遥控武器系统；400发弹药，自动提前量，热成像。",
+        "en-US": "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals."
+      },
+      "Moves the CROWS to the right side of the commander instead of directly in front.": {
+        "zh-CN": "将CROWS移到车长右侧而不是正前方。",
+        "en-US": "Moves the CROWS to the right side of the commander instead of directly in front."
+      },
+      "Loads the CROWS M2HB with high explosive rounds.": {
+        "zh-CN": "为CROWS M2HB装载高爆弹药。",
+        "en-US": "Loads the CROWS M2HB with high explosive rounds."
+      },
+      "Less blurry thermals for the gunner.": {
+        "zh-CN": "炮手热成像更清晰。",
+        "en-US": "Less blurry thermals for the gunner."
+      },
+      "Convert M1s to M1E1s (i.e: they get the 120mm gun).": {
+        "zh-CN": "将M1转换为M1E1（即：获得120毫米炮）。",
+        "en-US": "Convert M1s to M1E1s (i.e: they get the 120mm gun)."
+      },
+      "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s.": {
+        "zh-CN": "M1IP/M1有随机概率被转换为M1A1/M1E1。",
+        "en-US": "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s."
+      },
+      "Horizontal stabilization of sights when applying lead.": {
+        "zh-CN": "应用提前量时瞄准镜的水平稳定。",
+        "en-US": "Horizontal stabilization of sights when applying lead."
+      },
+      "Settings for the gunner's thermals": {
+        "zh-CN": "炮手热成像设置",
+        "en-US": "Settings for the gunner's thermals"
+      },
+      "Higher generation = higher resolution (1-3, integer)": {
+        "zh-CN": "更高代数 = 更高分辨率（1-3，整数）",
+        "en-US": "Higher generation = higher resolution (1-3, integer)"
+      },
+      "Convert all M1E1s to M1A1s (will still use M1E1 settings)": {
+        "zh-CN": "将所有M1E1转换为M1A1（仍使用M1E1设置）",
+        "en-US": "Convert all M1E1s to M1A1s (will still use M1E1 settings)"
+      }
       }
     }
   }
