@@ -554,7 +554,7 @@
           "en-US": "Allows you to specify which ammo racks should be emptied (except carousel)"
         },
         "Hull Wet, Hull Rear, Hull Front, Turret Spare": {
-          "zh-CN": "车体湿式、车体后部、车体前部、炮塔备用",
+          "zh-CN": "Hull Wet（车体湿式）、Hull Rear（车体后部）、Hull Front（车体前部）、Turret Spare（炮塔备用） [填写对应英文即可]",
           "en-US": "Hull Wet, Hull Rear, Hull Front, Turret Spare"
         },
         "Also renames the tank to T-72 and removes NVA decals": {
@@ -566,11 +566,11 @@
           "en-US": "Also renames the tank to T-72A and removes NVA decals"
         },
         "Sosna-U: point-n-shoot, thermal sight, autotracking": {
-          "zh-CN": "松树-U：点射即中，热成像瞄准镜，自动跟踪",
+          "zh-CN": "松树-U：即瞄即打，热成像瞄准镜，自动跟踪",
           "en-US": "Sosna-U: point-n-shoot, thermal sight, autotracking"
         },
         "vrrrrrrrrrrooooooooom": {
-          "zh-CN": "引擎轰鸣声",
+          "zh-CN": "乌拉~~~~~~",
           "en-US": "vrrrrrrrrrrooooooooom"
         },
         "Replaces the coincidence rangefinder with a laser rangefinder": {
@@ -858,7 +858,7 @@
           "zh-CN": "升级为 M1E1",
           "en-US": "M1E1"
         },
-        "M1E1 -&gt; M1A1": {
+        "M1E1 -> M1A1": {
           "zh-CN": "M1E1 升级为 M1A1",
           "en-US": "M1E1 -> M1A1"
         },
@@ -937,7 +937,7 @@
         "en-US": "Replaces commander's NVGs with variable-zoom thermals."
       },
       "Basically lets you point-n-shoot with the CITV.": {
-        "zh-CN": "基本上让你可以用CITV点射即中。",
+        "zh-CN": "基本上让你可以用CITV即瞄即打。",
         "en-US": "Basically lets you point-n-shoot with the CITV."
       },
       "Makes CITV feel more like a camera.": {
@@ -991,6 +991,10 @@
       "Higher generation = higher resolution (1-3, integer)": {
         "zh-CN": "更高代数 = 更高分辨率（1-3，整数）",
         "en-US": "Higher generation = higher resolution (1-3, integer)"
+      },
+      "Doesn't apply to M1E1, only those converted to M1A1": {
+        "zh-CN": "不适用于M1E1，仅适用于转换为M1A1的坦克",
+        "en-US": "Doesn't apply to M1E1, only those converted to M1A1"
       },
       "Convert all M1E1s to M1A1s (will still use M1E1 settings)": {
         "zh-CN": "将所有M1E1转换为M1A1（仍使用M1E1设置）",
