@@ -702,7 +702,7 @@
           "en-US": "3BM22, 3BM26, 3BM32, 3BM42, 3BM46, 3BM60"
         },
         "None, 9M119, 9M119M1": {
-          "zh-CN": "无、9M119、9M119M1",
+          "zh-CN": "None（无，请填英文）、9M119、9M119M1",
           "en-US": "None, 9M119, 9M119M1"
         },
         "Adds slat armour to the turret rear and hull sides, Relikt ERA to the turret and hull sides (T-72B3 Exclusive)": {
@@ -742,7 +742,7 @@
           "en-US": "4x ready-to-fire missiles w/ 1 reload; stabilized launchers; 40 second reload time"
         },
         "Point-n-shoot; automatic lead": {
-          "zh-CN": "点射即中；自动提前量",
+          "zh-CN": "即瞄即打；自动提前量",
           "en-US": "Point-n-shoot; automatic lead"
         },
         "Increases effectiveness of the composite blocks inside the BDD applique armour against AP and HEAT rounds": {
