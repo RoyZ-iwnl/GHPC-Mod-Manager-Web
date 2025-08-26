@@ -3,78 +3,47 @@
     "PactIL": {
       "ModId": "PactIL",
       "ConfigLabels": {
-        "AP Round (T-72M)": {
-          "zh-CN": "穿甲弹 (T-72M)",
-          "en-US": "AP Round (T-72M)"
+        "AGS-17D Coax (BMP-1)": {
+          "zh-CN": "同轴AGS-17D榴弹发射器 (BMP-1)",
+          "en-US": "AGS-17D Coax (BMP-1)"
         },
-        "HEAT Round (T-72M)": {
-          "zh-CN": "破甲弹 (T-72M)",
-          "en-US": "HEAT Round (T-72M)"
-        },
-        "Enable Advanced Ballistics": {
-          "zh-CN": "启用高级弹道学",
-          "en-US": "Enable Advanced Ballistics"
+        "AGS-17D Coax (BMP-1P)": {
+          "zh-CN": "同轴AGS-17D榴弹发射器 (BMP-1P)",
+          "en-US": "AGS-17D Coax (BMP-1P)"
         }
       },
-      "ConfigDescriptions": {
-        "AP Round (T-72M)": {
-          "zh-CN": "T-72M坦克使用的穿甲弹类型",
-          "en-US": "Type of armor-piercing round used by T-72M tank"
+      "ConfigComments": {
+        "Replaces 3BK5M (improved ballistics, marginally better penetration)": {
+          "zh-CN": "替换3BK5M弹药（改进弹道性能，穿透力略有提升）",
+          "en-US": "Replaces 3BK5M (improved ballistics, marginally better penetration)"
         },
-        "HEAT Round (T-72M)": {
-          "zh-CN": "T-72M坦克使用的破甲弹类型",
-          "en-US": "Type of HEAT round used by T-72M tank"
-        },
-        "Enable Advanced Ballistics": {
-          "zh-CN": "启用更真实的弹道计算模式",
-          "en-US": "Enable more realistic ballistic calculation mode"
+        "Replaces 3OF412; GLATGM, has its own sight with fixed 8x magnification": {
+          "zh-CN": "替换3OF412；炮射导弹，有固定8倍放大倍率的专用瞄准镜",
+          "en-US": "Replaces 3OF412; GLATGM, has its own sight with fixed 8x magnification"
         }
-      },
-      "ConfigChoices": {
-        "AP Round (T-72M)": [
-          "3BM15",
-          "3BM22", 
-          "3BM32",
-          "3BM26",
-          "3BM42",
-          "3BM46",
-          "3BM60"
-        ]
       }
     },
     "M1A1": {
       "ModId": "M1A1",
       "ConfigLabels": {
-        "Armor Package": {
-          "zh-CN": "装甲套件",
-          "en-US": "Armor Package"
+        "2nd Generation Thermals (M1A1)": {
+          "zh-CN": "第二代热成像仪 (M1A1)",
+          "en-US": "2nd Generation Thermals (M1A1)"
         },
-        "FCS Version": {
-          "zh-CN": "火控系统版本",
-          "en-US": "FCS Version"
+        "2nd Generation Thermals (M1E1)": {
+          "zh-CN": "第二代热成像仪 (M1E1)",
+          "en-US": "2nd Generation Thermals (M1E1)"
         }
       },
-      "ConfigDescriptions": {
-        "Armor Package": {
-          "zh-CN": "选择M1A1的装甲配置方案",
-          "en-US": "Select M1A1 armor configuration scheme"
-        },
-        "FCS Version": {
-          "zh-CN": "选择火控系统的版本",
-          "en-US": "Select fire control system version"
-        }
+      "ConfigComments": {
+      "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round.": {
+        "zh-CN": "每辆M1A1应携带多少发M829（尾翼稳定脱壳穿甲弹）、M830（破甲弹）。总计最多40发。至少携带一发M829。",
+        "en-US": "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round."
       },
-      "ConfigChoices": {
-        "Armor Package": [
-          "Standard",
-          "Heavy",
-          "Urban"
-        ],
-        "FCS Version": [
-          "A1",
-          "A1+",
-          "A1D"
-        ]
+      "Customize which rounds M1A1s/M1E1s use": {
+        "zh-CN": "自定义M1A1/M1E1使用的弹药类型",
+        "en-US": "Customize which rounds M1A1s/M1E1s use"
+      }
       }
     }
   }

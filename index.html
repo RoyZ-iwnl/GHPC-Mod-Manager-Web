@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GHPC Mod Manager - 专业的Gunner HEAT PC模组管理工具</title>
+    <title>GHPC Mod Manager - Gunner HEAT PC模组管理工具</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Language Toggle -->
+    <div class="lang-toggle">
+        <button id="langToggle" class="lang-btn" aria-label="Switch Language">
+            <span class="lang-text">EN</span>
+        </button>
+    </div>
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-background"></div>
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">GHPC Mod Manager</h1>
-                <p class="hero-subtitle">Gunner HEAT PC！模组管理工具</p>
-                <p class="hero-description">简化模组安装，让您专注于游戏体验</p>
-                <a href="https://github.com/RoyZ-iwnl/GHPC-Mod-Manager/release" target="_blank" class="btn btn--primary btn--hero">
-                    立即下载
+                <p class="hero-subtitle" data-zh="Gunner HEAT PC 模组管理工具" data-en="Mod Management for Gunner HEAT PC">Gunner HEAT PC 模组管理工具</p>
+                <p class="hero-description" data-zh="支持多线程下载、一键安装翻译插件，让您专注于游戏体验" data-en="Multi-threaded downloads, one-click translation plugin installation for enhanced gaming experience">支持多线程下载、一键安装翻译插件，让您专注于游戏体验</p>
+                <!-- Interface Screenshot Placeholder -->
+                <div class="interface-preview">
+                    <img src="interface-screenshot.png" alt="GHPC Mod Manager Interface" class="interface-img" data-zh-alt="GHPC 模组管理器界面" data-en-alt="GHPC Mod Manager Interface">
+                </div>
+                <a href="https://github.com/RoyZ-iwnl/GHPC-Mod-Manager/releases" target="_blank" class="btn btn--primary btn--hero">
+                    <span data-zh="立即下载" data-en="Download Now">立即下载</span>
                 </a>
             </div>
         </div>
@@ -25,23 +35,51 @@
     <!-- Features Section -->
     <section class="features">
         <div class="container">
-            <h2 class="section-title">核心功能</h2>
+            <h2 class="section-title" data-zh="核心功能" data-en="Core Features">核心功能</h2>
             <div class="features-grid">
                 <div class="feature-card" data-feature="install">
-                    <div class="feature-icon">⚡</div>
-                    <h3 class="feature-title">一键安装</h3>
-                    <p class="feature-description">快速安装MelonLoader和各类模组</p>
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title" data-zh="多线程下载" data-en="Multi-threaded Downloads">多线程下载</h3>
+                    <p class="feature-description" data-zh="并发下载技术，大幅提升模组下载速度" data-en="Concurrent download technology for significantly faster mod downloads">并发下载技术，大幅提升模组下载速度</p>
                 </div>
-                <div class="feature-card" data-feature="config">
+                <div class="feature-card" data-feature="translation">
+                    <div class="feature-icon">🌍</div>
+                    <h3 class="feature-title" data-zh="一键翻译插件" data-en="One-Click Translation Plugin">一键翻译插件</h3>
+                    <p class="feature-description" data-zh="内置XUnityAutoTranslator，一键安装多语言支持" data-en="Built-in XUnityAutoTranslator with one-click multi-language support">内置XUnityAutoTranslator，一键安装多语言支持</p>
+                </div>
+                <div class="feature-card" data-feature="management">
                     <div class="feature-icon">⚙️</div>
-                    <h3 class="feature-title">配置管理</h3>
-                    <p class="feature-description">直观的模组配置界面</p>
+                    <h3 class="feature-title" data-zh="智能管理" data-en="Smart Management">智能管理</h3>
+                    <p class="feature-description" data-zh="MelonLoader集成、配置管理一体化" data-en="Integrated MelonLoader, and configuration management">MelonLoader集成、配置管理一体化</p>
                 </div>
-                <div class="feature-card" data-feature="version">
-                    <div class="feature-icon">📊</div>
-                    <h3 class="feature-title">版本控制</h3>
-                    <p class="feature-description">支持模组版本更新检查</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supported Mods Section -->
+    <section class="supported-mods">
+        <div class="container">
+            <h2 class="section-title" data-zh="支持的模组列表" data-en="Supported Mods">支持的模组列表</h2>
+            <div class="mods-grid">
+                <div class="mod-card">
+                    <div class="mod-icon">🎯</div>
+                    <h3 class="mod-title" data-zh="华约增强模组" data-en="Pact Increased Lethality">华约增强模组</h3>
+                    <p class="mod-description" data-zh="增强华约阵营装备性能，提升战斗体验" data-en="Enhances Warsaw Pact equipment performance for improved combat experience">增强华约阵营装备性能，提升战斗体验</p>
+                    <a href="https://github.com/thebeninator/Pact-Increased-Lethality" target="_blank" class="btn btn--outline btn--sm mod-link">
+                        <span data-zh="查看模组" data-en="View Mod">查看模组</span>
+                    </a>
                 </div>
+                <div class="mod-card">
+                    <div class="mod-icon">🚗</div>
+                    <h3 class="mod-title" data-zh="M1A1艾布拉姆斯" data-en="M1A1 Abrams">M1A1艾布拉姆斯</h3>
+                    <p class="mod-description" data-zh="M1A1主战坦克模组" data-en="M1A1 main battle tank mod">M1A1主战坦克模组</p>
+                    <a href="https://github.com/thebeninator/M1A1Abrams" target="_blank" class="btn btn--outline btn--sm mod-link">
+                        <span data-zh="查看模组" data-en="View Mod">查看模组</span>
+                    </a>
+                </div>
+            </div>
+            <div class="more-mods-notice">
+                <p class="notice-text" data-zh="更多MOD适配中..." data-en="More MOD adaptations coming...">更多MOD适配中...</p>
             </div>
         </div>
     </section>
@@ -50,14 +88,9 @@
     <section class="about">
         <div class="container">
             <div class="about-content">
-                <h2 class="section-title">关于GHPC Mod Manager</h2>
-                <p class="about-text">
-                    GHPC Mod Manager旨在简化模组管理流程，让您能够轻松安装、配置和管理各种游戏模组，
-                    提升您的游戏体验。
-                </p>
-                <p class="about-text">
-                    无论您是新手还是资深玩家，我们的工具都能帮助您快速上手，享受丰富的模组内容。
-                </p>
+                <h2 class="section-title" data-zh="关于GHPC Mod Manager" data-en="About GHPC Mod Manager">关于GHPC Mod Manager</h2>
+                <p class="about-text" data-zh="GHPC Mod Manager 是专为 Gunner HEAT PC 设计的现代化模组管理工具，采用 .NET 8.0 和 Material Design 3 构建，提供直观的用户界面和强大的功能。" data-en="GHPC Mod Manager is a modern mod management tool designed specifically for Gunner HEAT PC, built with .NET 8.0 and Material Design 3, offering an intuitive user interface and powerful features.">GHPC Mod Manager 是专为 Gunner HEAT PC 设计的现代化模组管理工具，采用 .NET 8.0 和 Material Design 3 构建，提供直观的用户界面和强大的功能。</p>
+                <p class="about-text" data-zh="支持多线程下载加速、自动检测游戏进程、内置翻译系统管理，以及完整的模组生命周期管理。" data-en="Features multi-threaded download acceleration, automatic game process detection, built-in translation system management, and complete mod lifecycle management. ">支持多线程下载加速、自动检测游戏进程、内置翻译系统管理，以及完整的模组生命周期管理。</p>
             </div>
         </div>
     </section>
@@ -66,9 +99,10 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p class="footer-text">By:DrakeX_ (AKA RoyZ)</p>
+                <p class="footer-text">By: DrakeX_ (AKA RoyZ)</p>
                 <div class="footer-links">
                     <a href="https://space.bilibili.com/3493285595187364" target="_blank" class="footer-link">Bilibili</a>
+                    <a href="https://github.com/RoyZ-iwnl/GHPC-Mod-Manager" target="_blank" class="footer-link">GitHub</a>
                 </div>
             </div>
         </div>

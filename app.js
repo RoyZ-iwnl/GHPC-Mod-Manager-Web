@@ -1,11 +1,61 @@
 // GHPC Mod Manager Website JavaScript
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize all functionality
+    initLanguageToggle();
     initScrollAnimations();
     initFeatureCardInteractions();
     initSmoothScrolling();
     initHeroAnimations();
 });
+
+// Language Toggle Functionality
+function initLanguageToggle() {
+    const langToggle = document.getElementById('langToggle');
+    const langText = document.querySelector('.lang-text');
+    let currentLang = 'zh'; // Default to Chinese
+    
+    // Set initial language
+    updateLanguage(currentLang);
+    
+    langToggle.addEventListener('click', function() {
+        currentLang = currentLang === 'zh' ? 'en' : 'zh';
+        updateLanguage(currentLang);
+        langText.textContent = currentLang === 'zh' ? 'EN' : '中文';
+    });
+}
+
+function updateLanguage(lang) {
+    const elements = document.querySelectorAll('[data-zh], [data-en]');
+    const htmlTag = document.documentElement;
+    
+    elements.forEach(element => {
+        if (lang === 'zh' && element.dataset.zh) {
+            element.textContent = element.dataset.zh;
+        } else if (lang === 'en' && element.dataset.en) {
+            element.textContent = element.dataset.en;
+        }
+    });
+    
+    // Update alt text for images
+    const images = document.querySelectorAll('[data-zh-alt], [data-en-alt]');
+    images.forEach(img => {
+        if (lang === 'zh' && img.dataset.zhAlt) {
+            img.alt = img.dataset.zhAlt;
+        } else if (lang === 'en' && img.dataset.enAlt) {
+            img.alt = img.dataset.enAlt;
+        }
+    });
+    
+    // Update html lang attribute
+    htmlTag.lang = lang === 'zh' ? 'zh-CN' : 'en-US';
+    
+    // Update document title
+    if (lang === 'zh') {
+        document.title = 'GHPC Mod Manager - 专业的Gunner HEAT PC模组管理工具';
+    } else {
+        document.title = 'GHPC Mod Manager - Professional Mod Management for Gunner HEAT PC';
+    }
+}
 
 // Smooth scrolling for anchor links
 function initSmoothScrolling() {
@@ -41,9 +91,11 @@ function initScrollAnimations() {
         rootMargin: '0px 0px -50px 0px'
     });
 
-    // Observe feature cards
+    // Observe feature cards and mod cards
     const featureCards = document.querySelectorAll('.feature-card');
-    featureCards.forEach(card => {
+    const modCards = document.querySelectorAll('.mod-card');
+    
+    [...featureCards, ...modCards].forEach(card => {
         card.classList.add('fade-in-up');
         observer.observe(card);
     });
