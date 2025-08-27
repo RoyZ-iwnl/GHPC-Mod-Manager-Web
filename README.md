@@ -14,8 +14,12 @@ This is the official website repository for **GHPC Mod Manager** - a modern mod 
 Currently supported mods that can be managed through GHPC Mod Manager:
 
 ### Active Mods
-- **[Pact Increased Lethality](https://github.com/thebeninator/Pact-Increased-Lethality)** - Enhances Warsaw Pact equipment performance for improved combat experience
-- **[M1A1 Abrams](https://github.com/thebeninator/M1A1Abrams)** - M1A1 main battle tank mod adding new vehicles and equipment
+- **[Pact Increased Lethality](https://github.com/thebeninator/Pact-Increased-Lethality)**
+- **[M1A1 Abrams](https://github.com/thebeninator/M1A1Abrams)**
+- **[M1A1 Abrams AMP](https://github.com/Cyances/M1A1AbramsAMP)**
+- **[M6A2 ADATS](https://github.com/Cyances/M6A2-ADATS)**
+- **[NATO ERA](https://github.com/Cyances/NATO-ERA)**
+- **[Any Tank Any Campaign](https://github.com/Cyances/Any-Tank-Any-Campaign)**
 
 ### More MOD adaptations coming...
 
@@ -44,7 +48,9 @@ The mod configurations are stored in JSON files located in different directories
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "YourMod.dll",
     "ConfigSectionName": "YourModConfig",
-    "InstallMethod": "DirectRelease" // or "Scripted"
+    "InstallMethod": "DirectRelease", // or "Scripted"
+    "Requirements": ["BaseModId", "CoreLibraryId"],
+    "Conflicts": ["IncompatibleMod1Id", "IncompatibleMod2Id"]
   }
 ]
 ```

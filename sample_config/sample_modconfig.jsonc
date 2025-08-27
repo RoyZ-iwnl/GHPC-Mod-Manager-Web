@@ -78,5 +78,19 @@
 
       echo 安装完成
     */
+  },
+  {
+    "Id": "SomeComplexMod",
+    "Name": {
+      "en-US": "Complex Mod",
+      "zh-CN": "复杂MOD"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/example/ComplexMod/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "ComplexMod.dll",
+    "ConfigSectionName": "ComplexModConfig",
+    "InstallMethod": "DirectRelease",
+    "Requirements": ["BaseMod", "CoreLibrary"],
+    "Conflicts": ["IncompatibleMod1", "IncompatibleMod2"]
   }
 ]

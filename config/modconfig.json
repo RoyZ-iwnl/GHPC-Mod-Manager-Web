@@ -21,6 +21,56 @@
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "M1A1Abrams.dll",
     "ConfigSectionName": "M1A1Config",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": ["M1A1AMP"]
+  },
+  {
+    "Id": "M1A1AMP",
+    "Name": {
+      "en-US": "M1A1 Abrams AMP",
+      "zh-CN": "M1A1艾布拉姆斯AMP"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/Cyances/M1A1AbramsAMP/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "zzM1A1AbramsAMP.dll",
+    "ConfigSectionName": "M1A1AMPConfig",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": ["M1A1"]
+  },
+  {
+    "Id": "M6A2",
+    "Name": {
+      "en-US": "M6A2 ADATS",
+      "zh-CN": "M6A2超级布雷德利"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/Cyances/M6A2-ADATS/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "zM6A2Adats.dll",
+    "ConfigSectionName": "ADATSConfig",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "NATOERA",
+    "Name": {
+      "en-US": "NATO ERA",
+      "zh-CN": "北约爆反"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/Cyances/NATO-ERA/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "1NatoERA.dll",
+    "ConfigSectionName": "NATOERAConfig",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "ATAC",
+    "Name": {
+      "en-US": "Any Tank Any Campaign",
+      "zh-CN": "自定义战役坦克"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/Cyances/Any-Tank-Any-Campaign/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "ATAC.dll",
+    "ConfigSectionName": "\"ATAC Config\"",
     "InstallMethod": "DirectRelease"
   }
 ]

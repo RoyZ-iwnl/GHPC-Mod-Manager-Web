@@ -1001,6 +1001,1298 @@
         "en-US": "Convert all M1E1s to M1A1s (will still use M1E1 settings)"
       }
       }
+    },
+    "M1A1AMP": {
+      "ModId": "M1A1AMP",
+      "ConfigLabels": {
+        "M1A1 1st Round Type": {
+          "zh-CN": "M1A1 第1种弹种",
+          "en-US": "M1A1 1st Round Type"
+        },
+        "M1A1 2nd Round Type": {
+          "zh-CN": "M1A1 第2种弹种",
+          "en-US": "M1A1 2nd Round Type"
+        },
+        "M1A1 3rd Round Type": {
+          "zh-CN": "M1A1 第3种弹种",
+          "en-US": "M1A1 3rd Round Type"
+        },
+        "M1A1 4th Round Type": {
+          "zh-CN": "M1A1 第4种弹种",
+          "en-US": "M1A1 4th Round Type"
+        },
+        "M1A1 1st Round Count": {
+          "zh-CN": "M1A1 第1种弹药数量",
+          "en-US": "M1A1 1st Round Count"
+        },
+        "M1A1 2nd Round Count": {
+          "zh-CN": "M1A1 第2种弹药数量",
+          "en-US": "M1A1 2nd Round Count"
+        },
+        "M1A1 3rd Round Count": {
+          "zh-CN": "M1A1 第3种弹药数量",
+          "en-US": "M1A1 3rd Round Count"
+        },
+        "M1A1 4th Round Count": {
+          "zh-CN": "M1A1 第4种弹药数量",
+          "en-US": "M1A1 4th Round Count"
+        },
+        "M1E1 1st Round Type": {
+          "zh-CN": "M1E1 第1种弹种",
+          "en-US": "M1E1 1st Round Type"
+        },
+        "M1E1 2nd Round Type": {
+          "zh-CN": "M1E1 第2种弹种",
+          "en-US": "M1E1 2nd Round Type"
+        },
+        "M1E1 3rd Round Type": {
+          "zh-CN": "M1E1 第3种弹种",
+          "en-US": "M1E1 3rd Round Type"
+        },
+        "M1E1 4th Round Type": {
+          "zh-CN": "M1E1 第4种弹种",
+          "en-US": "M1E1 4th Round Type"
+        },
+        "M1E1 1st Round Count": {
+          "zh-CN": "M1E1 第1种弹药数量",
+          "en-US": "M1E1 1st Round Count"
+        },
+        "M1E1 2nd Round Count": {
+          "zh-CN": "M1E1 第2种弹药数量",
+          "en-US": "M1E1 2nd Round Count"
+        },
+        "M1E1 3rd Round Count": {
+          "zh-CN": "M1E1 第3种弹药数量",
+          "en-US": "M1E1 3rd Round Count"
+        },
+        "M1E1 4th Round Count": {
+          "zh-CN": "M1E1 第4种弹药数量",
+          "en-US": "M1E1 4th Round Count"
+        },
+        "M1A1 Gunner": {
+          "zh-CN": "M1A1 炮手",
+          "en-US": "M1A1 Gunner"
+        },
+        "M1E1 Gunner": {
+          "zh-CN": "M1E1 炮手",
+          "en-US": "M1E1 Gunner"
+        },
+        "M1A1 Loader": {
+          "zh-CN": "M1A1 装填手",
+          "en-US": "M1A1 Loader"
+        },
+        "M1E1 Loader": {
+          "zh-CN": "M1E1 装填手",
+          "en-US": "M1E1 Loader"
+        },
+        "M1A1 Commander": {
+          "zh-CN": "M1A1 车长",
+          "en-US": "M1A1 Commander"
+        },
+        "M1E1 Commander": {
+          "zh-CN": "M1E1 车长",
+          "en-US": "M1E1 Commander"
+        },
+        "M2 Coax": {
+          "zh-CN": "M2 并列机枪",
+          "en-US": "M2 Coax"
+        },
+        "M2 SLAP": {
+          "zh-CN": "M2 SLAP 弹",
+          "en-US": "M2 SLAP"
+        },
+        "M829 Spall+": {
+          "zh-CN": "M829 破片效应+",
+          "en-US": "M829 Spall+"
+        },
+        "M829SB": {
+          "zh-CN": "M829（SB 穿深）",
+          "en-US": "M829SB"
+        },
+        "AMP Fragments": {
+          "zh-CN": "AMP 破片数量",
+          "en-US": "AMP Fragments"
+        },
+        "MPAT Fragments": {
+          "zh-CN": "MPAT 破片数量",
+          "en-US": "MPAT Fragments"
+        },
+        "HEOR Fragments": {
+          "zh-CN": "HEOR 破片数量",
+          "en-US": "HEOR Fragments"
+        },
+        "AMP Proxy Fuze": {
+          "zh-CN": "AMP 近炸引信",
+          "en-US": "AMP Proxy Fuze"
+        },
+        "ProxyDistance": {
+          "zh-CN": "近炸触发距离",
+          "en-US": "ProxyDistance"
+        },
+        "Daysight+": {
+          "zh-CN": "昼视+",
+          "en-US": "Daysight+"
+        },
+        "FLIR+": {
+          "zh-CN": "FLIR+（热像增强）",
+          "en-US": "FLIR+"
+        },
+        "GAS+": {
+          "zh-CN": "GAS+（辅助瞄具）",
+          "en-US": "GAS+"
+        },
+        "RotateAzimuth": {
+          "zh-CN": "旋转方位角",
+          "en-US": "RotateAzimuth"
+        },
+        "M1A1 CITV": {
+          "zh-CN": "M1A1 车长独立热像仪（CITV）",
+          "en-US": "M1A1 CITV"
+        },
+        "M1E1 CITV": {
+          "zh-CN": "M1E1 车长独立热像仪（CITV）",
+          "en-US": "M1E1 CITV"
+        },
+        "No Blur CITV": {
+          "zh-CN": "CITV 无模糊",
+          "en-US": "No Blur CITV"
+        },
+        "CITV Reticle": {
+          "zh-CN": "CITV 十字线",
+          "en-US": "CITV Reticle"
+        },
+        "Perfect CITV Override": {
+          "zh-CN": "CITV 完美超控",
+          "en-US": "Perfect CITV Override"
+        },
+        "Smooth CITV Panning": {
+          "zh-CN": "CITV 平滑转动",
+          "en-US": "Smooth CITV Panning"
+        },
+        "M1A1 CROWS": {
+          "zh-CN": "M1A1 CROWS 遥控武器站",
+          "en-US": "M1A1 CROWS"
+        },
+        "M1E1 CROWS": {
+          "zh-CN": "M1E1 CROWS 遥控武器站",
+          "en-US": "M1E1 CROWS"
+        },
+        "M1A1 CROWS Alt Pos": {
+          "zh-CN": "M1A1 CROWS 替代位置",
+          "en-US": "M1A1 CROWS Alt Pos"
+        },
+        "M1E1 CROWS Alt Pos": {
+          "zh-CN": "M1E1 CROWS 替代位置",
+          "en-US": "M1E1 CROWS Alt Pos"
+        },
+        "CROWS SLAP": {
+          "zh-CN": "CROWS 使用 SLAP-T",
+          "en-US": "CROWS SLAP"
+        },
+        "M1E1": {
+          "zh-CN": "M1E1",
+          "en-US": "M1E1"
+        },
+        "Random": {
+          "zh-CN": "随机",
+          "en-US": "Random"
+        },
+        "ConversionChance": {
+          "zh-CN": "转换概率",
+          "en-US": "ConversionChance"
+        },
+        "M1A1 Armor": {
+          "zh-CN": "M1A1 装甲",
+          "en-US": "M1A1 Armor"
+        },
+        "M1E1 Armor": {
+          "zh-CN": "M1E1 装甲",
+          "en-US": "M1E1 Armor"
+        },
+        "UAP": {
+          "zh-CN": "UAP 装甲包",
+          "en-US": "UAP"
+        },
+        "Demigod Armor": {
+          "zh-CN": "近乎无敌装甲",
+          "en-US": "Demigod Armor"
+        },
+        "M1A1 Smoke+": {
+          "zh-CN": "M1A1 烟幕+",
+          "en-US": "M1A1 Smoke+"
+        },
+        "M1E1 Smoke+": {
+          "zh-CN": "M1E1 烟幕+",
+          "en-US": "M1E1 Smoke+"
+        },
+        "M1A1 ROSY": {
+          "zh-CN": "M1A1 ROSY 快速遮蔽系统",
+          "en-US": "M1A1 ROSY"
+        },
+        "M1E1 ROSY": {
+          "zh-CN": "M1E1 ROSY 快速遮蔽系统",
+          "en-US": "M1E1 ROSY"
+        },
+        "ROSY+": {
+          "zh-CN": "ROSY+",
+          "en-US": "ROSY+"
+        },
+        "Multispectral ROSY": {
+          "zh-CN": "多光谱 ROSY",
+          "en-US": "Multispectral ROSY"
+        },
+        "M1A1 Engine": {
+          "zh-CN": "M1A1 发动机",
+          "en-US": "M1A1 Engine"
+        },
+        "M1E1 Engine": {
+          "zh-CN": "M1E1 发动机",
+          "en-US": "M1E1 Engine"
+        },
+        "Transmission+": {
+          "zh-CN": "变速箱+",
+          "en-US": "Transmission+"
+        },
+        "GovernorDelete": {
+          "zh-CN": "删除调速器",
+          "en-US": "GovernorDelete"
+        },
+        "Suspension+": {
+          "zh-CN": "悬挂+",
+          "en-US": "Suspension+"
+        },
+        "Tracks+": {
+          "zh-CN": "履带+",
+          "en-US": "Tracks+"
+        },
+        "M1A1 APU": {
+          "zh-CN": "M1A1 辅助动力装置",
+          "en-US": "M1A1 APU"
+        },
+        "M1E1 APU": {
+          "zh-CN": "M1E1 辅助动力装置",
+          "en-US": "M1E1 APU"
+        },
+        "Traverse+": {
+          "zh-CN": "炮塔横向旋转+",
+          "en-US": "Traverse+"
+        },
+        "StabilityControl": {
+          "zh-CN": "稳定性控制",
+          "en-US": "StabilityControl"
+        },
+        "Clean Turret": {
+          "zh-CN": "清理炮塔外挂",
+          "en-US": "Clean Turret"
+        },
+        "M1E1 IP Model": {
+          "zh-CN": "M1E1 IP 模型",
+          "en-US": "M1E1 IP Model"
+        },
+        "M1A1 M256Model": {
+          "zh-CN": "M1A1 M256 炮模型",
+          "en-US": "M1A1 M256Model"
+        },
+        "M1E1 M256Model": {
+          "zh-CN": "M1E1 M256 炮模型",
+          "en-US": "M1E1 M256Model"
+        },
+        "M1A1 Camo Net": {
+          "zh-CN": "M1A1 伪装网",
+          "en-US": "M1A1 Camo Net"
+        },
+        "M1E1 Camo Net": {
+          "zh-CN": "M1E1 伪装网",
+          "en-US": "M1E1 Camo Net"
+        }
+      },
+      "ConfigComments": {
+        "Round types carried by M1A1: 'M829', 'M829A1', 'M829A2', 'M829A3', 'M829A4', 'M830', 'M830A1', 'M830A2', 'M830A3', 'M908', 'XM1147' or 'LAHAT'": {
+          "zh-CN": "M1A1 可携带的弹种：'M829'、'M829A1'、'M829A2'、'M829A3'、'M829A4'、'M830'、'M830A1'、'M830A2'、'M830A3'、'M908'、'XM1147' 或 'LAHAT'。",
+          "en-US": "Round types carried by M1A1: 'M829', 'M829A1', 'M829A2', 'M829A3', 'M829A4', 'M830', 'M830A1', 'M830A2', 'M830A3', 'M908', 'XM1147' or 'LAHAT'"
+        },
+        "How many rounds per type each M1A1 should carry. Maximum of 50 rounds total. Bring in at least one primary round.": {
+          "zh-CN": "设置每种弹药的携带数量；单车总数上限为 50 发；至少携带一种主战弹种。",
+          "en-US": "How many rounds per type each M1A1 should carry. Maximum of 50 rounds total. Bring in at least one primary round."
+        },
+        "Round types carried by M1E1: 'M829', 'M829A1', 'M829A2', 'M829A3', 'M829A4', 'M830', 'M830A1', 'M830A2', 'M830A3', 'M908', 'XM1147' or 'LAHAT'": {
+          "zh-CN": "M1E1 可携带的弹种：'M829'、'M829A1'、'M829A2'、'M829A3'、'M829A4'、'M830'、'M830A1'、'M830A2'、'M830A3'、'M908'、'XM1147' 或 'LAHAT'。",
+          "en-US": "Round types carried by M1E1: 'M829', 'M829A1', 'M829A2', 'M829A3', 'M829A4', 'M830', 'M830A1', 'M830A2', 'M830A3', 'M908', 'XM1147' or 'LAHAT'"
+        },
+        "How many rounds per type each M1E1 should carry. Maximum of 50 rounds total. Bring in at least one primary round.": {
+          "zh-CN": "设置每种弹药的携带数量；单车总数上限为 50 发；至少携带一种主战弹种。",
+          "en-US": "How many rounds per type each M1E1 should carry. Maximum of 50 rounds total. Bring in at least one primary round."
+        },
+        "Crew proficiency: Cadet, Regular, Veteran or Ace": {
+          "zh-CN": "乘员熟练度：Cadet(学员)、Regular(普通)、Veteran(老兵)或Ace(王牌)。[填写英文即可]",
+          "en-US": "Crew proficiency: Cadet, Regular, Veteran or Ace"
+        },
+        "Replaces M240 coaxial gun with M2.": {
+          "zh-CN": "将并列 M240 机枪替换为 M2 重机枪。",
+          "en-US": "Replaces M240 coaxial gun with M2."
+        },
+        "Use M962 SLAP-T for M2 coax.": {
+          "zh-CN": "并列 M2 机枪改用 M962 SLAP-T 弹。",
+          "en-US": "Use M962 SLAP-T for M2 coax."
+        },
+        "Enhanced spalling for all M829s.": {
+          "zh-CN": "增强所有 M829 系列的破片效应。",
+          "en-US": "Enhanced spalling for all M829s."
+        },
+        "Use Steel Beasts M829 penetration values": {
+          "zh-CN": "使用 Steel Beasts 的 M829 穿甲数据。",
+          "en-US": "Use Steel Beasts M829 penetration values"
+        },
+        "How many fragments are generated when the below round explodes. NOTE: Higher number, means higher performance hit. Be careful in using higher number.": {
+          "zh-CN": "设置下列弹药爆炸时生成的破片数量。注意：数值越高，对性能影响越大，请谨慎提高。",
+          "en-US": "How many fragments are generated when the below round explodes. NOTE: Higher number, means higher performance hit. Be careful in using higher number."
+        },
+        "Switch AMP fuze to proximity instead of time-delay.": {
+          "zh-CN": "将 AMP 引信由定时改为近炸。",
+          "en-US": "Switch AMP fuze to proximity instead of time-delay."
+        },
+        "Trigger distance of proximity fuze (in meters).": {
+          "zh-CN": "近炸引信的触发距离（米）。",
+          "en-US": "Trigger distance of proximity fuze (in meters)."
+        },
+        "More zoom levels/clearer image for gunner optics.": {
+          "zh-CN": "为炮手光学瞄具提供更多变焦档位/更清晰的成像。",
+          "en-US": "More zoom levels/clearer image for gunner optics."
+        },
+        "Horizontal stabilization of M1A1 sights when applying lead.": {
+          "zh-CN": "在计算超前量时保持 M1A1 瞄具的水平稳定。",
+          "en-US": "Horizontal stabilization of M1A1 sights when applying lead."
+        },
+        "Replaces commander's NVGs with variable-zoom thermals.": {
+          "zh-CN": "将车长夜视镜替换为可变倍热像仪。",
+          "en-US": "Replaces commander's NVGs with variable-zoom thermals."
+        },
+        "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals.": {
+          "zh-CN": "遥控武器站配备 12.7 毫米 M2HB；400 发供弹，自动超前，带热像。",
+          "en-US": "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals."
+        },
+        "Moves the CROWS to the right side of the commander instead of directly in front.": {
+          "zh-CN": "将 CROWS 从车长正前方移至其右侧。",
+          "en-US": "Moves the CROWS to the right side of the commander instead of directly in front."
+        },
+        "Use M962 SLAP-T for CROWS.": {
+          "zh-CN": "CROWS 改用 M962 SLAP-T 弹。",
+          "en-US": "Use M962 SLAP-T for CROWS."
+        },
+        "Convert M1s to M1E1s (i.e: they get the 120mm gun and enables armor upgrades).": {
+          "zh-CN": "将 M1 转换为 M1E1（获得 120 毫米炮并解锁装甲升级）。",
+          "en-US": "Convert M1s to M1E1s (i.e: they get the 120mm gun and enables armor upgrades)."
+        },
+        "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s.": {
+          "zh-CN": "M1IP/M1 将有几率随机转换为 M1A1/M1E1。",
+          "en-US": "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s."
+        },
+        "Armor used by M1A1 and M1E1: 'HA', 'HC', 'SA', 'HU', 'L' or blank for base M1/IP armor": {
+          "zh-CN": "M1A1 与 M1E1 使用的装甲：'HA'、'HC'、'SA'、'HU'、'L'；留空则为基础 M1/IP 装甲。",
+          "en-US": "Armor used by M1A1 and M1E1: 'HA', 'HC', 'SA', 'HU', 'L' or blank for base M1/IP armor"
+        },
+        "Unobtanium armor package for HU that gives it HA weight": {
+          "zh-CN": "HU 配置“难得素”装甲包，使其重量等同 HA。",
+          "en-US": "Unobtanium armor package for HU that gives it HA weight"
+        },
+        "Almost deathproof Abrooms (HU variant only)": {
+          "zh-CN": "近乎不可能被击毁的“阿布鲁姆斯”（仅限 HU 型）。",
+          "en-US": "Almost deathproof Abrooms (HU variant only)"
+        },
+        "Twice the ammo and better throw distance.": {
+          "zh-CN": "弹量翻倍且投放距离更远。",
+          "en-US": "Twice the ammo and better throw distance."
+        },
+        "Replaces M250 with 4 charges of \"Rapid Obscuring Sytem\" (Smoke+ required)": {
+          "zh-CN": "将 M250 替换为 4 枚“快速遮蔽系统”药剂（需开启 Smoke+）。",
+          "en-US": "Replaces M250 with 4 charges of \"Rapid Obscuring Sytem\" (Smoke+ required)"
+        },
+        "Faster/larger smoke effect and if thermals are blocked for ROSY": {
+          "zh-CN": "加快/扩大 ROSY 烟幕效果，并可阻断热像。",
+          "en-US": "Faster/larger smoke effect and if thermals are blocked for ROSY"
+        },
+        "SPEEEED AND POWWAAAAH!": {
+          "zh-CN": "速度与力量！！！",
+          "en-US": "SPEEEED AND POWWAAAAH!"
+        },
+        "Makes the tank more controllable at higher speeds": {
+          "zh-CN": "提升高速状态下的车辆可控性。",
+          "en-US": "Makes the tank more controllable at higher speeds"
+        },
+        "Remove items attached to turret like ALICE packs or MRE boxes": {
+          "zh-CN": "移除炮塔上附挂的 ALICE 背包、口粮箱等物件。",
+          "en-US": "Remove items attached to turret like ALICE packs or MRE boxes"
+        },
+        "Gives the M1IP model to base M1": {
+          "zh-CN": "让基础 M1 使用 M1IP 的外观模型。",
+          "en-US": "Gives the M1IP model to base M1"
+        },
+        "Uses appropriate M256 model instead of scaled up M68A1": {
+          "zh-CN": "使用正确的 M256 模型，不再放大 M68A1 代替。",
+          "en-US": "Uses appropriate M256 model instead of scaled up M68A1"
+        },
+        "Force camo net appearance instead of randomizing it": {
+          "zh-CN": "强制启用伪装网外观，而非随机。",
+          "en-US": "Force camo net appearance instead of randomizing it"
+        }
+      }
+    },
+    "M6A2": {
+      "ModId": "M6A2",
+      "ConfigLabels": {
+        "GunType": {
+          "zh-CN": "机炮型号",
+          "en-US": "GunType"
+        },
+        "M919": {
+          "zh-CN": "M919穿甲弹",
+          "en-US": "M919"
+        },
+        "MPAB": {
+          "zh-CN": "MPAB近炸空爆弹",
+          "en-US": "MPAB"
+        },
+        "APCount": {
+          "zh-CN": "穿甲弹数量",
+          "en-US": "APCount"
+        },
+        "HECount": {
+          "zh-CN": "高爆弹数量",
+          "en-US": "HECount"
+        },
+        "ADATSTandem": {
+          "zh-CN": "ADATS串联战斗部",
+          "en-US": "ADATSTandem"
+        },
+        "GunProxyFuze": {
+          "zh-CN": "机炮近炸引信",
+          "en-US": "GunProxyFuze"
+        },
+        "ADATSProxyDistance": {
+          "zh-CN": "ADATS近炸触发距离",
+          "en-US": "ADATSProxyDistance"
+        },
+        "GunProxyDistance": {
+          "zh-CN": "机炮近炸触发距离",
+          "en-US": "GunProxyDistance"
+        },
+        "RippleFire": {
+          "zh-CN": "齐射发射",
+          "en-US": "RippleFire"
+        },
+        "RotateAzimuth": {
+          "zh-CN": "方位稳定/横向稳像",
+          "en-US": "RotateAzimuth"
+        },
+        "SuperOptics": {
+          "zh-CN": "增强光学/热成像",
+          "en-US": "SuperOptics"
+        },
+        "BetterDynamics": {
+          "zh-CN": "强化动力与传动",
+          "en-US": "BetterDynamics"
+        },
+        "StabilityControl": {
+          "zh-CN": "稳定性控制",
+          "en-US": "StabilityControl"
+        },
+        "BetterAI": {
+          "zh-CN": "强化AI侦察与射击",
+          "en-US": "BetterAI"
+        },
+        "CompositeHull": {
+          "zh-CN": "复合装甲车体",
+          "en-US": "CompositeHull"
+        },
+        "CompositeTurret": {
+          "zh-CN": "复合装甲炮塔",
+          "en-US": "CompositeTurret"
+        }
+      },
+      "ConfigComments": {
+        "M242 (500 RPM), GAU12 (3600 RPM), XM813 (30mm)": {
+          "zh-CN": "M242（500发/分）、GAU‑12（3600发/分）、XM813（30毫米）",
+          "en-US": "M242 (500 RPM), GAU12 (3600 RPM), XM813 (30mm)"
+        },
+        "Replaces M792 with M919 APFSDS": {
+          "zh-CN": "将M792替换为M919 APFSDS脱壳穿甲弹",
+          "en-US": "Replaces M792 with M919 APFSDS"
+        },
+        "Replaces APEX with MPAB (TD airburst)": {
+          "zh-CN": "将APEX替换为MPAB（时延空爆改为近炸）",
+          "en-US": "Replaces APEX with MPAB (TD airburst)"
+        },
+        "Round type count, give at least 1 per type (max of 1500 for 25mm/600 for 30mm)": {
+          "zh-CN": "弹种数量：每种至少1发（25毫米最多1500发/30毫米最多600发）",
+          "en-US": "Round type count, give at least 1 per type (max of 1500 for 25mm/600 for 30mm)"
+        },
+        "Better ERA defeat for ADATS": {
+          "zh-CN": "提升ADATS对反应装甲（ERA）的克制效果",
+          "en-US": "Better ERA defeat for ADATS"
+        },
+        "Switch MK310 PABM-T fuze to proximity instead of time-delay.": {
+          "zh-CN": "将MK310 PABM‑T引信由时延改为近炸。",
+          "en-US": "Switch MK310 PABM-T fuze to proximity instead of time-delay."
+        },
+        "Trigger distance of ADATS or PABM proximity fuze (in meters)": {
+          "zh-CN": "ADATS或PABM近炸引信的触发距离（米）",
+          "en-US": "Trigger distance of ADATS or PABM proximity fuze (in meters)"
+        },
+        "Fire and guide multiple ADATS at the same time": {
+          "zh-CN": "可同时发射并制导多枚ADATS",
+          "en-US": "Fire and guide multiple ADATS at the same time"
+        },
+        "Horizontal reticle stabilization when leading": {
+          "zh-CN": "提前量瞄准时提供水平瞄准环稳定",
+          "en-US": "Horizontal reticle stabilization when leading"
+        },
+        "More zoom levels/clearer image for main and thermal sights": {
+          "zh-CN": "主光学与热成像提供更多倍率与更清晰画质",
+          "en-US": "More zoom levels/clearer image for main and thermal sights"
+        },
+        "Better engine/transmission/suspension/tracks": {
+          "zh-CN": "强化发动机/变速箱/悬挂/履带性能",
+          "en-US": "Better engine/transmission/suspension/tracks"
+        },
+        "Makes the tank more controllable at higher speeds": {
+          "zh-CN": "在高速下提高车辆可控性",
+          "en-US": "Makes the tank more controllable at higher speeds"
+        },
+        "Better AI spotting and gunnery": {
+          "zh-CN": "提升AI的观测与射击能力",
+          "en-US": "Better AI spotting and gunnery"
+        },
+        "50% better protection with no weight penalty": {
+          "zh-CN": "在不增加重量的情况下提升50%的防护",
+          "en-US": "50% better protection with no weight penalty"
+        }
+      }
+    },
+    "NATOERA": {
+      "ModId": "NATOERA",
+      "ConfigLabels": {
+        "M1 ERA": {
+          "zh-CN": "M1 车体/炮塔爆反装甲",
+          "en-US": "M1 ERA"
+        },
+        "M1 Hull Lower Front ERA": {
+          "zh-CN": "M1 车体下前部爆反装甲",
+          "en-US": "M1 Hull Lower Front ERA"
+        },
+        "M1 Hull Upper Front ERA": {
+          "zh-CN": "M1 车体上前部爆反装甲",
+          "en-US": "M1 Hull Upper Front ERA"
+        },
+        "M1 Extended Hull ERA": {
+          "zh-CN": "M1 车体扩展爆反装甲",
+          "en-US": "M1 Extended Hull ERA"
+        },
+        "M1 Turret ERA": {
+          "zh-CN": "M1 炮塔爆反装甲",
+          "en-US": "M1 Turret ERA"
+        },
+        "M1 Turret Roof ERA": {
+          "zh-CN": "M1 炮塔顶部爆反装甲",
+          "en-US": "M1 Turret Roof ERA"
+        },
+        "M1 Turret Cheek ERA": {
+          "zh-CN": "M1 炮塔颊部爆反装甲",
+          "en-US": "M1 Turret Cheek ERA"
+        },
+        "M1 Extended Turret ERA": {
+          "zh-CN": "M1 炮塔扩展爆反装甲",
+          "en-US": "M1 Extended Turret ERA"
+        },
+        "M1IP ERA": {
+          "zh-CN": "M1IP 车体/炮塔爆反装甲",
+          "en-US": "M1IP ERA"
+        },
+        "M1IP Hull Lower Front ERA": {
+          "zh-CN": "M1IP 车体下前部爆反装甲",
+          "en-US": "M1IP Hull Lower Front ERA"
+        },
+        "M1IP Hull Upper Front ERA": {
+          "zh-CN": "M1IP 车体上前部爆反装甲",
+          "en-US": "M1IP Hull Upper Front ERA"
+        },
+        "M1IP Extended Hull ERA": {
+          "zh-CN": "M1IP 车体扩展爆反装甲",
+          "en-US": "M1IP Extended Hull ERA"
+        },
+        "M1IP Turret ERA": {
+          "zh-CN": "M1IP 炮塔爆反装甲",
+          "en-US": "M1IP Turret ERA"
+        },
+        "M1IP Turret Roof ERA": {
+          "zh-CN": "M1IP 炮塔顶部爆反装甲",
+          "en-US": "M1IP Turret Roof ERA"
+        },
+        "M1IP Turret Cheek ERA": {
+          "zh-CN": "M1IP 炮塔颊部爆反装甲",
+          "en-US": "M1IP Turret Cheek ERA"
+        },
+        "M1IP Extended Turret ERA": {
+          "zh-CN": "M1IP 炮塔扩展爆反装甲",
+          "en-US": "M1IP Extended Turret ERA"
+        },
+        "Feather ARAT": {
+          "zh-CN": "ARAT 轻量化处理",
+          "en-US": "Feather ARAT"
+        },
+        "IP model to M1": {
+          "zh-CN": "基础M1使用IP模型",
+          "en-US": "IP model to M1"
+        },
+        "Improve CE Protection (600mm)": {
+          "zh-CN": "提升破甲战斗部防护（等效600mm）",
+          "en-US": "Improve CE Protection (600mm)"
+        },
+        "Improve KE Protection (150mm)": {
+          "zh-CN": "提升动能弹防护（等效150mm）",
+          "en-US": "Improve KE Protection (150mm)"
+        },
+        "ARAT R": {
+          "zh-CN": "ARAT 颜色R通道",
+          "en-US": "ARAT R"
+        },
+        "ARAT G": {
+          "zh-CN": "ARAT 颜色G通道",
+          "en-US": "ARAT G"
+        },
+        "ARAT B": {
+          "zh-CN": "ARAT 颜色B通道",
+          "en-US": "ARAT B"
+        },
+        "M2 ERA": {
+          "zh-CN": "M2 车体/侧面爆反装甲",
+          "en-US": "M2 ERA"
+        },
+        "M2 Extended Hull Side ERA": {
+          "zh-CN": "M2 车体侧面扩展爆反装甲",
+          "en-US": "M2 Extended Hull Side ERA"
+        },
+        "M2 Hull Side Lower ERA": {
+          "zh-CN": "M2 车体侧面下部爆反装甲",
+          "en-US": "M2 Hull Side Lower ERA"
+        },
+        "M2 Extended Hull Side Lower ERA": {
+          "zh-CN": "M2 车体侧面下部扩展爆反装甲",
+          "en-US": "M2 Extended Hull Side Lower ERA"
+        },
+        "M2 Hull Lower Front ERA": {
+          "zh-CN": "M2 车体下前部爆反装甲",
+          "en-US": "M2 Hull Lower Front ERA"
+        },
+        "M2 Hull Upper ERA": {
+          "zh-CN": "M2 车体上部爆反装甲",
+          "en-US": "M2 Hull Upper ERA"
+        },
+        "Feather BRAT": {
+          "zh-CN": "BRAT 轻量化处理",
+          "en-US": "Feather BRAT"
+        },
+        "Improve BRAT-M3 CE Protection (600mm)": {
+          "zh-CN": "提升BRAT‑M3破甲防护（等效600mm）",
+          "en-US": "Improve BRAT-M3 CE Protection (600mm)"
+        },
+        "Improve BRAT-M3 KE Protection (150mm)": {
+          "zh-CN": "提升BRAT‑M3动能防护（等效150mm）",
+          "en-US": "Improve BRAT-M3 KE Protection (150mm)"
+        },
+        "Improve BRAT-M5 CE Protection (800mm)": {
+          "zh-CN": "提升BRAT‑M5破甲防护（等效800mm）",
+          "en-US": "Improve BRAT-M5 CE Protection (800mm)"
+        },
+        "Improve BRAT-M5 KE Protection (200mm)": {
+          "zh-CN": "提升BRAT‑M5动能防护（等效200mm）",
+          "en-US": "Improve BRAT-M5 KE Protection (200mm)"
+        },
+        "BRAT R": {
+          "zh-CN": "BRAT 颜色R通道",
+          "en-US": "BRAT R"
+        },
+        "BRAT G": {
+          "zh-CN": "BRAT 颜色G通道",
+          "en-US": "BRAT G"
+        },
+        "BRAT B": {
+          "zh-CN": "BRAT 颜色B通道",
+          "en-US": "BRAT B"
+        }
+      },
+      "ConfigComments": {
+        "Enable ERA for M1": {
+          "zh-CN": "启用M1爆反装甲配置",
+          "en-US": "Enable ERA for M1"
+        },
+        "M1 Hull ERA Arrangement": {
+          "zh-CN": "M1 车体爆反装甲布局",
+          "en-US": "M1 Hull ERA Arrangement"
+        },
+        "M1 Turret ERA Arrangement": {
+          "zh-CN": "M1 炮塔爆反装甲布局",
+          "en-US": "M1 Turret ERA Arrangement"
+        },
+        "Enable ERA for M1IP": {
+          "zh-CN": "启用M1IP爆反装甲配置",
+          "en-US": "Enable ERA for M1IP"
+        },
+        "M1IP Hull ERA Arrangement": {
+          "zh-CN": "M1IP 车体爆反装甲布局",
+          "en-US": "M1IP Hull ERA Arrangement"
+        },
+        "M1IP Turret ERA Arrangement": {
+          "zh-CN": "M1IP 炮塔爆反装甲布局",
+          "en-US": "M1IP Turret ERA Arrangement"
+        },
+        "Removes ARAT weight penalty": {
+          "zh-CN": "移除ARAT的重量惩罚",
+          "en-US": "Removes ARAT weight penalty"
+        },
+        "Set to true if base M1 is using IP model (AMP mod)": {
+          "zh-CN": "若基础M1使用IP模型（AMP模组），请设为true",
+          "en-US": "Set to true if base M1 is using IP model (AMP mod)"
+        },
+        "Improve ARAT Protection": {
+          "zh-CN": "提升ARAT防护效果",
+          "en-US": "Improve ARAT Protection"
+        },
+        "Adjust ARAT colors with RGB values (float)": {
+          "zh-CN": "使用RGB浮点值调整ARAT配色",
+          "en-US": "Adjust ARAT colors with RGB values (float)"
+        },
+        "Enable ERA for M2": {
+          "zh-CN": "启用M2爆反装甲配置",
+          "en-US": "Enable ERA for M2"
+        },
+        "M2 Hull ERA Arrangement": {
+          "zh-CN": "M2 车体爆反装甲布局",
+          "en-US": "M2 Hull ERA Arrangement"
+        },
+        "Removes BRAT weight penalty": {
+          "zh-CN": "移除BRAT的重量惩罚",
+          "en-US": "Removes BRAT weight penalty"
+        },
+        "Improve BRAT Protection": {
+          "zh-CN": "提升BRAT防护效果",
+          "en-US": "Improve BRAT Protection"
+        },
+        "Adjust BRAT colors with RGB values (float)": {
+          "zh-CN": "使用RGB浮点值调整BRAT配色",
+          "en-US": "Adjust BRAT colors with RGB values (float)"
+        }
+      }
+    },
+    "ATAC": {
+      "ModId": "ATAC",
+      "ConfigLabels": {
+        "Playing Campaign": {
+          "zh-CN": "战役模式开关",
+          "en-US": "Playing Campaign"
+        },
+        "TOW Launcher replacement": {
+          "zh-CN": "TOW发射器替换为",
+          "en-US": "TOW Launcher replacement"
+        },
+        "TOW Launcher replacement chance": {
+          "zh-CN": "TOW发射器替换概率",
+          "en-US": "TOW Launcher replacement chance"
+        },
+        "M151 replacement": {
+          "zh-CN": "M151车型替换为载具",
+          "en-US": "M151 replacement"
+        },
+        "M151 replacement chance": {
+          "zh-CN": "M151替换概率",
+          "en-US": "M151 replacement chance"
+        },
+        "M151 TOW replacement": {
+          "zh-CN": "M151（TOW）替换为",
+          "en-US": "M151 TOW replacement"
+        },
+        "M151 TOW replacement chance": {
+          "zh-CN": "M151（TOW）替换概率",
+          "en-US": "M151 TOW replacement chance"
+        },
+        "M923 replacement": {
+          "zh-CN": "M923卡车替换为",
+          "en-US": "M923 replacement"
+        },
+        "M923 replacement chance": {
+          "zh-CN": "M923替换概率",
+          "en-US": "M923 replacement chance"
+        },
+        "M113 replacement": {
+          "zh-CN": "M113装甲车替换为",
+          "en-US": "M113 replacement"
+        },
+        "M113 replacement chance": {
+          "zh-CN": "M113替换概率",
+          "en-US": "M113 replacement chance"
+        },
+        "M2 replacement": {
+          "zh-CN": "M2步战车替换为",
+          "en-US": "M2 replacement"
+        },
+        "M2 replacement chance": {
+          "zh-CN": "M2替换概率",
+          "en-US": "M2 replacement chance"
+        },
+        "M2 (Alt) replacement": {
+          "zh-CN": "M2（替代型）替换为",
+          "en-US": "M2 (Alt) replacement"
+        },
+        "M2 (Alt) replacement chance": {
+          "zh-CN": "M2（替代型）替换概率",
+          "en-US": "M2 (Alt) replacement chance"
+        },
+        "M60A1 replacement": {
+          "zh-CN": "M60A1主战坦克替换为",
+          "en-US": "M60A1 replacement"
+        },
+        "M60A1 replacement chance": {
+          "zh-CN": "M60A1替换概率",
+          "en-US": "M60A1 replacement chance"
+        },
+        "M60A1 AOS replacement": {
+          "zh-CN": "M60A1 AOS替换为",
+          "en-US": "M60A1 AOS replacement"
+        },
+        "M60A1 AOS replacement chance": {
+          "zh-CN": "M60A1 AOS替换概率",
+          "en-US": "M60A1 AOS replacement chance"
+        },
+        "M60A1 RISE replacement": {
+          "zh-CN": "M60A1 RISE替换为",
+          "en-US": "M60A1 RISE replacement"
+        },
+        "M60A1 RISE replacement chance": {
+          "zh-CN": "M60A1 RISE替换概率",
+          "en-US": "M60A1 RISE replacement chance"
+        },
+        "M60A1 RISE(P) replacement": {
+          "zh-CN": "M60A1 RISE(P)替换为",
+          "en-US": "M60A1 RISE(P) replacement"
+        },
+        "M60A1 RISE(P) replacement chance": {
+          "zh-CN": "M60A1 RISE(P)替换概率",
+          "en-US": "M60A1 RISE(P) replacement chance"
+        },
+        "M60A3 replacement": {
+          "zh-CN": "M60A3替换为",
+          "en-US": "M60A3 replacement"
+        },
+        "M60A3 replacement chance": {
+          "zh-CN": "M60A3替换概率",
+          "en-US": "M60A3 replacement chance"
+        },
+        "M60A3 TTS replacement": {
+          "zh-CN": "M60A3 TTS热像替换为",
+          "en-US": "M60A3 TTS replacement"
+        },
+        "M60A3 TTS replacement chance": {
+          "zh-CN": "M60A3 TTS替换概率",
+          "en-US": "M60A3 TTS replacement chance"
+        },
+        "M1 replacement": {
+          "zh-CN": "M1艾布拉姆斯替换为",
+          "en-US": "M1 replacement"
+        },
+        "M1 replacement chance": {
+          "zh-CN": "M1替换概率",
+          "en-US": "M1 replacement chance"
+        },
+        "M1IP replacement": {
+          "zh-CN": "M1IP改进型替换为",
+          "en-US": "M1IP replacement"
+        },
+        "M1IP replacement chance": {
+          "zh-CN": "M1IP替换概率",
+          "en-US": "M1IP replacement chance"
+        },
+        "M113G replacement": {
+          "zh-CN": "M113G替换为",
+          "en-US": "M113G replacement"
+        },
+        "M113G replacement chance": {
+          "zh-CN": "M113G替换概率",
+          "en-US": "M113G replacement chance"
+        },
+        "Marder A1 replacement": {
+          "zh-CN": "黄鼠狼A1替换为",
+          "en-US": "Marder A1 replacement"
+        },
+        "Marder A1 replacement chance": {
+          "zh-CN": "黄鼠狼A1替换概率",
+          "en-US": "Marder A1 replacement chance"
+        },
+        "Marder A1 (No ATGM) replacement": {
+          "zh-CN": "黄鼠狼A1（无反坦克导弹）替换为",
+          "en-US": "Marder A1 (No ATGM) replacement"
+        },
+        "Marder A1 (No ATGM) replacement chance": {
+          "zh-CN": "黄鼠狼A1（无反坦克导弹）替换概率",
+          "en-US": "Marder A1 (No ATGM) replacement chance"
+        },
+        "Marder A1+ replacement": {
+          "zh-CN": "黄鼠狼A1+替换为",
+          "en-US": "Marder A1+ replacement"
+        },
+        "Marder A1+ replacement chance": {
+          "zh-CN": "黄鼠狼A1+替换概率",
+          "en-US": "Marder A1+ replacement chance"
+        },
+        "Leopard 1A1 replacement": {
+          "zh-CN": "豹1A1替换为",
+          "en-US": "Leopard 1A1 replacement"
+        },
+        "Leopard 1A1 replacement chance": {
+          "zh-CN": "豹1A1替换概率",
+          "en-US": "Leopard 1A1 replacement chance"
+        },
+        "Leopard 1A1A2 replacement": {
+          "zh-CN": "豹1A1A2替换为",
+          "en-US": "Leopard 1A1A2 replacement"
+        },
+        "Leopard 1A1A2 replacement chance": {
+          "zh-CN": "豹1A1A2替换概率",
+          "en-US": "Leopard 1A1A2 replacement chance"
+        },
+        "Leopard 1A1A3 replacement": {
+          "zh-CN": "豹1A1A3替换为",
+          "en-US": "Leopard 1A1A3 replacement"
+        },
+        "Leopard 1A1A3 replacement chance": {
+          "zh-CN": "豹1A1A3替换概率",
+          "en-US": "Leopard 1A1A3 replacement chance"
+        },
+        "Leopard 1A1A4 replacement": {
+          "zh-CN": "豹1A1A4替换为",
+          "en-US": "Leopard 1A1A4 replacement"
+        },
+        "Leopard 1A1A4 replacement chance": {
+          "zh-CN": "豹1A1A4替换概率",
+          "en-US": "Leopard 1A1A4 replacement chance"
+        },
+        "SPG-9 replacement": {
+          "zh-CN": "SPG-9无后坐力炮替换为",
+          "en-US": "SPG-9 replacement"
+        },
+        "SPG-9 replacement chance": {
+          "zh-CN": "SPG-9替换概率",
+          "en-US": "SPG-9 replacement chance"
+        },
+        "9K111 Launcher replacement": {
+          "zh-CN": "9K111发射器替换为",
+          "en-US": "9K111 Launcher replacement"
+        },
+        "9K111 Launcher replacement chance": {
+          "zh-CN": "9K111发射器替换概率",
+          "en-US": "9K111 Launcher replacement chance"
+        },
+        "UAZ-469 replacement": {
+          "zh-CN": "UAZ-469越野车替换为",
+          "en-US": "UAZ-469 replacement"
+        },
+        "UAZ-469 replacement chance": {
+          "zh-CN": "UAZ-469替换概率",
+          "en-US": "UAZ-469 replacement chance"
+        },
+        "Ural-375D replacement": {
+          "zh-CN": "Ural-375D卡车替换为",
+          "en-US": "Ural-375D replacement"
+        },
+        "Ural-375D replacement chance": {
+          "zh-CN": "Ural-375D替换概率",
+          "en-US": "Ural-375D replacement chance"
+        },
+        "BRDM2 replacement": {
+          "zh-CN": "BRDM-2装甲侦察车替换为",
+          "en-US": "BRDM2 replacement"
+        },
+        "BRDM2 replacement chance": {
+          "zh-CN": "BRDM-2替换概率",
+          "en-US": "BRDM2 replacement chance"
+        },
+        "BTR-60PB replacement": {
+          "zh-CN": "BTR-60PB运兵车替换为",
+          "en-US": "BTR-60PB replacement"
+        },
+        "BTR-60PB replacement chance": {
+          "zh-CN": "BTR-60PB替换概率",
+          "en-US": "BTR-60PB replacement chance"
+        },
+        "BMP-1 replacement": {
+          "zh-CN": "BMP-1步战车替换为",
+          "en-US": "BMP-1 replacement"
+        },
+        "BMP-1 replacement chance": {
+          "zh-CN": "BMP-1替换概率",
+          "en-US": "BMP-1 replacement chance"
+        },
+        "BMP-1P replacement": {
+          "zh-CN": "BMP-1P步战车替换为",
+          "en-US": "BMP-1P replacement"
+        },
+        "BMP-1P replacement chance": {
+          "zh-CN": "BMP-1P替换概率",
+          "en-US": "BMP-1P replacement chance"
+        },
+        "BMP-2 replacement": {
+          "zh-CN": "BMP-2步战车替换为",
+          "en-US": "BMP-2 replacement"
+        },
+        "BMP-2 replacement chance": {
+          "zh-CN": "BMP-2替换概率",
+          "en-US": "BMP-2 replacement chance"
+        },
+        "PT-76B replacement": {
+          "zh-CN": "PT-76B轻坦替换为",
+          "en-US": "PT-76B replacement"
+        },
+        "PT-76B replacement chance": {
+          "zh-CN": "PT-76B替换概率",
+          "en-US": "PT-76B replacement chance"
+        },
+        "T-54A replacement": {
+          "zh-CN": "T-54A替换为",
+          "en-US": "T-54A replacement"
+        },
+        "T-54A replacement chance": {
+          "zh-CN": "T-54A替换概率",
+          "en-US": "T-54A replacement chance"
+        },
+        "T-55A replacement": {
+          "zh-CN": "T-55A替换为",
+          "en-US": "T-55A replacement"
+        },
+        "T-55A replacement chance": {
+          "zh-CN": "T-55A替换概率",
+          "en-US": "T-55A replacement chance"
+        },
+        "T-72 replacement": {
+          "zh-CN": "T-72替换为",
+          "en-US": "T-72 replacement"
+        },
+        "T-72 replacement chance": {
+          "zh-CN": "T-72替换概率",
+          "en-US": "T-72 replacement chance"
+        },
+        "T-72 LEM replacement": {
+          "zh-CN": "T-72 LEM替换为",
+          "en-US": "T-72 LEM replacement"
+        },
+        "T-72 LEM replacement chance": {
+          "zh-CN": "T-72 LEM替换概率",
+          "en-US": "T-72 LEM replacement chance"
+        },
+        "T-72 UV1 replacement": {
+          "zh-CN": "T-72 UV1替换为",
+          "en-US": "T-72 UV1 replacement"
+        },
+        "T-72 UV1 replacement chance": {
+          "zh-CN": "T-72 UV1替换概率",
+          "en-US": "T-72 UV1 replacement chance"
+        },
+        "T-72M replacement": {
+          "zh-CN": "T-72M替换为",
+          "en-US": "T-72M replacement"
+        },
+        "T-72M replacement chance": {
+          "zh-CN": "T-72M替换概率",
+          "en-US": "T-72M replacement chance"
+        },
+        "T-72M Gills replacement": {
+          "zh-CN": "T-72M“鱼鳃”装甲替换为",
+          "en-US": "T-72M Gills replacement"
+        },
+        "T-72M Gills replacement chance": {
+          "zh-CN": "T-72M“鱼鳃”替换概率",
+          "en-US": "T-72M Gills replacement chance"
+        },
+        "T-72 UV2 replacement": {
+          "zh-CN": "T-72 UV2替换为",
+          "en-US": "T-72 UV2 replacement"
+        },
+        "T-72 UV2 replacement chance": {
+          "zh-CN": "T-72 UV2替换概率",
+          "en-US": "T-72 UV2 replacement chance"
+        },
+        "T-72M1 replacement": {
+          "zh-CN": "T-72M1替换为",
+          "en-US": "T-72M1 replacement"
+        },
+        "T-72M1 replacement chance": {
+          "zh-CN": "T-72M1替换概率",
+          "en-US": "T-72M1 replacement chance"
+        },
+        "SA SPG-9 replacement": {
+          "zh-CN": "SA SPG-9替换为",
+          "en-US": "SA SPG-9 replacement"
+        },
+        "SA SPG-9 replacement chance": {
+          "zh-CN": "SA SPG-9替换概率",
+          "en-US": "SA SPG-9 replacement chance"
+        },
+        "SA 9K111 Launcher replacement": {
+          "zh-CN": "SA 9K111发射器替换为",
+          "en-US": "SA 9K111 Launcher replacement"
+        },
+        "SA 9K111 Launcher replacement chance": {
+          "zh-CN": "SA 9K111发射器替换概率",
+          "en-US": "SA 9K111 Launcher replacement chance"
+        },
+        "SA Ural-375D": {
+          "zh-CN": "SA Ural-375D替换为",
+          "en-US": "SA Ural-375D"
+        },
+        "SA Ural-375D replacement chance": {
+          "zh-CN": "SA Ural-375D替换概率",
+          "en-US": "SA Ural-375D replacement chance"
+        },
+        "SA BRDM2 replacement": {
+          "zh-CN": "SA BRDM-2替换为",
+          "en-US": "SA BRDM2 replacement"
+        },
+        "SA BRDM2 replacement chance": {
+          "zh-CN": "SA BRDM-2替换概率",
+          "en-US": "SA BRDM2 replacement chance"
+        },
+        "SA BTR-60PB replacement": {
+          "zh-CN": "SA BTR-60PB替换为",
+          "en-US": "SA BTR-60PB replacement"
+        },
+        "SA BTR-60PB replacement chance": {
+          "zh-CN": "SA BTR-60PB替换概率",
+          "en-US": "SA BTR-60PB replacement chance"
+        },
+        "SA BTR-70 replacement": {
+          "zh-CN": "SA BTR-70替换为",
+          "en-US": "SA BTR-70 replacement"
+        },
+        "SA BTR-70 replacement chance": {
+          "zh-CN": "SA BTR-70替换概率",
+          "en-US": "SA BTR-70 replacement chance"
+        },
+        "SA BMP-1 replacement": {
+          "zh-CN": "SA BMP-1替换为",
+          "en-US": "SA BMP-1 replacement"
+        },
+        "SA BMP-1 replacement chance": {
+          "zh-CN": "SA BMP-1替换概率",
+          "en-US": "SA BMP-1 replacement chance"
+        },
+        "SA BMP-1P replacement": {
+          "zh-CN": "SA BMP-1P替换为",
+          "en-US": "SA BMP-1P replacement"
+        },
+        "SA BMP-1P replacement chance": {
+          "zh-CN": "SA BMP-1P替换概率",
+          "en-US": "SA BMP-1P replacement chance"
+        },
+        "SA BMP-2 replacement": {
+          "zh-CN": "SA BMP-2替换为",
+          "en-US": "SA BMP-2 replacement"
+        },
+        "SA BMP-2 replacement chance": {
+          "zh-CN": "SA BMP-2替换概率",
+          "en-US": "SA BMP-2 replacement chance"
+        },
+        "SA T-62 replacement": {
+          "zh-CN": "SA T-62替换为",
+          "en-US": "SA T-62 replacement"
+        },
+        "SA T-62 replacement chance": {
+          "zh-CN": "SA T-62替换概率",
+          "en-US": "SA T-62 replacement chance"
+        },
+        "SA T-64R replacement": {
+          "zh-CN": "SA T-64R替换为",
+          "en-US": "SA T-64R replacement"
+        },
+        "SA T-64R replacement chance": {
+          "zh-CN": "SA T-64R替换概率",
+          "en-US": "SA T-64R replacement chance"
+        },
+        "SA T-64A obr74 replacement": {
+          "zh-CN": "SA T-64A（1974式）替换为",
+          "en-US": "SA T-64A obr74 replacement"
+        },
+        "SA T-64A obr74 replacement chance": {
+          "zh-CN": "SA T-64A（1974式）替换概率",
+          "en-US": "SA T-64A obr74 replacement chance"
+        },
+        "SA T-64A obr79 replacement": {
+          "zh-CN": "SA T-64A（1979式）替换为",
+          "en-US": "SA T-64A obr79 replacement"
+        },
+        "SA T-64A obr79 replacement chance": {
+          "zh-CN": "SA T-64A（1979式）替换概率",
+          "en-US": "SA T-64A obr79 replacement chance"
+        },
+        "SA T-64A obr81 replacement": {
+          "zh-CN": "SA T-64A（1981式）替换为",
+          "en-US": "SA T-64A obr81 replacement"
+        },
+        "SA T-64A obr81 replacement chance": {
+          "zh-CN": "SA T-64A（1981式）替换概率",
+          "en-US": "SA T-64A obr81 replacement chance"
+        },
+        "SA T-64A replacement": {
+          "zh-CN": "SA T-64A替换为",
+          "en-US": "SA T-64A replacement"
+        },
+        "SA T-64A replacement chance": {
+          "zh-CN": "SA T-64A替换概率",
+          "en-US": "SA T-64A replacement chance"
+        },
+        "SA T-64A obr84 replacement": {
+          "zh-CN": "SA T-64A（1984式）替换为",
+          "en-US": "SA T-64A obr84 replacement"
+        },
+        "SA T-64A obr84 replacement chance": {
+          "zh-CN": "SA T-64A（1984式）替换概率",
+          "en-US": "SA T-64A obr84 replacement chance"
+        },
+        "SA T-64B replacement": {
+          "zh-CN": "SA T-64B替换为",
+          "en-US": "SA T-64B replacement"
+        },
+        "SA T-64B replacement chance": {
+          "zh-CN": "SA T-64B替换概率",
+          "en-US": "SA T-64B replacement chance"
+        },
+        "SA T-80B replacement": {
+          "zh-CN": "SA T-80B替换为",
+          "en-US": "SA T-80B replacement"
+        },
+        "SA T-80B replacement chance": {
+          "zh-CN": "SA T-80B替换概率",
+          "en-US": "SA T-80B replacement chance"
+        }
+      },
+      "ConfigComments": {
+        "Set to true if you are playing Campaign, false if Instant Action": {
+          "zh-CN": "战役模式请开启，快速行动请关闭",
+          "en-US": "Set to true if you are playing Campaign, false if Instant Action"
+        },
+        "////USA////": {
+          "zh-CN": "—— 美国阵营 ——",
+          "en-US": "////USA////"
+        },
+        "////FRG////": {
+          "zh-CN": "—— 联邦德国（FRG）阵营 ——",
+          "en-US": "////FRG////"
+        },
+        "////GDR////": {
+          "zh-CN": "—— 德意志民主共和国（GDR）阵营 ——",
+          "en-US": "////GDR////"
+        },
+        "////USSR////": {
+          "zh-CN": "—— 苏联（USSR）阵营 ——",
+          "en-US": "////USSR////"
+        }
+      }
     }
   }
 }

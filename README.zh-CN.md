@@ -13,9 +13,13 @@
 
 目前通过 GHPC Mod Manager 支持管理的模组：
 
-### 活跃模组
-- **[华约增强模组 (Pact Increased Lethality)](https://github.com/thebeninator/Pact-Increased-Lethality)** - 增强华约阵营装备性能，提升战斗体验
-- **[M1A1艾布拉姆斯 (M1A1 Abrams)](https://github.com/thebeninator/M1A1Abrams)** - M1A1主战坦克模组，增加新载具和装备
+### 模组
+- **[华约增强模组 (Pact Increased Lethality)](https://github.com/thebeninator/Pact-Increased-Lethality)**
+- **[M1A1艾布拉姆斯 (M1A1 Abrams)](https://github.com/thebeninator/M1A1Abrams)**
+- **[M1A1 Abrams AMP (M1A1艾布拉姆斯AMP)](https://github.com/Cyances/M1A1AbramsAMP)**
+- **[M6A2 ADATS (M6A2超级布雷德利)](https://github.com/Cyances/M6A2-ADATS)**
+- **[NATO ERA (北约爆反)](https://github.com/Cyances/NATO-ERA)**
+- **[Any Tank Any Campaign (自定义战役坦克)](https://github.com/Cyances/Any-Tank-Any-Campaign)**
 
 ### 更多MOD适配中...
 
@@ -44,7 +48,9 @@
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "YourMod.dll",
     "ConfigSectionName": "YourModConfig",
-    "InstallMethod": "DirectRelease" // 或 "Scripted"
+    "InstallMethod": "DirectRelease", // 或 "Scripted"
+    "Requirements": ["BaseModId", "CoreLibraryId"],
+    "Conflicts": ["IncompatibleMod1Id", "IncompatibleMod2Id"] // 或 "Scripted"
   }
 ]
 ```
@@ -53,7 +59,7 @@
 - `DirectRelease`: 简单的 ZIP 下载和解压
 - `Scripted`: 使用 Base64 编码的批处理脚本进行自定义安装（详见示例）
 
-#### 模组国际化 (`sample_mod_i18n.json`)
+#### 模组本地化支持 (`sample_mod_i18n.json`)
 ```json
 {
   "ModConfigs": {
