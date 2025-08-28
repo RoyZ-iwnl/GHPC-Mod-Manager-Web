@@ -24,60 +24,57 @@
     "InstallMethod": "DirectRelease"
   },
   {
-    "Id": "sample",
-    "Name": {
-      "en-US": "sample",
-      "zh-CN": "Msample"
-    },
-    "ReleaseUrl": "https://api.github.com/repos/REPO-OWNER/REPO/releases/latest",
-    "TargetFileNameKeyword": ".zip",
-    "MainBinaryFileName": "sample.dll",
-    "ConfigSectionName": "sample",
-    "InstallMethod": "Scripted",
-    "InstallScript_Base64": "QGVjaG8gb2ZmCnNldCBET1dOTE9BRF9VUkw9JTEKLi4u" //base编码的bat脚本
-    /*
-    ModConfig安装模式中的base64 bat格式
+      "Id": "sample-scripted-mod",
+      "Name": {
+        "en-US": "Sample Scripted Mod",
+        "zh-CN": "示例脚本MOD"
+      },
+      "ReleaseUrl": "https://api.github.com/repos/REPO-OWNER/REPO/releases/latest",
+      "TargetFileNameKeyword": ".dll",
+      "MainBinaryFileName": "sample.dll",
+      "ConfigSectionName": "SampleMod",
+      "InstallMethod": "Scripted",
+      "InstallScript_Base64": "QGVjaG8gb2ZmClJFTSBQYXJhbWV0ZXJzOiAlMSA9IERvd25sb2FkZWQgZmlsZSBwYXRoLCAlMiA9IEdhbWUgcm9vdCBkaXJlY3RvcnksICUzID0gVGFyZ2V0IGZpbGVuYW1lCgpzZXQgIkRPV05MT0FEX0ZJTEU9JX4xIgpzZXQgIkdBTUVfUk9PVD0lfjIiCnNldCAiVEFSR0VUX0ZJTEU9JX4zIgpzZXQgIk1PRFNfRElSPSVHQU1FX1JPT1QlXE1vZHMiCgppZiBub3QgZXhpc3QgIiVET1dOTE9BRF9GSUxFJSIgKAogICAgZWNobyBFUlJPUjogRG93bmxvYWRlZCBmaWxlIG5vdCBmb3VuZDogJURPV05MT0FEX0ZJTEUlCiAgICBleGl0IC9iIDEKKQoKaWYgbm90IGV4aXN0ICIlTU9EU19ESVIlIiBta2RpciAiJU1PRFNfRElSJSIKCmZvciAlJUYgaW4gKCIlRE9XTkxPQURfRklMRSUiKSBkbyBzZXQgIkZJTEVfRVhUPSUlfnhGIgoKaWYgL2kgIiVGSUxFX0VYVCUiPT0iLmRsbCIgKAogICAgZWNobyBJbnN0YWxsaW5nIERMTDogJVRBUkdFVF9GSUxFJQogICAgY29weSAiJURPV05MT0FEX0ZJTEUlIiAiJU1PRFNfRElSJVwlVEFSR0VUX0ZJTEUlIgopIGVsc2UgaWYgL2kgIiVGSUxFX0VYVCUiPT0iLnppcCIgKAogICAgZWNobyBFeHRyYWN0aW5nIFpJUCB0byBNb2RzIGRpcmVjdG9yeQogICAgcG93ZXJzaGVsbCAtQ29tbWFuZCAiRXhwYW5kLUFyY2hpdmUgLVBhdGggJyVET1dOTE9BRF9GSUxFJScgLURlc3RpbmF0aW9uUGF0aCAnJU1PRFNfRElSJScgLUZvcmNlIgopIGVsc2UgKAogICAgZWNobyBJbnN0YWxsaW5nIGZpbGU6ICVUQVJHRVRfRklMRSUKICAgIGNvcHkgIiVET1dOTE9BRF9GSUxFJSIgIiVNT0RTX0RJUiVcJVRBUkdFVF9GSUxFJSIKKQoKZWNobyBJbnN0YWxsYXRpb24gY29tcGxldGVkIHN1Y2Nlc3NmdWxseQo=",
+      /*
+          脚本参数说明:
+      - %1: 已下载文件的完整路径 (如:C:\temp\download_xxx_ATAC.dll)
+      - %2: 游戏根目录路径 (如:C:\Games\GHPC)
+      - %3: 目标文件名 (如:sample.dll，来自ModConfig.MainBinaryFileName)
 
-      数据模型
 
-      在ModConfig类中定义了：
-      public string? InstallScript_Base64 { get; set; }
+        @echo off
+        REM Parameters: %1 = Downloaded file path, %2 = Game root directory, %3 = Target filename
 
-      处理流程
+        set "DOWNLOAD_FILE=%~1"
+        set "GAME_ROOT=%~2"
+        set "TARGET_FILE=%~3"
+        set "MODS_DIR=%GAME_ROOT%\Mods"
 
-      1. 存储格式：原始bat脚本内容通过Base64编码后存储在InstallScript_Base64字段中
-      2. 解码过程：
-      var scriptContent = Encoding.UTF8.GetString(Convert.FromBase64String(base64Script));
-      3. 执行过程：
-        - 解码后的脚本内容写入临时bat文件：install_{Guid.NewGuid()}.bat
-        - 在游戏根目录下执行该bat文件
-        - 传递下载URL作为参数：Arguments = $"\"{downloadUrl}\""
+        if not exist "%DOWNLOAD_FILE%" (
+            echo ERROR: Downloaded file not found: %DOWNLOAD_FILE%
+            exit /b 1
+        )
 
-      Bat脚本格式要求
+        if not exist "%MODS_DIR%" mkdir "%MODS_DIR%"
 
-      根据执行方式，bat脚本应该：
-      - 工作目录：在游戏根目录(gameRootPath)下运行
-      - 参数接收：接收下载URL作为第一个参数 %1
-      - 标准Windows批处理：使用标准的Windows批处理命令
-      - 编码：使用UTF-8编码
+        for %%F in ("%DOWNLOAD_FILE%") do set "FILE_EXT=%%~xF"
 
-      示例bat脚本结构
+        if /i "%FILE_EXT%"==".dll" (
+            echo Installing DLL: %TARGET_FILE%
+            copy "%DOWNLOAD_FILE%" "%MODS_DIR%\%TARGET_FILE%"
+        ) else if /i "%FILE_EXT%"==".zip" (
+            echo Extracting ZIP to Mods directory
+            powershell -Command "Expand-Archive -Path '%DOWNLOAD_FILE%' -DestinationPath '%MODS_DIR%' -Force"
+        ) else (
+            echo Installing file: %TARGET_FILE%
+            copy "%DOWNLOAD_FILE%" "%MODS_DIR%\%TARGET_FILE%"
+        )
 
-      @echo off
-      set DOWNLOAD_URL=%1
-      set GAME_PATH=%CD%
+        echo Installation completed successfully
 
-      REM 下载文件
-      powershell -Command "Invoke-WebRequest -Uri '%DOWNLOAD_URL%' -OutFile 'temp_mod.zip'"
-
-      REM 解压到Mods目录
-      powershell -Command "Expand-Archive -Path 'temp_mod.zip' -DestinationPath 'Mods' -Force"
-
-      REM 清理临时文件
-      del temp_mod.zip
-
-      echo 安装完成
-    */
+      */
+      "Conflicts": [],
+      "Requirements": []
   },
   {
     "Id": "SomeComplexMod",
