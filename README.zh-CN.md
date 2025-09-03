@@ -17,9 +17,17 @@
 - **[华约增强模组 (Pact Increased Lethality)](https://github.com/thebeninator/Pact-Increased-Lethality)**
 - **[M1A1艾布拉姆斯 (M1A1 Abrams)](https://github.com/thebeninator/M1A1Abrams)**
 - **[M1A1 Abrams AMP (M1A1艾布拉姆斯AMP)](https://github.com/Cyances/M1A1AbramsAMP)**
-- **[M6A2 ADATS (M6A2超级布雷德利)](https://github.com/Cyances/M6A2-ADATS)**
+- **[M6A2 ADATS (M6A2"阿达茨"布雷德利)](https://github.com/Cyances/M6A2-ADATS)**
+- **[M3A2 Bradley (M3A2 超级布雷德利)](https://github.com/SovGrenadier/M3A2-Bradley-GHPC)**
+- **[50mm Bradley (50毫米布雷德利)](https://github.com/thebeninator/50mm-Bradley)**
+- **[M2 Bradley Sound Replacement (M2布雷德利声音替换)](https://github.com/thebeninator/M2-Bradley-Sound-Replacement)**
+- **[M2/BMP2 Fire Rate Toggle (B键M2/BMP2射速切换)](https://github.com/thebeninator/FireRateToggle)**
 - **[NATO ERA (北约爆反)](https://github.com/Cyances/NATO-ERA)**
 - **[Any Tank Any Campaign (自定义战役坦克)](https://github.com/Cyances/Any-Tank-Any-Campaign)**
+- **[Random Night Battles (随机夜战)](https://github.com/thebeninator/Random-Night-Battles)**
+- **[M113 TOW (M113 "陶")](https://github.com/thebeninator/M113-TOW)**
+- **[GMPC Texture Loader (贴图更换工具)](https://github.com/Andrix44/GMPCTextureLoader)**
+- **[Gunner Mod PC (GMPC增强插件)](https://github.com/Andrix44/GunnerModPC)**
 
 ### 更多MOD适配中...
 

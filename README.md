@@ -18,8 +18,16 @@ Currently supported mods that can be managed through GHPC Mod Manager:
 - **[M1A1 Abrams](https://github.com/thebeninator/M1A1Abrams)**
 - **[M1A1 Abrams AMP](https://github.com/Cyances/M1A1AbramsAMP)**
 - **[M6A2 ADATS](https://github.com/Cyances/M6A2-ADATS)**
+- **[M3A2 Bradley](https://github.com/SovGrenadier/M3A2-Bradley-GHPC)**
+- **[50mm Bradley](https://github.com/thebeninator/50mm-Bradley)**
+- **[M2 Bradley Sound Replacement](https://github.com/thebeninator/M2-Bradley-Sound-Replacement)**
+- **[M2/BMP2 Fire Rate Toggle](https://github.com/thebeninator/FireRateToggle)**
 - **[NATO ERA](https://github.com/Cyances/NATO-ERA)**
 - **[Any Tank Any Campaign](https://github.com/Cyances/Any-Tank-Any-Campaign)**
+- **[Random Night Battles](https://github.com/thebeninator/Random-Night-Battles)**
+- **[M113 TOW](https://github.com/thebeninator/M113-TOW)**
+- **[GMPC Texture Loader](https://github.com/Andrix44/GMPCTextureLoader)**
+- **[Gunner Mod PC](https://github.com/Andrix44/GunnerModPC)**
 
 ### More MOD adaptations coming...
 
