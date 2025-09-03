@@ -41,12 +41,63 @@
     "Id": "M6A2",
     "Name": {
       "en-US": "M6A2 ADATS",
-      "zh-CN": "M6A2超级布雷德利"
+      "zh-CN": "M6A2 \"阿达茨\"布雷德利"
     },
     "ReleaseUrl": "https://api.github.com/repos/Cyances/M6A2-ADATS/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "zM6A2Adats.dll",
     "ConfigSectionName": "ADATSConfig",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": ["50mm", "M3A2"]
+  },
+  {
+    "Id": "M3A2",
+    "Name": {
+      "en-US": "M3A2 Bradley",
+      "zh-CN": "M3A2 超级布雷德利"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/SovGrenadier/M3A2-Bradley-GHPC/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "M3A2Bradley.dll",
+    "ConfigSectionName": "",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": ["50mm", "M6A2"]
+  },
+  {
+    "Id": "50mm",
+    "Name": {
+      "en-US": "50mm Bradley",
+      "zh-CN": "50毫米布雷德利"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/50mm-Bradley/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "50mmBradley.dll",
+    "ConfigSectionName": "",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": ["M6A2", "M3A2"]
+  },
+  {
+    "Id": "M2ReSound",
+    "Name": {
+      "en-US": "M2 Bradley Sound Replacement",
+      "zh-CN": "M2布雷德利声音替换"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2-Bradley-Sound-Replacement/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "M2BradleySoundReplacement.dll",
+    "ConfigSectionName": "M2ReSound",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "FireRT",
+    "Name": {
+      "en-US": "M2/BMP2 Fire Rate Toggle(Press B)",
+      "zh-CN": "B键M2/BMP2射速切换"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/FireRateToggle/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "FireRateToggle.dll",
+    "ConfigSectionName": "",
     "InstallMethod": "DirectRelease"
   },
   {
@@ -71,6 +122,54 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "ATAC.dll",
     "ConfigSectionName": "\"ATAC Config\"",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "RandomNB",
+    "Name": {
+      "en-US": "Random Night Battles",
+      "zh-CN": "随机夜战"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/Random-Night-Battles/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "RandomNightBattles.dll",
+    "ConfigSectionName": "RandomNightBattles",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "M113TOW",
+    "Name": {
+      "en-US": "M113 TOW",
+      "zh-CN": "M113 “陶”"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "M113Tow.dll",
+    "ConfigSectionName": "M113TOW",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "GMPCTextureL",
+    "Name": {
+      "en-US": "GMPC Texture Loader",
+      "zh-CN": "贴图更换工具"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/Andrix44/GMPCTextureLoader/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "GMPCTextureLoader.dll",
+    "ConfigSectionName": "GMPCTextureLoaderConfig",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "GMPC",
+    "Name": {
+      "en-US": "Gunner Mod PC",
+      "zh-CN": "GMPC增强插件"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/Andrix44/GunnerModPC/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "GunnerModPC.dll",
+    "ConfigSectionName": "GMPCConfig",
     "InstallMethod": "DirectRelease"
   }
 ]

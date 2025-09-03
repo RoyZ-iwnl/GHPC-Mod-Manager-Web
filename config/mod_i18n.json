@@ -2293,6 +2293,143 @@
           "en-US": "////USSR////"
         }
       }
+    },
+    "M2ReSound": {
+      "ModId": "M2ReSound",
+      "ConfigLabels": {
+        "Default Interior Firing Sound": {
+          "zh-CN": "默认内部开火音效",
+          "en-US": "Default Interior Firing Sound"
+        },
+        "Default Exterior Firing Sound": {
+          "zh-CN": "默认外部开火音效",
+          "en-US": "Default Exterior Firing Sound"
+        },
+        "2D Interior Sound": {
+          "zh-CN": "2D内部开火音效",
+          "en-US": "2D Interior Sound"
+        },
+        "Interior Firing Sound": {
+          "zh-CN": "内部开火音效",
+          "en-US": "Interior Firing Sound"
+        },
+        "Exterior Firing Sound": {
+          "zh-CN": "外部开火音效",
+          "en-US": "Exterior Firing Sound"
+        }
+      },
+      "ConfigComments": {}
+    },
+    "RandomNB": {
+      "ModId": "RandomNB",
+      "ConfigLabels": {
+        "Chance": {
+          "zh-CN": "夜战几率",
+          "en-US": "Chance"
+        }
+      },
+      "ConfigComments": {}
+    },
+    "M113TOW": {
+      "ModId": "M113TOW",
+      "ConfigLabels": {
+        "Conversion Chance": {
+          "zh-CN": "转换几率",
+          "en-US": "Conversion Chance"
+        },
+        "Has Thermals": {
+          "zh-CN": "热成像通道",
+          "en-US": "Has Thermals"
+        },
+        "Has Stabilizer": {
+          "zh-CN": "稳定器",
+          "en-US": "Has Stabilizer"
+        },
+        "Use BGM-71C I-TOW": {
+          "zh-CN": "使用BGM-71C I-TOW",
+          "en-US": "Use BGM-71C I-TOW"
+        }
+      },
+      "ConfigComments": {
+        "Integer (default: 40)": {
+          "zh-CN": "整数 (默认: 40)",
+          "en-US": "Integer (default: 40)"
+        },
+        "the thermal sight blocks a ton of frontal vision in commander view lol": {
+          "zh-CN": "热成像瞄准镜挡住了车长视角的大量正面视野，笑死",
+          "en-US": "the thermal sight blocks a ton of frontal vision in commander view lol"
+        }
+      }
+    },
+    "GMPCTextureL": {
+      "ModId": "GMPCTextureL",
+      "ConfigLabels": {
+        "reloadChangedTextures": {
+          "zh-CN": "重载已经更改的贴图",
+          "en-US": "reloadChangedTextures"
+        }
+      },
+      "ConfigComments": {
+        "When this is enabled, the mod will hash the texture files to see if they changed when loading a new scene. This is useful when designing textures, but can slow down map loading when a lot of data has to be processed.": {
+          "zh-CN": "启用此功能后，模组会Hash纹理文件，以查看它们在加载新场景时是否发生变化。这在设计纹理时很有用，但在需要处理大量数据时会降低地图加载速度。",
+          "en-US": "When this is enabled, the mod will hash the texture files to see if they changed when loading a new scene. This is useful when designing textures, but can slow down map loading when a lot of data has to be processed."
+        }
+      }
+    },
+    "GMPC": {
+      "ModId": "GMPC",
+      "ConfigLabels": {
+        "grafenwoehrExtraVehicles": {
+          "zh-CN": "射击场添加额外载具",
+          "en-US": "grafenwoehrExtraVehicles"
+        },
+        "shotStory": {
+          "zh-CN": "实时显示毁伤情况",
+          "en-US": "shotStory"
+        },
+        "fpsCounter": {
+          "zh-CN": "FPS计数器",
+          "en-US": "fpsCounter"
+        },
+        "customCrosshairColor": {
+          "zh-CN": "自定义准星颜色",
+          "en-US": "customCrosshairColor"
+        },
+        "theaterDropdown": {
+          "zh-CN": "theater下拉菜单",
+          "en-US": "theaterDropdown"
+        },
+        "removeThirdPersonCrosshair": {
+          "zh-CN": "去除第三人称准星",
+          "en-US": "removeThirdPersonCrosshair"
+        }
+      },
+      "ConfigComments": {
+        "Enable/Disable the patch that adds extra vehicles to the Grafenwoehr tank range.": {
+          "zh-CN": "启用/禁用：向 Grafenwoehr 坦克射击场添加额外载具的。",
+          "en-US": "Enable/Disable the patch that adds extra vehicles to the Grafenwoehr tank range."
+        },
+        "Enable/Disable the patch that brings back the live damage report.": {
+          "zh-CN": "启用/禁用：恢复实时显示毁伤情况。",
+          "en-US": "Enable/Disable the patch that brings back the live damage report."
+        },
+        "Enable/Disable the patch that brings back the FPS counter in the bottom left corner.": {
+          "zh-CN": "启用/禁用：将 FPS 计数器放置于左下角。",
+          "en-US": "Enable/Disable the patch that brings back the FPS counter in the bottom left corner."
+        },
+        "Enable/Disable the patch that sets a custom third person crosshair color. You can change the colors under [GMPCCustomCrosshairColorConfig].": {
+          "zh-CN": "启用/禁用：设置自定义第三人称准星颜色。您可以在自行在cfg的 [GMPCCustomCrosshairColorConfig] 下更改颜色。",
+          "en-US": "Enable/Disable the patch that sets a custom third person crosshair color. You can change the colors under [GMPCCustomCrosshairColorConfig]."
+        },
+        "Enable/Disable the patch that fixes the theater dropdown menu to not use a scrollbar.": {
+          "zh-CN": "启用/禁用：修复theater下拉菜单不使用滚动条。",
+          "en-US": "Enable/Disable the patch that fixes the theater dropdown menu to not use a scrollbar."
+        },
+        "Enable/Disable the patch that removes the third person crosshair": {
+          "zh-CN": "启用/禁用：移除第三人称准星。",
+          "en-US": "Enable/Disable the patch that removes the third person crosshair"
+        }
+      }
     }
   }
 }
