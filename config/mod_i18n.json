@@ -790,13 +790,13 @@
           "zh-CN": "车长独立热成像仪准星",
           "en-US": "CITV Reticle"
         },
-        "CROWS (M1A1)": {
-          "zh-CN": "遥控武器站 (M1A1)",
-          "en-US": "CROWS (M1A1)"
+        "CROWS (M1A1) <DISABLED>": {
+          "zh-CN": "遥控武器站 (M1A1) <已被禁用>",
+          "en-US": "CROWS (M1A1) <DISABLED>"
         },
-        "CROWS (M1E1)": {
-          "zh-CN": "遥控武器站 (M1E1)",
-          "en-US": "CROWS (M1E1)"
+        "CROWS (M1E1) <DISABLED>": {
+          "zh-CN": "遥控武器站 (M1E1) <已被禁用>",
+          "en-US": "CROWS (M1E1) <DISABLED>"
         },
         "ConversionChance": {
           "zh-CN": "转换几率",
