@@ -22,7 +22,7 @@
     "MainBinaryFileName": "M1A1Abrams.dll",
     "ConfigSectionName": "M1A1Config",
     "InstallMethod": "DirectRelease",
-    "Conflicts": ["M1A1AMP"]
+    "Conflicts": ["M1A1AMP", "NATOERA"]
   },
   {
     "Id": "M1A1AMP",
@@ -36,6 +36,18 @@
     "ConfigSectionName": "M1A1AMPConfig",
     "InstallMethod": "DirectRelease",
     "Conflicts": ["M1A1"]
+  },
+  {
+    "Id": "SM60",
+    "Name": {
+      "en-US": "Super M60",
+      "zh-CN": "超级M60"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/Cyances/Super-M60/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "SuperM60.dll",
+    "ConfigSectionName": "SuperM60Config",
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "M6A2",
@@ -61,7 +73,7 @@
     "MainBinaryFileName": "M3A2Bradley.dll",
     "ConfigSectionName": "",
     "InstallMethod": "DirectRelease",
-    "Conflicts": ["50mm", "M6A2"]
+    "Conflicts": ["50mm", "M6A2", "NATOERA"]
   },
   {
     "Id": "50mm",
@@ -74,7 +86,7 @@
     "MainBinaryFileName": "50mmBradley.dll",
     "ConfigSectionName": "",
     "InstallMethod": "DirectRelease",
-    "Conflicts": ["M6A2", "M3A2"]
+    "Conflicts": ["M6A2", "M3A2", "NATOERA"]
   },
   {
     "Id": "M2ReSound",
@@ -110,7 +122,8 @@
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "1NatoERA.dll",
     "ConfigSectionName": "NATOERAConfig",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": ["50mm", "M3A2", "M1A1"]
   },
   {
     "Id": "ATAC",

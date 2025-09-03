@@ -2430,6 +2430,97 @@
           "en-US": "Enable/Disable the patch that removes the third person crosshair"
         }
       }
+    },
+    "SM60": {
+      "ModId": "SM60",
+      "ConfigLabels": {
+        "M60A3 M900A2": {
+          "zh-CN": "M60A3 M900A2穿甲弹",
+          "en-US": "M60A3 M900A2"
+        },
+        "M60A3 M900 Round Count": {
+          "zh-CN": "M60A3 M900弹药数量",
+          "en-US": "M60A3 M900 Round Count"
+        },
+        "M60A3 M456A3 Round Count": {
+          "zh-CN": "M60A3 M456A3弹药数量",
+          "en-US": "M60A3 M456A3 Round Count"
+        },
+        "M60A3 M393A3 Round Count": {
+          "zh-CN": "M60A3 M393A3弹药数量",
+          "en-US": "M60A3 M393A3 Round Count"
+        },
+        "M60A3 Better Loader": {
+          "zh-CN": "M60A3 更优秀装填手",
+          "en-US": "M60A3 Better Loader"
+        },
+        "M60A3 Better Commander": {
+          "zh-CN": "M60A3 更优秀车长",
+          "en-US": "M60A3 Better Commander"
+        },
+        "M60A3 Better Gunner": {
+          "zh-CN": "M60A3 更优秀炮手",
+          "en-US": "M60A3 Better Gunner"
+        },
+        "M60A1 M900A2": {
+          "zh-CN": "M60A1 M900A2穿甲弹",
+          "en-US": "M60A1 M900A2"
+        },
+        "M60A1 M900 Round Count": {
+          "zh-CN": "M60A1 M900弹药数量",
+          "en-US": "M60A1 M900 Round Count"
+        },
+        "M60A1 M456A3 Round Count": {
+          "zh-CN": "M60A1 M456A3弹药数量",
+          "en-US": "M60A1 M456A3 Round Count"
+        },
+        "M60A1 M393A3 Round Count": {
+          "zh-CN": "M60A1 M393A3弹药数量",
+          "en-US": "M60A1 M393A3 Round Count"
+        },
+        "M60A1 Better Loader": {
+          "zh-CN": "M60A1 更优秀装填手",
+          "en-US": "M60A1 Better Loader"
+        },
+        "M60A1 Better Commander": {
+          "zh-CN": "M60A1 更优秀车长",
+          "en-US": "M60A1 Better Commander"
+        },
+        "M60A1 Better Gunner": {
+          "zh-CN": "M60A1 更优秀炮手",
+          "en-US": "M60A1 Better Gunner"
+        },
+        "HEP Fragments": {
+          "zh-CN": "HEP破片数量",
+          "en-US": "HEP Fragments"
+        }
+      },
+      "ConfigComments": {
+        "Slightly better penetration, and better ERA defeat": {
+          "zh-CN": "穿透力略有提升，并增强对反应装甲（ERA）的克制效果",
+          "en-US": "Slightly better penetration, and better ERA defeat"
+        },
+        "How many rounds per type each upgraded M60A3 should carry. Maximum of 63 rounds total. Bring in at least one primary round.": {
+          "zh-CN": "升级后的 M60A3 每种弹药的携弹量；总弹量上限为 63 发；至少携带一种主弹种",
+          "en-US": "How many rounds per type each upgraded M60A3 should carry. Maximum of 63 rounds total. Bring in at least one primary round."
+        },
+        "M60A3 Crew Proficiency": {
+          "zh-CN": "M60A3 乘员熟练度",
+          "en-US": "M60A3 Crew Proficiency"
+        },
+        "How many rounds per type each upgraded M60A1 should carry. Maximum of 63 rounds total. Bring in at least one primary round.": {
+          "zh-CN": "升级后的 M60A1 每种弹药的携弹量；总弹量上限为 63 发；至少携带一种主弹种",
+          "en-US": "How many rounds per type each upgraded M60A1 should carry. Maximum of 63 rounds total. Bring in at least one primary round."
+        },
+        "M60A1 Crew Proficiency": {
+          "zh-CN": "M60A1 乘员熟练度",
+          "en-US": "M60A1 Crew Proficiency"
+        },
+        "How many fragments are generated when the below round explodes. NOTE: Higher number, means higher performance hit. Be careful in using higher number.": {
+          "zh-CN": "下列弹药爆炸时生成的破片数量。注意：数值越高，对性能影响越大，请谨慎使用较高数值。",
+          "en-US": "How many fragments are generated when the below round explodes. NOTE: Higher number, means higher performance hit. Be careful in using higher number."
+        }
+      }
     }
   }
 }

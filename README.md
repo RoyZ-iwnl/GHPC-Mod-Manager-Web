@@ -7,6 +7,7 @@
 This is the official website repository for **GHPC Mod Manager** - a modern mod management tool designed specifically for Gunner HEAT PC. This repository also serves as the MOD compatibility repository, containing configuration files and documentation for supported mods.
 
 🌐 **Live Website**: [Visit GHPC Mod Manager Website](https://GHPC.DMR.gg/)
+
 🚀 **Main Tool Repository**: [GHPC Mod Manager](https://github.com/RoyZ-iwnl/GHPC-Mod-Manager)
 
 ## Supported Mods
@@ -28,6 +29,7 @@ Currently supported mods that can be managed through GHPC Mod Manager:
 - **[M113 TOW](https://github.com/thebeninator/M113-TOW)**
 - **[GMPC Texture Loader](https://github.com/Andrix44/GMPCTextureLoader)**
 - **[Gunner Mod PC](https://github.com/Andrix44/GunnerModPC)**
+- **[Super M60](https://github.com/Cyances/Super-M60)**
 
 ### More MOD adaptations coming...
 

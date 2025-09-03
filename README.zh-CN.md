@@ -7,6 +7,7 @@
 这是 **GHPC Mod Manager** 的官方网站仓库 - 一个专为 Gunner HEAT PC 设计的现代化模组管理工具。此仓库也作为 MOD 兼容性仓库，包含支持模组的配置文件和文档。
 
 🌐 **在线网站**: [访问 GHPC Mod Manager 网站](https://GHPC.DMR.gg/)
+
 🚀 **主工具仓库**: [GHPC Mod Manager](https://github.com/RoyZ-iwnl/GHPC-Mod-Manager)
 
 ## 支持的模组
@@ -28,6 +29,7 @@
 - **[M113 TOW (M113 "陶")](https://github.com/thebeninator/M113-TOW)**
 - **[GMPC Texture Loader (贴图更换工具)](https://github.com/Andrix44/GMPCTextureLoader)**
 - **[Gunner Mod PC (GMPC增强插件)](https://github.com/Andrix44/GunnerModPC)**
+- **[Super M60 (超级M60)](https://github.com/Cyances/Super-M60)**
 
 ### 更多MOD适配中...
 
