@@ -2,11 +2,25 @@
 
 ## Announcement
 
+### 2025-09-04
+
+- v1.0.0 Version has been released! Looking forward to your feedback and suggestions! If you encounter conflicts between mods, you can also report them so that we can add conflict detection.<br>
+[DOWNLOAD HERE](https://github.com/RoyZ-iwnl/GHPC-Mod-Manager/releases)
+
 ### 2025-09-03
 
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.0.0
+
+#### feat: Release version 1.0.0 with improved localization and system enhancements
+  - Add mod update checking functionality
+  - Enhance resource strings with better organization and new entries
+  - Improve logging system with proper localized messages
+  - Refactor theme initialization and color handling
+  - Update version to 1.0.0 stable release
 
 ### v1.0.0-beta.3
 
