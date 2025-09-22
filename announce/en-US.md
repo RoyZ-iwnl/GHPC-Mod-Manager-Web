@@ -2,6 +2,10 @@
 
 ## Announcement
 
+### 2025-09-23
+
+- v1.0.1 Version has been released! Fixed several minor issues, details are in the update log below.
+
 ### 2025-09-04
 
 - v1.0.0 Version has been released! Looking forward to your feedback and suggestions! If you encounter conflicts between mods, you can also report them so that we can add conflict detection.<br>
@@ -12,6 +16,18 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.0.1
+
+#### feat: Release version 1.0.1 with enhanced file tracking and translation management
+  - Add comprehensive file operation tracking system
+  - Implement translation plugin management with enable/disable functionality
+  - Enhance network connectivity testing with proxy and direct connection
+  - Improve mod installation process with tracked file operations
+  - Add translation backup service and unified manifest support
+  - Update resource strings with new translation entries
+  - Enhance mod uninstall/reinstall capabilities for manual mods
+  - Update version to 1.0.1 stable release
 
 ### v1.0.0
 
