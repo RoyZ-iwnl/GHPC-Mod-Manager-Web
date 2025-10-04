@@ -2,6 +2,11 @@
 
 ## Announcement
 
+### 2025-10-01
+
+- v1.1.0-beta.1 beta version is now available with the in-app updater and translation upgrades. See the changelog below for details.
+- Add support for Mod: Stabilized BMP-1
+
 ### 2025-09-23
 
 - v1.0.1 Version has been released! Fixed several minor issues, details are in the update log below.
@@ -16,6 +21,14 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.1.0-beta.1
+
+#### feat: Beta version 1.1.0-beta.1 with in-app updater and translation upgrades
+  - Update Check: Configurable stable/beta update channels with background checks and installer flow
+  - Detect manual translation installs, track release timestamps, and surface update availability in UI
+  - Revamp download pipeline with IDM-style chunking plus throttled rate-limit warnings
+  - Expand UI: update banner, settings update button, log filters/export, enlarged layouts, refreshed strings
 
 ### v1.0.1
 

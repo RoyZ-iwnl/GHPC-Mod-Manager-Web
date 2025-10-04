@@ -101,6 +101,18 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "BMP1ST",
+    "Name": {
+      "en-US": "Stabilized BMP-1",
+      "zh-CN": "BMP-1稳定器"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/Stabilized-BMP-1/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "StabilizedBMP1.dll",
+    "ConfigSectionName": "Stabilized-BMP-1",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "FireRT",
     "Name": {
       "en-US": "M2/BMP2 Fire Rate Toggle(Press B)",

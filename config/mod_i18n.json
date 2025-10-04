@@ -2521,6 +2521,21 @@
           "en-US": "How many fragments are generated when the below round explodes. NOTE: Higher number, means higher performance hit. Be careful in using higher number."
         }
       }
+    },
+    "BMP1ST":{
+      "ModId": "BMP1ST",
+      "ConfigLabels": {
+        "BMP-1P Konkurs Stab": {
+          "zh-CN": "BMP-1P“竞赛”稳定器",
+          "en-US": "BMP-1P Konkurs Stab"
+        }
+      },
+      "ConfigComments": {
+        "Gives the Konkurs on the BMP-1P a stabilizer": {
+          "zh-CN": "为BMP-1P上的“竞赛”提供稳定器",
+          "en-US": "Gives the Konkurs on the BMP-1P a stabilizer"
+        }
+      }
     }
   }
 }

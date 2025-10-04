@@ -26,6 +26,7 @@ Currently supported mods that can be managed through GHPC Mod Manager:
 - **[NATO ERA](https://github.com/Cyances/NATO-ERA)**
 - **[Any Tank Any Campaign](https://github.com/Cyances/Any-Tank-Any-Campaign)**
 - **[Random Night Battles](https://github.com/thebeninator/Random-Night-Battles)**
+- **[Stabilized BMP-1](https://github.com/thebeninator/Stabilized-BMP-1)**
 - **[M113 TOW](https://github.com/thebeninator/M113-TOW)**
 - **[GMPC Texture Loader](https://github.com/Andrix44/GMPCTextureLoader)**
 - **[Gunner Mod PC](https://github.com/Andrix44/GunnerModPC)**
