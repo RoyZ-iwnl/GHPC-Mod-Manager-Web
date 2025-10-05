@@ -2,14 +2,19 @@
 
 ## Announcement
 
+### 2025-10-05
+
+- v1.1.0 with polish translation UX and update flows with smarter downloads is now available! See the [changelog](#changelog) below for details.
+- Add support for Mod: Customizer Unrestricted
+
 ### 2025-10-01
 
-- v1.1.0-beta.1 beta version is now available with the in-app updater and translation upgrades. See the changelog below for details.
+- v1.1.0-beta.1 beta version is now available with the in-app updater and translation upgrades. See the [changelog](#changelog) below for details.
 - Add support for Mod: Stabilized BMP-1
 
 ### 2025-09-23
 
-- v1.0.1 Version has been released! Fixed several minor issues, details are in the update log below.
+- v1.0.1 Version has been released! Fixed several minor issues, details are in the [changelog](#changelog) below.
 
 ### 2025-09-04
 
@@ -21,6 +26,14 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.1.0
+
+#### feat: Release version 1.1.0 with polish translation UX and update flows with smarter downloads
+  - Add translation language display converter, smart window sizing, and zh-only community shortcuts
+  - Guard manual translation management, localize messages, and avoid duplicate startup update checks
+  - Rework mod/app update detection to reuse GitHub API URLs with semantic version comparison
+  - Enhance IDM-style downloader with work stealing and expand localized logging resources
 
 ### v1.1.0-beta.1
 

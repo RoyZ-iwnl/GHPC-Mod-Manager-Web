@@ -26,6 +26,7 @@
 - **[NATO ERA (北约爆反)](https://github.com/Cyances/NATO-ERA)**
 - **[Any Tank Any Campaign (自定义战役坦克)](https://github.com/Cyances/Any-Tank-Any-Campaign)**
 - **[Random Night Battles (随机夜战)](https://github.com/thebeninator/Random-Night-Battles)**
+- **[Customizer Unrestricted (无限制自定义)](https://github.com/thebeninator/CustomizerUnrestricted)**
 - **[BMP-1 稳定器 (Stabilized BMP-1)](https://github.com/thebeninator/Stabilized-BMP-1)**
 - **[M113 TOW (M113 "陶")](https://github.com/thebeninator/M113-TOW)**
 - **[GMPC Texture Loader (贴图更换工具)](https://github.com/Andrix44/GMPCTextureLoader)**

@@ -162,6 +162,18 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "UCust",
+    "Name": {
+      "en-US": "Unrestricted Customizer",
+      "zh-CN": "无限制自定义"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/CustomizerUnrestricted/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "UnrestrictedCustomizer.dll",
+    "ConfigSectionName": "",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "M113TOW",
     "Name": {
       "en-US": "M113 TOW",
