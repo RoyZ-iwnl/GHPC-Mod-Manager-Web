@@ -47,7 +47,8 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "SuperM60.dll",
     "ConfigSectionName": "SuperM60Config",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": ["M1A1", "PactIL"]
   },
   {
     "Id": "M6A2",
