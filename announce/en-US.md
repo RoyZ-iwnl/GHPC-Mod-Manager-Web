@@ -2,6 +2,10 @@
 
 ## Announcement
 
+### 2025-10-09
+
+- v1.1.1-beta.1 beta version is now available with BepInEx detection and UI enhancements. See the [changelog](#changelog) below for details.
+
 ### 2025-10-05
 
 - v1.1.0 with polish translation UX and update flows with smarter downloads is now available! See the [changelog](#changelog) below for details.
@@ -26,6 +30,16 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.1.1-beta.1
+
+#### feat: Beta version 1.1.1-beta.1 with BepInEx detection and UI enhancements
+  - Add BepInEx detection logic to prevent conflicts with existing installations
+  - Introduce BooleanAndToVisibilityConverter for complex UI binding scenarios
+  - Update version to 1.1.1-beta.1 with WebView2 dependency integration
+  - Enhance string resources and localization infrastructure
+  - Improve network service stability and error handling
+  - Refine translation manager and update service reliability
 
 ### v1.1.0
 
