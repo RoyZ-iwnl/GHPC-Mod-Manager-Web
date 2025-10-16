@@ -36,6 +36,16 @@ function updateLanguage(lang) {
         }
     });
     
+    // Toggle language-specific visibility
+    const langSpecificElements = document.querySelectorAll('[data-lang-only]');
+    langSpecificElements.forEach(element => {
+        if (element.dataset.langOnly === lang) {
+            element.classList.remove('is-hidden');
+        } else {
+            element.classList.add('is-hidden');
+        }
+    });
+    
     // Update alt text for images
     const images = document.querySelectorAll('[data-zh-alt], [data-en-alt]');
     images.forEach(img => {

@@ -856,6 +856,14 @@ body {
   margin-right: auto;
 }
 
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-16);
+  margin-bottom: var(--space-32);
+}
+
 .btn--hero {
   padding: var(--space-16) var(--space-32);
   font-size: var(--font-size-lg);
@@ -896,6 +904,23 @@ body {
 
 .btn--hero:active {
   transform: translateY(0);
+}
+
+.btn--hero.btn--mirror {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-4);
+}
+
+.btn--hero .download-note {
+  font-size: var(--font-size-sm);
+  opacity: 0.85;
+}
+
+.is-hidden {
+  display: none !important;
 }
 
 /* Features Section */
