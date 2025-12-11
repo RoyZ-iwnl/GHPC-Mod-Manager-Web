@@ -4,6 +4,7 @@
 
 ### 2025-12-11
 
+- v1.1.2-beta.1 beta version is now available with offline mode, launch validation, and MOD update date display. See the [changelog](#v112-beta1) below for details.
 - If you are using PACT IL or M1A1 mods or M113 TOW,please install "Vehicle Preloader" Mod for the latest GHPC update(20251030.2)
 
 ### 2025-10-11
@@ -38,6 +39,17 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.1.2-beta.1
+
+#### feat: Beta version 1.1.2-beta.1 with offline mode, launch checks, and MOD update date display
+  - Introduce offline mode with graceful fallback when network unavailable, allowing local operations while blocking installs/updates
+  - Add pre-launch conflict and dependency validation with user confirmation dialogs to prevent runtime issues
+  - Display MOD update dates with relative time format (today/yesterday/X days ago) alongside version numbers
+  - Preserve disabled MOD backups during cleanup, only remove uninstalled backups to maintain rollback capability
+  - Enhance GitHub rate limit message with proxy server switching suggestion
+  - Simplify .gitignore by removing AI assistant file exclusions
+  - Bump version to 1.1.2-beta.1 with updated assembly metadata
 
 ### v1.1.1
 
