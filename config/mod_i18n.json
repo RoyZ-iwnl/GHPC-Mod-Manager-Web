@@ -2536,6 +2536,19 @@
           "en-US": "Gives the Konkurs on the BMP-1P a stabilizer"
         }
       }
+    },
+    "minhud":{
+      "ModId": "minhud",
+      "ConfigLabels": {
+        "Hide HUD in gunner view": {
+          "zh-CN": "炮手视角隐藏HUD",
+          "en-US": "Hide HUD in gunner view"
+        },
+        "Only hide compass (gunner view)": {
+          "zh-CN": "炮手视角仅隐藏罗盘",
+          "en-US": "Only hide compass (gunner view)"
+        }
+      }
     }
   }
 }

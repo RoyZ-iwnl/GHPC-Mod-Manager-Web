@@ -1,5 +1,16 @@
 [
   {
+    "Id": "Vprel",
+    "Name": {
+      "en-US": "Vehicle Preloader",
+      "zh-CN": "载具预载支持模块"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/VehiclePreloader/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "VehiclePreloader.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "PactIL",
     "Name": {
       "en-US": "Pact Increased Lethality",
@@ -7,6 +18,7 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
+    "Requirements": ["Vprel"],
     "MainBinaryFileName": "PactIncreasedLethality.dll",
     "ConfigSectionName": "PactIncreasedLethality",
     "InstallMethod": "DirectRelease"
@@ -19,6 +31,7 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
     "TargetFileNameKeyword": ".zip",
+    "Requirements": ["Vprel"],
     "MainBinaryFileName": "M1A1Abrams.dll",
     "ConfigSectionName": "M1A1Config",
     "InstallMethod": "DirectRelease",
@@ -32,6 +45,7 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/Cyances/M1A1AbramsAMP/releases/latest",
     "TargetFileNameKeyword": ".zip",
+    "Requirements": ["Vprel"],
     "MainBinaryFileName": "zzM1A1AbramsAMP.dll",
     "ConfigSectionName": "M1A1AMPConfig",
     "InstallMethod": "DirectRelease",
@@ -49,6 +63,18 @@
     "ConfigSectionName": "SuperM60Config",
     "InstallMethod": "DirectRelease",
     "Conflicts": ["M1A1", "PactIL"]
+  },
+  {
+    "Id": "minhud",
+    "Name": {
+      "en-US": "Min HUD",
+      "zh-CN": "最小化UI"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/MinHud/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "MinHud.dll",
+    "ConfigSectionName": "MinHud",
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "M6A2",
@@ -182,6 +208,7 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
     "TargetFileNameKeyword": ".dll",
+    "Requirements": ["Vprel"],
     "MainBinaryFileName": "M113Tow.dll",
     "ConfigSectionName": "M113TOW",
     "InstallMethod": "DirectRelease"
