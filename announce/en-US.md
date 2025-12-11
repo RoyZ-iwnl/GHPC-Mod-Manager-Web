@@ -2,6 +2,10 @@
 
 ## Announcement
 
+### 2025-12-11
+
+- If you are using PACT IL or M1A1 mods or M113 TOW,please install "Vehicle Preloader" Mod for the latest GHPC update(20251030.2)
+
 ### 2025-10-11
 
 - v1.1.1 stable release is now available with Steam auto-discovery and translation UX upgrades. See the [changelog](#v111) below for details.
