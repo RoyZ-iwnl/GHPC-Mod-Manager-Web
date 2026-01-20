@@ -2,6 +2,10 @@
 
 ## Announcement
 
+### 2026-01-20
+
+- v1.1.2 stable release is now available with singleton navigation optimization and resource regeneration. See the [changelog](#v112) below for details.
+
 ### 2025-12-11
 
 - v1.1.2-beta.1 beta version is now available with offline mode, launch validation, and MOD update date display. See the [changelog](#v112-beta1) below for details.
@@ -39,6 +43,12 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.1.2
+
+#### feat: Release version 1.1.2 with singleton navigation optimization and resource regeneration
+  - Convert MainViewModel and MainView to singleton lifetime to prevent recreation during navigation
+  - Include 1.1.2-beta.1 update
 
 ### v1.1.2-beta.1
 

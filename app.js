@@ -12,15 +12,29 @@ document.addEventListener('DOMContentLoaded', function() {
 function initLanguageToggle() {
     const langToggle = document.getElementById('langToggle');
     const langText = document.querySelector('.lang-text');
-    let currentLang = 'zh'; // Default to Chinese
-    
+
+    // Check URL parameter for initial language
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlLang = urlParams.get('lang');
+    let currentLang = (urlLang === 'en') ? 'en' : 'zh'; // Default to Chinese
+
     // Set initial language
     updateLanguage(currentLang);
-    
+    langText.textContent = currentLang === 'zh' ? 'EN' : '中文';
+
     langToggle.addEventListener('click', function() {
         currentLang = currentLang === 'zh' ? 'en' : 'zh';
         updateLanguage(currentLang);
         langText.textContent = currentLang === 'zh' ? 'EN' : '中文';
+
+        // Update URL parameter without reloading the page
+        const newUrl = new URL(window.location);
+        if (currentLang === 'en') {
+            newUrl.searchParams.set('lang', 'en');
+        } else {
+            newUrl.searchParams.delete('lang');
+        }
+        window.history.pushState({}, '', newUrl);
     });
 }
 
@@ -58,12 +72,26 @@ function updateLanguage(lang) {
     
     // Update html lang attribute
     htmlTag.lang = lang === 'zh' ? 'zh-CN' : 'en-US';
-    
-    // Update document title
+
+    // Update document title and meta description
     if (lang === 'zh') {
         document.title = 'GHPC Mod Manager - 专业的Gunner HEAT PC模组管理工具';
+        updateMetaTag('description', 'GHPC Mod Manager - 专业的Gunner HEAT PC模组管理工具，支持多线程下载、一键安装翻译插件，让您专注于游戏体验');
+        updateMetaTag('og:title', 'GHPC Mod Manager - 专业的Gunner HEAT PC模组管理工具');
+        updateMetaTag('og:description', '支持多线程下载、一键安装翻译插件，让您专注于游戏体验');
     } else {
         document.title = 'GHPC Mod Manager - Professional Mod Management for Gunner HEAT PC';
+        updateMetaTag('description', 'GHPC Mod Manager - Professional mod management tool for Gunner HEAT PC. Multi-threaded downloads, one-click translation plugin installation for enhanced gaming experience');
+        updateMetaTag('og:title', 'GHPC Mod Manager - Professional Mod Management for Gunner HEAT PC');
+        updateMetaTag('og:description', 'Multi-threaded downloads, one-click translation plugin installation for enhanced gaming experience');
+    }
+}
+
+// Helper function to update meta tags
+function updateMetaTag(name, content) {
+    let metaTag = document.querySelector(`meta[name="${name}"]`) || document.querySelector(`meta[property="${name}"]`);
+    if (metaTag) {
+        metaTag.setAttribute('content', content);
     }
 }
 
