@@ -236,5 +236,17 @@
     "MainBinaryFileName": "GunnerModPC.dll",
     "ConfigSectionName": "GMPCConfig",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "Binoaim",
+    "Name": {
+      "en-US": "Bino Aim",
+      "zh-CN": "车长超控瞄准放大限制解除"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/BinoAim/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "BinoAim.dll",
+    "ConfigSectionName": "BinoAim",
+    "InstallMethod": "DirectRelease"
   }
 ]
