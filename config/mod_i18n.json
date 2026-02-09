@@ -2556,12 +2556,14 @@
         "Allow shooting": {
           "zh-CN": "允许射击",
           "en-US": "Allow shooting"
-        },
+        }
+      },
+        "ConfigComments": {
         "Allow/disallow shooting while using binoculars": {
           "zh-CN": "允许或不允许在车长放大视角下超控射击",
           "en-US": "Allow/disallow shooting while using binoculars"
         }
+        }
       }
     }
   }
-}
