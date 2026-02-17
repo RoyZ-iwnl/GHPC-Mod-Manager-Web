@@ -2,6 +2,12 @@
 
 ## Announcement
 
+### 2026-02-18
+- Some mods are outdated for the latest Steam version, so we’ve released priority version updates. Please uninstall the originals mods before use, your settings will be saved.Contact me for more priority mod updates.
+  - Pact Increased Lethality
+  - M6A2 ADATS
+  - 50mm Bradley
+
 ### 2026-01-20
 
 - v1.1.2 stable release is now available with singleton navigation optimization and resource regeneration. See the [changelog](#v112) below for details.

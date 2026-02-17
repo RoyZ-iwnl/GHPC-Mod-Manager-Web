@@ -11,6 +11,18 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "Binoaim",
+    "Name": {
+      "en-US": "Bino Aim",
+      "zh-CN": "车长超控瞄准放大限制解除"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/BinoAim/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "BinoAim.dll",
+    "ConfigSectionName": "BinoAim",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "PactIL",
     "Name": {
       "en-US": "Pact Increased Lethality",
@@ -18,10 +30,34 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
-    "Requirements": ["Vprel"],
+    "Requirements": [
+      "Vprel"
+    ],
     "MainBinaryFileName": "PactIncreasedLethality.dll",
     "ConfigSectionName": "PactIncreasedLethality",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "PactILROY",
+      "SM60"
+    ]
+  },
+  {
+    "Id": "PactILROY",
+    "Name": {
+      "en-US": "Pact Increased Lethality(Priority version)",
+      "zh-CN": "华约增强模组(优先更新版)"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/Pact-Increased-Lethality/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "Requirements": [
+      "Vprel"
+    ],
+    "MainBinaryFileName": "PactIncreasedLethalityROY.dll",
+    "ConfigSectionName": "PactIncreasedLethality",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "PactIL"
+    ]
   },
   {
     "Id": "M1A1",
@@ -31,11 +67,17 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
     "TargetFileNameKeyword": ".zip",
-    "Requirements": ["Vprel"],
+    "Requirements": [
+      "Vprel"
+    ],
     "MainBinaryFileName": "M1A1Abrams.dll",
     "ConfigSectionName": "M1A1Config",
     "InstallMethod": "DirectRelease",
-    "Conflicts": ["M1A1AMP", "NATOERA"]
+    "Conflicts": [
+      "M1A1AMP",
+      "NATOERA",
+      "SM60"
+    ]
   },
   {
     "Id": "M1A1AMP",
@@ -45,11 +87,15 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/Cyances/M1A1AbramsAMP/releases/latest",
     "TargetFileNameKeyword": ".zip",
-    "Requirements": ["Vprel"],
+    "Requirements": [
+      "Vprel"
+    ],
     "MainBinaryFileName": "zzM1A1AbramsAMP.dll",
     "ConfigSectionName": "M1A1AMPConfig",
     "InstallMethod": "DirectRelease",
-    "Conflicts": ["M1A1"]
+    "Conflicts": [
+      "M1A1"
+    ]
   },
   {
     "Id": "SM60",
@@ -62,19 +108,27 @@
     "MainBinaryFileName": "SuperM60.dll",
     "ConfigSectionName": "SuperM60Config",
     "InstallMethod": "DirectRelease",
-    "Conflicts": ["M1A1", "PactIL"]
+    "Conflicts": [
+      "M1A1",
+      "PactIL"
+    ]
   },
   {
-    "Id": "minhud",
+    "Id": "M6A2ROY",
     "Name": {
-      "en-US": "Min HUD",
-      "zh-CN": "最小化UI"
+      "en-US": "M6A2 ADATS(Priority version)",
+      "zh-CN": "M6A2 \"阿达茨\"布雷德利(优先更新版)"
     },
-    "ReleaseUrl": "https://api.github.com/repos/thebeninator/MinHud/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/M6A2-ADATS/releases/latest",
     "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "MinHud.dll",
-    "ConfigSectionName": "MinHud",
-    "InstallMethod": "DirectRelease"
+    "MainBinaryFileName": "zM6A2AdatsROY.dll",
+    "ConfigSectionName": "ADATSConfig",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "50mm",
+      "M3A2",
+      "M6A2"
+    ]
   },
   {
     "Id": "M6A2",
@@ -87,7 +141,12 @@
     "MainBinaryFileName": "zM6A2Adats.dll",
     "ConfigSectionName": "ADATSConfig",
     "InstallMethod": "DirectRelease",
-    "Conflicts": ["50mm", "M3A2"]
+    "Conflicts": [
+      "50mm",
+      "M3A2",
+      "M6A2ROY",
+      "50mmROY"
+    ]
   },
   {
     "Id": "M3A2",
@@ -100,7 +159,31 @@
     "MainBinaryFileName": "M3A2Bradley.dll",
     "ConfigSectionName": "",
     "InstallMethod": "DirectRelease",
-    "Conflicts": ["50mm", "M6A2", "NATOERA"]
+    "Conflicts": [
+      "50mm",
+      "M6A2",
+      "NATOERA",
+      "M6A2ROY",
+      "50mmROY"
+    ]
+  },
+  {
+    "Id": "50mmROY",
+    "Name": {
+      "en-US": "50mm Bradley(Priority version)",
+      "zh-CN": "50毫米布雷德利(优先更新版)"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/50mm-Bradley/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "50mmBradleyROY.dll",
+    "ConfigSectionName": "",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "M6A2",
+      "M3A2",
+      "NATOERA",
+      "50mm"
+    ]
   },
   {
     "Id": "50mm",
@@ -113,7 +196,13 @@
     "MainBinaryFileName": "50mmBradley.dll",
     "ConfigSectionName": "",
     "InstallMethod": "DirectRelease",
-    "Conflicts": ["M6A2", "M3A2", "NATOERA"]
+    "Conflicts": [
+      "M6A2",
+      "M3A2",
+      "NATOERA",
+      "50mmROY",
+      "M6A2ROY"
+    ]
   },
   {
     "Id": "M2ReSound",
@@ -152,6 +241,21 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "M113TOW",
+    "Name": {
+      "en-US": "M113 TOW",
+      "zh-CN": "M113 “陶”"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "Requirements": [
+      "Vprel"
+    ],
+    "MainBinaryFileName": "M113Tow.dll",
+    "ConfigSectionName": "M113TOW",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "NATOERA",
     "Name": {
       "en-US": "NATO ERA",
@@ -162,7 +266,24 @@
     "MainBinaryFileName": "1NatoERA.dll",
     "ConfigSectionName": "NATOERAConfig",
     "InstallMethod": "DirectRelease",
-    "Conflicts": ["50mm", "M3A2", "M1A1"]
+    "Conflicts": [
+      "50mm",
+      "M3A2",
+      "M1A1",
+      "50mmROY"
+    ]
+  },
+  {
+    "Id": "minhud",
+    "Name": {
+      "en-US": "Min HUD",
+      "zh-CN": "最小化UI"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/MinHud/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "MinHud.dll",
+    "ConfigSectionName": "MinHud",
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "ATAC",
@@ -201,19 +322,6 @@
     "InstallMethod": "DirectRelease"
   },
   {
-    "Id": "M113TOW",
-    "Name": {
-      "en-US": "M113 TOW",
-      "zh-CN": "M113 “陶”"
-    },
-    "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
-    "TargetFileNameKeyword": ".dll",
-    "Requirements": ["Vprel"],
-    "MainBinaryFileName": "M113Tow.dll",
-    "ConfigSectionName": "M113TOW",
-    "InstallMethod": "DirectRelease"
-  },
-  {
     "Id": "GMPCTextureL",
     "Name": {
       "en-US": "GMPC Texture Loader",
@@ -235,18 +343,6 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "GunnerModPC.dll",
     "ConfigSectionName": "GMPCConfig",
-    "InstallMethod": "DirectRelease"
-  },
-  {
-    "Id": "Binoaim",
-    "Name": {
-      "en-US": "Bino Aim",
-      "zh-CN": "车长超控瞄准放大限制解除"
-    },
-    "ReleaseUrl": "https://api.github.com/repos/thebeninator/BinoAim/releases/latest",
-    "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "BinoAim.dll",
-    "ConfigSectionName": "BinoAim",
     "InstallMethod": "DirectRelease"
   }
 ]
