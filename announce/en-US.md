@@ -7,6 +7,7 @@
   - Pact Increased Lethality
   - M6A2 ADATS
   - 50mm Bradley
+- When you toggle off the priority version mod may cause a display bug on v1.1.2, It shows both versions installed, but only the priority one is real. Don't touch the original mod—just toggle the priority version. I'll release a beta to fix the display bug soon. Remember to uninstall the original before installing the priority version.
 
 ### 2026-01-20
 
