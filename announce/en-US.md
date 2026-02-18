@@ -2,6 +2,12 @@
 
 ## Announcement
 
+### 2026-02-19
+
+- v1.1.3-beta.1 beta version is now available with GitHub API token support and parallel loading optimization. See the [changelog](#v113-beta1) below for details.
+- Configure GitHub Token to bypass rate limits (60→5000 requests/hour).
+- Optimized MOD loading and update checking with parallel processing to significantly reduce startup time.
+
 ### 2026-02-18
 - Some mods are outdated for the latest Steam version, so we’ve released priority version updates. Please uninstall the originals mods before use, your settings will be saved.Contact me for more priority mod updates.
   - Pact Increased Lethality
@@ -50,6 +56,18 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.1.3-beta.1
+
+#### feat: Beta version 1.1.3-beta.1 with GitHub API token support and parallel loading optimization
+  - Add GitHub API token authentication to bypass rate limits (60→5000 requests/hour) with automatic direct connection
+  - Optimize MOD loading with parallel GitHub version fetching to reduce startup time
+  - Parallelize version update checks across all MODs for faster refresh
+  - Fix backup file name matching logic by extracting original filename from backup path
+  - Fix IsSupportedManualMod flag for manually installed MODs
+  - Add translation tips panel warning about FPS impact and hotkey conflicts
+  - Disable proxy settings when GitHub token is configured to ensure direct API access
+  - Bump version to 1.1.3-beta.1 with updated assembly metadata
 
 ### v1.1.2
 
