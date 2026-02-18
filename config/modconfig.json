@@ -30,12 +30,12 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
-    "Requirements": [
-      "Vprel"
-    ],
     "MainBinaryFileName": "PactIncreasedLethality.dll",
     "ConfigSectionName": "PactIncreasedLethality",
     "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Vprel"
+    ],
     "Conflicts": [
       "PactILROY",
       "SM60"
@@ -49,12 +49,12 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
-    "Requirements": [
-      "Vprel"
-    ],
     "MainBinaryFileName": "PactIncreasedLethalityROY.dll",
     "ConfigSectionName": "PactIncreasedLethality",
     "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Vprel"
+    ],
     "Conflicts": [
       "PactIL"
     ]
@@ -67,12 +67,12 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
     "TargetFileNameKeyword": ".zip",
-    "Requirements": [
-      "Vprel"
-    ],
     "MainBinaryFileName": "M1A1Abrams.dll",
     "ConfigSectionName": "M1A1Config",
     "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Vprel"
+    ],
     "Conflicts": [
       "M1A1AMP",
       "NATOERA",
@@ -87,12 +87,12 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/Cyances/M1A1AbramsAMP/releases/latest",
     "TargetFileNameKeyword": ".zip",
-    "Requirements": [
-      "Vprel"
-    ],
     "MainBinaryFileName": "zzM1A1AbramsAMP.dll",
     "ConfigSectionName": "M1A1AMPConfig",
     "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Vprel"
+    ],
     "Conflicts": [
       "M1A1"
     ]
@@ -124,6 +124,9 @@
     "MainBinaryFileName": "zM6A2AdatsROY.dll",
     "ConfigSectionName": "ADATSConfig",
     "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Vprel"
+    ],
     "Conflicts": [
       "50mm",
       "M3A2",
@@ -157,7 +160,6 @@
     "ReleaseUrl": "https://api.github.com/repos/SovGrenadier/M3A2-Bradley-GHPC/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "M3A2Bradley.dll",
-    "ConfigSectionName": "",
     "InstallMethod": "DirectRelease",
     "Conflicts": [
       "50mm",
@@ -176,8 +178,10 @@
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/50mm-Bradley/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "50mmBradleyROY.dll",
-    "ConfigSectionName": "",
     "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Vprel"
+    ],
     "Conflicts": [
       "M6A2",
       "M3A2",
@@ -194,7 +198,6 @@
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/50mm-Bradley/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "50mmBradley.dll",
-    "ConfigSectionName": "",
     "InstallMethod": "DirectRelease",
     "Conflicts": [
       "M6A2",
@@ -237,7 +240,6 @@
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/FireRateToggle/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "FireRateToggle.dll",
-    "ConfigSectionName": "",
     "InstallMethod": "DirectRelease"
   },
   {
@@ -248,12 +250,12 @@
     },
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
     "TargetFileNameKeyword": ".dll",
-    "Requirements": [
-      "Vprel"
-    ],
     "MainBinaryFileName": "M113Tow.dll",
     "ConfigSectionName": "M113TOW",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Vprel"
+    ]
   },
   {
     "Id": "NATOERA",
@@ -318,7 +320,6 @@
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/CustomizerUnrestricted/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "UnrestrictedCustomizer.dll",
-    "ConfigSectionName": "",
     "InstallMethod": "DirectRelease"
   },
   {

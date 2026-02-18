@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GHPC Mod Config 编辑器</title>
+  <style>
+    /* ===== 全局样式 ===== */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+      background: #0f1117;
+      color: #e0e0e0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ===== 顶部标题栏 ===== */
+    header {
+      background: #1a1d2e;
+      border-bottom: 1px solid #2e3250;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-shrink: 0;
+    }
+
+    header h1 {
+      font-size: 18px;
+      color: #7eb8f7;
+    }
+
+    header span {
+      font-size: 12px;
+      color: #666;
+    }
+
+    .header-actions {
+      margin-left: auto;
+      display: flex;
+      gap: 8px;
+    }
+
+    /* ===== 按钮通用 ===== */
+    button {
+      border: none;
+      border-radius: 6px;
+      padding: 7px 14px;
+      cursor: pointer;
+      font-size: 13px;
+      transition: background 0.2s;
+    }
+
+    .btn-primary {
+      background: #3b82f6;
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: #2563eb;
+    }
+
+    .btn-success {
+      background: #22c55e;
+      color: #fff;
+    }
+
+    .btn-success:hover {
+      background: #16a34a;
+    }
+
+    .btn-danger {
+      background: #ef4444;
+      color: #fff;
+    }
+
+    .btn-danger:hover {
+      background: #dc2626;
+    }
+
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid #3e4263;
+      color: #aaa;
+    }
+
+    .btn-ghost:hover {
+      background: #2a2d42;
+      color: #fff;
+    }
+
+    /* ===== 主体布局：左右分栏 ===== */
+    .main {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* ===== 左侧编辑区 ===== */
+    .editor-panel {
+      width: 55%;
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid #2e3250;
+      overflow: hidden;
+    }
+
+    .panel-header {
+      background: #141624;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 1px solid #2e3250;
+      flex-shrink: 0;
+    }
+
+    .panel-header h2 {
+      font-size: 14px;
+      color: #aaa;
+      font-weight: 500;
+    }
+
+    .mod-count {
+      background: #3b82f6;
+      color: #fff;
+      border-radius: 12px;
+      padding: 2px 8px;
+      font-size: 12px;
+    }
+
+    .mod-list {
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 12px;
+      min-height: 0;
+    }
+
+    .mod-list>* {
+      margin-bottom: 10px;
+    }
+
+    .mod-list>*:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ===== Mod 卡片 ===== */
+    .mod-card {
+      background: #1a1d2e;
+      border: 1px solid #2e3250;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+
+    .mod-card:hover {
+      border-color: #4e5580;
+    }
+
+    .mod-card.active {
+      border-color: #3b82f6;
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      padding: 10px 14px;
+      cursor: pointer;
+      background: #1e2236;
+      user-select: none;
+    }
+
+    .card-header:hover {
+      background: #242840;
+    }
+
+    .card-index {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: #3b82f6;
+      color: #fff;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-right: 10px;
+    }
+
+    .card-title {
+      flex: 1;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .card-subtitle {
+      font-size: 11px;
+      color: #666;
+      margin-top: 2px;
+    }
+
+    .card-toggle {
+      font-size: 18px;
+      color: #555;
+      transition: transform 0.2s;
+    }
+
+    .card-toggle.open {
+      transform: rotate(90deg);
+    }
+
+    .card-body {
+      display: none;
+      padding: 14px;
+      border-top: 1px solid #2e3250;
+    }
+
+    .card-body.open {
+      display: block;
+    }
+
+    /* ===== 表单字段 ===== */
+    .form-row {
+      margin-bottom: 12px;
+    }
+
+    .form-row label {
+      display: block;
+      font-size: 12px;
+      color: #888;
+      margin-bottom: 4px;
+    }
+
+    .form-row label span.required {
+      color: #f87171;
+      margin-left: 2px;
+    }
+
+    .form-row input,
+    .form-row select,
+    .form-row textarea {
+      width: 100%;
+      background: #0f1117;
+      border: 1px solid #2e3250;
+      border-radius: 6px;
+      color: #e0e0e0;
+      padding: 7px 10px;
+      font-size: 13px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .form-row input:focus,
+    .form-row select:focus,
+    .form-row textarea:focus {
+      border-color: #3b82f6;
+    }
+
+    .form-row select option {
+      background: #1a1d2e;
+    }
+
+    /* 双列布局 */
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    /* Name 国际化 */
+    .i18n-group {
+      border: 1px solid #2e3250;
+      border-radius: 6px;
+      padding: 10px;
+      background: #12141f;
+    }
+
+    .i18n-group .form-row {
+      margin-bottom: 8px;
+    }
+
+    .i18n-group .form-row:last-child {
+      margin-bottom: 0;
+    }
+
+    /* 数组标签输入（Requirements / Conflicts） */
+    .tag-input-wrapper {
+      background: #0f1117;
+      border: 1px solid #2e3250;
+      border-radius: 6px;
+      padding: 6px 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      cursor: text;
+      min-height: 38px;
+      transition: border-color 0.2s;
+    }
+
+    .tag-input-wrapper:focus-within {
+      border-color: #3b82f6;
+    }
+
+    .tag {
+      background: #2e3a5c;
+      color: #93c5fd;
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .tag-remove {
+      cursor: pointer;
+      color: #9ca3af;
+      font-size: 14px;
+      line-height: 1;
+    }
+
+    .tag-remove:hover {
+      color: #f87171;
+    }
+
+    .tag-input {
+      border: none;
+      background: transparent;
+      color: #e0e0e0;
+      font-size: 13px;
+      outline: none;
+      flex: 1;
+      min-width: 80px;
+    }
+
+    /* 自动补全候选框 */
+    .autocomplete-dropdown {
+      position: absolute;
+      background: #1a1d2e;
+      border: 1px solid #3b82f6;
+      border-radius: 6px;
+      max-height: 150px;
+      overflow-y: auto;
+      z-index: 1000;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .autocomplete-item {
+      padding: 6px 12px;
+      cursor: pointer;
+      font-size: 12px;
+      color: #e0e0e0;
+    }
+
+    .autocomplete-item:hover {
+      background: #2a2d42;
+    }
+
+    /* 卡片底部操作 */
+    .card-actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid #2e3250;
+      gap: 8px;
+    }
+
+    /* ===== 右侧预览区 ===== */
+    .preview-panel {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .preview-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-left: auto;
+    }
+
+    pre#json-preview {
+      flex: 1;
+      overflow: auto;
+      padding: 16px;
+      font-family: 'Cascadia Code', 'Consolas', monospace;
+      font-size: 12.5px;
+      line-height: 1.7;
+      background: #0a0c14;
+      color: #cdd6f4;
+      white-space: pre;
+      margin: 0;
+    }
+
+    /* JSON 语法高亮 */
+    .json-key {
+      color: #89b4fa;
+    }
+
+    .json-string {
+      color: #a6e3a1;
+    }
+
+    .json-number {
+      color: #fab387;
+    }
+
+    .json-bool {
+      color: #f38ba8;
+    }
+
+    .json-null {
+      color: #a6adc8;
+    }
+
+    .json-punct {
+      color: #cdd6f4;
+    }
+
+    /* ===== 空状态 ===== */
+    .empty-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      color: #555;
+      gap: 12px;
+    }
+
+    .empty-state svg {
+      opacity: 0.4;
+    }
+
+    /* ===== 提示条 ===== */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #22c55e;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.3s;
+      z-index: 999;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* 滚动条美化 */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #2e3250;
+      border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #4e5580;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 顶部标题栏 -->
+  <header>
+    <h1 id="header-title">⚙️ GHPC Mod Config 编辑器</h1>
+    <span id="header-subtitle">modconfig.jsonc 可视化编辑工具</span>
+    <div class="header-actions">
+      <button class="btn-ghost" onclick="switchLang()" id="lang-btn">🌐 EN</button>
+      <button class="btn-ghost" onclick="importJSON()" id="import-btn">📂 导入 JSON</button>
+      <button class="btn-ghost" onclick="loadSample()" id="sample-btn">📋 加载示例</button>
+      <button class="btn-ghost" onclick="checkConflicts()" id="check-btn">🔍 检查冲突</button>
+      <button class="btn-primary" onclick="addMod()" id="add-btn">＋ 新增 Mod</button>
+      <input type="file" id="file-input" accept=".json,.jsonc" style="display:none"
+        onchange="handleFileImport(event)" />
+    </div>
+  </header>
+
+  <div class="main">
+    <!-- 左侧编辑区 -->
+    <div class="editor-panel">
+      <div class="panel-header">
+        <h2 id="panel-mod-list">Mod 列表</h2>
+        <span class="mod-count" id="mod-count">0</span>
+      </div>
+      <div class="mod-list" id="mod-list">
+        <div class="empty-state">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <path d="M3 9h18M9 21V9" />
+          </svg>
+          <span>暂无 Mod，点击右上角「新增 Mod」开始</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 右侧预览区 -->
+    <div class="preview-panel">
+      <div class="panel-header">
+        <h2 id="panel-json-preview">JSON 预览</h2>
+        <div class="preview-actions">
+          <button class="btn-ghost" onclick="copyJSON()" id="copy-btn">📋 复制</button>
+          <button class="btn-success" onclick="downloadJSON()" id="export-btn">💾 导出</button>
+        </div>
+      </div>
+      <pre id="json-preview">[]</pre>
+    </div>
+  </div>
+
+  <!-- 提示条 -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // ===== 多语言翻译 =====
+    const translations = {
+      'zh-CN': {
+        title: 'GHPC Mod Config 编辑器',
+        subtitle: 'modconfig.jsonc 可视化编辑工具',
+        importBtn: '📂 导入 JSON',
+        loadSampleBtn: '📋 加载示例',
+        checkConflictsBtn: '🔍 检查冲突',
+        addModBtn: '＋ 新增 Mod',
+        modList: 'Mod 列表',
+        jsonPreview: 'JSON 预览',
+        copyBtn: '📋 复制',
+        exportBtn: '💾 导出',
+        emptyState: '暂无 Mod，点击右上角「新增 Mod」开始',
+        modId: 'Mod ID',
+        required: '*',
+        installMethod: '安装方式',
+        directRelease: 'DirectRelease（直接解压）',
+        scripted: 'Scripted（脚本安装）',
+        modName: 'Mod 名称（多语言）',
+        releaseUrl: 'GitHub Release URL',
+        targetFileKeyword: '目标文件关键词',
+        mainBinaryFile: '主 DLL 文件名',
+        configSection: '配置节名称（ConfigSectionName）',
+        installScript: '安装脚本（InstallScript_Base64）',
+        editSource: '📝 编辑源码',
+        saveBase64: '💾 保存为 Base64',
+        requirements: '依赖（Requirements）— 输入后按 Enter 添加',
+        conflicts: '冲突（Conflicts）— 输入后按 Enter 添加',
+        inputPlaceholder: '输入 ModId 后按 Enter',
+        deleteMod: '🗑 删除此 Mod',
+        deleteConfirm: '确定删除第 {0} 个 Mod（{1}）？',
+        unnamed: '未命名'
+      },
+      'en-US': {
+        title: 'GHPC Mod Config Editor',
+        subtitle: 'Visual editor for modconfig.jsonc',
+        importBtn: '📂 Import JSON',
+        loadSampleBtn: '📋 Load Sample',
+        checkConflictsBtn: '🔍 Check Conflicts',
+        addModBtn: '＋ Add Mod',
+        modList: 'Mod List',
+        jsonPreview: 'JSON Preview',
+        copyBtn: '📋 Copy',
+        exportBtn: '💾 Export',
+        emptyState: 'No mods yet, click "Add Mod" to start',
+        modId: 'Mod ID',
+        required: '*',
+        installMethod: 'Install Method',
+        directRelease: 'DirectRelease (Extract directly)',
+        scripted: 'Scripted (Script installation)',
+        modName: 'Mod Name (Multilingual)',
+        releaseUrl: 'GitHub Release URL',
+        targetFileKeyword: 'Target File Keyword',
+        mainBinaryFile: 'Main DLL Filename',
+        configSection: 'Config Section Name',
+        installScript: 'Install Script (Base64)',
+        editSource: '📝 Edit Source',
+        saveBase64: '💾 Save as Base64',
+        requirements: 'Requirements — Press Enter to add',
+        conflicts: 'Conflicts — Press Enter to add',
+        inputPlaceholder: 'Enter ModId and press Enter',
+        deleteMod: '🗑 Delete Mod',
+        deleteConfirm: 'Delete Mod #{0} ({1})?',
+        unnamed: 'Unnamed'
+      }
+    };
+
+    let currentLang = localStorage.getItem('lang') || 'zh-CN';
+    const t = (key) => translations[currentLang][key] || key;
+
+    // ===== 全局数据 =====
+    let mods = [];
+
+    // ===== 初始化 =====
+    function init() {
+      applyTranslations();
+      renderAll();
+    }
+
+    // ===== 语言切换 =====
+    function switchLang() {
+      currentLang = currentLang === 'zh-CN' ? 'en-US' : 'zh-CN';
+      localStorage.setItem('lang', currentLang);
+      applyTranslations();
+      renderAll();
+    }
+
+    function applyTranslations() {
+      document.getElementById('header-title').textContent = '⚙️ ' + t('title');
+      document.getElementById('header-subtitle').textContent = t('subtitle');
+      document.getElementById('lang-btn').textContent = currentLang === 'zh-CN' ? '🌐 EN' : '🌐 中文';
+      document.getElementById('import-btn').textContent = t('importBtn');
+      document.getElementById('sample-btn').textContent = t('loadSampleBtn');
+      document.getElementById('check-btn').textContent = t('checkConflictsBtn');
+      document.getElementById('add-btn').textContent = t('addModBtn');
+      document.getElementById('panel-mod-list').textContent = t('modList');
+      document.getElementById('panel-json-preview').textContent = t('jsonPreview');
+      document.getElementById('copy-btn').textContent = t('copyBtn');
+      document.getElementById('export-btn').textContent = t('exportBtn');
+    }
+
+    // ===== 新增 Mod =====
+    function addMod() {
+      mods.push({
+        Id: '',
+        Name: { 'en-US': '', 'zh-CN': '' },
+        ReleaseUrl: '',
+        TargetFileNameKeyword: '.zip',
+        MainBinaryFileName: '',
+        ConfigSectionName: '',
+        InstallMethod: 'DirectRelease',
+        InstallScript_Base64: '',
+        Requirements: [],
+        Conflicts: []
+      });
+      renderAll();
+      // 自动展开最后一个
+      setTimeout(() => toggleCard(mods.length - 1), 50);
+    }
+
+    // ===== 删除 Mod =====
+    function deleteMod(index) {
+      const modName = mods[index].Id || t('unnamed');
+      const msg = t('deleteConfirm').replace('{0}', index + 1).replace('{1}', modName);
+      if (!confirm(msg)) return;
+      mods.splice(index, 1);
+      renderAll();
+    }
+
+    // ===== 展开/折叠卡片 =====
+    function toggleCard(index) {
+      const body = document.getElementById(`card-body-${index}`);
+      const toggle = document.getElementById(`card-toggle-${index}`);
+      if (!body) return;
+      const isOpen = body.classList.toggle('open');
+      toggle.classList.toggle('open', isOpen);
+      document.getElementById(`card-${index}`)?.classList.toggle('active', isOpen);
+
+      // 同步滚动到对应的 JSON 位置
+      if (isOpen) {
+        setTimeout(() => {
+          const anchor = document.getElementById(`json-mod-${index}`);
+          if (anchor) {
+            const preview = document.getElementById('json-preview');
+            const offsetTop = anchor.offsetTop - preview.offsetTop;
+            preview.scrollTo({ top: offsetTop - 20, behavior: 'smooth' });
+          }
+        }, 100);
+      }
+    }
+
+    // ===== 字段更新 =====
+    function updateField(index, field, value) {
+      if (field === 'Name.en-US') {
+        mods[index].Name['en-US'] = value;
+      } else if (field === 'Name.zh-CN') {
+        mods[index].Name['zh-CN'] = value;
+      } else {
+        mods[index][field] = value;
+      }
+
+      // 切换 InstallMethod 时显示/隐藏脚本区域
+      if (field === 'InstallMethod') {
+        const scriptArea = document.getElementById(`script-area-${index}`);
+        if (scriptArea) scriptArea.style.display = value === 'Scripted' ? 'block' : 'none';
+      }
+
+      updatePreview();
+      // 更新卡片标题
+      const titleEl = document.getElementById(`card-title-${index}`);
+      const subtitleEl = document.getElementById(`card-subtitle-${index}`);
+      if (titleEl) titleEl.textContent = mods[index].Id || `Mod #${index + 1}`;
+      if (subtitleEl) subtitleEl.textContent = mods[index].Name['en-US'] || '';
+    }
+
+    // ===== 标签输入（Requirements / Conflicts） =====
+    function renderTags(index, field) {
+      const wrapper = document.getElementById(`tags-${index}-${field}`);
+      if (!wrapper) return;
+      const tags = mods[index][field];
+      // 清除旧标签（保留 input）
+      wrapper.querySelectorAll('.tag').forEach(t => t.remove());
+      const input = wrapper.querySelector('.tag-input');
+      tags.forEach((tag, ti) => {
+        const el = document.createElement('div');
+        el.className = 'tag';
+        el.innerHTML = `${tag}<span class="tag-remove" onclick="removeTag(${index},'${field}',${ti})">×</span>`;
+        wrapper.insertBefore(el, input);
+      });
+    }
+
+    function addTag(index, field, value) {
+      const val = value.trim();
+      if (!val) return;
+      if (!mods[index][field].includes(val)) {
+        mods[index][field].push(val);
+        renderTags(index, field);
+        updatePreview();
+      }
+    }
+
+    function removeTag(index, field, ti) {
+      mods[index][field].splice(ti, 1);
+      renderTags(index, field);
+      updatePreview();
+    }
+
+    function handleTagKeydown(e, index, field) {
+      if (e.key === 'Enter' || e.key === ',') {
+        e.preventDefault();
+        addTag(index, field, e.target.value);
+        e.target.value = '';
+        hideAutocomplete();
+      } else if (e.key === 'Backspace' && e.target.value === '') {
+        if (mods[index][field].length > 0) {
+          mods[index][field].pop();
+          renderTags(index, field);
+          updatePreview();
+        }
+      } else if (e.key === 'Escape') {
+        hideAutocomplete();
+      }
+    }
+
+    // 自动补全功能
+    let currentAutocomplete = null;
+    let isSelectingFromDropdown = false;
+
+    function showAutocomplete(input, index, field) {
+      const value = input.value.trim().toLowerCase();
+      if (!value) {
+        hideAutocomplete();
+        return;
+      }
+
+      const availableIds = mods
+        .map(m => m.Id)
+        .filter(id => id && id.toLowerCase().includes(value) && !mods[index][field].includes(id) && id !== mods[index].Id);
+
+      if (availableIds.length === 0) {
+        hideAutocomplete();
+        return;
+      }
+
+      hideAutocomplete();
+
+      const dropdown = document.createElement('div');
+      dropdown.className = 'autocomplete-dropdown';
+      dropdown.id = 'autocomplete-dropdown';
+
+      const rect = input.getBoundingClientRect();
+      dropdown.style.position = 'fixed';
+      dropdown.style.left = rect.left + 'px';
+      dropdown.style.top = rect.bottom + 2 + 'px';
+      dropdown.style.minWidth = rect.width + 'px';
+
+      availableIds.forEach(id => {
+        const item = document.createElement('div');
+        item.className = 'autocomplete-item';
+        item.textContent = id;
+        item.onmousedown = (e) => {
+          e.preventDefault();
+          isSelectingFromDropdown = true;
+          addTag(index, field, id);
+          input.value = '';
+          hideAutocomplete();
+          input.focus();
+          setTimeout(() => isSelectingFromDropdown = false, 100);
+        };
+        dropdown.appendChild(item);
+      });
+
+      document.body.appendChild(dropdown);
+      currentAutocomplete = dropdown;
+    }
+
+    function hideAutocomplete() {
+      if (currentAutocomplete) {
+        currentAutocomplete.remove();
+        currentAutocomplete = null;
+      }
+    }
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.tag-input-wrapper') && !e.target.closest('.autocomplete-dropdown')) {
+        hideAutocomplete();
+      }
+    });
+
+    // ===== 渲染 Mod 卡片列表 =====
+    function renderAll() {
+      const list = document.getElementById('mod-list');
+      document.getElementById('mod-count').textContent = mods.length;
+
+      if (mods.length === 0) {
+        list.innerHTML = `<div class="empty-state">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+        </svg>
+        <span>${t('emptyState')}</span>
+      </div>`;
+        updatePreview();
+        return;
+      }
+
+      list.innerHTML = mods.map((mod, i) => `
+      <div class="mod-card" id="card-${i}">
+        <div class="card-header" onclick="toggleCard(${i})">
+          <div class="card-index">${i + 1}</div>
+          <div style="flex:1">
+            <div class="card-title" id="card-title-${i}">${mod.Id || `Mod #${i + 1}`}</div>
+            <div class="card-subtitle" id="card-subtitle-${i}">${mod.Name['en-US'] || ''}</div>
+          </div>
+          <span class="card-toggle" id="card-toggle-${i}">›</span>
+        </div>
+        <div class="card-body" id="card-body-${i}">
+          <!-- 基本信息 -->
+          <div class="form-grid">
+            <div class="form-row">
+              <label>Mod ID <span class="required">*</span></label>
+              <input type="text" value="${esc(mod.Id)}" placeholder="唯一标识符，无空格"
+                oninput="updateField(${i},'Id',this.value)" />
+            </div>
+            <div class="form-row">
+              <label>安装方式</label>
+              <select onchange="updateField(${i},'InstallMethod',this.value)">
+                <option value="DirectRelease" ${mod.InstallMethod === 'DirectRelease' ? 'selected' : ''}>DirectRelease（直接解压）</option>
+                <option value="Scripted" ${mod.InstallMethod === 'Scripted' ? 'selected' : ''}>Scripted（脚本安装）</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- 多语言名称 -->
+          <div class="form-row">
+            <label>Mod 名称（多语言）</label>
+            <div class="i18n-group">
+              <div class="form-row">
+                <label>🇺🇸 en-US</label>
+                <input type="text" value="${esc(mod.Name['en-US'])}" placeholder="English name"
+                  oninput="updateField(${i},'Name.en-US',this.value)" />
+              </div>
+              <div class="form-row">
+                <label>🇨🇳 zh-CN</label>
+                <input type="text" value="${esc(mod.Name['zh-CN'])}" placeholder="中文名称"
+                  oninput="updateField(${i},'Name.zh-CN',this.value)" />
+              </div>
+            </div>
+          </div>
+
+          <!-- GitHub Release URL -->
+          <div class="form-row">
+            <label>GitHub Release URL <span class="required">*</span></label>
+            <input type="text" value="${esc(mod.ReleaseUrl)}"
+              placeholder="https://api.github.com/repos/owner/repo/releases/latest"
+              oninput="updateField(${i},'ReleaseUrl',this.value)" />
+          </div>
+
+          <div class="form-grid">
+            <div class="form-row">
+              <label>目标文件关键词</label>
+              <input type="text" value="${esc(mod.TargetFileNameKeyword)}" placeholder=".zip"
+                oninput="updateField(${i},'TargetFileNameKeyword',this.value)" />
+            </div>
+            <div class="form-row">
+              <label>主 DLL 文件名</label>
+              <input type="text" value="${esc(mod.MainBinaryFileName)}" placeholder="YourMod.dll"
+                oninput="updateField(${i},'MainBinaryFileName',this.value)" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label>配置节名称（ConfigSectionName）</label>
+            <input type="text" value="${esc(mod.ConfigSectionName)}" placeholder="YourModConfig"
+              oninput="updateField(${i},'ConfigSectionName',this.value)" />
+          </div>
+
+          <!-- 脚本编辑区（仅 Scripted 模式） -->
+          <div class="form-row" id="script-area-${i}" style="display:${mod.InstallMethod === 'Scripted' ? 'block' : 'none'}">
+            <label>安装脚本（InstallScript_Base64）<button type="button" class="btn-ghost" style="margin-left:8px;padding:4px 8px;font-size:12px" id="script-btn-${i}" data-mode="base64" onclick="toggleScriptMode(${i})">📝 编辑源码</button></label>
+            <textarea id="script-${i}" rows="6" style="width:100%;background:#0f1117;border:1px solid #2e3250;border-radius:6px;color:#e0e0e0;padding:8px;font-family:monospace;font-size:12px;resize:vertical" oninput="mods[${i}].InstallScript_Base64=this.value;updatePreview()">${esc(mod.InstallScript_Base64)}</textarea>
+          </div>
+
+          <!-- 依赖 -->
+          <div class="form-row">
+            <label>依赖（Requirements）— 输入后按 Enter 添加</label>
+            <div class="tag-input-wrapper" id="tags-${i}-Requirements"
+              onclick="this.querySelector('.tag-input').focus()">
+              <input class="tag-input" type="text" placeholder="输入 ModId 后按 Enter"
+                oninput="showAutocomplete(this,${i},'Requirements')"
+                onkeydown="handleTagKeydown(event,${i},'Requirements')"
+                onblur="setTimeout(()=>{if(!isSelectingFromDropdown&&this.value){addTag(${i},'Requirements',this.value);this.value=''}hideAutocomplete()},100)" />
+            </div>
+          </div>
+
+          <!-- 冲突 -->
+          <div class="form-row">
+            <label>冲突（Conflicts）— 输入后按 Enter 添加</label>
+            <div class="tag-input-wrapper" id="tags-${i}-Conflicts"
+              onclick="this.querySelector('.tag-input').focus()">
+              <input class="tag-input" type="text" placeholder="输入 ModId 后按 Enter"
+                oninput="showAutocomplete(this,${i},'Conflicts')"
+                onkeydown="handleTagKeydown(event,${i},'Conflicts')"
+                onblur="setTimeout(()=>{if(!isSelectingFromDropdown&&this.value){addTag(${i},'Conflicts',this.value);this.value=''}hideAutocomplete()},100)" />
+            </div>
+          </div>
+
+          <!-- 操作按钮 -->
+          <div class="card-actions">
+            <button class="btn-danger" onclick="deleteMod(${i})">🗑 删除此 Mod</button>
+          </div>
+        </div>
+      </div>
+    `).join('');
+
+      // 渲染标签
+      mods.forEach((mod, i) => {
+        renderTags(i, 'Requirements');
+        renderTags(i, 'Conflicts');
+      });
+
+      updatePreview();
+    }
+
+    // ===== JSON 预览 =====
+    function updatePreview() {
+      const output = mods.map(mod => {
+        const obj = { Id: mod.Id, Name: mod.Name };
+        if (mod.ReleaseUrl) obj.ReleaseUrl = mod.ReleaseUrl;
+        if (mod.TargetFileNameKeyword) obj.TargetFileNameKeyword = mod.TargetFileNameKeyword;
+        if (mod.MainBinaryFileName) obj.MainBinaryFileName = mod.MainBinaryFileName;
+        if (mod.ConfigSectionName) obj.ConfigSectionName = mod.ConfigSectionName;
+        obj.InstallMethod = mod.InstallMethod;
+        if (mod.InstallMethod === 'Scripted' && mod.InstallScript_Base64) obj.InstallScript_Base64 = mod.InstallScript_Base64;
+        if (mod.Requirements.length > 0) obj.Requirements = mod.Requirements;
+        if (mod.Conflicts.length > 0) obj.Conflicts = mod.Conflicts;
+        return obj;
+      });
+      const raw = JSON.stringify(output, null, 2);
+
+      // 为每个 Mod 添加锚点标记
+      let html = syntaxHighlight(raw);
+      const lines = html.split('\n');
+      let modIndex = 0;
+      const result = lines.map((line, i) => {
+        if (line.trim().startsWith('{') && modIndex < mods.length && i > 0) {
+          return `<span id="json-mod-${modIndex++}" class="json-anchor"></span>${line}`;
+        }
+        return line;
+      }).join('\n');
+
+      document.getElementById('json-preview').innerHTML = result;
+    }
+
+    // ===== JSON 语法高亮 =====
+    function syntaxHighlight(json) {
+      return json
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/("(\\u[\da-fA-F]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+\.?\d*(?:[eE][+\-]?\d+)?)/g, match => {
+          let cls = 'json-number';
+          if (/^"/.test(match)) {
+            cls = /:$/.test(match) ? 'json-key' : 'json-string';
+          } else if (/true|false/.test(match)) {
+            cls = 'json-bool';
+          } else if (/null/.test(match)) {
+            cls = 'json-null';
+          }
+          return `<span class="${cls}">${match}</span>`;
+        });
+    }
+
+    // ===== 复制 JSON =====
+    function copyJSON() {
+      const output = mods.map(mod => {
+        const obj = { Id: mod.Id, Name: mod.Name };
+        if (mod.ReleaseUrl) obj.ReleaseUrl = mod.ReleaseUrl;
+        if (mod.TargetFileNameKeyword) obj.TargetFileNameKeyword = mod.TargetFileNameKeyword;
+        if (mod.MainBinaryFileName) obj.MainBinaryFileName = mod.MainBinaryFileName;
+        if (mod.ConfigSectionName) obj.ConfigSectionName = mod.ConfigSectionName;
+        obj.InstallMethod = mod.InstallMethod;
+        if (mod.InstallMethod === 'Scripted' && mod.InstallScript_Base64) obj.InstallScript_Base64 = mod.InstallScript_Base64;
+        if (mod.Requirements.length > 0) obj.Requirements = mod.Requirements;
+        if (mod.Conflicts.length > 0) obj.Conflicts = mod.Conflicts;
+        return obj;
+      });
+      navigator.clipboard.writeText(JSON.stringify(output, null, 2)).then(() => showToast('✅ JSON 已复制到剪贴板'));
+    }
+
+    // ===== 导出 JSON =====
+    function downloadJSON() {
+      const output = mods.map(mod => {
+        const obj = { Id: mod.Id, Name: mod.Name };
+        if (mod.ReleaseUrl) obj.ReleaseUrl = mod.ReleaseUrl;
+        if (mod.TargetFileNameKeyword) obj.TargetFileNameKeyword = mod.TargetFileNameKeyword;
+        if (mod.MainBinaryFileName) obj.MainBinaryFileName = mod.MainBinaryFileName;
+        if (mod.ConfigSectionName) obj.ConfigSectionName = mod.ConfigSectionName;
+        obj.InstallMethod = mod.InstallMethod;
+        if (mod.InstallMethod === 'Scripted' && mod.InstallScript_Base64) obj.InstallScript_Base64 = mod.InstallScript_Base64;
+        if (mod.Requirements.length > 0) obj.Requirements = mod.Requirements;
+        if (mod.Conflicts.length > 0) obj.Conflicts = mod.Conflicts;
+        return obj;
+      });
+      const blob = new Blob([JSON.stringify(output, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'modconfig.json';
+      a.click();
+      showToast('💾 文件已导出');
+    }
+
+    // ===== 导入 JSON =====
+    function importJSON() {
+      document.getElementById('file-input').click();
+    }
+
+    function handleFileImport(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = e => {
+        try {
+          const text = e.target.result;
+          // 使用安全的 JSONC -> JSON 转换（不会误删字符串里的内容）
+          const cleaned = stripJsonCommentsSafe(text);
+          const parsed = JSON.parse(cleaned);
+          if (!Array.isArray(parsed)) throw new Error('顶层必须是数组');
+          mods = parsed.map(m => ({
+            Id: m.Id || '',
+            Name: { 'en-US': m.Name?.['en-US'] || '', 'zh-CN': m.Name?.['zh-CN'] || '' },
+            ReleaseUrl: m.ReleaseUrl || '',
+            TargetFileNameKeyword: m.TargetFileNameKeyword || '.zip',
+            MainBinaryFileName: m.MainBinaryFileName || '',
+            ConfigSectionName: m.ConfigSectionName || '',
+            InstallMethod: m.InstallMethod || 'DirectRelease',
+            InstallScript_Base64: m.InstallScript_Base64 || '',
+            Requirements: Array.isArray(m.Requirements) ? m.Requirements : [],
+            Conflicts: Array.isArray(m.Conflicts) ? m.Conflicts : []
+          }));
+          renderAll();
+          showToast(`✅ 已导入 ${mods.length} 个 Mod`);
+        } catch (err) {
+          alert('解析失败：' + err.message);
+        }
+      };
+      reader.readAsText(file);
+      event.target.value = '';
+    }
+
+    function stripJsonCommentsSafe(input) {
+      let output = '';
+      let inString = false;
+      let stringChar = '';
+      let inSingleLineComment = false;
+      let inMultiLineComment = false;
+
+      for (let i = 0; i < input.length; i++) {
+        const curr = input[i];
+        const next = input[i + 1];
+
+        if (inSingleLineComment) {
+          // 单行注释直到换行结束
+          if (curr === '\n') {
+            inSingleLineComment = false;
+            output += curr;
+          }
+          continue;
+        }
+
+        if (inMultiLineComment) {
+          // 多行注释直到 */
+          if (curr === '*' && next === '/') {
+            inMultiLineComment = false;
+            i++; // 跳过 /
+          }
+          continue;
+        }
+
+        if (inString) {
+          // 字符串内部
+          if (curr === '\\') {
+            // 转义字符，连带下一个字符一并保留
+            output += curr;
+            if (i + 1 < input.length) {
+              output += input[i + 1];
+              i++;
+            }
+            continue;
+          } else if (curr === stringChar) {
+            inString = false;
+          }
+          output += curr;
+          continue;
+        }
+
+        // 还没进入字符串，也不在注释里，检查是否开始注释或字符串
+        if (curr === '"' || curr === "'") {
+          inString = true;
+          stringChar = curr;
+          output += curr;
+          continue;
+        }
+
+        if (curr === '/' && next === '/') {
+          inSingleLineComment = true;
+          i++; // 跳过第二个 /
+          continue;
+        }
+
+        if (curr === '/' && next === '*') {
+          inMultiLineComment = true;
+          i++; // 跳过 *
+          continue;
+        }
+
+        output += curr;
+      }
+
+      return output;
+    }
+
+    // ===== 加载示例数据 =====
+    function loadSample() {
+      mods = [
+        {
+          "Id": "PactIL",
+          "Name": {
+            "en-US": "Pact Increased Lethality",
+            "zh-CN": "华约增强模组"
+          },
+          "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
+          "TargetFileNameKeyword": ".zip",
+          "MainBinaryFileName": "PactIncreasedLethality.dll",
+          "ConfigSectionName": "PactIncreasedLethality",
+          "InstallMethod": "DirectRelease"
+        },
+        {
+          "Id": "M1A1",
+          "Name": {
+            "en-US": "M1A1 Abrams",
+            "zh-CN": "M1A1艾布拉姆斯"
+          },
+          "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
+          "TargetFileNameKeyword": ".zip",
+          "MainBinaryFileName": "M1A1Abrams.dll",
+          "ConfigSectionName": "M1A1Config",
+          "InstallMethod": "DirectRelease"
+        },
+        {
+          "Id": "sample-scripted-mod",
+          "Name": {
+            "en-US": "Sample Scripted Mod",
+            "zh-CN": "示例脚本MOD"
+          },
+          "ReleaseUrl": "https://api.github.com/repos/REPO-OWNER/REPO/releases/latest",
+          "TargetFileNameKeyword": ".dll",
+          "MainBinaryFileName": "sample.dll",
+          "ConfigSectionName": "SampleMod",
+          "InstallMethod": "Scripted",
+          "InstallScript_Base64": "QGVjaG8gb2ZmClJFTSBQYXJhbWV0ZXJzOiAlMSA9IERvd25sb2FkZWQgZmlsZSBwYXRoLCAlMiA9IEdhbWUgcm9vdCBkaXJlY3RvcnksICUzID0gVGFyZ2V0IGZpbGVuYW1lCgpzZXQgIkRPV05MT0FEX0ZJTEU9JX4xIgpzZXQgIkdBTUVfUk9PVD0lfjIiCnNldCAiVEFSR0VUX0ZJTEU9JX4zIgpzZXQgIk1PRFNfRElSPSVHQU1FX1JPT1QlXE1vZHMiCgppZiBub3QgZXhpc3QgIiVET1dOTE9BRF9GSUxFJSIgKAogICAgZWNobyBFUlJPUjogRG93bmxvYWRlZCBmaWxlIG5vdCBmb3VuZDogJURPV05MT0FEX0ZJTEUlCiAgICBleGl0IC9iIDEKKQoKaWYgbm90IGV4aXN0ICIlTU9EU19ESVIlIiBta2RpciAiJU1PRFNfRElSJSIKCmZvciAlJUYgaW4gKCIlRE9XTkxPQURfRklMRSUiKSBkbyBzZXQgIkZJTEVfRVhUPSUlfnhGIgoKaWYgL2kgIiVGSUxFX0VYVCUiPT0iLmRsbCIgKAogICAgZWNobyBJbnN0YWxsaW5nIERMTDogJVRBUkdFVF9GSUxFJQogICAgY29weSAiJURPV05MT0FEX0ZJTEUlIiAiJU1PRFNfRElSJVwlVEFSR0VUX0ZJTEUlIgopIGVsc2UgaWYgL2kgIiVGSUxFX0VYVCUiPT0iLnppcCIgKAogICAgZWNobyBFeHRyYWN0aW5nIFpJUCB0byBNb2RzIGRpcmVjdG9yeQogICAgcG93ZXJzaGVsbCAtQ29tbWFuZCAiRXhwYW5kLUFyY2hpdmUgLVBhdGggJyVET1dOTE9BRF9GSUxFJScgLURlc3RpbmF0aW9uUGF0aCAnJU1PRFNfRElSJScgLUZvcmNlIgopIGVsc2UgKAogICAgZWNobyBJbnN0YWxsaW5nIGZpbGU6ICVUQVJHRVRfRklMRSUKICAgIGNvcHkgIiVET1dOTE9BRF9GSUxFJSIgIiVNT0RTX0RJUiVcJVRBUkdFVF9GSUxFJSIKKQoKZWNobyBJbnN0YWxsYXRpb24gY29tcGxldGVkIHN1Y2Nlc3NmdWxseQo=",
+          "Conflicts": [],
+          "Requirements": []
+        },
+        {
+          "Id": "SomeComplexMod",
+          "Name": {
+            "en-US": "Complex Mod",
+            "zh-CN": "复杂MOD"
+          },
+          "ReleaseUrl": "https://api.github.com/repos/example/ComplexMod/releases/latest",
+          "TargetFileNameKeyword": ".zip",
+          "MainBinaryFileName": "ComplexMod.dll",
+          "ConfigSectionName": "ComplexModConfig",
+          "InstallMethod": "DirectRelease",
+          "Requirements": ["BaseMod", "CoreLibrary"],
+          "Conflicts": ["IncompatibleMod1", "IncompatibleMod2"]
+        }
+      ];
+      renderAll();
+      showToast('📋 示例数据已加载');
+    }
+
+    // ===== 双向冲突检测 =====
+    function checkConflicts() {
+      const modDict = {};
+      mods.forEach(m => modDict[m.Id] = m);
+
+      const conflictPairs = new Set();
+      const issues = [];
+      const fixes = [];
+
+      // 收集所有冲突关系
+      mods.forEach(mod => {
+        if (mod.Conflicts) {
+          mod.Conflicts.forEach(cid => {
+            if (!modDict[cid]) {
+              issues.push(`⚠️ ${mod.Id} 冲突了不存在的MOD: ${cid}`);
+            } else {
+              conflictPairs.add(`${mod.Id}|${cid}`);
+            }
+          });
+        }
+      });
+
+      // 双向检测并自动修复
+      conflictPairs.forEach(pair => {
+        const [a, b] = pair.split('|');
+        if (!conflictPairs.has(`${b}|${a}`)) {
+          issues.push(`❌ ${a} 冲突 ${b}，但 ${b} 未标记冲突 ${a}`);
+          if (!modDict[b].Conflicts) modDict[b].Conflicts = [];
+          if (!modDict[b].Conflicts.includes(a)) {
+            modDict[b].Conflicts.push(a);
+            fixes.push(`✅ 已在 ${b} 的 Conflicts 中添加 ${a}`);
+          }
+        }
+      });
+
+      // 显示详细报告
+      let report = '=== 冲突检查报告 ===\n\n';
+
+      if (issues.length === 0) {
+        report += '✅ 未发现冲突问题！所有冲突关系都是双向的。';
+        alert(report);
+        showToast('✅ 未发现冲突问题');
+        return;
+      }
+
+      report += `发现 ${issues.length} 个问题：\n\n`;
+      issues.forEach(issue => report += issue + '\n');
+
+      if (fixes.length > 0) {
+        report += `\n已自动修复 ${fixes.length} 个问题：\n\n`;
+        fixes.forEach(fix => report += fix + '\n');
+        report += '\n提示：修改已应用，请导出保存。';
+      }
+
+      alert(report);
+      showToast(`🔍 发现 ${issues.length} 个问题，已修复 ${fixes.length} 个`);
+      console.log('冲突检查详细报告：', { issues, fixes });
+
+      if (fixes.length > 0) renderAll();
+    }
+
+    // ===== 工具函数 =====
+    function esc(str) {
+      return (str || '').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function showToast(msg) {
+      const el = document.getElementById('toast');
+      el.textContent = msg;
+      el.classList.add('show');
+      setTimeout(() => el.classList.remove('show'), 2500);
+    }
+
+    // Base64 编码/解码
+    function base64Encode(str) {
+      return btoa(unescape(encodeURIComponent(str)));
+    }
+
+    function base64Decode(str) {
+      try {
+        return decodeURIComponent(escape(atob(str)));
+      } catch (e) {
+        return '';
+      }
+    }
+
+    // 切换脚本编辑模式
+    function toggleScriptMode(index) {
+      const textarea = document.getElementById(`script-${index}`);
+      const btn = document.getElementById(`script-btn-${index}`);
+      const isBase64 = btn.dataset.mode === 'base64';
+
+      if (isBase64) {
+        // 切换到源码模式
+        textarea.value = base64Decode(mods[index].InstallScript_Base64);
+        btn.textContent = '💾 保存为 Base64';
+        btn.dataset.mode = 'source';
+      } else {
+        // 切换到 Base64 模式
+        mods[index].InstallScript_Base64 = base64Encode(textarea.value);
+        textarea.value = mods[index].InstallScript_Base64;
+        btn.textContent = '📝 编辑源码';
+        btn.dataset.mode = 'base64';
+        updatePreview();
+      }
+    }
+
+    // ===== 启动 =====
+    init();
+  </script>
+</body>
+
+</html>
