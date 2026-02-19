@@ -98,6 +98,24 @@
     ]
   },
   {
+    "Id": "underdog",
+    "Name": {
+      "en-US": "Underdogs Enhanced",
+      "zh-CN": "弱势载具增强"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/UnderdogsEnhanced/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "UnderdogsEnhanced.dll",
+    "ConfigSectionName": "Underdogs-Enhanced",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Vprel"
+    ],
+    "Conflicts": [
+      "BMP1ST"
+    ]
+  },
+  {
     "Id": "SM60",
     "Name": {
       "en-US": "Super M60",
@@ -229,7 +247,10 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "StabilizedBMP1.dll",
     "ConfigSectionName": "Stabilized-BMP-1",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "underdog"
+    ]
   },
   {
     "Id": "FireRT",
@@ -344,6 +365,18 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "GunnerModPC.dll",
     "ConfigSectionName": "GMPCConfig",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "Cinema",
+    "Name": {
+      "en-US": "Cinematic Tools",
+      "zh-CN": "电影工具"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/CinematicTools/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "CinematicTools.dll",
+    "ConfigSectionName": "CinematicTools",
     "InstallMethod": "DirectRelease"
   }
 ]

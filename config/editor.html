@@ -171,6 +171,17 @@
       border-color: #3b82f6;
     }
 
+    .drag-handle {
+      cursor: grab;
+      color: #555;
+      font-size: 16px;
+      padding-right: 8px;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+    .drag-handle:active { cursor: grabbing; }
+    .mod-card.drag-over { border-color: #3b82f6; opacity: 0.6; }
+
     .card-header {
       display: flex;
       align-items: center;
@@ -669,6 +680,26 @@
       renderAll();
     }
 
+    // ===== 拖拽排序 =====
+    let dragSrcIdx = null;
+    function onDragStart(e, i) { dragSrcIdx = i; e.dataTransfer.effectAllowed = 'move'; }
+    function onDragOver(e, i) {
+      e.preventDefault();
+      document.querySelectorAll('.mod-card').forEach(c => c.classList.remove('drag-over'));
+      document.getElementById('card-' + i).classList.add('drag-over');
+    }
+    function onDrop(e, i) {
+      e.preventDefault();
+      if (dragSrcIdx === null || dragSrcIdx === i) return;
+      mods.splice(i, 0, mods.splice(dragSrcIdx, 1)[0]);
+      dragSrcIdx = null;
+      renderAll();
+    }
+    function onDragEnd() {
+      document.querySelectorAll('.mod-card').forEach(c => c.classList.remove('drag-over'));
+      dragSrcIdx = null;
+    }
+
     // ===== 展开/折叠卡片 =====
     function toggleCard(index) {
       const body = document.getElementById(`card-body-${index}`);
@@ -719,7 +750,7 @@
     function renderTags(index, field) {
       const wrapper = document.getElementById(`tags-${index}-${field}`);
       if (!wrapper) return;
-      const tags = mods[index][field];
+      const tags = mods[index][field] || [];
       // 清除旧标签（保留 input）
       wrapper.querySelectorAll('.tag').forEach(t => t.remove());
       const input = wrapper.querySelector('.tag-input');
@@ -846,8 +877,9 @@
       }
 
       list.innerHTML = mods.map((mod, i) => `
-      <div class="mod-card" id="card-${i}">
+      <div class="mod-card" id="card-${i}" ondragstart="onDragStart(event,${i})" ondragover="onDragOver(event,${i})" ondrop="onDrop(event,${i})" ondragend="onDragEnd()">
         <div class="card-header" onclick="toggleCard(${i})">
+          <span class="drag-handle" onclick="event.stopPropagation()" onmousedown="this.closest('.mod-card').draggable=true" onmouseup="this.closest('.mod-card').draggable=false">⠿</span>
           <div class="card-index">${i + 1}</div>
           <div style="flex:1">
             <div class="card-title" id="card-title-${i}">${mod.Id || `Mod #${i + 1}`}</div>
@@ -973,8 +1005,8 @@
         if (mod.ConfigSectionName) obj.ConfigSectionName = mod.ConfigSectionName;
         obj.InstallMethod = mod.InstallMethod;
         if (mod.InstallMethod === 'Scripted' && mod.InstallScript_Base64) obj.InstallScript_Base64 = mod.InstallScript_Base64;
-        if (mod.Requirements.length > 0) obj.Requirements = mod.Requirements;
-        if (mod.Conflicts.length > 0) obj.Conflicts = mod.Conflicts;
+        if (mod.Requirements?.length > 0) obj.Requirements = mod.Requirements;
+        if (mod.Conflicts?.length > 0) obj.Conflicts = mod.Conflicts;
         return obj;
       });
       const raw = JSON.stringify(output, null, 2);
@@ -1020,8 +1052,8 @@
         if (mod.ConfigSectionName) obj.ConfigSectionName = mod.ConfigSectionName;
         obj.InstallMethod = mod.InstallMethod;
         if (mod.InstallMethod === 'Scripted' && mod.InstallScript_Base64) obj.InstallScript_Base64 = mod.InstallScript_Base64;
-        if (mod.Requirements.length > 0) obj.Requirements = mod.Requirements;
-        if (mod.Conflicts.length > 0) obj.Conflicts = mod.Conflicts;
+        if (mod.Requirements?.length > 0) obj.Requirements = mod.Requirements;
+        if (mod.Conflicts?.length > 0) obj.Conflicts = mod.Conflicts;
         return obj;
       });
       navigator.clipboard.writeText(JSON.stringify(output, null, 2)).then(() => showToast('✅ JSON 已复制到剪贴板'));
@@ -1037,8 +1069,8 @@
         if (mod.ConfigSectionName) obj.ConfigSectionName = mod.ConfigSectionName;
         obj.InstallMethod = mod.InstallMethod;
         if (mod.InstallMethod === 'Scripted' && mod.InstallScript_Base64) obj.InstallScript_Base64 = mod.InstallScript_Base64;
-        if (mod.Requirements.length > 0) obj.Requirements = mod.Requirements;
-        if (mod.Conflicts.length > 0) obj.Conflicts = mod.Conflicts;
+        if (mod.Requirements?.length > 0) obj.Requirements = mod.Requirements;
+        if (mod.Conflicts?.length > 0) obj.Conflicts = mod.Conflicts;
         return obj;
       });
       const blob = new Blob([JSON.stringify(output, null, 2)], { type: 'application/json' });

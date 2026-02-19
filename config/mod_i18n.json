@@ -3419,6 +3419,61 @@
         }
       }
     },
+    "underdog":{
+      "ModId": "underdog",
+      "ConfigLabels": {
+        "BMP-1P Konkurs Stab": {
+          "zh-CN": "BMP-1P“竞赛”稳定器",
+          "en-US": "BMP-1P Konkurs Stab"
+        },
+        "BMP-1 Stabilizer": {
+          "zh-CN": "BMP-1稳定器",
+          "en-US": "BMP-1 Stabilizer"
+        },
+        "Marder Stabilizer": {
+          "zh-CN": "黄鼠狼Marder稳定器",
+          "en-US": "Marder Stabilizer"
+        },
+        "Marder Rangefinder": {
+          "zh-CN": "黄鼠狼Marder测距仪",
+          "en-US": "Marder Rangefinder"
+        },
+        "BRDM-2 Stabilizer": {
+          "zh-CN": "BRDM-2 稳定器",
+          "en-US": "BRDM-2 Stabilizerb"
+        },
+        "Leopard 1 Laser": {
+          "zh-CN": "豹一激光测距仪",
+          "en-US": "Leopard 1 Laser"
+        }
+      },
+      "ConfigComments": {
+        "Gives BMP-1/BMP-1P a stabilizer (default: enabled)": {
+          "zh-CN": "为BMP-1/BMP-1P提供稳定器 默认开启",
+          "en-US": "Gives BMP-1/BMP-1P a stabilizer (default: enabled)"
+        },
+        "Gives the Konkurs on the BMP-1P a stabilizer": {
+          "zh-CN": "为BMP-1P上的“竞赛”提供稳定器",
+          "en-US": "Gives the Konkurs on the BMP-1P a stabilizer"
+        },
+        "Gives BRDM-2 a stabilizer (default: enabled)": {
+          "zh-CN": "为BRDM-2提供稳定器 默认开启",
+          "en-US": "Gives BRDM-2 a stabilizer (default: enabled)"
+        },
+        "Gives Marder series a stabilizer (default: enabled)": {
+          "zh-CN": "为黄鼠狼Marder提供稳定器 默认开启",
+          "en-US": "Gives Marder series a stabilizer (default: enabled)"
+        },
+        "Gives Marder series laser rangefinder and parallax fix (default: enabled)": {
+          "zh-CN": "为黄鼠狼Marder全系提供激光测距仪 默认开启",
+          "en-US": "Gives Marder series laser rangefinder and parallax fix (default: enabled)"
+        },
+        "Replace optical rangefinder with laser on Leopard 1 series (default: enabled)": {
+          "zh-CN": "为豹一全系提供激光测距仪 默认开启",
+          "en-US": "Replace optical rangefinder with laser on Leopard 1 series (default: enabled)"
+        }
+      }
+    },
     "minhud":{
       "ModId": "minhud",
       "ConfigLabels": {
@@ -3446,6 +3501,69 @@
           "en-US": "Allow/disallow shooting while using binoculars"
         }
         }
+      },
+      "Cinema":{
+      "ModId": "Cinema",
+      "ConfigLabels": {
+        "MenuKey": {
+          "zh-CN": "菜单按键",
+          "en-US": "Menu Key"
+        },
+        "SaveKeyframeKey": {
+          "zh-CN": "截取关键帧按键",
+          "en-US": "Save Key frame Key"
+        },
+        "PlayPathKey": {
+          "zh-CN": "播放路径按键",
+          "en-US": "Play Path Key"
+        },
+        "AutoDumpOnStart": {
+          "zh-CN": "启动时自动转储游戏信息",
+          "en-US": "Auto Dump On Start"
+        },
+        "DefaultLanguage": {
+          "zh-CN": "默认语言",
+          "en-US": "Default Language"
+        },
+        "UIScale": {
+          "zh-CN": "UI缩放",
+          "en-US": "UI Scale"
+        },
+        "APIServerPort": {
+          "zh-CN": "API服务器端口",
+          "en-US": "API Server Port"
+        }
+      },
+        "ConfigComments": {
+        "Open/Close Menu - 打开/关闭菜单": {
+          "zh-CN": "打开/关闭菜单",
+          "en-US": "Open/Close Menu"
+        },
+        "Save Current Camera Keyframe - 保存当前镜头关键帧": {
+          "zh-CN": "保存当前镜头关键帧",
+          "en-US": "Save Current Camera Keyframe"
+        },
+        "Play/Stop Camera Path - 播放/停止镜头路径": {
+          "zh-CN": "播放/停止镜头路径",
+          "en-US": "Play/Stop Camera Path"
+        },
+        "Automatically dump game API information on start - 启动时自动转储游戏信息": {
+          "zh-CN": "启动时自动转储游戏信息",
+          "en-US": "Automatically dump game API information on start"
+        },
+        "Default language (0=English, 1=Chinese) - 默认语言": {
+          "zh-CN": "默认语言(0=English, 1=中文)",
+          "en-US": "Default language (0=English, 1=Chinese) - 默认语言"
+        },
+        "UI Scale for high resolution displays - UI缩放（适用于高分辨率显示器）": {
+          "zh-CN": "UI缩放（适用于高分辨率显示器）",
+          "en-US": "UI Scale for high resolution displays"
+        },
+        "API Server Port (default: 8828) - API服务器端口": {
+          "zh-CN": "API服务器端口用于调试 默认:8828",
+          "en-US": "API Server Port for debug (default: 8828)"
+        }
       }
     }
   }
+}
