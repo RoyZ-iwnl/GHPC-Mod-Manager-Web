@@ -37,8 +37,7 @@
       "Vprel"
     ],
     "Conflicts": [
-      "PactILROY",
-      "SM60"
+      "PactILROY"
     ]
   },
   {
@@ -75,8 +74,7 @@
     ],
     "Conflicts": [
       "M1A1AMP",
-      "NATOERA",
-      "SM60"
+      "NATOERA"
     ]
   },
   {
@@ -127,8 +125,22 @@
     "ConfigSectionName": "SuperM60Config",
     "InstallMethod": "DirectRelease",
     "Conflicts": [
-      "M1A1",
-      "PactIL"
+      "SM60ROY"
+    ]
+  },
+  {
+    "Id": "SM60ROY",
+    "Name": {
+      "en-US": "Super M60(Priority version)",
+      "zh-CN": "超级M60(优先更新版)"
+    },
+    "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/Super-M60/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "SuperM60ROY.dll",
+    "ConfigSectionName": "SuperM60Config",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "SM60"
     ]
   },
   {
