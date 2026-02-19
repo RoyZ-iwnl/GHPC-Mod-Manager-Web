@@ -4,6 +4,7 @@
 
 ### 2026-02-19
 
+- v1.1.4 stable release is now available with MelonLoader management and stability fixes. See the [changelog](#v114) below for details.
 - v1.1.3-beta.1 beta version is now available with GitHub API token support and parallel loading optimization. See the [changelog](#v113-beta1) below for details.
 - Configure GitHub Token to bypass rate limits (60→5000 requests/hour).
 - Optimized MOD loading and update checking with parallel processing to significantly reduce startup time.
@@ -56,6 +57,22 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.1.4
+
+#### feat: Release version 1.1.4 with MelonLoader management and stability fixes
+  - Add MelonLoader management panel in Settings: view installed version, enable/disable, and reinstall from GitHub releases
+  - Add MelonLoader disabled overlay on main view to indicate mod operations are blocked
+  - Detect installed MelonLoader version by parsing MelonLoader/Latest.log
+  - Add GitHub API Token field to Setup Wizard network configuration page
+  - Enforce proxy/token mutual exclusion in Setup Wizard: enabling proxy clears token and vice versa
+  - Fix game-running check to occur after download completes, preventing file write conflicts
+  - Fix MOD file matching to use exact filename comparison instead of partial match
+  - Fix backup restore to support backup_paths.json path mapping and detect empty backups
+  - Fix backup directory cleanup to recursively delete residual files including backup_paths.json
+  - Fix MOD sort order to preserve original JSON order for non-installed mods instead of alphabetical
+  - Fix manifest save during load to use await instead of fire-and-forget
+  - Bump version to 1.1.4 with updated assembly metadata
 
 ### v1.1.3-beta.1
 
