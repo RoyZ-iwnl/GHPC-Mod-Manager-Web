@@ -2262,7 +2262,7 @@
       },
       "ConfigComments": {
         "M242 (500 RPM), GAU12 (3600 RPM), XM813 (30mm)": {
-          "zh-CN": "M242（500发/分）、GAU‑12（3600发/分）、XM813（30毫米）",
+          "zh-CN": "M242（500发/分）、GAU12（3600发/分）、XM813（30毫米）",
           "en-US": "M242 (500 RPM), GAU12 (3600 RPM), XM813 (30mm)"
         },
         "Replaces M792 with M919 APFSDS": {
@@ -2393,7 +2393,7 @@
       },
       "ConfigComments": {
         "M242 (500 RPM), GAU12 (3600 RPM), XM813 (30mm)": {
-          "zh-CN": "M242（500发/分）、GAU‑12（3600发/分）、XM813（30毫米）",
+          "zh-CN": "M242（500发/分）、GAU12（3600发/分）、XM813（30毫米）",
           "en-US": "M242 (500 RPM), GAU12 (3600 RPM), XM813 (30mm)"
         },
         "Replaces M792 with M919 APFSDS": {
@@ -3521,6 +3521,10 @@
           "zh-CN": "BMP-1稳定器",
           "en-US": "BMP-1 Stabilizer"
         },
+        "BMP-1 Rangefinder": {
+          "zh-CN": "BMP-1测距仪",
+          "en-US": "BMP-1 Rangefinder"
+        },
         "Marder Stabilizer": {
           "zh-CN": "黄鼠狼Marder稳定器",
           "en-US": "Marder Stabilizer"
@@ -3531,7 +3535,43 @@
         },
         "BRDM-2 Stabilizer": {
           "zh-CN": "BRDM-2 稳定器",
-          "en-US": "BRDM-2 Stabilizerb"
+          "en-US": "BRDM-2 Stabilizer"
+        },
+        "BRDM-2 Turret Speed": {
+          "zh-CN": "BRDM-2 手摇炮塔加速",
+          "en-US": "BRDM-2 Turret Speed"
+        },
+        "BRDM-2 Optics": {
+          "zh-CN": "BRDM-2 瞄准镜增强",
+          "en-US": "BRDM-2 Optics"
+        },
+        "BRDM-2 Rangefinder": {
+          "zh-CN": "BRDM-2 测距器",
+          "en-US": "BRDM-2 Rangefinder"
+        },
+        "BTR-70 Stabilizer": {
+          "zh-CN": "BTR-70 稳定器",
+          "en-US": "BTR-70 Stabilizer"
+        },
+        "BTR-70 Turret Speed": {
+          "zh-CN": "BTR-70 手摇炮塔加速",
+          "en-US": "BTR-70 Turret Speed"
+        },
+        "BTR-70 Optics": {
+          "zh-CN": "BTR-70 瞄准镜增强",
+          "en-US": "BTR-70 Optics"
+        },
+        "BTR-70 Rangefinder": {
+          "zh-CN": "BTR-70 激光测距仪",
+          "en-US": "BTR-70 Rangefinder"
+        },
+        "PT-76B Rangefinder": {
+          "zh-CN": "PT-76B激光测距仪",
+          "en-US": "PT-76B Rangefinder"
+        },
+        "PT-76B Optics": {
+          "zh-CN": "PT-76B 瞄准镜增强",
+          "en-US": "PT-76B Optics"
         },
         "Leopard 1 Laser": {
           "zh-CN": "豹一激光测距仪",
@@ -3543,13 +3583,29 @@
           "zh-CN": "为BMP-1/BMP-1P提供稳定器 默认开启",
           "en-US": "Gives BMP-1/BMP-1P a stabilizer (default: enabled)"
         },
-        "Gives the Konkurs on the BMP-1P a stabilizer": {
-          "zh-CN": "为BMP-1P上的“竞赛”提供稳定器",
-          "en-US": "Gives the Konkurs on the BMP-1P a stabilizer"
+        "Gives the Konkurs on the BMP-1P a stabilizer(default: disabled)": {
+          "zh-CN": "为BMP-1P上的“竞赛”提供稳定器 默认关闭",
+          "en-US": "Gives the Konkurs on the BMP-1P a stabilizer(default: disabled)"
+        },
+        "Gives BMP-1/BMP-1P a laser rangefinder (display only, no auto-ranging; default: enabled)": {
+          "zh-CN": "为BMP-1/BMP-1P提供数显式测距仪 默认开启",
+          "en-US": "Gives BMP-1/BMP-1P a laser rangefinder (display only, no auto-ranging; default: enabled)"
         },
         "Gives BRDM-2 a stabilizer (default: enabled)": {
           "zh-CN": "为BRDM-2提供稳定器 默认开启",
           "en-US": "Gives BRDM-2 a stabilizer (default: enabled)"
+        },
+        "Increases BRDM-2 turret traverse speed (default: enabled)": {
+          "zh-CN": "为BRDM-2手摇炮塔加速，建议和稳定器一起开关 默认开启",
+          "en-US": "Increases BRDM-2 turret traverse speed (default: enabled)"
+        },
+        "Adds zoom levels to BRDM-2 gunner sight (default: enabled)": {
+          "zh-CN": "为BRDM-2瞄具添加更多倍率的放大选项 默认开启",
+          "en-US": "Adds zoom levels to BRDM-2 gunner sight (default: enabled)"
+        },
+        "Gives BRDM-2 a laser rangefinder (display only, no auto-ranging; default: enabled)": {
+          "zh-CN": "为BRDM-2提供数显式测距仪 默认开启",
+          "en-US": "Gives BRDM-2 a laser rangefinder (display only, no auto-ranging; default: enabled)"
         },
         "Gives Marder series a stabilizer (default: enabled)": {
           "zh-CN": "为黄鼠狼Marder提供稳定器 默认开启",
@@ -3560,8 +3616,32 @@
           "en-US": "Gives Marder series laser rangefinder and parallax fix (default: enabled)"
         },
         "Replace optical rangefinder with laser on Leopard 1 series (default: enabled)": {
-          "zh-CN": "为豹一全系提供激光测距仪 默认开启",
+          "zh-CN": "为豹1全系提供激光测距仪 默认开启",
           "en-US": "Replace optical rangefinder with laser on Leopard 1 series (default: enabled)"
+        },
+        "Gives BTR-70 a stabilizer (default: enabled)": {
+          "zh-CN": "为BTR-70提供稳定器 默认开启",
+          "en-US": "Gives BTR-70 a stabilizer (default: enabled)"
+        },
+        "Increases BTR-70 turret traverse speed (default: enabled)": {
+          "zh-CN": "为BTR-70手摇炮塔加速，建议和稳定器一起开关 默认开启",
+          "en-US": "Increases BTR-70 turret traverse speed (default: enabled)"
+        },
+        "Adds zoom levels to BTR-70 gunner sight (default: enabled)": {
+          "zh-CN": "为BTR-70瞄具添加更多倍率的放大选项 默认开启",
+          "en-US": "Adds zoom levels to BTR-70 gunner sight (default: enabled)"
+        },
+        "Gives BTR-70 a laser rangefinder (display only, no auto-ranging; default: enabled)": {
+          "zh-CN": "为BTR-70提供数显式测距仪 默认开启",
+          "en-US": "Gives BTR-70 a laser rangefinder (display only, no auto-ranging; default: enabled)"
+        },
+        "Gives PT-76B a laser rangefinder with auto-ranging (default: enabled)": {
+          "zh-CN": "为PT-76B提供自动装表测距仪 默认开启",
+          "en-US": "Gives PT-76B a laser rangefinder with auto-ranging (default: enabled)"
+        },
+        "Adds zoom levels to PT-76B gunner sight (default: enabled)": {
+          "zh-CN": "为PT-76B瞄具添加更多倍率的放大选项 默认开启",
+          "en-US": "Adds zoom levels to PT-76B gunner sight (default: enabled)"
         }
       }
     },
@@ -3593,7 +3673,7 @@
         }
         }
       },
-      "Cinema":{
+    "Cinema":{
       "ModId": "Cinema",
       "ConfigLabels": {
         "MenuKey": {

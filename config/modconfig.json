@@ -273,7 +273,11 @@
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/FireRateToggle/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "FireRateToggle.dll",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "M6A2",
+      "M6A2ROY"
+    ]
   },
   {
     "Id": "M113TOW",
