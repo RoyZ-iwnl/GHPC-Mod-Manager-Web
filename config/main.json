@@ -1,11 +1,55 @@
-  {
+{
     "ModConfigUrl": "https://GHPC.DMR.gg/config/modconfig.json",
-    "ModConfigFallbackUrl": "https://ghpcmm.link/config/modconfig.json",
-    "TranslationConfigUrl": "https://GHPC.DMR.gg/config/translationconfig.json",
-    "TranslationConfigFallbackUrl": "https://ghpcmm.link/config/translationconfig.json",
+    "TranslationConfigUrl": "https://github.com/RoyZ-iwnl/ghpc-translation",
     "ModI18nUrl": "https://GHPC.DMR.gg/config/mod_i18n.json",
-    "ModI18nFallbackUrl": "https://ghpcmm.link/config/mod_i18n.json",
     "ProxyServers": [
-      { "Id": "Gh2DmrGg", "Domain": "gh1.dmr.gg", "DisplayName": { "zh-CN": "gh1.dmr.gg (6657)", "en-US": "gh.dmr.gg (6658)" } }
+        {
+            "Id": "GhDmrGg",
+            "Domain": "gh.dmr.gg",
+            "DisplayName": {
+                "zh-CN": "Cloudflare 1",
+                "en-US": "Cloudflare 1"
+            }
+        },
+        {
+            "Id": "Gh1DmrGg",
+            "Domain": "gh1.dmr.gg",
+            "DisplayName": {
+                "zh-CN": "腾讯云 1",
+                "en-US": "Tencent Cloud 1"
+            }
+        },
+        {
+            "Id": "EdgeOneGhProxyCom",
+            "Domain": "edgeone.gh-proxy.com",
+            "DisplayName": {
+                "zh-CN": "腾讯云 2",
+                "en-US": "Tencent Cloud 2"
+            }
+        },
+        {
+            "Id": "GhProxyCom",
+            "Domain": "gh-proxy.com",
+            "DisplayName": {
+                "zh-CN": "Cloudflare 2",
+                "en-US": "Cloudflare 2"
+            }
+        },
+        {
+            "Id": "HkGhProxyCom",
+            "Domain": "hk.gh-proxy.com",
+            "DisplayName": {
+                "zh-CN": "香港",
+                "en-US": "Hong Kong"
+            }
+        },
+        {
+            "Id": "CdnGhProxyCom",
+            "Domain": "cdn.gh-proxy.com",
+            "DisplayName": {
+                "zh-CN": "Fastly",
+                "en-US": "Fastly"
+            }
+        }
     ]
-  }
+}
