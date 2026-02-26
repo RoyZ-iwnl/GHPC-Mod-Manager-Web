@@ -1,0 +1,11 @@
+  {
+    "ModConfigUrl": "https://GHPC.DMR.gg/config/modconfig.json",
+    "ModConfigFallbackUrl": "https://ghpcmm.link/config/modconfig.json",
+    "TranslationConfigUrl": "https://GHPC.DMR.gg/config/translationconfig.json",
+    "TranslationConfigFallbackUrl": "https://ghpcmm.link/config/translationconfig.json",
+    "ModI18nUrl": "https://GHPC.DMR.gg/config/mod_i18n.json",
+    "ModI18nFallbackUrl": "https://ghpcmm.link/config/mod_i18n.json",
+    "ProxyServers": [
+      { "Id": "GhDmrGg", "Domain": "gh.dmr.gg", "DisplayName": { "zh-CN": "gh.dmr.gg (Cloudflare 1)", "en-US": "gh.dmr.gg (Cloudflare 1)" } }
+    ]
+  }
