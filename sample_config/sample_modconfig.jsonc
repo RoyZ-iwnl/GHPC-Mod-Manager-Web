@@ -5,6 +5,17 @@
       "en-US": "Pact Increased Lethality",
       "zh-CN": "华约增强模组"
     },
+    "Description": {
+      "en-US": "Enhances the lethality of Warsaw Pact vehicles by improving ammunition penetration values, armor modeling, and fire control systems to better reflect historical performance.",
+      "zh-CN": "通过改进弹药穿透值、装甲建模和火控系统，增强华约阵营载具的杀伤力，更真实地还原历史性能表现。"
+    },
+    "Tags": {
+      "balance": { "zh-CN": "平衡", "en-US": "Balance" },
+      "warsaw-pact": { "zh-CN": "华约", "en-US": "Warsaw Pact" },
+      "ammunition": { "zh-CN": "弹药", "en-US": "Ammunition" },
+      "armor": { "zh-CN": "装甲", "en-US": "Armor" }
+    },
+    "SupportedGameVersions": ["20260210"],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "PactIncreasedLethality.dll",
@@ -17,6 +28,17 @@
       "en-US": "M1A1 Abrams",
       "zh-CN": "M1A1艾布拉姆斯"
     },
+    "Description": {
+      "en-US": "Adds the M1A1 Abrams main battle tank to GHPC, featuring accurate armor values, the 120mm M256 smoothbore cannon, and historically modeled ammunition types including M829A1 APFSDS.",
+      "zh-CN": "将M1A1艾布拉姆斯主战坦克加入游戏，具有精确的装甲数值、120mm M256滑膛炮，以及包括M829A1尾翼稳定脱壳穿甲弹在内的历史弹药类型。"
+    },
+    "Tags": {
+      "vehicle": { "zh-CN": "载具", "en-US": "Vehicle" },
+      "nato": { "zh-CN": "北约", "en-US": "NATO" },
+      "usa": { "zh-CN": "美国", "en-US": "USA" },
+      "tank": { "zh-CN": "坦克", "en-US": "Tank" }
+    },
+    "SupportedGameVersions": ["20260210"],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "M1A1Abrams.dll",
@@ -24,57 +46,66 @@
     "InstallMethod": "DirectRelease"
   },
   {
-      "Id": "sample-scripted-mod",
-      "Name": {
-        "en-US": "Sample Scripted Mod",
-        "zh-CN": "示例脚本MOD"
-      },
-      "ReleaseUrl": "https://api.github.com/repos/REPO-OWNER/REPO/releases/latest",
-      "TargetFileNameKeyword": ".dll",
-      "MainBinaryFileName": "sample.dll",
-      "ConfigSectionName": "SampleMod",
-      "InstallMethod": "Scripted",
-      "InstallScript_Base64": "QGVjaG8gb2ZmClJFTSBQYXJhbWV0ZXJzOiAlMSA9IERvd25sb2FkZWQgZmlsZSBwYXRoLCAlMiA9IEdhbWUgcm9vdCBkaXJlY3RvcnksICUzID0gVGFyZ2V0IGZpbGVuYW1lCgpzZXQgIkRPV05MT0FEX0ZJTEU9JX4xIgpzZXQgIkdBTUVfUk9PVD0lfjIiCnNldCAiVEFSR0VUX0ZJTEU9JX4zIgpzZXQgIk1PRFNfRElSPSVHQU1FX1JPT1QlXE1vZHMiCgppZiBub3QgZXhpc3QgIiVET1dOTE9BRF9GSUxFJSIgKAogICAgZWNobyBFUlJPUjogRG93bmxvYWRlZCBmaWxlIG5vdCBmb3VuZDogJURPV05MT0FEX0ZJTEUlCiAgICBleGl0IC9iIDEKKQoKaWYgbm90IGV4aXN0ICIlTU9EU19ESVIlIiBta2RpciAiJU1PRFNfRElSJSIKCmZvciAlJUYgaW4gKCIlRE9XTkxPQURfRklMRSUiKSBkbyBzZXQgIkZJTEVfRVhUPSUlfnhGIgoKaWYgL2kgIiVGSUxFX0VYVCUiPT0iLmRsbCIgKAogICAgZWNobyBJbnN0YWxsaW5nIERMTDogJVRBUkdFVF9GSUxFJQogICAgY29weSAiJURPV05MT0FEX0ZJTEUlIiAiJU1PRFNfRElSJVwlVEFSR0VUX0ZJTEUlIgopIGVsc2UgaWYgL2kgIiVGSUxFX0VYVCUiPT0iLnppcCIgKAogICAgZWNobyBFeHRyYWN0aW5nIFpJUCB0byBNb2RzIGRpcmVjdG9yeQogICAgcG93ZXJzaGVsbCAtQ29tbWFuZCAiRXhwYW5kLUFyY2hpdmUgLVBhdGggJyVET1dOTE9BRF9GSUxFJScgLURlc3RpbmF0aW9uUGF0aCAnJU1PRFNfRElSJScgLUZvcmNlIgopIGVsc2UgKAogICAgZWNobyBJbnN0YWxsaW5nIGZpbGU6ICVUQVJHRVRfRklMRSUKICAgIGNvcHkgIiVET1dOTE9BRF9GSUxFJSIgIiVNT0RTX0RJUiVcJVRBUkdFVF9GSUxFJSIKKQoKZWNobyBJbnN0YWxsYXRpb24gY29tcGxldGVkIHN1Y2Nlc3NmdWxseQo=",
-      /*
-          脚本参数说明:
-      - %1: 已下载文件的完整路径 (如:C:\temp\download_xxx_ATAC.dll)
-      - %2: 游戏根目录路径 (如:C:\Games\GHPC)
-      - %3: 目标文件名 (如:sample.dll，来自ModConfig.MainBinaryFileName)
+    "Id": "sample-scripted-mod",
+    "Name": {
+      "en-US": "Sample Scripted Mod",
+      "zh-CN": "示例脚本MOD"
+    },
+    "Description": {
+      "en-US": "A sample mod demonstrating the Scripted install method. Uses a custom batch script to handle installation logic beyond simple file extraction.",
+      "zh-CN": "演示脚本安装方式的示例MOD，使用自定义批处理脚本处理超出简单文件解压范围的安装逻辑。"
+    },
+    "Tags": {
+      "sample": { "zh-CN": "示例", "en-US": "Sample" },
+      "scripted": { "zh-CN": "脚本安装", "en-US": "Scripted" }
+    },
+    "SupportedGameVersions": ["20260210"],
+    "ReleaseUrl": "https://api.github.com/repos/REPO-OWNER/REPO/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "sample.dll",
+    "ConfigSectionName": "SampleMod",
+    "InstallMethod": "Scripted",
+    "InstallScript_Base64": "QGVjaG8gb2ZmClJFTSBQYXJhbWV0ZXJzOiAlMSA9IERvd25sb2FkZWQgZmlsZSBwYXRoLCAlMiA9IEdhbWUgcm9vdCBkaXJlY3RvcnksICUzID0gVGFyZ2V0IGZpbGVuYW1lCgpzZXQgIkRPV05MT0FEX0ZJTEU9JX4xIgpzZXQgIkdBTUVfUk9PVD0lfjIiCnNldCAiVEFSR0VUX0ZJTEU9JX4zIgpzZXQgIk1PRFNfRElSPSVHQU1FX1JPT1QlXE1vZHMiCgppZiBub3QgZXhpc3QgIiVET1dOTE9BRF9GSUxFJSIgKAogICAgZWNobyBFUlJPUjogRG93bmxvYWRlZCBmaWxlIG5vdCBmb3VuZDogJURPV05MT0FEX0ZJTEUlCiAgICBleGl0IC9iIDEKKQoKaWYgbm90IGV4aXN0ICIlTU9EU19ESVIlIiBta2RpciAiJU1PRFNfRElSJSIKCmZvciAlJUYgaW4gKCIlRE9XTkxPQURfRklMRSUiKSBkbyBzZXQgIkZJTEVfRVhUPSUlfnhGIgoKaWYgL2kgIiVGSUxFX0VYVCUiPT0iLmRsbCIgKAogICAgZWNobyBJbnN0YWxsaW5nIERMTDogJVRBUkdFVF9GSUxFJQogICAgY29weSAiJURPV05MT0FEX0ZJTEUlIiAiJU1PRFNfRElSJVwlVEFSR0VUX0ZJTEUlIgopIGVsc2UgaWYgL2kgIiVGSUxFX0VYVCUiPT0iLnppcCIgKAogICAgZWNobyBFeHRyYWN0aW5nIFpJUCB0byBNb2RzIGRpcmVjdG9yeQogICAgcG93ZXJzaGVsbCAtQ29tbWFuZCAiRXhwYW5kLUFyY2hpdmUgLVBhdGggJyVET1dOTE9BRF9GSUxFJScgLURlc3RpbmF0aW9uUGF0aCAnJU1PRFNfRElSJScgLUZvcmNlIgopIGVsc2UgKAogICAgZWNobyBJbnN0YWxsaW5nIGZpbGU6ICVUQVJHRVRfRklMRSUKICAgIGNvcHkgIiVET1dOTE9BRF9GSUxFJSIgIiVNT0RTX0RJUiVcJVRBUkdFVF9GSUxFJSIKKQoKZWNobyBJbnN0YWxsYXRpb24gY29tcGxldGVkIHN1Y2Nlc3NmdWxseQo=",
+    /*
+        脚本参数说明:
+    - %1: 已下载文件的完整路径 (如:C:\temp\download_xxx_ATAC.dll)
+    - %2: 游戏根目录路径 (如:C:\Games\GHPC)
+    - %3: 目标文件名 (如:sample.dll，来自ModConfig.MainBinaryFileName)
 
 
-        @echo off
-        REM Parameters: %1 = Downloaded file path, %2 = Game root directory, %3 = Target filename
+      @echo off
+      REM Parameters: %1 = Downloaded file path, %2 = Game root directory, %3 = Target filename
 
-        set "DOWNLOAD_FILE=%~1"
-        set "GAME_ROOT=%~2"
-        set "TARGET_FILE=%~3"
-        set "MODS_DIR=%GAME_ROOT%\Mods"
+      set "DOWNLOAD_FILE=%~1"
+      set "GAME_ROOT=%~2"
+      set "TARGET_FILE=%~3"
+      set "MODS_DIR=%GAME_ROOT%\Mods"
 
-        if not exist "%DOWNLOAD_FILE%" (
-            echo ERROR: Downloaded file not found: %DOWNLOAD_FILE%
-            exit /b 1
-        )
+      if not exist "%DOWNLOAD_FILE%" (
+          echo ERROR: Downloaded file not found: %DOWNLOAD_FILE%
+          exit /b 1
+      )
 
-        if not exist "%MODS_DIR%" mkdir "%MODS_DIR%"
+      if not exist "%MODS_DIR%" mkdir "%MODS_DIR%"
 
-        for %%F in ("%DOWNLOAD_FILE%") do set "FILE_EXT=%%~xF"
+      for %%F in ("%DOWNLOAD_FILE%") do set "FILE_EXT=%%~xF"
 
-        if /i "%FILE_EXT%"==".dll" (
-            echo Installing DLL: %TARGET_FILE%
-            copy "%DOWNLOAD_FILE%" "%MODS_DIR%\%TARGET_FILE%"
-        ) else if /i "%FILE_EXT%"==".zip" (
-            echo Extracting ZIP to Mods directory
-            powershell -Command "Expand-Archive -Path '%DOWNLOAD_FILE%' -DestinationPath '%MODS_DIR%' -Force"
-        ) else (
-            echo Installing file: %TARGET_FILE%
-            copy "%DOWNLOAD_FILE%" "%MODS_DIR%\%TARGET_FILE%"
-        )
+      if /i "%FILE_EXT%"==".dll" (
+          echo Installing DLL: %TARGET_FILE%
+          copy "%DOWNLOAD_FILE%" "%MODS_DIR%\%TARGET_FILE%"
+      ) else if /i "%FILE_EXT%"==".zip" (
+          echo Extracting ZIP to Mods directory
+          powershell -Command "Expand-Archive -Path '%DOWNLOAD_FILE%' -DestinationPath '%MODS_DIR%' -Force"
+      ) else (
+          echo Installing file: %TARGET_FILE%
+          copy "%DOWNLOAD_FILE%" "%MODS_DIR%\%TARGET_FILE%"
+      )
 
-        echo Installation completed successfully
+      echo Installation completed successfully
 
-      */
-      "Conflicts": [],
-      "Requirements": []
+    */
+    "Conflicts": [],
+    "Requirements": []
   },
   {
     "Id": "SomeComplexMod",
@@ -82,6 +113,16 @@
       "en-US": "Complex Mod",
       "zh-CN": "复杂MOD"
     },
+    "Description": {
+      "en-US": "A complex mod that depends on BaseMod and CoreLibrary. Demonstrates dependency and conflict declaration. Incompatible with IncompatibleMod1 and IncompatibleMod2.",
+      "zh-CN": "依赖BaseMod和CoreLibrary的复杂MOD，演示依赖与冲突声明的用法。与IncompatibleMod1和IncompatibleMod2不兼容。"
+    },
+    "Tags": {
+      "sample": { "zh-CN": "示例", "en-US": "Sample" },
+      "complex": { "zh-CN": "复杂", "en-US": "Complex" },
+      "dependency": { "zh-CN": "依赖演示", "en-US": "Dependency Demo" }
+    },
+    "SupportedGameVersions": ["0.24.0", "0.24.1"],
     "ReleaseUrl": "https://api.github.com/repos/example/ComplexMod/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "ComplexMod.dll",

@@ -1,51 +1,23 @@
 [
   {
-    "Id": "Vprel",
-    "Name": {
-      "en-US": "Vehicle Preloader",
-      "zh-CN": "载具预载支持模块"
-    },
-    "ReleaseUrl": "https://api.github.com/repos/thebeninator/VehiclePreloader/releases/latest",
-    "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "VehiclePreloader.dll",
-    "InstallMethod": "DirectRelease"
-  },
-  {
-    "Id": "Binoaim",
-    "Name": {
-      "en-US": "Bino Aim",
-      "zh-CN": "车长超控瞄准放大限制解除"
-    },
-    "ReleaseUrl": "https://api.github.com/repos/thebeninator/BinoAim/releases/latest",
-    "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "BinoAim.dll",
-    "ConfigSectionName": "BinoAim",
-    "InstallMethod": "DirectRelease"
-  },
-  {
-    "Id": "PactIL",
-    "Name": {
-      "en-US": "Pact Increased Lethality",
-      "zh-CN": "华约增强模组"
-    },
-    "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
-    "TargetFileNameKeyword": ".zip",
-    "MainBinaryFileName": "PactIncreasedLethality.dll",
-    "ConfigSectionName": "PactIncreasedLethality",
-    "InstallMethod": "DirectRelease",
-    "Requirements": [
-      "Vprel"
-    ],
-    "Conflicts": [
-      "PactILROY"
-    ]
-  },
-  {
     "Id": "PactILROY",
     "Name": {
       "en-US": "Pact Increased Lethality(Priority version)",
       "zh-CN": "华约增强模组(优先更新版)"
     },
+    "Description": {
+      "en-US": "Pact Increased Lethality is specifically designed to bolster the firepower and survivability of Warsaw Pact forces. It introduces a wide array of advanced vehicle variants, modern defensive systems, and upgraded ammunition to bring Eastern Bloc armor to a new level of lethality.Priority update version by RoyZ",
+      "zh-CN": "华约增强模组是一款专门用于提升华约阵营的火力与生存能力。该模组引入了大量先进的载具变体、现代防御系统以及升级后的弹药，旨在将东欧集团的装甲力量提升至全新的杀伤水平。由RoyZ维护的优先更新版以支持最新游戏"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "PactIncreasedLethalityROY.dll",
@@ -59,11 +31,55 @@
     ]
   },
   {
+    "Id": "PactIL",
+    "Name": {
+      "en-US": "Pact Increased Lethality",
+      "zh-CN": "华约增强模组"
+    },
+    "Description": {
+      "en-US": "Pact Increased Lethality is specifically designed to bolster the firepower and survivability of Warsaw Pact forces. It introduces a wide array of advanced vehicle variants, modern defensive systems, and upgraded ammunition to bring Eastern Bloc armor to a new level of lethality.",
+      "zh-CN": "华约增强模组是一款专门用于提升华约阵营的火力与生存能力。该模组引入了大量先进的载具变体、现代防御系统以及升级后的弹药，旨在将东欧集团的装甲力量提升至全新的杀伤水平。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20251218.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "PactIncreasedLethality.dll",
+    "ConfigSectionName": "PactIncreasedLethality",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Vprel"
+    ],
+    "Conflicts": [
+      "PactILROY"
+    ]
+  },
+  {
     "Id": "M1A1",
     "Name": {
       "en-US": "M1A1 Abrams",
       "zh-CN": "M1A1艾布拉姆斯"
     },
+    "Description": {
+      "en-US": "The M1A1 Abrams mod introduces the iconic US main battle tank M1A1, featuring a powerful 120 mm smoothbore gun, advanced composite armor, and improved fire-control and sighting systems, giving it excellent long-range accuracy and survivability while maintaining good mobility, making it ideal for players who enjoy modern Western armor and head‑on armored engagements.",
+      "zh-CN": "M1A1模组为游戏加入了标志性的美军主战坦克 M1A1，配备强大的 120 毫米滑膛炮、先进的复合装甲以及改进后的火控与观瞄系统，在中远距离交战中拥有极高的打击精度与生存能力，同时保留了良好的机动性能，适合喜欢西方现代装甲力量与正面钢铁对决体验的玩家使用。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "M1A1Abrams.dll",
@@ -83,6 +99,19 @@
       "en-US": "M1A1 Abrams AMP",
       "zh-CN": "M1A1艾布拉姆斯AMP"
     },
+    "Description": {
+      "en-US": "M1A1 Abrams AMP is an enhanced M1A1 Abrams main battle tank mod featuring upgraded composite armor, advanced fire control systems, and various ammunition options (including DU rounds), significantly boosting the tank's protection, mobility, and battlefield lethality while preserving the authentic handling of the original tank for modern armor combat simulations.[THIS MOD IS NOT WORKING ON 20260210.1]",
+      "zh-CN": "M1A1 Abrams AMP 是一款增强版 M1A1 艾布拉姆斯主战坦克模组，集成了升级的复合装甲、先进火控系统和多种弹药选项（如 DU 穿甲弹），显著提升了坦克的防护、机动性和战场杀伤力，同时保持了原版坦克的真实操控特性，适用于现代装甲作战模拟。[此模组在20260210.1版本无效]"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20250630"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/Cyances/M1A1AbramsAMP/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "zzM1A1AbramsAMP.dll",
@@ -101,6 +130,19 @@
       "en-US": "Underdogs Enhanced",
       "zh-CN": "弱势载具增强"
     },
+    "Description": {
+      "en-US": "Underdogs Enhanced is a MelonLoader mod for equips underdog vehicles like BMP-1, Marder 1A2, BRDM-2, BTR-70, Leopard 1 series, and PT-76B with vector stabilizers, laser rangefinders, faster turret traverse, and improved gunner sights—bringing new life to vintage armor. ",
+      "zh-CN": "弱势载具增强模组，通过为 BMP-1、Marder 1A2、BRDM-2、BTR-70、Leopard 1 系列和 PT-76B 等载具添加矢量稳定器、激光测距仪、转塔转速提升和瞄具变焦等功能，大幅提升这些\"弱势\"载具的作战能力，让老式装备焕发新生。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/UnderdogsEnhanced/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "UnderdogsEnhanced.dll",
@@ -114,18 +156,31 @@
     ]
   },
   {
-    "Id": "SM60",
+    "Id": "BMP1ST",
     "Name": {
-      "en-US": "Super M60",
-      "zh-CN": "超级M60"
+      "en-US": "Stabilized BMP-1",
+      "zh-CN": "BMP-1稳定器"
     },
-    "ReleaseUrl": "https://api.github.com/repos/Cyances/Super-M60/releases/latest",
+    "Description": {
+      "en-US": "Give BMP-1/1P stabilizer",
+      "zh-CN": "基于BMP-1/1P双稳"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/Stabilized-BMP-1/releases/latest",
     "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "SuperM60.dll",
-    "ConfigSectionName": "SuperM60Config",
+    "MainBinaryFileName": "StabilizedBMP1.dll",
+    "ConfigSectionName": "Stabilized-BMP-1",
     "InstallMethod": "DirectRelease",
     "Conflicts": [
-      "SM60ROY"
+      "underdog"
     ]
   },
   {
@@ -134,6 +189,19 @@
       "en-US": "Super M60(Priority version)",
       "zh-CN": "超级M60(优先更新版)"
     },
+    "Description": {
+      "en-US": "Super M60 is a WIP mod upgrading M60A1/A3 to hypothetical M60A4 standard, boosting armor (KE+60%, CE+80%), 1250HP engine, ammo (e.g., M900A1/2 APFSDS-T pen 550-580mm), Cupola HMG with LRF/stabilization, and optional elite crew. M60A3 adds GPS/FLIR; M60A1 keeps manual rangefinder but improved optics. Note: Cupola LRF works only on M60A3; full turret/hull armor due to model limits.Priority update version by RoyZ",
+      "zh-CN": "超级M60是一款将 M60A1 和 M60A3 升级为假想 M60A4 标准的模组，目前处于开发中（WIP）。它提升了装甲（KE+60%、CE+80%）、1250马力发动机、弹药性能（如 M900A1/2 APFSDS-T 穿深550-580mm）、Cupola 机枪 LRF/稳定系统，以及可选精英乘员。M60A3 获GPS/FLIR，M60A1 保留手动测距但改善光学；注意 Cupola LRF 仅 M60A3 有效，全塔/车体装甲强化为模型限制。由RoyZ维护的优先更新版以支持最新游戏"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/Super-M60/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "SuperM60ROY.dll",
@@ -144,11 +212,46 @@
     ]
   },
   {
+    "Id": "SM60",
+    "Name": {
+      "en-US": "Super M60",
+      "zh-CN": "超级M60"
+    },
+    "Description": {
+      "en-US": "Super M60 is a WIP mod upgrading M60A1/A3 to hypothetical M60A4 standard, boosting armor (KE+60%, CE+80%), 1250HP engine, ammo (e.g., M900A1/2 APFSDS-T pen 550-580mm), Cupola HMG with LRF/stabilization, and optional elite crew. M60A3 adds GPS/FLIR; M60A1 keeps manual rangefinder but improved optics. Note: Cupola LRF works only on M60A3; full turret/hull armor due to model limits.",
+      "zh-CN": "超级M60是一款将 M60A1 和 M60A3 升级为假想 M60A4 标准的模组，目前处于开发中（WIP）。它提升了装甲（KE+60%、CE+80%）、1250马力发动机、弹药性能（如 M900A1/2 APFSDS-T 穿深550-580mm）、Cupola 机枪 LRF/稳定系统，以及可选精英乘员。M60A3 获GPS/FLIR，M60A1 保留手动测距但改善光学；注意 Cupola LRF 仅 M60A3 有效，全塔/车体装甲强化为模型限制。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20240806"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Cyances/Super-M60/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "SuperM60.dll",
+    "ConfigSectionName": "SuperM60Config",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "SM60ROY"
+    ]
+  },
+  {
     "Id": "M6A2ROY",
     "Name": {
       "en-US": "M6A2 ADATS(Priority version)",
       "zh-CN": "M6A2 \"阿达茨\"布雷德利(优先更新版)"
     },
+    "Description": {
+      "en-US": "M6A2 ADATS is a mod that replaces the M2 Bradley with a hypothetical M6A1/A2/A3 ADATS anti-air/anti-tank vehicle, featuring the GAU-12/U rotary cannon (3600 RPM, 1500 rounds) or 30mm XM813 chaingun, plus MIM-146 ADATS missiles (4 ready, 12 stowed), with auto lead calculation, horizontal stabilized reticle, and diverse ammo types including airburst and tandem warhead options.Priority update version by RoyZ",
+      "zh-CN": "M6A2 \"阿达茨\"布雷德利是一款将 M2 布雷德利 替换为假想 M6A1/A2/A3 ADATS 防空/反坦克载具的模组，配备 GAU-12/U 旋转炮（3600 RPM，1500 发弹药）或 30mm XM813 机炮，以及 MIM-146 ADATS 导弹（4 发就绪，12 发备用），支持自动提前量计算、水平稳定瞄具和多种弹药选项，包括空爆弹药和串联战斗部。由RoyZ维护的优先更新版以支持最新游戏"
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/M6A2-ADATS/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "zM6A2AdatsROY.dll",
@@ -169,6 +272,19 @@
       "en-US": "M6A2 ADATS",
       "zh-CN": "M6A2 \"阿达茨\"布雷德利"
     },
+    "Description": {
+      "en-US": "M6A2 ADATS is a mod that replaces the M2 Bradley with a hypothetical M6A1/A2/A3 ADATS anti-air/anti-tank vehicle, featuring the GAU-12/U rotary cannon (3600 RPM, 1500 rounds) or 30mm XM813 chaingun, plus MIM-146 ADATS missiles (4 ready, 12 stowed), with auto lead calculation, horizontal stabilized reticle, and diverse ammo types including airburst and tandem warhead options.",
+      "zh-CN": "M6A2 \"阿达茨\"布雷德利是一款将 M2 布雷德利 替换为假想 M6A1/A2/A3 ADATS 防空/反坦克载具的模组，配备 GAU-12/U 旋转炮（3600 RPM，1500 发弹药）或 30mm XM813 机炮，以及 MIM-146 ADATS 导弹（4 发就绪，12 发备用），支持自动提前量计算、水平稳定瞄具和多种弹药选项，包括空爆弹药和串联战斗部。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20250902"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/Cyances/M6A2-ADATS/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "zM6A2Adats.dll",
@@ -187,6 +303,19 @@
       "en-US": "M3A2 Bradley",
       "zh-CN": "M3A2 超级布雷德利"
     },
+    "Description": {
+      "en-US": "M3A2 Bradley mod replaces all M2 Bradleys with upgraded M3A3 Bradleys, featuring TOW2-A missiles, M919 APFSDS rounds, and expanded ammo options for superior firepower and survivability.",
+      "zh-CN": "M3A2 超级布雷德利模组将所有 M2 Bradley 替换为更先进的 M3A3 Bradley 版本，新增 TOW2-A 导弹、M919 穿甲弹以及更多弹药类型，提升火力和生存能力。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20250102"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/SovGrenadier/M3A2-Bradley-GHPC/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "M3A2Bradley.dll",
@@ -205,6 +334,19 @@
       "en-US": "50mm Bradley(Priority version)",
       "zh-CN": "50毫米布雷德利(优先更新版)"
     },
+    "Description": {
+      "en-US": "50mm Bradley is a super up-gunned Bradley IFV featuring the M913 50mm autocannon (40x M1023 APFSDS-T, 120x M1024 HEAB-T with airburst capability) paired with 10x BGM-71C I-TOW-FF fire-and-forget top-attack missiles (laser designation lock), built to deal with those East Germans on your doorstep.Priority update version by RoyZ",
+      "zh-CN": "50毫米布雷德利是一款超级武装布莱德利步兵战车，配备 M913 50mm 自动炮（含 M1023 APFSDS-T 40 发、M1024 HEAB-T 120 发，支持空爆功能），搭配 BGM-71C I-TOW-FF 射后不理式顶攻导弹（10 发，激光指示锁定），专为对抗东德装甲部队而设计，让你在家门口就能压制敌方火力。由RoyZ维护的优先更新版以支持最新游戏"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/50mm-Bradley/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "50mmBradleyROY.dll",
@@ -225,6 +367,19 @@
       "en-US": "50mm Bradley",
       "zh-CN": "50毫米布雷德利"
     },
+    "Description": {
+      "en-US": "50mm Bradley is a super up-gunned Bradley IFV featuring the M913 50mm autocannon (40x M1023 APFSDS-T, 120x M1024 HEAB-T with airburst capability) paired with 10x BGM-71C I-TOW-FF fire-and-forget top-attack missiles (laser designation lock), built to deal with those East Germans on your doorstep.",
+      "zh-CN": "50毫米布雷德利是一款超级武装布莱德利步兵战车，配备 M913 50mm 自动炮（含 M1023 APFSDS-T 40 发、M1024 HEAB-T 120 发，支持空爆功能），搭配 BGM-71C I-TOW-FF 射后不理式顶攻导弹（10 发，激光指示锁定），专为对抗东德装甲部队而设计，让你在家门口就能压制敌方火力。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20240710"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/50mm-Bradley/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "50mmBradley.dll",
@@ -238,53 +393,24 @@
     ]
   },
   {
-    "Id": "M2ReSound",
-    "Name": {
-      "en-US": "M2 Bradley Sound Replacement",
-      "zh-CN": "M2布雷德利声音替换"
-    },
-    "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2-Bradley-Sound-Replacement/releases/latest",
-    "TargetFileNameKeyword": ".zip",
-    "MainBinaryFileName": "M2BradleySoundReplacement.dll",
-    "ConfigSectionName": "M2ReSound",
-    "InstallMethod": "DirectRelease"
-  },
-  {
-    "Id": "BMP1ST",
-    "Name": {
-      "en-US": "Stabilized BMP-1",
-      "zh-CN": "BMP-1稳定器"
-    },
-    "ReleaseUrl": "https://api.github.com/repos/thebeninator/Stabilized-BMP-1/releases/latest",
-    "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "StabilizedBMP1.dll",
-    "ConfigSectionName": "Stabilized-BMP-1",
-    "InstallMethod": "DirectRelease",
-    "Conflicts": [
-      "underdog"
-    ]
-  },
-  {
-    "Id": "FireRT",
-    "Name": {
-      "en-US": "M2/BMP2 Fire Rate Toggle(Press B)",
-      "zh-CN": "B键M2/BMP2射速切换"
-    },
-    "ReleaseUrl": "https://api.github.com/repos/thebeninator/FireRateToggle/releases/latest",
-    "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "FireRateToggle.dll",
-    "InstallMethod": "DirectRelease",
-    "Conflicts": [
-      "M6A2",
-      "M6A2ROY"
-    ]
-  },
-  {
     "Id": "M113TOW",
     "Name": {
       "en-US": "M113 TOW",
       "zh-CN": "M113 “陶”"
     },
+    "Description": {
+      "en-US": "This equips the M113 with the M220 launcher system and 10 BGM-71A TOW missiles, featuring longer reload times than TOW emplacements; the launcher lacks stabilization and thermal sights by default, with a 40% default appearance chance.",
+      "zh-CN": "为M113步兵战车配备M220发射系统和10枚BGM-71A TOW导弹，重新装填时间长于固定TOW阵地；发射器默认无稳定功能，默认无热成像瞄具，默认40%出现概率。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "M113Tow.dll",
@@ -300,6 +426,19 @@
       "en-US": "NATO ERA",
       "zh-CN": "北约爆反"
     },
+    "Description": {
+      "en-US": "NATO ERA adds configurable Explosive Reactive Armor (ERA) to M1/IP Abrams and M2 Bradley, with customizable arrangement, performance, color (to match custom skins), and optional weight penalty. Compatible with vanilla Abrams, M1A1 Abrams v1.1.4+, M1A1 Abrams AMP v2.3.3+, 50mm Bradley, M3A2 Bradley, and M6A2 ADATS mods; only models ARAT-1, BRAT M3, and M5 bricks for performance optimization (no triangular M4 bricks). Special thanks to thebeninator for coding and 3D modeling advice; contact author for custom texture model files, ARAT-1 weighs 29.48KG per tile (rounded).[THIS MOD IS NOT WORKING ON 20260210.1]",
+      "zh-CN": "北约爆反为 M1/IP Abrams 和 M2 Bradley 添加可配置的爆炸反应装甲（ERA），支持自定义排列、性能、颜色（适配自定义皮肤）和可选重量惩罚。兼容原版 Abrams、M1A1 Abrams v1.1.4+、M1A1 Abrams AMP v2.3.3+、50mm Bradley、M3A2 Bradley 和 M6A2 ADATS 模组，仅建模 ARAT-1、BRAT M3 和 M5 砖块以优化性能（未包含三角形 M4 砖块）。特别感谢 thebeninator 提供的编码和 3D 建模指导；如需自定义纹理模型文件可联系作者，ARAT-1 每块重 29.48KG（四舍五入）。[此模组在20260210.1版本无效]"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20250630"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/Cyances/NATO-ERA/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "1NatoERA.dll",
@@ -313,27 +452,81 @@
     ]
   },
   {
-    "Id": "minhud",
+    "Id": "M2ReSound",
     "Name": {
-      "en-US": "Min HUD",
-      "zh-CN": "最小化UI"
+      "en-US": "M2 Bradley Sound Replacement",
+      "zh-CN": "M2布雷德利声音替换"
     },
-    "ReleaseUrl": "https://api.github.com/repos/thebeninator/MinHud/releases/latest",
-    "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "MinHud.dll",
-    "ConfigSectionName": "MinHud",
+    "Description": {
+      "en-US": "Replace M2 Bradley Sound",
+      "zh-CN": "替换M2布雷德利的音效"
+    },
+    "Tags": {
+      "sound": {
+        "zh-CN": "音效",
+        "en-US": "Sound"
+      }
+    },
+    "SupportedGameVersions": [
+      "20250630"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2-Bradley-Sound-Replacement/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "M2BradleySoundReplacement.dll",
+    "ConfigSectionName": "M2ReSound",
     "InstallMethod": "DirectRelease"
   },
   {
-    "Id": "ATAC",
+    "Id": "FireRT",
     "Name": {
-      "en-US": "Any Tank Any Campaign",
-      "zh-CN": "自定义战役坦克"
+      "en-US": "M2/BMP2 Fire Rate Toggle(Press B)",
+      "zh-CN": "B键M2/BMP2射速切换"
     },
-    "ReleaseUrl": "https://api.github.com/repos/Cyances/Any-Tank-Any-Campaign/releases/latest",
+    "Description": {
+      "en-US": "Toggle Fire Rate for M2/BMP2, press B to switch.",
+      "zh-CN": "M2/BMP2射速切换,B键生效。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20250630"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/FireRateToggle/releases/latest",
     "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "ATAC.dll",
-    "ConfigSectionName": "\"ATAC Config\"",
+    "MainBinaryFileName": "FireRateToggle.dll",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "M6A2",
+      "M6A2ROY"
+    ]
+  },
+  {
+    "Id": "Binoaim",
+    "Name": {
+      "en-US": "Bino Aim",
+      "zh-CN": "车长超控瞄准放大限制解除"
+    },
+    "Description": {
+      "en-US": "Allows turret traversal while using binoculars,can be configured to allow shooting while using binoculars (disabled by default)",
+      "zh-CN": "允许在使用双筒望远镜时进行炮塔转动，可配置为允许在使用双筒望远镜时射击（默认禁用）"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/BinoAim/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "BinoAim.dll",
+    "ConfigSectionName": "BinoAim",
     "InstallMethod": "DirectRelease"
   },
   {
@@ -342,6 +535,19 @@
       "en-US": "Random Night Battles",
       "zh-CN": "随机夜战"
     },
+    "Description": {
+      "en-US": "Random Night Battles in chance.",
+      "zh-CN": "随机夜战,概率可调。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20250630"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Random-Night-Battles/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "RandomNightBattles.dll",
@@ -354,9 +560,96 @@
       "en-US": "Unrestricted Customizer",
       "zh-CN": "无限制自定义"
     },
+    "Description": {
+      "en-US": "Unrestricted Mission Custom menu",
+      "zh-CN": "为任务自定义菜单开放所有单位"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/CustomizerUnrestricted/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "UnrestrictedCustomizer.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "Vprel",
+    "Name": {
+      "en-US": "Vehicle Preloader",
+      "zh-CN": "载具预载支持模块"
+    },
+    "Description": {
+      "en-US": "Loads all vehicle prefabs w/o needing to start a mission",
+      "zh-CN": "载具预载支持模块，很多模组都需要此Mod进行预载prefebs，以完成任务初始化。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/VehiclePreloader/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "VehiclePreloader.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "minhud",
+    "Name": {
+      "en-US": "Min HUD",
+      "zh-CN": "最小化UI"
+    },
+    "Description": {
+      "en-US": "Hides the version, controls tooltip, and timescale from the HUD,also has these cfg options (both enabled by default)",
+      "zh-CN": "最小化UI是一个轻量级界面优化模组，能隐藏版本号、控件提示和时间缩放显示，并提供默认启用的配置选项，如自定义HUD透明度和按键绑定，方便调整显示偏好。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/MinHud/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "MinHud.dll",
+    "ConfigSectionName": "MinHud",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "ATAC",
+    "Name": {
+      "en-US": "Any Tank Any Campaign",
+      "zh-CN": "自定义战役坦克"
+    },
+    "Description": {
+      "en-US": "ATAC is a mod that lets you choose what vehicles spawn in campaigns, enabling East vs East, NATO vs NATO, T-34s vs M60s and more—configure replacement chances in MelonPreferences.cfg (full unit list on GitHub).",
+      "zh-CN": "自定义战役坦克是一款让您自定义战役中载具生成的模组，支持东欧对东欧、NATO对NATO、T-34 对 M60 等任意组合对战，通过 MelonPreferences.cfg 配置替换概率（完整单位列表详见 GitHub）。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "SupportedGameVersions": [
+      "20250702"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Cyances/Any-Tank-Any-Campaign/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "ATAC.dll",
+    "ConfigSectionName": "\"ATAC Config\"",
     "InstallMethod": "DirectRelease"
   },
   {
@@ -365,6 +658,19 @@
       "en-US": "GMPC Texture Loader",
       "zh-CN": "贴图更换工具"
     },
+    "Description": {
+      "en-US": "GunnerModPC Texture Loader is a convenient texture replacement mod that lets you easily swap in-game textures with custom PNG files. Simply place same-named textures in the Gunner, HEAT, PC!\\Bin\\Mods\\GMPCTextureLoader folder, enable auto-refresh in config for real-time previews during scene reloads. Extract originals via CinematicUnityExplorer by searching Texture2D objects and saving as PNG; find more skins on the official Discord.",
+      "zh-CN": "贴图更换工具是一款便捷的贴图替换工具模组，让您轻松用自定义 PNG 文件替换游戏内贴图。只需将同名贴图放入 Gunner, HEAT, PC!\\Bin\\Mods\\GMPCTextureLoader 文件夹，配置文件中开启自动刷新功能，即可实时预览修改效果。提取原贴图可通过 CinematicUnityExplorer 工具，搜索 Texture2D 对象后保存为 PNG；更多可用贴图皮肤请前往官方 Discord 获取。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "SupportedGameVersions": [
+      "20251218.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/Andrix44/GMPCTextureLoader/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "GMPCTextureLoader.dll",
@@ -377,6 +683,19 @@
       "en-US": "Gunner Mod PC",
       "zh-CN": "GMPC增强插件"
     },
+    "Description": {
+      "en-US": "GunnerModPC is a lightweight mod enhancing the Gunner, HEAT, PC! experience, adding playable T-34-85 and T-54A vehicles plus helicopter targets (OH-58A, AH-1, Mi-2, Mi-8T, Mi-24, Mi-24V) at Grafenwoehr range, along with live shot damage reports, FPS counter, custom 3rd person crosshair color, and map selector fixes—all toggleable via Mod Manager.",
+      "zh-CN": "GMPC增强插件是一款增强体验的轻量模组，在Grafenwoehr坦克靶场新增T-34-85、T-54A可玩载具，以及多种直升机靶机（OH-58A、AH-1、Mi-2、Mi-8T、Mi-24、Mi-24V），同时提供实时射击损伤报告、FPS计数器、自定义三视角准星颜色及地图选择修复等实用功能，所有设置可在开关。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/Andrix44/GunnerModPC/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "GunnerModPC.dll",
@@ -389,6 +708,19 @@
       "en-US": "Cinematic Tools",
       "zh-CN": "电影工具"
     },
+    "Description": {
+      "en-US": "GHPC Cinematic Tools is a cinematic camera tool that supports smooth camera path recording, Depth of Field (DOF) control, easing curves, slow motion, Catmull-Rom spline interpolation and other professional features in F3 freecam mode, plus HTTP API interface and full English/Chinese bilingual support. Simply press F9 to open the menu, F5 to add keyframes, F6 to play paths for easy high-quality gameplay footage creation. ",
+      "zh-CN": "GHPC电影工具是一款电影镜头工具，支持在 F3 自由摄像模式下录制平滑相机路径、景深控制（DOF）、缓动曲线、慢动作、Catmull-Rom 样条插值等专业功能，还提供 HTTP API 接口和中英双语支持。只需按 F9 打开菜单、F5 添加关键帧、F6 播放路径，即可轻松制作高质量游戏录像。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/CinematicTools/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "CinematicTools.dll",

@@ -582,7 +582,12 @@
         inputPlaceholder: '输入 ModId 后按 Enter',
         deleteMod: '🗑 删除此 Mod',
         deleteConfirm: '确定删除第 {0} 个 Mod（{1}）？',
-        unnamed: '未命名'
+        unnamed: '未命名',
+        description: 'Mod 描述（多语言）',
+        tags: '标签（Tags）— 格式：key=中文/英文，按 Enter 添加',
+        tagsPlaceholder: '如：balance=平衡/Balance',
+        supportedVersions: '支持的游戏版本（SupportedGameVersions）— 输入后按 Enter 添加',
+        versionsPlaceholder: '如：20260210'
       },
       'en-US': {
         title: 'GHPC Mod Config Editor',
@@ -614,7 +619,12 @@
         inputPlaceholder: 'Enter ModId and press Enter',
         deleteMod: '🗑 Delete Mod',
         deleteConfirm: 'Delete Mod #{0} ({1})?',
-        unnamed: 'Unnamed'
+        unnamed: 'Unnamed',
+        description: 'Mod Description (Multilingual)',
+        tags: 'Tags — Format: key=Chinese/English, press Enter to add',
+        tagsPlaceholder: 'e.g.: balance=平衡/Balance',
+        supportedVersions: 'Supported Game Versions — Press Enter to add',
+        versionsPlaceholder: 'e.g.: 20260210'
       }
     };
 
@@ -657,6 +667,9 @@
       mods.push({
         Id: '',
         Name: { 'en-US': '', 'zh-CN': '' },
+        Description: { 'en-US': '', 'zh-CN': '' },
+        Tags: {},
+        SupportedGameVersions: [],
         ReleaseUrl: '',
         TargetFileNameKeyword: '.zip',
         MainBinaryFileName: '',
@@ -728,6 +741,10 @@
         mods[index].Name['en-US'] = value;
       } else if (field === 'Name.zh-CN') {
         mods[index].Name['zh-CN'] = value;
+      } else if (field === 'Description.en-US') {
+        mods[index].Description['en-US'] = value;
+      } else if (field === 'Description.zh-CN') {
+        mods[index].Description['zh-CN'] = value;
       } else {
         mods[index][field] = value;
       }
@@ -746,36 +763,77 @@
       if (subtitleEl) subtitleEl.textContent = mods[index].Name['en-US'] || '';
     }
 
-    // ===== 标签输入（Requirements / Conflicts） =====
+    // ===== 标签输入（Requirements / Conflicts / SupportedGameVersions / Tags） =====
     function renderTags(index, field) {
       const wrapper = document.getElementById(`tags-${index}-${field}`);
       if (!wrapper) return;
-      const tags = mods[index][field] || [];
-      // 清除旧标签（保留 input）
       wrapper.querySelectorAll('.tag').forEach(t => t.remove());
       const input = wrapper.querySelector('.tag-input');
-      tags.forEach((tag, ti) => {
-        const el = document.createElement('div');
-        el.className = 'tag';
-        el.innerHTML = `${tag}<span class="tag-remove" onclick="removeTag(${index},'${field}',${ti})">×</span>`;
-        wrapper.insertBefore(el, input);
-      });
+
+      if (field === 'Tags') {
+        const tags = mods[index].Tags || {};
+        Object.entries(tags).forEach(([key, val]) => {
+          const label = `${key}=${val['zh-CN'] || ''}/${val['en-US'] || ''}`;
+          const el = document.createElement('div');
+          el.className = 'tag';
+          el.innerHTML = `${esc(label)}<span class="tag-remove" onclick="removeTagKey(${index},'${key}')">×</span>`;
+          wrapper.insertBefore(el, input);
+        });
+      } else {
+        const tags = mods[index][field] || [];
+        tags.forEach((tag, ti) => {
+          const el = document.createElement('div');
+          el.className = 'tag';
+          el.innerHTML = `${esc(tag)}<span class="tag-remove" onclick="removeTag(${index},'${field}',${ti})">×</span>`;
+          wrapper.insertBefore(el, input);
+        });
+      }
     }
 
     function addTag(index, field, value) {
       const val = value.trim();
       if (!val) return;
-      if (!mods[index][field].includes(val)) {
-        mods[index][field].push(val);
-        renderTags(index, field);
-        updatePreview();
+
+      if (field === 'Tags') {
+        // 格式：key=中文/英文  或  key=英文（无中文）
+        const eqIdx = val.indexOf('=');
+        if (eqIdx < 1) return;
+        const key = val.slice(0, eqIdx).trim();
+        const rest = val.slice(eqIdx + 1).trim();
+        const slashIdx = rest.indexOf('/');
+        let zhCN, enUS;
+        if (slashIdx >= 0) {
+          zhCN = rest.slice(0, slashIdx).trim();
+          enUS = rest.slice(slashIdx + 1).trim();
+        } else {
+          zhCN = rest;
+          enUS = rest;
+        }
+        if (!key) return;
+        if (!mods[index].Tags) mods[index].Tags = {};
+        mods[index].Tags[key] = { 'zh-CN': zhCN, 'en-US': enUS };
+      } else {
+        if (!Array.isArray(mods[index][field])) mods[index][field] = [];
+        if (!mods[index][field].includes(val)) {
+          mods[index][field].push(val);
+        }
       }
+      renderTags(index, field);
+      updatePreview();
     }
 
     function removeTag(index, field, ti) {
       mods[index][field].splice(ti, 1);
       renderTags(index, field);
       updatePreview();
+    }
+
+    function removeTagKey(index, key) {
+      if (mods[index].Tags) {
+        delete mods[index].Tags[key];
+        renderTags(index, 'Tags');
+        updatePreview();
+      }
     }
 
     function handleTagKeydown(e, index, field) {
@@ -921,6 +979,43 @@
             </div>
           </div>
 
+          <!-- 多语言描述 -->
+          <div class="form-row">
+            <label>${t('description')}</label>
+            <div class="i18n-group">
+              <div class="form-row">
+                <label>🇺🇸 en-US</label>
+                <textarea rows="2" style="width:100%;background:#0f1117;border:1px solid #2e3250;border-radius:6px;color:#e0e0e0;padding:8px;font-size:13px;resize:vertical"
+                  oninput="updateField(${i},'Description.en-US',this.value)">${esc(mod.Description?.['en-US'] || '')}</textarea>
+              </div>
+              <div class="form-row">
+                <label>🇨🇳 zh-CN</label>
+                <textarea rows="2" style="width:100%;background:#0f1117;border:1px solid #2e3250;border-radius:6px;color:#e0e0e0;padding:8px;font-size:13px;resize:vertical"
+                  oninput="updateField(${i},'Description.zh-CN',this.value)">${esc(mod.Description?.['zh-CN'] || '')}</textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tags -->
+          <div class="form-row">
+            <label>${t('tags')}</label>
+            <div class="tag-input-wrapper" id="tags-${i}-Tags"
+              onclick="this.querySelector('.tag-input').focus()">
+              <input class="tag-input" type="text" placeholder="${t('tagsPlaceholder')}"
+                onkeydown="handleTagKeydown(event,${i},'Tags')" />
+            </div>
+          </div>
+
+          <!-- SupportedGameVersions -->
+          <div class="form-row">
+            <label>${t('supportedVersions')}</label>
+            <div class="tag-input-wrapper" id="tags-${i}-SupportedGameVersions"
+              onclick="this.querySelector('.tag-input').focus()">
+              <input class="tag-input" type="text" placeholder="${t('versionsPlaceholder')}"
+                onkeydown="handleTagKeydown(event,${i},'SupportedGameVersions')" />
+            </div>
+          </div>
+
           <!-- GitHub Release URL -->
           <div class="form-row">
             <label>GitHub Release URL <span class="required">*</span></label>
@@ -990,24 +1085,34 @@
       mods.forEach((mod, i) => {
         renderTags(i, 'Requirements');
         renderTags(i, 'Conflicts');
+        renderTags(i, 'Tags');
+        renderTags(i, 'SupportedGameVersions');
       });
 
       updatePreview();
     }
 
+    // ===== 构建输出对象 =====
+    function buildModObj(mod) {
+      const obj = { Id: mod.Id, Name: mod.Name };
+      if (mod.Description?.['en-US'] || mod.Description?.['zh-CN']) obj.Description = mod.Description;
+      if (mod.Tags && Object.keys(mod.Tags).length > 0) obj.Tags = mod.Tags;
+      if (mod.SupportedGameVersions?.length > 0) obj.SupportedGameVersions = mod.SupportedGameVersions;
+      if (mod.ReleaseUrl) obj.ReleaseUrl = mod.ReleaseUrl;
+      if (mod.TargetFileNameKeyword) obj.TargetFileNameKeyword = mod.TargetFileNameKeyword;
+      if (mod.MainBinaryFileName) obj.MainBinaryFileName = mod.MainBinaryFileName;
+      if (mod.ConfigSectionName) obj.ConfigSectionName = mod.ConfigSectionName;
+      obj.InstallMethod = mod.InstallMethod;
+      if (mod.InstallMethod === 'Scripted' && mod.InstallScript_Base64) obj.InstallScript_Base64 = mod.InstallScript_Base64;
+      if (mod.Requirements?.length > 0) obj.Requirements = mod.Requirements;
+      if (mod.Conflicts?.length > 0) obj.Conflicts = mod.Conflicts;
+      return obj;
+    }
+
     // ===== JSON 预览 =====
     function updatePreview() {
       const output = mods.map(mod => {
-        const obj = { Id: mod.Id, Name: mod.Name };
-        if (mod.ReleaseUrl) obj.ReleaseUrl = mod.ReleaseUrl;
-        if (mod.TargetFileNameKeyword) obj.TargetFileNameKeyword = mod.TargetFileNameKeyword;
-        if (mod.MainBinaryFileName) obj.MainBinaryFileName = mod.MainBinaryFileName;
-        if (mod.ConfigSectionName) obj.ConfigSectionName = mod.ConfigSectionName;
-        obj.InstallMethod = mod.InstallMethod;
-        if (mod.InstallMethod === 'Scripted' && mod.InstallScript_Base64) obj.InstallScript_Base64 = mod.InstallScript_Base64;
-        if (mod.Requirements?.length > 0) obj.Requirements = mod.Requirements;
-        if (mod.Conflicts?.length > 0) obj.Conflicts = mod.Conflicts;
-        return obj;
+        return buildModObj(mod);
       });
       const raw = JSON.stringify(output, null, 2);
 
@@ -1044,35 +1149,13 @@
 
     // ===== 复制 JSON =====
     function copyJSON() {
-      const output = mods.map(mod => {
-        const obj = { Id: mod.Id, Name: mod.Name };
-        if (mod.ReleaseUrl) obj.ReleaseUrl = mod.ReleaseUrl;
-        if (mod.TargetFileNameKeyword) obj.TargetFileNameKeyword = mod.TargetFileNameKeyword;
-        if (mod.MainBinaryFileName) obj.MainBinaryFileName = mod.MainBinaryFileName;
-        if (mod.ConfigSectionName) obj.ConfigSectionName = mod.ConfigSectionName;
-        obj.InstallMethod = mod.InstallMethod;
-        if (mod.InstallMethod === 'Scripted' && mod.InstallScript_Base64) obj.InstallScript_Base64 = mod.InstallScript_Base64;
-        if (mod.Requirements?.length > 0) obj.Requirements = mod.Requirements;
-        if (mod.Conflicts?.length > 0) obj.Conflicts = mod.Conflicts;
-        return obj;
-      });
+      const output = mods.map(buildModObj);
       navigator.clipboard.writeText(JSON.stringify(output, null, 2)).then(() => showToast('✅ JSON 已复制到剪贴板'));
     }
 
     // ===== 导出 JSON =====
     function downloadJSON() {
-      const output = mods.map(mod => {
-        const obj = { Id: mod.Id, Name: mod.Name };
-        if (mod.ReleaseUrl) obj.ReleaseUrl = mod.ReleaseUrl;
-        if (mod.TargetFileNameKeyword) obj.TargetFileNameKeyword = mod.TargetFileNameKeyword;
-        if (mod.MainBinaryFileName) obj.MainBinaryFileName = mod.MainBinaryFileName;
-        if (mod.ConfigSectionName) obj.ConfigSectionName = mod.ConfigSectionName;
-        obj.InstallMethod = mod.InstallMethod;
-        if (mod.InstallMethod === 'Scripted' && mod.InstallScript_Base64) obj.InstallScript_Base64 = mod.InstallScript_Base64;
-        if (mod.Requirements?.length > 0) obj.Requirements = mod.Requirements;
-        if (mod.Conflicts?.length > 0) obj.Conflicts = mod.Conflicts;
-        return obj;
-      });
+      const output = mods.map(buildModObj);
       const blob = new Blob([JSON.stringify(output, null, 2)], { type: 'application/json' });
       const a = document.createElement('a');
       a.href = URL.createObjectURL(blob);
@@ -1100,6 +1183,9 @@
           mods = parsed.map(m => ({
             Id: m.Id || '',
             Name: { 'en-US': m.Name?.['en-US'] || '', 'zh-CN': m.Name?.['zh-CN'] || '' },
+            Description: { 'en-US': m.Description?.['en-US'] || '', 'zh-CN': m.Description?.['zh-CN'] || '' },
+            Tags: (m.Tags && typeof m.Tags === 'object') ? m.Tags : {},
+            SupportedGameVersions: Array.isArray(m.SupportedGameVersions) ? m.SupportedGameVersions : [],
             ReleaseUrl: m.ReleaseUrl || '',
             TargetFileNameKeyword: m.TargetFileNameKeyword || '.zip',
             MainBinaryFileName: m.MainBinaryFileName || '',
@@ -1196,10 +1282,16 @@
       mods = [
         {
           "Id": "PactIL",
-          "Name": {
-            "en-US": "Pact Increased Lethality",
-            "zh-CN": "华约增强模组"
+          "Name": { "en-US": "Pact Increased Lethality", "zh-CN": "华约增强模组" },
+          "Description": {
+            "en-US": "Enhances the lethality of Warsaw Pact vehicles by improving ammunition penetration values, armor modeling, and fire control systems.",
+            "zh-CN": "通过改进弹药穿透值、装甲建模和火控系统，增强华约阵营载具的杀伤力。"
           },
+          "Tags": {
+            "balance": { "zh-CN": "平衡", "en-US": "Balance" },
+            "warsaw-pact": { "zh-CN": "华约", "en-US": "Warsaw Pact" }
+          },
+          "SupportedGameVersions": ["20260210"],
           "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
           "TargetFileNameKeyword": ".zip",
           "MainBinaryFileName": "PactIncreasedLethality.dll",
@@ -1208,10 +1300,16 @@
         },
         {
           "Id": "M1A1",
-          "Name": {
-            "en-US": "M1A1 Abrams",
-            "zh-CN": "M1A1艾布拉姆斯"
+          "Name": { "en-US": "M1A1 Abrams", "zh-CN": "M1A1艾布拉姆斯" },
+          "Description": {
+            "en-US": "Adds the M1A1 Abrams main battle tank to GHPC.",
+            "zh-CN": "将M1A1艾布拉姆斯主战坦克加入游戏。"
           },
+          "Tags": {
+            "vehicle": { "zh-CN": "载具", "en-US": "Vehicle" },
+            "nato": { "zh-CN": "北约", "en-US": "NATO" }
+          },
+          "SupportedGameVersions": ["20260210"],
           "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
           "TargetFileNameKeyword": ".zip",
           "MainBinaryFileName": "M1A1Abrams.dll",
@@ -1220,10 +1318,13 @@
         },
         {
           "Id": "sample-scripted-mod",
-          "Name": {
-            "en-US": "Sample Scripted Mod",
-            "zh-CN": "示例脚本MOD"
+          "Name": { "en-US": "Sample Scripted Mod", "zh-CN": "示例脚本MOD" },
+          "Description": {
+            "en-US": "A sample mod demonstrating the Scripted install method.",
+            "zh-CN": "演示脚本安装方式的示例MOD。"
           },
+          "Tags": { "sample": { "zh-CN": "示例", "en-US": "Sample" } },
+          "SupportedGameVersions": ["20260210"],
           "ReleaseUrl": "https://api.github.com/repos/REPO-OWNER/REPO/releases/latest",
           "TargetFileNameKeyword": ".dll",
           "MainBinaryFileName": "sample.dll",
@@ -1235,10 +1336,13 @@
         },
         {
           "Id": "SomeComplexMod",
-          "Name": {
-            "en-US": "Complex Mod",
-            "zh-CN": "复杂MOD"
+          "Name": { "en-US": "Complex Mod", "zh-CN": "复杂MOD" },
+          "Description": {
+            "en-US": "A complex mod that depends on BaseMod and CoreLibrary.",
+            "zh-CN": "依赖BaseMod和CoreLibrary的复杂MOD。"
           },
+          "Tags": { "sample": { "zh-CN": "示例", "en-US": "Sample" } },
+          "SupportedGameVersions": ["0.24.0", "0.24.1"],
           "ReleaseUrl": "https://api.github.com/repos/example/ComplexMod/releases/latest",
           "TargetFileNameKeyword": ".zip",
           "MainBinaryFileName": "ComplexMod.dll",
