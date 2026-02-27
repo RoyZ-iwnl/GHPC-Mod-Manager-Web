@@ -249,6 +249,12 @@
       "en-US": "M6A2 ADATS is a mod that replaces the M2 Bradley with a hypothetical M6A1/A2/A3 ADATS anti-air/anti-tank vehicle, featuring the GAU-12/U rotary cannon (3600 RPM, 1500 rounds) or 30mm XM813 chaingun, plus MIM-146 ADATS missiles (4 ready, 12 stowed), with auto lead calculation, horizontal stabilized reticle, and diverse ammo types including airburst and tandem warhead options.Priority update version by RoyZ",
       "zh-CN": "M6A2 \"阿达茨\"布雷德利是一款将 M2 布雷德利 替换为假想 M6A1/A2/A3 ADATS 防空/反坦克载具的模组，配备 GAU-12/U 旋转炮（3600 RPM，1500 发弹药）或 30mm XM813 机炮，以及 MIM-146 ADATS 导弹（4 发就绪，12 发备用），支持自动提前量计算、水平稳定瞄具和多种弹药选项，包括空爆弹药和串联战斗部。由RoyZ维护的优先更新版以支持最新游戏"
     },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
     "SupportedGameVersions": [
       "20260210.1"
     ],
