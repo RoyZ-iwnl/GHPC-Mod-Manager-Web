@@ -269,7 +269,9 @@
     "Conflicts": [
       "50mm",
       "M3A2",
-      "M6A2"
+      "M6A2",
+      "50mmROY",
+      "FireRT"
     ]
   },
   {
@@ -300,7 +302,8 @@
       "50mm",
       "M3A2",
       "M6A2ROY",
-      "50mmROY"
+      "50mmROY",
+      "FireRT"
     ]
   },
   {
@@ -364,7 +367,8 @@
       "M6A2",
       "M3A2",
       "NATOERA",
-      "50mm"
+      "50mm",
+      "M6A2ROY"
     ]
   },
   {
