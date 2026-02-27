@@ -506,6 +506,10 @@
         "Use VOG-17M1 HEDP": {
           "zh-CN": "使用 VOG-17M1 HEDP弹药",
           "en-US": "Use VOG-17M1 HEDP"
+        },
+        "Super FCS (BMP-2)": {
+          "zh-CN": "高级火控系统 (BMP-2)",
+          "en-US": "Super FCS (BMP-2)"
         }
       },
       "ConfigComments": {
@@ -748,6 +752,10 @@
         "Increases effectiveness of the composite blocks inside the BDD applique armour against AP and HEAT rounds": {
           "zh-CN": "提高BDD贴附装甲内复合块对穿甲弹和破甲弹的防护效果",
           "en-US": "Increases effectiveness of the composite blocks inside the BDD applique armour against AP and HEAT rounds"
+        },
+        "Point-n-shoot, thermal sight, autotracking": {
+          "zh-CN": "即瞄即打，热成像瞄准镜，自动跟踪",
+          "en-US": "Point-n-shoot, thermal sight, autotracking"
         }
       }
     },
@@ -1257,6 +1265,10 @@
         "Use VOG-17M1 HEDP": {
           "zh-CN": "使用 VOG-17M1 HEDP弹药",
           "en-US": "Use VOG-17M1 HEDP"
+        },
+        "Super FCS (BMP-2)": {
+          "zh-CN": "高级火控系统 (BMP-2)",
+          "en-US": "Super FCS (BMP-2)"
         }
       },
       "ConfigComments": {
@@ -1499,6 +1511,10 @@
         "Increases effectiveness of the composite blocks inside the BDD applique armour against AP and HEAT rounds": {
           "zh-CN": "提高BDD贴附装甲内复合块对穿甲弹和破甲弹的防护效果",
           "en-US": "Increases effectiveness of the composite blocks inside the BDD applique armour against AP and HEAT rounds"
+        },
+        "Point-n-shoot, thermal sight, autotracking": {
+          "zh-CN": "即瞄即打，热成像瞄准镜，自动跟踪",
+          "en-US": "Point-n-shoot, thermal sight, autotracking"
         }
       }
     },
@@ -3529,6 +3545,10 @@
           "zh-CN": "黄鼠狼Marder稳定器",
           "en-US": "Marder Stabilizer"
         },
+        "Marder MILAN Stabilizer": {
+          "zh-CN": "黄鼠狼MILAN导弹稳定器",
+          "en-US": "Marder MILAN Stabilizer"
+        },
         "Marder Rangefinder": {
           "zh-CN": "黄鼠狼Marder测距仪",
           "en-US": "Marder Rangefinder"
@@ -3576,6 +3596,18 @@
         "Leopard 1 Laser": {
           "zh-CN": "豹一激光测距仪",
           "en-US": "Leopard 1 Laser"
+        },
+        "T-64 NSVT Optics": {
+          "zh-CN": "T-64 NSVT高射机枪瞄准镜增强",
+          "en-US": "T-64 NSVT Optics"
+        },
+        "T-64 NSVT Stabilizer": {
+          "zh-CN": "T-64 NSVT高射机枪稳定器",
+          "en-US": "T-64 NSVT Stabilizer"
+        },
+        "T-64 NSVT Rangefinder": {
+          "zh-CN": "T-64 NSVT高射机枪测距仪",
+          "en-US": "T-64 NSVT Rangefinder"
         }
       },
       "ConfigComments": {
@@ -3611,6 +3643,10 @@
           "zh-CN": "为黄鼠狼Marder提供稳定器 默认开启",
           "en-US": "Gives Marder series a stabilizer (default: enabled)"
         },
+        "Stabilizes MILAN launcher on Marder A1+ (default: enabled)": {
+          "zh-CN": "为黄鼠狼Marder MILAN 导弹提供稳定器 默认开启",
+          "en-US": "Stabilizes MILAN launcher on Marder A1+ (default: enabled)"
+        },
         "Gives Marder series laser rangefinder and parallax fix (default: enabled)": {
           "zh-CN": "为黄鼠狼Marder全系提供激光测距仪 默认开启",
           "en-US": "Gives Marder series laser rangefinder and parallax fix (default: enabled)"
@@ -3642,7 +3678,19 @@
         "Adds zoom levels to PT-76B gunner sight (default: enabled)": {
           "zh-CN": "为PT-76B瞄具添加更多倍率的放大选项 默认开启",
           "en-US": "Adds zoom levels to PT-76B gunner sight (default: enabled)"
-        }
+        },
+        "Adds zoom levels to T-64 series NSVT sight (default: enabled)": {
+          "zh-CN": "为T-64 NSVT高射机枪添加更多倍率的放大选项 默认开启",
+          "en-US": "Adds zoom levels to T-64 series NSVT sight (default: enabled)"
+        },
+        "Stabilizes T-64 series NSVT cupola and MG platform (default: enabled)": {
+          "zh-CN": "为T-64 NSVT高射机枪添加稳定器 默认开启",
+          "en-US": "Stabilizes T-64 series NSVT cupola and MG platform (default: enabled)"
+        },
+        "Gives T-64 series NSVT a laser rangefinder (display only; default: enabled)": {
+          "zh-CN": "为T-64 NSVT高射机枪提供数显式测距仪 默认开启",
+          "en-US": "Gives T-64 series NSVT a laser rangefinder (display only; default: enabled)"
+        }        
       }
     },
     "minhud":{

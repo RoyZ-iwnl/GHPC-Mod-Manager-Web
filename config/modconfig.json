@@ -6,8 +6,8 @@
       "zh-CN": "华约增强模组(优先更新版)"
     },
     "Description": {
-      "en-US": "Pact Increased Lethality is specifically designed to bolster the firepower and survivability of Warsaw Pact forces. It introduces a wide array of advanced vehicle variants, modern defensive systems, and upgraded ammunition to bring Eastern Bloc armor to a new level of lethality.Priority update version by RoyZ",
-      "zh-CN": "华约增强模组是一款专门用于提升华约阵营的火力与生存能力。该模组引入了大量先进的载具变体、现代防御系统以及升级后的弹药，旨在将东欧集团的装甲力量提升至全新的杀伤水平。由RoyZ维护的优先更新版以支持最新游戏"
+      "en-US": "Pact Increased Lethality is specifically designed to bolster the firepower and survivability of Warsaw Pact forces. It introduces a wide array of advanced vehicle variants, modern defensive systems, and upgraded ammunition to bring Eastern Bloc armor to a new level of lethality.\nIncluding: multiple types of ERA, improved composite armor, Super FCS (Sosna-U) and guidance tweaks for T‑72 variants (with some T‑72M automatically upgraded to T‑72M1); enhanced protection and fire control for modern T‑80BV/U; BDD add‑on composite armor, Drozd APS, better stabilizers, laser rangefinders, improved HEAT rounds and 9M117 gun‑launched missiles, plus stronger engines and drivetrains for T‑55/T‑62/T‑64A; an added AGS‑17D coaxial automatic grenade launcher for BMP‑1; higher‑penetration and better‑ballistic 30 mm ammo plus 9M113AS top‑attack and 9M133 Kornet missiles for BMP‑2; and a stabilizer plus an optional 30 mm 2A72 turret “BTR‑60A” refit for BTR‑60 that grants BMP‑2‑level ammo and day/night sights, all significantly boosting survivability and firepower without breaking overall faction balance.\nPriority update version by RoyZ",
+      "zh-CN": "华约增强模组是一款专门用于提升华约阵营的火力与生存能力。该模组引入了大量先进的载具变体、现代防御系统以及升级后的弹药，旨在将东欧集团的装甲力量提升至全新的杀伤水平。\n为 T‑72 系列增加多型反应装甲、改良复合装甲、松树-U火控与导引修正等，并自动将部分 T‑72M 升级为 T‑72M1；为 T‑80BV/U等现代坦克强化防护与火控；为 T‑55/T‑62/T‑64A 增加 BDD 复合加装装甲、Drozd 主动防护系统、更稳的稳定器、激光测距仪、改良 HEAT 弹与 9M117 等炮射导弹，以及更强的发动机与传动系统；为 BMP‑1 增加 AGS‑17D 同轴自动榴弹发射器，为 BMP‑2 增加更高穿深与更好弹道的 30 毫米弹种及 9M113AS 顶攻导弹和 9M133“短号”导弹；为 BTR‑60 增加稳定器并可改装为装有 30 毫米 2A72 炮塔的 BTR‑60A，获得与 BMP‑2 相同的高性能弹药和昼夜瞄具，显著提升多型华约载具的生存性与打击能力。\n由RoyZ维护的优先更新版以支持最新游戏"
     },
     "Tags": {
       "modify": {
@@ -37,8 +37,8 @@
       "zh-CN": "华约增强模组"
     },
     "Description": {
-      "en-US": "Pact Increased Lethality is specifically designed to bolster the firepower and survivability of Warsaw Pact forces. It introduces a wide array of advanced vehicle variants, modern defensive systems, and upgraded ammunition to bring Eastern Bloc armor to a new level of lethality.",
-      "zh-CN": "华约增强模组是一款专门用于提升华约阵营的火力与生存能力。该模组引入了大量先进的载具变体、现代防御系统以及升级后的弹药，旨在将东欧集团的装甲力量提升至全新的杀伤水平。"
+      "en-US": "Pact Increased Lethality is specifically designed to bolster the firepower and survivability of Warsaw Pact forces. It introduces a wide array of advanced vehicle variants, modern defensive systems, and upgraded ammunition to bring Eastern Bloc armor to a new level of lethality.\nIncluding: multiple types of ERA, improved composite armor, Super FCS (Sosna-U) and guidance tweaks for T‑72 variants (with some T‑72M automatically upgraded to T‑72M1); enhanced protection and fire control for modern T‑80BV/U; BDD add‑on composite armor, Drozd APS, better stabilizers, laser rangefinders, improved HEAT rounds and 9M117 gun‑launched missiles, plus stronger engines and drivetrains for T‑55/T‑62/T‑64A; an added AGS‑17D coaxial automatic grenade launcher for BMP‑1; higher‑penetration and better‑ballistic 30 mm ammo plus 9M113AS top‑attack and 9M133 Kornet missiles for BMP‑2; and a stabilizer plus an optional 30 mm 2A72 turret “BTR‑60A” refit for BTR‑60 that grants BMP‑2‑level ammo and day/night sights, all significantly boosting survivability and firepower without breaking overall faction balance.",
+      "zh-CN": "华约增强模组是一款专门用于提升华约阵营的火力与生存能力。该模组引入了大量先进的载具变体、现代防御系统以及升级后的弹药，旨在将东欧集团的装甲力量提升至全新的杀伤水平。\n为 T‑72 系列增加多型反应装甲、改良复合装甲、松树-U火控与导引修正等，并自动将部分 T‑72M 升级为 T‑72M1；为 T‑80BV/U等现代坦克强化防护与火控；为 T‑55/T‑62/T‑64A 增加 BDD 复合加装装甲、Drozd 主动防护系统、更稳的稳定器、激光测距仪、改良 HEAT 弹与 9M117 等炮射导弹，以及更强的发动机与传动系统；为 BMP‑1 增加 AGS‑17D 同轴自动榴弹发射器，为 BMP‑2 增加更高穿深与更好弹道的 30 毫米弹种及 9M113AS 顶攻导弹和 9M133“短号”导弹；为 BTR‑60 增加稳定器并可改装为装有 30 毫米 2A72 炮塔的 BTR‑60A，获得与 BMP‑2 相同的高性能弹药和昼夜瞄具，显著提升多型华约载具的生存性与打击能力。"
     },
     "Tags": {
       "modify": {
@@ -68,8 +68,8 @@
       "zh-CN": "M1A1艾布拉姆斯"
     },
     "Description": {
-      "en-US": "The M1A1 Abrams mod introduces the iconic US main battle tank M1A1, featuring a powerful 120 mm smoothbore gun, advanced composite armor, and improved fire-control and sighting systems, giving it excellent long-range accuracy and survivability while maintaining good mobility, making it ideal for players who enjoy modern Western armor and head‑on armored engagements.",
-      "zh-CN": "M1A1模组为游戏加入了标志性的美军主战坦克 M1A1，配备强大的 120 毫米滑膛炮、先进的复合装甲以及改进后的火控与观瞄系统，在中远距离交战中拥有极高的打击精度与生存能力，同时保留了良好的机动性能，适合喜欢西方现代装甲力量与正面钢铁对决体验的玩家使用。"
+      "en-US": "The M1A1 Abrams mod introduces the iconic US main battle tank M1A1, that converts all in‑game M1IPs into M1A1s fitted with the 120mm M256 and a default ammo load of M829 APFSDS‑T (22 rounds) plus M830 HEAT‑MP‑T (18 rounds with a shoulder fuze); it also adds config‑driven options such as alternate APFSDS rounds (M827, M829A1, M829A2), an alternate HEAT round (M830A1 with a proximity fuse toggleable via middle mouse), per‑vehicle customization of how many M829/M830 rounds are carried, and several advanced features disabled by default (non‑IP M1 → M1E1 conversion, randomized M1A1/E1 conversions, horizontal sight stabilization when applying lead, commander CITV, depleted‑uranium cheek armor for M1A1s, M153 CROWS, and different gunner thermal settings), plus preset conversion “profiles” mapping feature toggles to variants like M1A1HA/HC, M1A2, and M1A2 SEP (e.g., DU armor generation, azimuth rotation, CITV, higher‑gen FLIR or CROWS)..",
+      "zh-CN": "M1A1模组为游戏加入了标志性的美军主战坦克 M1A1，把游戏内所有 M1IP 统一转换为配备 120mm M256 主炮的 M1A1，并默认装填 M829 APFSDS‑T（22 发）与 M830 HEAT‑MP‑T（18 发、带触发引信）；同时在模组配置里提供可选功能与细节定制，包括可切换的备用穿甲弹（M827、M829A1、M829A2）、备用破甲弹（M830A1，带可用鼠标中键开关的近炸/距离引信）、自定义每辆车携行的 M829/M830 数量，以及一系列默认关闭的“高级改装”选项：将非 IP 的 M1 转换为 M1E1、随机化 M1A1/E1 转换、在提前量修正时启用水平视线稳定、加入车长 CITV、为 M1A1 添加贫铀“脸颊”装甲、加装 M153 CROWS、以及不同的炮手热像设置；此外它还用不同开关组合来对应多种衍生型转换（如 M1A1HA/HC 的贫铀装甲代次、M1A2 的炮塔方位旋转与 CITV、M1A2 SEP 的更高代次 FLIR 或 CROWS 等）。"
     },
     "Tags": {
       "modify": {
@@ -100,8 +100,8 @@
       "zh-CN": "M1A1艾布拉姆斯AMP"
     },
     "Description": {
-      "en-US": "M1A1 Abrams AMP is an enhanced M1A1 Abrams main battle tank mod featuring upgraded composite armor, advanced fire control systems, and various ammunition options (including DU rounds), significantly boosting the tank's protection, mobility, and battlefield lethality while preserving the authentic handling of the original tank for modern armor combat simulations.[THIS MOD IS NOT WORKING ON 20260210.1]",
-      "zh-CN": "M1A1 Abrams AMP 是一款增强版 M1A1 艾布拉姆斯主战坦克模组，集成了升级的复合装甲、先进火控系统和多种弹药选项（如 DU 穿甲弹），显著提升了坦克的防护、机动性和战场杀伤力，同时保持了原版坦克的真实操控特性，适用于现代装甲作战模拟。[此模组在20260210.1版本无效]"
+      "en-US": "This mod adds a fully configurable “Abrams Modernization Package” for M1-series vehicles (centered on the M1A1/M1E1): it introduces the XM1147 AMP-T multi‑purpose programmable round and a broad set of selectable ammo options (up to four ammo slots, 50 total rounds; default loadouts include M829A4/M830A2/XM1147/LAHAT), plus a 120mm M256 main gun with a new model and detailed fuzing/proximity logic for rounds like XM1147 and M830A1, including modeled anti‑ERA/tandem interactions; it also adds multiple switchable armor variants (Base/HA/HC/SA/HU, etc.) with corresponding weight changes, optional CITV, enhanced optics/FLIR/GAS, crew proficiency tuning, smoke-system upgrades, an APU, and hardware options like M153 CROWS II and a coax upgrade; finally, it offers extensive vehicle-dynamics tweaks (engine choices, upgraded 6F/3R transmission, suspension, tracks, governor delete for higher top speed, stability control).\n[THIS MOD IS NOT WORKING ON 20260210.1]",
+      "zh-CN": "该模组为 M1 系列（以 M1A1/M1E1 为核心）加入“AMP（XM1147）多用途可编程弹”等一整套可配置升级：提供带新模型的 120mm M256 主炮、可选多种弹药并自定义装填（最多 4 个弹种槽位、总备弹上限 50，默认含 M829A4/M830A2/XM1147/LAHAT），实现 XM1147 的多引信/近炸与 M830A1 等弹种逻辑，并加入对反应装甲/双战斗部等“抗 ERA”效果的建模；同时提供可切换的多套“装甲变体”（基础/HA/HC/SA/HU 等）与随之变化的车重，配套可选 CITV、改进光学与热像、车组熟练度、烟幕系统升级、APU、以及 M153 CROWS II、同轴机枪升级等外观与火控附件；在机动方面还能选择发动机、增强变速箱（6 前进 3 倒档）、悬挂、履带、解除限速器、稳定控制等，使整车的防护、火力、感知与机动都能按偏好组合。\n[此模组在20260210.1版本无效]"
     },
     "Tags": {
       "modify": {
@@ -163,7 +163,7 @@
     },
     "Description": {
       "en-US": "Give BMP-1/1P stabilizer",
-      "zh-CN": "基于BMP-1/1P双稳"
+      "zh-CN": "给予BMP-1/1P双稳"
     },
     "Tags": {
       "modify": {
@@ -246,8 +246,8 @@
       "zh-CN": "M6A2 \"阿达茨\"布雷德利(优先更新版)"
     },
     "Description": {
-      "en-US": "M6A2 ADATS is a mod that replaces the M2 Bradley with a hypothetical M6A1/A2/A3 ADATS anti-air/anti-tank vehicle, featuring the GAU-12/U rotary cannon (3600 RPM, 1500 rounds) or 30mm XM813 chaingun, plus MIM-146 ADATS missiles (4 ready, 12 stowed), with auto lead calculation, horizontal stabilized reticle, and diverse ammo types including airburst and tandem warhead options.Priority update version by RoyZ",
-      "zh-CN": "M6A2 \"阿达茨\"布雷德利是一款将 M2 布雷德利 替换为假想 M6A1/A2/A3 ADATS 防空/反坦克载具的模组，配备 GAU-12/U 旋转炮（3600 RPM，1500 发弹药）或 30mm XM813 机炮，以及 MIM-146 ADATS 导弹（4 发就绪，12 发备用），支持自动提前量计算、水平稳定瞄具和多种弹药选项，包括空爆弹药和串联战斗部。由RoyZ维护的优先更新版以支持最新游戏"
+      "en-US": "M6A2 ADATS is a mod that replaces the M2 Bradley with a hypothetical M6A1/A2/A3 ADATS anti-air/anti-tank vehicle, featuring the GAU-12/U rotary cannon (3600 RPM, 1500 rounds) or 30mm XM813 chaingun, plus MIM-146 ADATS missiles (4 ready, 12 stowed), with auto lead calculation, horizontal stabilized reticle, and diverse ammo types including airburst and tandem warhead options.\nPriority update version by RoyZ",
+      "zh-CN": "M6A2 \"阿达茨\"布雷德利是一款将 M2 布雷德利 替换为假想 M6A1/A2/A3 ADATS 防空/反坦克载具的模组，配备 GAU-12/U 旋转炮（3600 RPM，1500 发弹药）或 30mm XM813 机炮，以及 MIM-146 ADATS 导弹（4 发就绪，12 发备用），支持自动提前量计算、水平稳定瞄具和多种弹药选项，包括空爆弹药和串联战斗部。\n由RoyZ维护的优先更新版以支持最新游戏"
     },
     "Tags": {
       "modify": {
@@ -344,8 +344,8 @@
       "zh-CN": "50毫米布雷德利(优先更新版)"
     },
     "Description": {
-      "en-US": "50mm Bradley is a super up-gunned Bradley IFV featuring the M913 50mm autocannon (40x M1023 APFSDS-T, 120x M1024 HEAB-T with airburst capability) paired with 10x BGM-71C I-TOW-FF fire-and-forget top-attack missiles (laser designation lock), built to deal with those East Germans on your doorstep.Priority update version by RoyZ",
-      "zh-CN": "50毫米布雷德利是一款超级武装布莱德利步兵战车，配备 M913 50mm 自动炮（含 M1023 APFSDS-T 40 发、M1024 HEAB-T 120 发，支持空爆功能），搭配 BGM-71C I-TOW-FF 射后不理式顶攻导弹（10 发，激光指示锁定），专为对抗东德装甲部队而设计，让你在家门口就能压制敌方火力。由RoyZ维护的优先更新版以支持最新游戏"
+      "en-US": "50mm Bradley is a super up-gunned Bradley IFV featuring the M913 50mm autocannon (40x M1023 APFSDS-T, 120x M1024 HEAB-T with airburst capability) paired with 10x BGM-71C I-TOW-FF fire-and-forget top-attack missiles (laser designation lock), built to deal with those East Germans on your doorstep.\nPriority update version by RoyZ",
+      "zh-CN": "50毫米布雷德利是一款超级武装布莱德利步兵战车，配备 M913 50mm 自动炮（含 M1023 APFSDS-T 40 发、M1024 HEAB-T 120 发，支持空爆功能），搭配 BGM-71C I-TOW-FF 射后不理式顶攻导弹（10 发，激光指示锁定），专为对抗东德装甲部队而设计，让你在家门口就能压制敌方火力。\n由RoyZ维护的优先更新版以支持最新游戏"
     },
     "Tags": {
       "modify": {
@@ -670,7 +670,7 @@
     },
     "Description": {
       "en-US": "GunnerModPC Texture Loader is a convenient texture replacement mod that lets you easily swap in-game textures with custom PNG files. Simply place same-named textures in the Gunner, HEAT, PC!\\Bin\\Mods\\GMPCTextureLoader folder, enable auto-refresh in config for real-time previews during scene reloads. Extract originals via CinematicUnityExplorer by searching Texture2D objects and saving as PNG; find more skins on the official Discord.",
-      "zh-CN": "贴图更换工具是一款便捷的贴图替换工具模组，让您轻松用自定义 PNG 文件替换游戏内贴图。只需将同名贴图放入 Gunner, HEAT, PC!\\Bin\\Mods\\GMPCTextureLoader 文件夹，配置文件中开启自动刷新功能，即可实时预览修改效果。提取原贴图可通过 CinematicUnityExplorer 工具，搜索 Texture2D 对象后保存为 PNG；更多可用贴图皮肤请前往官方 Discord 获取。"
+      "zh-CN": "贴图更换工具是一款便捷的贴图替换工具模组，让您轻松用自定义 PNG 文件替换游戏内贴图。只需将同名贴图放入 Gunner, HEAT, PC!\\Bin\\Mods\\GMPCTextureLoader 文件夹，配置文件中开启自动刷新功能，即可实时预览修改效果。提取原贴图可通过 CinematicUnityExplorer 工具，搜索 Texture2D 对象后保存为 PNG；此mod并不带有皮肤，各种贴图皮肤请前往官方 Discord 获取。"
     },
     "Tags": {
       "utility": {
@@ -719,8 +719,8 @@
       "zh-CN": "电影工具"
     },
     "Description": {
-      "en-US": "GHPC Cinematic Tools is a cinematic camera tool that supports smooth camera path recording, Depth of Field (DOF) control, easing curves, slow motion, Catmull-Rom spline interpolation and other professional features in F3 freecam mode, plus HTTP API interface and full English/Chinese bilingual support. Simply press F9 to open the menu, F5 to add keyframes, F6 to play paths for easy high-quality gameplay footage creation. ",
-      "zh-CN": "GHPC电影工具是一款电影镜头工具，支持在 F3 自由摄像模式下录制平滑相机路径、景深控制（DOF）、缓动曲线、慢动作、Catmull-Rom 样条插值等专业功能，还提供 HTTP API 接口和中英双语支持。只需按 F9 打开菜单、F5 添加关键帧、F6 播放路径，即可轻松制作高质量游戏录像。"
+      "en-US": "GHPC Cinematic Tools is a cinematic camera tool that supports smooth camera path recording, Depth of Field (DOF) control, easing curves, slow motion, Catmull-Rom spline interpolation and other professional features in F3 freecam mode, plus HTTP API interface and full English/Chinese bilingual support. Simply press F9 to open the menu, F5 to add keyframes, F6 to play paths for easy high-quality gameplay footage creation. Don't install it when you are normally playing.",
+      "zh-CN": "GHPC电影工具是一款电影镜头工具，支持在 F3 自由摄像模式下录制平滑相机路径、景深控制（DOF）、缓动曲线、慢动作、Catmull-Rom 样条插值等专业功能，还提供 HTTP API 接口和中英双语支持。只需按 F9 打开菜单、F5 添加关键帧、F6 播放路径，即可轻松制作高质量游戏录像。请勿在正常游戏时安装它。"
     },
     "Tags": {
       "utility": {
