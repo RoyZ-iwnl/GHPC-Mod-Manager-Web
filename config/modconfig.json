@@ -478,13 +478,17 @@
       }
     },
     "SupportedGameVersions": [
-      "20250630"
+      "20260210.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2-Bradley-Sound-Replacement/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "M2BradleySoundReplacement.dll",
     "ConfigSectionName": "M2ReSound",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "50mmROY",
+      "50mm"
+    ]
   },
   {
     "Id": "FireRT",
@@ -679,7 +683,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20251218.1"
+      "20260210.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Andrix44/GMPCTextureLoader/releases/latest",
     "TargetFileNameKeyword": ".dll",
