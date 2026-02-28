@@ -3606,8 +3606,24 @@
           "en-US": "T-64 NSVT Stabilizer"
         },
         "T-64 NSVT Rangefinder": {
-          "zh-CN": "T-64 NSVT高射机枪测距仪",
+          "zh-CN": "T-64 NSVT高射机枪激光测距仪",
           "en-US": "T-64 NSVT Rangefinder"
+        },
+        "T-54A Rangefinder": {
+          "zh-CN": "T-54A激光测距仪",
+          "en-US": "T-54A Rangefinder"
+        },
+        "T-34-85M Stabilizer": {
+          "zh-CN": "T-34-85M 稳定器",
+          "en-US": "T-34-85M Stabilizer"
+        },
+        "T-34-85M Optics": {
+          "zh-CN": "T-34-85M 瞄准镜增强",
+          "en-US": "T-34-85M Optics"
+        },
+        "T-34-85M Rangefinder": {
+          "zh-CN": "T-34-85M 激光测距仪",
+          "en-US": "T-34-85M Rangefinder"
         }
       },
       "ConfigComments": {
@@ -3687,10 +3703,22 @@
           "zh-CN": "为T-64 NSVT高射机枪添加稳定器 默认开启",
           "en-US": "Stabilizes T-64 series NSVT cupola and MG platform (default: enabled)"
         },
-        "Gives T-64 series NSVT a laser rangefinder (display only; default: enabled)": {
-          "zh-CN": "为T-64 NSVT高射机枪提供数显式测距仪 默认开启",
-          "en-US": "Gives T-64 series NSVT a laser rangefinder (display only; default: enabled)"
-        }        
+        "Gives T-54A a laser rangefinder with auto-ranging (default: enabled)": {
+          "zh-CN": "为 T-54A 提供具有自动装表功能的激光测距仪（默认：开启）",
+          "en-US": "Gives T-54A a laser rangefinder with auto-ranging (default: enabled)"
+        },
+        "Gives T-34-85M a stabilizer, a little bit buggy when you moving turret (default: disabled)": {
+          "zh-CN": "为 T-34-85M 提供稳定器，旋转炮塔时可能存在轻微偏移卡顿（默认：禁用）",
+          "en-US": "Gives T-34-85M a stabilizer, a little bit buggy when you moving turret (default: disabled)"
+        },
+        "Adds zoom levels to T-34-85M gunner sight (default: enabled)": {
+          "zh-CN": "为 T-34-85M 炮手瞄准镜添加缩放倍率（默认：开启）",
+          "en-US": "Adds zoom levels to T-34-85M gunner sight (default: enabled)"
+        },
+        "Gives T-34-85M a laser rangefinder with auto-ranging (default: enabled)": {
+          "zh-CN": "为 T-34-85M 提供具有自动装表功能的激光测距仪（默认：开启）",
+          "en-US": "Gives T-34-85M a laser rangefinder with auto-ranging (default: enabled)"
+        }
       }
     },
     "minhud":{
