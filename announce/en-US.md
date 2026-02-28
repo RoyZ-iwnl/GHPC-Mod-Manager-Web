@@ -2,6 +2,11 @@
 
 ## Announcement
 
+### 2026-02-28
+
+### 2026-02-28
+- v1.2.0 stable release is now available with modular UI navigation, remote config service, and enhanced MelonLoader management. See the [changelog](#v120) below for details.
+
 ### 2026-02-19
 
 - v1.1.4 stable release is now available with MelonLoader management and stability fixes. See the [changelog](#v114) below for details.
@@ -57,6 +62,33 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.2.0
+#### feat: Release version 1.2.0 with modular UI navigation and enhanced MelonLoader management
+- Split MainView into dedicated ModBrowserView, InstalledModsView, ModDetailView, and TranslationView for cleaner navigation
+- Add MainConfigService with remote fetch, 1-hour cache, and built-in fallback URLs for centralized config management
+- Introduce ModBrowserViewModel with tag-based chip filtering, search, and install/update actions
+- Add ModDetailViewModel for per-mod detail page with dependency/conflict display and changelog
+- Add InstalledModsViewModel for managing installed mods with enable/disable/uninstall operations
+- Remove UnifiedManifest model in favor of MainConfig-driven remote configuration
+- Add DevMode model for developer-mode local config override
+- Add MelonLoader file manifest to track installed files during installation, enabling precise uninstall without touching user data directories
+- Add VersionCleanupService to auto-remove obsolete files from previous versions on startup by comparing release ZIPs
+- Improve MelonLoader version detection to read from MelonLoader.dll FileVersion first, falling back to Latest.log
+- Add GetCurrentGameVersionAsync to read game version from Latest.log for compatibility display in MOD browser
+- Replace MelonLoader-not-installed popup with non-blocking overlay with direct install navigation button
+- Refactor game-running overlay to cover content area only, keeping stop button accessible in status bar
+- Display supported game versions as colored badges in MOD browser — green for match, amber for mismatch
+- Refactor proxy server selection to SelectedProxyServer object binding in Settings and Setup Wizard
+- Auto-refresh proxy server list from remote config when entering Step 2 of Setup Wizard
+- Show dependency dialog with MOD display names instead of raw mod IDs
+- Reset version cleanup flag before self-update to trigger cleanup after next launch
+- Add "Open Game Folder" button to main view for quick file explorer access
+- Fix setup wizard skipping unnecessary version cleanup on first install by pre-setting CleanupDoneForVersion
+- Inject IUpdateService into SetupWizardViewModel to support version-aware setup completion
+- Expand localization strings for new views and navigation labels
+- Publish as single-file executable targeting win-x64
+- Bump version to 1.2.0 stable release and update assembly metadata
 
 ### v1.1.4
 
