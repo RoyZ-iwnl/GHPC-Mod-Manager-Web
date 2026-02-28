@@ -644,8 +644,8 @@
       "zh-CN": "自定义战役坦克"
     },
     "Description": {
-      "en-US": "ATAC is a mod that lets you choose what vehicles spawn in campaigns, enabling East vs East, NATO vs NATO, T-34s vs M60s and more—configure replacement chances in MelonPreferences.cfg (full unit list on GitHub).",
-      "zh-CN": "自定义战役坦克是一款让您自定义战役中载具生成的模组，支持东欧对东欧、NATO对NATO、T-34 对 M60 等任意组合对战，通过 MelonPreferences.cfg 配置替换概率（完整单位列表详见 GitHub）。"
+      "en-US": "ATAC is a mod that lets you choose what vehicles spawn in campaigns, enabling East vs East, NATO vs NATO, T-34s vs M60s and more—configure replacement chances (NEED TO TURN ON Playing Campaign SWITCH)(full unit list on GitHub).",
+      "zh-CN": "自定义战役坦克是一款让您自定义战役中载具生成的模组，支持东欧对东欧、NATO对NATO、T-34 对 M60 等任意组合对战，通过配置替换概率（需要先在配置中打开总开关才能生效）（完整单位列表详见 GitHub）。"
     },
     "Tags": {
       "utility": {
@@ -654,7 +654,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20250702"
+      "20260210.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Cyances/Any-Tank-Any-Campaign/releases/latest",
     "TargetFileNameKeyword": ".dll",
