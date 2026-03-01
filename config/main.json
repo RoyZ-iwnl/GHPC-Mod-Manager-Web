@@ -16,7 +16,7 @@
             "Domain": "gh1.dmr.gg",
             "DisplayName": {
                 "zh-CN": "腾讯云 1",
-                "en-US": "Tencent Cloud 1"
+                "en-US": "TencentCloud 1"
             }
         },
         {
@@ -24,7 +24,7 @@
             "Domain": "edgeone.gh-proxy.com",
             "DisplayName": {
                 "zh-CN": "腾讯云 2",
-                "en-US": "Tencent Cloud 2"
+                "en-US": "TencentCloud 2"
             }
         },
         {
@@ -40,7 +40,7 @@
             "Domain": "hk.gh-proxy.com",
             "DisplayName": {
                 "zh-CN": "香港",
-                "en-US": "Hong Kong"
+                "en-US": "HongKong"
             }
         },
         {
