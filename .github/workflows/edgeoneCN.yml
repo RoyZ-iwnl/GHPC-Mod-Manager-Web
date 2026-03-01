@@ -1,4 +1,4 @@
-name: Deploy to EdgeOne
+name: Deploy to EdgeOneCN
 
 on:
   push:
@@ -17,6 +17,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 部署到 EdgeOne Pages CN
-        run: npx edgeone pages deploy ./ -n ghpccn -t ${{ secrets.EDGEONE_API_TOKEN }}
+        run: npx edgeone pages deploy ./ -n ghpccn -t ${{ secrets.EDGEONE_API_TOKEN_CN }}
         env:
-          EDGEONE_API_TOKEN_CN: ${{ secrets.EDGEONE_API_TOKEN }}
+          EDGEONE_API_TOKEN_CN: ${{ secrets.EDGEONE_API_TOKEN_CN }}
