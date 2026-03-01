@@ -1,11 +1,11 @@
 {
     "ModConfigUrl": "https://GHPC.DMR.gg/config/modconfig.json",
     "ModConfigUrlfallback": "https://GHPC1.DMR.gg/config/modconfig.json",
-    "ModConfigUrlfallback2": "https://ghpccn-y3lrzllr.edgeone.cool/config/modconfig.json",
+    "ModConfigUrlfallback2": "",
     "TranslationConfigUrl": "https://github.com/RoyZ-iwnl/ghpc-translation",
     "ModI18nUrl": "https://GHPC.DMR.gg/config/mod_i18n.json",
     "ModI18nUrlfallback": "https://GHPC1.DMR.gg/config/mod_i18n.json",
-    "ModI18nUrlfallback2": "https://ghpccn-y3lrzllr.edgeone.cool/config/mod_i18n.json",
+    "ModI18nUrlfallback2": "",
     "ProxyServers": [
         {
             "Id": "GhDmrGg",
@@ -29,14 +29,6 @@
             "DisplayName": {
                 "zh-CN": "腾讯云 2",
                 "en-US": "TencentCloud 2"
-            }
-        },
-        {
-            "Id": "EdgeOneCN",
-            "Domain": "ghpcghcn-e3tcyw4n.edgeone.cool",
-            "DisplayName": {
-                "zh-CN": "腾讯云 3",
-                "en-US": "TencentCloud 3"
             }
         },
         {
