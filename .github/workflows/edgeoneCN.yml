@@ -16,7 +16,7 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
 
-      - name: 部署到 EdgeOne Pages
-        run: npx edgeone pages deploy ./ -n ghpcmmweb -t ${{ secrets.EDGEONE_API_TOKEN }}
+      - name: 部署到 EdgeOne Pages CN
+        run: npx edgeone pages deploy ./ -n ghpccn -t ${{ secrets.EDGEONE_API_TOKEN }}
         env:
-          EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
+          EDGEONE_API_TOKEN_CN: ${{ secrets.EDGEONE_API_TOKEN }}
