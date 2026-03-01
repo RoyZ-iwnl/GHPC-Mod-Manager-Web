@@ -1,0 +1,23 @@
+name: Deploy to EdgeOne
+
+on:
+  push:
+    branches:
+      - main  # 监听 main 分支的推送
+    paths:
+      - 'config/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 部署到 EdgeOne Pages
+        # 使用 npx 直接运行 edgeone cli 进行部署
+        # ./src 是您的静态资源文件夹路径，请根据实际情况修改
+        # -n 后面是您的项目名称，-t 后面引用之前设置的 Secret
+        run: npx edgeone pages deploy ./src -n my-static-project -t ${{ secrets.EDGEONE_API_TOKEN }}
+        env:
+          EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
