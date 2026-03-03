@@ -47,7 +47,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20251218.1"
+      "20260210.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
