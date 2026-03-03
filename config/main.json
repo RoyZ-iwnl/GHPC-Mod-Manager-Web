@@ -24,14 +24,6 @@
             }
         },
         {
-            "Id": "Gh1DmrGg",
-            "Domain": "gh1.dmr.gg",
-            "DisplayName": {
-                "zh-CN": "腾讯云 2",
-                "en-US": "TencentCloud 2"
-            }
-        },
-        {
             "Id": "GhProxyCom",
             "Domain": "gh-proxy.com",
             "DisplayName": {
