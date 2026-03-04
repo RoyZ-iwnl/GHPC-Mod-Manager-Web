@@ -3526,32 +3526,36 @@
         }
       }
     },
-    "underdog":{
+    "underdog": {
       "ModId": "underdog",
       "ConfigLabels": {
-        "BMP-1P Konkurs Stab": {
-          "zh-CN": "BMP-1P“竞赛”稳定器",
-          "en-US": "BMP-1P Konkurs Stab"
-        },
         "BMP-1 Stabilizer": {
           "zh-CN": "BMP-1稳定器",
           "en-US": "BMP-1 Stabilizer"
+        },
+        "BMP-1P Konkurs Stab": {
+          "zh-CN": "BMP-1P「竞赛」稳定器",
+          "en-US": "BMP-1P Konkurs Stab"
         },
         "BMP-1 Rangefinder": {
           "zh-CN": "BMP-1测距仪",
           "en-US": "BMP-1 Rangefinder"
         },
-        "Marder Stabilizer": {
-          "zh-CN": "黄鼠狼Marder稳定器",
-          "en-US": "Marder Stabilizer"
+        "BMP-1 9M14TV Malyutka-TV": {
+          "zh-CN": "BMP-1 9M14TV 婴儿-TV导弹",
+          "en-US": "BMP-1 9M14TV Malyutka-TV"
         },
-        "Marder MILAN Stabilizer": {
-          "zh-CN": "黄鼠狼MILAN导弹稳定器",
-          "en-US": "Marder MILAN Stabilizer"
+        "BMP-1 MCLOS Ready Missiles": {
+          "zh-CN": "BMP-1 MCLOS待发导弹数量",
+          "en-US": "BMP-1 MCLOS Ready Missiles"
         },
-        "Marder Rangefinder": {
-          "zh-CN": "黄鼠狼Marder测距仪",
-          "en-US": "Marder Rangefinder"
+        "BMP-1 MCLOS FLIR High Resolution": {
+          "zh-CN": "BMP-1 MCLOS 热成像高分辨率",
+          "en-US": "BMP-1 MCLOS FLIR High Resolution"
+        },
+        "BMP-1 MCLOS FLIR Remove Scanline": {
+          "zh-CN": "BMP-1 MCLOS 热成像去扫描线",
+          "en-US": "BMP-1 MCLOS FLIR Remove Scanline"
         },
         "BRDM-2 Stabilizer": {
           "zh-CN": "BRDM-2 稳定器",
@@ -3585,6 +3589,26 @@
           "zh-CN": "BTR-70 激光测距仪",
           "en-US": "BTR-70 Rangefinder"
         },
+        "Marder Stabilizer": {
+          "zh-CN": "黄鼠狼Marder稳定器",
+          "en-US": "Marder Stabilizer"
+        },
+        "Marder MILAN Stabilizer": {
+          "zh-CN": "黄鼠狼MILAN导弹稳定器",
+          "en-US": "Marder MILAN Stabilizer"
+        },
+        "Marder Rangefinder": {
+          "zh-CN": "黄鼠狼Marder测距仪",
+          "en-US": "Marder Rangefinder"
+        },
+        "Leopard A1A4 Laser": {
+          "zh-CN": "豹1 A1A4激光测距仪",
+          "en-US": "Leopard A1A4 Laser"
+        },
+        "Leopard All Laser": {
+          "zh-CN": "豹1全系激光测距仪",
+          "en-US": "Leopard All Laser"
+        },
         "PT-76B Rangefinder": {
           "zh-CN": "PT-76B激光测距仪",
           "en-US": "PT-76B Rangefinder"
@@ -3593,10 +3617,6 @@
           "zh-CN": "PT-76B 瞄准镜增强",
           "en-US": "PT-76B Optics"
         },
-        "Leopard 1 Laser": {
-          "zh-CN": "豹一激光测距仪",
-          "en-US": "Leopard 1 Laser"
-        },
         "T-64 NSVT Optics": {
           "zh-CN": "T-64 NSVT高射机枪瞄准镜增强",
           "en-US": "T-64 NSVT Optics"
@@ -3604,10 +3624,6 @@
         "T-64 NSVT Stabilizer": {
           "zh-CN": "T-64 NSVT高射机枪稳定器",
           "en-US": "T-64 NSVT Stabilizer"
-        },
-        "T-64 NSVT Rangefinder": {
-          "zh-CN": "T-64 NSVT高射机枪激光测距仪",
-          "en-US": "T-64 NSVT Rangefinder"
         },
         "T-54A Rangefinder": {
           "zh-CN": "T-54A激光测距仪",
@@ -3632,12 +3648,28 @@
           "en-US": "Gives BMP-1/BMP-1P a stabilizer (default: enabled)"
         },
         "Gives the Konkurs on the BMP-1P a stabilizer(default: disabled)": {
-          "zh-CN": "为BMP-1P上的“竞赛”提供稳定器 默认关闭",
+          "zh-CN": "为BMP-1P上的「竞赛」提供稳定器 默认关闭",
           "en-US": "Gives the Konkurs on the BMP-1P a stabilizer(default: disabled)"
         },
         "Gives BMP-1/BMP-1P a laser rangefinder (display only, no auto-ranging; default: enabled)": {
           "zh-CN": "为BMP-1/BMP-1P提供数显式测距仪 默认开启",
           "en-US": "Gives BMP-1/BMP-1P a laser rangefinder (display only, no auto-ranging; default: enabled)"
+        },
+        "Adds the fictional 9M14TV Malyutka-TV TV-guided missile for the BMP-1 (default: enabled)": {
+          "zh-CN": "为BMP-1添加虚构的9M14TV 婴儿-TV电视制导导弹（默认：开启）",
+          "en-US": "Adds the fictional 9M14TV Malyutka-TV TV-guided missile for the BMP-1 (default: enabled)"
+        },
+        "Ready rack missile count for BMP-1 MCLOS. -1 uses game's original count; >0 overrides.": {
+          "zh-CN": "BMP-1 MCLOS待发导弹数量，-1为游戏默认值，大于0则覆盖原始数量",
+          "en-US": "Ready rack missile count for BMP-1 MCLOS. -1 uses game's original count; >0 overrides."
+        },
+        "Use 1024x576 FLIR resolution for BMP-1 MCLOS missile camera (default: low resolution)": {
+          "zh-CN": "为BMP-1 MCLOS导弹摄像头使用1024x576高分辨率热成像（默认：低分辨率）",
+          "en-US": "Use 1024x576 FLIR resolution for BMP-1 MCLOS missile camera (default: low resolution)"
+        },
+        "Remove FLIR refresh scanline effect for BMP-1 MCLOS missile camera (default: enabled)": {
+          "zh-CN": "移除BMP-1 MCLOS导弹摄像头的热成像扫描线刷新效果（默认：开启）",
+          "en-US": "Remove FLIR refresh scanline effect for BMP-1 MCLOS missile camera (default: enabled)"
         },
         "Gives BRDM-2 a stabilizer (default: enabled)": {
           "zh-CN": "为BRDM-2提供稳定器 默认开启",
@@ -3655,22 +3687,6 @@
           "zh-CN": "为BRDM-2提供数显式测距仪 默认开启",
           "en-US": "Gives BRDM-2 a laser rangefinder (display only, no auto-ranging; default: enabled)"
         },
-        "Gives Marder series a stabilizer (default: enabled)": {
-          "zh-CN": "为黄鼠狼Marder提供稳定器 默认开启",
-          "en-US": "Gives Marder series a stabilizer (default: enabled)"
-        },
-        "Stabilizes MILAN launcher on Marder A1+ (default: enabled)": {
-          "zh-CN": "为黄鼠狼Marder MILAN 导弹提供稳定器 默认开启",
-          "en-US": "Stabilizes MILAN launcher on Marder A1+ (default: enabled)"
-        },
-        "Gives Marder series laser rangefinder and parallax fix (default: enabled)": {
-          "zh-CN": "为黄鼠狼Marder全系提供激光测距仪 默认开启",
-          "en-US": "Gives Marder series laser rangefinder and parallax fix (default: enabled)"
-        },
-        "Replace optical rangefinder with laser on Leopard 1 series (default: enabled)": {
-          "zh-CN": "为豹1全系提供激光测距仪 默认开启",
-          "en-US": "Replace optical rangefinder with laser on Leopard 1 series (default: enabled)"
-        },
         "Gives BTR-70 a stabilizer (default: enabled)": {
           "zh-CN": "为BTR-70提供稳定器 默认开启",
           "en-US": "Gives BTR-70 a stabilizer (default: enabled)"
@@ -3686,6 +3702,26 @@
         "Gives BTR-70 a laser rangefinder (display only, no auto-ranging; default: enabled)": {
           "zh-CN": "为BTR-70提供数显式测距仪 默认开启",
           "en-US": "Gives BTR-70 a laser rangefinder (display only, no auto-ranging; default: enabled)"
+        },
+        "Gives Marder series a stabilizer (default: enabled)": {
+          "zh-CN": "为黄鼠狼Marder提供稳定器 默认开启",
+          "en-US": "Gives Marder series a stabilizer (default: enabled)"
+        },
+        "Stabilizes MILAN launcher on Marder A1+ (default: enabled)": {
+          "zh-CN": "为黄鼠狼Marder MILAN导弹提供稳定器 默认开启",
+          "en-US": "Stabilizes MILAN launcher on Marder A1+ (default: enabled)"
+        },
+        "Gives Marder series laser rangefinder and parallax fix (default: enabled)": {
+          "zh-CN": "为黄鼠狼Marder全系提供激光测距仪 默认开启",
+          "en-US": "Gives Marder series laser rangefinder and parallax fix (default: enabled)"
+        },
+        "Replace optical rangefinder with laser on Leopard A1A4 only (default: enabled)": {
+          "zh-CN": "仅为豹1 A1A4将光学测距仪替换为激光测距仪（默认：开启）",
+          "en-US": "Replace optical rangefinder with laser on Leopard A1A4 only (default: enabled)"
+        },
+        "Replace optical rangefinder with laser on all Leopard 1 variants (default: disabled)": {
+          "zh-CN": "为豹1全系将光学测距仪替换为激光测距仪（默认：关闭）",
+          "en-US": "Replace optical rangefinder with laser on all Leopard 1 variants (default: disabled)"
         },
         "Gives PT-76B a laser rangefinder with auto-ranging (default: enabled)": {
           "zh-CN": "为PT-76B提供自动装表测距仪 默认开启",
@@ -3704,24 +3740,24 @@
           "en-US": "Stabilizes T-64 series NSVT cupola and MG platform (default: enabled)"
         },
         "Gives T-54A a laser rangefinder with auto-ranging (default: enabled)": {
-          "zh-CN": "为 T-54A 提供具有自动装表功能的激光测距仪（默认：开启）",
+          "zh-CN": "为T-54A提供具有自动装表功能的激光测距仪（默认：开启）",
           "en-US": "Gives T-54A a laser rangefinder with auto-ranging (default: enabled)"
         },
         "Gives T-34-85M a stabilizer, a little bit buggy when you moving turret (default: disabled)": {
-          "zh-CN": "为 T-34-85M 提供稳定器，旋转炮塔时可能存在轻微偏移卡顿（默认：禁用）",
+          "zh-CN": "为T-34-85M提供稳定器，旋转炮塔时可能存在轻微偏移卡顿（默认：禁用）",
           "en-US": "Gives T-34-85M a stabilizer, a little bit buggy when you moving turret (default: disabled)"
         },
         "Adds zoom levels to T-34-85M gunner sight (default: enabled)": {
-          "zh-CN": "为 T-34-85M 炮手瞄准镜添加缩放倍率（默认：开启）",
+          "zh-CN": "为T-34-85M炮手瞄准镜添加缩放倍率（默认：开启）",
           "en-US": "Adds zoom levels to T-34-85M gunner sight (default: enabled)"
         },
         "Gives T-34-85M a laser rangefinder with auto-ranging (default: enabled)": {
-          "zh-CN": "为 T-34-85M 提供具有自动装表功能的激光测距仪（默认：开启）",
+          "zh-CN": "为T-34-85M提供具有自动装表功能的激光测距仪（默认：开启）",
           "en-US": "Gives T-34-85M a laser rangefinder with auto-ranging (default: enabled)"
         }
       }
     },
-    "minhud":{
+    "minhud": {
       "ModId": "minhud",
       "ConfigLabels": {
         "Hide HUD in gunner view": {
