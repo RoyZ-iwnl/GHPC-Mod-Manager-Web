@@ -3707,9 +3707,9 @@
           "zh-CN": "为黄鼠狼Marder提供稳定器 默认开启",
           "en-US": "Gives Marder series a stabilizer (default: enabled)"
         },
-        "Stabilizes MILAN launcher on Marder A1+ (default: enabled)": {
-          "zh-CN": "为黄鼠狼Marder MILAN导弹提供稳定器 默认开启",
-          "en-US": "Stabilizes MILAN launcher on Marder A1+ (default: enabled)"
+        "Stabilizes MILAN launcher on Marder A1+ and Marder 1A2 (default: enabled)": {
+          "zh-CN": "为黄鼠狼Marder A1+和1A2 MILAN导弹提供稳定器 默认开启",
+          "en-US": "Stabilizes MILAN launcher on Marder A1+ and Marder 1A2 (default: enabled)"
         },
         "Gives Marder series laser rangefinder and parallax fix (default: enabled)": {
           "zh-CN": "为黄鼠狼Marder全系提供激光测距仪 默认开启",
