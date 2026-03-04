@@ -2,7 +2,8 @@
 
 ## Announcement
 
-### 2026-02-28
+### 2026-03-05
+- v1.2.1 stable release is now. See the [changelog](#v121) below for details.
 
 ### 2026-02-28
 - v1.2.0 stable release is now available with modular UI navigation, remote config service, and enhanced MelonLoader management. See the [changelog](#v120) below for details.
@@ -62,6 +63,23 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.2.1
+#### feat: Release version 1.2.1 with DNS over HTTPS support for Chinese users
+- Bump version to 1.2.1 (stable release from beta.1)
+- Add DNS over HTTPS (DoH) connector service with multi-endpoint fallback support
+- Implement DnsOverHttpsConnector with 6 preset DoH endpoints (223.5.5.5, 1.12.12.12, 223.6.6.6, 120.53.53.53, doh.apad.pro, v.recipes)
+- Add DNS query cache with TTL-based expiration (30s-10min)
+- Auto fallback to system DNS when DoH fails
+- Refactor HttpClient configuration to use ConfigureHttpClientDefaults
+- Replace HttpClientHandler with SocketsHttpHandler for better performance
+- Integrate DoH via ConnectCallback for transparent DNS resolution
+- Add session-based memory cache for non-GitHub resources
+- ModConfig and ModI18nConfig now use session cache to avoid duplicate requests
+- Add ClearSessionCache method and clear on manual refresh
+- Add DoH toggle in settings (visible only for zh-CN users)
+- Fix game running state not synced on startup
+- Add localization string SessionCacheCleared
 
 ### v1.2.0
 #### feat: Release version 1.2.0 with modular UI navigation and enhanced MelonLoader management
