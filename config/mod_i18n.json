@@ -1671,102 +1671,102 @@
         }
       },
       "ConfigComments": {
-      "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round.": {
-        "zh-CN": "每辆M1A1应携带多少发M829（尾翼稳定脱壳穿甲弹）、M830（破甲弹）。总计最多40发。至少携带一发M829。",
-        "en-US": "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round."
-      },
-      "Customize which rounds M1A1s/M1E1s use": {
-        "zh-CN": "自定义M1A1/M1E1使用的弹药类型",
-        "en-US": "Customize which rounds M1A1s/M1E1s use"
-      },
-      "M827, M829, M829A1, M829A2, M829A3": {
-        "zh-CN": "M827、M829、M829A1、M829A2、M829A3",
-        "en-US": "M827, M829, M829A1, M829A2, M829A3"
-      },
-      "M830, M830A1 (has proximity fuse that can be toggled using middle mouse)": {
-        "zh-CN": "M830、M830A1（具有可用鼠标中键切换的近炸引信）",
-        "en-US": "M830, M830A1 (has proximity fuse that can be toggled using middle mouse)"
-      },
-      "Horizontal stabilization of M1A1 sights when applying lead.": {
-        "zh-CN": "应用提前量时M1A1瞄准镜的水平稳定。",
-        "en-US": "Horizontal stabilization of M1A1 sights when applying lead."
-      },
-      "Additional zoom levels for thermals.": {
-        "zh-CN": "热成像的额外放大倍率。",
-        "en-US": "Additional zoom levels for thermals."
-      },
-      "Digitally enhanced zoom levels will not increase the size of the reticle.": {
-        "zh-CN": "数字增强放大倍率不会增加准星大小。",
-        "en-US": "Digitally enhanced zoom levels will not increase the size of the reticle."
-      },
-      "Replaces commander's NVGs with variable-zoom thermals.": {
-        "zh-CN": "用可变放大热成像替换车长夜视镜。",
-        "en-US": "Replaces commander's NVGs with variable-zoom thermals."
-      },
-      "Basically lets you point-n-shoot with the CITV.": {
-        "zh-CN": "基本上让你可以用CITV即瞄即打。",
-        "en-US": "Basically lets you point-n-shoot with the CITV."
-      },
-      "Makes CITV feel more like a camera.": {
-        "zh-CN": "让CITV操作感更像摄像头。",
-        "en-US": "Makes CITV feel more like a camera."
-      },
-      "[Requires CITV to be enabled] Gives the gunner's sight FLIR the same colour palette as the CITV.": {
-        "zh-CN": "【需要启用CITV】给炮手瞄准镜FLIR与CITV相同的色彩。",
-        "en-US": "[Requires CITV to be enabled] Gives the gunner's sight FLIR the same colour palette as the CITV."
-      },
-      "DU inserts for the composite turret cheeks: increased KE protection. M1A1 exclusive. Increased weight.": {
-        "zh-CN": "炮塔复合装甲侧板的贫铀插件：提升动能防护。M1A1专用。增加重量。",
-        "en-US": "DU inserts for the composite turret cheeks: increased KE protection. M1A1 exclusive. Increased weight."
-      },
-      "Higher generation = more KE protection (1-3, integer)": {
-        "zh-CN": "更高代数 = 更强动能防护（1-3，整数）",
-        "en-US": "Higher generation = more KE protection (1-3, integer)"
-      },
-      "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals.": {
-        "zh-CN": "装备.50口径M2HB的遥控武器系统；400发弹药，自动提前量，热成像。",
-        "en-US": "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals."
-      },
-      "Moves the CROWS to the right side of the commander instead of directly in front.": {
-        "zh-CN": "将CROWS移到车长右侧而不是正前方。",
-        "en-US": "Moves the CROWS to the right side of the commander instead of directly in front."
-      },
-      "Loads the CROWS M2HB with high explosive rounds.": {
-        "zh-CN": "为CROWS M2HB装载高爆弹药。",
-        "en-US": "Loads the CROWS M2HB with high explosive rounds."
-      },
-      "Less blurry thermals for the gunner.": {
-        "zh-CN": "炮手热成像更清晰。",
-        "en-US": "Less blurry thermals for the gunner."
-      },
-      "Convert M1s to M1E1s (i.e: they get the 120mm gun).": {
-        "zh-CN": "将M1转换为M1E1（即：获得120毫米炮）。",
-        "en-US": "Convert M1s to M1E1s (i.e: they get the 120mm gun)."
-      },
-      "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s.": {
-        "zh-CN": "M1IP/M1有随机概率被转换为M1A1/M1E1。",
-        "en-US": "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s."
-      },
-      "Horizontal stabilization of sights when applying lead.": {
-        "zh-CN": "应用提前量时瞄准镜的水平稳定。",
-        "en-US": "Horizontal stabilization of sights when applying lead."
-      },
-      "Settings for the gunner's thermals": {
-        "zh-CN": "炮手热成像设置",
-        "en-US": "Settings for the gunner's thermals"
-      },
-      "Higher generation = higher resolution (1-3, integer)": {
-        "zh-CN": "更高代数 = 更高分辨率（1-3，整数）",
-        "en-US": "Higher generation = higher resolution (1-3, integer)"
-      },
-      "Doesn't apply to M1E1, only those converted to M1A1": {
-        "zh-CN": "不适用于M1E1，仅适用于转换为M1A1的坦克",
-        "en-US": "Doesn't apply to M1E1, only those converted to M1A1"
-      },
-      "Convert all M1E1s to M1A1s (will still use M1E1 settings)": {
-        "zh-CN": "将所有M1E1转换为M1A1（仍使用M1E1设置）",
-        "en-US": "Convert all M1E1s to M1A1s (will still use M1E1 settings)"
-      }
+        "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round.": {
+          "zh-CN": "每辆M1A1应携带多少发M829（尾翼稳定脱壳穿甲弹）、M830（破甲弹）。总计最多40发。至少携带一发M829。",
+          "en-US": "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round."
+        },
+        "Customize which rounds M1A1s/M1E1s use": {
+          "zh-CN": "自定义M1A1/M1E1使用的弹药类型",
+          "en-US": "Customize which rounds M1A1s/M1E1s use"
+        },
+        "M827, M829, M829A1, M829A2, M829A3": {
+          "zh-CN": "M827、M829、M829A1、M829A2、M829A3",
+          "en-US": "M827, M829, M829A1, M829A2, M829A3"
+        },
+        "M830, M830A1 (has proximity fuse that can be toggled using middle mouse)": {
+          "zh-CN": "M830、M830A1（具有可用鼠标中键切换的近炸引信）",
+          "en-US": "M830, M830A1 (has proximity fuse that can be toggled using middle mouse)"
+        },
+        "Horizontal stabilization of M1A1 sights when applying lead.": {
+          "zh-CN": "应用提前量时M1A1瞄准镜的水平稳定。",
+          "en-US": "Horizontal stabilization of M1A1 sights when applying lead."
+        },
+        "Additional zoom levels for thermals.": {
+          "zh-CN": "热成像的额外放大倍率。",
+          "en-US": "Additional zoom levels for thermals."
+        },
+        "Digitally enhanced zoom levels will not increase the size of the reticle.": {
+          "zh-CN": "数字增强放大倍率不会增加准星大小。",
+          "en-US": "Digitally enhanced zoom levels will not increase the size of the reticle."
+        },
+        "Replaces commander's NVGs with variable-zoom thermals.": {
+          "zh-CN": "用可变放大热成像替换车长夜视镜。",
+          "en-US": "Replaces commander's NVGs with variable-zoom thermals."
+        },
+        "Basically lets you point-n-shoot with the CITV.": {
+          "zh-CN": "基本上让你可以用CITV即瞄即打。",
+          "en-US": "Basically lets you point-n-shoot with the CITV."
+        },
+        "Makes CITV feel more like a camera.": {
+          "zh-CN": "让CITV操作感更像摄像头。",
+          "en-US": "Makes CITV feel more like a camera."
+        },
+        "[Requires CITV to be enabled] Gives the gunner's sight FLIR the same colour palette as the CITV.": {
+          "zh-CN": "【需要启用CITV】给炮手瞄准镜FLIR与CITV相同的色彩。",
+          "en-US": "[Requires CITV to be enabled] Gives the gunner's sight FLIR the same colour palette as the CITV."
+        },
+        "DU inserts for the composite turret cheeks: increased KE protection. M1A1 exclusive. Increased weight.": {
+          "zh-CN": "炮塔复合装甲侧板的贫铀插件：提升动能防护。M1A1专用。增加重量。",
+          "en-US": "DU inserts for the composite turret cheeks: increased KE protection. M1A1 exclusive. Increased weight."
+        },
+        "Higher generation = more KE protection (1-3, integer)": {
+          "zh-CN": "更高代数 = 更强动能防护（1-3，整数）",
+          "en-US": "Higher generation = more KE protection (1-3, integer)"
+        },
+        "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals.": {
+          "zh-CN": "装备.50口径M2HB的遥控武器系统；400发弹药，自动提前量，热成像。",
+          "en-US": "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals."
+        },
+        "Moves the CROWS to the right side of the commander instead of directly in front.": {
+          "zh-CN": "将CROWS移到车长右侧而不是正前方。",
+          "en-US": "Moves the CROWS to the right side of the commander instead of directly in front."
+        },
+        "Loads the CROWS M2HB with high explosive rounds.": {
+          "zh-CN": "为CROWS M2HB装载高爆弹药。",
+          "en-US": "Loads the CROWS M2HB with high explosive rounds."
+        },
+        "Less blurry thermals for the gunner.": {
+          "zh-CN": "炮手热成像更清晰。",
+          "en-US": "Less blurry thermals for the gunner."
+        },
+        "Convert M1s to M1E1s (i.e: they get the 120mm gun).": {
+          "zh-CN": "将M1转换为M1E1（即：获得120毫米炮）。",
+          "en-US": "Convert M1s to M1E1s (i.e: they get the 120mm gun)."
+        },
+        "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s.": {
+          "zh-CN": "M1IP/M1有随机概率被转换为M1A1/M1E1。",
+          "en-US": "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s."
+        },
+        "Horizontal stabilization of sights when applying lead.": {
+          "zh-CN": "应用提前量时瞄准镜的水平稳定。",
+          "en-US": "Horizontal stabilization of sights when applying lead."
+        },
+        "Settings for the gunner's thermals": {
+          "zh-CN": "炮手热成像设置",
+          "en-US": "Settings for the gunner's thermals"
+        },
+        "Higher generation = higher resolution (1-3, integer)": {
+          "zh-CN": "更高代数 = 更高分辨率（1-3，整数）",
+          "en-US": "Higher generation = higher resolution (1-3, integer)"
+        },
+        "Doesn't apply to M1E1, only those converted to M1A1": {
+          "zh-CN": "不适用于M1E1，仅适用于转换为M1A1的坦克",
+          "en-US": "Doesn't apply to M1E1, only those converted to M1A1"
+        },
+        "Convert all M1E1s to M1A1s (will still use M1E1 settings)": {
+          "zh-CN": "将所有M1E1转换为M1A1（仍使用M1E1设置）",
+          "en-US": "Convert all M1E1s to M1A1s (will still use M1E1 settings)"
+        }
       }
     },
     "M1A1AMP": {
@@ -3511,7 +3511,7 @@
         }
       }
     },
-    "BMP1ST":{
+    "BMP1ST": {
       "ModId": "BMP1ST",
       "ConfigLabels": {
         "BMP-1P Konkurs Stab": {
@@ -3534,7 +3534,7 @@
           "en-US": "BMP-1 Stabilizer"
         },
         "BMP-1P Konkurs Stab": {
-          "zh-CN": "BMP-1P「竞赛」稳定器",
+          "zh-CN": "BMP-1P竞赛稳定器",
           "en-US": "BMP-1P Konkurs Stab"
         },
         "BMP-1 Rangefinder": {
@@ -3542,19 +3542,19 @@
           "en-US": "BMP-1 Rangefinder"
         },
         "BMP-1 9M14TV Malyutka-TV": {
-          "zh-CN": "BMP-1 9M14TV 婴儿-TV导弹",
+          "zh-CN": "BMP-1 9M14TV马留特卡-TV导弹",
           "en-US": "BMP-1 9M14TV Malyutka-TV"
         },
         "BMP-1 MCLOS Ready Missiles": {
-          "zh-CN": "BMP-1 MCLOS待发导弹数量",
+          "zh-CN": "BMP-1 MCLOS就绪弹架数量",
           "en-US": "BMP-1 MCLOS Ready Missiles"
         },
         "BMP-1 MCLOS FLIR High Resolution": {
-          "zh-CN": "BMP-1 MCLOS 热成像高分辨率",
+          "zh-CN": "BMP-1 MCLOS FLIR高分辨率",
           "en-US": "BMP-1 MCLOS FLIR High Resolution"
         },
         "BMP-1 MCLOS FLIR Remove Scanline": {
-          "zh-CN": "BMP-1 MCLOS 热成像去扫描线",
+          "zh-CN": "BMP-1 MCLOS FLIR移除扫描线",
           "en-US": "BMP-1 MCLOS FLIR Remove Scanline"
         },
         "BRDM-2 Stabilizer": {
@@ -3601,13 +3601,69 @@
           "zh-CN": "黄鼠狼Marder测距仪",
           "en-US": "Marder Rangefinder"
         },
-        "Leopard A1A4 Laser": {
-          "zh-CN": "豹1 A1A4激光测距仪",
-          "en-US": "Leopard A1A4 Laser"
+        "Leopard A1A4 EMES18 Sight": {
+          "zh-CN": "豹A1A4 EMES18火控瞄准具",
+          "en-US": "Leopard A1A4 EMES18 Sight"
         },
-        "Leopard All Laser": {
-          "zh-CN": "豹1全系激光测距仪",
-          "en-US": "Leopard All Laser"
+        "Leopard A1A4 DM63 Ammo": {
+          "zh-CN": "豹A1A4 DM63弹药",
+          "en-US": "Leopard A1A4 DM63 Ammo"
+        },
+        "Leopard 1A3 EMES18 Sight": {
+          "zh-CN": "豹1A3 EMES18火控瞄准具",
+          "en-US": "Leopard 1A3 EMES18 Sight"
+        },
+        "Leopard 1A3 DM63 Ammo": {
+          "zh-CN": "豹1A3 DM63弹药",
+          "en-US": "Leopard 1A3 DM63 Ammo"
+        },
+        "Leopard 1A3A2 EMES18 Sight": {
+          "zh-CN": "豹1A3A2 EMES18火控瞄准具",
+          "en-US": "Leopard 1A3A2 EMES18 Sight"
+        },
+        "Leopard 1A3A2 DM63 Ammo": {
+          "zh-CN": "豹1A3A2 DM63弹药",
+          "en-US": "Leopard 1A3A2 DM63 Ammo"
+        },
+        "Leopard A1A1 EMES18 Sight": {
+          "zh-CN": "豹A1A1 EMES18火控瞄准具",
+          "en-US": "Leopard A1A1 EMES18 Sight"
+        },
+        "Leopard A1A1 DM63 Ammo": {
+          "zh-CN": "豹A1A1 DM63弹药",
+          "en-US": "Leopard A1A1 DM63 Ammo"
+        },
+        "Leopard A1A3 EMES18 Sight": {
+          "zh-CN": "豹A1A3 EMES18火控瞄准具",
+          "en-US": "Leopard A1A3 EMES18 Sight"
+        },
+        "Leopard A1A3 DM63 Ammo": {
+          "zh-CN": "豹A1A3 DM63弹药",
+          "en-US": "Leopard A1A3 DM63 Ammo"
+        },
+        "Leopard 1A3A1 EMES18 Sight": {
+          "zh-CN": "豹1A3A1 EMES18火控瞄准具",
+          "en-US": "Leopard 1A3A1 EMES18 Sight"
+        },
+        "Leopard 1A3A1 DM63 Ammo": {
+          "zh-CN": "豹1A3A1 DM63弹药",
+          "en-US": "Leopard 1A3A1 DM63 Ammo"
+        },
+        "Leopard 1A3A3 EMES18 Sight": {
+          "zh-CN": "豹1A3A3 EMES18火控瞄准具",
+          "en-US": "Leopard 1A3A3 EMES18 Sight"
+        },
+        "Leopard 1A3A3 DM63 Ammo": {
+          "zh-CN": "豹1A3A3 DM63弹药",
+          "en-US": "Leopard 1A3A3 DM63 Ammo"
+        },
+        "Leopard A1A2 EMES18 Sight": {
+          "zh-CN": "豹A1A2 EMES18火控瞄准具",
+          "en-US": "Leopard A1A2 EMES18 Sight"
+        },
+        "Leopard A1A2 DM63 Ammo": {
+          "zh-CN": "豹A1A2 DM63弹药",
+          "en-US": "Leopard A1A2 DM63 Ammo"
         },
         "PT-76B Rangefinder": {
           "zh-CN": "PT-76B激光测距仪",
@@ -3648,7 +3704,7 @@
           "en-US": "Gives BMP-1/BMP-1P a stabilizer (default: enabled)"
         },
         "Gives the Konkurs on the BMP-1P a stabilizer(default: disabled)": {
-          "zh-CN": "为BMP-1P上的「竞赛」提供稳定器 默认关闭",
+          "zh-CN": "为BMP-1P上的竞赛反坦克导弹提供稳定器 默认关闭",
           "en-US": "Gives the Konkurs on the BMP-1P a stabilizer(default: disabled)"
         },
         "Gives BMP-1/BMP-1P a laser rangefinder (display only, no auto-ranging; default: enabled)": {
@@ -3656,20 +3712,20 @@
           "en-US": "Gives BMP-1/BMP-1P a laser rangefinder (display only, no auto-ranging; default: enabled)"
         },
         "Adds the fictional 9M14TV Malyutka-TV TV-guided missile for the BMP-1 (default: enabled)": {
-          "zh-CN": "为BMP-1添加虚构的9M14TV 婴儿-TV电视制导导弹（默认：开启）",
+          "zh-CN": "为BMP-1添加虚构的9M14TV马留特卡-TV电视制导导弹（默认：开启）",
           "en-US": "Adds the fictional 9M14TV Malyutka-TV TV-guided missile for the BMP-1 (default: enabled)"
         },
-        "Ready rack missile count for BMP-1 MCLOS. -1 uses game's original count; >0 overrides.": {
-          "zh-CN": "BMP-1 MCLOS待发导弹数量，-1为游戏默认值，大于0则覆盖原始数量",
-          "en-US": "Ready rack missile count for BMP-1 MCLOS. -1 uses game's original count; >0 overrides."
+        "Ready rack missile count for BMP-1 MCLOS. -1 uses game's original count; >0 overrides.(max: 64)": {
+          "zh-CN": "BMP-1 MCLOS就绪弹架导弹数量，-1使用游戏原始数量，大于0则覆盖（最大：64）",
+          "en-US": "Ready rack missile count for BMP-1 MCLOS. -1 uses game's original count; >0 overrides.(max: 64)"
         },
         "Use 1024x576 FLIR resolution for BMP-1 MCLOS missile camera (default: low resolution)": {
-          "zh-CN": "为BMP-1 MCLOS导弹摄像头使用1024x576高分辨率热成像（默认：低分辨率）",
+          "zh-CN": "为BMP-1 MCLOS导弹摄像头使用1024x576 FLIR分辨率（默认：低分辨率）",
           "en-US": "Use 1024x576 FLIR resolution for BMP-1 MCLOS missile camera (default: low resolution)"
         },
-        "Remove FLIR refresh scanline effect for BMP-1 MCLOS missile camera (default: enabled)": {
-          "zh-CN": "移除BMP-1 MCLOS导弹摄像头的热成像扫描线刷新效果（默认：开启）",
-          "en-US": "Remove FLIR refresh scanline effect for BMP-1 MCLOS missile camera (default: enabled)"
+        "Remove FLIR refresh scanline effect for BMP-1 MCLOS missile camera (default: disabled)": {
+          "zh-CN": "移除BMP-1 MCLOS导弹摄像头的FLIR刷新扫描线效果（默认：关闭）",
+          "en-US": "Remove FLIR refresh scanline effect for BMP-1 MCLOS missile camera (default: disabled)"
         },
         "Gives BRDM-2 a stabilizer (default: enabled)": {
           "zh-CN": "为BRDM-2提供稳定器 默认开启",
@@ -3708,20 +3764,76 @@
           "en-US": "Gives Marder series a stabilizer (default: enabled)"
         },
         "Stabilizes MILAN launcher on Marder A1+ and Marder 1A2 (default: enabled)": {
-          "zh-CN": "为黄鼠狼Marder A1+和1A2 MILAN导弹提供稳定器 默认开启",
+          "zh-CN": "为黄鼠狼Marder A1+和1A2的MILAN导弹提供稳定器 默认开启",
           "en-US": "Stabilizes MILAN launcher on Marder A1+ and Marder 1A2 (default: enabled)"
         },
         "Gives Marder series laser rangefinder and parallax fix (default: enabled)": {
           "zh-CN": "为黄鼠狼Marder全系提供激光测距仪 默认开启",
           "en-US": "Gives Marder series laser rangefinder and parallax fix (default: enabled)"
         },
-        "Replace optical rangefinder with laser on Leopard A1A4 only (default: enabled)": {
-          "zh-CN": "仅为豹1 A1A4将光学测距仪替换为激光测距仪（默认：开启）",
-          "en-US": "Replace optical rangefinder with laser on Leopard A1A4 only (default: enabled)"
+        "Applies EMES18 FCS to Leopard A1A4 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
+          "zh-CN": "为豹A1A4应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
+          "en-US": "Applies EMES18 FCS to Leopard A1A4 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
         },
-        "Replace optical rangefinder with laser on all Leopard 1 variants (default: disabled)": {
-          "zh-CN": "为豹1全系将光学测距仪替换为激光测距仪（默认：关闭）",
-          "en-US": "Replace optical rangefinder with laser on all Leopard 1 variants (default: disabled)"
+        "Replaces stock APFSDS with DM63 on Leopard A1A4 (default: enabled)": {
+          "zh-CN": "将豹A1A4的原装APFSDS替换为DM63（默认：开启）",
+          "en-US": "Replaces stock APFSDS with DM63 on Leopard A1A4 (default: enabled)"
+        },
+        "Applies EMES18 FCS to Leopard 1A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
+          "zh-CN": "为豹1A3应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
+          "en-US": "Applies EMES18 FCS to Leopard 1A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
+        },
+        "Replaces stock APFSDS with DM63 on Leopard 1A3 (default: enabled)": {
+          "zh-CN": "将豹1A3的原装APFSDS替换为DM63（默认：开启）",
+          "en-US": "Replaces stock APFSDS with DM63 on Leopard 1A3 (default: enabled)"
+        },
+        "Applies EMES18 FCS to Leopard 1A3A2 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
+          "zh-CN": "为豹1A3A2应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
+          "en-US": "Applies EMES18 FCS to Leopard 1A3A2 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
+        },
+        "Replaces stock APFSDS with DM63 on Leopard 1A3A2 (default: enabled)": {
+          "zh-CN": "将豹1A3A2的原装APFSDS替换为DM63（默认：开启）",
+          "en-US": "Replaces stock APFSDS with DM63 on Leopard 1A3A2 (default: enabled)"
+        },
+        "Applies EMES18 FCS to Leopard A1A1 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
+          "zh-CN": "为豹A1A1应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
+          "en-US": "Applies EMES18 FCS to Leopard A1A1 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
+        },
+        "Replaces stock APFSDS with DM63 on Leopard A1A1 (default: enabled)": {
+          "zh-CN": "将豹A1A1的原装APFSDS替换为DM63（默认：开启）",
+          "en-US": "Replaces stock APFSDS with DM63 on Leopard A1A1 (default: enabled)"
+        },
+        "Applies EMES18 FCS to Leopard A1A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
+          "zh-CN": "为豹A1A3应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
+          "en-US": "Applies EMES18 FCS to Leopard A1A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
+        },
+        "Replaces stock APFSDS with DM63 on Leopard A1A3 (default: enabled)": {
+          "zh-CN": "将豹A1A3的原装APFSDS替换为DM63（默认：开启）",
+          "en-US": "Replaces stock APFSDS with DM63 on Leopard A1A3 (default: enabled)"
+        },
+        "Applies EMES18 FCS to Leopard 1A3A1 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
+          "zh-CN": "为豹1A3A1应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
+          "en-US": "Applies EMES18 FCS to Leopard 1A3A1 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
+        },
+        "Replaces stock APFSDS with DM63 on Leopard 1A3A1 (default: enabled)": {
+          "zh-CN": "将豹1A3A1的原装APFSDS替换为DM63（默认：开启）",
+          "en-US": "Replaces stock APFSDS with DM63 on Leopard 1A3A1 (default: enabled)"
+        },
+        "Applies EMES18 FCS to Leopard 1A3A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
+          "zh-CN": "为豹1A3A3应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
+          "en-US": "Applies EMES18 FCS to Leopard 1A3A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
+        },
+        "Replaces stock APFSDS with DM63 on Leopard 1A3A3 (default: enabled)": {
+          "zh-CN": "将豹1A3A3的原装APFSDS替换为DM63（默认：开启）",
+          "en-US": "Replaces stock APFSDS with DM63 on Leopard 1A3A3 (default: enabled)"
+        },
+        "Applies EMES18 FCS to Leopard A1A2 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
+          "zh-CN": "为豹A1A2应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
+          "en-US": "Applies EMES18 FCS to Leopard A1A2 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
+        },
+        "Replaces stock APFSDS with DM63 on Leopard A1A2 (default: enabled)": {
+          "zh-CN": "将豹A1A2的原装APFSDS替换为DM63（默认：开启）",
+          "en-US": "Replaces stock APFSDS with DM63 on Leopard A1A2 (default: enabled)"
         },
         "Gives PT-76B a laser rangefinder with auto-ranging (default: enabled)": {
           "zh-CN": "为PT-76B提供自动装表测距仪 默认开启",
@@ -3740,19 +3852,19 @@
           "en-US": "Stabilizes T-64 series NSVT cupola and MG platform (default: enabled)"
         },
         "Gives T-54A a laser rangefinder with auto-ranging (default: enabled)": {
-          "zh-CN": "为T-54A提供具有自动装表功能的激光测距仪（默认：开启）",
+          "zh-CN": "为 T-54A 提供具有自动装表功能的激光测距仪（默认：开启）",
           "en-US": "Gives T-54A a laser rangefinder with auto-ranging (default: enabled)"
         },
         "Gives T-34-85M a stabilizer, a little bit buggy when you moving turret (default: disabled)": {
-          "zh-CN": "为T-34-85M提供稳定器，旋转炮塔时可能存在轻微偏移卡顿（默认：禁用）",
+          "zh-CN": "为 T-34-85M 提供稳定器，旋转炮塔时可能存在轻微偏移卡顿（默认：禁用）",
           "en-US": "Gives T-34-85M a stabilizer, a little bit buggy when you moving turret (default: disabled)"
         },
         "Adds zoom levels to T-34-85M gunner sight (default: enabled)": {
-          "zh-CN": "为T-34-85M炮手瞄准镜添加缩放倍率（默认：开启）",
+          "zh-CN": "为 T-34-85M 炮手瞄准镜添加缩放倍率（默认：开启）",
           "en-US": "Adds zoom levels to T-34-85M gunner sight (default: enabled)"
         },
         "Gives T-34-85M a laser rangefinder with auto-ranging (default: enabled)": {
-          "zh-CN": "为T-34-85M提供具有自动装表功能的激光测距仪（默认：开启）",
+          "zh-CN": "为 T-34-85M 提供具有自动装表功能的激光测距仪（默认：开启）",
           "en-US": "Gives T-34-85M a laser rangefinder with auto-ranging (default: enabled)"
         }
       }
@@ -3770,7 +3882,7 @@
         }
       }
     },
-    "Binoaim":{
+    "Binoaim": {
       "ModId": "Binoaim",
       "ConfigLabels": {
         "Allow shooting": {
@@ -3778,14 +3890,14 @@
           "en-US": "Allow shooting"
         }
       },
-        "ConfigComments": {
+      "ConfigComments": {
         "Allow/disallow shooting while using binoculars": {
           "zh-CN": "允许或不允许在车长放大视角下超控射击",
           "en-US": "Allow/disallow shooting while using binoculars"
         }
-        }
-      },
-    "Cinema":{
+      }
+    },
+    "Cinema": {
       "ModId": "Cinema",
       "ConfigLabels": {
         "MenuKey": {
@@ -3817,7 +3929,7 @@
           "en-US": "API Server Port"
         }
       },
-        "ConfigComments": {
+      "ConfigComments": {
         "Open/Close Menu - 打开/关闭菜单": {
           "zh-CN": "打开/关闭菜单",
           "en-US": "Open/Close Menu"
