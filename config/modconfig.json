@@ -138,7 +138,7 @@
       "20260210.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/UnderdogsEnhanced/releases/latest",
-    "TargetFileNameKeyword": ".dll",
+    "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "UnderdogsEnhanced.dll",
     "ConfigSectionName": "Underdogs-Enhanced",
     "InstallMethod": "DirectRelease",
