@@ -3959,6 +3959,53 @@
           "en-US": "API Server Port for debug (default: 8828)"
         }
       }
+    },
+    "weather": {
+      "ModId": "weather",
+      "ConfigLabels": {
+        "MenuKey": {
+          "zh-CN": "菜单按键",
+          "en-US": "Menu Key"
+        },
+        "DefaultLanguage": {
+          "zh-CN": "默认语言",
+          "en-US": "Default Language"
+        },
+        "UIScale": {
+          "zh-CN": "UI缩放",
+          "en-US": "UI Scale"
+        },
+        "AlwaysClearSky": {
+          "zh-CN": "永远晴天",
+          "en-US": "Always Clear Sky"
+        },
+        "SaveKeyframeKey": {
+          "zh-CN": "截取关键帧按键",
+          "en-US": "Save Key frame Key"
+        }
+      },
+      "ConfigComments": {
+        "Open/Close Menu(Need EnableUIMenu=true)- 打开/关闭菜单仅在 EnableUIMenu=true 时生效": {
+          "zh-CN": "打开/关闭菜单仅在 EnableUIMenu=true 时生效",
+          "en-US": "Open/Close Menu(Need EnableUIMenu=true)"
+        },
+        "Default language (0=English, 1=Chinese) - 默认语言": {
+          "zh-CN": "默认语言(0=English, 1=中文)",
+          "en-US": "Default language (0=English, 1=Chinese)"
+        },
+        "UI Scale - UI缩放": {
+          "zh-CN": "UI缩放",
+          "en-US": "UI Scale"
+        },
+        "Apply clear sky once on GameReady (Raininess=0, CloudCondition=0) - 在 GameReady 时执行一次晴天（降雨=0，云层状态=0）": {
+          "zh-CN": "在 GameReady 时执行一次晴天（降雨=0，云层状态=0）",
+          "en-US": "Apply clear sky once on GameReady (Raininess=0, CloudCondition=0)"
+        },
+        "Enable UI debug menu and F10 toggle - 启用UI调试菜单及F10开关": {
+          "zh-CN": "启用UI调试菜单及F10开关",
+          "en-US": "Enable UI debug menu and F10 toggle"
+        }
+      }
     }
   }
 }
