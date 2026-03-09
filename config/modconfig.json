@@ -542,13 +542,22 @@
   {
     "Id": "weather",
     "Name": {
-      "en-US": "Weather&Time Control",
+      "en-US": "Weather & Time Control",
       "zh-CN": "天气与时间控制"
     },
     "Description": {
       "en-US": "A comprehensive weather control mod for Gunner, HEAT, PC! that allows real-time manipulation of weather conditions, sky lighting, and dynamic weather systems.Support always sunny options.",
       "zh-CN": "为 GHPC开发的综合天气控制模组，支持实时调整天气状况、天空光照和动态天气系统。支持永远晴天选项。"
     },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/WeatherMod/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "WeatherMod.dll",
