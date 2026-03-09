@@ -4001,7 +4001,7 @@
           "zh-CN": "在 GameReady 时执行一次晴天（降雨=0，云层状态=0）",
           "en-US": "Apply clear sky once on GameReady (Raininess=0, CloudCondition=0)"
         },
-        "Enable UI debug menu and F10 toggle - 启用UI调试菜单及F10开关": {
+        "EnableUIMenu": {
           "zh-CN": "启用UI调试菜单及F10开关",
           "en-US": "Enable UI debug menu and F10 toggle"
         }
