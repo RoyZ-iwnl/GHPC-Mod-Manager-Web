@@ -757,6 +757,76 @@
           "zh-CN": "即瞄即打，热成像瞄准镜，自动跟踪",
           "en-US": "Point-n-shoot, thermal sight, autotracking"
         }
+      },
+      "multiplechoice": {
+        "Random AP Round Pool (T-72M),Random AP Round Pool (T-72M1)": [
+          "3BM22",
+          "3BM26",
+          "3BM32",
+          "3BM42",
+          "3BM46",
+          "3BM60"
+        ],
+        "Empty Ammo Racks (T-72M),Empty Ammo Racks (T-72M1)": [
+          "Hull Wet",
+          "Hull Rear",
+          "Hull Front",
+          "Turret Spare"
+        ],
+        "AP Round (T-64A)": [
+          "3BM32",
+          "3BM26",
+          "3BM42"
+        ],
+        "Random AP Round Pool (T-64A),Random AP Round Pool (T-64B)": [
+          "3BM26",
+          "3BM32",
+          "3BM42",
+          "3BM46"
+        ],
+        "Random AP Round Pool (T-80B)": [
+          "3BM26",
+          "3BM32",
+          "3BM42",
+          "3BM46",
+          "3B60"
+        ],
+        "GLATGM (T-80B)": [
+          "9M112M",
+          "9M119",
+          "9M119M1"
+        ]
+      },
+      "singlechoice": {
+        "AP Round (T-72M),AP Round (T-72M1)": [
+          "3BM15",
+          "3BM22",
+          "3BM32",
+          "3BM26",
+          "3BM42",
+          "3BM46",
+          "3BM60"
+        ],
+        "HEAT Round (T-72M),HEAT Round (T-72M1)": [
+          "3BK14M",
+          "3BK18M"
+        ],
+        "GLATGM (T-72M),GLATGM (T-72M1)": [
+          "None",
+          "9M119",
+          "9M119M1"
+        ],
+        "Thermals Quality (T-72),Thermals Quality (T-64A),Thermals Quality (T-64B),Thermals Quality (T-80B),Thermals Quality (BMP-2)": [
+          "Low",
+          "High"
+        ],
+        "AP Round (T-80B)": [
+          "3BM32",
+          "3BM26",
+          "3BM42",
+          "3BM46",
+          "3BM60"
+        ]
       }
     },
     "PactILROY": {
@@ -1516,6 +1586,76 @@
           "zh-CN": "即瞄即打，热成像瞄准镜，自动跟踪",
           "en-US": "Point-n-shoot, thermal sight, autotracking"
         }
+      },
+      "multiplechoice": {
+        "Random AP Round Pool (T-72M),Random AP Round Pool (T-72M1)": [
+          "3BM22",
+          "3BM26",
+          "3BM32",
+          "3BM42",
+          "3BM46",
+          "3BM60"
+        ],
+        "Empty Ammo Racks (T-72M),Empty Ammo Racks (T-72M1)": [
+          "Hull Wet",
+          "Hull Rear",
+          "Hull Front",
+          "Turret Spare"
+        ],
+        "AP Round (T-64A)": [
+          "3BM32",
+          "3BM26",
+          "3BM42"
+        ],
+        "Random AP Round Pool (T-64A),Random AP Round Pool (T-64B)": [
+          "3BM26",
+          "3BM32",
+          "3BM42",
+          "3BM46"
+        ],
+        "Random AP Round Pool (T-80B)": [
+          "3BM26",
+          "3BM32",
+          "3BM42",
+          "3BM46",
+          "3B60"
+        ],
+        "GLATGM (T-80B)": [
+          "9M112M",
+          "9M119",
+          "9M119M1"
+        ]
+      },
+      "singlechoice": {
+        "AP Round (T-72M),AP Round (T-72M1)": [
+          "3BM15",
+          "3BM22",
+          "3BM32",
+          "3BM26",
+          "3BM42",
+          "3BM46",
+          "3BM60"
+        ],
+        "HEAT Round (T-72M),HEAT Round (T-72M1)": [
+          "3BK14M",
+          "3BK18M"
+        ],
+        "GLATGM (T-72M),GLATGM (T-72M1)": [
+          "None",
+          "9M119",
+          "9M119M1"
+        ],
+        "Thermals Quality (T-72),Thermals Quality (T-64A),Thermals Quality (T-64B),Thermals Quality (T-80B),Thermals Quality (BMP-2)": [
+          "Low",
+          "High"
+        ],
+        "AP Round (T-80B)": [
+          "3BM32",
+          "3BM26",
+          "3BM42",
+          "3BM46",
+          "3BM60"
+        ]
       }
     },
     "M1A1": {
@@ -1767,6 +1907,20 @@
           "zh-CN": "将所有M1E1转换为M1A1（仍使用M1E1设置）",
           "en-US": "Convert all M1E1s to M1A1s (will still use M1E1 settings)"
         }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "AP Round (M1E1),AP Round (M1A1)": [
+          "M827",
+          "M829",
+          "M829A1",
+          "M829A2",
+          "M829A3"
+        ],
+        "HEAT Round (M1E1),HEAT Round (M1A1)": [
+          "M830",
+          "M830A1"
+        ]
       }
     },
     "M1A1AMP": {
@@ -2202,7 +2356,9 @@
           "zh-CN": "强制启用伪装网外观，而非随机。",
           "en-US": "Force camo net appearance instead of randomizing it"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "M6A2": {
       "ModId": "M6A2",
@@ -2333,7 +2489,9 @@
           "zh-CN": "在不增加重量的情况下提升50%的防护",
           "en-US": "50% better protection with no weight penalty"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "M6A2ROY": {
       "ModId": "M6A2ROY",
@@ -2464,6 +2622,14 @@
           "zh-CN": "在不增加重量的情况下提升50%的防护",
           "en-US": "50% better protection with no weight penalty"
         }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "GunType": [
+          "M242",
+          "GAU12",
+          "XM813"
+        ]
       }
     },
     "NATOERA": {
@@ -2679,7 +2845,9 @@
           "zh-CN": "使用RGB浮点值调整BRAT配色",
           "en-US": "Adjust BRAT colors with RGB values (float)"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "ATAC": {
       "ModId": "ATAC",
@@ -3190,6 +3358,71 @@
           "zh-CN": "—— 苏联（USSR）阵营 ——",
           "en-US": "////USSR////"
         }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "TOW Launcher replacement,M151 replacement,M151 TOW replacement,M923 replacement,M113 replacement,M2 replacement,M2 (Alt) replacement,M60A1 replacement,M60A1 AOS replacement,M60A1 RISE replacement,M60A1 RISE(P) replacement,M60A3 replacement,M60A3 TTS replacement,M1 replacement,M1IP replacement,M113G replacement,Marder A1 replacement,Marder A1 (No ATGM) replacement,Marder A1+ replacement,Leopard 1A1 replacement,Leopard 1A1A2 replacement,Leopard 1A1A3 replacement,Leopard 1A1A4 replacement,SPG-9 replacement,9K111 Launcher replacement,UAZ-469 replacement,Ural-375D replacement,BRDM2 replacement,BTR-60PB replacement,BMP-1 replacement,BMP-1P replacement,BMP-2 replacement,PT-76B replacement,T-54A replacement,T-55A replacement,T-72 replacement,T-72 LEM replacement,T-72 UV1 replacement,T-72M replacement,T-72M Gills replacement,T-72 UV2 replacement,T-72M1 replacement,SA SPG-9 replacement,SA 9K111 Launcher replacement,SA Ural-375D,SA BRDM2 replacement,SA BTR-60PB replacement,SA BTR-70 replacement,SA BMP-1 replacement,SA BMP-1P replacement,SA BMP-2 replacement,SA T-62 replacement,SA T-64R replacement,SA T-64A obr74 replacement,SA T-64A obr79 replacement,SA T-64A obr81 replacement,SA T-64A replacement,SA T-64A obr84 replacement,SA T-64B replacement,SA T-80B replacement": [
+          "STATIC_TOW",
+          "M151",
+          "M151M232",
+          "M923",
+          "M2BRADLEY",
+          "M2BRADLEY",
+          "M2BRADLEY(ALT)",
+          "M60A1",
+          "M60A1AOS",
+          "M60A1RISEP77",
+          "M60A1RISEP",
+          "M60A3",
+          "M60A3TTS",
+          "M1",
+          "M1IP",
+          "M113G",
+          "MARDERA1",
+          "MARDERA1_NO_ATGM",
+          "MARDERA1PLUS",
+          "LEO1A1",
+          "LEO1A1A2",
+          "LEO1A1A3",
+          "LEO1A1A4",
+          "STATIC_SPG9",
+          "STATIC_9K111",
+          "UAZ469",
+          "URAL375D",
+          "BRDM2",
+          "BTR60PB",
+          "BMP1",
+          "BMP1P",
+          "BMP2",
+          "PT76B",
+          "T54A",
+          "T72GILLS",
+          "T72",
+          "T72ULEM",
+          "T72UV1",
+          "T72M1",
+          "T72M1",
+          "T72UV2",
+          "T72M1",
+          "STATIC_SPG9_SA",
+          "STATIC_9K111_SA",
+          "URAL375D_SA",
+          "BRDM2_SA",
+          "BTR60PB_SA",
+          "BTR70",
+          "BMP1P_SA",
+          "BMP1P_SA",
+          "BMP2_SA",
+          "T62",
+          "T64R",
+          "T64A74",
+          "T64A79",
+          "T64A81",
+          "T64B",
+          "T64A84",
+          "T64B",
+          "T80B"
+        ]
       }
     },
     "M2ReSound": {
@@ -3216,7 +3449,9 @@
           "en-US": "Exterior Firing Sound"
         }
       },
-      "ConfigComments": {}
+      "ConfigComments": {},
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "RandomNB": {
       "ModId": "RandomNB",
@@ -3226,7 +3461,9 @@
           "en-US": "Chance"
         }
       },
-      "ConfigComments": {}
+      "ConfigComments": {},
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "M113TOW": {
       "ModId": "M113TOW",
@@ -3257,7 +3494,9 @@
           "zh-CN": "热成像瞄准镜挡住了车长视角的大量正面视野，笑死",
           "en-US": "the thermal sight blocks a ton of frontal vision in commander view lol"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "GMPCTextureL": {
       "ModId": "GMPCTextureL",
@@ -3272,7 +3511,9 @@
           "zh-CN": "启用此功能后，模组会Hash纹理文件，以查看它们在加载新场景时是否发生变化。这在设计纹理时很有用，但在需要处理大量数据时会降低地图加载速度。",
           "en-US": "When this is enabled, the mod will hash the texture files to see if they changed when loading a new scene. This is useful when designing textures, but can slow down map loading when a lot of data has to be processed."
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "GMPC": {
       "ModId": "GMPC",
@@ -3327,7 +3568,9 @@
           "zh-CN": "启用/禁用：移除第三人称准星。",
           "en-US": "Enable/Disable the patch that removes the third person crosshair"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "SM60": {
       "ModId": "SM60",
@@ -3418,7 +3661,9 @@
           "zh-CN": "下列弹药爆炸时生成的破片数量。注意：数值越高，对性能影响越大，请谨慎使用较高数值。",
           "en-US": "How many fragments are generated when the below round explodes. NOTE: Higher number, means higher performance hit. Be careful in using higher number."
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "SM60ROY": {
       "ModId": "SM60ROY",
@@ -3509,7 +3754,9 @@
           "zh-CN": "下列弹药爆炸时生成的破片数量。注意：数值越高，对性能影响越大，请谨慎使用较高数值。",
           "en-US": "How many fragments are generated when the below round explodes. NOTE: Higher number, means higher performance hit. Be careful in using higher number."
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "BMP1ST": {
       "ModId": "BMP1ST",
@@ -3524,7 +3771,9 @@
           "zh-CN": "为BMP-1P上的“竞赛”提供稳定器",
           "en-US": "Gives the Konkurs on the BMP-1P a stabilizer"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "underdog": {
       "ModId": "underdog",
@@ -3867,7 +4116,9 @@
           "zh-CN": "为 T-34-85M 提供具有自动装表功能的激光测距仪（默认：开启）",
           "en-US": "Gives T-34-85M a laser rangefinder with auto-ranging (default: enabled)"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "minhud": {
       "ModId": "minhud",
@@ -3880,7 +4131,10 @@
           "zh-CN": "炮手视角仅隐藏罗盘",
           "en-US": "Only hide compass (gunner view)"
         }
-      }
+      },
+      "ConfigComments": {},
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "Binoaim": {
       "ModId": "Binoaim",
@@ -3895,7 +4149,9 @@
           "zh-CN": "允许或不允许在车长放大视角下超控射击",
           "en-US": "Allow/disallow shooting while using binoculars"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "Cinema": {
       "ModId": "Cinema",
@@ -3958,7 +4214,9 @@
           "zh-CN": "API服务器端口用于调试 默认:8828",
           "en-US": "API Server Port for debug (default: 8828)"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "weather": {
       "ModId": "weather",
@@ -4005,7 +4263,9 @@
           "zh-CN": "启用UI调试菜单及F10开关",
           "en-US": "Enable UI debug menu and F10 toggle"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
