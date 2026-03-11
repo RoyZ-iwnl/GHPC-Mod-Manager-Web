@@ -2,6 +2,9 @@
 
 ## Announcement
 
+### 2026-03-12
+- v1.2.2 stable release is now available with MOD configuration enhancements and setup wizard improvements. See the [changelog](#v122) below for details.
+
 ### 2026-03-05
 - v1.2.1 stable release is now. See the [changelog](#v121) below for details.
 
@@ -63,6 +66,23 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.2.2
+#### feat: Release version 1.2.2 with MOD configuration enhancements and setup wizard improvements
+- Bump version to 1.2.2 (stable release from 1.2.1)
+- Add multiple-choice configuration support for MOD settings with TOML array format output
+- Add single-choice configuration support with localized option labels
+- Add MOD configuration reset feature to clear config section from MelonPreferences.cfg
+- Add "Redownload & Reinstall" button for MODs with existing backup to force fresh download
+- Add file download verification with expected size and digest parameters
+- Add manual MOD uninstall button in MOD detail view
+- Improve backup state sync to show backup status for latest version only
+- Show GitHub proxy settings only for zh-CN users in setup wizard
+- Show network help button only for zh-CN users
+- Simplify setup wizard flow - all users go through network check step
+- Add MelonLoader version list load failure warning with retry hint
+- Add ChineseLanguageToVisibilityConverter for language-specific UI elements
+- Add localization strings for configuration reset and MelonLoader load warning
 
 ### v1.2.1
 #### feat: Release version 1.2.1 with DNS over HTTPS support for Chinese users
