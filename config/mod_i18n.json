@@ -773,11 +773,6 @@
           "Hull Front",
           "Turret Spare"
         ],
-        "AP Round (T-64A)": [
-          "3BM32",
-          "3BM26",
-          "3BM42"
-        ],
         "Random AP Round Pool (T-64A),Random AP Round Pool (T-64B)": [
           "3BM26",
           "3BM32",
@@ -789,15 +784,21 @@
           "3BM32",
           "3BM42",
           "3BM46",
-          "3B60"
-        ],
+          "3BM60"
+        ]
+      },
+      "singlechoice": {
         "GLATGM (T-80B)": [
           "9M112M",
           "9M119",
           "9M119M1"
-        ]
-      },
-      "singlechoice": {
+        ],
+        "AP Round (T-64A)": [
+          "3BM32",
+          "3BM26",
+          "3BM42",
+          "3BM46"
+        ],
         "AP Round (T-72M),AP Round (T-72M1)": [
           "3BM15",
           "3BM22",
@@ -1602,11 +1603,6 @@
           "Hull Front",
           "Turret Spare"
         ],
-        "AP Round (T-64A)": [
-          "3BM32",
-          "3BM26",
-          "3BM42"
-        ],
         "Random AP Round Pool (T-64A),Random AP Round Pool (T-64B)": [
           "3BM26",
           "3BM32",
@@ -1618,15 +1614,21 @@
           "3BM32",
           "3BM42",
           "3BM46",
-          "3B60"
-        ],
+          "3BM60"
+        ]
+      },
+      "singlechoice": {
         "GLATGM (T-80B)": [
           "9M112M",
           "9M119",
           "9M119M1"
-        ]
-      },
-      "singlechoice": {
+        ],
+        "AP Round (T-64A)": [
+          "3BM32",
+          "3BM26",
+          "3BM42",
+          "3BM46"
+        ],
         "AP Round (T-72M),AP Round (T-72M1)": [
           "3BM15",
           "3BM22",
