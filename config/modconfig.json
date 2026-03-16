@@ -565,6 +565,31 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "Frestock",
+    "Name": {
+      "en-US": "Fast Restock",
+      "zh-CN": "快速搬弹"
+    },
+    "Description": {
+      "en-US": "This mod applies a runtime patch (using Harmony) to the game's internal LoadoutManager logic, significantly reducing the wait time for player weapon resupply and making the pace of battle more fluid. By default, it reduces the resupply time to just 50 milliseconds (0.05 seconds). This applies only to players and does not affect AI units.",
+      "zh-CN": "该模组通过对游戏内部 LoadoutManager 逻辑进行运行时补丁（使用 Harmony），大幅缩短玩家武器补给的等待时间，让战场节奏更加流畅。 默认将补给时间压缩至仅 50 毫秒（0.05 秒），仅对玩家生效，不影响 AI 单位"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260210.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/lucaspevidor/FastRestock/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "FastRestock.dll",
+    "ConfigSectionName": "FastRestock",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "RandomNB",
     "Name": {
       "en-US": "Random Night Battles",
