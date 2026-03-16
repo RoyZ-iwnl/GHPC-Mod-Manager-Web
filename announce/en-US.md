@@ -2,6 +2,9 @@
 
 ## Announcement
 
+### 2026-03-16
+- v1.2.3 stable release is now available with GitHub API token encryption, announcement tracking, startup mod update check, and network detection refactor. See the [changelog](#v123) below for details.
+
 ### 2026-03-12
 - v1.2.2 stable release is now available with MOD configuration enhancements and setup wizard improvements. See the [changelog](#v122) below for details.
 
@@ -66,6 +69,31 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.2.3
+#### feat: Release version 1.2.3 with announcement tracking, startup mod update check, and network detection refactor
+- Bump version to 1.2.3 (stable release from beta.2)
+- Add SecureStorageService using Windows DPAPI for sensitive data encryption
+- Implement GitHub API token encryption with automatic migration from plaintext
+- Add UnprotectWithMigrationDetection method to detect and migrate legacy plaintext tokens
+- Add announcement MD5 tracking to identify new announcements and skip already-seen content
+- Add "Do not show before update" checkbox in announcement dialog for user preference
+- Add "Show Announcement" button in settings page for manual access
+- Add startup mod update check for users with GitHub API token or proxy enabled
+- Optimize first-run experience by skipping main config load and version cleanup to avoid triggering GitHub API
+- Split network connectivity check into CheckNetworkConnectionAsync (main.json fallback chain) and CheckGitHubConnectionAsync (GitHub API test)
+- Improve main config connectivity test to iterate through all fallback candidates
+- Add TestConnectionAsync helper method for GitHub connectivity test with proxy support
+- Update SetupWizardViewModel to use CheckGitHubConnectionAsync for wizard network check
+- Refactor SetupWizard network detection into three-phase flow: main config connectivity test, proxy list update, GitHub connectivity test
+- Enforce network detection completion before proceeding from Step 2 in setup wizard
+- Add MainConfigTestResult model and TestMainConfigConnectivityAsync method for connectivity testing
+- Refactor ModViewModel properties with INotifyPropertyChanged for UI auto-refresh
+- Fix CanUpdate logic to normalize version strings (strip 'v' prefix) for comparison
+- Add ReinstallMod command for quick mod reinstallation
+- Add GitHub API token permission hint (public_repo only required)
+- Improve translation resource update check with force refresh for token/proxy users
+- Add localization strings for network detection, announcement, and mod update check
 
 ### v1.2.2
 #### feat: Release version 1.2.2 with MOD configuration enhancements and setup wizard improvements
