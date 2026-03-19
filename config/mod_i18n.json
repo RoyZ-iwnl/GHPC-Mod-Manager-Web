@@ -4317,6 +4317,39 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "loadoutM": {
+      "ModId": "loadoutM",
+      "ConfigLabels": {
+        "HideRack0ForAutocannon": {
+          "zh-CN": "隐藏机炮车辆的0号弹药架",
+          "en-US": "Hide Rack0 For Autocannon Vehicle"
+        },
+        "UIScale": {
+          "zh-CN": "菜单UI缩放",
+          "en-US": "Menu UI Scale"
+        },
+        "Language": {
+          "zh-CN": "语言",
+          "en-US": "Language"
+        }
+      },
+      "ConfigComments": {
+        "Hide Rack0 for autocannon vehicles. Rack0 is the ready-to-fire ammo on feed, default 0 in game. - 隐藏机炮车的Rack0。Rack0即为待发弹药架上的弹药，原版游戏对于机炮车一般默认为0": {
+          "zh-CN": "隐藏机炮车的Rack0。Rack0即为待发弹药架上的弹药，原版游戏对于机炮车一般默认为0",
+          "en-US": "Hide Rack0 for autocannon vehicles. Rack0 is the ready-to-fire ammo on feed, default 0 in game."
+        },
+        "UI Scale (0.5-2.0, default 1.0) - UI缩放": {
+          "zh-CN": "菜单UI缩放(0.5-2.0, default 1.0)",
+          "en-US": "Menu UI Scale (0.5-2.0, default 1.0)"
+        },
+        "Language (0=English, 1=Chinese) - 语言": {
+          "zh-CN": "语言 (0=English, 1=中文)",
+          "en-US": "Language (0=English, 1=Chinese)"
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
