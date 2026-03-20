@@ -16,7 +16,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -44,7 +44,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -72,7 +72,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -94,8 +94,8 @@
       "zh-CN": "M1A1艾布拉姆斯AMP"
     },
     "Description": {
-      "en-US": "This mod adds a fully configurable “Abrams Modernization Package” for M1-series vehicles (centered on the M1A1/M1E1): it introduces the XM1147 AMP-T multi‑purpose programmable round and a broad set of selectable ammo options (up to four ammo slots, 50 total rounds; default loadouts include M829A4/M830A2/XM1147/LAHAT), plus a 120mm M256 main gun with a new model and detailed fuzing/proximity logic for rounds like XM1147 and M830A1, including modeled anti‑ERA/tandem interactions; it also adds multiple switchable armor variants (Base/HA/HC/SA/HU, etc.) with corresponding weight changes, optional CITV, enhanced optics/FLIR/GAS, crew proficiency tuning, smoke-system upgrades, an APU, and hardware options like M153 CROWS II and a coax upgrade; finally, it offers extensive vehicle-dynamics tweaks (engine choices, upgraded 6F/3R transmission, suspension, tracks, governor delete for higher top speed, stability control).\n[THIS MOD IS NOT WORKING ON 20260210.1]",
-      "zh-CN": "该模组为 M1 系列（以 M1A1/M1E1 为核心）加入“AMP（XM1147）多用途可编程弹”等一整套可配置升级：提供带新模型的 120mm M256 主炮、可选多种弹药并自定义装填（最多 4 个弹种槽位、总备弹上限 50，默认含 M829A4/M830A2/XM1147/LAHAT），实现 XM1147 的多引信/近炸与 M830A1 等弹种逻辑，并加入对反应装甲/双战斗部等“抗 ERA”效果的建模；同时提供可切换的多套“装甲变体”（基础/HA/HC/SA/HU 等）与随之变化的车重，配套可选 CITV、改进光学与热像、车组熟练度、烟幕系统升级、APU、以及 M153 CROWS II、同轴机枪升级等外观与火控附件；在机动方面还能选择发动机、增强变速箱（6 前进 3 倒档）、悬挂、履带、解除限速器、稳定控制等，使整车的防护、火力、感知与机动都能按偏好组合。\n[此模组在20260210.1版本无效]"
+      "en-US": "This mod adds a fully configurable “Abrams Modernization Package” for M1-series vehicles (centered on the M1A1/M1E1): it introduces the XM1147 AMP-T multi‑purpose programmable round and a broad set of selectable ammo options (up to four ammo slots, 50 total rounds; default loadouts include M829A4/M830A2/XM1147/LAHAT), plus a 120mm M256 main gun with a new model and detailed fuzing/proximity logic for rounds like XM1147 and M830A1, including modeled anti‑ERA/tandem interactions; it also adds multiple switchable armor variants (Base/HA/HC/SA/HU, etc.) with corresponding weight changes, optional CITV, enhanced optics/FLIR/GAS, crew proficiency tuning, smoke-system upgrades, an APU, and hardware options like M153 CROWS II and a coax upgrade; finally, it offers extensive vehicle-dynamics tweaks (engine choices, upgraded 6F/3R transmission, suspension, tracks, governor delete for higher top speed, stability control).\n[THIS MOD IS NOT WORKING ON 20260319]",
+      "zh-CN": "该模组为 M1 系列（以 M1A1/M1E1 为核心）加入“AMP（XM1147）多用途可编程弹”等一整套可配置升级：提供带新模型的 120mm M256 主炮、可选多种弹药并自定义装填（最多 4 个弹种槽位、总备弹上限 50，默认含 M829A4/M830A2/XM1147/LAHAT），实现 XM1147 的多引信/近炸与 M830A1 等弹种逻辑，并加入对反应装甲/双战斗部等“抗 ERA”效果的建模；同时提供可切换的多套“装甲变体”（基础/HA/HC/SA/HU 等）与随之变化的车重，配套可选 CITV、改进光学与热像、车组熟练度、烟幕系统升级、APU、以及 M153 CROWS II、同轴机枪升级等外观与火控附件；在机动方面还能选择发动机、增强变速箱（6 前进 3 倒档）、悬挂、履带、解除限速器、稳定控制等，使整车的防护、火力、感知与机动都能按偏好组合。\n[此模组在20260319版本无效]"
     },
     "Tags": {
       "modify": {
@@ -135,7 +135,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/UnderdogsEnhanced/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -166,7 +166,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Stabilized-BMP-1/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -194,7 +194,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/Super-M60/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -250,7 +250,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/M6A2-ADATS/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -348,7 +348,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/50mm-Bradley/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -415,7 +415,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -433,8 +433,8 @@
       "zh-CN": "北约爆反"
     },
     "Description": {
-      "en-US": "NATO ERA adds configurable Explosive Reactive Armor (ERA) to M1/IP Abrams and M2 Bradley, with customizable arrangement, performance, color (to match custom skins), and optional weight penalty. Compatible with vanilla Abrams, M1A1 Abrams v1.1.4+, M1A1 Abrams AMP v2.3.3+, 50mm Bradley, M3A2 Bradley, and M6A2 ADATS mods; only models ARAT-1, BRAT M3, and M5 bricks for performance optimization (no triangular M4 bricks). Special thanks to thebeninator for coding and 3D modeling advice; contact author for custom texture model files, ARAT-1 weighs 29.48KG per tile (rounded).[THIS MOD IS NOT WORKING ON 20260210.1]",
-      "zh-CN": "北约爆反为 M1/IP Abrams 和 M2 Bradley 添加可配置的爆炸反应装甲（ERA），支持自定义排列、性能、颜色（适配自定义皮肤）和可选重量惩罚。兼容原版 Abrams、M1A1 Abrams v1.1.4+、M1A1 Abrams AMP v2.3.3+、50mm Bradley、M3A2 Bradley 和 M6A2 ADATS 模组，仅建模 ARAT-1、BRAT M3 和 M5 砖块以优化性能（未包含三角形 M4 砖块）。特别感谢 thebeninator 提供的编码和 3D 建模指导；如需自定义纹理模型文件可联系作者，ARAT-1 每块重 29.48KG（四舍五入）。[此模组在20260210.1版本无效]"
+      "en-US": "NATO ERA adds configurable Explosive Reactive Armor (ERA) to M1/IP Abrams and M2 Bradley, with customizable arrangement, performance, color (to match custom skins), and optional weight penalty. Compatible with vanilla Abrams, M1A1 Abrams v1.1.4+, M1A1 Abrams AMP v2.3.3+, 50mm Bradley, M3A2 Bradley, and M6A2 ADATS mods; only models ARAT-1, BRAT M3, and M5 bricks for performance optimization (no triangular M4 bricks). Special thanks to thebeninator for coding and 3D modeling advice; contact author for custom texture model files, ARAT-1 weighs 29.48KG per tile (rounded).[THIS MOD IS NOT WORKING ON 20260319]",
+      "zh-CN": "北约爆反为 M1/IP Abrams 和 M2 Bradley 添加可配置的爆炸反应装甲（ERA），支持自定义排列、性能、颜色（适配自定义皮肤）和可选重量惩罚。兼容原版 Abrams、M1A1 Abrams v1.1.4+、M1A1 Abrams AMP v2.3.3+、50mm Bradley、M3A2 Bradley 和 M6A2 ADATS 模组，仅建模 ARAT-1、BRAT M3 和 M5 砖块以优化性能（未包含三角形 M4 砖块）。特别感谢 thebeninator 提供的编码和 3D 建模指导；如需自定义纹理模型文件可联系作者，ARAT-1 每块重 29.48KG（四舍五入）。[此模组在20260319版本无效]"
     },
     "Tags": {
       "modify": {
@@ -474,7 +474,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2-Bradley-Sound-Replacement/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -531,7 +531,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/BinoAim/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -556,7 +556,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/WeatherMod/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -581,7 +581,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/lucaspevidor/FastRestock/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -606,7 +606,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/LoadoutManager/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -656,7 +656,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/CustomizerUnrestricted/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -680,7 +680,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/VehiclePreloader/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -704,7 +704,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/MinHud/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -729,7 +729,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Cyances/Any-Tank-Any-Campaign/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -754,7 +754,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Andrix44/GMPCTextureLoader/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -779,7 +779,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Andrix44/GunnerModPC/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -804,7 +804,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260210.1"
+      "20260319"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/CinematicTools/releases/latest",
     "TargetFileNameKeyword": ".dll",
