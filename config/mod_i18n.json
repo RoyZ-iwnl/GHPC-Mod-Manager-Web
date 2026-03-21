@@ -590,7 +590,7 @@
           "en-US": "Randomizes ammo selection for T-64As (3BM26, 3BM32, 3BM42), 3BM46"
         },
         "Press middle mouse to instantly switch between low and high magnification on the daysight": {
-          "zh-CN": "按鼠标中键在日间瞄准镜的低倍和高倍之间快速切换",
+          "zh-CN": "按滚轮在日间瞄准镜的低倍和高倍之间快速切换",
           "en-US": "Press middle mouse to instantly switch between low and high magnification on the daysight"
         },
         "T-80U conversion (comes with rubber flaps, minor cosmetic changes to default day sight)": {
@@ -1426,7 +1426,7 @@
           "en-US": "Randomizes ammo selection for T-64As (3BM26, 3BM32, 3BM42), 3BM46"
         },
         "Press middle mouse to instantly switch between low and high magnification on the daysight": {
-          "zh-CN": "按鼠标中键在日间瞄准镜的低倍和高倍之间快速切换",
+          "zh-CN": "按滚轮在日间瞄准镜的低倍和高倍之间快速切换",
           "en-US": "Press middle mouse to instantly switch between low and high magnification on the daysight"
         },
         "T-80U conversion (comes with rubber flaps, minor cosmetic changes to default day sight)": {
@@ -4332,6 +4332,10 @@
         "Language": {
           "zh-CN": "语言",
           "en-US": "Language"
+        },
+        "LimitTotalAmmoByOriginalVehicleCount": {
+          "zh-CN": "弹药总数限制模式",
+          "en-US": "Limit Total Ammo By Original Vehicle Count"
         }
       },
       "ConfigComments": {
@@ -4346,6 +4350,10 @@
         "Language (0=English, 1=Chinese) - 语言": {
           "zh-CN": "语言 (0=English, 1=中文)",
           "en-US": "Language (0=English, 1=Chinese)"
+        },
+        "Limit editable rack ammo by the vehicle's current ammo total when opening UI (free distribution under fixed total). - 限制可编辑弹药总数为打开UI时该载具当前弹药总数（在固定总量下自由分配）": {
+          "zh-CN": "限制可编辑弹药总数为打开菜单的瞬间载具当前弹药总数（在固定总量下自由分配）",
+          "en-US": "Limit editable rack ammo by the vehicle's current ammo total when opening UI (free distribution under fixed total)."
         }
       },
       "multiplechoice": {},
