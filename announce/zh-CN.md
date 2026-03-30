@@ -2,6 +2,9 @@
 
 ## 公告
 
+### 2026-03-30
+- v1.3.0 正式版已发布，包含游戏版本检测重构、UI全面重构、Replace安装模式、完整性检查、自定义标题栏、MessageDialog系统与Mod信息导出工具，详情见下方[更新日志](#v130)。
+
 ### 2026-03-16
 - v1.2.3 正式版已发布，新增GitHub API Token加密存储、公告追踪、启动Mod更新检查与网络检测重构，详情见下方[更新日志](#v123)。
 
@@ -72,6 +75,33 @@
 - GHPC版本20250902已发布，部分mod可能出现不适配的情况，请根据实际情况安装或更新。
 
 ## 更新日志
+
+### v1.3.0
+#### feat: 发布1.3.0正式版，包含游戏版本检测重构、UI全面重构、Replace安装模式、完整性检查、自定义标题栏、MessageDialog系统与Mod信息导出工具
+- 版本从1.2.4-beta.1经1.3.0-beta.1升级至1.3.0正式版
+- 重构游戏版本检测：先从sharedassets0.assets读取（无需MelonLoader），后迁移至从globalgamemanagers读取
+- 新增MelonLoader日志fallback机制，assets方法失败时回退读取日志
+- 新增日期格式版本号正则匹配，后更新为完整格式匹配（如0.1.0-alpha+20260319.1）
+- 新增更新下载文件大小和摘要校验
+- 重构主题系统，新增Foundation基础设计令牌（字体、字号、间距、圆角、阴影）
+- 新增PageStyles.xaml页面级样式，重构ControlStyles.xaml控件样式
+- 全面重构各页面XAML，优化布局和视觉样式
+- 新增自定义窗口标题栏，使用WindowChrome及WindowTitleBar控件（含最小化/最大化/关闭按钮）
+- 实现WM_GETMINMAXINFO消息钩子，正确处理最大化窗口尺寸
+- 新增Replace安装模式及ModManagerService.Replace.cs，支持直接替换游戏文件
+- 新增InstalledFileInfo结构化文件信息，包含SHA256哈希和文件大小
+- 安装清单SchemaVersion升级至v2，向后兼容旧版本
+- 新增托管Mod完整性检查，支持缺失和修改文件检测
+- 新增下架Mod支持，列表中隐藏但已安装时启动警告
+- 新增状态横幅显示下架Mod和未知字段警告
+- 新增未知配置字段检测，支持向前兼容
+- 安装/更新Mod前新增游戏版本兼容性检查
+- 增强Dev模式，支持通过-dev:"path"或-dev="path"指定自定义主配置
+- 优化公告窗口，支持富文本和交互式元素
+- 新增MessageDialog系统替代MessageBox，包含MessageDialogHelper静态类（Show/Confirm/ShowWarning等方法）、IDialogService/DialogService依赖注入支持及按钮/图标枚举类型定义
+- 替换所有MessageBox.Show调用为MessageDialogHelper
+- 新增ModInfoDumper工具，包含CopyModInfo命令（复制Mod列表及SHA256到剪贴板）和PackAllInfo命令（打包诊断信息ZIP含日志和配置）
+- 新增游戏版本检测、完整性检查、下架Mod、脚本执行、ModInfoDumper及MessageDialog功能相关国际化字符串
 
 ### v1.2.3
 #### feat: 发布1.2.3正式版，新增GitHub API Token加密存储、公告追踪、启动Mod更新检查与网络检测重构

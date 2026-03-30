@@ -21,6 +21,37 @@
           "zh-CN": "替换3OF412；炮射导弹，有固定8倍放大倍率的专用瞄准镜",
           "en-US": "Replaces 3OF412; GLATGM, has its own sight with fixed 8x magnification"
         }
+      },
+      "multiplechoice": {
+        "Random AP Round Pool (T-72M),Random AP Round Pool (T-72M1)": [
+          "3BM22",
+          "3BM26",
+          "3BM32",
+          "3BM42"
+        ],
+        "Empty Ammo Racks (T-72M),Empty Ammo Racks (T-72M1)": [
+          "Hull Wet",
+          "Hull Rear",
+          "Hull Front",
+          "Turret Spare"
+        ]
+      },
+      "singlechoice": {
+        "AP Round (T-72M),AP Round (T-72M1)": [
+          "3BM15",
+          "3BM22",
+          "3BM32",
+          "3BM42"
+        ],
+        "HEAT Round (T-72M),HEAT Round (T-72M1)": [
+          "3BK14M",
+          "3BK18M"
+        ],
+        "GLATGM (T-72M),GLATGM (T-72M1)": [
+          "None",
+          "9M119",
+          "9M119M1"
+        ]
       }
     },
     "M1A1": {
@@ -36,14 +67,14 @@
         }
       },
       "ConfigComments": {
-      "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round.": {
-        "zh-CN": "每辆M1A1应携带多少发M829（尾翼稳定脱壳穿甲弹）、M830（破甲弹）。总计最多40发。至少携带一发M829。",
-        "en-US": "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round."
-      },
-      "Customize which rounds M1A1s/M1E1s use": {
-        "zh-CN": "自定义M1A1/M1E1使用的弹药类型",
-        "en-US": "Customize which rounds M1A1s/M1E1s use"
-      }
+        "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round.": {
+          "zh-CN": "每辆M1A1应携带多少发M829（尾翼稳定脱壳穿甲弹）、M830（破甲弹）。总计最多40发。至少携带一发M829。",
+          "en-US": "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round."
+        },
+        "Customize which rounds M1A1s/M1E1s use": {
+          "zh-CN": "自定义M1A1/M1E1使用的弹药类型",
+          "en-US": "Customize which rounds M1A1s/M1E1s use"
+        }
       }
     }
   }

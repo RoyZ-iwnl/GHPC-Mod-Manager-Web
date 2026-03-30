@@ -14,24 +14,42 @@
 
 目前通过 GHPC Mod Manager 支持管理的模组：
 
-### 模组
+### 载具模组
+- **[华约增强模组 (Pact Increased Lethality)](https://github.com/RoyZ-iwnl/Pact-Increased-Lethality)** (优先更新版)
 - **[华约增强模组 (Pact Increased Lethality)](https://github.com/thebeninator/Pact-Increased-Lethality)**
 - **[M1A1艾布拉姆斯 (M1A1 Abrams)](https://github.com/thebeninator/M1A1Abrams)**
 - **[M1A1 Abrams AMP (M1A1艾布拉姆斯AMP)](https://github.com/Cyances/M1A1AbramsAMP)**
+- **[弱势载具增强 (Underdogs Enhanced)](https://github.com/RoyZ-iwnl/UnderdogsEnhanced)**
+- **[BMP-1 稳定器 (Stabilized BMP-1)](https://github.com/thebeninator/Stabilized-BMP-1)**
+- **[超级M60 (Super M60)](https://github.com/RoyZ-iwnl/Super-M60)** (优先更新版)
+- **[超级M60 (Super M60)](https://github.com/Cyances/Super-M60)**
+- **[M6A2 ADATS (M6A2"阿达茨"布雷德利)](https://github.com/RoyZ-iwnl/M6A2-ADATS)** (优先更新版)
 - **[M6A2 ADATS (M6A2"阿达茨"布雷德利)](https://github.com/Cyances/M6A2-ADATS)**
 - **[M3A2 Bradley (M3A2 超级布雷德利)](https://github.com/SovGrenadier/M3A2-Bradley-GHPC)**
-- **[50mm Bradley (50毫米布雷德利)](https://github.com/thebeninator/50mm-Bradley)**
-- **[M2 Bradley Sound Replacement (M2布雷德利声音替换)](https://github.com/thebeninator/M2-Bradley-Sound-Replacement)**
-- **[M2/BMP2 Fire Rate Toggle (B键M2/BMP2射速切换)](https://github.com/thebeninator/FireRateToggle)**
-- **[NATO ERA (北约爆反)](https://github.com/Cyances/NATO-ERA)**
-- **[Any Tank Any Campaign (自定义战役坦克)](https://github.com/Cyances/Any-Tank-Any-Campaign)**
-- **[Random Night Battles (随机夜战)](https://github.com/thebeninator/Random-Night-Battles)**
-- **[Customizer Unrestricted (无限制自定义)](https://github.com/thebeninator/CustomizerUnrestricted)**
-- **[BMP-1 稳定器 (Stabilized BMP-1)](https://github.com/thebeninator/Stabilized-BMP-1)**
+- **[50毫米布雷德利 (50mm Bradley)](https://github.com/RoyZ-iwnl/50mm-Bradley)** (优先更新版)
+- **[50毫米布雷德利 (50mm Bradley)](https://github.com/thebeninator/50mm-Bradley)**
 - **[M113 TOW (M113 "陶")](https://github.com/thebeninator/M113-TOW)**
-- **[GMPC Texture Loader (贴图更换工具)](https://github.com/Andrix44/GMPCTextureLoader)**
-- **[Gunner Mod PC (GMPC增强插件)](https://github.com/Andrix44/GunnerModPC)**
-- **[Super M60 (超级M60)](https://github.com/Cyances/Super-M60)**
+- **[NATO ERA (北约爆反)](https://github.com/Cyances/NATO-ERA)**
+
+### 音效模组
+- **[M2 Bradley Sound Replacement (M2布雷德利声音替换)](https://github.com/thebeninator/M2-Bradley-Sound-Replacement)**
+
+### 游戏增强模组
+- **[B键M2/BMP2射速切换 (M2/BMP2 Fire Rate Toggle)](https://github.com/thebeninator/FireRateToggle)**
+- **[车长超控瞄准放大限制解除 (Bino Aim)](https://github.com/thebeninator/BinoAim)**
+- **[天气与时间控制 (Weather & Time Control)](https://github.com/RoyZ-iwnl/WeatherMod)**
+- **[快速搬弹 (Fast Restock)](https://github.com/lucaspevidor/FastRestock)**
+- **[弹药架管理器 (LoadoutManager)](https://github.com/RoyZ-iwnl/LoadoutManager)**
+- **[随机夜战 (Random Night Battles)](https://github.com/thebeninator/Random-Night-Battles)**
+- **[无限制自定义 (Unrestricted Customizer)](https://github.com/thebeninator/CustomizerUnrestricted)**
+
+### 实用工具模组
+- **[载具预载支持模块 (Vehicle Preloader)](https://github.com/thebeninator/VehiclePreloader)**
+- **[最小化UI (Min HUD)](https://github.com/thebeninator/MinHud)**
+- **[自定义战役坦克 (Any Tank Any Campaign)](https://github.com/Cyances/Any-Tank-Any-Campaign)**
+- **[贴图更换工具 (GMPC Texture Loader)](https://github.com/Andrix44/GMPCTextureLoader)**
+- **[GMPC增强插件 (Gunner Mod PC)](https://github.com/Andrix44/GunnerModPC)**
+- **[电影工具 (Cinematic Tools)](https://github.com/RoyZ-iwnl/CinematicTools)**
 
 ### 更多MOD适配中...
 
@@ -47,8 +65,34 @@
 
 ### 步骤 2: 配置文件概述
 
-#### 主模组配置 (`sample_modconfig.jsonc`)
+#### 主应用配置 (`sample_main.json`)
 ```json
+{
+  "ModConfigUrl": "https://GHPC.DMR.gg/config/modconfig.json",
+  "ModConfigFallbackUrl": "https://ghpcmm.link/config/modconfig.json",
+  "TranslationConfigUrl": "https://github.com/RoyZ-iwnl/ghpc-translation",
+  "TranslationConfigFallbackUrl": "",
+  "ModI18nUrl": "https://GHPC.DMR.gg/config/mod_i18n.json",
+  "ModI18nFallbackUrl": "https://ghpcmm.link/config/mod_i18n.json",
+  "ProxyServers": [
+    {
+      "Id": "GhDmrGg",
+      "Domain": "gh.dmr.gg",
+      "DisplayName": { "zh-CN": "Cloudflare 1", "en-US": "Cloudflare 1" }
+    }
+  ]
+}
+```
+
+**URL 字段说明：**
+- `ModConfigUrl`: 模组配置列表的主 URL
+- `ModConfigFallbackUrl`: 主 URL 失败时的备用 URL
+- `TranslationConfigUrl`: 翻译配置仓库的 URL
+- `ModI18nUrl`: 模组国际化字符串的主 URL
+- `ModI18nFallbackUrl`: 主 URL 失败时的备用 URL
+
+#### 主模组配置 (`sample_modconfig.jsonc`)
+```jsonc
 [
   {
     "Id": "YourModId",
@@ -56,20 +100,37 @@
       "en-US": "Your Mod Name in English",
       "zh-CN": "您的模组中文名称"
     },
+    "Description": {
+      "en-US": "Description in English",
+      "zh-CN": "中文描述"
+    },
+    "Tags": {
+      "modify": { "zh-CN": "载具改装", "en-US": "Vehicle Modify" }
+    },
+    "SupportedGameVersions": ["20260319"],
     "ReleaseUrl": "https://api.github.com/repos/owner/repo/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "YourMod.dll",
     "ConfigSectionName": "YourModConfig",
-    "InstallMethod": "DirectRelease", // 或 "Scripted"
-    "Requirements": ["BaseModId", "CoreLibraryId"],
-    "Conflicts": ["IncompatibleMod1Id", "IncompatibleMod2Id"] // 或 "Scripted"
+    "Requirements": ["BaseModId"],
+    "Conflicts": ["IncompatibleModId"]
   }
 ]
 ```
 
-**安装方式：**
-- `DirectRelease`: 简单的 ZIP 下载和解压
-- `Scripted`: 使用 Base64 编码的批处理脚本进行自定义安装（详见示例）
+**安装模式：**
+- **默认模式**（无 `ReplaceTargetPath`）：文件安装到 `Mods/` 目录
+- **替换模式**（有 `ReplaceTargetPath`）：文件放置到目标目录，自动备份原文件
+
+**替换模式示例：**
+```jsonc
+{
+  "Id": "SoundMod",
+  "ReplaceTargetPath": "GHPC_Data/StreamingAssets",
+  "ReplaceFileName": "Weapons.bank",  // 可选：单文件下载时指定目标文件名
+  "MainBinaryFileName": ""  // 非DLL模组留空
+}
+```
 
 #### 模组本地化支持 (`sample_mod_i18n.json`)
 ```json
@@ -88,11 +149,23 @@
           "zh-CN": "描述文字的中文翻译",
           "en-US": "Description text"
         }
+      },
+      "singlechoice": {
+        "Option Name 1,Option Name 2": ["OptionA", "OptionB", "OptionC"]
+      },
+      "multiplechoice": {
+        "MultiSelect Option": ["Choice1", "Choice2", "Choice3"]
       }
     }
   }
 }
 ```
+
+**字段类型说明：**
+- `ConfigLabels`: 配置选项名称的翻译
+- `ConfigComments`: 配置选项描述的翻译
+- `singlechoice`: 单选选项（键名可用逗号组合多个相关配置）
+- `multiplechoice`: 多选选项
 
 ### 步骤 3: 创建您的配置
 

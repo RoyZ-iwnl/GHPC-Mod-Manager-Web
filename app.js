@@ -41,7 +41,7 @@ function initLanguageToggle() {
 function updateLanguage(lang) {
     const elements = document.querySelectorAll('[data-zh], [data-en]');
     const htmlTag = document.documentElement;
-    
+
     elements.forEach(element => {
         if (lang === 'zh' && element.dataset.zh) {
             element.textContent = element.dataset.zh;
@@ -49,7 +49,7 @@ function updateLanguage(lang) {
             element.textContent = element.dataset.en;
         }
     });
-    
+
     // Toggle language-specific visibility
     const langSpecificElements = document.querySelectorAll('[data-lang-only]');
     langSpecificElements.forEach(element => {
@@ -59,7 +59,7 @@ function updateLanguage(lang) {
             element.classList.add('is-hidden');
         }
     });
-    
+
     // Update alt text for images
     const images = document.querySelectorAll('[data-zh-alt], [data-en-alt]');
     images.forEach(img => {
@@ -69,7 +69,17 @@ function updateLanguage(lang) {
             img.alt = img.dataset.enAlt;
         }
     });
-    
+
+    // Update screenshot images based on language
+    const screenshotImages = document.querySelectorAll('[data-zh-src], [data-en-src]');
+    screenshotImages.forEach(img => {
+        if (lang === 'zh' && img.dataset.zhSrc) {
+            img.src = img.dataset.zhSrc;
+        } else if (lang === 'en' && img.dataset.enSrc) {
+            img.src = img.dataset.enSrc;
+        }
+    });
+
     // Update html lang attribute
     htmlTag.lang = lang === 'zh' ? 'zh-CN' : 'en-US';
 

@@ -567,16 +567,17 @@
         modId: 'Mod ID',
         required: '*',
         installMethod: '安装方式',
-        directRelease: 'DirectRelease（直接解压）',
-        scripted: 'Scripted（脚本安装）',
+        directRelease: 'DirectRelease（安装到 Mods 目录）',
+        replace: 'Replace（替换到目标目录）',
         modName: 'Mod 名称（多语言）',
         releaseUrl: 'GitHub Release URL',
         targetFileKeyword: '目标文件关键词',
+        replaceTargetPath: 'Replace 目标目录',
+        replaceTargetPathHint: '相对于游戏根目录，例如：GHPC_Data\\StreamingAssets',
+        replaceFileName: 'Replace 目标文件名',
+        replaceFileNameHint: '单文件下载时可选，留空则保持原文件名',
         mainBinaryFile: '主 DLL 文件名',
         configSection: '配置节名称（ConfigSectionName）',
-        installScript: '安装脚本（InstallScript_Base64）',
-        editSource: '📝 编辑源码',
-        saveBase64: '💾 保存为 Base64',
         requirements: '依赖（Requirements）— 输入后按 Enter 添加',
         conflicts: '冲突（Conflicts）— 输入后按 Enter 添加',
         inputPlaceholder: '输入 ModId 后按 Enter',
@@ -587,7 +588,9 @@
         tags: '标签（Tags）— 格式：key=中文/英文，按 Enter 添加',
         tagsPlaceholder: '如：balance=平衡/Balance',
         supportedVersions: '支持的游戏版本（SupportedGameVersions）— 输入后按 Enter 添加',
-        versionsPlaceholder: '如：20260210'
+        versionsPlaceholder: '如：20260210',
+        delisted: '已下架（Delisted）— 下架后不在浏览列表显示，已安装的仍显示并提供提示',
+        delistedHint: '下架的Mod不会在Mod浏览列表中显示，但已安装的用户会在已安装列表中看到警告提示'
       },
       'en-US': {
         title: 'GHPC Mod Config Editor',
@@ -604,16 +607,17 @@
         modId: 'Mod ID',
         required: '*',
         installMethod: 'Install Method',
-        directRelease: 'DirectRelease (Extract directly)',
-        scripted: 'Scripted (Script installation)',
+        directRelease: 'DirectRelease (Install to Mods directory)',
+        replace: 'Replace (Replace into target directory)',
         modName: 'Mod Name (Multilingual)',
         releaseUrl: 'GitHub Release URL',
         targetFileKeyword: 'Target File Keyword',
+        replaceTargetPath: 'Replace Target Path',
+        replaceTargetPathHint: 'Relative to game root, e.g. GHPC_Data\\StreamingAssets',
+        replaceFileName: 'Replace Target Filename',
+        replaceFileNameHint: 'Optional for single-file downloads; leave empty to keep source filename',
         mainBinaryFile: 'Main DLL Filename',
         configSection: 'Config Section Name',
-        installScript: 'Install Script (Base64)',
-        editSource: '📝 Edit Source',
-        saveBase64: '💾 Save as Base64',
         requirements: 'Requirements — Press Enter to add',
         conflicts: 'Conflicts — Press Enter to add',
         inputPlaceholder: 'Enter ModId and press Enter',
@@ -624,7 +628,9 @@
         tags: 'Tags — Format: key=Chinese/English, press Enter to add',
         tagsPlaceholder: 'e.g.: balance=平衡/Balance',
         supportedVersions: 'Supported Game Versions — Press Enter to add',
-        versionsPlaceholder: 'e.g.: 20260210'
+        versionsPlaceholder: 'e.g.: 20260210',
+        delisted: 'Delisted — Hidden from browse list, installed users still see with warning',
+        delistedHint: 'Delisted mods are hidden from the mod browser, but installed users will see a warning in their installed mods list'
       }
     };
 
@@ -675,9 +681,11 @@
         MainBinaryFileName: '',
         ConfigSectionName: '',
         InstallMethod: 'DirectRelease',
-        InstallScript_Base64: '',
+        ReplaceTargetPath: '',
+        ReplaceFileName: '',
         Requirements: [],
-        Conflicts: []
+        Conflicts: [],
+        Delisted: false
       });
       renderAll();
       // 自动展开最后一个
@@ -749,10 +757,10 @@
         mods[index][field] = value;
       }
 
-      // 切换 InstallMethod 时显示/隐藏脚本区域
+      // 切换 InstallMethod 时显示/隐藏 Replace 区域
       if (field === 'InstallMethod') {
-        const scriptArea = document.getElementById(`script-area-${index}`);
-        if (scriptArea) scriptArea.style.display = value === 'Scripted' ? 'block' : 'none';
+        const replaceArea = document.getElementById(`replace-area-${index}`);
+        if (replaceArea) replaceArea.style.display = value === 'Replace' ? 'block' : 'none';
       }
 
       updatePreview();
@@ -956,10 +964,19 @@
             <div class="form-row">
               <label>安装方式</label>
               <select onchange="updateField(${i},'InstallMethod',this.value)">
-                <option value="DirectRelease" ${mod.InstallMethod === 'DirectRelease' ? 'selected' : ''}>DirectRelease（直接解压）</option>
-                <option value="Scripted" ${mod.InstallMethod === 'Scripted' ? 'selected' : ''}>Scripted（脚本安装）</option>
+                <option value="DirectRelease" ${mod.InstallMethod === 'DirectRelease' ? 'selected' : ''}>${t('directRelease')}</option>
+                <option value="Replace" ${mod.InstallMethod === 'Replace' ? 'selected' : ''}>${t('replace')}</option>
               </select>
             </div>
+          </div>
+
+          <!-- 下架状态 -->
+          <div class="form-row">
+            <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+              <input type="checkbox" ${mod.Delisted ? 'checked' : ''} onchange="updateField(${i},'Delisted',this.checked)" style="width:18px;height:18px;accent-color:#ef4444;" />
+              <span style="color:#f87171;font-weight:500;">⚠️ ${t('delisted')}</span>
+            </label>
+            <div style="font-size:11px;color:#888;margin-top:4px;">${t('delistedHint')}</div>
           </div>
 
           <!-- 多语言名称 -->
@@ -1043,10 +1060,18 @@
               oninput="updateField(${i},'ConfigSectionName',this.value)" />
           </div>
 
-          <!-- 脚本编辑区（仅 Scripted 模式） -->
-          <div class="form-row" id="script-area-${i}" style="display:${mod.InstallMethod === 'Scripted' ? 'block' : 'none'}">
-            <label>安装脚本（InstallScript_Base64）<button type="button" class="btn-ghost" style="margin-left:8px;padding:4px 8px;font-size:12px" id="script-btn-${i}" data-mode="base64" onclick="toggleScriptMode(${i})">📝 编辑源码</button></label>
-            <textarea id="script-${i}" rows="6" style="width:100%;background:#0f1117;border:1px solid #2e3250;border-radius:6px;color:#e0e0e0;padding:8px;font-family:monospace;font-size:12px;resize:vertical" oninput="mods[${i}].InstallScript_Base64=this.value;updatePreview()">${esc(mod.InstallScript_Base64)}</textarea>
+          <!-- Replace 配置区（仅 Replace 模式） -->
+          <div id="replace-area-${i}" style="display:${mod.InstallMethod === 'Replace' ? 'block' : 'none'}">
+            <div class="form-row">
+              <label>${t('replaceTargetPath')}</label>
+              <input type="text" value="${esc(mod.ReplaceTargetPath || '')}" placeholder="${t('replaceTargetPathHint')}"
+                oninput="updateField(${i},'ReplaceTargetPath',this.value)" />
+            </div>
+            <div class="form-row">
+              <label>${t('replaceFileName')}</label>
+              <input type="text" value="${esc(mod.ReplaceFileName || '')}" placeholder="${t('replaceFileNameHint')}"
+                oninput="updateField(${i},'ReplaceFileName',this.value)" />
+            </div>
           </div>
 
           <!-- 依赖 -->
@@ -1103,9 +1128,11 @@
       if (mod.MainBinaryFileName) obj.MainBinaryFileName = mod.MainBinaryFileName;
       if (mod.ConfigSectionName) obj.ConfigSectionName = mod.ConfigSectionName;
       obj.InstallMethod = mod.InstallMethod;
-      if (mod.InstallMethod === 'Scripted' && mod.InstallScript_Base64) obj.InstallScript_Base64 = mod.InstallScript_Base64;
+      if (mod.InstallMethod === 'Replace' && mod.ReplaceTargetPath) obj.ReplaceTargetPath = mod.ReplaceTargetPath;
+      if (mod.InstallMethod === 'Replace' && mod.ReplaceFileName) obj.ReplaceFileName = mod.ReplaceFileName;
       if (mod.Requirements?.length > 0) obj.Requirements = mod.Requirements;
       if (mod.Conflicts?.length > 0) obj.Conflicts = mod.Conflicts;
+      if (mod.Delisted) obj.Delisted = true; // 仅在下架时输出
       return obj;
     }
 
@@ -1191,9 +1218,11 @@
             MainBinaryFileName: m.MainBinaryFileName || '',
             ConfigSectionName: m.ConfigSectionName || '',
             InstallMethod: m.InstallMethod || 'DirectRelease',
-            InstallScript_Base64: m.InstallScript_Base64 || '',
+            ReplaceTargetPath: m.ReplaceTargetPath || '',
+            ReplaceFileName: m.ReplaceFileName || '',
             Requirements: Array.isArray(m.Requirements) ? m.Requirements : [],
-            Conflicts: Array.isArray(m.Conflicts) ? m.Conflicts : []
+            Conflicts: Array.isArray(m.Conflicts) ? m.Conflicts : [],
+            Delisted: m.Delisted === true
           }));
           renderAll();
           showToast(`✅ 已导入 ${mods.length} 个 Mod`);
@@ -1317,20 +1346,23 @@
           "InstallMethod": "DirectRelease"
         },
         {
-          "Id": "sample-scripted-mod",
-          "Name": { "en-US": "Sample Scripted Mod", "zh-CN": "示例脚本MOD" },
+          "Id": "sample-replace-mod",
+          "Name": { "en-US": "Sample Replace Mod", "zh-CN": "示例替换型MOD" },
           "Description": {
-            "en-US": "A sample mod demonstrating the Scripted install method.",
-            "zh-CN": "演示脚本安装方式的示例MOD。"
+            "en-US": "A sample mod demonstrating the Replace install method for managed file replacement.",
+            "zh-CN": "演示 Replace 安装方式的示例MOD，用于受管文件替换。"
           },
-          "Tags": { "sample": { "zh-CN": "示例", "en-US": "Sample" } },
+          "Tags": {
+            "sample": { "zh-CN": "示例", "en-US": "Sample" },
+            "replace": { "zh-CN": "替换安装", "en-US": "Replace" }
+          },
           "SupportedGameVersions": ["20260210"],
           "ReleaseUrl": "https://api.github.com/repos/REPO-OWNER/REPO/releases/latest",
-          "TargetFileNameKeyword": ".dll",
-          "MainBinaryFileName": "sample.dll",
-          "ConfigSectionName": "SampleMod",
-          "InstallMethod": "Scripted",
-          "InstallScript_Base64": "QGVjaG8gb2ZmClJFTSBQYXJhbWV0ZXJzOiAlMSA9IERvd25sb2FkZWQgZmlsZSBwYXRoLCAlMiA9IEdhbWUgcm9vdCBkaXJlY3RvcnksICUzID0gVGFyZ2V0IGZpbGVuYW1lCgpzZXQgIkRPV05MT0FEX0ZJTEU9JX4xIgpzZXQgIkdBTUVfUk9PVD0lfjIiCnNldCAiVEFSR0VUX0ZJTEU9JX4zIgpzZXQgIk1PRFNfRElSPSVHQU1FX1JPT1QlXE1vZHMiCgppZiBub3QgZXhpc3QgIiVET1dOTE9BRF9GSUxFJSIgKAogICAgZWNobyBFUlJPUjogRG93bmxvYWRlZCBmaWxlIG5vdCBmb3VuZDogJURPV05MT0FEX0ZJTEUlCiAgICBleGl0IC9iIDEKKQoKaWYgbm90IGV4aXN0ICIlTU9EU19ESVIlIiBta2RpciAiJU1PRFNfRElSJSIKCmZvciAlJUYgaW4gKCIlRE9XTkxPQURfRklMRSUiKSBkbyBzZXQgIkZJTEVfRVhUPSUlfnhGIgoKaWYgL2kgIiVGSUxFX0VYVCUiPT0iLmRsbCIgKAogICAgZWNobyBJbnN0YWxsaW5nIERMTDogJVRBUkdFVF9GSUxFJQogICAgY29weSAiJURPV05MT0FEX0ZJTEUlIiAiJU1PRFNfRElSJVwlVEFSR0VUX0ZJTEUlIgopIGVsc2UgaWYgL2kgIiVGSUxFX0VYVCUiPT0iLnppcCIgKAogICAgZWNobyBFeHRyYWN0aW5nIFpJUCB0byBNb2RzIGRpcmVjdG9yeQogICAgcG93ZXJzaGVsbCAtQ29tbWFuZCAiRXhwYW5kLUFyY2hpdmUgLVBhdGggJyVET1dOTE9BRF9GSUxFJScgLURlc3RpbmF0aW9uUGF0aCAnJU1PRFNfRElSJScgLUZvcmNlIgopIGVsc2UgKAogICAgZWNobyBJbnN0YWxsaW5nIGZpbGU6ICVUQVJHRVRfRklMRSUKICAgIGNvcHkgIiVET1dOTE9BRF9GSUxFJSIgIiVNT0RTX0RJUiVcJVRBUkdFVF9GSUxFJSIKKQoKZWNobyBJbnN0YWxsYXRpb24gY29tcGxldGVkIHN1Y2Nlc3NmdWxseQo=",
+          "TargetFileNameKeyword": ".zip",
+          "ReplaceTargetPath": "GHPC_Data\\StreamingAssets\\CustomSound",
+          "ReplaceFileName": "Weapons.bank",
+          "ConfigSectionName": "SampleReplaceMod",
+          "InstallMethod": "Replace",
           "Conflicts": [],
           "Requirements": []
         },
@@ -1350,6 +1382,22 @@
           "InstallMethod": "DirectRelease",
           "Requirements": ["BaseMod", "CoreLibrary"],
           "Conflicts": ["IncompatibleMod1", "IncompatibleMod2"]
+        },
+        {
+          "Id": "DeprecatedMod",
+          "Name": { "en-US": "Deprecated Mod", "zh-CN": "已弃用的MOD" },
+          "Description": {
+            "en-US": "This mod has been deprecated and is no longer maintained.",
+            "zh-CN": "此MOD已弃用，不再维护。"
+          },
+          "Tags": { "deprecated": { "zh-CN": "已弃用", "en-US": "Deprecated" } },
+          "SupportedGameVersions": ["0.23.0"],
+          "ReleaseUrl": "https://api.github.com/repos/example/DeprecatedMod/releases/latest",
+          "TargetFileNameKeyword": ".zip",
+          "MainBinaryFileName": "DeprecatedMod.dll",
+          "ConfigSectionName": "DeprecatedModConfig",
+          "InstallMethod": "DirectRelease",
+          "Delisted": true
         }
       ];
       renderAll();
@@ -1427,40 +1475,6 @@
       el.textContent = msg;
       el.classList.add('show');
       setTimeout(() => el.classList.remove('show'), 2500);
-    }
-
-    // Base64 编码/解码
-    function base64Encode(str) {
-      return btoa(unescape(encodeURIComponent(str)));
-    }
-
-    function base64Decode(str) {
-      try {
-        return decodeURIComponent(escape(atob(str)));
-      } catch (e) {
-        return '';
-      }
-    }
-
-    // 切换脚本编辑模式
-    function toggleScriptMode(index) {
-      const textarea = document.getElementById(`script-${index}`);
-      const btn = document.getElementById(`script-btn-${index}`);
-      const isBase64 = btn.dataset.mode === 'base64';
-
-      if (isBase64) {
-        // 切换到源码模式
-        textarea.value = base64Decode(mods[index].InstallScript_Base64);
-        btn.textContent = '💾 保存为 Base64';
-        btn.dataset.mode = 'source';
-      } else {
-        // 切换到 Base64 模式
-        mods[index].InstallScript_Base64 = base64Encode(textarea.value);
-        textarea.value = mods[index].InstallScript_Base64;
-        btn.textContent = '📝 编辑源码';
-        btn.dataset.mode = 'base64';
-        updatePreview();
-      }
     }
 
     // ===== 启动 =====

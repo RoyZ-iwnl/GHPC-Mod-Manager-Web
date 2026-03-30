@@ -2,6 +2,9 @@
 
 ## Announcement
 
+### 2026-03-30
+- v1.3.0 stable release is now available with game version detection refactor, UI overhaul, Replace install mode, integrity checking, custom title bar, MessageDialog system, and Mod Info Dumper. See the [changelog](#v130) below for details.
+
 ### 2026-03-16
 - v1.2.3 stable release is now available with GitHub API token encryption, announcement tracking, startup mod update check, and network detection refactor. See the [changelog](#v123) below for details.
 
@@ -69,6 +72,33 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.0
+#### feat: Release version 1.3.0 with game version detection refactor, UI overhaul, Replace install mode, integrity checking, custom title bar, MessageDialog system, and Mod Info Dumper
+- Bump version to 1.3.0 (via 1.2.4-beta.1 and 1.3.0-beta.1)
+- Refactor game version detection: initially from sharedassets0.assets (no MelonLoader dependency), then migrated to globalgamemanagers
+- Add fallback to MelonLoader Latest.log for game version detection when assets method fails
+- Add regex pattern matching for date-format version strings, updated to match full format like 0.1.0-alpha+20260319.1
+- Add expected size and digest verification for update downloads
+- Refactor theme system with Foundation design tokens (typography, spacing, radius, shadow)
+- Add PageStyles.xaml for page-level styles and refactor ControlStyles.xaml
+- Refactor all view XAMLs with improved layout and styling
+- Add custom window title bar with WindowChrome and WindowTitleBar control (minimize/maximize/close buttons)
+- Implement WM_GETMINMAXINFO hook for proper maximized window sizing
+- Add Replace install method and ModManagerService.Replace.cs for direct game file replacement
+- Add InstalledFileInfo structured file information with SHA256 and file size
+- Upgrade install manifest SchemaVersion to v2 with backward compatibility
+- Add managed mod integrity checking with missing/modified file detection
+- Add delisted mod support - hide from list but warn on launch if installed
+- Add status banners for delisted mods and unknown fields warnings
+- Add unknown config fields detection for forward compatibility
+- Add game version compatibility check before mod install/update
+- Enhance Dev mode to support custom main config URL via -dev:"path" or -dev="path"
+- Improve announcement window with rich text and interactive elements
+- Add MessageDialog system replacing MessageBox for consistent styling, with MessageDialogHelper static class (Show/Confirm/ShowWarning etc), IDialogService/DialogService for DI, and MessageDialog enums for button/icon types
+- Replace all MessageBox.Show calls with MessageDialogHelper across services and VMs
+- Add ModInfoDumper tool with CopyModInfo command (copy mod list + SHA256 to clipboard) and PackAllInfo command (create diagnostic ZIP with logs and configs)
+- Add localization strings for game version detection, integrity check, delisted mods, script execution, ModInfoDumper, and MessageDialog features
 
 ### v1.2.3
 #### feat: Release version 1.2.3 with announcement tracking, startup mod update check, and network detection refactor

@@ -1310,7 +1310,7 @@ html {
 }
 
 /* Placeholder styles when image is not loaded */
-.interface-img[src="interface-screenshot.png"] {
+.interface-img[src="interface-screenshot-CN.png"] {
   background: var(--bg-card);
   border: 2px dashed var(--military-accent);
   min-height: 300px;
@@ -1321,8 +1321,8 @@ html {
   position: relative;
 }
 
-.interface-img[src="interface-screenshot.png"]::before {
-  content: "Interface Screenshot Placeholder\A(1200×675 recommended)";
+.interface-img[src="interface-screenshot-CN.png"]::before {
+  content: "Interface Screenshot Placeholder\A(1600×900 recommended)";
   white-space: pre-line;
   text-align: center;
   font-size: var(--font-size-lg);

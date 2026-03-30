@@ -14,24 +14,42 @@ This is the official website repository for **GHPC Mod Manager** - a modern mod 
 
 Currently supported mods that can be managed through GHPC Mod Manager:
 
-### Active Mods
+### Vehicle Mods
+- **[Pact Increased Lethality](https://github.com/RoyZ-iwnl/Pact-Increased-Lethality)** (Priority version)
 - **[Pact Increased Lethality](https://github.com/thebeninator/Pact-Increased-Lethality)**
 - **[M1A1 Abrams](https://github.com/thebeninator/M1A1Abrams)**
 - **[M1A1 Abrams AMP](https://github.com/Cyances/M1A1AbramsAMP)**
+- **[Underdogs Enhanced](https://github.com/RoyZ-iwnl/UnderdogsEnhanced)**
+- **[Stabilized BMP-1](https://github.com/thebeninator/Stabilized-BMP-1)**
+- **[Super M60](https://github.com/RoyZ-iwnl/Super-M60)** (Priority version)
+- **[Super M60](https://github.com/Cyances/Super-M60)**
+- **[M6A2 ADATS](https://github.com/RoyZ-iwnl/M6A2-ADATS)** (Priority version)
 - **[M6A2 ADATS](https://github.com/Cyances/M6A2-ADATS)**
 - **[M3A2 Bradley](https://github.com/SovGrenadier/M3A2-Bradley-GHPC)**
+- **[50mm Bradley](https://github.com/RoyZ-iwnl/50mm-Bradley)** (Priority version)
 - **[50mm Bradley](https://github.com/thebeninator/50mm-Bradley)**
-- **[M2 Bradley Sound Replacement](https://github.com/thebeninator/M2-Bradley-Sound-Replacement)**
-- **[M2/BMP2 Fire Rate Toggle](https://github.com/thebeninator/FireRateToggle)**
-- **[NATO ERA](https://github.com/Cyances/NATO-ERA)**
-- **[Any Tank Any Campaign](https://github.com/Cyances/Any-Tank-Any-Campaign)**
-- **[Random Night Battles](https://github.com/thebeninator/Random-Night-Battles)**
-- **[Customizer Unrestricted](https://github.com/thebeninator/CustomizerUnrestricted)**
-- **[Stabilized BMP-1](https://github.com/thebeninator/Stabilized-BMP-1)**
 - **[M113 TOW](https://github.com/thebeninator/M113-TOW)**
+- **[NATO ERA](https://github.com/Cyances/NATO-ERA)**
+
+### Sound Mods
+- **[M2 Bradley Sound Replacement](https://github.com/thebeninator/M2-Bradley-Sound-Replacement)**
+
+### Game Enhancement Mods
+- **[M2/BMP2 Fire Rate Toggle](https://github.com/thebeninator/FireRateToggle)**
+- **[Bino Aim](https://github.com/thebeninator/BinoAim)**
+- **[Weather & Time Control](https://github.com/RoyZ-iwnl/WeatherMod)**
+- **[Fast Restock](https://github.com/lucaspevidor/FastRestock)**
+- **[LoadoutManager](https://github.com/RoyZ-iwnl/LoadoutManager)**
+- **[Random Night Battles](https://github.com/thebeninator/Random-Night-Battles)**
+- **[Unrestricted Customizer](https://github.com/thebeninator/CustomizerUnrestricted)**
+
+### Utility Mods
+- **[Vehicle Preloader](https://github.com/thebeninator/VehiclePreloader)**
+- **[Min HUD](https://github.com/thebeninator/MinHud)**
+- **[Any Tank Any Campaign](https://github.com/Cyances/Any-Tank-Any-Campaign)**
 - **[GMPC Texture Loader](https://github.com/Andrix44/GMPCTextureLoader)**
 - **[Gunner Mod PC](https://github.com/Andrix44/GunnerModPC)**
-- **[Super M60](https://github.com/Cyances/Super-M60)**
+- **[Cinematic Tools](https://github.com/RoyZ-iwnl/CinematicTools)**
 
 ### More MOD adaptations coming...
 
@@ -47,8 +65,34 @@ The mod configurations are stored in JSON files located in different directories
 
 ### Step 2: Configuration Files Overview
 
-#### Main Mod Configuration (`sample_modconfig.jsonc`)
+#### Main Application Configuration (`sample_main.json`)
 ```json
+{
+  "ModConfigUrl": "https://GHPC.DMR.gg/config/modconfig.json",
+  "ModConfigFallbackUrl": "https://ghpcmm.link/config/modconfig.json",
+  "TranslationConfigUrl": "https://github.com/RoyZ-iwnl/ghpc-translation",
+  "TranslationConfigFallbackUrl": "",
+  "ModI18nUrl": "https://GHPC.DMR.gg/config/mod_i18n.json",
+  "ModI18nFallbackUrl": "https://ghpcmm.link/config/mod_i18n.json",
+  "ProxyServers": [
+    {
+      "Id": "GhDmrGg",
+      "Domain": "gh.dmr.gg",
+      "DisplayName": { "zh-CN": "Cloudflare 1", "en-US": "Cloudflare 1" }
+    }
+  ]
+}
+```
+
+**URL Fields:**
+- `ModConfigUrl`: Primary URL for mod configuration list
+- `ModConfigFallbackUrl`: Fallback URL if primary fails
+- `TranslationConfigUrl`: URL for translation configuration repository
+- `ModI18nUrl`: Primary URL for mod internationalization strings
+- `ModI18nFallbackUrl`: Fallback URL if primary fails
+
+#### Main Mod Configuration (`sample_modconfig.jsonc`)
+```jsonc
 [
   {
     "Id": "YourModId",
@@ -56,20 +100,37 @@ The mod configurations are stored in JSON files located in different directories
       "en-US": "Your Mod Name in English",
       "zh-CN": "您的模组中文名称"
     },
+    "Description": {
+      "en-US": "Description in English",
+      "zh-CN": "中文描述"
+    },
+    "Tags": {
+      "modify": { "zh-CN": "载具改装", "en-US": "Vehicle Modify" }
+    },
+    "SupportedGameVersions": ["20260319"],
     "ReleaseUrl": "https://api.github.com/repos/owner/repo/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "YourMod.dll",
     "ConfigSectionName": "YourModConfig",
-    "InstallMethod": "DirectRelease", // or "Scripted"
-    "Requirements": ["BaseModId", "CoreLibraryId"],
-    "Conflicts": ["IncompatibleMod1Id", "IncompatibleMod2Id"]
+    "Requirements": ["BaseModId"],
+    "Conflicts": ["IncompatibleModId"]
   }
 ]
 ```
 
-**Installation Methods:**
-- `DirectRelease`: Simple ZIP download and extraction
-- `Scripted`: Custom installation using Base64-encoded batch script (see sample for details)
+**Installation Modes:**
+- **Default Mode** (no `ReplaceTargetPath`): Files installed to `Mods/` directory
+- **Replace Mode** (with `ReplaceTargetPath`): Files placed in target directory with automatic backup
+
+**Replace Mode Example:**
+```jsonc
+{
+  "Id": "SoundMod",
+  "ReplaceTargetPath": "GHPC_Data/StreamingAssets",
+  "ReplaceFileName": "Weapons.bank",  // Optional: custom filename for single file
+  "MainBinaryFileName": ""  // Empty for non-DLL mods
+}
+```
 
 #### Mod Internationalization (`sample_mod_i18n.json`)
 ```json
@@ -88,11 +149,23 @@ The mod configurations are stored in JSON files located in different directories
           "zh-CN": "描述文字的中文翻译",
           "en-US": "Description text"
         }
+      },
+      "singlechoice": {
+        "Option Name 1,Option Name 2": ["OptionA", "OptionB", "OptionC"]
+      },
+      "multiplechoice": {
+        "MultiSelect Option": ["Choice1", "Choice2", "Choice3"]
       }
     }
   }
 }
 ```
+
+**Field Types:**
+- `ConfigLabels`: Translations for configuration option names
+- `ConfigComments`: Translations for configuration option descriptions
+- `singlechoice`: Options that allow single selection (key can combine multiple related configs with commas)
+- `multiplechoice`: Options that allow multiple selection
 
 ### Step 3: Create Your Configuration
 
