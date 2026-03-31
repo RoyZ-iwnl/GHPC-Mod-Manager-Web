@@ -3,6 +3,7 @@
 ## Announcement
 
 ### 2026-03-30
+- v1.3.1 stable release is now available with fixing some bugs in v1.3.0, previous installation detection, backup cleanup refactor, and scripted mode removal. See the [changelog](#v131) below for details.
 - v1.3.0 stable release is now available with game version detection refactor, UI overhaul, Replace install mode, integrity checking, custom title bar, MessageDialog system, and Mod Info Dumper. See the [changelog](#v130) below for details.
 
 ### 2026-03-16
@@ -72,6 +73,31 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.1
+#### feat: Release version 1.3.1 with previous installation detection, backup cleanup refactor, and scripted mode removal
+- Bump version to 1.3.1
+- Add PreviousInstallationService to detect and track previous installation via registry
+- Add previous installation detection dialog on first run with "Open Folder" and "Ignore" options
+- Add MessageDialogButton.OpenFolderIgnore and corresponding result types
+- Add CommandLineArgs static class replacing DevMode for centralized argument parsing
+- Remove deprecated Scripted install mode and all related code (InstallScript_Base64, UninstallScript_Base64, EnableScript_Base64)
+- Delete DevMode.cs with functionality migrated to CommandLineArgs.cs
+- Remove unused chunk download and persistent cache methods from NetworkService
+- Remove unused ConfigurationItem class from MainViewModel
+- Remove duplicate logging calls in TranslationManagerService
+- Fix LoggingService date parsing to use filename instead of unreliable File.GetCreationTime
+- Fix ModBackupService to use Copy+Delete instead of Move for file overwrite handling
+- Add manifest migration backup/restore mechanism in ModManagerService.Replace.cs
+- Add CleanupOrphanedDisabledDirectoriesAsync to clean orphaned backup directories without manifest records
+- Preserve manual mod backups when manifest is missing to avoid accidental deletion
+- Add ProcessService IDisposable implementation for proper timer cleanup
+- Adjust MainView layout and status pill positioning
+- Adjust SettingsView field spacing and section margins
+- Simplify TranslationView by removing top toolbar, move update button into card
+- Add localization strings for previous installation detection and backup cleanup
+- Remove deprecated Scripted mode localization strings
+- Update integrity check hint text to suggest "reinstall" instead of just "fix or reinstall"
 
 ### v1.3.0
 #### feat: Release version 1.3.0 with game version detection refactor, UI overhaul, Replace install mode, integrity checking, custom title bar, MessageDialog system, and Mod Info Dumper

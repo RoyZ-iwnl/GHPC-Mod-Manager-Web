@@ -3,6 +3,7 @@
 ## 公告
 
 ### 2026-03-30
+- v1.3.1 正式版已发布，修复了v1.3.0存在的部分问题，新增旧安装检测、备份清理重构与移除Scripted模式，详情见下方[更新日志](#v131)。
 - v1.3.0 正式版已发布，包含游戏版本检测重构、UI全面重构、Replace安装模式、完整性检查、自定义标题栏、MessageDialog系统与Mod信息导出工具，详情见下方[更新日志](#v130)。
 
 ### 2026-03-16
@@ -75,6 +76,31 @@
 - GHPC版本20250902已发布，部分mod可能出现不适配的情况，请根据实际情况安装或更新。
 
 ## 更新日志
+
+### v1.3.1
+#### feat: 发布1.3.1正式版，新增旧安装检测、备份清理重构与移除Scripted模式
+- 版本升级至1.3.1
+- 新增PreviousInstallationService，通过注册表追踪用户上次安装位置
+- 新增首次运行时的旧安装检测对话框，提供"打开目录"和"忽略"选项
+- 新增MessageDialog OpenFolderIgnore按钮类型
+- 新增CommandLineArgs静态类替代DevMode，统一管理命令行参数解析
+- 移除已废弃的Scripted安装模式及相关代码
+- 移除DevMode.cs文件，功能迁移至CommandLineArgs.cs
+- 清理NetworkService中未使用的分块下载和缓存方法
+- 清理MainViewModel中未使用的ConfigurationItem类
+- 移除TranslationManagerService中的重复日志调用
+- 修复日志文件日期解析，改用文件名解析替代不可靠的GetCreationTime
+- 修复Mod启用时文件覆盖问题，用Copy+Delete替代Move
+- 新增清单迁移备份恢复机制，提高迁移安全性
+- 新增残留备份目录清理逻辑，清理无清单记录的disabled目录
+- 优化备份清理逻辑，清单丢失时保留手动Mod备份
+- 新增ProcessService IDisposable实现，正确释放计时器资源
+- 调整主界面布局，优化状态栏显示
+- 调整设置页面布局，增加字段间距
+- 简化翻译页面布局，移除顶部工具栏
+- 新增旧安装检测和备份清理相关国际化字符串
+- 移除Scripted模式相关废弃国际化字符串
+- 更新完整性检查提示文本，建议"卸载重装"
 
 ### v1.3.0
 #### feat: 发布1.3.0正式版，包含游戏版本检测重构、UI全面重构、Replace安装模式、完整性检查、自定义标题栏、MessageDialog系统与Mod信息导出工具
