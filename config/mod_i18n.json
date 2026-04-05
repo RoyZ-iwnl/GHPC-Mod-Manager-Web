@@ -4358,6 +4358,296 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "VoiceC": {
+      "ModId": "VoiceC",
+      "ConfigLabels": {
+        "T72_MixedVoicelines": {
+          "zh-CN": "T72 MixedVoicelines",
+          "en-US": "T72混合语音"
+        },
+        "T72M_MixedVoicelines": {
+          "zh-CN": "T72M MixedVoicelines",
+          "en-US": "T72M混合语音"
+        },
+        "T72M1_MixedVoicelines": {
+          "zh-CN": "T72M1 MixedVoicelines",
+          "en-US": "T72M1混合语音"
+        },
+        "T72GILLS_MixedVoicelines": {
+          "zh-CN": "T72GILLS MixedVoicelines",
+          "en-US": "T72GILLS混合语音"
+        },
+        "T72UV1_MixedVoicelines": {
+          "zh-CN": "T72UV1 MixedVoicelines",
+          "en-US": "T72UV1混合语音"
+        },
+        "T72UV2_MixedVoicelines": {
+          "zh-CN": "T72UV2 MixedVoicelines",
+          "en-US": "T72UV2混合语音"
+        },
+        "T72ULEM_MixedVoicelines": {
+          "zh-CN": "T72ULEM MixedVoicelines",
+          "en-US": "T72ULEM混合语音"
+        },
+        "T64A_MixedVoicelines": {
+          "zh-CN": "T64A MixedVoicelines",
+          "en-US": "T64A混合语音"
+        },
+        "T64A74_MixedVoicelines": {
+          "zh-CN": "T64A74 MixedVoicelines",
+          "en-US": "T64A74混合语音"
+        },
+        "T64A79_MixedVoicelines": {
+          "zh-CN": "T64A79 MixedVoicelines",
+          "en-US": "T64A79混合语音"
+        },
+        "T64A81_MixedVoicelines": {
+          "zh-CN": "T64A81 MixedVoicelines",
+          "en-US": "T64A81混合语音"
+        },
+        "T64A84_MixedVoicelines": {
+          "zh-CN": "T64A84 MixedVoicelines",
+          "en-US": "T64A84混合语音"
+        },
+        "T64B_MixedVoicelines": {
+          "zh-CN": "T64B MixedVoicelines",
+          "en-US": "T64B混合语音"
+        },
+        "T64B81_MixedVoicelines": {
+          "zh-CN": "T64B81 MixedVoicelines",
+          "en-US": "T64B81混合语音"
+        },
+        "T64B181_MixedVoicelines": {
+          "zh-CN": "T64B181 MixedVoicelines",
+          "en-US": "T64B181混合语音"
+        },
+        "T64B1_MixedVoicelines": {
+          "zh-CN": "T64B1 MixedVoicelines",
+          "en-US": "T64B1混合语音"
+        },
+        "T64R_MixedVoicelines": {
+          "zh-CN": "T64R MixedVoicelines",
+          "en-US": "T64R混合语音"
+        },
+        "T62_MixedVoicelines": {
+          "zh-CN": "T62 MixedVoicelines",
+          "en-US": "T62混合语音"
+        },
+        "T55A_MixedVoicelines": {
+          "zh-CN": "T55A MixedVoicelines",
+          "en-US": "T55A混合语音"
+        },
+        "T54A_MixedVoicelines": {
+          "zh-CN": "T54A MixedVoicelines",
+          "en-US": "T54A混合语音"
+        },
+        "T34-85_MixedVoicelines": {
+          "zh-CN": "T34-85 MixedVoicelines",
+          "en-US": "T34-85混合语音"
+        },
+        "T80B_MixedVoicelines": {
+          "zh-CN": "T80B MixedVoicelines",
+          "en-US": "T80B混合语音"
+        },
+        "BMP1_MixedVoicelines": {
+          "zh-CN": "BMP1 MixedVoicelines",
+          "en-US": "BMP1混合语音"
+        },
+        "BMP1P_MixedVoicelines": {
+          "zh-CN": "BMP1P MixedVoicelines",
+          "en-US": "BMP1P混合语音"
+        },
+        "BMP1P_SA_MixedVoicelines": {
+          "zh-CN": "BMP1P_SA MixedVoicelines",
+          "en-US": "BMP1P_SA混合语音"
+        },
+        "BMP2_MixedVoicelines": {
+          "zh-CN": "BMP2 MixedVoicelines",
+          "en-US": "BMP2混合语音"
+        },
+        "BMP2_SA_MixedVoicelines": {
+          "zh-CN": "BMP2_SA MixedVoicelines",
+          "en-US": "BMP2_SA混合语音"
+        },
+        "PT76B_MixedVoicelines": {
+          "zh-CN": "PT76B MixedVoicelines",
+          "en-US": "PT76B混合语音"
+        },
+        "LEO1A1_MixedVoicelines": {
+          "zh-CN": "LEO1A1 MixedVoicelines",
+          "en-US": "LEO1A1混合语音"
+        },
+        "LEO1A1A1_MixedVoicelines": {
+          "zh-CN": "LEO1A1A1 MixedVoicelines",
+          "en-US": "LEO1A1A1混合语音"
+        },
+        "LEO1A1A2_MixedVoicelines": {
+          "zh-CN": "LEO1A1A2 MixedVoicelines",
+          "en-US": "LEO1A1A2混合语音"
+        },
+        "LEO1A1A3_MixedVoicelines": {
+          "zh-CN": "LEO1A1A3 MixedVoicelines",
+          "en-US": "LEO1A1A3混合语音"
+        },
+        "LEO1A1A4_MixedVoicelines": {
+          "zh-CN": "LEO1A1A4 MixedVoicelines",
+          "en-US": "LEO1A1A4混合语音"
+        },
+        "LEO1A3_MixedVoicelines": {
+          "zh-CN": "LEO1A3 MixedVoicelines",
+          "en-US": "LEO1A3混合语音"
+        },
+        "LEO1A3A1_MixedVoicelines": {
+          "zh-CN": "LEO1A3A1 MixedVoicelines",
+          "en-US": "LEO1A3A1混合语音"
+        },
+        "LEO1A3A2_MixedVoicelines": {
+          "zh-CN": "LEO1A3A2 MixedVoicelines",
+          "en-US": "LEO1A3A2混合语音"
+        },
+        "LEO1A3A3_MixedVoicelines": {
+          "zh-CN": "LEO1A3A3 MixedVoicelines",
+          "en-US": "LEO1A3A3混合语音"
+        },
+        "LEO1A4_MixedVoicelines": {
+          "zh-CN": "LEO1A4 MixedVoicelines",
+          "en-US": "LEO1A4混合语音"
+        },
+        "MARDERA1PLUS_MixedVoicelines": {
+          "zh-CN": "MARDERA1PLUS MixedVoicelines",
+          "en-US": "MARDERA1PLUS混合语音"
+        },
+        "MARDERA1_MixedVoicelines": {
+          "zh-CN": "MARDERA1 MixedVoicelines",
+          "en-US": "MARDERA1混合语音"
+        },
+        "MARDERA1_NO_ATGM_MixedVoicelines": {
+          "zh-CN": "MARDERA1_NO_ATGM MixedVoicelines",
+          "en-US": "MARDERA1_NO_ATGM混合语音"
+        },
+        "MARDER1A2_MixedVoicelines": {
+          "zh-CN": "MARDER1A2 MixedVoicelines",
+          "en-US": "MARDER1A2混合语音"
+        },
+        "M1_MixedVoicelines": {
+          "zh-CN": "M1 MixedVoicelines",
+          "en-US": "M1混合语音"
+        },
+        "M1IP_MixedVoicelines": {
+          "zh-CN": "M1IP MixedVoicelines",
+          "en-US": "M1IP混合语音"
+        },
+        "M60A1_MixedVoicelines": {
+          "zh-CN": "M60A1 MixedVoicelines",
+          "en-US": "M60A1混合语音"
+        },
+        "M60A1AOS_MixedVoicelines": {
+          "zh-CN": "M60A1AOS MixedVoicelines",
+          "en-US": "M60A1AOS混合语音"
+        },
+        "M60A1RISEP_MixedVoicelines": {
+          "zh-CN": "M60A1RISEP MixedVoicelines",
+          "en-US": "M60A1RISEP混合语音"
+        },
+        "M60A1RISEP77_MixedVoicelines": {
+          "zh-CN": "M60A1RISEP77 MixedVoicelines",
+          "en-US": "M60A1RISEP77混合语音"
+        },
+        "M60A3_MixedVoicelines": {
+          "zh-CN": "M60A3 MixedVoicelines",
+          "en-US": "M60A3混合语音"
+        },
+        "M60A3TTS_MixedVoicelines": {
+          "zh-CN": "M60A3TTS MixedVoicelines",
+          "en-US": "M60A3TTS混合语音"
+        },
+        "M2BRADLEY_MixedVoicelines": {
+          "zh-CN": "M2BRADLEY MixedVoicelines",
+          "en-US": "M2BRADLEY混合语音"
+        },
+        "M2BRADLEY(ALT)_MixedVoicelines": {
+          "zh-CN": "M2BRADLEY(ALT) MixedVoicelines",
+          "en-US": "M2BRADLEY(ALT)混合语音"
+        }
+      },
+      "ConfigComments": {},
+      "multiplechoice": {},
+      "singlechoice": {}
+    },
+    "M2Ex": {
+      "ModId": "M2Ex",
+      "ConfigLabels": {
+        "M2 Bradley Patch": {
+          "zh-CN": "M2布雷德利补丁",
+          "en-US": "M2 Bradley Patch"
+        },
+        "Addon Armour Package": {
+          "zh-CN": "附加装甲套件",
+          "en-US": "Addon Armour Package"
+        },
+        "Use M919 APFSDS-T": {
+          "zh-CN": "使用M919尾翼稳定脱壳穿甲曳光弹",
+          "en-US": "Use M919 APFSDS-T"
+        },
+        "TOW Missile": {
+          "zh-CN": "陶式导弹",
+          "en-US": "TOW Missile"
+        },
+        "Has Laser Rangefinder": {
+          "zh-CN": "配备激光测距仪",
+          "en-US": "Has Laser Rangefinder"
+        },
+        "Has IBAS": {
+          "zh-CN": "配备IBAS综合瞄准系统",
+          "en-US": "Has IBAS"
+        },
+        "Enhanced M242 Bushmaster": {
+          "zh-CN": "强化型M242 Bushmaster机炮",
+          "en-US": "Enhanced M242 Bushmaster"
+        },
+        "Quick Refill Ammo Bins": {
+          "zh-CN": "快速补充弹药箱",
+          "en-US": "Quick Refill Ammo Bins"
+        }
+      },
+      "ConfigComments": {
+        "Addon 25.4mm steel plates for hull and turret. Increased weight.": {
+          "zh-CN": "为车体和炮塔加装25.4毫米钢装甲板，重量增加。",
+          "en-US": "Addon 25.4mm steel plates for hull and turret. Increased weight."
+        },
+        "Increased penetration, velocity over M791 APDS-T": {
+          "zh-CN": "相比M791脱壳穿甲曳光弹，穿深和初速更高。",
+          "en-US": "Increased penetration, velocity over M791 APDS-T"
+        },
+        "Default, TOW2, TOW2A (anti-ERA)": {
+          "zh-CN": "可选：默认、TOW2、TOW2A（反爆炸反应装甲）。",
+          "en-US": "Default, TOW2, TOW2A (anti-ERA)"
+        },
+        "Does NOT have automatic lead": {
+          "zh-CN": "不具备自动提前量计算功能。",
+          "en-US": "Does NOT have automatic lead"
+        },
+        "Complete overhaul for day and thermal sight; has automatic lead, includes LRF": {
+          "zh-CN": "全面升级昼间与热成像瞄具；具备自动提前量计算，并包含激光测距仪。",
+          "en-US": "Complete overhaul for day and thermal sight; has automatic lead, includes LRF"
+        },
+        "Increases autocannon accuracy": {
+          "zh-CN": "提高机炮精度。",
+          "en-US": "Increases autocannon accuracy"
+        },
+        "Reduces time to replenish autocannon ammo bins to 15 seconds": {
+          "zh-CN": "将机炮弹药箱补充时间缩短至15秒。",
+          "en-US": "Reduces time to replenish autocannon ammo bins to 15 seconds"
+        }
+      },
+      "singlechoice": {
+        "TOW Missile": [
+          "Default",
+          "TOW2",
+          "TOW2A"
+        ]
+      }
     }
   }
 }
