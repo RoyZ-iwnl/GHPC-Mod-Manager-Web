@@ -23,7 +23,8 @@
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "PactIncreasedLethality.dll",
     "ConfigSectionName": "PactIncreasedLethality",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "RequiredManagerVersion": "1.3.2"
   },
 
   // ═══════════════════════════════════════════════════════════════════════════

@@ -590,7 +590,9 @@
         supportedVersions: '支持的游戏版本（SupportedGameVersions）— 输入后按 Enter 添加',
         versionsPlaceholder: '如：20260210',
         delisted: '已下架（Delisted）— 下架后不在浏览列表显示，已安装的仍显示并提供提示',
-        delistedHint: '下架的Mod不会在Mod浏览列表中显示，但已安装的用户会在已安装列表中看到警告提示'
+        delistedHint: '下架的Mod不会在Mod浏览列表中显示，但已安装的用户会在已安装列表中看到警告提示',
+        requiredManagerVersion: '所需管理器版本（RequiredManagerVersion）',
+        requiredManagerVersionHint: '可选，最低模组管理器版本要求（如 1.2.0）'
       },
       'en-US': {
         title: 'GHPC Mod Config Editor',
@@ -630,7 +632,9 @@
         supportedVersions: 'Supported Game Versions — Press Enter to add',
         versionsPlaceholder: 'e.g.: 20260210',
         delisted: 'Delisted — Hidden from browse list, installed users still see with warning',
-        delistedHint: 'Delisted mods are hidden from the mod browser, but installed users will see a warning in their installed mods list'
+        delistedHint: 'Delisted mods are hidden from the mod browser, but installed users will see a warning in their installed mods list',
+        requiredManagerVersion: 'Required Manager Version',
+        requiredManagerVersionHint: 'Optional, minimum Mod Manager version required (e.g., 1.2.0)'
       }
     };
 
@@ -685,7 +689,8 @@
         ReplaceFileName: '',
         Requirements: [],
         Conflicts: [],
-        Delisted: false
+        Delisted: false,
+        RequiredManagerVersion: ''
       });
       renderAll();
       // 自动展开最后一个
@@ -979,6 +984,13 @@
             <div style="font-size:11px;color:#888;margin-top:4px;">${t('delistedHint')}</div>
           </div>
 
+          <!-- 所需管理器版本 -->
+          <div class="form-row">
+            <label>${t('requiredManagerVersion')}</label>
+            <input type="text" value="${esc(mod.RequiredManagerVersion || '')}" placeholder="${t('requiredManagerVersionHint')}"
+              oninput="updateField(${i},'RequiredManagerVersion',this.value)" />
+          </div>
+
           <!-- 多语言名称 -->
           <div class="form-row">
             <label>Mod 名称（多语言）</label>
@@ -1133,6 +1145,7 @@
       if (mod.Requirements?.length > 0) obj.Requirements = mod.Requirements;
       if (mod.Conflicts?.length > 0) obj.Conflicts = mod.Conflicts;
       if (mod.Delisted) obj.Delisted = true; // 仅在下架时输出
+      if (mod.RequiredManagerVersion) obj.RequiredManagerVersion = mod.RequiredManagerVersion; // 仅在设置时输出
       return obj;
     }
 
@@ -1222,7 +1235,8 @@
             ReplaceFileName: m.ReplaceFileName || '',
             Requirements: Array.isArray(m.Requirements) ? m.Requirements : [],
             Conflicts: Array.isArray(m.Conflicts) ? m.Conflicts : [],
-            Delisted: m.Delisted === true
+            Delisted: m.Delisted === true,
+            RequiredManagerVersion: m.RequiredManagerVersion || ''
           }));
           renderAll();
           showToast(`✅ 已导入 ${mods.length} 个 Mod`);

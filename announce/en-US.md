@@ -2,6 +2,9 @@
 
 ## Announcement
 
+### 2026-04-05
+- v1.3.2 stable release is now available with multi-format archive support, new mods detection banner, and manager version requirement check. See the [changelog](#v132) below for details.
+
 ### 2026-03-30
 - v1.3.1 stable release is now available with fixing some bugs in v1.3.0, previous installation detection, backup cleanup refactor, and scripted mode removal. See the [changelog](#v131) below for details.
 - v1.3.0 stable release is now available with game version detection refactor, UI overhaul, Replace install mode, integrity checking, custom title bar, MessageDialog system, and Mod Info Dumper. See the [changelog](#v130) below for details.
@@ -73,6 +76,22 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.2
+#### feat: Release version 1.3.2 with multi-format archive support, new mods detection banner, and manager version requirement check
+- Bump version to 1.3.2
+- Add SharpCompress package for multi-format archive extraction (RAR, 7z, TAR, GZ, BZ2, XZ)
+- Add ExtractArchiveAsync method in TrackedFileOperations for unified archive handling
+- Refactor Replace mode installation to use SharpCompress for archive extraction
+- Add IModCatalogStateService for persisting mod catalog state snapshots
+- Add new mods detection and banner display in ModBrowserView
+- Add RequiredManagerVersion field in ModConfig for minimum manager version requirement
+- Add MeetsRequiredVersion method in UpdateService for version requirement checking
+- Add manager version requirement check before mod install/update/reinstall
+- Add GoToSettingsCancel dialog button type for version requirement prompt
+- Display short git hash in window title bar (e.g., v1.3.2 (abc1234))
+- Cleanup unused localization strings and unify string keys
+- Adjust overlay layer ordering in MainView.xaml
 
 ### v1.3.1
 #### feat: Release version 1.3.1 with previous installation detection, backup cleanup refactor, and scripted mode removal
