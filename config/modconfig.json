@@ -235,6 +235,39 @@
     ]
   },
   {
+    "Id": "M2Ex",
+    "Name": {
+      "en-US": "M2 Bradley Extended",
+      "zh-CN": "M2 布雷德利增强"
+    },
+    "Description": {
+      "en-US": "M2BradleyExtended is a mod that expands the M2 Bradley with additional variants and upgrades. It is still unfinished, but already playable.  \nCurrent content includes several conversions and equipment upgrades, such as the M2A1 with TOW-2/TOW-2A, the M2A2with an add-on armor package, the M2A2 ODSwith a laser rangefinder, and the M2A2 ODS-SAwith the IBASsystem.  \nPlanned features include CITV, IBASautotracking, and a 50mm Bradley variant.",
+      "zh-CN": "M2BradleyExtended 是一个为 M2 Bradley 扩展更多型号与功能的模组，目前仍在开发中，但已经可以游玩。  \n当前内容包括多种改型与升级方案，如 M2A1的 TOW-2/TOW-2A配置、M2A2的附加装甲包、M2A2 ODS的激光测距仪，以及 M2A2 ODS-SA的 IBAS系统。  \n后续计划加入 CITV、IBAS自动跟踪，以及50mmBradley 版本。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2BradleyExtended/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "M2BradleyExtended.dll",
+    "ConfigSectionName": "M2Extended",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "M6A2ROY",
+      "M6A2",
+      "50mmROY",
+      "50mm",
+      "M2ReSound",
+      "FireRT"
+    ]
+  },
+  {
     "Id": "M6A2ROY",
     "Name": {
       "en-US": "M6A2 ADATS(Priority version)",
@@ -537,7 +570,11 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "VoiceChanger.dll",
     "ConfigSectionName": "GHPCVoiceChanger",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "PactILROY",
+      "PactIL"
+    ]
   },
   {
     "Id": "weather",
