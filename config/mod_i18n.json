@@ -4363,212 +4363,212 @@
       "ModId": "VoiceC",
       "ConfigLabels": {
         "T72_MixedVoicelines": {
-          "zh-CN": "T72 MixedVoicelines",
-          "en-US": "T72混合语音"
+          "en-US": "T72 MixedVoicelines",
+          "zh-CN": "T72混合语音"
         },
         "T72M_MixedVoicelines": {
-          "zh-CN": "T72M MixedVoicelines",
-          "en-US": "T72M混合语音"
+          "en-US": "T72M MixedVoicelines",
+          "zh-CN": "T72M混合语音"
         },
         "T72M1_MixedVoicelines": {
-          "zh-CN": "T72M1 MixedVoicelines",
-          "en-US": "T72M1混合语音"
+          "en-US": "T72M1 MixedVoicelines",
+          "zh-CN": "T72M1混合语音"
         },
         "T72GILLS_MixedVoicelines": {
-          "zh-CN": "T72GILLS MixedVoicelines",
-          "en-US": "T72GILLS混合语音"
+          "en-US": "T72GILLS MixedVoicelines",
+          "zh-CN": "T72GILLS混合语音"
         },
         "T72UV1_MixedVoicelines": {
-          "zh-CN": "T72UV1 MixedVoicelines",
-          "en-US": "T72UV1混合语音"
+          "en-US": "T72UV1 MixedVoicelines",
+          "zh-CN": "T72UV1混合语音"
         },
         "T72UV2_MixedVoicelines": {
-          "zh-CN": "T72UV2 MixedVoicelines",
-          "en-US": "T72UV2混合语音"
+          "en-US": "T72UV2 MixedVoicelines",
+          "zh-CN": "T72UV2混合语音"
         },
         "T72ULEM_MixedVoicelines": {
-          "zh-CN": "T72ULEM MixedVoicelines",
-          "en-US": "T72ULEM混合语音"
+          "en-US": "T72ULEM MixedVoicelines",
+          "zh-CN": "T72ULEM混合语音"
         },
         "T64A_MixedVoicelines": {
-          "zh-CN": "T64A MixedVoicelines",
-          "en-US": "T64A混合语音"
+          "en-US": "T64A MixedVoicelines",
+          "zh-CN": "T64A混合语音"
         },
         "T64A74_MixedVoicelines": {
-          "zh-CN": "T64A74 MixedVoicelines",
-          "en-US": "T64A74混合语音"
+          "en-US": "T64A74 MixedVoicelines",
+          "zh-CN": "T64A74混合语音"
         },
         "T64A79_MixedVoicelines": {
-          "zh-CN": "T64A79 MixedVoicelines",
-          "en-US": "T64A79混合语音"
+          "en-US": "T64A79 MixedVoicelines",
+          "zh-CN": "T64A79混合语音"
         },
         "T64A81_MixedVoicelines": {
-          "zh-CN": "T64A81 MixedVoicelines",
-          "en-US": "T64A81混合语音"
+          "en-US": "T64A81 MixedVoicelines",
+          "zh-CN": "T64A81混合语音"
         },
         "T64A84_MixedVoicelines": {
-          "zh-CN": "T64A84 MixedVoicelines",
-          "en-US": "T64A84混合语音"
+          "en-US": "T64A84 MixedVoicelines",
+          "zh-CN": "T64A84混合语音"
         },
         "T64B_MixedVoicelines": {
-          "zh-CN": "T64B MixedVoicelines",
-          "en-US": "T64B混合语音"
+          "en-US": "T64B MixedVoicelines",
+          "zh-CN": "T64B混合语音"
         },
         "T64B81_MixedVoicelines": {
-          "zh-CN": "T64B81 MixedVoicelines",
-          "en-US": "T64B81混合语音"
+          "en-US": "T64B81 MixedVoicelines",
+          "zh-CN": "T64B81混合语音"
         },
         "T64B181_MixedVoicelines": {
-          "zh-CN": "T64B181 MixedVoicelines",
-          "en-US": "T64B181混合语音"
+          "en-US": "T64B181 MixedVoicelines",
+          "zh-CN": "T64B181混合语音"
         },
         "T64B1_MixedVoicelines": {
-          "zh-CN": "T64B1 MixedVoicelines",
-          "en-US": "T64B1混合语音"
+          "en-US": "T64B1 MixedVoicelines",
+          "zh-CN": "T64B1混合语音"
         },
         "T64R_MixedVoicelines": {
-          "zh-CN": "T64R MixedVoicelines",
-          "en-US": "T64R混合语音"
+          "en-US": "T64R MixedVoicelines",
+          "zh-CN": "T64R混合语音"
         },
         "T62_MixedVoicelines": {
-          "zh-CN": "T62 MixedVoicelines",
-          "en-US": "T62混合语音"
+          "en-US": "T62 MixedVoicelines",
+          "zh-CN": "T62混合语音"
         },
         "T55A_MixedVoicelines": {
-          "zh-CN": "T55A MixedVoicelines",
-          "en-US": "T55A混合语音"
+          "en-US": "T55A MixedVoicelines",
+          "zh-CN": "T55A混合语音"
         },
         "T54A_MixedVoicelines": {
-          "zh-CN": "T54A MixedVoicelines",
-          "en-US": "T54A混合语音"
+          "en-US": "T54A MixedVoicelines",
+          "zh-CN": "T54A混合语音"
         },
         "T34-85_MixedVoicelines": {
-          "zh-CN": "T34-85 MixedVoicelines",
-          "en-US": "T34-85混合语音"
+          "en-US": "T34-85 MixedVoicelines",
+          "zh-CN": "T34-85混合语音"
         },
         "T80B_MixedVoicelines": {
-          "zh-CN": "T80B MixedVoicelines",
-          "en-US": "T80B混合语音"
+          "en-US": "T80B MixedVoicelines",
+          "zh-CN": "T80B混合语音"
         },
         "BMP1_MixedVoicelines": {
-          "zh-CN": "BMP1 MixedVoicelines",
-          "en-US": "BMP1混合语音"
+          "en-US": "BMP1 MixedVoicelines",
+          "zh-CN": "BMP1混合语音"
         },
         "BMP1P_MixedVoicelines": {
-          "zh-CN": "BMP1P MixedVoicelines",
-          "en-US": "BMP1P混合语音"
+          "en-US": "BMP1P MixedVoicelines",
+          "zh-CN": "BMP1P混合语音"
         },
         "BMP1P_SA_MixedVoicelines": {
-          "zh-CN": "BMP1P_SA MixedVoicelines",
-          "en-US": "BMP1P_SA混合语音"
+          "en-US": "BMP1P_SA MixedVoicelines",
+          "zh-CN": "BMP1P_SA混合语音"
         },
         "BMP2_MixedVoicelines": {
-          "zh-CN": "BMP2 MixedVoicelines",
-          "en-US": "BMP2混合语音"
+          "en-US": "BMP2 MixedVoicelines",
+          "zh-CN": "BMP2混合语音"
         },
         "BMP2_SA_MixedVoicelines": {
-          "zh-CN": "BMP2_SA MixedVoicelines",
-          "en-US": "BMP2_SA混合语音"
+          "en-US": "BMP2_SA MixedVoicelines",
+          "zh-CN": "BMP2_SA混合语音"
         },
         "PT76B_MixedVoicelines": {
-          "zh-CN": "PT76B MixedVoicelines",
-          "en-US": "PT76B混合语音"
+          "en-US": "PT76B MixedVoicelines",
+          "zh-CN": "PT76B混合语音"
         },
         "LEO1A1_MixedVoicelines": {
-          "zh-CN": "LEO1A1 MixedVoicelines",
-          "en-US": "LEO1A1混合语音"
+          "en-US": "LEO1A1 MixedVoicelines",
+          "zh-CN": "LEO1A1混合语音"
         },
         "LEO1A1A1_MixedVoicelines": {
-          "zh-CN": "LEO1A1A1 MixedVoicelines",
-          "en-US": "LEO1A1A1混合语音"
+          "en-US": "LEO1A1A1 MixedVoicelines",
+          "zh-CN": "LEO1A1A1混合语音"
         },
         "LEO1A1A2_MixedVoicelines": {
-          "zh-CN": "LEO1A1A2 MixedVoicelines",
-          "en-US": "LEO1A1A2混合语音"
+          "en-US": "LEO1A1A2 MixedVoicelines",
+          "zh-CN": "LEO1A1A2混合语音"
         },
         "LEO1A1A3_MixedVoicelines": {
-          "zh-CN": "LEO1A1A3 MixedVoicelines",
-          "en-US": "LEO1A1A3混合语音"
+          "en-US": "LEO1A1A3 MixedVoicelines",
+          "zh-CN": "LEO1A1A3混合语音"
         },
         "LEO1A1A4_MixedVoicelines": {
-          "zh-CN": "LEO1A1A4 MixedVoicelines",
-          "en-US": "LEO1A1A4混合语音"
+          "en-US": "LEO1A1A4 MixedVoicelines",
+          "zh-CN": "LEO1A1A4混合语音"
         },
         "LEO1A3_MixedVoicelines": {
-          "zh-CN": "LEO1A3 MixedVoicelines",
-          "en-US": "LEO1A3混合语音"
+          "en-US": "LEO1A3 MixedVoicelines",
+          "zh-CN": "LEO1A3混合语音"
         },
         "LEO1A3A1_MixedVoicelines": {
-          "zh-CN": "LEO1A3A1 MixedVoicelines",
-          "en-US": "LEO1A3A1混合语音"
+          "en-US": "LEO1A3A1 MixedVoicelines",
+          "zh-CN": "LEO1A3A1混合语音"
         },
         "LEO1A3A2_MixedVoicelines": {
-          "zh-CN": "LEO1A3A2 MixedVoicelines",
-          "en-US": "LEO1A3A2混合语音"
+          "en-US": "LEO1A3A2 MixedVoicelines",
+          "zh-CN": "LEO1A3A2混合语音"
         },
         "LEO1A3A3_MixedVoicelines": {
-          "zh-CN": "LEO1A3A3 MixedVoicelines",
-          "en-US": "LEO1A3A3混合语音"
+          "en-US": "LEO1A3A3 MixedVoicelines",
+          "zh-CN": "LEO1A3A3混合语音"
         },
         "LEO1A4_MixedVoicelines": {
-          "zh-CN": "LEO1A4 MixedVoicelines",
-          "en-US": "LEO1A4混合语音"
+          "en-US": "LEO1A4 MixedVoicelines",
+          "zh-CN": "LEO1A4混合语音"
         },
         "MARDERA1PLUS_MixedVoicelines": {
-          "zh-CN": "MARDERA1PLUS MixedVoicelines",
-          "en-US": "MARDERA1PLUS混合语音"
+          "en-US": "MARDERA1PLUS MixedVoicelines",
+          "zh-CN": "MARDERA1PLUS混合语音"
         },
         "MARDERA1_MixedVoicelines": {
-          "zh-CN": "MARDERA1 MixedVoicelines",
-          "en-US": "MARDERA1混合语音"
+          "en-US": "MARDERA1 MixedVoicelines",
+          "zh-CN": "MARDERA1混合语音"
         },
         "MARDERA1_NO_ATGM_MixedVoicelines": {
-          "zh-CN": "MARDERA1_NO_ATGM MixedVoicelines",
-          "en-US": "MARDERA1_NO_ATGM混合语音"
+          "en-US": "MARDERA1_NO_ATGM MixedVoicelines",
+          "zh-CN": "MARDERA1_NO_ATGM混合语音"
         },
         "MARDER1A2_MixedVoicelines": {
-          "zh-CN": "MARDER1A2 MixedVoicelines",
-          "en-US": "MARDER1A2混合语音"
+          "en-US": "MARDER1A2 MixedVoicelines",
+          "zh-CN": "MARDER1A2混合语音"
         },
         "M1_MixedVoicelines": {
-          "zh-CN": "M1 MixedVoicelines",
-          "en-US": "M1混合语音"
+          "en-US": "M1 MixedVoicelines",
+          "zh-CN": "M1混合语音"
         },
         "M1IP_MixedVoicelines": {
-          "zh-CN": "M1IP MixedVoicelines",
-          "en-US": "M1IP混合语音"
+          "en-US": "M1IP MixedVoicelines",
+          "zh-CN": "M1IP混合语音"
         },
         "M60A1_MixedVoicelines": {
-          "zh-CN": "M60A1 MixedVoicelines",
-          "en-US": "M60A1混合语音"
+          "en-US": "M60A1 MixedVoicelines",
+          "zh-CN": "M60A1混合语音"
         },
         "M60A1AOS_MixedVoicelines": {
-          "zh-CN": "M60A1AOS MixedVoicelines",
-          "en-US": "M60A1AOS混合语音"
+          "en-US": "M60A1AOS MixedVoicelines",
+          "zh-CN": "M60A1AOS混合语音"
         },
         "M60A1RISEP_MixedVoicelines": {
-          "zh-CN": "M60A1RISEP MixedVoicelines",
-          "en-US": "M60A1RISEP混合语音"
+          "en-US": "M60A1RISEP MixedVoicelines",
+          "zh-CN": "M60A1RISEP混合语音"
         },
         "M60A1RISEP77_MixedVoicelines": {
-          "zh-CN": "M60A1RISEP77 MixedVoicelines",
-          "en-US": "M60A1RISEP77混合语音"
+          "en-US": "M60A1RISEP77 MixedVoicelines",
+          "zh-CN": "M60A1RISEP77混合语音"
         },
         "M60A3_MixedVoicelines": {
-          "zh-CN": "M60A3 MixedVoicelines",
-          "en-US": "M60A3混合语音"
+          "en-US": "M60A3 MixedVoicelines",
+          "zh-CN": "M60A3混合语音"
         },
         "M60A3TTS_MixedVoicelines": {
-          "zh-CN": "M60A3TTS MixedVoicelines",
-          "en-US": "M60A3TTS混合语音"
+          "en-US": "M60A3TTS MixedVoicelines",
+          "zh-CN": "M60A3TTS混合语音"
         },
         "M2BRADLEY_MixedVoicelines": {
-          "zh-CN": "M2BRADLEY MixedVoicelines",
-          "en-US": "M2BRADLEY混合语音"
+          "en-US": "M2BRADLEY MixedVoicelines",
+          "zh-CN": "M2BRADLEY混合语音"
         },
         "M2BRADLEY(ALT)_MixedVoicelines": {
-          "zh-CN": "M2BRADLEY(ALT) MixedVoicelines",
-          "en-US": "M2BRADLEY(ALT)混合语音"
+          "en-US": "M2BRADLEY(ALT) MixedVoicelines",
+          "zh-CN": "M2BRADLEY(ALT)混合语音"
         }
       },
       "ConfigComments": {},
