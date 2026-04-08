@@ -4648,6 +4648,101 @@
           "TOW2A"
         ]
       }
+    },
+    "SovietGuards": {
+      "ModId": "SovietGuards",
+      "ConfigLabels": {
+        "Remove turret camo nets": {
+          "zh-CN": "移除炮塔伪装网",
+          "en-US": "Remove turret camo nets"
+        },
+        "Mute console logging": {
+          "zh-CN": "静默控制台日志",
+          "en-US": "Mute console logging"
+        },
+        "Modify BMP1s": {
+          "zh-CN": "修改 BMP1",
+          "en-US": "Modify BMP1s"
+        },
+        "Modify BMP2s": {
+          "zh-CN": "修改 BMP2",
+          "en-US": "Modify BMP2s"
+        },
+        "Modify T62s": {
+          "zh-CN": "修改 T62",
+          "en-US": "Modify T62s"
+        },
+        "Modify T64s": {
+          "zh-CN": "修改 T64",
+          "en-US": "Modify T64s"
+        },
+        "Modify T80s": {
+          "zh-CN": "修改 T80",
+          "en-US": "Modify T80s"
+        },
+        "Modify BTR60s": {
+          "zh-CN": "修改 BTR60",
+          "en-US": "Modify BTR60s"
+        },
+        "Modify BTR70s": {
+          "zh-CN": "修改 BTR70",
+          "en-US": "Modify BTR70s"
+        },
+        "Modify BRDMs": {
+          "zh-CN": "修改 BRDM",
+          "en-US": "Modify BRDMs"
+        },
+        "Modify Infantry": {
+          "zh-CN": "修改步兵",
+          "en-US": "Modify Infantry"
+        }
+      },
+      "ConfigComments": {
+        "Removes camo nets that might obscure the Guards emblem": {
+          "zh-CN": "移除可能遮挡近卫标志的伪装网",
+          "en-US": "Removes camo nets that might obscure the Guards emblem"
+        },
+        "Silences the mod's messages in the MelonLoader console": {
+          "zh-CN": "静默此模组在 MelonLoader 控制台中的消息输出",
+          "en-US": "Silences the mod's messages in the MelonLoader console"
+        },
+        "Set true to modify BMP1s, false to exclude them": {
+          "zh-CN": "开启则修改 BMP1，关闭则排除 BMP1",
+          "en-US": "Set true to modify BMP1s, false to exclude them"
+        },
+        "Set true to modify BMP2s, false to exclude them": {
+          "zh-CN": "开启则修改 BMP2，关闭则排除 BMP2",
+          "en-US": "Set true to modify BMP2s, false to exclude them"
+        },
+        "Set true to modify T62s, false to exclude them": {
+          "zh-CN": "开启则修改 T62，关闭则排除 T62",
+          "en-US": "Set true to modify T62s, false to exclude them"
+        },
+        "Set true to modify T64s, false to exclude them": {
+          "zh-CN": "开启则修改 T64，关闭则排除 T64",
+          "en-US": "Set true to modify T64s, false to exclude them"
+        },
+        "Set true to modify T80s, false to exclude them": {
+          "zh-CN": "开启则修改 T80，关闭则排除 T80",
+          "en-US": "Set true to modify T80s, false to exclude them"
+        },
+        "Set true to modify BTR60s, false to exclude them": {
+          "zh-CN": "开启则修改 BTR60，关闭则排除 BTR60",
+          "en-US": "Set true to modify BTR60s, false to exclude them"
+        },
+        "Set true to modify BTR70s, false to exclude them": {
+          "zh-CN": "开启则修改 BTR70，关闭则排除 BTR70",
+          "en-US": "Set true to modify BTR60s, false to exclude them"
+        },
+        "Set true to modify BRDMs, false to exclude them": {
+          "zh-CN": "开启则修改 BRDM，关闭则排除 BRDM",
+          "en-US": "Set true to modify BRDMs, false to exclude them"
+        },
+        "Set true to modify infantrymen, false to exclude them": {
+          "zh-CN": "开启则修改步兵，关闭则排除步兵",
+          "en-US": "Set true to modify infantrymen, false to exclude them"
+        }
+      }
     }
   }
 }

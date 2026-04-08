@@ -143,9 +143,6 @@
     "MainBinaryFileName": "UnderdogsEnhanced.dll",
     "ConfigSectionName": "Underdogs-Enhanced",
     "InstallMethod": "DirectRelease",
-    "Requirements": [
-      "Vprel"
-    ],
     "Conflicts": [
       "BMP1ST"
     ]
@@ -202,6 +199,9 @@
     "MainBinaryFileName": "SuperM60ROY.dll",
     "ConfigSectionName": "SuperM60Config",
     "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Vprel"
+    ],
     "Conflicts": [
       "SM60"
     ]
@@ -263,8 +263,7 @@
       "M6A2",
       "50mmROY",
       "50mm",
-      "M2ReSound",
-      "FireRT"
+      "M2ReSound"
     ]
   },
   {
@@ -459,6 +458,31 @@
     "Requirements": [
       "Vprel"
     ]
+  },
+  {
+    "Id": "SovietG",
+    "Name": {
+      "en-US": "Soviet Guards Regiment",
+      "zh-CN": "苏军红金近卫军徽章替换"
+    },
+    "Description": {
+      "en-US": "Soviet Guards Regiment Mod (Version 1.3, 6 April 2026) is a visual replacement mod for Gunner, HEAT, PC that swaps the tactical markings found on Soviet ground vehicles—usually placed on turret cheeks, spotlight covers, or stowage boxes—with the red-and-gold Guards badge awarded to elite “Guards” units. The idea draws on the historical use of these insignia not only during parades and inspections, but also on exercises and maneuvers. If war were to break out suddenly, or under the cover of a training operation, it is easy to imagine these vehicles going into combat before anyone had time to paint the emblems over, carrying their full regalia into battle just as earlier generations might have done. The mod currently affects the BMP-1(P), BMP-2, BRDM-2, BTR-60PB, BTR-70, T-62, all T-64 variants, and the T-80. These changes appear across all missions, including vehicles added through the in-game customizer, and they are also visible in the main menu dioramas. In addition, the mod gives Soviet infantry a proper Guards badge worn on the right breast of the tunic.\nAfter the first launch, the mod generates a MelonPreferences configuration file with several optional settings, including the ability to remove camouflage netting that would otherwise hide the new insignia, disable the console log messages used to report detected and modified vehicles, and individually enable or disable each supported vehicle type and infantry according to personal preference. Known issues currently include insignia remaining visible even after a vehicle has been destroyed and burned out, infantry badges lacking proper specularity because they share the same dull material as vehicle decals, and possible compatibility conflicts with other mods that heavily alter Soviet vehicle components, although Pact Increased Lethality appears to work without major problems.",
+      "zh-CN": "Soviet Guards Regiment Mod外观替换模组，它会将苏军地面载具上原本出现于炮塔侧面、探照灯罩或储物箱位置的战术符号，替换为象征“近卫”荣誉称号的红金近卫军徽章。这个设定基于一种很有历史感的想象：近卫部队在阅兵、检阅乃至演习中都会保留这些荣耀标识，而如果战争在演习或高度戒备状态下突然爆发，他们也许根本来不及涂掉徽记，就会像他们的父辈与祖辈一样，带着完整的荣誉标识直接投入战斗。该模组目前会影响 BMP-1(P)、BMP-2、BRDM-2、BTR-60PB、BTR-70、T-62、全部 T-64 变体以及 T-80，并且这些改动会在所有任务中生效，包括通过自定义器添加苏军载具的情况，同时主菜单中的场景展示模型也会同步显示变化。除此之外，模组还为苏军步兵添加了真实样式的近卫军徽章，佩戴位置为制服右胸。\n模组在首次运行后会生成 MelonPreferences 配置文件，玩家可以按需启用或关闭多个选项，例如移除可能遮挡徽章的炮塔伪装网、关闭载具识别与修改相关的控制台日志，以及分别控制各类载具和步兵是否启用近卫徽章效果。当前已知问题包括：载具被击毁并烧毁后，徽章不会随之消失或变暗；步兵徽章由于共用载具贴花材质，因此缺乏更真实的金属反光效果；另外，如果与大幅修改苏军载具组件的其他模组同时使用，可能会出现兼容性问题，不过 华约增强模组已确认基本可以正常共存。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/SovietGuards/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "SovietGuards.dll",
+    "ConfigSectionName": "SovietGuards",
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "NATOERA",
@@ -729,14 +753,14 @@
     "InstallMethod": "DirectRelease"
   },
   {
-    "Id": "RandomNB",
+    "Id": "Fastballist",
     "Name": {
-      "en-US": "Random Night Battles",
-      "zh-CN": "随机夜战"
+      "en-US": "Faster Ballistics Indexing",
+      "zh-CN": "快速弹道切换"
     },
     "Description": {
-      "en-US": "Random Night Battles in chance.",
-      "zh-CN": "随机夜战,概率可调。"
+      "en-US": "Inspired by a suggestion in the feedback for “Make sight change quicker for e…”, this small mod changes when the fire control system switches the selected ammunition. Instead of updating at the end of the reload sequence, it now switches at the beginning.\nThis allows you to place the crosshair on target and fire the moment the gun is ready, with no more unexpected ammo changes.",
+      "zh-CN": "本模组灵感来自 “Make sight change quicker for e…” 反馈中的一条建议。它对火控系统切换当前弹种的时机进行了一个简单调整：不再在装填流程结束时切换，而是在装填开始时就完成切换。\n这样一来，你可以提前将准星对准目标，并在火炮装填完成后立即开火，不会再遇到弹种突然变化的情况。"
     },
     "Tags": {
       "enhancement": {
@@ -745,12 +769,11 @@
       }
     },
     "SupportedGameVersions": [
-      "20250630"
+      "20260319.1"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/thebeninator/Random-Night-Battles/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/Faster-Ballistics-Indexing/releases/latest",
     "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "RandomNightBattles.dll",
-    "ConfigSectionName": "RandomNightBattles",
+    "MainBinaryFileName": "FasterBallasticsIndexing.dll",
     "InstallMethod": "DirectRelease"
   },
   {
@@ -775,6 +798,31 @@
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/CustomizerUnrestricted/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "UnrestrictedCustomizer.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "RandomNB",
+    "Name": {
+      "en-US": "Random Night Battles",
+      "zh-CN": "随机夜战"
+    },
+    "Description": {
+      "en-US": "Random Night Battles in chance.",
+      "zh-CN": "随机夜战,概率可调。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20250630"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/Random-Night-Battles/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "RandomNightBattles.dll",
+    "ConfigSectionName": "RandomNightBattles",
     "InstallMethod": "DirectRelease"
   },
   {
