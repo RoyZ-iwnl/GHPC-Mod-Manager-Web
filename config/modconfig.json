@@ -522,8 +522,7 @@
     "InstallMethod": "DirectRelease",
     "Conflicts": [
       "underdog"
-    ],
-    "Delisted": true
+    ]
   },
   {
     "Id": "soundR",
