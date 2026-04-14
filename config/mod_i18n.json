@@ -3823,6 +3823,10 @@
     "underdog": {
       "ModId": "underdog",
       "ConfigLabels": {
+        "BMP-1 Mod Master Switch": {
+          "zh-CN": "BMP-1 模组总开关",
+          "en-US": "BMP-1 Mod Master Switch"
+        },
         "BMP-1 Stabilizer": {
           "zh-CN": "BMP-1稳定器",
           "en-US": "BMP-1 Stabilizer"
@@ -3836,7 +3840,7 @@
           "en-US": "BMP-1 Rangefinder"
         },
         "BMP-1 9M14TV Malyutka-TV": {
-          "zh-CN": "BMP-1 9M14TV马留特卡-TV导弹",
+          "zh-CN": "BMP-1 9M14TV婴儿-TV导弹",
           "en-US": "BMP-1 9M14TV Malyutka-TV"
         },
         "BMP-1 MCLOS Ready Missiles": {
@@ -3850,6 +3854,10 @@
         "BMP-1 MCLOS FLIR Remove Scanline": {
           "zh-CN": "BMP-1 MCLOS FLIR移除扫描线",
           "en-US": "BMP-1 MCLOS FLIR Remove Scanline"
+        },
+        "BRDM-2 Mod Master Switch": {
+          "zh-CN": "BRDM-2 模组总开关",
+          "en-US": "BRDM-2 Mod Master Switch"
         },
         "BRDM-2 Stabilizer": {
           "zh-CN": "BRDM-2 稳定器",
@@ -3867,6 +3875,138 @@
           "zh-CN": "BRDM-2 测距器",
           "en-US": "BRDM-2 Rangefinder"
         },
+        "Marder Mod Master Switch": {
+          "zh-CN": "Marder 模组总开关",
+          "en-US": "Marder Mod Master Switch"
+        },
+        "Marder Stabilizer": {
+          "zh-CN": "黄鼠狼Marder稳定器",
+          "en-US": "Marder Stabilizer"
+        },
+        "Marder MILAN Stabilizer": {
+          "zh-CN": "黄鼠狼MILAN导弹稳定器",
+          "en-US": "Marder MILAN Stabilizer"
+        },
+        "Marder Rangefinder": {
+          "zh-CN": "黄鼠狼Marder测距仪",
+          "en-US": "Marder Rangefinder"
+        },
+        "Marder Spike WIP": {
+          "zh-CN": "黄鼠狼 Spike 试验功能",
+          "en-US": "Marder Spike WIP"
+        },
+        "Marder Spike Ready Missiles": {
+          "zh-CN": "黄鼠狼 Spike 就绪导弹数量",
+          "en-US": "Marder Spike Ready Missiles"
+        },
+        "Leopard Mod Master Switch": {
+          "zh-CN": "Leopard 模组总开关",
+          "en-US": "Leopard Mod Master Switch"
+        },
+        "Leopard 1A3 Convert to 1A5": {
+          "zh-CN": "豹1A3转换为1A5",
+          "en-US": "Leopard 1A3 Convert to 1A5"
+        },
+        "Leopard 1A3 EMES18 FCS Only": {
+          "zh-CN": "豹1A3仅启用EMES18火控",
+          "en-US": "Leopard 1A3 EMES18 FCS Only"
+        },
+        "Leopard 1A3 Ammo AP Rounds": {
+          "zh-CN": "豹1A3穿甲弹类型",
+          "en-US": "Leopard 1A3 Ammo AP Rounds"
+        },
+        "Leopard 1A3A1 Convert to 1A5": {
+          "zh-CN": "豹1A3A1转换为1A5",
+          "en-US": "Leopard 1A3A1 Convert to 1A5"
+        },
+        "Leopard 1A3A1 EMES18 FCS Only": {
+          "zh-CN": "豹1A3A1仅启用EMES18火控",
+          "en-US": "Leopard 1A3A1 EMES18 FCS Only"
+        },
+        "Leopard 1A3A1 Ammo AP Rounds": {
+          "zh-CN": "豹1A3A1穿甲弹类型",
+          "en-US": "Leopard 1A3A1 Ammo AP Rounds"
+        },
+        "Leopard 1A3A2 Convert to 1A5": {
+          "zh-CN": "豹1A3A2转换为1A5",
+          "en-US": "Leopard 1A3A2 Convert to 1A5"
+        },
+        "Leopard 1A3A2 EMES18 FCS Only": {
+          "zh-CN": "豹1A3A2仅启用EMES18火控",
+          "en-US": "Leopard 1A3A2 EMES18 FCS Only"
+        },
+        "Leopard 1A3A2 Ammo AP Rounds": {
+          "zh-CN": "豹1A3A2穿甲弹类型",
+          "en-US": "Leopard 1A3A2 Ammo AP Rounds"
+        },
+        "Leopard 1A3A3 Convert to 1A5": {
+          "zh-CN": "豹1A3A3转换为1A5",
+          "en-US": "Leopard 1A3A3 Convert to 1A5"
+        },
+        "Leopard 1A3A3 EMES18 FCS Only": {
+          "zh-CN": "豹1A3A3仅启用EMES18火控",
+          "en-US": "Leopard 1A3A3 EMES18 FCS Only"
+        },
+        "Leopard 1A3A3 Ammo AP Rounds": {
+          "zh-CN": "豹1A3A3穿甲弹类型",
+          "en-US": "Leopard 1A3A3 Ammo AP Rounds"
+        },
+        "Leopard A1A1 Convert to 1A5": {
+          "zh-CN": "豹A1A1转换为1A5",
+          "en-US": "Leopard A1A1 Convert to 1A5"
+        },
+        "Leopard A1A1 EMES18 FCS Only": {
+          "zh-CN": "豹A1A1仅启用EMES18火控",
+          "en-US": "Leopard A1A1 EMES18 FCS Only"
+        },
+        "Leopard A1A1 Ammo AP Rounds": {
+          "zh-CN": "豹A1A1穿甲弹类型",
+          "en-US": "Leopard A1A1 Ammo AP Rounds"
+        },
+        "Leopard A1A2 Convert to 1A5": {
+          "zh-CN": "豹A1A2转换为1A5",
+          "en-US": "Leopard A1A2 Convert to 1A5"
+        },
+        "Leopard A1A2 EMES18 FCS Only": {
+          "zh-CN": "豹A1A2仅启用EMES18火控",
+          "en-US": "Leopard A1A2 EMES18 FCS Only"
+        },
+        "Leopard A1A2 Ammo AP Rounds": {
+          "zh-CN": "豹A1A2穿甲弹类型",
+          "en-US": "Leopard A1A2 Ammo AP Rounds"
+        },
+        "Leopard A1A3 Convert to 1A5": {
+          "zh-CN": "豹A1A3转换为1A5",
+          "en-US": "Leopard A1A3 Convert to 1A5"
+        },
+        "Leopard A1A3 EMES18 FCS Only": {
+          "zh-CN": "豹A1A3仅启用EMES18火控",
+          "en-US": "Leopard A1A3 EMES18 FCS Only"
+        },
+        "Leopard A1A3 Ammo AP Rounds": {
+          "zh-CN": "豹A1A3穿甲弹类型",
+          "en-US": "Leopard A1A3 Ammo AP Rounds"
+        },
+        "Leopard A1A4 Convert to 1A5": {
+          "zh-CN": "豹A1A4转换为1A5",
+          "en-US": "Leopard A1A4 Convert to 1A5"
+        },
+        "Leopard A1A4 EMES18 FCS Only": {
+          "zh-CN": "豹A1A4仅启用EMES18火控",
+          "en-US": "Leopard A1A4 EMES18 FCS Only"
+        },
+        "Leopard A1A4 Ammo AP Rounds": {
+          "zh-CN": "豹A1A4穿甲弹类型",
+          "en-US": "Leopard A1A4 Ammo AP Rounds"
+        },
+        "Leopard 1A5 Ammo AP Rounds": {
+          "zh-CN": "豹1A5穿甲弹类型",
+          "en-US": "Leopard 1A5 Ammo AP Rounds"
+        },
+        "BTR-70 Mod Master Switch": {
+          "zh-CN": "BTR-70 模组总开关",
+          "en-US": "BTR-70 Mod Master Switch"
+        },
         "BTR-70 Stabilizer": {
           "zh-CN": "BTR-70 稳定器",
           "en-US": "BTR-70 Stabilizer"
@@ -3883,81 +4023,9 @@
           "zh-CN": "BTR-70 激光测距仪",
           "en-US": "BTR-70 Rangefinder"
         },
-        "Marder Stabilizer": {
-          "zh-CN": "黄鼠狼Marder稳定器",
-          "en-US": "Marder Stabilizer"
-        },
-        "Marder MILAN Stabilizer": {
-          "zh-CN": "黄鼠狼MILAN导弹稳定器",
-          "en-US": "Marder MILAN Stabilizer"
-        },
-        "Marder Rangefinder": {
-          "zh-CN": "黄鼠狼Marder测距仪",
-          "en-US": "Marder Rangefinder"
-        },
-        "Leopard A1A4 EMES18 Sight": {
-          "zh-CN": "豹A1A4 EMES18火控瞄准具",
-          "en-US": "Leopard A1A4 EMES18 Sight"
-        },
-        "Leopard A1A4 DM63 Ammo": {
-          "zh-CN": "豹A1A4 DM63弹药",
-          "en-US": "Leopard A1A4 DM63 Ammo"
-        },
-        "Leopard 1A3 EMES18 Sight": {
-          "zh-CN": "豹1A3 EMES18火控瞄准具",
-          "en-US": "Leopard 1A3 EMES18 Sight"
-        },
-        "Leopard 1A3 DM63 Ammo": {
-          "zh-CN": "豹1A3 DM63弹药",
-          "en-US": "Leopard 1A3 DM63 Ammo"
-        },
-        "Leopard 1A3A2 EMES18 Sight": {
-          "zh-CN": "豹1A3A2 EMES18火控瞄准具",
-          "en-US": "Leopard 1A3A2 EMES18 Sight"
-        },
-        "Leopard 1A3A2 DM63 Ammo": {
-          "zh-CN": "豹1A3A2 DM63弹药",
-          "en-US": "Leopard 1A3A2 DM63 Ammo"
-        },
-        "Leopard A1A1 EMES18 Sight": {
-          "zh-CN": "豹A1A1 EMES18火控瞄准具",
-          "en-US": "Leopard A1A1 EMES18 Sight"
-        },
-        "Leopard A1A1 DM63 Ammo": {
-          "zh-CN": "豹A1A1 DM63弹药",
-          "en-US": "Leopard A1A1 DM63 Ammo"
-        },
-        "Leopard A1A3 EMES18 Sight": {
-          "zh-CN": "豹A1A3 EMES18火控瞄准具",
-          "en-US": "Leopard A1A3 EMES18 Sight"
-        },
-        "Leopard A1A3 DM63 Ammo": {
-          "zh-CN": "豹A1A3 DM63弹药",
-          "en-US": "Leopard A1A3 DM63 Ammo"
-        },
-        "Leopard 1A3A1 EMES18 Sight": {
-          "zh-CN": "豹1A3A1 EMES18火控瞄准具",
-          "en-US": "Leopard 1A3A1 EMES18 Sight"
-        },
-        "Leopard 1A3A1 DM63 Ammo": {
-          "zh-CN": "豹1A3A1 DM63弹药",
-          "en-US": "Leopard 1A3A1 DM63 Ammo"
-        },
-        "Leopard 1A3A3 EMES18 Sight": {
-          "zh-CN": "豹1A3A3 EMES18火控瞄准具",
-          "en-US": "Leopard 1A3A3 EMES18 Sight"
-        },
-        "Leopard 1A3A3 DM63 Ammo": {
-          "zh-CN": "豹1A3A3 DM63弹药",
-          "en-US": "Leopard 1A3A3 DM63 Ammo"
-        },
-        "Leopard A1A2 EMES18 Sight": {
-          "zh-CN": "豹A1A2 EMES18火控瞄准具",
-          "en-US": "Leopard A1A2 EMES18 Sight"
-        },
-        "Leopard A1A2 DM63 Ammo": {
-          "zh-CN": "豹A1A2 DM63弹药",
-          "en-US": "Leopard A1A2 DM63 Ammo"
+        "PT-76B Mod Master Switch": {
+          "zh-CN": "PT-76B 模组总开关",
+          "en-US": "PT-76B Mod Master Switch"
         },
         "PT-76B Rangefinder": {
           "zh-CN": "PT-76B激光测距仪",
@@ -3967,6 +4035,10 @@
           "zh-CN": "PT-76B 瞄准镜增强",
           "en-US": "PT-76B Optics"
         },
+        "T-64 Mod Master Switch": {
+          "zh-CN": "T-64 模组总开关",
+          "en-US": "T-64 Mod Master Switch"
+        },
         "T-64 NSVT Optics": {
           "zh-CN": "T-64 NSVT高射机枪瞄准镜增强",
           "en-US": "T-64 NSVT Optics"
@@ -3975,9 +4047,17 @@
           "zh-CN": "T-64 NSVT高射机枪稳定器",
           "en-US": "T-64 NSVT Stabilizer"
         },
+        "T-54A Mod Master Switch": {
+          "zh-CN": "T-54A 模组总开关",
+          "en-US": "T-54A Mod Master Switch"
+        },
         "T-54A Rangefinder": {
           "zh-CN": "T-54A激光测距仪",
           "en-US": "T-54A Rangefinder"
+        },
+        "T-34-85M Mod Master Switch": {
+          "zh-CN": "T-34-85M 模组总开关",
+          "en-US": "T-34-85M Mod Master Switch"
         },
         "T-34-85M Stabilizer": {
           "zh-CN": "T-34-85M 稳定器",
@@ -3990,6 +4070,10 @@
         "T-34-85M Rangefinder": {
           "zh-CN": "T-34-85M 激光测距仪",
           "en-US": "T-34-85M Rangefinder"
+        },
+        "Repair Function": {
+          "zh-CN": "维修功能",
+          "en-US": "Repair Function"
         }
       },
       "ConfigComments": {
@@ -4006,7 +4090,7 @@
           "en-US": "Gives BMP-1/BMP-1P a laser rangefinder (display only, no auto-ranging; default: enabled)"
         },
         "Adds the fictional 9M14TV Malyutka-TV TV-guided missile for the BMP-1 (default: enabled)": {
-          "zh-CN": "为BMP-1添加虚构的9M14TV马留特卡-TV电视制导导弹（默认：开启）",
+          "zh-CN": "为BMP-1添加虚构的9M14TV婴儿-TV电视制导导弹（默认：开启）",
           "en-US": "Adds the fictional 9M14TV Malyutka-TV TV-guided missile for the BMP-1 (default: enabled)"
         },
         "Ready rack missile count for BMP-1 MCLOS. -1 uses game's original count; >0 overrides.(max: 64)": {
@@ -4037,6 +4121,66 @@
           "zh-CN": "为BRDM-2提供数显式测距仪 默认开启",
           "en-US": "Gives BRDM-2 a laser rangefinder (display only, no auto-ranging; default: enabled)"
         },
+        "Gives Marder series a stabilizer (default: enabled)": {
+          "zh-CN": "为黄鼠狼Marder提供稳定器 默认开启",
+          "en-US": "Gives Marder series a stabilizer (default: enabled)"
+        },
+        "Stabilizes MILAN launcher on Marder A1+ and Marder 1A2 (default: enabled)": {
+          "zh-CN": "为黄鼠狼Marder A1+和1A2的MILAN导弹提供稳定器 默认开启",
+          "en-US": "Stabilizes MILAN launcher on Marder A1+ and Marder 1A2 (default: enabled)"
+        },
+        "Gives Marder series laser rangefinder and parallax fix (default: enabled)": {
+          "zh-CN": "为黄鼠狼Marder全系提供激光测距仪 默认开启",
+          "en-US": "Gives Marder series laser rangefinder and parallax fix (default: enabled)"
+        },
+        "WIP WARNING:Converts Marder 1A2 and Marder A1+ MILAN launcher to a Spike-style hybrid TV/FnF suite (default: disabled)": {
+          "zh-CN": "开发中警告：将Marder 1A2和Marder A1+的MILAN发射器改为类似Spike的电视制导/发射后不管混合系统（默认：关闭）",
+          "en-US": "WIP WARNING:Converts Marder 1A2 and Marder A1+ MILAN launcher to a Spike-style hybrid TV/FnF suite (default: disabled)"
+        },
+        "WIP WARNING:Reserve missile count for Marder Spike (does not include the initial round loaded into breech). -1 uses game's original reserve logic; >0 overrides. (max: 64)": {
+          "zh-CN": "开发中警告：Marder Spike备用导弹数量（不含膛内首发），-1使用游戏原始逻辑，大于0则覆盖（最大：64）",
+          "en-US": "WIP WARNING:Reserve missile count for Marder Spike (does not include the initial round loaded into breech). -1 uses game's original reserve logic; >0 overrides. (max: 64)"
+        },
+        "Convert to Leopard 1A5 (EMES-18 sight + new turret appearance); disable to keep vanilla appearance": {
+          "zh-CN": "转换为豹1A5（EMES-18瞄具+新炮塔外观）；关闭则保留原版外观",
+          "en-US": "Convert to Leopard 1A5 (EMES-18 sight + new turret appearance); disable to keep vanilla appearance"
+        },
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3 Convert to 1A5' is disabled": {
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3 Convert to 1A5”关闭时生效",
+          "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3 Convert to 1A5' is disabled"
+        },
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A1 Convert to 1A5' is disabled": {
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3A1 Convert to 1A5”关闭时生效",
+          "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A1 Convert to 1A5' is disabled"
+        },
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A2 Convert to 1A5' is disabled": {
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3A2 Convert to 1A5”关闭时生效",
+          "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A2 Convert to 1A5' is disabled"
+        },
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A3 Convert to 1A5' is disabled": {
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3A3 Convert to 1A5”关闭时生效",
+          "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A3 Convert to 1A5' is disabled"
+        },
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A1 Convert to 1A5' is disabled": {
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A1 Convert to 1A5”关闭时生效",
+          "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A1 Convert to 1A5' is disabled"
+        },
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A2 Convert to 1A5' is disabled": {
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A2 Convert to 1A5”关闭时生效",
+          "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A2 Convert to 1A5' is disabled"
+        },
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A3 Convert to 1A5' is disabled": {
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A3 Convert to 1A5”关闭时生效",
+          "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A3 Convert to 1A5' is disabled"
+        },
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A4 Convert to 1A5' is disabled": {
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A4 Convert to 1A5”关闭时生效",
+          "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A4 Convert to 1A5' is disabled"
+        },
+        "AP round type selection: Default=vanilla, DM33=420mm penetration, DM63=447mm penetration": {
+          "zh-CN": "穿甲弹类型选择：Default=原版，DM33=420毫米穿深，DM63=447毫米穿深",
+          "en-US": "AP round type selection: Default=vanilla, DM33=420mm penetration, DM63=447mm penetration"
+        },
         "Gives BTR-70 a stabilizer (default: enabled)": {
           "zh-CN": "为BTR-70提供稳定器 默认开启",
           "en-US": "Gives BTR-70 a stabilizer (default: enabled)"
@@ -4052,82 +4196,6 @@
         "Gives BTR-70 a laser rangefinder (display only, no auto-ranging; default: enabled)": {
           "zh-CN": "为BTR-70提供数显式测距仪 默认开启",
           "en-US": "Gives BTR-70 a laser rangefinder (display only, no auto-ranging; default: enabled)"
-        },
-        "Gives Marder series a stabilizer (default: enabled)": {
-          "zh-CN": "为黄鼠狼Marder提供稳定器 默认开启",
-          "en-US": "Gives Marder series a stabilizer (default: enabled)"
-        },
-        "Stabilizes MILAN launcher on Marder A1+ and Marder 1A2 (default: enabled)": {
-          "zh-CN": "为黄鼠狼Marder A1+和1A2的MILAN导弹提供稳定器 默认开启",
-          "en-US": "Stabilizes MILAN launcher on Marder A1+ and Marder 1A2 (default: enabled)"
-        },
-        "Gives Marder series laser rangefinder and parallax fix (default: enabled)": {
-          "zh-CN": "为黄鼠狼Marder全系提供激光测距仪 默认开启",
-          "en-US": "Gives Marder series laser rangefinder and parallax fix (default: enabled)"
-        },
-        "Applies EMES18 FCS to Leopard A1A4 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
-          "zh-CN": "为豹A1A4应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
-          "en-US": "Applies EMES18 FCS to Leopard A1A4 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
-        },
-        "Replaces stock APFSDS with DM63 on Leopard A1A4 (default: enabled)": {
-          "zh-CN": "将豹A1A4的原装APFSDS替换为DM63（默认：开启）",
-          "en-US": "Replaces stock APFSDS with DM63 on Leopard A1A4 (default: enabled)"
-        },
-        "Applies EMES18 FCS to Leopard 1A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
-          "zh-CN": "为豹1A3应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
-          "en-US": "Applies EMES18 FCS to Leopard 1A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
-        },
-        "Replaces stock APFSDS with DM63 on Leopard 1A3 (default: enabled)": {
-          "zh-CN": "将豹1A3的原装APFSDS替换为DM63（默认：开启）",
-          "en-US": "Replaces stock APFSDS with DM63 on Leopard 1A3 (default: enabled)"
-        },
-        "Applies EMES18 FCS to Leopard 1A3A2 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
-          "zh-CN": "为豹1A3A2应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
-          "en-US": "Applies EMES18 FCS to Leopard 1A3A2 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
-        },
-        "Replaces stock APFSDS with DM63 on Leopard 1A3A2 (default: enabled)": {
-          "zh-CN": "将豹1A3A2的原装APFSDS替换为DM63（默认：开启）",
-          "en-US": "Replaces stock APFSDS with DM63 on Leopard 1A3A2 (default: enabled)"
-        },
-        "Applies EMES18 FCS to Leopard A1A1 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
-          "zh-CN": "为豹A1A1应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
-          "en-US": "Applies EMES18 FCS to Leopard A1A1 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
-        },
-        "Replaces stock APFSDS with DM63 on Leopard A1A1 (default: enabled)": {
-          "zh-CN": "将豹A1A1的原装APFSDS替换为DM63（默认：开启）",
-          "en-US": "Replaces stock APFSDS with DM63 on Leopard A1A1 (default: enabled)"
-        },
-        "Applies EMES18 FCS to Leopard A1A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
-          "zh-CN": "为豹A1A3应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
-          "en-US": "Applies EMES18 FCS to Leopard A1A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
-        },
-        "Replaces stock APFSDS with DM63 on Leopard A1A3 (default: enabled)": {
-          "zh-CN": "将豹A1A3的原装APFSDS替换为DM63（默认：开启）",
-          "en-US": "Replaces stock APFSDS with DM63 on Leopard A1A3 (default: enabled)"
-        },
-        "Applies EMES18 FCS to Leopard 1A3A1 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
-          "zh-CN": "为豹1A3A1应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
-          "en-US": "Applies EMES18 FCS to Leopard 1A3A1 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
-        },
-        "Replaces stock APFSDS with DM63 on Leopard 1A3A1 (default: enabled)": {
-          "zh-CN": "将豹1A3A1的原装APFSDS替换为DM63（默认：开启）",
-          "en-US": "Replaces stock APFSDS with DM63 on Leopard 1A3A1 (default: enabled)"
-        },
-        "Applies EMES18 FCS to Leopard 1A3A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
-          "zh-CN": "为豹1A3A3应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
-          "en-US": "Applies EMES18 FCS to Leopard 1A3A3 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
-        },
-        "Replaces stock APFSDS with DM63 on Leopard 1A3A3 (default: enabled)": {
-          "zh-CN": "将豹1A3A3的原装APFSDS替换为DM63（默认：开启）",
-          "en-US": "Replaces stock APFSDS with DM63 on Leopard 1A3A3 (default: enabled)"
-        },
-        "Applies EMES18 FCS to Leopard A1A2 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)": {
-          "zh-CN": "为豹A1A2应用EMES18火控系统（激光测距仪+3-12倍FLIR瞄准具+指向即射；默认：开启）",
-          "en-US": "Applies EMES18 FCS to Leopard A1A2 (laser rangefinder + 3-12 FLIR optics + point-n-shoot; default: enabled)"
-        },
-        "Replaces stock APFSDS with DM63 on Leopard A1A2 (default: enabled)": {
-          "zh-CN": "将豹A1A2的原装APFSDS替换为DM63（默认：开启）",
-          "en-US": "Replaces stock APFSDS with DM63 on Leopard A1A2 (default: enabled)"
         },
         "Gives PT-76B a laser rangefinder with auto-ranging (default: enabled)": {
           "zh-CN": "为PT-76B提供自动装表测距仪 默认开启",
@@ -4160,10 +4228,20 @@
         "Gives T-34-85M a laser rangefinder with auto-ranging (default: enabled)": {
           "zh-CN": "为 T-34-85M 提供具有自动装表功能的激光测距仪（默认：开启）",
           "en-US": "Gives T-34-85M a laser rangefinder with auto-ranging (default: enabled)"
+        },
+        "Enable vehicle repair function (press J to repair; default: enabled)": {
+          "zh-CN": "启用车辆维修功能（按 J 键维修；默认：开启）",
+          "en-US": "Enable vehicle repair function (press J to repair; default: enabled)"
         }
       },
       "multiplechoice": {},
-      "singlechoice": {}
+      "singlechoice": {
+        "Leopard 1A3 Ammo AP Rounds,Leopard 1A3A1 Ammo AP Rounds,Leopard 1A3A2 Ammo AP Rounds,Leopard 1A3A3 Ammo AP Rounds,Leopard A1A1 Ammo AP Rounds,Leopard A1A2 Ammo AP Rounds,Leopard A1A3 Ammo AP Rounds,Leopard A1A4 Ammo AP Rounds,Leopard 1A5 Ammo AP Rounds": [
+          "Default",
+          "DM33",
+          "DM63"
+        ]
+      }
     },
     "minhud": {
       "ModId": "minhud",
@@ -4786,8 +4864,8 @@
         }
       }
     },
-    "CanadianLeopards": {
-      "ModId": "CanadianLeopards",
+    "CLeopards": {
+      "ModId": "CLeopards",
       "ConfigLabels": {
         "Customize ammo loadout": {
           "zh-CN": "自定义弹药装载",
