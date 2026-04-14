@@ -2,6 +2,9 @@
 
 ## Announcement
 
+### 2026-04-14
+- v1.3.3 stable release is now available with new mods banner in installed page, navigation service refactor, and translation backup extension migration. See the [changelog](#v133) below for details.
+
 ### 2026-04-05
 - v1.3.2 stable release is now available with multi-format archive support, new mods detection banner, and manager version requirement check. See the [changelog](#v132) below for details.
 
@@ -76,6 +79,22 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.3
+#### feat: Release version 1.3.3 with new mods banner in installed page, navigation service refactor, and translation backup extension migration
+- Bump version to 1.3.3
+- Add new mods banner display in InstalledModsView with navigation to Mod Browser
+- Add PageNavigationRequested event and NavigateToPage/NavigateToModBrowser/NavigateToInstalledMods/NavigateToTranslation methods in NavigationService
+- Add GoToModBrowser localization string for banner button
+- Add ShowUninstalledOnly field in AppSettings for persisting mod browser filter state
+- Sync new mods banner data from ModBrowserViewModel to InstalledModsViewModel
+- Refactor GoToInstalledMods and GoToTranslationManagement to use NavigationService
+- Migrate translation plugin backup extension from .dllbak to .GHPCMMBAK with automatic migration on load
+- Add backward compatibility for old .dllbak backup extension detection
+- Fix download progress percentage cap at 100% to prevent overflow from inaccurate Content-Length
+- Fix config comment parsing to treat all lines starting with # as comments
+- Remove ITranslationBackupService dependency from App.xaml.cs and MainViewModel
+- Update new mods preview list to show all detected mod names instead of limiting to 3
 
 ### v1.3.2
 #### feat: Release version 1.3.2 with multi-format archive support, new mods detection banner, and manager version requirement check

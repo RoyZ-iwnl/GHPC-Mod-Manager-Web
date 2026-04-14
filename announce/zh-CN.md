@@ -2,6 +2,9 @@
 
 ## 公告
 
+### 2026-04-14
+- v1.3.3 正式版已发布，新增已安装页新上架Mod横幅、导航服务重构与翻译备份后缀迁移，详情见下方[更新日志](#v133)。
+
 ### 2026-04-05
 - v1.3.2 正式版已发布，新增多格式压缩包支持、新上架Mod横幅与管理器版本要求检查，详情见下方[更新日志](#v132)。
 
@@ -79,6 +82,22 @@
 - GHPC版本20250902已发布，部分mod可能出现不适配的情况，请根据实际情况安装或更新。
 
 ## 更新日志
+
+### v1.3.3
+#### feat: 发布1.3.3正式版，新增已安装页新上架Mod横幅、导航服务重构与翻译备份后缀迁移
+- 版本升级至1.3.3
+- 新增已安装页新上架Mod横幅显示，支持跳转到Mod浏览页
+- 新增PageNavigationRequested事件及NavigateToPage等页面导航方法
+- 新增GoToModBrowser国际化字符串用于横幅按钮
+- 新增ShowUninstalledOnly字段，持久化Mod浏览页筛选状态
+- 同步新上架Mod横幅数据从ModBrowserViewModel到InstalledModsViewModel
+- 重构GoToInstalledMods和GoToTranslationManagement改用NavigationService
+- 迁移翻译插件备份后缀从.dllbak改为.GHPCMMBAK，加载时自动迁移旧文件
+- 新增旧版.dllbak备份后缀的向后兼容检测
+- 修复下载进度百分比上限为100%，防止Content-Length不准确导致超限
+- 修复配置注释解析，以#开头的行均视为注释
+- 移除App.xaml.cs和MainViewModel中的ITranslationBackupService依赖
+- 更新新上架Mod预览列表，改为显示全部检测到的Mod名称而非仅限3个
 
 ### v1.3.2
 #### feat: 发布1.3.2正式版，新增多格式压缩包支持、新上架Mod横幅与管理器版本要求检查

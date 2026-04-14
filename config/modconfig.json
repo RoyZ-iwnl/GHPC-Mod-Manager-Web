@@ -117,7 +117,8 @@
     ],
     "Conflicts": [
       "M1A1"
-    ]
+    ],
+    "Delisted": true
   },
   {
     "Id": "underdog",
@@ -232,7 +233,8 @@
     "InstallMethod": "DirectRelease",
     "Conflicts": [
       "SM60ROY"
-    ]
+    ],
+    "Delisted": true
   },
   {
     "Id": "M2Ex",
@@ -331,7 +333,8 @@
       "M6A2ROY",
       "50mmROY",
       "FireRT"
-    ]
+    ],
+    "Delisted": true
   },
   {
     "Id": "M3A2",
@@ -362,7 +365,8 @@
       "NATOERA",
       "M6A2ROY",
       "50mmROY"
-    ]
+    ],
+    "Delisted": true
   },
   {
     "Id": "50mmROY",
@@ -429,7 +433,8 @@
       "50mmROY",
       "M6A2ROY",
       "M2ReSound"
-    ]
+    ],
+    "Delisted": true
   },
   {
     "Id": "M113TOW",
@@ -460,31 +465,6 @@
     ]
   },
   {
-    "Id": "SovietG",
-    "Name": {
-      "en-US": "Soviet Guards Regiment",
-      "zh-CN": "苏军红金近卫军徽章替换"
-    },
-    "Description": {
-      "en-US": "Soviet Guards Regiment Mod (Version 1.3, 6 April 2026) is a visual replacement mod for Gunner, HEAT, PC that swaps the tactical markings found on Soviet ground vehicles—usually placed on turret cheeks, spotlight covers, or stowage boxes—with the red-and-gold Guards badge awarded to elite “Guards” units. The idea draws on the historical use of these insignia not only during parades and inspections, but also on exercises and maneuvers. If war were to break out suddenly, or under the cover of a training operation, it is easy to imagine these vehicles going into combat before anyone had time to paint the emblems over, carrying their full regalia into battle just as earlier generations might have done. The mod currently affects the BMP-1(P), BMP-2, BRDM-2, BTR-60PB, BTR-70, T-62, all T-64 variants, and the T-80. These changes appear across all missions, including vehicles added through the in-game customizer, and they are also visible in the main menu dioramas. In addition, the mod gives Soviet infantry a proper Guards badge worn on the right breast of the tunic.\nAfter the first launch, the mod generates a MelonPreferences configuration file with several optional settings, including the ability to remove camouflage netting that would otherwise hide the new insignia, disable the console log messages used to report detected and modified vehicles, and individually enable or disable each supported vehicle type and infantry according to personal preference. Known issues currently include insignia remaining visible even after a vehicle has been destroyed and burned out, infantry badges lacking proper specularity because they share the same dull material as vehicle decals, and possible compatibility conflicts with other mods that heavily alter Soviet vehicle components, although Pact Increased Lethality appears to work without major problems.",
-      "zh-CN": "Soviet Guards Regiment Mod外观替换模组，它会将苏军地面载具上原本出现于炮塔侧面、探照灯罩或储物箱位置的战术符号，替换为象征“近卫”荣誉称号的红金近卫军徽章。这个设定基于一种很有历史感的想象：近卫部队在阅兵、检阅乃至演习中都会保留这些荣耀标识，而如果战争在演习或高度戒备状态下突然爆发，他们也许根本来不及涂掉徽记，就会像他们的父辈与祖辈一样，带着完整的荣誉标识直接投入战斗。该模组目前会影响 BMP-1(P)、BMP-2、BRDM-2、BTR-60PB、BTR-70、T-62、全部 T-64 变体以及 T-80，并且这些改动会在所有任务中生效，包括通过自定义器添加苏军载具的情况，同时主菜单中的场景展示模型也会同步显示变化。除此之外，模组还为苏军步兵添加了真实样式的近卫军徽章，佩戴位置为制服右胸。\n模组在首次运行后会生成 MelonPreferences 配置文件，玩家可以按需启用或关闭多个选项，例如移除可能遮挡徽章的炮塔伪装网、关闭载具识别与修改相关的控制台日志，以及分别控制各类载具和步兵是否启用近卫徽章效果。当前已知问题包括：载具被击毁并烧毁后，徽章不会随之消失或变暗；步兵徽章由于共用载具贴花材质，因此缺乏更真实的金属反光效果；另外，如果与大幅修改苏军载具组件的其他模组同时使用，可能会出现兼容性问题，不过 华约增强模组已确认基本可以正常共存。"
-    },
-    "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
-      }
-    },
-    "SupportedGameVersions": [
-      "20260319.1"
-    ],
-    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/SovietGuards/releases/latest",
-    "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "SovietGuards.dll",
-    "ConfigSectionName": "SovietGuards",
-    "InstallMethod": "DirectRelease"
-  },
-  {
     "Id": "NATOERA",
     "Name": {
       "en-US": "NATO ERA",
@@ -513,7 +493,37 @@
       "M3A2",
       "M1A1",
       "50mmROY"
-    ]
+    ],
+    "Delisted": true
+  },
+  {
+    "Id": "CLeopards",
+    "Name": {
+      "en-US": "Canadian Leopards",
+      "zh-CN": "加拿大 Leopard C1"
+    },
+    "Description": {
+      "en-US": "This mod overhauls the various German Leopard 1 variants in-game to represent Canadian Leopard C1s serving with the 4th Canadian Mechanized Brigade Group at CFB Lahr. It features an approximation of the SABCA Cobelda fire control system, including laser rangefinding and automatic lead calculation, enforces use of the PZB-200 night sight, replaces the MG3 with the C6 machine gun, and swaps German markings and crew voices for Canadian-style visual details and English audio. The mod also includes multiple ammunition and cosmetic options, allowing players to choose between historical Canadian, American, or default German loadouts, along with alternate paint schemes, camouflage settings, callsigns, maple leaf markings, tactical symbols, and load classification numbers for a more authentic Cold War-era Canadian Leopard C1 presentation.",
+      "zh-CN": "本模组将游戏中的各型德制 Leopard 1 主战坦克全面重制为驻扎于拉尔加拿大空军基地、隶属加拿大第4机械化旅群的加拿大 Leopard C1。内容包括以 SABCA Cobelda 火控系统为蓝本的瞄准设备、激光测距与自动提前量计算、强制使用 PZB-200 夜视仪、将 MG3 更换为 C6 机枪，以及替换涂装、编号、战术标识与英文车组语音。模组还提供多种弹药与外观选项，包括更贴近加拿大陆军历史编制的弹种搭配、不同车体底色、三色迷彩开关，以及枫叶、呼号、战术符号和载重等级标识等细节调整，力求还原冷战时期加拿大装甲部队的 Leopard C1 风貌。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/CanadianLeopards/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "CanadianLeopards.dll",
+    "ConfigSectionName": "Canadian Leopards",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "underdog"
+    ],
+    "Delisted": true
   },
   {
     "Id": "soundR",
@@ -801,6 +811,80 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "AmmoUI",
+    "Name": {
+      "en-US": "Ammo UI Extended",
+      "zh-CN": "弹药HUD增强"
+    },
+    "Description": {
+      "en-US": "Your ammo UI will now show (X+Y+Z), where X is the amount of rounds in your current clip/breech, Y is the amount of rounds in your ready rack, and Z is the amount of rounds you have in storage. This can be useful in determining how much ammo you have in total to work with.",
+      "zh-CN": "弹药界面现在将显示 (X+Y+Z)，其中 X 代表当前炮膛内的弹药数量，Y 代表备用弹架中的弹药数量，Z 代表库存中的弹药数量。这有助于判断您总共拥有多少可用弹药。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Ammo_UI_Extended/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "Ammo_UI_Extended.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "Camonet",
+    "Name": {
+      "en-US": "Guaranteed Camo Nets",
+      "zh-CN": "强制伪装网"
+    },
+    "Description": {
+      "en-US": "Guaranteed Camo Nets is a mod that ensures camo nets always spawn on supported vehicles and that every available camo net on the vehicle appears correctly. In UserData/MelonLoaderPreferences.cfg, players can choose which vehicles are guaranteed to receive camo nets by setting them to True or False; when set to False, camo nets will never spawn on that vehicle. If a vehicle does not appear in the config file, it usually means that it cannot mount camo nets. If you find a vehicle that can use camo nets but is missing from the config, please report it in Issues.",
+      "zh-CN": "本模组可确保伪装网在对应载具上始终生成，并保证该载具所有可用的伪装网都会完整出现。玩家还可以在 UserData/MelonLoaderPreferences.cfg 中将各载具设置为 True 或 False，自由决定哪些载具必定生成伪装网；若设为 False，则该载具将完全不会生成伪装网。若某辆载具未出现在配置文件中，通常表示它无法安装伪装网；如果你发现某辆能够生成伪装网的载具却未被列入配置文件，可前往 Issues 反馈。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_BTR_70_Bocchi_Skin/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "GuaranteedCamoNets.dll",
+    "ConfigSectionName": "GuaranteedCamoNets",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "Arestock",
+    "Name": {
+      "en-US": "Always Restock",
+      "zh-CN": "重伤装弹"
+    },
+    "Description": {
+      "en-US": "GHPC quality-of-life mod that enables restocking without a conscious loader. When the loader is killed or unconsciousness, a penalty is added to the loading time, which by default is 3 seconds per shell to be moved. This value can be customized in the configuration, but cannot be set below 0.",
+      "zh-CN": "允许在重伤装填手的情况下进行弹药补给。当装填手阵亡或失去意识时，装填时间会增加惩罚，默认值为每发炮弹 3 秒。该数值可在配置中自定义，但不能设置为低于 0。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/Always-Restock/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "AlwaysRestock.dll",
+    "ConfigSectionName": "AlwaysRestock",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "RandomNB",
     "Name": {
       "en-US": "Random Night Battles",
@@ -900,31 +984,6 @@
     "InstallMethod": "DirectRelease"
   },
   {
-    "Id": "GMPCTextureL",
-    "Name": {
-      "en-US": "GMPC Texture Loader",
-      "zh-CN": "贴图更换工具"
-    },
-    "Description": {
-      "en-US": "GunnerModPC Texture Loader is a convenient texture replacement mod that lets you easily swap in-game textures with custom PNG files. Simply place same-named textures in the Gunner, HEAT, PC!\\Bin\\Mods\\GMPCTextureLoader folder, enable auto-refresh in config for real-time previews during scene reloads. Extract originals via CinematicUnityExplorer by searching Texture2D objects and saving as PNG; find more skins on the official Discord.",
-      "zh-CN": "贴图更换工具是一款便捷的贴图替换工具模组，让您轻松用自定义 PNG 文件替换游戏内贴图。只需将同名贴图放入 Gunner, HEAT, PC!\\Bin\\Mods\\GMPCTextureLoader 文件夹，配置文件中开启自动刷新功能，即可实时预览修改效果。提取原贴图可通过 CinematicUnityExplorer 工具，搜索 Texture2D 对象后保存为 PNG；此mod并不带有皮肤，各种贴图皮肤请前往官方 Discord 获取。"
-    },
-    "Tags": {
-      "utility": {
-        "zh-CN": "实用工具",
-        "en-US": "Utility"
-      }
-    },
-    "SupportedGameVersions": [
-      "20260319.1"
-    ],
-    "ReleaseUrl": "https://api.github.com/repos/Andrix44/GMPCTextureLoader/releases/latest",
-    "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "GMPCTextureLoader.dll",
-    "ConfigSectionName": "GMPCTextureLoaderConfig",
-    "InstallMethod": "DirectRelease"
-  },
-  {
     "Id": "GMPC",
     "Name": {
       "en-US": "Gunner Mod PC",
@@ -973,5 +1032,80 @@
     "MainBinaryFileName": "CinematicTools.dll",
     "ConfigSectionName": "CinematicTools",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "GMPCTextureL",
+    "Name": {
+      "en-US": "GMPC Texture Loader",
+      "zh-CN": "贴图更换工具"
+    },
+    "Description": {
+      "en-US": "GunnerModPC Texture Loader is a convenient texture replacement mod that lets you easily swap in-game textures with custom PNG files. Simply place same-named textures in the Gunner, HEAT, PC!\\Bin\\Mods\\GMPCTextureLoader folder, enable auto-refresh in config for real-time previews during scene reloads. Extract originals via CinematicUnityExplorer by searching Texture2D objects and saving as PNG; find more skins on the official Discord.",
+      "zh-CN": "贴图更换工具是一款便捷的贴图替换工具模组，让您轻松用自定义 PNG 文件替换游戏内贴图。只需将同名贴图放入 Gunner, HEAT, PC!\\Bin\\Mods\\GMPCTextureLoader 文件夹，配置文件中开启自动刷新功能，即可实时预览修改效果。提取原贴图可通过 CinematicUnityExplorer 工具，搜索 Texture2D 对象后保存为 PNG；此mod并不带有皮肤，各种贴图皮肤请前往官方 Discord 获取。"
+    },
+    "Tags": {
+      "Texture": {
+        "zh-CN": "载具涂装",
+        "en-US": "Vehicle Texture"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Andrix44/GMPCTextureLoader/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "GMPCTextureLoader.dll",
+    "ConfigSectionName": "GMPCTextureLoaderConfig",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "SovietG",
+    "Name": {
+      "en-US": "Soviet Guards Regiment",
+      "zh-CN": "苏军红金近卫军徽章替换"
+    },
+    "Description": {
+      "en-US": "Soviet Guards Regiment Mod (Version 1.3, 6 April 2026) is a visual replacement mod for Gunner, HEAT, PC that swaps the tactical markings found on Soviet ground vehicles—usually placed on turret cheeks, spotlight covers, or stowage boxes—with the red-and-gold Guards badge awarded to elite “Guards” units. The idea draws on the historical use of these insignia not only during parades and inspections, but also on exercises and maneuvers. If war were to break out suddenly, or under the cover of a training operation, it is easy to imagine these vehicles going into combat before anyone had time to paint the emblems over, carrying their full regalia into battle just as earlier generations might have done. The mod currently affects the BMP-1(P), BMP-2, BRDM-2, BTR-60PB, BTR-70, T-62, all T-64 variants, and the T-80. These changes appear across all missions, including vehicles added through the in-game customizer, and they are also visible in the main menu dioramas. In addition, the mod gives Soviet infantry a proper Guards badge worn on the right breast of the tunic.\nAfter the first launch, the mod generates a MelonPreferences configuration file with several optional settings, including the ability to remove camouflage netting that would otherwise hide the new insignia, disable the console log messages used to report detected and modified vehicles, and individually enable or disable each supported vehicle type and infantry according to personal preference. Known issues currently include insignia remaining visible even after a vehicle has been destroyed and burned out, infantry badges lacking proper specularity because they share the same dull material as vehicle decals, and possible compatibility conflicts with other mods that heavily alter Soviet vehicle components, although Pact Increased Lethality appears to work without major problems.",
+      "zh-CN": "Soviet Guards Regiment Mod外观替换模组，它会将苏军地面载具上原本出现于炮塔侧面、探照灯罩或储物箱位置的战术符号，替换为象征“近卫”荣誉称号的红金近卫军徽章。这个设定基于一种很有历史感的想象：近卫部队在阅兵、检阅乃至演习中都会保留这些荣耀标识，而如果战争在演习或高度戒备状态下突然爆发，他们也许根本来不及涂掉徽记，就会像他们的父辈与祖辈一样，带着完整的荣誉标识直接投入战斗。该模组目前会影响 BMP-1(P)、BMP-2、BRDM-2、BTR-60PB、BTR-70、T-62、全部 T-64 变体以及 T-80，并且这些改动会在所有任务中生效，包括通过自定义器添加苏军载具的情况，同时主菜单中的场景展示模型也会同步显示变化。除此之外，模组还为苏军步兵添加了真实样式的近卫军徽章，佩戴位置为制服右胸。\n模组在首次运行后会生成 MelonPreferences 配置文件，玩家可以按需启用或关闭多个选项，例如移除可能遮挡徽章的炮塔伪装网、关闭载具识别与修改相关的控制台日志，以及分别控制各类载具和步兵是否启用近卫徽章效果。当前已知问题包括：载具被击毁并烧毁后，徽章不会随之消失或变暗；步兵徽章由于共用载具贴花材质，因此缺乏更真实的金属反光效果；另外，如果与大幅修改苏军载具组件的其他模组同时使用，可能会出现兼容性问题，不过 华约增强模组已确认基本可以正常共存。"
+    },
+    "Tags": {
+      "Texture": {
+        "zh-CN": "载具涂装",
+        "en-US": "Vehicle Texture"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/SovietGuards/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "SovietGuards.dll",
+    "ConfigSectionName": "SovietGuards",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "BocchiTR",
+    "Name": {
+      "en-US": "Bocchi the Rock! skin for BTR-70",
+      "zh-CN": "孤独摇滚！BTR70涂装"
+    },
+    "Description": {
+      "en-US": "This is a Bocchi the Rock! themed anime camouflage mod for the BTR-70 in Gunner, HEAT, PC!, currently released as version \n\nBuilt around all four members of Kessoku Band, the mod gives the vehicle a distinctive anime-inspired camouflage scheme along with custom Cyrillic lettering for “BTR-70” and “Kessoku Band,” creating the feel of a Soviet crew taking their favorite anime band’s colors and decals into battle.\n\nVersion serves as the base release and focuses on establishing the core visual identity of the skin. In addition to the main character-themed elements, the mod includes custom decals and supporting art assets designed to blend the look of the vehicle with the aesthetic of Bocchi the Rock! while still keeping the BTR-70 recognizable in-game. More content is planned for future updates, including additional decals, higher-quality graphics, and reticle skins.\n\nProgramming for the mod was done by Qwertyryo. Most visual assets are sourced from CloverWorks, the Bocchi Blob on the front hatches was provided by Reddit user u/Chainwalker, and the custom Cyrillic lettering was created by Discord user @megalomantia654. The mod also makes use of source code written by @Bluehawk, whose other Gunner, HEAT, PC! mods are well worth checking out.\n\nAt the moment, there are a few known issues. Under freecam thermals, some decals may appear with visible color beneath them, and certain areas of the vehicle still have texturing or mapping imperfections.",
+      "zh-CN": "模组以结束乐队四位成员为核心视觉主题，为 BTR-70 装甲车加入了具有鲜明动画风格的迷彩外观，并特别制作了“BTR-70”与“结束乐队”的西里尔字样，使整辆载具呈现出一种“苏系车组成员带着自己最喜欢的动画乐队奔赴战场”的独特设定感。\n\n重点在于完成整体车体外观的主题化改造与视觉统一。除了主要角色相关元素外，模组还包含定制贴花和相关美术处理，力求在保留载具辨识度的同时，尽可能还原《孤独摇滚！》的作品氛围。后续版本还计划继续扩展内容，包括更多额外贴花、更高质量的图像表现，以及瞄具皮肤等附加视觉内容。\n\n本模组由 Qwertyryo 负责程序实现。所使用的素材主要来源于 CloverWorks，前部舱盖上的 Bocchi Blob 图案来自 Reddit 用户 u/Chainwalker，西里尔文字样由 Discord 用户 @megalomantia654 制作。同时，本模组也参考并使用了 @Bluehawk 的相关源代码；如果你也在玩《Gunner, HEAT, PC!》模组，Bluehawk 的作品同样值得关注。\n\n目前已知问题包括：在自由视角热成像模式下，部分贴花会出现带底色显示的情况；此外，载具表面的个别区域仍存在一定的贴图瑕疵或纹理映射问题。"
+    },
+    "Tags": {
+      "Texture": {
+        "zh-CN": "载具涂装",
+        "en-US": "Vehicle Texture"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_BTR_70_Bocchi_Skin/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "BocchiTheRock.dll",
+    "InstallMethod": "DirectRelease",
+    "Delisted": true
   }
 ]

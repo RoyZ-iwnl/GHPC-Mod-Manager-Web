@@ -3376,66 +3376,93 @@
       "multiplechoice": {},
       "singlechoice": {
         "TOW Launcher replacement,M151 replacement,M151 TOW replacement,M923 replacement,M113 replacement,M2 replacement,M2 (Alt) replacement,M60A1 replacement,M60A1 AOS replacement,M60A1 RISE replacement,M60A1 RISE(P) replacement,M60A3 replacement,M60A3 TTS replacement,M1 replacement,M1IP replacement,M113G replacement,Marder A1 replacement,Marder A1 (No ATGM) replacement,Marder A1+ replacement,Leopard 1A1 replacement,Leopard 1A1A2 replacement,Leopard 1A1A3 replacement,Leopard 1A1A4 replacement,SPG-9 replacement,9K111 Launcher replacement,UAZ-469 replacement,Ural-375D replacement,BRDM2 replacement,BTR-60PB replacement,BMP-1 replacement,BMP-1P replacement,BMP-2 replacement,PT-76B replacement,T-54A replacement,T-55A replacement,T-72 replacement,T-72 LEM replacement,T-72 UV1 replacement,T-72M replacement,T-72M Gills replacement,T-72 UV2 replacement,T-72M1 replacement,SA SPG-9 replacement,SA 9K111 Launcher replacement,SA Ural-375D,SA BRDM2 replacement,SA BTR-60PB replacement,SA BTR-70 replacement,SA BMP-1 replacement,SA BMP-1P replacement,SA BMP-2 replacement,SA T-62 replacement,SA T-64R replacement,SA T-64A obr74 replacement,SA T-64A obr79 replacement,SA T-64A obr81 replacement,SA T-64A replacement,SA T-64A obr84 replacement,SA T-64B replacement,SA T-80B replacement": [
-          "STATIC_TOW",
-          "M151",
-          "M151M232",
-          "M923",
-          "M2BRADLEY",
+          "M60A3TTS",
+          "T55A",
+          "T72M1",
           "M2BRADLEY",
           "M2BRADLEY(ALT)",
-          "M60A1",
-          "M60A1AOS",
-          "M60A1RISEP77",
-          "M60A1RISEP",
-          "M60A3",
-          "M60A3TTS",
-          "M1",
-          "M1IP",
+          "M901",
+          "M113",
           "M113G",
-          "MARDERA1",
-          "MARDERA1_NO_ATGM",
-          "MARDERA1PLUS",
+          "M151M232",
+          "M151",
+          "BRDM2",
+          "UAZ469",
+          "STATIC_TOW",
+          "STATIC_9K111",
+          "STATIC_SPG9",
+          "STATIC_SPG9_SA",
+          "T3485",
+          "TC",
+          "BMP1",
+          "URAL375D",
+          "M923",
+          "BMP2",
           "LEO1A1",
           "LEO1A1A2",
           "LEO1A1A3",
           "LEO1A1A4",
-          "STATIC_SPG9",
-          "STATIC_9K111",
-          "UAZ469",
-          "URAL375D",
-          "BRDM2",
-          "BTR60PB",
-          "BMP1",
-          "BMP1P",
-          "BMP2",
-          "PT76B",
-          "T54A",
-          "T72GILLS",
-          "T72",
-          "T72ULEM",
-          "T72UV1",
-          "T72M1",
-          "T72M1",
-          "T72UV2",
-          "T72M1",
-          "STATIC_SPG9_SA",
-          "STATIC_9K111_SA",
-          "URAL375D_SA",
-          "BRDM2_SA",
-          "BTR60PB_SA",
-          "BTR70",
-          "BMP1P_SA",
-          "BMP1P_SA",
-          "BMP2_SA",
+          "LEO1A3",
+          "LEO1A3A1",
+          "LEO1A3A2",
+          "LEO1A3A3",
           "T62",
           "T64R",
           "T64A74",
           "T64A79",
           "T64A81",
-          "T64B",
+          "T64A",
           "T64A84",
           "T64B",
-          "T80B"
+          "T64B81",
+          "T64B1",
+          "T64B181",
+          "T72M",
+          "M60A1RISEP",
+          "M60A1RISEP77",
+          "M60A1",
+          "M60A1AOS",
+          "M60A3",
+          "M1",
+          "M1IP",
+          "T72GILLS",
+          "T72UV1",
+          "T72UV2",
+          "T72ULEM",
+          "T72",
+          "BMP1P",
+          "BMP1P_SA",
+          "STATIC_9K111_SA",
+          "BMP1_SA",
+          "BMP2_SA",
+          "BRDM2_SA",
+          "BTR60PB",
+          "BTR60PB_SA",
+          "URAL375D_SA",
+          "PT76B",
+          "T80B",
+          "T54A",
+          "BTR70",
+          "AH1",
+          "MI2",
+          "Mi8T",
+          "Mi24",
+          "Mi24V_SA",
+          "OH58A",
+          "Mi24V_NVA",
+          "STATIC_SPG9_TRENCH",
+          "STATIC_SPG9_SA_TRENCH",
+          "STATIC_9K111_TRENCH",
+          "STATIC_9K111_SA_TRENCH",
+          "STATIC_TOW_TRENCH",
+          "AH1_rockets",
+          "Mi24_rockets",
+          "Mi24V_SA_rockets",
+          "Mi24V_NVA_rockets",
+          "MARDERA1",
+          "MARDERA1_NO_ATGM",
+          "MARDERA1PLUS",
+          "MARDER1A2"
         ]
       }
     },
@@ -4742,6 +4769,91 @@
           "zh-CN": "开启则修改步兵，关闭则排除步兵",
           "en-US": "Set true to modify infantrymen, false to exclude them"
         }
+      }
+    },
+    "Arestock": {
+      "ModId": "Arestock",
+      "ConfigLabels": {
+        "Restocking delay": {
+          "zh-CN": "装弹耗时",
+          "en-US": "Restocking delay"
+        }
+      },
+      "ConfigComments": {
+        "The penalty in seconds for restocking ammo with a dead loader": {
+          "zh-CN": "当装填手死亡时重新装填弹药的时间惩罚（秒）",
+          "en-US": "The penalty in seconds for restocking ammo with a dead loader"
+        }
+      }
+    },
+    "CanadianLeopards": {
+      "ModId": "CanadianLeopards",
+      "ConfigLabels": {
+        "Customize ammo loadout": {
+          "zh-CN": "自定义弹药装载",
+          "en-US": "Customize ammo loadout"
+        },
+        "Force single colour paint schemes": {
+          "zh-CN": "强制使用单色涂装",
+          "en-US": "Force single colour paint schemes"
+        },
+        "NATO/CARC Green": {
+          "zh-CN": "NATO/CARC绿色涂装",
+          "en-US": "NATO/CARC Green"
+        },
+        "Decals outlined in white": {
+          "zh-CN": "白色描边贴花",
+          "en-US": "Decals outlined in white"
+        },
+        "Additional decals": {
+          "zh-CN": "附加贴花",
+          "en-US": "Additional decals"
+        },
+        "Add 1A3s to Showcase": {
+          "zh-CN": "在展示中加入1A3型号",
+          "en-US": "Add 1A3s to Showcase"
+        },
+        "Mute log messages": {
+          "zh-CN": "静默日志消息",
+          "en-US": "Mute log messages"
+        }
+      },
+      "ConfigComments": {
+        "'historical' for DM-23/13 and HESH, 'American' for M774 and HEAT, 'German' to keep mission defaults": {
+          "zh-CN": "“historical”还原历史表示使用DM-23/13和HESH；“American”美式装备表示使用M774和HEAT；“German”德式装备表示保留任务默认设置。",
+          "en-US": "'historical' for DM-23/13 and HESH, 'American' for M774 and HEAT, 'German' to keep mission defaults"
+        },
+        "Prevents C1s from appearing in NATO three-colour camo": {
+          "zh-CN": "防止C1以NATO三色迷彩出现。",
+          "en-US": "Prevents C1s from appearing in NATO three-colour camo"
+        },
+        "Replaces the default German Gelboliv ('yellow-olive') for NATO CARC, a brighter shade of green.": {
+          "zh-CN": "用NATO/CARC绿色替换默认的德军Gelboliv（黄橄榄色），这种绿色更亮。",
+          "en-US": "Replaces the default German Gelboliv ('yellow-olive') for NATO CARC, a brighter shade of green."
+        },
+        "Turret numbers and maple leaves have white borders when true; plain black when false.": {
+          "zh-CN": "为true时，炮塔编号和枫叶贴花带白色边框；为false时则为纯黑色。",
+          "en-US": "Turret numbers and maple leaves have white borders when true; plain black when false."
+        },
+        "Adds tactical unit symbol and MLC number to the hull.": {
+          "zh-CN": "在车体上添加战术单位标识和MLC编号。",
+          "en-US": "Adds tactical unit symbol and MLC number to the hull."
+        },
+        "Adds 1A3-based Leopard C1s to the Grafenwoehr Showcase.": {
+          "zh-CN": "在射击场展示中加入基于1A3的Leopard C1。",
+          "en-US": "Adds 1A3-based Leopard C1s to the Grafenwoehr Showcase."
+        },
+        "Mutes log messages in the MelonLoader console.": {
+          "zh-CN": "在MelonLoader控制台中静默日志消息。",
+          "en-US": "Mutes log messages in the MelonLoader console."
+        }
+      },
+      "singlechoice": {
+        "Customize ammo loadout": [
+          "historical",
+          "American",
+          "German"
+        ]
       }
     }
   }
