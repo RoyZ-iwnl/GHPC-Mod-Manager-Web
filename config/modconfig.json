@@ -1105,7 +1105,6 @@
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_BTR_70_Bocchi_Skin/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "BocchiTheRock.dll",
-    "InstallMethod": "DirectRelease",
-    "Delisted": true
+    "InstallMethod": "DirectRelease"
   }
 ]
