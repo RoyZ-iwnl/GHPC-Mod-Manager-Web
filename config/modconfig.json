@@ -786,6 +786,30 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "PactNS",
+    "Name": {
+      "en-US": "Pact Night Sight Illumination",
+      "zh-CN": "华约夜视仪分化点亮"
+    },
+    "Description": {
+      "en-US": "This mod allows the player to toggle reticle illumination in the TPN-1 series of night sights, just like the day sights, using the [I] key by default. This will apply to the T-54/55, T-62, T-64 and T-72 variants.",
+      "zh-CN": "此模组允许玩家通过默认的 [I] 键，在 TPN-1 系列夜视瞄准镜中切换瞄准点照明功能，其操作方式与日间瞄准镜相同。此功能适用于 T-54/55、T-62、T-64 和 T-72 的各型号。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/Pact-Night-Sight-Illumination/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "PactNightSightIllumination.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "UCust",
     "Name": {
       "en-US": "Unrestricted Customizer",
@@ -834,31 +858,6 @@
     "InstallMethod": "DirectRelease"
   },
   {
-    "Id": "Camonet",
-    "Name": {
-      "en-US": "Guaranteed Camo Nets",
-      "zh-CN": "强制伪装网"
-    },
-    "Description": {
-      "en-US": "Guaranteed Camo Nets is a mod that ensures camo nets always spawn on supported vehicles and that every available camo net on the vehicle appears correctly. In UserData/MelonLoaderPreferences.cfg, players can choose which vehicles are guaranteed to receive camo nets by setting them to True or False; when set to False, camo nets will never spawn on that vehicle. If a vehicle does not appear in the config file, it usually means that it cannot mount camo nets. If you find a vehicle that can use camo nets but is missing from the config, please report it in Issues.",
-      "zh-CN": "本模组可确保伪装网在对应载具上始终生成，并保证该载具所有可用的伪装网都会完整出现。玩家还可以在 UserData/MelonLoaderPreferences.cfg 中将各载具设置为 True 或 False，自由决定哪些载具必定生成伪装网；若设为 False，则该载具将完全不会生成伪装网。若某辆载具未出现在配置文件中，通常表示它无法安装伪装网；如果你发现某辆能够生成伪装网的载具却未被列入配置文件，可前往 Issues 反馈。"
-    },
-    "Tags": {
-      "enhancement": {
-        "zh-CN": "游戏增强",
-        "en-US": "Game Enhancement"
-      }
-    },
-    "SupportedGameVersions": [
-      "20260319.1"
-    ],
-    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_BTR_70_Bocchi_Skin/releases/latest",
-    "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "GuaranteedCamoNets.dll",
-    "ConfigSectionName": "GuaranteedCamoNets",
-    "InstallMethod": "DirectRelease"
-  },
-  {
     "Id": "Arestock",
     "Name": {
       "en-US": "Always Restock",
@@ -881,6 +880,31 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "AlwaysRestock.dll",
     "ConfigSectionName": "AlwaysRestock",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "Camonet",
+    "Name": {
+      "en-US": "Guaranteed Camo Nets",
+      "zh-CN": "强制伪装网"
+    },
+    "Description": {
+      "en-US": "Guaranteed Camo Nets is a mod that ensures camo nets always spawn on supported vehicles and that every available camo net on the vehicle appears correctly. In UserData/MelonLoaderPreferences.cfg, players can choose which vehicles are guaranteed to receive camo nets by setting them to True or False; when set to False, camo nets will never spawn on that vehicle. If a vehicle does not appear in the config file, it usually means that it cannot mount camo nets. If you find a vehicle that can use camo nets but is missing from the config, please report it in Issues.",
+      "zh-CN": "本模组可确保伪装网在对应载具上始终生成，并保证该载具所有可用的伪装网都会完整出现。玩家还可以在 UserData/MelonLoaderPreferences.cfg 中将各载具设置为 True 或 False，自由决定哪些载具必定生成伪装网；若设为 False，则该载具将完全不会生成伪装网。若某辆载具未出现在配置文件中，通常表示它无法安装伪装网；如果你发现某辆能够生成伪装网的载具却未被列入配置文件，可前往 Issues 反馈。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_BTR_70_Bocchi_Skin/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "GuaranteedCamoNets.dll",
+    "ConfigSectionName": "GuaranteedCamoNets",
     "InstallMethod": "DirectRelease"
   },
   {
