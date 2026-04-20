@@ -5022,6 +5022,61 @@
           "German"
         ]
       }
+    },
+    "ArtilleryEx": {
+      "ModId": "ArtilleryEx",
+      "ConfigLabels": {
+        "Artillery volume multiplier": {
+          "zh-CN": "炮击数量倍率",
+          "en-US": "Artillery volume multiplier"
+        },
+        "Time to target multiplier": {
+          "zh-CN": "命中时间倍率",
+          "en-US": "Time to target multiplier"
+        },
+        "Accuracy multiplier": {
+          "zh-CN": "精度倍率",
+          "en-US": "Accuracy multiplier"
+        },
+        "Planned artillery volume multiplier": {
+          "zh-CN": "计划炮击数量倍率",
+          "en-US": "Planned artillery volume multiplier"
+        },
+        "Planned time to target multiplier": {
+          "zh-CN": "计划命中时间倍率",
+          "en-US": "Planned time to target multiplier"
+        },
+        "Planned accuracy multiplier": {
+          "zh-CN": "计划精度倍率",
+          "en-US": "Planned accuracy multiplier"
+        }
+      },
+      "ConfigComments": {
+        "Set the volume multiplier for artillery rounds. 1 is default, 2 is double the amount of shells, etc. Not great for your PC past 5.": {
+          "zh-CN": "设置炮击弹量倍率。1为默认，2表示炮弹数量翻倍，以此类推。超过5后对电脑性能不太友好。",
+          "en-US": "Set the volume multiplier for artillery rounds. 1 is default, 2 is double the amount of shells, etc. Not great for your PC past 5."
+        },
+        "Set the multiplier for speed time to target. 1 is default, 2 means shells will hit the target in half the time, etc.": {
+          "zh-CN": "设置命中时间速度倍率。1为默认，2表示炮弹会在一半时间内命中目标，以此类推。",
+          "en-US": "Set the multiplier for speed time to target. 1 is default, 2 means shells will hit the target in half the time, etc."
+        },
+        "Set the multiplier for artillery accuracy. 1 is default, 2 means shells will be twice as accurate, etc.": {
+          "zh-CN": "设置炮击精度倍率。1为默认，2表示炮击精度提高到两倍，以此类推。",
+          "en-US": "Set the multiplier for artillery accuracy. 1 is default, 2 means shells will be twice as accurate, etc."
+        },
+        "Volume multiplier for AI fire missions.": {
+          "zh-CN": "AI火力任务的炮击弹量倍率。",
+          "en-US": "Volume multiplier for AI fire missions."
+        },
+        "Time-to-target multiplier for AI fire missions.": {
+          "zh-CN": "AI火力任务的命中时间倍率。",
+          "en-US": "Time-to-target multiplier for AI fire missions."
+        },
+        "Accuracy multiplier for AI fire missions.": {
+          "zh-CN": "AI火力任务的精度倍率。",
+          "en-US": "Accuracy multiplier for AI fire missions."
+        }
+      }
     }
   }
 }

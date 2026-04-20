@@ -908,6 +908,31 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "ArtilleryEx",
+    "Name": {
+      "en-US": "Artillery Extended",
+      "zh-CN": "火炮支援增强"
+    },
+    "Description": {
+      "en-US": "Features:\nAllows users to increase the volume of artillery fire, decrease time it takes for shells to land and increase artillery accuracy.\nAllows users to cancel fire missions early by clicking on the associated fire mission button.\nAdds in a HUD warning of inbound artillery with randomized voicelines.\nPlanned Content:\nWill allow users to customize artillery and smoke separately.\nKnown Bugs:\nFlares are listed as WP",
+      "zh-CN": "允许玩家增加炮火密度、缩短炮弹落点时间并提高炮火精度。\n允许玩家通过点击相应的射击任务按钮提前取消射击任务。\n在HUD中添加了炮火来袭的警告提示，并附带随机语音提示。\n计划内容：\n将允许用户分别自定义炮火和烟幕。\n已知问题：\n照明弹被列为WP白磷烟雾弹"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Artillery_Extended/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "GHPC_Artillery_Rework.dll",
+    "ConfigSectionName": "GHPC Artillery Rework",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "RandomNB",
     "Name": {
       "en-US": "Random Night Battles",
