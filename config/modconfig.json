@@ -809,7 +809,8 @@
     "MainBinaryFileName": "PactNightSightIllumination.dll",
     "InstallMethod": "DirectRelease",
     "Conflicts": [
-      "PactIL"
+      "PactIL",
+      "PactILROY"
     ]
   },
   {
