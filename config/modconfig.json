@@ -807,7 +807,10 @@
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/Pact-Night-Sight-Illumination/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "PactNightSightIllumination.dll",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "PactIL"
+    ]
   },
   {
     "Id": "UCust",
