@@ -5077,6 +5077,21 @@
           "en-US": "Accuracy multiplier for AI fire missions."
         }
       }
-    }
+    },
+    "musicC": {
+      "ModId": "musicC",
+      "ConfigLabels": {
+        "Song Choice": {
+          "zh-CN": "歌曲选择",
+          "en-US": "Song Choice"
+        }
+      },
+      "ConfigComments": {
+        "Pick between the following in-game songs: \"Broken Arrow\", \"Not One Step Back\", \"Defilade\", \"Threat Factor\", \"Danger Close\", \"Steel Horizon\", or your own custom song name. Custom songs need 4 audio files (.wav or .ogg) as layers in Music_Controller_Assets/ named YourSong_L1.wav, YourSong_L2.wav, YourSong_L3.wav, YourSong_L4.wav. _L1 = low intensity, _L2 = medium, _L3 = high, _L4 = max intensity. All files for 1 song must have same length, sample rate, channels, and bit depth. Leave blank for default random behavior. Works with OGG-Vorpis or 16-bit pcm wav formats.": {
+          "zh-CN": "从以下游戏内歌曲中选择：\"Broken Arrow\"（需要手动下载ZIP）、\"Not One Step Back\"（需要手动下载ZIP）、\"Defilade\"、\"Threat Factor\"、\"Danger Close\"、\"Steel Horizon\"，或输入自定义歌曲名。自定义歌曲需在 Music_Controller_Assets/ 目录下放置4个音频分层文件（.wav 或 .ogg），命名为 YourSong_L1.wav、YourSong_L2.wav、YourSong_L3.wav、YourSong_L4.wav。_L1=低强度，_L2=中强度，_L3=高强度，_L4=最强强度。同一首歌的所有文件必须具有相同的时长、采样率、声道数与位深度。留空则使用默认随机播放行为。支持 OGG-Vorbis 或 16位PCM WAV格式。",
+          "en-US": "Pick between the following in-game songs: \"Broken Arrow\"(NEED ZIP FROM GITHUB), \"Not One Step Back\"(NEED ZIP FROM GITHUB), \"Defilade\", \"Threat Factor\", \"Danger Close\", \"Steel Horizon\", or your own custom song name. Custom songs need 4 audio files (.wav or .ogg) as layers in Music_Controller_Assets/ named YourSong_L1.wav, YourSong_L2.wav, YourSong_L3.wav, YourSong_L4.wav. _L1 = low intensity, _L2 = medium, _L3 = high, _L4 = max intensity. All files for 1 song must have same length, sample rate, channels, and bit depth. Leave blank for default random behavior. Works with OGG-Vorpis or 16-bit pcm wav formats."
+        }
+      }
+    }    
   }
 }

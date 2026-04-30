@@ -24,7 +24,8 @@
     "ConfigSectionName": "PactIncreasedLethality",
     "InstallMethod": "DirectRelease",
     "Conflicts": [
-      "PactIL"
+      "PactIL",
+      "VoiceC"
     ],
     "Delisted": true
   },
@@ -53,7 +54,8 @@
     "ConfigSectionName": "PactIncreasedLethality",
     "InstallMethod": "DirectRelease",
     "Conflicts": [
-      "PactILROY"
+      "PactILROY",
+      "VoiceC"
     ]
   },
   {
@@ -145,7 +147,8 @@
     "ConfigSectionName": "Underdogs-Enhanced",
     "InstallMethod": "DirectRelease",
     "Conflicts": [
-      "BMP1ST"
+      "BMP1ST",
+      "CLeopards"
     ]
   },
   {
@@ -300,7 +303,8 @@
       "M3A2",
       "M6A2",
       "50mmROY",
-      "FireRT"
+      "FireRT",
+      "M2Ex"
     ]
   },
   {
@@ -332,7 +336,8 @@
       "M3A2",
       "M6A2ROY",
       "50mmROY",
-      "FireRT"
+      "FireRT",
+      "M2Ex"
     ],
     "Delisted": true
   },
@@ -400,7 +405,8 @@
       "NATOERA",
       "50mm",
       "M6A2ROY",
-      "M2ReSound"
+      "M2ReSound",
+      "M2Ex"
     ]
   },
   {
@@ -432,7 +438,8 @@
       "NATOERA",
       "50mmROY",
       "M6A2ROY",
-      "M2ReSound"
+      "M2ReSound",
+      "M2Ex"
     ],
     "Delisted": true
   },
@@ -577,7 +584,9 @@
     "InstallMethod": "DirectRelease",
     "Conflicts": [
       "50mmROY",
-      "50mm"
+      "50mm",
+      "M2Ex",
+      "soundR"
     ]
   },
   {
@@ -608,6 +617,55 @@
       "PactILROY",
       "PactIL"
     ]
+  },
+  {
+    "Id": "musicC",
+    "Name": {
+      "en-US": "Music Controller",
+      "zh-CN": "音乐控制器"
+    },
+    "Description": {
+      "en-US": "Choose between any of the 6 in-game battle music tracks in GHPC to play all the time, or play your own music in Gunner HEAT PC!\nDue to how Broken Arrow and Not One Step Back are accessed by the game, if you want to play them, you need to download the zip from the github\nBin/\n├── Mods/\n│   ├── GHPC_Music_Controller.dll\n│   └── Music_Controller_Assets/\n│       └── Broken Arrow_L1.ogg\n└── GHPC.Exe",
+      "zh-CN": "在 GHPC 中选择任意 6 首游戏内战斗音乐曲目持续播放，或者在 Gunner HEAT PC 中播放你自己的音乐！\n于游戏访问《Broken Arrow》和《Not One Step Back》的方式，这两个曲子需要从github下载资源包并放置\nBin/\n├── Mods/\n│   ├── GHPC_Music_Controller.dll\n│   └── Music_Controller_Assets/\n│       └── Broken Arrow_L1.ogg\n└── GHPC.Exe"
+    },
+    "Tags": {
+      "sound": {
+        "zh-CN": "音效",
+        "en-US": "Sound"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Music_Controller/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "GHPC_Music_Controller.dll",
+    "ConfigSectionName": "GHPC_Music_Controller",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "NVAVP",
+    "Name": {
+      "en-US": "NVA Voice Patch",
+      "zh-CN": "人民军条令+语音补丁"
+    },
+    "Description": {
+      "en-US": "This mod firstly forces the commander to designate the desired ammunition instead of whatever is currently loaded when using \"manual\" or \"doctrinal\" loading, for both Soviet and East German crews. Secondly, the mod moves the \"Schuß\" voice line spoken by East-German tank commanders to the gunner, which was the callout the gunner made when firing (subtitled as \"on the way!\") and not a command to fire. The associated subtitles are modified to correspond logically. Bundeswehr gunners still call out \"achtung\" when firing. Commanders of both armies always say \"feuer\" and never \"Schuß\" as the executive command.",
+      "zh-CN": "这个模组首先会强制车长在使用“手动”或“条令”装填时，先明确指定所需弹种，而不是默认装填当前已经装上的弹药；这一改动同时适用于苏军和东德车组。\n其次，该模组将东德坦克车长所说的“Schuß”语音移交给炮手，因为这句话本来就是炮手在开火时的报话（字幕可理解为“出膛！”或“发射！”），而不是下达开火命令。与之对应的字幕也做了调整，使逻辑更加合理。联邦德国国防军的炮手在开火时仍然会喊“achtung”。两支军队的车长都会始终使用“feuer”作为最终开火命令，而不会说“Schuß”。"
+    },
+    "Tags": {
+      "sound": {
+        "zh-CN": "音效",
+        "en-US": "Sound"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/No-Smoking-on-the-Range/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "NVA_Voices.dll",
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "weather",
@@ -807,11 +865,7 @@
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/Pact-Night-Sight-Illumination/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "PactNightSightIllumination.dll",
-    "InstallMethod": "DirectRelease",
-    "Conflicts": [
-      "PactIL",
-      "PactILROY"
-    ]
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "UCust",
@@ -959,6 +1013,30 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "RandomNightBattles.dll",
     "ConfigSectionName": "RandomNightBattles",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "NoSmoking",
+    "Name": {
+      "en-US": " No Smoking on the Range",
+      "zh-CN": "射击场AI禁烟"
+    },
+    "Description": {
+      "en-US": "A GHPC mod that disables smoke grenades on all Grafenwöhr missions, including the vehicle showcase, so that you can practice your gunnery or test the game's ballistics simulation without annoying interruptions from the AI.",
+      "zh-CN": "这是一个GHPC模组，可以禁用所有射击场任务中的烟雾弹，包括展示，这样你可以练习射击或测试弹道模拟，而不会被AI打扰。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/No-Smoking-on-the-Range/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "NoSmokingOnTheRange.dll",
     "InstallMethod": "DirectRelease"
   },
   {
