@@ -905,7 +905,7 @@
     "SupportedGameVersions": [
       "20260319.1"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_BTR_70_Bocchi_Skin/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_MOD_Guaranteed_Camo_Net/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "GuaranteedCamoNets.dll",
     "ConfigSectionName": "GuaranteedCamoNets",
