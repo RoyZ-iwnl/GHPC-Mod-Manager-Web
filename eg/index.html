@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENDFIELD-Automated Industrial Complex</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: white;
+            color: black;
+            overflow-x: hidden;
+        }
+
+        /* Loading Animation */
+        #loader {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            pointer-events: none;
+        }
+
+        #progressBar {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 4px;
+            height: 0;
+            background: #FEE100;
+        }
+
+        #fullScreen {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 0;
+            height: 100vh;
+            background: #FEE100;
+            transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        #progressBar {
+            transition: height 2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Logo */
+        .logo-section {
+            text-align: center;
+            padding: 48px 0;
+            opacity: 0;
+        }
+
+        .logo-section.show {
+            opacity: 1;
+            transition: opacity 0.6s ease-in;
+        }
+
+        .logo-container {
+            display: inline-block;
+            position: relative;
+            padding: 16px 32px;
+        }
+
+        .logo-bg {
+            position: absolute;
+            inset: 0;
+            background: #FEE100;
+            transform: scaleX(0);
+            transform-origin: left;
+            animation: expandBg 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.5s forwards;
+        }
+
+        @keyframes expandBg {
+            to { transform: scaleX(1); }
+        }
+
+        .logo-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .logo-label {
+            font-size: 12px;
+            font-family: monospace;
+            font-weight: bold;
+            letter-spacing: 0.3em;
+            color: rgba(0,0,0,0.6);
+            background: rgba(255,255,255,0.5);
+            padding: 0 4px;
+            display: inline-block;
+            margin-bottom: 4px;
+        }
+
+        .logo-title {
+            font-size: 72px;
+            font-weight: 900;
+            letter-spacing: -0.05em;
+            line-height: 1;
+            color: black;
+        }
+
+        .logo-subtitle {
+            font-size: 48px;
+            font-weight: 300;
+            letter-spacing: 0.2em;
+            border-top: 4px solid black;
+            margin-top: 8px;
+            padding-top: 4px;
+        }
+
+        .logo-footer {
+            margin-top: 16px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo-line {
+            flex: 1;
+            height: 2px;
+            background: black;
+        }
+
+        .logo-text {
+            font-size: 10px;
+            font-family: monospace;
+            font-weight: bold;
+            letter-spacing: 0.3em;
+            white-space: nowrap;
+        }
+
+        /* Main Content */
+        .container {
+            opacity: 0;
+            max-width: 1200px;
+            margin: 40px auto 80px;
+            padding: 0 80px;
+        }
+
+        .container.show {
+            opacity: 1;
+            transition: opacity 0.6s ease-in;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 32px;
+        }
+
+        .left-col {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .protocol-box {
+            border-left: 8px solid #FEE100;
+            padding-left: 24px;
+            padding-top: 8px;
+        }
+
+        .protocol-label {
+            font-size: 10px;
+            font-family: monospace;
+            font-weight: bold;
+            letter-spacing: 0.2em;
+            color: rgba(0,0,0,0.4);
+            margin-bottom: 8px;
+        }
+
+        .protocol-title {
+            font-size: 36px;
+            font-weight: 900;
+            font-style: italic;
+            line-height: 1;
+            letter-spacing: -0.05em;
+        }
+
+        .protocol-title.yellow {
+            color: #FEE100;
+        }
+
+        .info-box {
+            background: black;
+            color: white;
+            padding: 24px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .info-label {
+            font-size: 10px;
+            font-family: monospace;
+            color: #FEE100;
+            letter-spacing: 0.3em;
+            margin-bottom: 8px;
+        }
+
+        .info-text {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.6;
+            color: #a1a1aa;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: #27272a;
+            margin-top: 16px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #FEE100;
+            width: 0;
+            animation: fillProgress 2s ease-out 1.5s forwards;
+        }
+
+        @keyframes fillProgress {
+            to { width: 88%; }
+        }
+
+        .hero {
+            position: relative;
+            aspect-ratio: 16/9;
+            background: #f4f4f5;
+            border: 1px solid rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            opacity: 0.1;
+            background-image: repeating-linear-gradient(45deg, #000, #000 10px, transparent 10px, transparent 20px);
+        }
+
+        .hero-brackets {
+            position: absolute;
+            font-size: 48px;
+            font-weight: 300;
+            color: rgba(0,0,0,0.2);
+        }
+
+        .hero-center {
+            text-align: center;
+            z-index: 10;
+        }
+
+        .rotating-circle {
+            width: 128px;
+            height: 128px;
+            border: 2px dashed rgba(0,0,0,0.1);
+            border-radius: 50%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            to { transform: rotate(360deg); }
+        }
+
+        .circle-inner {
+            width: 96px;
+            height: 96px;
+            border: 1px solid #FEE100;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle-core {
+            width: 80px;
+            height: 80px;
+            background: rgba(0,0,0,0.05);
+            border-radius: 50%;
+        }
+
+        .hero-title {
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 0.3em;
+            color: rgba(0,0,0,0.8);
+            margin-top: 16px;
+        }
+
+        .hero-subtitle {
+            font-size: 12px;
+            font-family: monospace;
+            color: rgba(0,0,0,0.4);
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            margin-top: 8px;
+        }
+
+        .floating-badge {
+            position: absolute;
+            top: 32px;
+            right: 32px;
+            background: #FEE100;
+            color: black;
+            font-size: 10px;
+            font-weight: bold;
+            padding: 4px 12px;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .bottom-bar {
+            margin-top: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .data-node {
+            font-size: 10px;
+            font-family: monospace;
+            color: rgba(0,0,0,0.4);
+        }
+
+        .indicators {
+            display: flex;
+            gap: 4px;
+            margin-top: 4px;
+        }
+
+        .indicator {
+            width: 16px;
+            height: 4px;
+            background: black;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+
+        .btn {
+            padding: 8px 24px;
+            background: black;
+            color: white;
+            font-size: 10px;
+            font-weight: bold;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn:hover {
+            background: #FEE100;
+            color: black;
+        }
+
+        /* Scanning Line */
+        .scan-line {
+            position: fixed;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: #FEE100;
+            box-shadow: 0 0 10px rgba(254, 225, 0, 0.5);
+            z-index: 100;
+            pointer-events: none;
+            opacity: 0;
+            animation: scan 4s linear infinite;
+        }
+
+        .scan-line.show {
+            opacity: 1;
+        }
+
+        @keyframes scan {
+            0%, 100% { top: 0; opacity: 0; }
+            10% { opacity: 1; }
+            50% { top: 100%; opacity: 1; }
+            60% { opacity: 0; }
+        }
+
+        /* Status Bar */
+        .status-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 30;
+            opacity: 0;
+        }
+
+        .status-bar.show {
+            opacity: 1;
+            transition: opacity 0.6s ease-in;
+        }
+
+        .caution-stripe {
+            height: 48px;
+            background: #FEE100;
+            border-top: 2px solid black;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+            background-image: repeating-linear-gradient(45deg, transparent, transparent 20px, rgba(0,0,0,0.05) 20px, rgba(0,0,0,0.05) 40px);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        .scrolling-text {
+            display: flex;
+            white-space: nowrap;
+            animation: scroll 20s linear infinite;
+        }
+
+        @keyframes scroll {
+            from { transform: translateX(0); }
+            to { transform: translateX(-500px); }
+        }
+
+        .scroll-item {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            margin: 0 16px;
+        }
+
+        .scroll-text {
+            color: black;
+            font-weight: 900;
+            font-size: 12px;
+            letter-spacing: 0.4em;
+            font-style: italic;
+            text-transform: uppercase;
+        }
+
+        .scroll-diamond {
+            width: 16px;
+            height: 16px;
+            background: black;
+            transform: rotate(45deg);
+        }
+
+        .footer-bar {
+            height: 24px;
+            background: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 32px;
+        }
+
+        .footer-text {
+            font-size: 8px;
+            color: #71717a;
+            font-family: monospace;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+        }
+
+        .status-dots {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+        }
+
+        .status-dot {
+            width: 4px;
+            height: 4px;
+            background: #FEE100;
+            border-radius: 50%;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        .status-dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .status-dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        /* Click to Start */
+        .click-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            cursor: pointer;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+
+        .click-overlay.show {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .click-prompt {
+            text-align: center;
+            color: white;
+        }
+
+        .click-icon {
+            width: 80px;
+            height: 80px;
+            border: 3px solid #FEE100;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .play-icon {
+            width: 0;
+            height: 0;
+            border-left: 20px solid #FEE100;
+            border-top: 12px solid transparent;
+            border-bottom: 12px solid transparent;
+            margin-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loader">
+        <div id="progressBar"></div>
+        <div id="fullScreen"></div>
+    </div>
+
+    <!-- Click to Start -->
+    <div class="click-overlay" id="clickOverlay">
+        <div class="click-prompt">
+            <div class="click-icon">
+                <div class="play-icon"></div>
+            </div>
+            <div style="font-size:20px;font-weight:bold;letter-spacing:0.3em;margin-bottom:8px;">CLICK TO START</div>
+            <div style="font-size:12px;opacity:0.6;letter-spacing:0.2em;">ENTERING CORE AIC AREA</div>
+        </div>
+    </div>
+
+    <!-- Audio -->
+    <audio id="bgMusic" loop>
+        <source src="ef.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Scanning Line -->
+    <div class="scan-line" id="scanLine"></div>
+
+    <!-- Logo -->
+    <div class="logo-section" id="logoSection">
+        <div class="logo-container">
+            <div class="logo-bg"></div>
+            <div class="logo-content">
+                <div class="logo-label">Automated Industrial Complex</div>
+                <div class="logo-title">ARKNIGHTS</div>
+                <div class="logo-subtitle">ENDFIELD</div>
+                <div class="logo-footer">
+                    <div class="logo-line"></div>
+                    <div class="logo-text">EST. 1099 // LANDSHIP</div>
+                    <div class="logo-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container" id="mainContent">
+        <div class="grid">
+            <!-- Left Column -->
+            <div class="left-col">
+                <div class="protocol-box">
+                    <div class="protocol-label">SYSTEM_LOG // VOID</div>
+                    <div class="protocol-title">PROTOCOL:</div>
+                    <div class="protocol-title yellow">Zeroth Directive</div>
+                </div>
+
+                <div class="info-box">
+                    <div class="info-label">ENDFIELD INDUSTRIES</div>
+                    <p class="info-text">
+                        The protocol establishes a direct link between the landship and the observation post.
+                        Data synchronization in progress...
+                        [88% COMPLETED]
+                    </p>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div>
+                <div class="hero">
+                    <div class="hero-bg"></div>
+                    <span class="hero-brackets" style="top:16px;left:16px;">[</span>
+                    <span class="hero-brackets" style="top:16px;right:16px;">]</span>
+                    <span class="hero-brackets" style="bottom:16px;left:16px;">[</span>
+                    <span class="hero-brackets" style="bottom:16px;right:16px;">]</span>
+
+                    <div class="hero-center">
+                        <div class="rotating-circle">
+                            <div class="circle-inner">
+                                <div class="circle-core"></div>
+                            </div>
+                        </div>
+                        <div class="hero-title">OPERATIONAL STATUS: NOMINAL</div>
+                        <div class="hero-subtitle">Subsystem initialization successful</div>
+                    </div>
+
+                    <div class="floating-badge">CONNECTED</div>
+                </div>
+
+                <div class="bottom-bar">
+                    <div>
+                        <div class="data-node">DATA_RECOVERY_NODE</div>
+                        <div class="indicators">
+                            <div class="indicator" style="animation-delay:0s"></div>
+                            <div class="indicator" style="animation-delay:0.2s"></div>
+                            <div class="indicator" style="animation-delay:0.4s"></div>
+                            <div class="indicator" style="animation-delay:0.6s"></div>
+                            <div class="indicator" style="animation-delay:0.8s"></div>
+                            <div class="indicator" style="animation-delay:1s"></div>
+                        </div>
+                    </div>
+                    <button class="btn">Access Terminal</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Status Bar -->
+    <div class="status-bar" id="statusBar">
+        <div class="caution-stripe">
+            <div class="scrolling-text">
+                <div class="scroll-item">
+                    <span class="scroll-text">Endfield Industrial Complex // Authorization Level 4 // Security Protocol Active</span>
+                    <div class="scroll-diamond"></div>
+                </div>
+                <div class="scroll-item">
+                    <span class="scroll-text">Endfield Industrial Complex // Authorization Level 4 // Security Protocol Active</span>
+                    <div class="scroll-diamond"></div>
+                </div>
+                <div class="scroll-item">
+                    <span class="scroll-text">Endfield Industrial Complex // Authorization Level 4 // Security Protocol Active</span>
+                    <div class="scroll-diamond"></div>
+                </div>
+                <div class="scroll-item">
+                    <span class="scroll-text">Endfield Industrial Complex // Authorization Level 4 // Security Protocol Active</span>
+                    <div class="scroll-diamond"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <div style="display:flex;gap:16px;">
+                <span class="footer-text">Lat: 34.0522° N // Long: 118.2437° W</span>
+                <span class="footer-text">Sector: 09-EF</span>
+            </div>
+            <div style="display:flex;gap:16px;align-items:center;">
+                <div class="status-dots">
+                    <div class="status-dot"></div>
+                    <div class="status-dot"></div>
+                    <div class="status-dot"></div>
+                </div>
+                <span class="footer-text">System Stabilized</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            const progressBar = document.getElementById('progressBar');
+            const fullScreen = document.getElementById('fullScreen');
+            const loader = document.getElementById('loader');
+            const clickOverlay = document.getElementById('clickOverlay');
+            const scanLine = document.getElementById('scanLine');
+            const logoSection = document.getElementById('logoSection');
+            const mainContent = document.getElementById('mainContent');
+            const statusBar = document.getElementById('statusBar');
+            const bgMusic = document.getElementById('bgMusic');
+
+            // Step 1: Fill progress bar from top to bottom
+            setTimeout(() => {
+                progressBar.style.height = '100vh';
+            }, 100);
+
+            // Step 2: Expand from left to right
+            setTimeout(() => {
+                fullScreen.style.width = '100vw';
+            }, 2100);
+
+            // Step 3: Fade out loader
+            setTimeout(() => {
+                loader.style.opacity = '0';
+                loader.style.transition = 'opacity 0.6s ease-out';
+            }, 2900);
+
+            // Step 4: Show click overlay
+            setTimeout(() => {
+                loader.style.display = 'none';
+                clickOverlay.classList.add('show');
+            }, 3500);
+
+            // Click to start
+            clickOverlay.addEventListener('click', () => {
+                clickOverlay.classList.remove('show');
+                scanLine.classList.add('show');
+                logoSection.classList.add('show');
+                mainContent.classList.add('show');
+                statusBar.classList.add('show');
+                bgMusic.play();
+            });
+        });
+    </script>
+</body>
+</html>
