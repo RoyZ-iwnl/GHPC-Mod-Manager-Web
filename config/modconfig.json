@@ -522,7 +522,7 @@
     "SupportedGameVersions": [
       "20260319.1"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/CanadianLeopards/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/CanadianLeopards/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "CanadianLeopards.dll",
     "ConfigSectionName": "Canadian Leopards",
@@ -709,7 +709,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20250630"
+      "20260319.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/FireRateToggle/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -814,7 +814,7 @@
     "SupportedGameVersions": [
       "20260319.1"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/HE-Frag-Variable-Fuses/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/HE-Frag-Variable-Fuses/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "Soviet_HE-Frag.dll",
     "InstallMethod": "DirectRelease"
@@ -838,7 +838,7 @@
     "SupportedGameVersions": [
       "20260319.1"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Faster-Ballistics-Indexing/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/Faster-Ballistics-Indexing/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "FasterBallasticsIndexing.dll",
     "InstallMethod": "DirectRelease"
@@ -862,7 +862,7 @@
     "SupportedGameVersions": [
       "20260319.1"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Pact-Night-Sight-Illumination/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/Pact-Night-Sight-Illumination/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "PactNightSightIllumination.dll",
     "InstallMethod": "DirectRelease"
@@ -934,7 +934,7 @@
     "SupportedGameVersions": [
       "20260319.1"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Always-Restock/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/Always-Restock/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "AlwaysRestock.dll",
     "ConfigSectionName": "AlwaysRestock",
@@ -1034,7 +1034,7 @@
     "SupportedGameVersions": [
       "20260319.1"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/No-Smoking-on-the-Range/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/No-Smoking-on-the-Range/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "NoSmokingOnTheRange.dll",
     "InstallMethod": "DirectRelease"
@@ -1207,7 +1207,7 @@
     "SupportedGameVersions": [
       "20260319.1"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/SovietGuards/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk2008/SovietGuards/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "SovietGuards.dll",
     "ConfigSectionName": "SovietGuards",
