@@ -2,6 +2,9 @@
 
 ## Announcement
 
+### 2026-05-01
+- v1.3.4 stable release is now available with skip check options, translation install optimization, hardware info collection. See the [changelog](#v134) below for details.
+
 ### 2026-04-14
 - v1.3.3 stable release is now available with new mods banner in installed page, navigation service refactor, and translation backup extension migration. See the [changelog](#v133) below for details.
 
@@ -79,6 +82,22 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.4
+#### feat: Release version 1.3.4 with skip check options, translation install optimization, hardware info collection
+- Bump version to 1.3.4
+- Add System.Management package for hardware information collection
+- Add SkipConflictCheck and SkipIntegrityCheck settings to skip checks on game launch
+- Add skip check options UI in SettingsView
+- Implement conditional conflict and integrity checks based on skip settings in MainViewModel
+- Removed herobrine
+- Refactor translation installation to two-phase commit (download first, then extract) to prevent partial installations on failure
+- Add DownloadXUnityArchiveAsync and DownloadTranslationArchiveAsync methods for in-memory download
+- Fix disabled mod file detection to only include root-level DLL files, skip subdirectory resource files
+- Add hardware information collection in ModInfoDumper (CPU, Memory, GPU) using System.Management
+- Add Icons.xaml resource dictionary with dialog, title bar, and general UI icons
+- Add Icons.xaml to App.xaml merged dictionaries
+- Update localization strings for new features
 
 ### v1.3.3
 #### feat: Release version 1.3.3 with new mods banner in installed page, navigation service refactor, and translation backup extension migration
