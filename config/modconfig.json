@@ -987,7 +987,7 @@
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Artillery_Extended/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "GHPC_Artillery_Rework.dll",
-    "ConfigSectionName": "GHPC Artillery Rework",
+    "ConfigSectionName": "\"GHPC Artillery Rework\"",
     "InstallMethod": "DirectRelease"
   },
   {
