@@ -568,10 +568,7 @@
         </div>
     </div>
 
-    <!-- Audio -->
-    <audio id="bgMusic" loop>
-        <source src="eg/ef.mp3" type="audio/mpeg">
-    </audio>
+    <!-- Audio (Web Audio API) -->
 
     <!-- Scanning Line -->
     <div class="scan-line" id="scanLine"></div>
@@ -696,49 +693,147 @@
     </div>
 
     <script>
-        window.addEventListener('load', () => {
-            const progressBar = document.getElementById('progressBar');
-            const fullScreen = document.getElementById('fullScreen');
-            const loader = document.getElementById('loader');
-            const clickOverlay = document.getElementById('clickOverlay');
-            const scanLine = document.getElementById('scanLine');
-            const logoSection = document.getElementById('logoSection');
-            const mainContent = document.getElementById('mainContent');
-            const statusBar = document.getElementById('statusBar');
-            const bgMusic = document.getElementById('bgMusic');
+        (() => {
+            const ctx = new (window.AudioContext || window.webkitAudioContext)();
+            let audioBuffers = {};
 
-            // Step 1: Fill progress bar from top to bottom
-            setTimeout(() => {
-                progressBar.style.height = '100vh';
-            }, 100);
+            async function loadAudio(name) {
+                const resp = await fetch(`eg/${name}.mp3`);
+                const arrayBuf = await resp.arrayBuffer();
+                audioBuffers[name] = await ctx.decodeAudioData(arrayBuf);
+            }
 
-            // Step 2: Expand from left to right
-            setTimeout(() => {
-                fullScreen.style.width = '100vw';
-            }, 2100);
+            function playSource(buffer, startTime, loop = false) {
+                const src = ctx.createBufferSource();
+                const gain = ctx.createGain();
+                src.buffer = buffer;
+                src.loop = loop;
+                src.connect(gain);
+                gain.connect(ctx.destination);
+                if (startTime !== undefined) src.start(startTime);
+                else src.start();
+                return { src, gain };
+            }
 
-            // Step 3: Fade out loader
-            setTimeout(() => {
-                loader.style.opacity = '0';
-                loader.style.transition = 'opacity 0.6s ease-out';
-            }, 2900);
+            // --- Music state ---
+            let musicStarted = false;
+            let themePlaying = false;
+            let initloopGain = null;
 
-            // Step 4: Show click overlay
-            setTimeout(() => {
-                loader.style.display = 'none';
-                clickOverlay.classList.add('show');
-            }, 3500);
+            function startMusic() {
+                if (musicStarted) return;
+                musicStarted = true;
+                const now = ctx.currentTime;
 
-            // Click to start
-            clickOverlay.addEventListener('click', () => {
-                clickOverlay.classList.remove('show');
-                scanLine.classList.add('show');
-                logoSection.classList.add('show');
-                mainContent.classList.add('show');
-                statusBar.classList.add('show');
-                bgMusic.play();
+                const initloopStart = 7.16;
+                const fadeInDur = 4.27;
+
+                // 1) Init (one-shot, 16.11s)
+                playSource(audioBuffers['init'], now);
+
+                // 2) Initloop (fade in at 7.16s to blend with init, loop seamlessly)
+                const il = playSource(audioBuffers['initloop'], now + initloopStart, true);
+                il.gain.gain.setValueAtTime(0, now + initloopStart);
+                il.gain.gain.linearRampToValueAtTime(1, now + initloopStart + fadeInDur);
+                initloopGain = il.gain;
+            }
+
+            function playTheme() {
+                if (themePlaying) return;
+                themePlaying = true;
+                const now = ctx.currentTime;
+
+                // Fade out initloop over 1s
+                if (initloopGain) {
+                    initloopGain.gain.setValueAtTime(initloopGain.gain.value, now);
+                    initloopGain.gain.linearRampToValueAtTime(0, now + 1);
+                }
+
+                const themeloopOffset = 2.05;
+
+                // 1) Theme start (one-shot, 10.02s)
+                playSource(audioBuffers['themestart'], now);
+
+                // 2) Themeloop (starts 2.05s after themestart, loops seamlessly)
+                playSource(audioBuffers['themeloop'], now + themeloopOffset, true);
+            }
+
+            function playClickSfx() {
+                playSource(audioBuffers['click']);
+            }
+
+            // --- UI ---
+            window.addEventListener('load', () => {
+                const progressBar = document.getElementById('progressBar');
+                const fullScreen = document.getElementById('fullScreen');
+                const loader = document.getElementById('loader');
+                const clickOverlay = document.getElementById('clickOverlay');
+                const scanLine = document.getElementById('scanLine');
+                const logoSection = document.getElementById('logoSection');
+                const mainContent = document.getElementById('mainContent');
+                const statusBar = document.getElementById('statusBar');
+
+                // Load all audio on first user gesture
+                let audioLoaded = false;
+                async function ensureAudio() {
+                    if (audioLoaded) return;
+                    audioLoaded = true;
+                    await Promise.all([
+                        loadAudio('init'),
+                        loadAudio('initloop'),
+                        loadAudio('themestart'),
+                        loadAudio('themeloop'),
+                        loadAudio('click'),
+                    ]);
+                }
+
+                // Step 1: Fill progress bar from top to bottom
+                setTimeout(() => {
+                    progressBar.style.height = '100vh';
+                }, 100);
+
+                // Step 2: Expand from left to right
+                setTimeout(() => {
+                    fullScreen.style.width = '100vw';
+                }, 2100);
+
+                // Step 3: Fade out loader
+                setTimeout(() => {
+                    loader.style.opacity = '0';
+                    loader.style.transition = 'opacity 0.6s ease-out';
+                }, 2900);
+
+                // Step 4: Show click overlay
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                    clickOverlay.classList.add('show');
+                }, 3500);
+
+                // Click to start
+                clickOverlay.addEventListener('click', async () => {
+                    clickOverlay.classList.remove('show');
+                    scanLine.classList.add('show');
+                    logoSection.classList.add('show');
+                    mainContent.classList.add('show');
+                    statusBar.classList.add('show');
+
+                    if (ctx.state === 'suspended') await ctx.resume();
+                    await ensureAudio();
+                    startMusic();
+                });
+
+                // Access Terminal button
+                const btn = document.querySelector('a[href="ghpcmm://theme/unlock-endfield"] button');
+                if (btn) {
+                    btn.addEventListener('click', async () => {
+                        if (ctx.state === 'suspended') await ctx.resume();
+                        await ensureAudio();
+                        playClickSfx();
+                        playTheme();
+                    });
+                }
             });
-        });
+        })();
     </script>
 </body>
 </html>
