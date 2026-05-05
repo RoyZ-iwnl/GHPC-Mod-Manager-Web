@@ -933,16 +933,18 @@
                     const progressText = document.getElementById('progressText');
 
                     const updateProgress = () => {
-                        progressText.textContent = `${Math.round(++loadedCount / totalFiles * 100)}%`;
+                        loadedCount++;
+                        const percent = Math.round(loadedCount / totalFiles * 100);
+                        progressText.textContent = `${percent}%`;
                         onProgress(loadedCount / totalFiles);
                     };
 
                     await Promise.all([
-                        loadAudio('init', updateProgress),
-                        loadAudio('initloop', updateProgress),
-                        loadAudio('themestart', updateProgress),
-                        loadAudio('themeloop', updateProgress),
-                        loadAudio('click', updateProgress),
+                        loadAudio('init').then(updateProgress),
+                        loadAudio('initloop').then(updateProgress),
+                        loadAudio('themestart').then(updateProgress),
+                        loadAudio('themeloop').then(updateProgress),
+                        loadAudio('click').then(updateProgress),
                     ]);
                 }
 
