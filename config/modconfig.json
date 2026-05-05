@@ -25,7 +25,8 @@
     "InstallMethod": "DirectRelease",
     "Conflicts": [
       "PactIL",
-      "VoiceC"
+      "VoiceC",
+      "HardM"
     ],
     "Delisted": true
   },
@@ -55,7 +56,8 @@
     "InstallMethod": "DirectRelease",
     "Conflicts": [
       "PactILROY",
-      "VoiceC"
+      "VoiceC",
+      "HardM"
     ]
   },
   {
@@ -916,14 +918,14 @@
     "InstallMethod": "DirectRelease"
   },
   {
-    "Id": "Arestock",
+    "Id": "HardM",
     "Name": {
-      "en-US": "Always Restock",
-      "zh-CN": "重伤装弹"
+      "en-US": "Hard Mode",
+      "zh-CN": "困难模式"
     },
     "Description": {
-      "en-US": "GHPC quality-of-life mod that enables restocking without a conscious loader. When the loader is killed or unconsciousness, a penalty is added to the loading time, which by default is 3 seconds per shell to be moved. This value can be customized in the configuration, but cannot be set below 0.",
-      "zh-CN": "允许在重伤装填手的情况下进行弹药补给。当装填手阵亡或失去意识时，装填时间会增加惩罚，默认值为每发炮弹 3 秒。该数值可在配置中自定义，但不能设置为低于 0。"
+      "en-US": "Version 1.0 of GHPC Hard Mode Adds additional enemies to base game maps. Currently only supports Patton Pass and Abrams Alley.\nKnown Bugs:\nEnemies not required to be killed to finish mission.",
+      "zh-CN": "GHPC 困难模式 1.0 版本为基础游戏地图增加了额外的敌人。目前仅支持 Patton Pass巴顿通道和 Abrams Alley艾布拉姆斯小巷。\n已知问题：\n无需击杀敌人即可完成任务。"
     },
     "Tags": {
       "enhancement": {
@@ -934,11 +936,17 @@
     "SupportedGameVersions": [
       "20260319.1"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Always-Restock/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC-Hard-Mode/releases/latest",
     "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "AlwaysRestock.dll",
-    "ConfigSectionName": "AlwaysRestock",
-    "InstallMethod": "DirectRelease"
+    "MainBinaryFileName": "Hard_Mode.dll",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Vprel"
+    ],
+    "Conflicts": [
+      "PactILROY",
+      "PactIL"
+    ]
   },
   {
     "Id": "Camonet",
@@ -991,6 +999,55 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "NoSmoking",
+    "Name": {
+      "en-US": " No Smoking on the Range",
+      "zh-CN": "射击场AI禁烟"
+    },
+    "Description": {
+      "en-US": "A GHPC mod that disables smoke grenades on all Grafenwöhr missions, including the vehicle showcase, so that you can practice your gunnery or test the game's ballistics simulation without annoying interruptions from the AI.",
+      "zh-CN": "这是一个GHPC模组，可以禁用所有射击场任务中的烟雾弹，包括展示，这样你可以练习射击或测试弹道模拟，而不会被AI打扰。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/No-Smoking-on-the-Range/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "NoSmokingOnTheRange.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "Arestock",
+    "Name": {
+      "en-US": "Always Restock",
+      "zh-CN": "重伤装弹"
+    },
+    "Description": {
+      "en-US": "GHPC quality-of-life mod that enables restocking without a conscious loader. When the loader is killed or unconsciousness, a penalty is added to the loading time, which by default is 3 seconds per shell to be moved. This value can be customized in the configuration, but cannot be set below 0.",
+      "zh-CN": "允许在重伤装填手的情况下进行弹药补给。当装填手阵亡或失去意识时，装填时间会增加惩罚，默认值为每发炮弹 3 秒。该数值可在配置中自定义，但不能设置为低于 0。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260319.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Always-Restock/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "AlwaysRestock.dll",
+    "ConfigSectionName": "AlwaysRestock",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "RandomNB",
     "Name": {
       "en-US": "Random Night Battles",
@@ -1013,30 +1070,6 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "RandomNightBattles.dll",
     "ConfigSectionName": "RandomNightBattles",
-    "InstallMethod": "DirectRelease"
-  },
-  {
-    "Id": "NoSmoking",
-    "Name": {
-      "en-US": " No Smoking on the Range",
-      "zh-CN": "射击场AI禁烟"
-    },
-    "Description": {
-      "en-US": "A GHPC mod that disables smoke grenades on all Grafenwöhr missions, including the vehicle showcase, so that you can practice your gunnery or test the game's ballistics simulation without annoying interruptions from the AI.",
-      "zh-CN": "这是一个GHPC模组，可以禁用所有射击场任务中的烟雾弹，包括展示，这样你可以练习射击或测试弹道模拟，而不会被AI打扰。"
-    },
-    "Tags": {
-      "utility": {
-        "zh-CN": "实用工具",
-        "en-US": "Utility"
-      }
-    },
-    "SupportedGameVersions": [
-      "20260319.1"
-    ],
-    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/No-Smoking-on-the-Range/releases/latest",
-    "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "NoSmokingOnTheRange.dll",
     "InstallMethod": "DirectRelease"
   },
   {
