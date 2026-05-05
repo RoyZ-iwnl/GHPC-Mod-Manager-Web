@@ -2,6 +2,9 @@
 
 ## Announcement
 
+### 2026-05-05
+- v1.3.5 stable release is now available with single instance detection, protocol activation (ghpcmm://), smooth page transitions, UI improvements, and previous installation migration. See the [changelog](#v135) below for details.
+
 ### 2026-05-01
 - v1.3.4 stable release is now available with skip check options, translation install optimization, hardware info collection. See the [changelog](#v134) below for details.
 
@@ -82,6 +85,43 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.5
+#### feat: Release version 1.3.5 with single instance detection, protocol activation, UI improvements, and previous installation migration
+- Bump version to 1.3.5
+- Update copyright year to 2026
+- Add single instance detection with mutex to prevent multiple instances running simultaneously
+- Add IPC communication between instances using named pipes for protocol activation
+- Add protocol activation support (ghpcmm://) for deep linking and theme unlocking
+- Add IProtocolActivationService, IProtocolIpcServer, NamedPipeProtocolIpcServer, and ProtocolIpcClient for protocol handling
+- Add PageTransitionBehavior and TransitionContentControl for smooth page transitions
+- Add game running state detection in ModDetailViewModel and SettingsViewModel
+- Add OpenWebsiteOnStartup setting option in SettingsView
+- Add theme change event subscription for real-time theme synchronization
+- Improve ModDetailView UI with toggle switch for mod enable/disable instead of button
+- Add IsDelisted field to RelatedModInfo and skip delisted mods in dependencies/conflicts display
+- Improve previous installation detection with version check and launch option for versions >= 1.3.5
+- Add LaunchApp button type in MessageDialog for launching previous installation
+- Add IsVersionAtLeast method in SetupWizardViewModel for version comparison
+- Move About section to top of SettingsView for better visibility
+- Add registry info collection in ModInfoDumper
+- Add ThemeTracker helper for tracking current theme state
+- Optimize theme switching to skip redundant theme application
+- Refactor theme resource dictionary insertion to append at end for proper style override
+- Refactor ModBrowserView card layout from 3-row to 3-row compact design
+- Move status badges to top-right corner in ModBrowserView cards
+- Optimize description text display with wrapping and trimming in browser cards
+- Update OutlinedButtonStyle to use transparent background and OnSurface border
+- Adjust OutlinedButton hover and disabled state styling
+- Add default ItemTemplate with bullet points for ListBox control
+- Remove duplicate CompactFilledButtonStyle and CompactOutlinedButtonStyle definitions
+- Change InstalledModsView mod title color from Accent to OnSurface
+- Hide LocalizedTags display in InstalledModsView
+- Fix ResponsiveCardWidthConverter binding from ActualWidth to ViewportWidth
+- Unify badge CornerRadius to use DynamicResource BadgeCornerRadius
+- Add localization strings for new features (CannotChangeGamePathWhileRunning, PreviousInstallationLaunchApp, OpenWebsiteOnStartup, SupportAuthor, etc.)
+- Add mciSendString Windows API for overlapping audio playback
+- REMOVED HEROBRINE
 
 ### v1.3.4
 #### feat: Release version 1.3.4 with skip check options, translation install optimization, hardware info collection

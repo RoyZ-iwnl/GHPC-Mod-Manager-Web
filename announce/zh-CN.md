@@ -2,6 +2,9 @@
 
 ## 公告
 
+### 2026-05-05
+- v1.3.5 正式版已发布，新增单实例检测、协议激活(ghpcmm://)、平滑页面过渡、UI改进与旧版本迁移支持，详情见下方[更新日志](#v135)。
+
 ### 2026-05-01
 - v1.3.4 正式版已发布，新增跳过检查选项、翻译安装优化、硬件信息收集，详情见下方[更新日志](#v134)。
 
@@ -85,6 +88,43 @@
 - GHPC版本20250902已发布，部分mod可能出现不适配的情况，请根据实际情况安装或更新。
 
 ## 更新日志
+
+### v1.3.5
+#### feat: 发布1.3.5版本，新增单实例检测、协议激活、UI改进与旧版本迁移
+- 版本升级至1.3.5
+- 更新版权年份至2026
+- 新增基于互斥锁的单实例检测，防止多实例同时运行
+- 新增基于命名管道的实例间IPC通信，支持协议激活
+- 新增协议激活支持（ghpcmm://），支持深度链接与主题解锁
+- 新增IProtocolActivationService、IProtocolIpcServer、NamedPipeProtocolIpcServer和ProtocolIpcClient用于协议处理
+- 新增PageTransitionBehavior和TransitionContentControl实现平滑页面过渡动画
+- 新增ModDetailViewModel和SettingsViewModel中的游戏运行状态检测
+- 新增SettingsView中的启动时打开网站设置选项
+- 新增主题变更事件订阅，实现实时主题同步
+- 改进ModDetailView界面，使用开关切换替代按钮进行Mod启用/禁用
+- 新增RelatedModInfo的IsDelisted字段，在依赖/冲突显示中跳过已下架Mod
+- 改进旧版本检测，新增版本检查与启动选项（适用于1.3.5及以上版本）
+- 新增MessageDialog中的LaunchApp按钮类型，用于启动旧版本
+- 新增SetupWizardViewModel中的IsVersionAtLeast方法用于版本比较
+- 将关于部分移至SettingsView顶部，提升可见性
+- 新增ModInfoDumper中的注册表信息收集功能
+- 新增ThemeTracker辅助类，跟踪当前主题状态
+- 优化主题切换，跳过冗余的主题应用操作
+- 重构主题资源字典插入逻辑，改为追加到末尾以确保样式正确覆盖
+- 重构ModBrowserView卡片布局，从3行改为紧凑3行设计
+- 将状态徽章移至ModBrowserView卡片右上角
+- 优化浏览器卡片描述文字显示，支持换行和裁剪
+- 更新OutlinedButtonStyle改用透明背景和OnSurface边框
+- 调整OutlinedButton悬停和禁用状态样式
+- 新增ListBox控件默认ItemTemplate，包含项目符号
+- 移除重复的CompactFilledButtonStyle和CompactOutlinedButtonStyle定义
+- 将InstalledModsView中Mod标题颜色从Accent改为OnSurface
+- 隐藏InstalledModsView中的LocalizedTags显示
+- 修复ResponsiveCardWidthConverter绑定从ActualWidth改为ViewportWidth
+- 统一徽章圆角使用DynamicResource BadgeCornerRadius
+- 新增国际化字符串支持新功能（CannotChangeGamePathWhileRunning、PreviousInstallationLaunchApp、OpenWebsiteOnStartup、SupportAuthor等）
+- 新增mciSendString Windows API支持音频重叠播放
+- 移除了HEROBRINE
 
 ### v1.3.4
 #### feat: 发布1.3.4版本，新增跳过检查选项、翻译安装优化、硬件信息收集
