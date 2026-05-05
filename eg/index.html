@@ -697,10 +697,27 @@
             const ctx = new (window.AudioContext || window.webkitAudioContext)();
             let audioBuffers = {};
 
-            async function loadAudio(name) {
-                const resp = await fetch(`eg/${name}.mp3`);
-                const arrayBuf = await resp.arrayBuffer();
-                audioBuffers[name] = await ctx.decodeAudioData(arrayBuf);
+            async function loadAudio(name, onProgress) {
+                const resp = await fetch(`${name}.mp3`);
+                const total = parseInt(resp.headers.get('Content-Length') || '1');
+                const reader = resp.body.getReader();
+                let loaded = 0;
+                audioBuffers[name] = null;
+                const chunks = [];
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    chunks.push(value);
+                    loaded += value.length;
+                    if (onProgress) onProgress(loaded / total);
+                }
+                const arrayBuf = new Uint8Array(loaded);
+                let offset = 0;
+                for (const chunk of chunks) {
+                    arrayBuf.set(chunk, offset);
+                    offset += chunk.length;
+                }
+                audioBuffers[name] = await ctx.decodeAudioData(arrayBuf.buffer);
             }
 
             function playSource(buffer, startTime, loop = false) {
@@ -775,51 +792,60 @@
 
                 // Load all audio on first user gesture
                 let audioLoaded = false;
-                async function ensureAudio() {
+                async function ensureAudio(onProgress) {
                     if (audioLoaded) return;
                     audioLoaded = true;
+                    const totalFiles = 5;
+                    let loadedCount = 0;
                     await Promise.all([
-                        loadAudio('init'),
-                        loadAudio('initloop'),
-                        loadAudio('themestart'),
-                        loadAudio('themeloop'),
-                        loadAudio('click'),
+                        loadAudio('init', () => onProgress(++loadedCount / totalFiles)),
+                        loadAudio('initloop', () => onProgress(++loadedCount / totalFiles)),
+                        loadAudio('themestart', () => onProgress(++loadedCount / totalFiles)),
+                        loadAudio('themeloop', () => onProgress(++loadedCount / totalFiles)),
+                        loadAudio('click', () => onProgress(++loadedCount / totalFiles)),
                     ]);
                 }
 
-                // Step 1: Fill progress bar from top to bottom
+                // Show click overlay after page load
                 setTimeout(() => {
-                    progressBar.style.height = '100vh';
-                }, 100);
-
-                // Step 2: Expand from left to right
-                setTimeout(() => {
-                    fullScreen.style.width = '100vw';
-                }, 2100);
-
-                // Step 3: Fade out loader
-                setTimeout(() => {
-                    loader.style.opacity = '0';
-                    loader.style.transition = 'opacity 0.6s ease-out';
-                }, 2900);
-
-                // Step 4: Show click overlay
-                setTimeout(() => {
-                    loader.style.display = 'none';
                     clickOverlay.classList.add('show');
-                }, 3500);
+                }, 500);
 
-                // Click to start
+                // Click to start - show loading animation, load audio, then show page and play
                 clickOverlay.addEventListener('click', async () => {
-                    clickOverlay.classList.remove('show');
-                    scanLine.classList.add('show');
-                    logoSection.classList.add('show');
-                    mainContent.classList.add('show');
-                    statusBar.classList.add('show');
-
                     if (ctx.state === 'suspended') await ctx.resume();
-                    await ensureAudio();
-                    startMusic();
+
+                    // Hide click overlay, show loader with progress bar
+                    clickOverlay.classList.remove('show');
+                    loader.style.display = 'block';
+                    loader.style.opacity = '1';
+                    progressBar.style.height = '0';
+                    fullScreen.style.width = '0';
+
+                    // Load audio with progress updates
+                    await ensureAudio((progress) => {
+                        progressBar.style.height = `${progress * 100}vh`;
+                    });
+
+                    // Audio loaded, expand fullScreen animation
+                    setTimeout(() => {
+                        fullScreen.style.width = '100vw';
+                    }, 200);
+
+                    // Fade out loader and show page
+                    setTimeout(() => {
+                        loader.style.opacity = '0';
+                        loader.style.transition = 'opacity 0.6s ease-out';
+                    }, 1200);
+
+                    setTimeout(() => {
+                        loader.style.display = 'none';
+                        scanLine.classList.add('show');
+                        logoSection.classList.add('show');
+                        mainContent.classList.add('show');
+                        statusBar.classList.add('show');
+                        startMusic();
+                    }, 1800);
                 });
 
                 // Access Terminal button
