@@ -664,7 +664,7 @@
     "SupportedGameVersions": [
       "20260319.1"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/No-Smoking-on-the-Range/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/NVA-Voice-Patch/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "NVA_Voices.dll",
     "InstallMethod": "DirectRelease"
