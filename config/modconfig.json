@@ -77,16 +77,13 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "M1A1Abrams.dll",
     "ConfigSectionName": "M1A1Config",
     "InstallMethod": "DirectRelease",
-    "Requirements": [
-      "Vprel"
-    ],
     "Conflicts": [
       "M1A1AMP",
       "NATOERA"
@@ -258,7 +255,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2BradleyExtended/releases/latest",
     "TargetFileNameKeyword": ".zip",
