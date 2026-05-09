@@ -519,7 +519,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/CanadianLeopards/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -907,7 +907,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Ammo_UI_Extended/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -931,7 +931,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC-Hard-Mode/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -962,7 +962,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_MOD_Guaranteed_Camo_Net/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1086,7 +1086,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/VehiclePreloader/releases/latest",
     "TargetFileNameKeyword": ".dll",
