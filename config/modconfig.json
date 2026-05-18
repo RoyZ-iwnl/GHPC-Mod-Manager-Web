@@ -786,7 +786,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/LoadoutManager/releases/latest",
     "TargetFileNameKeyword": ".dll",
