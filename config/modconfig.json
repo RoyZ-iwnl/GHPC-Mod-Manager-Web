@@ -546,7 +546,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/vical1145-source/GHPC-Weapon-Sound-Effect-Mod/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -573,7 +573,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2-Bradley-Sound-Replacement/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -604,7 +604,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/FAJAgaming/GHPCVoiceChanger/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -633,7 +633,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Music_Controller/releases/latest",
     "TargetFileNameKeyword": ".dll",
