@@ -202,9 +202,6 @@
     "MainBinaryFileName": "SuperM60ROY.dll",
     "ConfigSectionName": "SuperM60Config",
     "InstallMethod": "DirectRelease",
-    "Requirements": [
-      "Vprel"
-    ],
     "Conflicts": [
       "SM60"
     ]
