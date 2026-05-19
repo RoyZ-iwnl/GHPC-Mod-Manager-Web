@@ -2,6 +2,9 @@
 
 ## Announcement
 
+### 2026-05-19
+- v1.3.6 stable release is now available with save editor, game version check, and UI improvements. See the [changelog](#v136) below for details.
+
 ### 2026-05-05
 - v1.3.5 stable release is now available with single instance detection, protocol activation (ghpcmm://), smooth page transitions, UI improvements, and previous installation migration. See the [changelog](#v135) below for details.
 
@@ -122,6 +125,23 @@
 - Add localization strings for new features (CannotChangeGamePathWhileRunning, PreviousInstallationLaunchApp, OpenWebsiteOnStartup, SupportAuthor, etc.)
 - Add mciSendString Windows API for overlapping audio playback
 - REMOVED HEROBRINE
+
+### v1.3.6
+#### feat: Release version 1.3.6 with save editor, game version check, and UI improvements
+- Bump version to 1.3.6
+- Upgrade NuGet packages to latest versions (CommunityToolkit.Mvvm 8.4.2, Microsoft.Extensions.* 10.0.8, WebView2 1.0.3967.48, Newtonsoft.Json 13.0.4, SharpCompress 0.48.1, System.Management 10.0.8)
+- Add save editor feature with ISaveEditorService and SaveEditorService for editing GHPC save files
+- Add SaveEditorViewModel with theater/mission tree display, faction completion status toggle, one-key complete/reset
+- Add SaveEditorView.xaml and code-behind for save file editing UI
+- Add SaveDataModels.cs with save file data structures (SaveFileData, PlayerSaveData, TheaterInfo, MissionInfo, FactionState, etc.)
+- Add backup management in save editor (auto backup before save, manual backup, restore from backup, delete backup)
+- Add NullToVisibilityConverter, NullToVisibilityInverseConverter, BoolToCompletionBrushConverter, FactionForegroundConverter, BoolToSaveHintConverter in CommonConverters
+- Add SkipGameVersionCheck setting in AppSettings for skipping game version compatibility check on launch
+- Add game version compatibility warning dialog when launching game with incompatible mods installed
+- Refactor ModInfoDumper to collect GHPC Data folder path instead of registry info
+- Add NavSaveEditor navigation item and SaveEditorView registration
+- Add localization strings for new save editor features and game version check
+- Add FactionBlue, FactionRed, FactionNeutral localization for faction display
 
 ### v1.3.4
 #### feat: Release version 1.3.4 with skip check options, translation install optimization, hardware info collection

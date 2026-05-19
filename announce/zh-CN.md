@@ -2,6 +2,9 @@
 
 ## 公告
 
+### 2026-05-19
+- v1.3.6 正式版已发布，新增存档编辑器、游戏版本检查与UI改进，详情见下方[更新日志](#v136)。
+
 ### 2026-05-05
 - v1.3.5 正式版已发布，新增单实例检测、协议激活(ghpcmm://)、平滑页面过渡、UI改进与旧版本迁移支持，详情见下方[更新日志](#v135)。
 
@@ -125,6 +128,23 @@
 - 新增国际化字符串支持新功能（CannotChangeGamePathWhileRunning、PreviousInstallationLaunchApp、OpenWebsiteOnStartup、SupportAuthor等）
 - 新增mciSendString Windows API支持音频重叠播放
 - 移除了HEROBRINE
+
+### v1.3.6
+#### feat: 发布1.3.6版本，新增存档编辑器、游戏版本检查与UI改进
+- 版本升级至1.3.6
+- 升级NuGet包至最新版本（CommunityToolkit.Mvvm 8.4.2, Microsoft.Extensions.* 10.0.8, WebView2 1.0.3967.48, Newtonsoft.Json 13.0.4, SharpCompress 0.48.1, System.Management 10.0.8）
+- 新增存档编辑器功能，添加ISaveEditorService和SaveEditorService用于编辑GHPC存档
+- 新增SaveEditorViewModel，支持战役/任务树显示、阵营完成状态切换、一键完成/重置
+- 新增SaveEditorView.xaml及代码后端，用于存档编辑界面
+- 新增SaveDataModels.cs，包含存档数据结构（SaveFileData、PlayerSaveData、TheaterInfo、MissionInfo、FactionState等）
+- 新增存档编辑器备份管理（保存前自动备份、手动备份、从备份恢复、删除备份）
+- 在CommonConverters中添加空值/布尔值转换器（NullToVisibilityConverter、NullToVisibilityInverseConverter、BoolToCompletionBrushConverter、FactionForegroundConverter、BoolToSaveHintConverter）
+- 在AppSettings中新增SkipGameVersionCheck设置，支持启动游戏时跳过版本兼容性检查
+- 启动游戏时检测不兼容Mod，弹出游戏版本兼容性警告对话框
+- 重构ModInfoDumper，改为收集GHPC Data文件夹路径而非注册表信息
+- 新增NavSaveEditor导航项及SaveEditorView注册
+- 新增存档编辑器和游戏版本检查相关国际化字符串
+- 新增FactionBlue、Red、Neutral阵营显示国际化
 
 ### v1.3.4
 #### feat: 发布1.3.4版本，新增跳过检查选项、翻译安装优化、硬件信息收集
