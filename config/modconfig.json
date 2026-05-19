@@ -195,7 +195,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/Super-M60/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -304,7 +304,8 @@
       "50mmROY",
       "FireRT",
       "M2Ex"
-    ]
+    ],
+    "Delisted": true
   },
   {
     "Id": "M6A2",
@@ -406,7 +407,8 @@
       "M6A2ROY",
       "M2ReSound",
       "M2Ex"
-    ]
+    ],
+    "Delisted": true
   },
   {
     "Id": "50mm",
