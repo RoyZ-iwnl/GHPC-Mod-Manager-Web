@@ -1822,6 +1822,10 @@
         "Use Mk 211 Mod 0": {
           "zh-CN": "使用 Mk 211 Mod 0 高爆弹",
           "en-US": "Use Mk 211 Mod 0"
+        },
+        "Vanilla Ammo Capacity": {
+          "zh-CN": "原生弹药容量",
+          "en-US": "Vanilla Ammo Capacity"
         }
       },
       "ConfigComments": {
@@ -1920,6 +1924,10 @@
         "Convert all M1E1s to M1A1s (will still use M1E1 settings)": {
           "zh-CN": "将所有M1E1转换为M1A1（仍使用M1E1设置）",
           "en-US": "Convert all M1E1s to M1A1s (will still use M1E1 settings)"
+        },
+        "Carry a total of 52 rounds instead of 40.": {
+          "zh-CN": "带52发而不是40发",
+          "en-US": "Carry a total of 52 rounds instead of 40."
         }
       },
       "multiplechoice": {},
@@ -4835,6 +4843,7 @@
           "en-US": "Reduces time to replenish autocannon ammo bins to 15 seconds"
         }
       },
+      "multiplechoice": {},
       "singlechoice": {
         "TOW Missile": [
           "Default",
@@ -4936,7 +4945,9 @@
           "zh-CN": "开启则修改步兵，关闭则排除步兵",
           "en-US": "Set true to modify infantrymen, false to exclude them"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "Arestock": {
       "ModId": "Arestock",
@@ -4951,7 +4962,9 @@
           "zh-CN": "当装填手死亡时重新装填弹药的时间惩罚（秒）",
           "en-US": "The penalty in seconds for restocking ammo with a dead loader"
         }
-      }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "CLeopards": {
       "ModId": "CLeopards",
@@ -5015,6 +5028,7 @@
           "en-US": "Mutes log messages in the MelonLoader console."
         }
       },
+      "multiplechoice": {},
       "singlechoice": {
         "Customize ammo loadout": [
           "historical",
@@ -5026,85 +5040,87 @@
     "ArtilleryEx": {
       "ModId": "ArtilleryEx",
       "ConfigLabels": {
-      "HE OnCall volume multiplier": {
-        "zh-CN": "HE即召炮击数量倍率",
-        "en-US": "HE OnCall volume multiplier"
+        "HE OnCall volume multiplier": {
+          "zh-CN": "HE即召炮击数量倍率",
+          "en-US": "HE OnCall volume multiplier"
+        },
+        "HE OnCall time-to-target multiplier": {
+          "zh-CN": "HE即召炮击飞行时间倍率",
+          "en-US": "HE OnCall time-to-target multiplier"
+        },
+        "HE OnCall accuracy multiplier": {
+          "zh-CN": "HE即召炮击精度倍率",
+          "en-US": "HE OnCall accuracy multiplier"
+        },
+        "HE Planned volume multiplier": {
+          "zh-CN": "HE计划炮击数量倍率",
+          "en-US": "HE Planned volume multiplier"
+        },
+        "HE Planned time-to-target multiplier": {
+          "zh-CN": "HE计划炮击飞行时间倍率",
+          "en-US": "HE Planned time-to-target multiplier"
+        },
+        "HE Planned accuracy multiplier": {
+          "zh-CN": "HE计划炮击精度倍率",
+          "en-US": "HE Planned accuracy multiplier"
+        },
+        "Smoke OnCall volume multiplier": {
+          "zh-CN": "烟雾即召炮击数量倍率",
+          "en-US": "Smoke OnCall volume multiplier"
+        },
+        "Smoke OnCall time-to-target multiplier": {
+          "zh-CN": "烟雾即召炮击飞行时间倍率",
+          "en-US": "Smoke OnCall time-to-target multiplier"
+        },
+        "Smoke OnCall accuracy multiplier": {
+          "zh-CN": "烟雾即召炮击精度倍率",
+          "en-US": "Smoke OnCall accuracy multiplier"
+        },
+        "Smoke Planned volume multiplier": {
+          "zh-CN": "烟雾计划炮击数量倍率",
+          "en-US": "Smoke Planned volume multiplier"
+        },
+        "Smoke Planned time-to-target multiplier": {
+          "zh-CN": "烟雾计划炮击飞行时间倍率",
+          "en-US": "Smoke Planned time-to-target multiplier"
+        },
+        "Smoke Planned accuracy multiplier": {
+          "zh-CN": "烟雾计划炮击精度倍率",
+          "en-US": "Smoke Planned accuracy multiplier"
+        },
+        "Illumination OnCall volume multiplier": {
+          "zh-CN": "照明即召炮击数量倍率",
+          "en-US": "Illumination OnCall volume multiplier"
+        },
+        "Illumination OnCall time-to-target multiplier": {
+          "zh-CN": "照明即召炮击飞行时间倍率",
+          "en-US": "Illumination OnCall time-to-target multiplier"
+        },
+        "Illumination OnCall accuracy multiplier": {
+          "zh-CN": "照明即召炮击精度倍率",
+          "en-US": "Illumination OnCall accuracy multiplier"
+        },
+        "Illumination Planned volume multiplier": {
+          "zh-CN": "照明计划炮击数量倍率",
+          "en-US": "Illumination Planned volume multiplier"
+        },
+        "Illumination Planned time-to-target multiplier": {
+          "zh-CN": "照明计划炮击飞行时间倍率",
+          "en-US": "Illumination Planned time-to-target multiplier"
+        },
+        "Illumination Planned accuracy multiplier": {
+          "zh-CN": "照明计划炮击精度倍率",
+          "en-US": "Illumination Planned accuracy multiplier"
+        }
       },
-      "HE OnCall time-to-target multiplier": {
-        "zh-CN": "HE即召炮击飞行时间倍率",
-        "en-US": "HE OnCall time-to-target multiplier"
+      "ConfigComments": {
+        "There are two types of artillery in GHPC; OnCall, which occurs with player input, and planned, which happens automatically. Volume multiplier increases the amount of shells fired - Set 2.5 for 2.5x the amount of shells.Time-to-target multiplier decreases the time it takes for shells to arrive. Set to 2.0 for half the time-to-target. Accuracy affects the dispersion radius of the shells, set to a higher number for tighter firing patterns.": {
+          "zh-CN": "GHPC中有两种炮击类型：即召（由玩家手动触发）和计划（自动执行）。数量倍率增加发射炮弹数，设为2.5即为2.5倍弹量。飞行时间倍率缩短炮弹到达时间，设为2.0即缩短至原来一半。精度影响炮弹散布半径，数值越高弹着点越集中。",
+          "en-US": "There are two types of artillery in GHPC; OnCall, which occurs with player input, and planned, which happens automatically. Volume multiplier increases the amount of shells fired - Set 2.5 for 2.5x the amount of shells. Time-to-target multiplier decreases the time it takes for shells to arrive. Set to 2.0 for half the time-to-target. Accuracy affects the dispersion radius of the shells, set to a higher number for tighter firing patterns."
+        }
       },
-      "HE OnCall accuracy multiplier": {
-        "zh-CN": "HE即召炮击精度倍率",
-        "en-US": "HE OnCall accuracy multiplier"
-      },
-      "HE Planned volume multiplier": {
-        "zh-CN": "HE计划炮击数量倍率",
-        "en-US": "HE Planned volume multiplier"
-      },
-      "HE Planned time-to-target multiplier": {
-        "zh-CN": "HE计划炮击飞行时间倍率",
-        "en-US": "HE Planned time-to-target multiplier"
-      },
-      "HE Planned accuracy multiplier": {
-        "zh-CN": "HE计划炮击精度倍率",
-        "en-US": "HE Planned accuracy multiplier"
-      },
-      "Smoke OnCall volume multiplier": {
-        "zh-CN": "烟雾即召炮击数量倍率",
-        "en-US": "Smoke OnCall volume multiplier"
-      },
-      "Smoke OnCall time-to-target multiplier": {
-        "zh-CN": "烟雾即召炮击飞行时间倍率",
-        "en-US": "Smoke OnCall time-to-target multiplier"
-      },
-      "Smoke OnCall accuracy multiplier": {
-        "zh-CN": "烟雾即召炮击精度倍率",
-        "en-US": "Smoke OnCall accuracy multiplier"
-      },
-      "Smoke Planned volume multiplier": {
-        "zh-CN": "烟雾计划炮击数量倍率",
-        "en-US": "Smoke Planned volume multiplier"
-      },
-      "Smoke Planned time-to-target multiplier": {
-        "zh-CN": "烟雾计划炮击飞行时间倍率",
-        "en-US": "Smoke Planned time-to-target multiplier"
-      },
-      "Smoke Planned accuracy multiplier": {
-        "zh-CN": "烟雾计划炮击精度倍率",
-        "en-US": "Smoke Planned accuracy multiplier"
-      },
-      "Illumination OnCall volume multiplier": {
-        "zh-CN": "照明即召炮击数量倍率",
-        "en-US": "Illumination OnCall volume multiplier"
-      },
-      "Illumination OnCall time-to-target multiplier": {
-        "zh-CN": "照明即召炮击飞行时间倍率",
-        "en-US": "Illumination OnCall time-to-target multiplier"
-      },
-      "Illumination OnCall accuracy multiplier": {
-        "zh-CN": "照明即召炮击精度倍率",
-        "en-US": "Illumination OnCall accuracy multiplier"
-      },
-      "Illumination Planned volume multiplier": {
-        "zh-CN": "照明计划炮击数量倍率",
-        "en-US": "Illumination Planned volume multiplier"
-      },
-      "Illumination Planned time-to-target multiplier": {
-        "zh-CN": "照明计划炮击飞行时间倍率",
-        "en-US": "Illumination Planned time-to-target multiplier"
-      },
-      "Illumination Planned accuracy multiplier": {
-        "zh-CN": "照明计划炮击精度倍率",
-        "en-US": "Illumination Planned accuracy multiplier"
-      }
-    },
-    "ConfigComments": {
-      "There are two types of artillery in GHPC; OnCall, which occurs with player input, and planned, which happens automatically. Volume multiplier increases the amount of shells fired - Set 2.5 for 2.5x the amount of shells.Time-to-target multiplier decreases the time it takes for shells to arrive. Set to 2.0 for half the time-to-target. Accuracy affects the dispersion radius of the shells, set to a higher number for tighter firing patterns.": {
-        "zh-CN": "GHPC中有两种炮击类型：即召（由玩家手动触发）和计划（自动执行）。数量倍率增加发射炮弹数，设为2.5即为2.5倍弹量。飞行时间倍率缩短炮弹到达时间，设为2.0即缩短至原来一半。精度影响炮弹散布半径，数值越高弹着点越集中。",
-        "en-US": "There are two types of artillery in GHPC; OnCall, which occurs with player input, and planned, which happens automatically. Volume multiplier increases the amount of shells fired - Set 2.5 for 2.5x the amount of shells. Time-to-target multiplier decreases the time it takes for shells to arrive. Set to 2.0 for half the time-to-target. Accuracy affects the dispersion radius of the shells, set to a higher number for tighter firing patterns."
-      }
-    }
+      "multiplechoice": {},
+      "singlechoice": {}
     },
     "musicC": {
       "ModId": "musicC",
@@ -5119,7 +5135,9 @@
           "zh-CN": "从以下游戏内歌曲中选择：\"Broken Arrow\"（需要手动下载ZIP）、\"Not One Step Back\"（需要手动下载ZIP）、\"Defilade\"、\"Threat Factor\"、\"Danger Close\"、\"Steel Horizon\"，或输入自定义歌曲名。自定义歌曲需在 Music_Controller_Assets/ 目录下放置4个音频分层文件（.wav 或 .ogg），命名为 YourSong_L1.wav、YourSong_L2.wav、YourSong_L3.wav、YourSong_L4.wav。_L1=低强度，_L2=中强度，_L3=高强度，_L4=最强强度。同一首歌的所有文件必须具有相同的时长、采样率、声道数与位深度。留空则使用默认随机播放行为。支持 OGG-Vorbis 或 16位PCM WAV格式。",
           "en-US": "Pick between the following in-game songs: \"Broken Arrow\"(NEED ZIP FROM GITHUB), \"Not One Step Back\"(NEED ZIP FROM GITHUB), \"Defilade\", \"Threat Factor\", \"Danger Close\", \"Steel Horizon\", or your own custom song name. Custom songs need 4 audio files (.wav or .ogg) as layers in Music_Controller_Assets/ named YourSong_L1.wav, YourSong_L2.wav, YourSong_L3.wav, YourSong_L4.wav. _L1 = low intensity, _L2 = medium, _L3 = high, _L4 = max intensity. All files for 1 song must have same length, sample rate, channels, and bit depth. Leave blank for default random behavior. Works with OGG-Vorpis or 16-bit pcm wav formats."
         }
-      }
-    }    
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
+    }
   }
 }
