@@ -4217,7 +4217,7 @@
           "zh-CN": "为黄鼠狼系列提供稳定器（默认：启用）",
           "en-US": "Gives Marder series a stabilizer (default: enabled)"
         },
-        "Stabilizes MILAN launcher on Marder A1+- and Marder 1A2 (default: enabled)": {
+        "Stabilizes MILAN launcher on Marder A1+ and Marder 1A2 (default: enabled)": {
           "zh-CN": "稳定黄鼠狼A1+-和黄鼠狼1A2上的MILAN发射器（默认：启用）",
           "en-US": "Stabilizes MILAN launcher on Marder A1+- and Marder 1A2 (default: enabled)"
         },
@@ -4269,19 +4269,19 @@
           "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3A3 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A3 Convert to 1A5' is disabled"
         },
-        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A1 Convert to 1A5' is disabled": {
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A1A1 Convert to 1A5' is disabled": {
           "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A1 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A1 Convert to 1A5' is disabled"
         },
-        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A2 Convert to 1A5' is disabled": {
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A1A2 Convert to 1A5' is disabled": {
           "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A2 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A2 Convert to 1A5' is disabled"
         },
-        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A3 Convert to 1A5' is disabled": {
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A1A3 Convert to 1A5' is disabled": {
           "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A3 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A3 Convert to 1A5' is disabled"
         },
-        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A4 Convert to 1A5' is disabled": {
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A1A4 Convert to 1A5' is disabled": {
           "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A4 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A4 Convert to 1A5' is disabled"
         },
