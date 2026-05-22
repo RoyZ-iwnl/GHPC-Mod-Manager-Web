@@ -458,7 +458,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -760,7 +760,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/lucaspevidor/FastRestock/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -810,7 +810,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260319.1"
+      "20260507.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/HE-Frag-Variable-Fuses/releases/latest",
     "TargetFileNameKeyword": ".dll",
