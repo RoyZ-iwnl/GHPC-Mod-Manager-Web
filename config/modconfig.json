@@ -523,7 +523,7 @@
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/CanadianLeopards/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "CanadianLeopards.dll",
-    "ConfigSectionName": "Canadian Leopards",
+    "ConfigSectionName": "\"Canadian Leopards\"",
     "InstallMethod": "DirectRelease",
     "Conflicts": [
       "underdog"
