@@ -3887,6 +3887,10 @@
           "zh-CN": "黄鼠狼模组总开关",
           "en-US": "Marder Mod Master Switch"
         },
+        "Marder Cannon Conversion": {
+          "zh-CN": "黄鼠狼机炮改装开关",
+          "en-US": "Marder Cannon Conversion"
+        },
         "Marder Cannon Caliber": {
           "zh-CN": "黄鼠狼机炮口径",
           "en-US": "Marder Cannon Caliber"
@@ -3999,57 +4003,69 @@
           "zh-CN": "豹1A3A3穿甲弹种类",
           "en-US": "Leopard 1A3A3 Ammo AP Rounds"
         },
-        "Leopard A1A1 Convert to 1A5": {
-          "zh-CN": "豹A1A1转换为1A5",
+        "Leopard 1A1A1 Convert to 1A5": {
+          "zh-CN": "豹1A1A1转换为1A5",
           "en-US": "Leopard A1A1 Convert to 1A5"
         },
-        "Leopard A1A1 EMES18 FCS Only": {
-          "zh-CN": "豹A1A1仅启用EMES18火控",
+        "Leopard 1A1A1 EMES18 FCS Only": {
+          "zh-CN": "豹1A1A1仅启用EMES18火控",
           "en-US": "Leopard A1A1 EMES18 FCS Only"
         },
-        "Leopard A1A1 Ammo AP Rounds": {
-          "zh-CN": "豹A1A1穿甲弹种类",
+        "Leopard 1A1A1 Ammo AP Rounds": {
+          "zh-CN": "豹1A1A1穿甲弹种类",
           "en-US": "Leopard A1A1 Ammo AP Rounds"
         },
-        "Leopard A1A2 Convert to 1A5": {
-          "zh-CN": "豹A1A2转换为1A5",
+        "Leopard 1A1A2 Convert to 1A5": {
+          "zh-CN": "豹1A1A2转换为1A5",
           "en-US": "Leopard A1A2 Convert to 1A5"
         },
-        "Leopard A1A2 EMES18 FCS Only": {
-          "zh-CN": "豹A1A2仅启用EMES18火控",
+        "Leopard 1A1A2 EMES18 FCS Only": {
+          "zh-CN": "豹1A1A2仅启用EMES18火控",
           "en-US": "Leopard A1A2 EMES18 FCS Only"
         },
-        "Leopard A1A2 Ammo AP Rounds": {
-          "zh-CN": "豹A1A2穿甲弹种类",
+        "Leopard 1A1A2 Ammo AP Rounds": {
+          "zh-CN": "豹1A1A2穿甲弹种类",
           "en-US": "Leopard A1A2 Ammo AP Rounds"
         },
-        "Leopard A1A3 Convert to 1A5": {
-          "zh-CN": "豹A1A3转换为1A5",
+        "Leopard 1A1A3 Convert to 1A5": {
+          "zh-CN": "豹1A1A3转换为1A5",
           "en-US": "Leopard A1A3 Convert to 1A5"
         },
-        "Leopard A1A3 EMES18 FCS Only": {
-          "zh-CN": "豹A1A3仅启用EMES18火控",
+        "Leopard 1A1A3 EMES18 FCS Only": {
+          "zh-CN": "豹1A1A3仅启用EMES18火控",
           "en-US": "Leopard A1A3 EMES18 FCS Only"
         },
-        "Leopard A1A3 Ammo AP Rounds": {
-          "zh-CN": "豹A1A3穿甲弹种类",
+        "Leopard 1A1A3 Ammo AP Rounds": {
+          "zh-CN": "豹1A1A3穿甲弹种类",
           "en-US": "Leopard A1A3 Ammo AP Rounds"
         },
-        "Leopard A1A4 Convert to 1A5": {
-          "zh-CN": "豹A1A4转换为1A5",
+        "Leopard 1A1A4 Convert to 1A5": {
+          "zh-CN": "豹1A1A4转换为1A5",
           "en-US": "Leopard A1A4 Convert to 1A5"
         },
-        "Leopard A1A4 EMES18 FCS Only": {
-          "zh-CN": "豹A1A4仅启用EMES18火控",
+        "Leopard 1A1A4 EMES18 FCS Only": {
+          "zh-CN": "豹1A1A4仅启用EMES18火控",
           "en-US": "Leopard A1A4 EMES18 FCS Only"
         },
-        "Leopard A1A4 Ammo AP Rounds": {
+        "Leopard 1A1A4 Ammo AP Rounds": {
           "zh-CN": "豹A1A4穿甲弹种类",
           "en-US": "Leopard A1A4 Ammo AP Rounds"
         },
         "Leopard 1A5 Ammo AP Rounds": {
           "zh-CN": "豹1A5穿甲弹种类",
           "en-US": "Leopard 1A5 Ammo AP Rounds"
+        },
+        "Leopard 1A4 Convert to 1A5": {
+          "zh-CN": "豹1A4转换为1A5",
+          "en-US": "Leopard 1A4 Convert to 1A5"
+        },
+        "Leopard 1A4 Ammo AP Rounds": {
+          "zh-CN": "豹1A4穿甲弹种类",
+          "en-US": "Leopard 1A4 Ammo AP Rounds"
+        },
+        "Leopard 1A4 EMES18 FCS Only": {
+          "zh-CN": "豹1A4仅启用EMES18火控",
+          "en-US": "Leopard 1A4 EMES18 FCS Only"
         },
         "BTR-70 Mod Master Switch": {
           "zh-CN": "BTR-70模组总开关",
@@ -4169,6 +4185,10 @@
           "zh-CN": "为BRDM-2提供激光测距仪（仅显示距离，不自动测距；默认：启用）",
           "en-US": "Gives BRDM-2 a laser rangefinder (display only, no auto-ranging; default: enabled)"
         },
+        "Enable main gun caliber conversion from stock 20mm to 25mm/35mm (default: enabled)": {
+          "zh-CN": "将黄鼠狼主机炮口径改为25mm或35mm（默认：启用）",
+          "en-US": "Enable main gun caliber conversion from stock 20mm to 25mm/35mm (default: enabled)"
+        },        
         "Main gun caliber selection. 25mm = Oerlikon KBA (175/600 RPM [B] toggle, M791/M792 or PMB090 ammo); 35mm = Oerlikon Revolver (200/1000 RPM [B] toggle, DM33/DM23/DM13 AP + DM11A1 HE). Valid: 25mm, 35mm (default: 25mm)": {
           "zh-CN": "主炮口径选择。25毫米=厄利孔KBA（175/600转每分，可用[B]切换，使用M791/M792或PMB090弹药）；35毫米=厄利孔转膛炮（200/1000转每分，可用[B]切换，使用DM33/DM23/DM13穿甲弹和DM11A1高爆弹）。有效值：25mm、35mm（默认：25mm）",
           "en-US": "Main gun caliber selection. 25mm = Oerlikon KBA (175/600 RPM [B] toggle, M791/M792 or PMB090 ammo); 35mm = Oerlikon Revolver (200/1000 RPM [B] toggle, DM33/DM23/DM13 AP + DM11A1 HE). Valid: 25mm, 35mm (default: 25mm)"
@@ -4230,7 +4250,7 @@
           "en-US": "Convert to Leopard 1A5 (EMES-18 sight + new turret appearance); disable to keep vanilla appearance"
         },
         "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3 Convert to 1A5' is disabled": {
-          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3 Convert to 1A5”禁用时生效",
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3 Convert to 1A5' is disabled"
         },
         "AP round type selection: Default=vanilla, DM33=420mm penetration, DM63=447mm penetration": {
@@ -4238,32 +4258,36 @@
           "en-US": "AP round type selection: Default=vanilla, DM33=420mm penetration, DM63=447mm penetration"
         },
         "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A1 Convert to 1A5' is disabled": {
-          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3A1 Convert to 1A5”禁用时生效",
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3A1 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A1 Convert to 1A5' is disabled"
         },
         "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A2 Convert to 1A5' is disabled": {
-          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3A2 Convert to 1A5”禁用时生效",
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3A2 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A2 Convert to 1A5' is disabled"
         },
         "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A3 Convert to 1A5' is disabled": {
-          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3A3 Convert to 1A5”禁用时生效",
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A3A3 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A3A3 Convert to 1A5' is disabled"
         },
         "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A1 Convert to 1A5' is disabled": {
-          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A1 Convert to 1A5”禁用时生效",
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A1 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A1 Convert to 1A5' is disabled"
         },
         "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A2 Convert to 1A5' is disabled": {
-          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A2 Convert to 1A5”禁用时生效",
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A2 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A2 Convert to 1A5' is disabled"
         },
         "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A3 Convert to 1A5' is disabled": {
-          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A3 Convert to 1A5”禁用时生效",
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A3 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A3 Convert to 1A5' is disabled"
         },
         "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A4 Convert to 1A5' is disabled": {
-          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A4 Convert to 1A5”禁用时生效",
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard A1A4 转换为豹1A5”禁用时生效",
           "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard A1A4 Convert to 1A5' is disabled"
+        },
+        "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A4 Convert to 1A5' is disabled": {
+          "zh-CN": "仅应用EMES-18火控系统，不改变模型；仅在“Leopard 1A4 转换为豹1A5”禁用时生效",
+          "en-US": "Apply EMES-18 fire control system only, without model changes; only effective when 'Leopard 1A4 Convert to 1A5' is disabled"
         },
         "Gives BTR-70 a stabilizer (default: enabled)": {
           "zh-CN": "为BTR-70提供稳定器（默认：启用）",
