@@ -995,6 +995,30 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "InfAmmo",
+    "Name": {
+      "en-US": "Infinite Ammo",
+      "zh-CN": "无限弹药"
+    },
+    "Description": {
+      "en-US": "replenishes your "ready rack" every time you reload",
+      "zh-CN": "每次填装时补充您的待发弹药架"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260507.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/InfiniteAmmo/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "InfiniteAmmo.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "NoSmoking",
     "Name": {
       "en-US": " No Smoking on the Range",
