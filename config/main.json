@@ -46,6 +46,502 @@
                 "zh-CN": "Fastly",
                 "en-US": "Fastly"
             }
+        },
+        {
+            "Id": "GhproxyNet",
+            "Domain": "ghproxy.net",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "J1linDpdnsOrg",
+            "Domain": "j.1lin.dpdns.org",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubTbeduTop",
+            "Domain": "github.tbedu.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubProxyMemoryEchoesCn",
+            "Domain": "github-proxy.memory-echoes.cn",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "Gh927223Xyz",
+            "Domain": "gh.927223.xyz",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "CdnAkaereOnline",
+            "Domain": "cdn.akaere.online",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "TvvTw",
+            "Domain": "tvv.tw",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhBugdeyUsKg",
+            "Domain": "gh.bugdey.us.kg",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "Jiashu1winEuOrg",
+            "Domain": "jiashu.1win.eu.org",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhFelicityAcCn",
+            "Domain": "gh.felicity.ac.cn",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubDpikTop",
+            "Domain": "github.dpik.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhfileGeekertaoTop",
+            "Domain": "ghfile.geekertao.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhDpikTop",
+            "Domain": "gh.dpik.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubMxwQzzIo",
+            "Domain": "github.mxw.qzz.io",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "DownMxwXxKg",
+            "Domain": "down.mxw.xx.kg",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "DownMxwQzzIo",
+            "Domain": "down.mxw.qzz.io",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhB52mCn",
+            "Domain": "gh.b52m.cn",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhAcmszTop",
+            "Domain": "gh.acmsz.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubChencDev",
+            "Domain": "github.chenc.dev",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhInkchillsCn",
+            "Domain": "gh.inkchills.cn",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhDdlcTop",
+            "Domain": "gh.ddlc.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GitproxyMrhjxCn",
+            "Domain": "gitproxy.mrhjx.cn",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "Git669966Xyz",
+            "Domain": "git.669966.xyz",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhJasonzengDev",
+            "Domain": "gh.jasonzeng.dev",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhfastTop",
+            "Domain": "ghfast.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhproxyImcielCom",
+            "Domain": "ghproxy.imciel.com",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "FastgitCc",
+            "Domain": "fastgit.cc",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubXxlabTech",
+            "Domain": "github.xxlab.tech",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhproxyCxkproTop",
+            "Domain": "ghproxy.cxkpro.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhJjjGvUy",
+            "Domain": "gh.jjj.gv.uy",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubEdnovasXyz",
+            "Domain": "github.ednovas.xyz",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GpZkiteflyEuOrg",
+            "Domain": "gp.zkitefly.eu.org",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhpKeleyaaCom",
+            "Domain": "ghp.keleyaa.com",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GBlfrpCn",
+            "Domain": "g.blfrp.cn",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhproxyMonkeyrayNet",
+            "Domain": "ghproxy.monkeyray.net",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhNokiIcu",
+            "Domain": "gh.noki.icu",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubdogCom",
+            "Domain": "githubdog.com",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhLlkkCc",
+            "Domain": "gh.llkk.cc",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhProxyNet",
+            "Domain": "gh-proxy.net",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubStarrlzyCn",
+            "Domain": "github.starrlzy.cn",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GitYylxWin",
+            "Domain": "git.yylx.win",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "Ghm078465Xyz",
+            "Domain": "ghm.078465.xyz",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhfWumingShiTop",
+            "Domain": "ghf.无名氏.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "J1winGgffNet",
+            "Domain": "j.1win.ggff.net",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "Gitproxy127731Xyz",
+            "Domain": "gitproxy.127731.xyz",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhCatmakName",
+            "Domain": "gh.catmak.name",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "SlinkLtd",
+            "Domain": "slink.ltd",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubTmbyShop",
+            "Domain": "github.tmby.shop",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhprCc",
+            "Domain": "ghpr.cc",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhTryxdCn",
+            "Domain": "gh.tryxd.cn",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GitproxyClick",
+            "Domain": "gitproxy.click",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhSixyinCom",
+            "Domain": "gh.sixyin.com",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhMonlorCom",
+            "Domain": "gh.monlor.com",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhpxyHwinzniejTop",
+            "Domain": "ghpxy.hwinzniej.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubGeekeryCn",
+            "Domain": "github.geekery.cn",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "Ghproxy1888866Xyz",
+            "Domain": "ghproxy.1888866.xyz",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhpArslantuXyz",
+            "Domain": "ghp.arslantu.xyz",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhIdayerCom",
+            "Domain": "gh.idayer.com",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "FreeCnEuOrg",
+            "Domain": "free.cn.eu.org",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhChjinaCom",
+            "Domain": "gh.chjina.com",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "ProxyYaoyaolingNet",
+            "Domain": "proxy.yaoyaoling.net",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhMealiTop",
+            "Domain": "gh.meali.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
         }
     ]
 }
