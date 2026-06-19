@@ -5162,6 +5162,29 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "PanicC": {
+      "ModId": "PanicC",
+      "ConfigLabels": {
+        "Panic Choice": {
+          "zh-CN": "紧张度选择",
+          "en-US": "Panic Choice"
+        }
+      },
+      "ConfigComments": {
+        "Pick between the following choices: 'Always' makes the crew always panicked, 'Never' makes the crew  never panicked, leave blank for vanilla gameplay": {
+          "zh-CN": "在以下选项中选择：'Always' 使乘员始终陷入恐慌，'Never' 使船员永不陷入恐慌，留空则为原版游戏体验。",
+          "en-US": "Pick between the following choices: 'Always' makes the crew always panicked, 'Never' makes the crew  never panicked, leave blank for vanilla gameplay"
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "Panic Choice": [
+          "Always",
+          "Never",
+          ""
+        ]
+    }
     }
   }
 }
