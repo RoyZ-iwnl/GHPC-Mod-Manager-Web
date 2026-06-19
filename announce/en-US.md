@@ -2,6 +2,9 @@
 
 ## Announcement
 
+### 2026-06-19
+- v1.3.7 stable release is now available with unified launch check window, service restructuring, and UI improvements. See the [changelog](#v137) below for details.
+
 ### 2026-05-19
 - v1.3.6 stable release is now available with save editor, game version check, and UI improvements. See the [changelog](#v136) below for details.
 
@@ -88,6 +91,26 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.7
+#### feat: Release version 1.3.7 with unified launch check window, service restructuring, and UI improvements
+- Bump version to 1.3.7
+- Add unified launch check window with ILaunchCheckService for pre-launch validation
+- Add LaunchCheckService with checks for: game path, mod updates, conflicts, dependencies, delisted mods, integrity, game version compatibility, manager version
+- Add LaunchCheckViewModel with step-by-step progress display, timeline visualization, and issue summary
+- Add LaunchCheckWindow.xaml with custom timeline progress bar, step status indicators, and continue anyway option
+- Add SkipModUpdateCheck, SkipManagerVersionCheck, OnlineCheckOnLaunch settings in AppSettings
+- Restructure Services directory into functional subdirectories: Game/, Infrastructure/, Mod/, Network/, Protocol/, Translation/, Update/
+- Add GlobalUsings.cs for centralized namespace imports across subdirectories
+- Add BoolToTextDecorationsConverter, FactionBackgroundConverter, FactionBadgeForegroundConverter, FactionBadgeBackgroundConverter, FactionBadgeBorderConverter
+- Add LaunchCheckStatusToVisibilityConverter, LaunchCheckStatusToBrushConverter, ProgressToWidthConverter for launch check UI
+- Add faction color brushes to all themes (DarkTheme, LightTheme, EndfieldTheme)
+- Add SaveEditorTreeViewItemStyle in themes for save editor tree view customization
+- Add LatestVersionWithDate display in mod browser cards (top-right corner)
+- Add scroll viewer support in MessageDialog for long messages
+- Add automatic latest version refresh before mod installation to avoid caching stale versions
+- Update localization strings for new launch check features
+- Remove TranslationBackupService (functionality merged into ModBackupService)
 
 ### v1.3.5
 #### feat: Release version 1.3.5 with single instance detection, protocol activation, UI improvements, and previous installation migration

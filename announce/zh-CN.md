@@ -2,6 +2,9 @@
 
 ## 公告
 
+### 2026-06-19
+- v1.3.7 正式版已发布，新增统一启动检查窗口、服务重构与UI改进，详情见下方[更新日志](#v137)。
+
 ### 2026-05-19
 - v1.3.6 正式版已发布，新增存档编辑器、游戏版本检查与UI改进，详情见下方[更新日志](#v136)。
 
@@ -91,6 +94,26 @@
 - GHPC版本20250902已发布，部分mod可能出现不适配的情况，请根据实际情况安装或更新。
 
 ## 更新日志
+
+### v1.3.7
+#### feat: 发布1.3.7版本，新增统一启动检查窗口、服务重构与UI改进
+- 版本升级至1.3.7
+- 新增统一启动检查窗口，使用ILaunchCheckService进行启动前验证
+- 新增LaunchCheckService，检查项目包括：游戏路径、Mod更新、冲突、依赖、下架Mod、完整性、游戏版本兼容性、管理器版本
+- 新增LaunchCheckViewModel，支持分步骤进度显示、时间线可视化与问题总览
+- 新增LaunchCheckWindow.xaml，包含自定义时间线进度条、步骤状态指示器与强制继续选项
+- 在AppSettings中新增SkipModUpdateCheck、SkipManagerVersionCheck、OnlineCheckOnLaunch设置
+- 重构Services目录为功能性子目录：Game/、Infrastructure/、Mod/、Network/、Protocol/、Translation/、Update/
+- 新增GlobalUsings.cs集中管理子目录命名空间引入
+- 新增BoolToTextDecorationsConverter、FactionBackgroundConverter、FactionBadgeForegroundConverter、FactionBadgeBackgroundConverter、FactionBadgeBorderConverter
+- 新增LaunchCheckStatusToVisibilityConverter、LaunchCheckStatusToBrushConverter、ProgressToWidthConverter用于启动检查UI
+- 在所有主题中新增阵营颜色画刷（DarkTheme、LightTheme、EndfieldTheme）
+- 在主题中新增SaveEditorTreeViewItemStyle用于存档编辑器树形视图定制
+- 在Mod浏览器卡片右上角显示最新版本和更新日期
+- 在MessageDialog中新增滚动支持显示长消息
+- 安装Mod前自动刷新最新版本，避免安装缓存中的旧版本
+- 更新国际化字符串支持新启动检查功能
+- 移除TranslationBackupService（功能已合并到ModBackupService）
 
 ### v1.3.5
 #### feat: 发布1.3.5版本，新增单实例检测、协议激活、UI改进与旧版本迁移
