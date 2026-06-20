@@ -2,6 +2,9 @@
 
 ## Announcement
 
+### 2026-06-20
+- v1.3.8 stable release is now available with game version detect fix. See the [changelog](#v138) below for details.
+
 ### 2026-06-19
 - v1.3.7 stable release is now available with unified launch check window, service restructuring, and UI improvements. See the [changelog](#v137) below for details.
 
@@ -91,6 +94,24 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.8
+#### feat: Release version 1.3.8 with proxy server speed test, dynamic server list, and UI improvements
+- Bump version to 1.3.8
+- Remove GitHub funding configuration
+- Add proxy server speed test feature with latency and download speed measurement
+- Add ProxyServerSpeedTestResult model with observable properties for real-time UI updates
+- Add SpeedTestStatus enum (Pending, Testing, Success, Failed, Timeout) for test state tracking
+- Add dynamic proxy server list support with remote configuration
+- Add GitHubProxyServerId string field in AppSettings to support arbitrary remote servers
+- Refactor ProxyServerItem to support both enum-based and remote-configured servers
+- Add speed test result display with color-coded latency and speed indicators
+- Add rate limit detection and warning display in speed test results
+- Add IProxySpeedTestService and ProxySpeedTestService for speed testing functionality
+- Add InverseBooleanConverter for UI binding
+- Add speed test UI in SettingsView with test/retest buttons and result grid
+- Add localization strings for speed test feature (status, buttons, result display)
+- Improve ProxyServerItem.BuildFromRemote to accept any remote server without enum restriction
 
 ### v1.3.7
 #### feat: Release version 1.3.7 with unified launch check window, service restructuring, and UI improvements

@@ -2,6 +2,9 @@
 
 ## 公告
 
+### 2026-06-20
+- v1.3.8 正式版已发布，新增代理服务器测速功能、动态服务器列表与UI改进，详情见下方[更新日志](#v138)。
+
 ### 2026-06-19
 - v1.3.7 正式版已发布，新增统一启动检查窗口、服务重构与UI改进，详情见下方[更新日志](#v137)。
 
@@ -94,6 +97,24 @@
 - GHPC版本20250902已发布，部分mod可能出现不适配的情况，请根据实际情况安装或更新。
 
 ## 更新日志
+
+### v1.3.8
+#### feat: 发布1.3.8版本，新增代理服务器测速、动态服务器列表与UI改进
+- 版本升级至1.3.8
+- 移除GitHub赞助配置
+- 新增代理服务器测速功能，支持延迟和下载速度测量
+- 新增ProxyServerSpeedTestResult模型，支持实时UI更新
+- 新增SpeedTestStatus枚举（Pending、Testing、Success、Failed、Timeout）用于测试状态追踪
+- 新增动态代理服务器列表，支持远程配置
+- 在AppSettings中新增GitHubProxyServerId字符串字段，支持任意远程服务器
+- 重构ProxyServerItem，同时支持枚举和远程配置服务器
+- 新增测速结果展示，带延迟和速度颜色指示
+- 新增速率限制检测与警告显示
+- 新增IProxySpeedTestService和ProxySpeedTestService用于测速功能
+- 新增InverseBooleanConverter用于UI绑定
+- 在SettingsView中新增测速界面，包含测试/重测按钮和结果表格
+- 新增测速功能国际化字符串（状态、按钮、结果显示）
+- 改进ProxyServerItem.BuildFromRemote，接受任意远程服务器而不限制枚举
 
 ### v1.3.7
 #### feat: 发布1.3.7版本，新增统一启动检查窗口、服务重构与UI改进
