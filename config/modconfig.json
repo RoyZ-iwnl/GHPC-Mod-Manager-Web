@@ -1118,6 +1118,30 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "InvinciT",
+    "Name": {
+      "en-US": "Invincible Tanks",
+      "zh-CN": "无敌模式"
+    },
+    "Description": {
+      "en-US": "Makes you and your allies invincible to all damage.",
+      "zh-CN": "这会让你和你的队友免受所有伤害的影响。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260618"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/Invincible-Tank/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "Invincible_Tank.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "NoSmoking",
     "Name": {
       "en-US": " No Smoking on the Range",
