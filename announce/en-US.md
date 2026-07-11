@@ -1,5 +1,7 @@
 # Welcome to GHPC Mod Manager
 
+[Donate](https://ifdian.net/a/GHPCMM)
+
 ## Announcement
 
 ### 2026-06-20

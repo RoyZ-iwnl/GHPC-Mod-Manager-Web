@@ -1,5 +1,7 @@
 # 欢迎使用GHPC 模组管理器
 
+[赞助此项目](https://ifdian.net/a/GHPCMM)
+
 ## 公告
 
 ### 2026-06-20
