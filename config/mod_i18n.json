@@ -5185,6 +5185,37 @@
           ""
         ]
     }
+    },
+    "ChatEx": {
+      "ModId": "ChatEx",
+      "ConfigLabels": {
+        "mid_range": {
+          "zh-CN": "中距离",
+          "en-US": "Mid range"
+        },
+        "close_range": {
+          "zh-CN": "近距离",
+          "en-US": "Close range"
+        }
+      },
+      "ConfigComments": {
+        "Distance in meters within which AI crew identifies the tank type (e.g. 'T-64'). Beyond this only a generic designation is reported.": {
+          "zh-CN": "AI操作员能够识别坦克类型（例如“T-64”）的距离（单位：米）。超出此距离后，仅报告通用名称。",
+          "en-US": "Distance in meters within which AI crew identifies the tank type (e.g. 'T-64'). Beyond this only a generic designation is reported."
+        },
+        "Distance in meters within which AI crew identifies the specific variant (e.g. 'T-64A 1983'). Between close_range and mid_range only the broad type is reported.": {
+          "zh-CN": "AI能够识别具体型号（例如“T-64A 1983”）的距离（单位：米）。在“近距离”和“中距离”之间，仅报告大致的类型。",
+          "en-US": "Distance in meters within which AI crew identifies the specific variant (e.g. 'T-64A 1983'). Between close_range and mid_range only the broad type is reported."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "Panic Choice": [
+          "Always",
+          "Never",
+          ""
+        ]
+    }
     }
   }
 }

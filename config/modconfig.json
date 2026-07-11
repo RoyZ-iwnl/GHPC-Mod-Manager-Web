@@ -47,7 +47,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -77,7 +77,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -138,7 +138,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/UnderdogsEnhanced/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -167,7 +167,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Stabilized-BMP-1/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -195,7 +195,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/Super-M60/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -204,7 +204,8 @@
     "InstallMethod": "DirectRelease",
     "Conflicts": [
       "SM60"
-    ]
+    ],
+    "Delisted": true
   },
   {
     "Id": "SM60",
@@ -252,7 +253,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2BradleyExtended/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -458,7 +459,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -518,7 +519,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/CanadianLeopards/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -546,7 +547,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Accurate_BMP2/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -571,7 +572,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/vical1145-source/GHPC-Weapon-Sound-Effect-Mod/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -598,7 +599,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2-Bradley-Sound-Replacement/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -629,7 +630,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/FAJAgaming/GHPCVoiceChanger/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -658,7 +659,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Music_Controller/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -683,7 +684,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/NVA-Voice-Patch/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -707,7 +708,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/WeatherMod/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -732,7 +733,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/FireRateToggle/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -760,7 +761,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/BinoAim/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -785,7 +786,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/lucaspevidor/FastRestock/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -810,7 +811,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/LoadoutManager/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -835,7 +836,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/HE-Frag-Variable-Fuses/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -859,7 +860,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Faster-Ballistics-Indexing/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -883,7 +884,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Pact-Night-Sight-Illumination/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -907,11 +908,35 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/SquadLeaders/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "SquadLeaders.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "Pactazi",
+    "Name": {
+      "en-US": "Pact Azimuth Indicator",
+      "zh-CN": "华约坦克方向指示"
+    },
+    "Description": {
+      "en-US": "This mod augments the HUD in the lower-left to indicate the precise turret orientation in Warsaw Pact miliradians (6000ths of a circle), as would appear on the gunner's azimuth indicator (ie. the turret clock). Likewise, the pictogram is replaced with a clock-face design showing 500mil intervals - the same positions that the Soviet tank commander uses when calling out targets.",
+      "zh-CN": "该模组增强了左下角的HUD显示，以华沙条约的军用弧度（1圈的6000分之一）为单位，精确显示炮塔方位，这与炮手方位指示器（即炮塔时钟）上的显示方式一致。同样，原有的图标也被替换为带有500mil刻度的钟面设计——这与苏联坦克车长在呼叫目标时所使用的方位标记完全一致。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260618.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Pact-Azimuth-Indicator/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "PactAzimuthIndicator.dll",
     "InstallMethod": "DirectRelease"
   },
   {
@@ -931,7 +956,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/CustomizerUnrestricted/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -955,7 +980,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Ammo_UI_Extended/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -979,7 +1004,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC-Hard-Mode/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1010,7 +1035,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_MOD_Guaranteed_Camo_Net/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1035,7 +1060,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Artillery_Extended/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1060,7 +1085,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Crew_Panic_Customizer/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1085,12 +1110,12 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC-Chat-Rework/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "Chat_Rework.dll",
-    "ConfigSectionName": "",
+    "ConfigSectionName": "ChatRework",
     "InstallMethod": "DirectRelease"
   },
   {
@@ -1110,7 +1135,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/InfiniteAmmo/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1134,7 +1159,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/Invincible-Tank/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1158,7 +1183,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/No-Smoking-on-the-Range/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1182,7 +1207,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Always-Restock/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1207,7 +1232,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Random-Night-Battles/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1232,7 +1257,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/VehiclePreloader/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1256,7 +1281,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/MinHud/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1281,7 +1306,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Cyances/Any-Tank-Any-Campaign/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1306,7 +1331,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Andrix44/GunnerModPC/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1331,7 +1356,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/CinematicTools/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1356,7 +1381,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Andrix44/GMPCTextureLoader/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1381,7 +1406,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/SovietGuards/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1406,7 +1431,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260618.1"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_BTR_70_Bocchi_Skin/releases/latest",
     "TargetFileNameKeyword": ".zip",
