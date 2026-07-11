@@ -6,6 +6,9 @@
     "ModI18nUrl": "https://GHPC.DMR.gg/config/mod_i18n.json",
     "ModI18nUrlfallback": "https://GHPC1.DMR.gg/config/mod_i18n.json",
     "ModI18nUrlfallback2": "",
+    "FundingIdsUrl": "https://GHPC.DMR.gg/funding/IDs.txt",
+    "FundingIdsUrlfallback": "https://GHPC1.DMR.gg/funding/IDs.txt",
+    "FundingIdsUrlfallback2": "",
     "ProxyServers": [
         {
             "Id": "GhDmrGg",
