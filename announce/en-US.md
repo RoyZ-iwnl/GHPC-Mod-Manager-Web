@@ -4,6 +4,9 @@
 
 ## Announcement
 
+### 2026-07-11
+- v1.3.9 stable release is now available with sponsor naming & sponsors list, save editor safety improvements, and UI fixes. See the [changelog](#v139) below for details.
+
 ### 2026-06-20
 - v1.3.8 stable release is now available with game version detect fix. See the [changelog](#v138) below for details.
 
@@ -96,6 +99,28 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.9
+#### feat: Release version 1.3.9 with sponsor naming & sponsors list, save editor safety improvements, and UI fixes
+- Bump version to 1.3.9
+- Add sponsor naming system with SponsorInfo helper, appending sponsor title suffix to window title and showing sponsor info in About section
+- Add IFundingService and FundingService for fetching sponsor ID list with three-level fallback, 24h persistent cache, and stale cache fallback
+- Add FundingIdsUrl/Fallback/Fallback2 fields in MainConfig with three-level URL candidates, same pattern as ModConfig
+- Add FundingWindow with seamless scrolling credits animation (N-copy fill, TranslateTransform, resize debouncing, WM_GETMINMAXINFO maximize fix)
+- Add FundingWindowViewModel for loading and exposing sponsor list to the scrolling window
+- Add ShowFundingWindow command and enable OpenSupportAuthor (opens ifdian.net) in SettingsView
+- Add RainbowBorderButtonStyle with animated rainbow gradient border for sponsor entry buttons
+- Redesign About version row as accent banner card with sparkle icon
+- Improve save editor safety: subscribe to game running state and disable all write operations via CanExecute guards while game is running
+- Add atomic save in SaveEditorService (temp file + File.Replace/Move) to prevent corruption on write interruption
+- Add backup-before-restore in SaveEditorViewModel to keep current progress undoable
+- Make ResetAllProgress/CompleteAllMissions/ToggleMissionCompletion return bool and handle failures properly; distinguish file-not-exist vs format error on load
+- Refactor GetDefaultSaveFilePath to no longer require gameRootPath parameter
+- Remove unused MissionStatus/TheaterInfo/MissionInfo/BackupConfig classes from SaveDataModels
+- Fix BoolToSaveHintConverter hardcoded Chinese string to use localized Strings.SaveEditor_HasUnsavedChanges
+- Fix WebView2 announcement link handling: replace IE-engine window.external.notify with window.chrome.webview.postMessage
+- Fix ComboBoxToggleButtonStyle not switching on theme change: StaticResource -> DynamicResource across Dark/Light/Endfield themes
+- Add localization strings for sponsor/funding features and save editor improvements
 
 ### v1.3.8
 #### feat: Release version 1.3.8 with proxy server speed test, dynamic server list, and UI improvements

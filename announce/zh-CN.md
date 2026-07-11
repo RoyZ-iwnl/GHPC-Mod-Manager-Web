@@ -4,6 +4,9 @@
 
 ## 公告
 
+### 2026-07-11
+- v1.3.9 正式版已发布，新增赞助者冠名与名单、存档编辑器安全改进与UI修复，详情见下方[更新日志](#v139)。
+
 ### 2026-06-20
 - v1.3.8 正式版已发布，新增代理服务器测速功能、动态服务器列表与UI改进，详情见下方[更新日志](#v138)。
 
@@ -99,6 +102,28 @@
 - GHPC版本20250902已发布，部分mod可能出现不适配的情况，请根据实际情况安装或更新。
 
 ## 更新日志
+
+### v1.3.9
+#### feat: 发布1.3.9版本，新增赞助者冠名与名单、存档编辑器安全改进与UI修复
+- 版本升级至1.3.9
+- 新增赞助者冠名系统，添加SponsorInfo助手类，窗口标题追加冠名后缀并在关于区显示冠名信息
+- 新增IFundingService和FundingService拉取赞助者ID名单，支持三级回退、24小时持久化缓存与过期缓存兜底
+- 在MainConfig中新增FundingIdsUrl/Fallback/Fallback2配置字段，三级回退同ModConfig
+- 新增赞助者名单窗口，无缝循环滚动动画（N份复制填充、平移变换、resize防抖、WM_GETMINMAXINFO最大化修正）
+- 新增FundingWindowViewModel用于加载并向滚动窗口提供赞助者名单
+- 在SettingsView中新增ShowFundingWindow命令并启用OpenSupportAuthor（打开爱发电）
+- 新增RainbowBorderButtonStyle彩虹流动边框按钮样式，用于赞助入口按钮
+- 将关于区版本号重设计为Accent横幅卡片含四角星图标
+- 改进存档编辑器安全性：订阅游戏运行状态，运行时通过CanExecute守卫禁用所有写操作
+- 新增存档编辑器原子写入（临时文件+File.Replace/Move），防止写入中断损坏存档
+- 在恢复备份前先备份当前存档，保证当前进度可撤销
+- ResetAllProgress/CompleteAllMissions/ToggleMissionCompletion改为返回bool并正确处理失败，加载时区分文件不存在与格式错误
+- 重构GetDefaultSaveFilePath不再需要gameRootPath参数
+- 移除SaveDataModels中未使用的MissionStatus/TheaterInfo/MissionInfo/BackupConfig类
+- 修复BoolToSaveHintConverter硬编码中文字符串，改用本地化Strings.SaveEditor_HasUnsavedChanges
+- 修复公告WebView2链接处理：用window.chrome.webview.postMessage替代IE引擎的window.external.notify
+- 修复ComboBoxToggleButtonStyle切换主题不生效：暗色/亮色/终末地主题中StaticResource改为DynamicResource
+- 新增赞助者功能与存档编辑器改进相关国际化字符串
 
 ### v1.3.8
 #### feat: 发布1.3.8版本，新增代理服务器测速、动态服务器列表与UI改进
