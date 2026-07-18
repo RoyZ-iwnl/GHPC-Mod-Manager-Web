@@ -59,10 +59,6 @@
           "zh-CN": "BTR-60 补丁",
           "en-US": "BTR-60 Patch"
         },
-        "Better Stabilizer": {
-          "zh-CN": "更好的稳定器",
-          "en-US": "Better Stabilizer"
-        },
         "Better Stabilizer (T-55)": {
           "zh-CN": "更好的稳定器 (T-55)",
           "en-US": "Better Stabilizer (T-55)"
@@ -86,18 +82,6 @@
         "Drozd APS (T-55)": {
           "zh-CN": "“鸫”主动防御系统 (T-55)",
           "en-US": "Drozd APS (T-55)"
-        },
-        "Drozd APS (T-62)": {
-          "zh-CN": "“鸫”主动防御系统 (T-62)",
-          "en-US": "Drozd APS (T-62)"
-        },
-        "Drozd APS (T-64A)": {
-          "zh-CN": "“鸫”主动防御系统 (T-64A)",
-          "en-US": "Drozd APS (T-64A)"
-        },
-        "Drozd APS (T-64B)": {
-          "zh-CN": "“鸫”主动防御系统 (T-64B)",
-          "en-US": "Drozd APS (T-64B)"
         },
         "Empty Ammo Racks (T-72M)": {
           "zh-CN": "清空弹药架 (T-72M)",
@@ -147,10 +131,6 @@
           "zh-CN": "配备热成像仪 (T-64B)",
           "en-US": "Has Thermals (T-64B)"
         },
-        "Has Thermals (T-72)": {
-          "zh-CN": "配备热成像仪 (T-72)",
-          "en-US": "Has Thermals (T-72)"
-        },
         "Has Thermals (T-72M)": {
           "zh-CN": "配备热成像仪 (T-72M)",
           "en-US": "Has Thermals (T-72M)"
@@ -163,14 +143,6 @@
           "zh-CN": "配备热成像仪 (T-80B)",
           "en-US": "Has Thermals (T-80B)"
         },
-        "High Quality Thermals Boxing": {
-          "zh-CN": "高质量热成像边框",
-          "en-US": "High Quality Thermals Boxing"
-        },
-        "High Quality Thermals Blur": {
-          "zh-CN": "高质量热成像模糊度",
-          "en-US": "High Quality Thermals Blur"
-        },
         "Improved Composite (BDD Applique)": {
           "zh-CN": "改进型BDD附加装甲",
           "en-US": "Improved Composite (BDD Applique)"
@@ -178,18 +150,6 @@
         "Improved Turret Composite (T-80B)": {
           "zh-CN": "改进型炮塔复合装甲 (T-80B)",
           "en-US": "Improved Turret Composite (T-80B)"
-        },
-        "Intercept Chance (Drozd)": {
-          "zh-CN": "拦截几率 (“鸫”)",
-          "en-US": "Intercept Chance (Drozd)"
-        },
-        "Intercept Chance, High Velocity (Drozd)": {
-          "zh-CN": "高速目标拦截几率 (“鸫”)",
-          "en-US": "Intercept Chance, High Velocity (Drozd)"
-        },
-        "Intercept High Velocity Projectiles (Drozd)": {
-          "zh-CN": "拦截高速弹体 (“鸫”)",
-          "en-US": "Intercept High Velocity Projectiles (Drozd)"
         },
         "Kontakt-1 ERA (T-72M)": {
           "zh-CN": "“接触-1”反应装甲 (T-72M)",
@@ -214,10 +174,6 @@
         "Kontakt-5 ERA (T-80B)": {
           "zh-CN": "“接触-5”反应装甲 (T-80B)",
           "en-US": "Kontakt-5 ERA (T-80B)"
-        },
-        "Laser Rangefinder": {
-          "zh-CN": "激光测距仪",
-          "en-US": "Laser Rangefinder"
         },
         "Laser Rangefinder (BMP-2)": {
           "zh-CN": "激光测距仪 (BMP-2)",
@@ -246,22 +202,6 @@
         "Lead Calculator (T-72M1)": {
           "zh-CN": "提前量计算器 (T-72M1)",
           "en-US": "Lead Calculator (T-72M1)"
-        },
-        "Low Quality Thermals Boxing": {
-          "zh-CN": "低质量热成像边框",
-          "en-US": "Low Quality Thermals Boxing"
-        },
-        "Low Quality Thermals Blur": {
-          "zh-CN": "低质量热成像模糊度",
-          "en-US": "Low Quality Thermals Blur"
-        },
-        "Minimum Projectile Caliber (Drozd)": {
-          "zh-CN": "最小拦截弹体口径 (“鸫”)",
-          "en-US": "Minimum Projectile Caliber (Drozd)"
-        },
-        "Quick Zoom Switch": {
-          "zh-CN": "快速变焦切换",
-          "en-US": "Quick Zoom Switch"
         },
         "Quick Zoom Switch (T-64B)": {
           "zh-CN": "快速变焦切换 (T-64B)",
@@ -323,10 +263,6 @@
           "zh-CN": "苏联乘员 (T-72M1)",
           "en-US": "Soviet Crew (T-72M1)"
         },
-        "Spherical Colliders": {
-          "zh-CN": "球形碰撞体",
-          "en-US": "Spherical Colliders"
-        },
         "Stabilizer (BTR-60)": {
           "zh-CN": "稳定器 (BTR-60)",
           "en-US": "Stabilizer (BTR-60)"
@@ -338,10 +274,6 @@
         "Super Composite Cheeks (T-72M1)": {
           "zh-CN": "超级复合材料脸颊装甲 (T-72M1)",
           "en-US": "Super Composite Cheeks (T-72M1)"
-        },
-        "Super Engine/Transmission": {
-          "zh-CN": "超级发动机/传动",
-          "en-US": "Super Engine/Transmission"
         },
         "Super Engine/Transmission (T-64A)": {
           "zh-CN": "超级发动机/传动 (T-64A)",
@@ -371,10 +303,6 @@
           "zh-CN": "高级火控系统 (T-80B)",
           "en-US": "Super FCS (T-80B)"
         },
-        "Super Kontakt-1": {
-          "zh-CN": "超级“接触-1”反应装甲",
-          "en-US": "Super Kontakt-1"
-        },
         "T-55 Patch": {
           "zh-CN": "T-55 补丁",
           "en-US": "T-55 Patch"
@@ -382,10 +310,6 @@
         "T-62 Patch": {
           "zh-CN": "T-62 补丁",
           "en-US": "T-62 Patch"
-        },
-        "T-64 Patch": {
-          "zh-CN": "T-64 补丁",
-          "en-US": "T-64 Patch"
         },
         "T-64A Patch": {
           "zh-CN": "T-64A 补丁",
@@ -483,10 +407,6 @@
           "zh-CN": "使用 9M113AS",
           "en-US": "Use 9M113AS"
         },
-        "Use 9M117": {
-          "zh-CN": "使用 9M117",
-          "en-US": "Use 9M117"
-        },
         "Use 9M117 (T-55)": {
           "zh-CN": "使用 9M117 (T-55)",
           "en-US": "Use 9M117 (T-55)"
@@ -510,16 +430,28 @@
         "Super FCS (BMP-2)": {
           "zh-CN": "高级火控系统 (BMP-2)",
           "en-US": "Super FCS (BMP-2)"
+        },
+        "Max Drozd APS per platoon (T-55)": {
+          "zh-CN": "每排“鸫”装备上限 (T-55)",
+          "en-US": "Max Drozd APS per platoon (T-55)"
+        },
+        "Max Engagement Velocity (T-55/Drozd)": {
+          "zh-CN": "最大拦截速度 (T-55/“鸫”)",
+          "en-US": "Max Engagement Velocity (T-55/Drozd)"
+        },
+        "Min Engagement Caliber (T-55/Drozd)": {
+          "zh-CN": "最小拦截口径 (T-55/“鸫”)",
+          "en-US": "Min Engagement Caliber (T-55/Drozd)"
+        },
+        "Min Engagement Velocity (T-55/Drozd)": {
+          "zh-CN": "最小拦截速度 (T-55/“鸫”)",
+          "en-US": "Min Engagement Velocity (T-55/Drozd)"
         }
       },
       "ConfigComments": {
         "Replaces 3BK5M (improved ballistics, marginally better penetration)": {
           "zh-CN": "替换3BK5M弹药（改进弹道性能，穿透力略有提升）",
           "en-US": "Replaces 3BK5M (improved ballistics, marginally better penetration)"
-        },
-        "Replaces 3OF412; GLATGM, has its own sight with fixed 8x magnification": {
-          "zh-CN": "替换3OF412；炮射导弹，有固定8倍放大倍率的专用瞄准镜",
-          "en-US": "Replaces 3OF412; GLATGM, has its own sight with fixed 8x magnification"
         },
         "Less reticle blur, shake while on the move": {
           "zh-CN": "减少移动时的准星模糊和晃动",
@@ -625,38 +557,6 @@
           "zh-CN": "整数；默认：30%",
           "en-US": "Integer; default: 30%"
         },
-        "Drastically increases Kontakt-1's ability to stop AP rounds": {
-          "zh-CN": "大幅提升Kontakt-1阻挡穿甲弹的能力",
-          "en-US": "Drastically increases Kontakt-1's ability to stop AP rounds"
-        },
-        "Changes how Kontakt-1 handles collisions. FPS increase at the cost of jankier hit detection": {
-          "zh-CN": "改变Kontakt-1处理碰撞的方式。提升FPS但命中检测更不稳定",
-          "en-US": "Changes how Kontakt-1 handles collisions. FPS increase at the cost of jankier hit detection"
-        },
-        "Allow Drozd to intercept projectiles going faster than 700 m/s": {
-          "zh-CN": "允许Drozd拦截速度超过700米/秒的弹药",
-          "en-US": "Allow Drozd to intercept projectiles going faster than 700 m/s"
-        },
-        "Probability of Drozd detecting or successfully intercepting a projectile going 70-700 m/s": {
-          "zh-CN": "Drozd检测或成功拦截70-700米/秒弹药的概率",
-          "en-US": "Probability of Drozd detecting or successfully intercepting a projectile going 70-700 m/s"
-        },
-        "Probability of Drozd detecting or successfully intercepting a projectile going >700 m/s": {
-          "zh-CN": "Drozd检测或成功拦截>700米/秒弹药的概率",
-          "en-US": "Probability of Drozd detecting or successfully intercepting a projectile going >700 m/s"
-        },
-        "Minimum projectile caliber that Drozd can detect": {
-          "zh-CN": "Drozd能够检测的最小弹药口径",
-          "en-US": "Minimum projectile caliber that Drozd can detect"
-        },
-        "Default: 0.30": {
-          "zh-CN": "默认：0.30",
-          "en-US": "Default: 0.30"
-        },
-        "Default: 0.15": {
-          "zh-CN": "默认：0.15",
-          "en-US": "Default: 0.15"
-        },
         "3BK14M, 3BK18M": {
           "zh-CN": "3BK14M、3BK18M",
           "en-US": "3BK14M, 3BK18M"
@@ -664,10 +564,6 @@
         "BTR-60A conversion; has fixed 6x magnification day sight and passive night vision sight": {
           "zh-CN": "BTR-60A改装；具有固定6倍放大日间瞄准镜和被动夜视瞄准镜",
           "en-US": "BTR-60A conversion; has fixed 6x magnification day sight and passive night vision sight"
-        },
-        "Creates a box border around the sight": {
-          "zh-CN": "在瞄准镜周围创建边框",
-          "en-US": "Creates a box border around the sight"
         },
         "For use with the standard sight; displays a number that corresponds to the horizontal markings on the sight": {
           "zh-CN": "配合标准瞄准镜使用；显示与瞄准镜水平刻度对应的数字",
@@ -756,6 +652,26 @@
         "Point-n-shoot, thermal sight, autotracking": {
           "zh-CN": "即瞄即打，热成像瞄准镜，自动跟踪",
           "en-US": "Point-n-shoot, thermal sight, autotracking"
+        },
+        "Limit how many T-55s in a platoon can have Drozd. Set to -1 to uncap": {
+          "zh-CN": "限制一个排中最多有多少辆 T-55 可装备“鸫”。设为 -1 解除限制",
+          "en-US": "Limit how many T-55s in a platoon can have Drozd. Set to -1 to uncap"
+        },
+        "Minimum caliber a projectile has to be for it to be detected by Drozd": {
+          "zh-CN": "“鸫”可探测弹药的最小口径",
+          "en-US": "Minimum caliber a projectile has to be for it to be detected by Drozd"
+        },
+        "Minimum velocity a projectile needs to be travelling at for it to be engaged by Drozd": {
+          "zh-CN": "“鸫”可拦截弹药的最小飞行速度",
+          "en-US": "Minimum velocity a projectile needs to be travelling at for it to be engaged by Drozd"
+        },
+        "Maximum velocity a projectile can travel at for it to be engaged by Drozd": {
+          "zh-CN": "“鸫”可拦截弹药的最大飞行速度",
+          "en-US": "Maximum velocity a projectile can travel at for it to be engaged by Drozd"
+        },
+        "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46, 3BM60": {
+          "zh-CN": "3BM32, 3BM26 (复合装甲优化), 3BM42 (复合装甲优化), 3BM46, 3BM60",
+          "en-US": "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46, 3BM60"
         }
       },
       "multiplechoice": {
