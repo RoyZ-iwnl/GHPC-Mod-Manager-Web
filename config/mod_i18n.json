@@ -5086,6 +5086,177 @@
           ""
         ]
     }
+    },
+    "Fulda89": {
+      "ModId": "Fulda89",
+      "ConfigLabels": {
+        "T-64AV Patch": {
+          "zh-CN": "T-64AV 补丁",
+          "en-US": "T-64AV Patch"
+        },
+        "Kontakt-1 (T-64AV)": {
+          "zh-CN": "“接触-1”反应装甲 (T-64AV)",
+          "en-US": "Kontakt-1 (T-64AV)"
+        },
+        "T-64A 1981 -> T-64AV Chance (%)": {
+          "zh-CN": "T-64A 1981 转换为 T-64AV 的几率 (%)",
+          "en-US": "T-64A 1981 -> T-64AV Chance (%)"
+        },
+        "T-64A 1983 -> T-64AV Chance (%)": {
+          "zh-CN": "T-64A 1983 转换为 T-64AV 的几率 (%)",
+          "en-US": "T-64A 1983 -> T-64AV Chance (%)"
+        },
+        "T-64A 1984 -> T-64AV Chance (%)": {
+          "zh-CN": "T-64A 1984 转换为 T-64AV 的几率 (%)",
+          "en-US": "T-64A 1984 -> T-64AV Chance (%)"
+        },
+        "AP Round (T-64AV)": {
+          "zh-CN": "穿甲弹 (T-64AV)",
+          "en-US": "AP Round (T-64AV)"
+        },
+        "HEAT Round (T-64AV)": {
+          "zh-CN": "破甲弹 (T-64AV)",
+          "en-US": "HEAT Round (T-64AV)"
+        },
+        "T-64BV Patch": {
+          "zh-CN": "T-64BV 补丁",
+          "en-US": "T-64BV Patch"
+        },
+        "AP Round (T-64BV)": {
+          "zh-CN": "穿甲弹 (T-64BV)",
+          "en-US": "AP Round (T-64BV)"
+        },
+        "HEAT Round (T-64BV)": {
+          "zh-CN": "破甲弹 (T-64BV)",
+          "en-US": "HEAT Round (T-64BV)"
+        },
+        "Random AP Round (T-64BV)": {
+          "zh-CN": "随机穿甲弹 (T-64BV)",
+          "en-US": "Random AP Round (T-64BV)"
+        },
+        "Random AP Round Pool (T-64BV)": {
+          "zh-CN": "随机穿甲弹弹药池 (T-64BV)",
+          "en-US": "Random AP Round Pool (T-64BV)"
+        },
+        "Kontakt-1 (T-64BV & T-64B1V)": {
+          "zh-CN": "“接触-1”反应装甲 (T-64BV & T-64B1V)",
+          "en-US": "Kontakt-1 (T-64BV & T-64B1V)"
+        },
+        "T-64B 1981 -> T-64BV Chance": {
+          "zh-CN": "T-64B 1981 转换为 T-64BV 的几率",
+          "en-US": "T-64B 1981 -> T-64BV Chance"
+        },
+        "T-64B 1984 -> T-64BV Chance": {
+          "zh-CN": "T-64B 1984 转换为 T-64BV 的几率",
+          "en-US": "T-64B 1984 -> T-64BV Chance"
+        },
+        "T-64B1 1981 -> T-64BV Chance": {
+          "zh-CN": "T-64B1 1981 转换为 T-64BV 的几率",
+          "en-US": "T-64B1 1981 -> T-64BV Chance"
+        },
+        "T-64B1 1984 -> T-64BV Chance": {
+          "zh-CN": "T-64B1 1984 转换为 T-64BV 的几率",
+          "en-US": "T-64B1 1984 -> T-64BV Chance"
+        },
+        "Has Thermals (T-64BV)": {
+          "zh-CN": "配备热成像仪 (T-64BV)",
+          "en-US": "Has Thermals (T-64BV)"
+        },
+        "Thermals Quality (T-64BV & T-64BV1)": {
+          "zh-CN": "热成像质量 (T-64BV & T-64BV1)",
+          "en-US": "Thermals Quality (T-64BV & T-64BV1)"
+        },
+        "M60 ERA Enabled": {
+          "zh-CN": "启用M60爆反装甲",
+          "en-US": "M60 ERA Enabled"
+        },
+        "M1 ERA Enabled": {
+          "zh-CN": "启用M1爆反装甲",
+          "en-US": "M1 ERA Enabled"
+        },
+        "M60A1 RISE PASSIVE Conversion Chance (%)": {
+          "zh-CN": "M60A1 RISE PASSIVE 转换几率 (%)",
+          "en-US": "M60A1 RISE PASSIVE Conversion Chance (%)"
+        },
+        "M60A3 TTS Conversion Chance (%)": {
+          "zh-CN": "M60A3 TTS 转换几率 (%)",
+          "en-US": "M60A3 TTS Conversion Chance (%)"
+        }
+      },
+      "ConfigComments": {
+        "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46": {
+          "zh-CN": "3BM32、3BM26（复合装甲优化）、3BM42（复合装甲优化）、3BM46",
+          "en-US": "3BM32, 3BM26 (composite optimized), 3BM42 (composite optimized), 3BM46"
+        },
+        "3BK18M": {
+          "zh-CN": "3BK18M",
+          "en-US": "3BK18M"
+        },
+        "Enables T64BV Patch": {
+          "zh-CN": "启用T-64BV补丁",
+          "en-US": "Enables T64BV Patch"
+        },
+        "3BM26, 3BM32, 3BM42, 3BM46": {
+          "zh-CN": "3BM26、3BM32、3BM42、3BM46",
+          "en-US": "3BM26, 3BM32, 3BM42, 3BM46"
+        },
+        "Replaces night vision sight with thermal sight for T-64BV/B1V variants": {
+          "zh-CN": "为T-64BV/B1V型号将夜视瞄准镜替换为热成像瞄准镜",
+          "en-US": "Replaces night vision sight with thermal sight for T-64BV/B1V variants"
+        },
+        "Low, High": {
+          "zh-CN": "低、高",
+          "en-US": "Low, High"
+        },
+        "Enables the M60 ERA": {
+          "zh-CN": "启用M60爆反装甲",
+          "en-US": "Enables the M60 ERA"
+        },
+        "Enables/Disables ERA spawning on M60's": {
+          "zh-CN": "启用/禁用M60上爆反装甲的生成",
+          "en-US": "Enables/Disables ERA spawning on M60's"
+        },
+        "Random chance for an M60A1 RISE PASSIVE to spawn with ERA": {
+          "zh-CN": "M60A1 RISE PASSIVE 生成时附带爆反装甲的随机几率",
+          "en-US": "Random chance for an M60A1 RISE PASSIVE to spawn with ERA"
+        },
+        "Random chance for an M60A3 TTS to spawn with ERA": {
+          "zh-CN": "M60A3 TTS 生成时附带爆反装甲的随机几率",
+          "en-US": "Random chance for an M60A3 TTS to spawn with ERA"
+        }
+      },
+      "multiplechoice": {
+        "Random AP Round Pool (T-64BV)": [
+          "3BM26",
+          "3BM32",
+          "3BM42",
+          "3BM46"
+        ]
+      },
+      "singlechoice": {
+        "AP Round (T-64AV)": [
+          "3BM32",
+          "3BM26",
+          "3BM42",
+          "3BM46"
+        ],
+        "AP Round (T-64BV)": [
+          "3BM32",
+          "3BM26",
+          "3BM42",
+          "3BM46"
+        ],
+        "HEAT Round (T-64AV)": [
+          "3BK18M"
+        ],
+        "HEAT Round (T-64BV)": [
+          "3BK18M"
+        ],
+        "Thermals Quality (T-64BV & T-64BV1)": [
+          "Low",
+          "High"
+        ]
+      }
     }
   }
 }

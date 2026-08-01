@@ -443,6 +443,34 @@
     "Delisted": true
   },
   {
+    "Id": "Fulda89",
+    "Name": {
+      "en-US": "1989 Expansion Modpack",
+      "zh-CN": "1989拓展包"
+    },
+    "Description": {
+      "en-US": "T-64BV/AV and M60A1/3 ERA\n A compile of multiple different mods that aim to create an accurate \"what if GHPC was set in 1989 instead?\" scenario.\nIt's 1989 in Fulda, Germany, the Soviet Union has been prodding at NATO defences for the past few years since '85 to see what they're lacking in, both sides have been deadlocked not daring to make the first move.\nIn this alternate history, the Soviet Union has equipped their latest tanks, the T-72B 1989 and the T-80U with thermal imaging systems! (Agava-2 for the T-80U, and Agava-1 for the KPz T-72M1V, KPz T-72M1M, T-72B 1985, T-72B 1989 and T-64B1V + T-64BV)\nNATO has equipped themselves with the M2A2 Bradley, Leopard 1a5's, and the new M1A1HA!\nThis pack has been carefully dissected and reassembled multiple times in order to create the same balancing as the original game, with newer technologies and improvements to PACT to make them a real threat to NATO.",
+      "zh-CN": "其实只有T-64BV/AV and M60A1/3 ERA\n这是一个整合了多种不同模组的合集，旨在构建一个精准的“如果《GHPC》的故事背景设定在1989年会怎样？”的情景。\n时间是1989年，地点在德国富尔达。自1985年以来，苏联一直试探北约的防线，试图找出其薄弱环节；双方陷入僵局，都不敢率先采取行动。\n在这个另类历史中，苏联为其最新型坦克——T-72B 1989和T-80U——配备了热成像系统！（T-80U配备“阿加瓦-2”，KPz T-72M1V、KPz T-72M1M、T-72B 1985、T-72B 1989以及T-64B1V + T-64BV配备“阿加瓦-1”）\n北约已装备了M2A2“布拉德利”战车、“豹1a5”主战坦克以及新型M1A1HA主战坦克！\n本资料包经过多次精心拆解与重组，旨在实现与原版游戏相同的平衡性，同时通过引入新技术并改进“华约”阵营，使其成为北约的真正威胁。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260618"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/seagullwilleatyoursandwich-netizen/Fulda-1989-Expansion-Pack/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "FuldaExpansion1989.dll",
+    "InstallMethod": "DirectRelease",
+        "Requirements": [
+      "PactIL"
+    ],
+    "ConfigSectionName": "\"Fulda 1989 | Expansion Pack\""
+  },
+  {
     "Id": "M113TOW",
     "Name": {
       "en-US": "M113 TOW",
@@ -1019,6 +1047,30 @@
     ]
   },
   {
+    "Id": "ArcadeM",
+    "Name": {
+      "en-US": "Arcade Mode",
+      "zh-CN": "血条模式"
+    },
+    "Description": {
+      "en-US": "Vehicles now have HP bars and shells do damage instead of destroying internal components. Like in World of Tanks, you penetrate the fighting compartment to do damage to tanks (with RNG of -/+ 10% base damage). Track and barrels are only temporarily destroyed now; they are repaired after 10 seconds. You can see your own HP value in the bottom left. The game is a lot more forgiving now, since you generally won’t die in one hit and can react to an ambush. However some engagements which were trivial before may become challenging. Larger shells and larger payloads (HEAT vs APFSDS mainly) do more hit point damage. A list of HP and Damage values can be found in the readme of the github. This mod is still work in progress. Adding HP bars and other ways to indicate penetration above vehicles in 3d space is currently being developed, as will HE's impact on vehicle damage. If there is enough interest, I will add a way to customize damage/HP values. This can still be easily done if you are willing to build the mod yourself after tweaking some values. I plan on fine there damage values going forward as There may be some missions where you do not have enough ammo to kill all the enemy vehicles.",
+      "zh-CN": "车辆现在拥有生命值条，炮弹会造成伤害，而非直接摧毁内部组件。如同《坦克世界》一样，炮弹穿透战斗舱后会对坦克造成伤害（基础伤害存在±10%的随机波动）。履带和炮管现在仅会暂时损毁；10秒后即可修复。您可以在屏幕左下角查看自身的生命值。 游戏现在更加宽容，因为你通常不会被一击击毁，并且能够对伏击做出反应。不过，一些以前轻而易举的交战现在可能会变得具有挑战性。 更大口径的炮弹和更高装药量（主要是高爆反装甲弹 vs 穿甲弹）会造成更多的生命值伤害。生命值和伤害值的列表可在 GitHub 的自述文件中找到。 该模组仍在开发中。目前正在开发HP条以及在3D空间中显示车辆上方穿透效果的其他方式，同时也会加入高爆弹（HE）对车辆伤害的影响。 如果兴趣足够大，我会添加自定义伤害/生命值的功能。当然，如果你愿意自己调整一些数值后构建模组，这仍然可以轻松实现。 我计划今后进一步微调伤害数值，因为在某些任务中，你的弹药可能不足以摧毁所有敌方载具。 通过DeepL.com（免费版）翻译"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260618"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC-Arcade-Mode/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "GHPC_Arcade_Mode.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "Camonet",
     "Name": {
       "en-US": "Guaranteed Camo Nets",
@@ -1164,6 +1216,30 @@
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/Invincible-Tank/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "Invincible_Tank.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "GHPCESP",
+    "Name": {
+      "en-US": "GHPC ESP",
+      "zh-CN": "GHPC 透视模组"
+    },
+    "Description": {
+      "en-US": "A simple Extra-Sensory Perception (ESP) mod that draws labeled boxes and distance indicators around vehicles, ATGMs, and infantry to reveal their positions through terrain. Toggle Vehicle/ATGM ESP with F8 and Infantry ESP with F9. Requires MelonLoader; place the DLL in the game's Mods directory.",
+      "zh-CN": "一个简易的 ESP（超感透视）模组，通过在载具、反坦克导弹和步兵周围绘制带标签的方框与距离指示来标记其位置，可穿透地形显示。F8 切换载具/ATGM 透视，F9 切换步兵透视。需配合 MelonLoader 使用，将 DLL 放入游戏的 Mods 目录。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260618"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/k4yt3x/GHPCESP/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "GHPCESP.dll",
     "InstallMethod": "DirectRelease"
   },
   {
