@@ -1006,7 +1006,7 @@
     "SupportedGameVersions": [
       "20260618"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC-Hard-Mode/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/Hard_Mode/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "Hard_Mode.dll",
     "InstallMethod": "DirectRelease",
@@ -1062,7 +1062,7 @@
     "SupportedGameVersions": [
       "20260618"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Artillery_Extended/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Artillery_Rework/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "GHPC_Artillery_Rework.dll",
     "ConfigSectionName": "\"GHPC Artillery Rework\"",

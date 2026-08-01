@@ -1591,14 +1591,6 @@
     "M1A1": {
       "ModId": "M1A1",
       "ConfigLabels": {
-        "2nd Generation Thermals (M1A1)": {
-          "zh-CN": "第二代热成像仪 (M1A1)",
-          "en-US": "2nd Generation Thermals (M1A1)"
-        },
-        "2nd Generation Thermals (M1E1)": {
-          "zh-CN": "第二代热成像仪 (M1E1)",
-          "en-US": "2nd Generation Thermals (M1E1)"
-        },
         "AP Round (M1A1)": {
           "zh-CN": "穿甲弹 (M1A1)",
           "en-US": "AP Round (M1A1)"
@@ -1607,13 +1599,13 @@
           "zh-CN": "穿甲弹 (M1E1)",
           "en-US": "AP Round (M1E1)"
         },
-        "Alternate GPS FLIR Colour": {
-          "zh-CN": "备用GPS热成像颜色",
-          "en-US": "Alternate GPS FLIR Colour"
+        "AP Round Count (M1A1)": {
+          "zh-CN": "穿甲弹数量 (M1A1)",
+          "en-US": "AP Round Count (M1A1)"
         },
-        "Alternative Position": {
-          "zh-CN": "遥控武器站备用位置",
-          "en-US": "Alternative Position"
+        "AP Round Count (M1E1)": {
+          "zh-CN": "穿甲弹数量 (M1E1)",
+          "en-US": "AP Round Count (M1E1)"
         },
         "CITV (M1A1)": {
           "zh-CN": "车长独立热成像仪 (M1A1)",
@@ -1623,26 +1615,6 @@
           "zh-CN": "车长独立热成像仪 (M1E1)",
           "en-US": "CITV (M1E1)"
         },
-        "CITV Reticle": {
-          "zh-CN": "车长独立热成像仪准星",
-          "en-US": "CITV Reticle"
-        },
-        "CROWS (M1A1) <DISABLED>": {
-          "zh-CN": "遥控武器站 (M1A1) <已被禁用>",
-          "en-US": "CROWS (M1A1) <DISABLED>"
-        },
-        "CROWS (M1E1) <DISABLED>": {
-          "zh-CN": "遥控武器站 (M1E1) <已被禁用>",
-          "en-US": "CROWS (M1E1) <DISABLED>"
-        },
-        "ConversionChance": {
-          "zh-CN": "转换几率",
-          "en-US": "ConversionChance"
-        },
-        "DU Armour": {
-          "zh-CN": "贫铀装甲",
-          "en-US": "DU Armour"
-        },
         "DU Armour (M1A1)": {
           "zh-CN": "贫铀装甲 (M1A1)",
           "en-US": "DU Armour (M1A1)"
@@ -1650,10 +1622,6 @@
         "DU Armour (M1E1)": {
           "zh-CN": "贫铀装甲 (M1E1)",
           "en-US": "DU Armour (M1E1)"
-        },
-        "DU Generation": {
-          "zh-CN": "贫铀装甲代数",
-          "en-US": "DU Generation"
         },
         "DU Generation (M1A1)": {
           "zh-CN": "贫铀装甲代数 (M1A1)",
@@ -1679,9 +1647,9 @@
           "zh-CN": "前视红外热成像代数 (M1E1)",
           "en-US": "FLIR Generation (M1E1)"
         },
-        "Fixed Reticle Size": {
-          "zh-CN": "固定准星大小",
-          "en-US": "Fixed Reticle Size"
+        "Fixed Reticle Size (Global)": {
+          "zh-CN": "固定准星大小 (全局)",
+          "en-US": "Fixed Reticle Size (Global)"
         },
         "HEAT Round (M1A1)": {
           "zh-CN": "破甲弹 (M1A1)",
@@ -1691,37 +1659,33 @@
           "zh-CN": "破甲弹 (M1E1)",
           "en-US": "HEAT Round (M1E1)"
         },
-        "M1E1": {
-          "zh-CN": "升级为 M1E1",
-          "en-US": "M1E1"
+        "HEAT Round Count (M1A1)": {
+          "zh-CN": "破甲弹数量 (M1A1)",
+          "en-US": "HEAT Round Count (M1A1)"
         },
-        "M1E1 -> M1A1": {
-          "zh-CN": "M1E1 升级为 M1A1",
-          "en-US": "M1E1 -> M1A1"
+        "HEAT Round Count (M1E1)": {
+          "zh-CN": "破甲弹数量 (M1E1)",
+          "en-US": "HEAT Round Count (M1E1)"
         },
-        "M829": {
-          "zh-CN": "M829 穿甲弹数量",
-          "en-US": "M829"
+        "M1 -> M1IP": {
+          "zh-CN": "M1 升级为 M1IP",
+          "en-US": "M1 -> M1IP"
         },
-        "M830": {
-          "zh-CN": "M830 破甲弹数量",
-          "en-US": "M830"
+        "M256 Gun (M1)": {
+          "zh-CN": "M256火炮 (M1)",
+          "en-US": "M256 Gun (M1)"
         },
-        "No Blur CITV": {
-          "zh-CN": "无模糊车长独立热成像仪",
-          "en-US": "No Blur CITV"
+        "M256 Gun (M1IP)": {
+          "zh-CN": "M256火炮 (M1IP)",
+          "en-US": "M256 Gun (M1IP)"
         },
-        "Perfect CITV Override": {
-          "zh-CN": "完美车长超越射击",
-          "en-US": "Perfect CITV Override"
+        "Preset Bundle Path (M1)": {
+          "zh-CN": "预设捆绑包路径 (M1)",
+          "en-US": "Preset Bundle Path (M1)"
         },
-        "Random": {
-          "zh-CN": "随机转换",
-          "en-US": "Random"
-        },
-        "Rotate Azimuth": {
-          "zh-CN": "方位角稳定",
-          "en-US": "Rotate Azimuth"
+        "Preset Bundle Path (M1IP)": {
+          "zh-CN": "预设捆绑包路径 (M1IP)",
+          "en-US": "Preset Bundle Path (M1IP)"
         },
         "Rotate Azimuth (M1A1)": {
           "zh-CN": "方位角稳定 (M1A1)",
@@ -1731,23 +1695,35 @@
           "zh-CN": "方位角稳定 (M1E1)",
           "en-US": "Rotate Azimuth (M1E1)"
         },
-        "Smooth CITV Panning": {
-          "zh-CN": "平滑车长独立热成像仪转动",
-          "en-US": "Smooth CITV Panning"
+        "Smooth CITV Panning (Global)": {
+          "zh-CN": "平滑车长独立热成像仪转动 (全局)",
+          "en-US": "Smooth CITV Panning (Global)"
         },
-        "Use Mk 211 Mod 0": {
-          "zh-CN": "使用 Mk 211 Mod 0 高爆弹",
-          "en-US": "Use Mk 211 Mod 0"
+        "Use Preset Bundle": {
+          "zh-CN": "使用预设捆绑包",
+          "en-US": "Use Preset Bundle"
         },
-        "Vanilla Ammo Capacity": {
-          "zh-CN": "原生弹药容量",
-          "en-US": "Vanilla Ammo Capacity"
+        "Vanilla Ammo Capacity (M1A1)": {
+          "zh-CN": "原生弹药容量 (M1A1)",
+          "en-US": "Vanilla Ammo Capacity (M1A1)"
+        },
+        "Vanilla Ammo Capacity (M1E1)": {
+          "zh-CN": "原生弹药容量 (M1E1)",
+          "en-US": "Vanilla Ammo Capacity (M1E1)"
         }
       },
       "ConfigComments": {
-        "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round.": {
-          "zh-CN": "每辆M1A1应携带多少发M829（尾翼稳定脱壳穿甲弹）、M830（破甲弹）。总计最多40发。至少携带一发M829。",
-          "en-US": "How many rounds of M829 (APFSDS), M830 (HEAT) each M1A1 should carry. Maximum of 40 rounds total. Bring in at least one M829 round."
+        "120mm cannon (Note: anything relating to ammo is ignored if this is false)": {
+          "zh-CN": "120毫米火炮（注意：若此项为false，所有与弹药相关的设置将被忽略）",
+          "en-US": "120mm cannon (Note: anything relating to ammo is ignored if this is false)"
+        },
+        "Maximum of 40 rounds total. Bring in at least one AP round.": {
+          "zh-CN": "总计最多40发。至少携带一发穿甲弹。",
+          "en-US": "Maximum of 40 rounds total. Bring in at least one AP round."
+        },
+        "Carry a total of 52 rounds instead of 40.": {
+          "zh-CN": "带52发而不是40发",
+          "en-US": "Carry a total of 52 rounds instead of 40."
         },
         "Customize which rounds M1A1s/M1E1s use": {
           "zh-CN": "自定义M1A1/M1E1使用的弹药类型",
@@ -1757,69 +1733,9 @@
           "zh-CN": "M827、M829、M829A1、M829A2、M829A3",
           "en-US": "M827, M829, M829A1, M829A2, M829A3"
         },
-        "M830, M830A1 (has proximity fuse that can be toggled using middle mouse)": {
-          "zh-CN": "M830、M830A1（具有可用鼠标中键切换的近炸引信）",
-          "en-US": "M830, M830A1 (has proximity fuse that can be toggled using middle mouse)"
-        },
-        "Horizontal stabilization of M1A1 sights when applying lead.": {
-          "zh-CN": "应用提前量时M1A1瞄准镜的水平稳定。",
-          "en-US": "Horizontal stabilization of M1A1 sights when applying lead."
-        },
-        "Additional zoom levels for thermals.": {
-          "zh-CN": "热成像的额外放大倍率。",
-          "en-US": "Additional zoom levels for thermals."
-        },
-        "Digitally enhanced zoom levels will not increase the size of the reticle.": {
-          "zh-CN": "数字增强放大倍率不会增加准星大小。",
-          "en-US": "Digitally enhanced zoom levels will not increase the size of the reticle."
-        },
-        "Replaces commander's NVGs with variable-zoom thermals.": {
-          "zh-CN": "用可变放大热成像替换车长夜视镜。",
-          "en-US": "Replaces commander's NVGs with variable-zoom thermals."
-        },
-        "Basically lets you point-n-shoot with the CITV.": {
-          "zh-CN": "基本上让你可以用CITV即瞄即打。",
-          "en-US": "Basically lets you point-n-shoot with the CITV."
-        },
-        "Makes CITV feel more like a camera.": {
-          "zh-CN": "让CITV操作感更像摄像头。",
-          "en-US": "Makes CITV feel more like a camera."
-        },
-        "[Requires CITV to be enabled] Gives the gunner's sight FLIR the same colour palette as the CITV.": {
-          "zh-CN": "【需要启用CITV】给炮手瞄准镜FLIR与CITV相同的色彩。",
-          "en-US": "[Requires CITV to be enabled] Gives the gunner's sight FLIR the same colour palette as the CITV."
-        },
-        "DU inserts for the composite turret cheeks: increased KE protection. M1A1 exclusive. Increased weight.": {
-          "zh-CN": "炮塔复合装甲侧板的贫铀插件：提升动能防护。M1A1专用。增加重量。",
-          "en-US": "DU inserts for the composite turret cheeks: increased KE protection. M1A1 exclusive. Increased weight."
-        },
-        "Higher generation = more KE protection (1-3, integer)": {
-          "zh-CN": "更高代数 = 更强动能防护（1-3，整数）",
-          "en-US": "Higher generation = more KE protection (1-3, integer)"
-        },
-        "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals.": {
-          "zh-CN": "装备.50口径M2HB的遥控武器系统；400发弹药，自动提前量，热成像。",
-          "en-US": "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals."
-        },
-        "Moves the CROWS to the right side of the commander instead of directly in front.": {
-          "zh-CN": "将CROWS移到车长右侧而不是正前方。",
-          "en-US": "Moves the CROWS to the right side of the commander instead of directly in front."
-        },
-        "Loads the CROWS M2HB with high explosive rounds.": {
-          "zh-CN": "为CROWS M2HB装载高爆弹药。",
-          "en-US": "Loads the CROWS M2HB with high explosive rounds."
-        },
-        "Less blurry thermals for the gunner.": {
-          "zh-CN": "炮手热成像更清晰。",
-          "en-US": "Less blurry thermals for the gunner."
-        },
-        "Convert M1s to M1E1s (i.e: they get the 120mm gun).": {
-          "zh-CN": "将M1转换为M1E1（即：获得120毫米炮）。",
-          "en-US": "Convert M1s to M1E1s (i.e: they get the 120mm gun)."
-        },
-        "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s.": {
-          "zh-CN": "M1IP/M1有随机概率被转换为M1A1/M1E1。",
-          "en-US": "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s."
+        "M830, M830A1 (has proximity fuse that can be toggled by double tapping the ammo 2 key)": {
+          "zh-CN": "M830、M830A1（具有可通过双击弹药2键切换的近炸引信）",
+          "en-US": "M830, M830A1 (has proximity fuse that can be toggled by double tapping the ammo 2 key)"
         },
         "Horizontal stabilization of sights when applying lead.": {
           "zh-CN": "应用提前量时瞄准镜的水平稳定。",
@@ -1833,17 +1749,37 @@
           "zh-CN": "更高代数 = 更高分辨率（1-3，整数）",
           "en-US": "Higher generation = higher resolution (1-3, integer)"
         },
-        "Doesn't apply to M1E1, only those converted to M1A1": {
-          "zh-CN": "不适用于M1E1，仅适用于转换为M1A1的坦克",
-          "en-US": "Doesn't apply to M1E1, only those converted to M1A1"
+        "Additional zoom levels for thermals.": {
+          "zh-CN": "热成像的额外放大倍率。",
+          "en-US": "Additional zoom levels for thermals."
         },
-        "Convert all M1E1s to M1A1s (will still use M1E1 settings)": {
-          "zh-CN": "将所有M1E1转换为M1A1（仍使用M1E1设置）",
-          "en-US": "Convert all M1E1s to M1A1s (will still use M1E1 settings)"
+        "Digitally enhanced zoom levels will not increase the size of the reticle.": {
+          "zh-CN": "数字增强放大倍率不会增加准星大小。",
+          "en-US": "Digitally enhanced zoom levels will not increase the size of the reticle."
         },
-        "Carry a total of 52 rounds instead of 40.": {
-          "zh-CN": "带52发而不是40发",
-          "en-US": "Carry a total of 52 rounds instead of 40."
+        "Replaces commander's NVGs with variable-zoom thermals.": {
+          "zh-CN": "用可变放大热成像替换车长夜视镜。",
+          "en-US": "Replaces commander's NVGs with variable-zoom thermals."
+        },
+        "Makes CITV feel more like a camera.": {
+          "zh-CN": "让CITV操作感更像摄像头。",
+          "en-US": "Makes CITV feel more like a camera."
+        },
+        "DU inserts for the composite turret cheeks: increased KE protection. M1A1/M1IP exclusive. Increased weight.": {
+          "zh-CN": "炮塔复合装甲侧板的贫铀插件：提升动能防护。M1A1/M1IP专用。增加重量。",
+          "en-US": "DU inserts for the composite turret cheeks: increased KE protection. M1A1/M1IP exclusive. Increased weight."
+        },
+        "Higher generation = more KE protection (1-3, integer)": {
+          "zh-CN": "更高代数 = 更强动能防护（1-3，整数）",
+          "en-US": "Higher generation = more KE protection (1-3, integer)"
+        },
+        "Doesn't apply to M1/M1E1, only those converted to M1A1/M1IP": {
+          "zh-CN": "不适用于M1/M1E1，仅适用于转换为M1A1/M1IP的坦克",
+          "en-US": "Doesn't apply to M1/M1E1, only those converted to M1A1/M1IP"
+        },
+        "Convert all M1s to M1IPs (will still use M1E1 settings)": {
+          "zh-CN": "将所有M1转换为M1IP（仍使用M1E1设置）",
+          "en-US": "Convert all M1s to M1IPs (will still use M1E1 settings)"
         }
       },
       "multiplechoice": {},
@@ -4724,6 +4660,14 @@
           "zh-CN": "M2布雷德利补丁",
           "en-US": "M2 Bradley Patch"
         },
+        "Use Preset Bundle": {
+          "zh-CN": "使用预设捆绑包",
+          "en-US": "Use Preset Bundle"
+        },
+        "Preset Bundle Path": {
+          "zh-CN": "预设捆绑包路径",
+          "en-US": "Preset Bundle Path"
+        },
         "Addon Armour Package": {
           "zh-CN": "附加装甲套件",
           "en-US": "Addon Armour Package"
@@ -4748,6 +4692,10 @@
           "zh-CN": "强化型M242 Bushmaster机炮",
           "en-US": "Enhanced M242 Bushmaster"
         },
+        "50mm XM913 Autocannon": {
+          "zh-CN": "50毫米XM913自动机炮",
+          "en-US": "50mm XM913 Autocannon"
+        },
         "Quick Refill Ammo Bins": {
           "zh-CN": "快速补充弹药箱",
           "en-US": "Quick Refill Ammo Bins"
@@ -4762,9 +4710,9 @@
           "zh-CN": "相比M791脱壳穿甲曳光弹，穿深和初速更高。",
           "en-US": "Increased penetration, velocity over M791 APDS-T"
         },
-        "Default, TOW2, TOW2A (anti-ERA)": {
-          "zh-CN": "可选：默认、TOW2、TOW2A（反爆炸反应装甲）。",
-          "en-US": "Default, TOW2, TOW2A (anti-ERA)"
+        "Default, TOW2, TOW2A (anti-ERA), TOWFF (FnF, anti-era), TOWFFMP (FnF)": {
+          "zh-CN": "可选：默认、TOW2、TOW2A（反爆炸反应装甲）、TOWFF（发射后不管，反ERA）、TOWFFMP（发射后不管）。",
+          "en-US": "Default, TOW2, TOW2A (anti-ERA), TOWFF (FnF, anti-era), TOWFFMP (FnF)"
         },
         "Does NOT have automatic lead": {
           "zh-CN": "不具备自动提前量计算功能。",
@@ -4778,6 +4726,10 @@
           "zh-CN": "提高机炮精度。",
           "en-US": "Increases autocannon accuracy"
         },
+        "Replaces the M242; comes with its own APFSDS and HEAB rounds": {
+          "zh-CN": "替换M242机炮；自带APFSDS尾翼稳定脱壳穿甲弹和HEAB高爆空爆弹。",
+          "en-US": "Replaces the M242; comes with its own APFSDS and HEAB rounds"
+        },
         "Reduces time to replenish autocannon ammo bins to 15 seconds": {
           "zh-CN": "将机炮弹药箱补充时间缩短至15秒。",
           "en-US": "Reduces time to replenish autocannon ammo bins to 15 seconds"
@@ -4788,7 +4740,9 @@
         "TOW Missile": [
           "Default",
           "TOW2",
-          "TOW2A"
+          "TOW2A",
+          "TOWFF",
+          "TOWFFMP"
         ]
       }
     },
