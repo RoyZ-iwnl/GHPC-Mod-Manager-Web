@@ -5257,6 +5257,47 @@
           "High"
         ]
       }
+    },
+    "VDVSkin": {
+      "ModId": "VDVSkin",
+      "ConfigLabels": {
+        "Berets": {
+          "zh-CN": "贝雷帽",
+          "en-US": "Berets"
+        },
+        "Armpatches": {
+          "zh-CN": "臂章",
+          "en-US": "Armpatches"
+        },
+        "AKS-74s": {
+          "zh-CN": "AKS-74步枪",
+          "en-US": "AKS-74s"
+        },
+        "Mute console Log": {
+          "zh-CN": "静默控制台日志",
+          "en-US": "Mute console Log"
+        }
+      },
+      "ConfigComments": {
+        "Disable to restore steel helmets": {
+          "zh-CN": "禁用此项以恢复钢盔",
+          "en-US": "Disable to restore steel helmets"
+        },
+        "Disable to hide VDV patches on sleeves": {
+          "zh-CN": "禁用此项以隐藏袖章上的VDV标志",
+          "en-US": "Disable to hide VDV patches on sleeves"
+        },
+        "Folding skeletal metal stocks replace solid wood": {
+          "zh-CN": "折叠式镂空金属枪托替换实心木质枪托",
+          "en-US": "Folding skeletal metal stocks replace solid wood"
+        },
+        "Mutes log messages in the MelonLoader console.": {
+          "zh-CN": "在MelonLoader控制台中屏蔽日志消息",
+          "en-US": "Mutes log messages in the MelonLoader console."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
