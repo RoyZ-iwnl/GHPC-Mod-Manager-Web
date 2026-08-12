@@ -449,8 +449,8 @@
       "zh-CN": "1989拓展包"
     },
     "Description": {
-      "en-US": "T-64BV/AV and M60A1/3 ERA\n A compile of multiple different mods that aim to create an accurate \"what if GHPC was set in 1989 instead?\" scenario.\nIt's 1989 in Fulda, Germany, the Soviet Union has been prodding at NATO defences for the past few years since '85 to see what they're lacking in, both sides have been deadlocked not daring to make the first move.\nIn this alternate history, the Soviet Union has equipped their latest tanks, the T-72B 1989 and the T-80U with thermal imaging systems! (Agava-2 for the T-80U, and Agava-1 for the KPz T-72M1V, KPz T-72M1M, T-72B 1985, T-72B 1989 and T-64B1V + T-64BV)\nNATO has equipped themselves with the M2A2 Bradley, Leopard 1a5's, and the new M1A1HA!\nThis pack has been carefully dissected and reassembled multiple times in order to create the same balancing as the original game, with newer technologies and improvements to PACT to make them a real threat to NATO.",
-      "zh-CN": "其实只有T-64BV/AV and M60A1/3 ERA\n这是一个整合了多种不同模组的合集，旨在构建一个精准的“如果《GHPC》的故事背景设定在1989年会怎样？”的情景。\n时间是1989年，地点在德国富尔达。自1985年以来，苏联一直试探北约的防线，试图找出其薄弱环节；双方陷入僵局，都不敢率先采取行动。\n在这个另类历史中，苏联为其最新型坦克——T-72B 1989和T-80U——配备了热成像系统！（T-80U配备“阿加瓦-2”，KPz T-72M1V、KPz T-72M1M、T-72B 1985、T-72B 1989以及T-64B1V + T-64BV配备“阿加瓦-1”）\n北约已装备了M2A2“布拉德利”战车、“豹1a5”主战坦克以及新型M1A1HA主战坦克！\n本资料包经过多次精心拆解与重组，旨在实现与原版游戏相同的平衡性，同时通过引入新技术并改进“华约”阵营，使其成为北约的真正威胁。"
+      "en-US": "Breaking away from PIL enhanced, an expanded lineup of vehicles for Gunner HEAT, PC! This vehicle pack aims to add new vehicles to GHPC in order to emulate 1989 Fulda. \n\nSome vehicles may be present early as 1986, whilst others at the end of the 1980’s (like the ERA on the M60)\n\nAttributions/Credits\nATLAS and his mod, Pact Increased Lethality, for the ERA framework, & numerous assets used for the T64BV/AV/BVU.\n\nIn this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and implementations of previously scrapped technologies like Agava-1 Thermal imagers for the soviets, etc.",
+      "zh-CN": "其实只有T-64BV/AV and M60A1/3 ERA\n脱离PIL Enhanced模组，为《Gunner HEAT, PC》带来扩充版载具阵容！本载具包旨在为GHPC添加新载具，以还原1989年的富尔达战场。\n\n部分载具可能早至1986年便已出现，而另一些则出现在1980年代末（如M60坦克上的ERA装甲）。\n\n致谢/鸣谢\n感谢ATLAS及其模组《Pact Increased Lethality》，提供了ERA防护框架，以及用于T64BV/AV/BVU的众多资源。\n\n在这个基于原版游戏1985年背景的虚构情景中，冷战并未立即爆发，而是北约与苏联在接下来的几年里展开了一系列小规模交火和代理人战争，这极大地加速了已知坦克的研发，并促使此前被搁置的技术（如苏联的Agava-1热成像仪等）得以重新应用。"
     },
     "Tags": {
       "modify": {
@@ -464,11 +464,8 @@
     "ReleaseUrl": "https://api.github.com/repos/seagullwilleatyoursandwich-netizen/Fulda-1989-Expansion-Pack/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "FuldaExpansion1989.dll",
-    "InstallMethod": "DirectRelease",
-        "Requirements": [
-      "PactIL"
-    ],
-    "ConfigSectionName": "\"Fulda 1989 | Expansion Pack\""
+    "ConfigSectionName": "\"Fulda 1989 | Expansion Pack\"",
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "M113TOW",
@@ -580,7 +577,6 @@
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Accurate_BMP2/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "Accurate_BMP2.dll",
-    "ConfigSectionName": "",
     "InstallMethod": "DirectRelease"
   },
   {
@@ -942,6 +938,34 @@
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "SquadLeaders.dll",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "VDVSkin",
+    "Name": {
+      "en-US": "Soviet Airborne - VDV Skin",
+      "zh-CN": "苏军VDV皮肤"
+    },
+    "Description": {
+      "en-US": "This mod converts the Soviet motor-rifle infantry into the airborne or air-mobile forces, distinguished by sky blue facings, open collars with stripped undershirts on display, branch patches on the left sleeve, and a distinctive blue beret worn instead of a helmet or garrison cap. Their rifles will also be converted into the AKS-74, with a skeletal metal folding stock in place of the solid wood of the AK-74. Configuration options allow you to disable the beret (restoring steel helmets as seen in the 4th screenshot), the AKS-74 (restoring wooden stocks) and armpatches if you wish, as well as silencing the console log messages.\n\nRegarding why VDV forces (or more technically the air-assault units of the ground forces) are operating in the vicinity of Fulda alongside the first or second wave of mechanized forces, we have to use our imaginations a little and say that the 900th Independent Air-Assault Battalion attached to the 8th Guards Army were cautiously deployed for some short-term objective in the close rear and ground forces have now caught up with them, and it's more prudent for them to fill gaps in the line as infantry than to attempt another aerial manoeuvre at this time. The situation is developing by the hour and flexibility is key for any light infantry commander. As for the lack of BMDs... uhh, they were all lost in the drop, sorry. You'll have to hitch a ride on the BMPs and BTRs so generously provided by our comrades in the 39th MRD.\n\nKnown Issues\n-Subtle lighting errors created by seams in the mesh which cannot (yet?) be resolved due to the extraction-importation method for a SkinnedMeshRenderer.\n-Currently incompatible with my SquadLeaders mod. Would-be sergeants and officers appear as privates.",
+      "zh-CN": "该模组将苏联摩托化步兵改造成空降部队或空运部队，其特征包括：天蓝色镶边、敞开的领口露出条纹内衣、左袖上的兵种徽章，以及取代钢盔或驻地帽的标志性蓝色贝雷帽。他们的步枪也将被替换为AKS-74，采用金属镂空折叠枪托，取代了AK-74的实心木制枪托。配置选项允许您根据需要禁用贝雷帽（恢复第四张截图中所示的钢盔）、AKS-74（恢复木制枪托）和腋下补丁，以及关闭控制台日志消息。\n\n关于为何空降兵部队（或更准确地说，陆军的空降突击部队）会与第一或第二波机械化部队一同在富尔达附近行动， 我们需要稍加发挥想象：隶属于第8近卫军的第900独立空降营曾为完成某项短期任务而在近后方谨慎部署，如今地面部队已追上他们，此时以步兵身份填补战线空缺，比尝试再次实施空降行动更为稳妥。局势每小时都在变化，对任何轻步兵指挥官来说，灵活性都是关键。至于缺乏步兵战车……呃，它们在空降时全都损失了，抱歉。你们只能搭乘第39机械化步兵师的战友们慷慨提供的BMP和BTR了。\n已知问题\n- 由于 SkinnedMeshRenderer 的提取-导入方法，网格接缝处会产生细微的光照错误，目前（尚）无法解决。\n- 目前与SquadLeaders 模组不兼容。本应是中士和军官的角色会显示为列兵。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260618"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/VDV-Soviet-Airborne/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "VDV.dll",
+    "ConfigSectionName": "\"VDV Soviet Airborne\"",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "SquadL"
+    ]
   },
   {
     "Id": "Pactazi",
