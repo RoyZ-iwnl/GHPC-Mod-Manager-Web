@@ -3990,6 +3990,14 @@
         "Repair Function": {
           "zh-CN": "维修功能",
           "en-US": "Repair Function"
+        },
+        "Luchs Mod Master Switch": {
+          "zh-CN": "山猫模组总开关",
+          "en-US": "Luchs Mod Master Switch"
+        },
+        "Luchs Stabilizer": {
+          "zh-CN": "山猫稳定器",
+          "en-US": "Luchs Stabilizer"
         }
       },
       "ConfigComments": {
@@ -4192,6 +4200,10 @@
         "Enable vehicle repair function (press J to repair; default: enabled)": {
           "zh-CN": "启用车辆维修功能（按J进行维修；默认：启用）",
           "en-US": "Enable vehicle repair function (press J to repair; default: enabled)"
+        },
+        "Gives Luchs A1/A2 a point stabilizer (default: enabled)": {
+          "zh-CN": "为山猫A1/A2提供点稳定器（默认：启用）",
+          "en-US": "Gives Luchs A1/A2 a point stabilizer (default: enabled)"
         }
       },
       "multiplechoice": {},

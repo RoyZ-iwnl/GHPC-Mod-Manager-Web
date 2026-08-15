@@ -138,7 +138,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/UnderdogsEnhanced/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -732,7 +732,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/WeatherMod/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -757,7 +757,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/FireRateToggle/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -785,7 +785,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/BinoAim/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -810,7 +810,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/lucaspevidor/FastRestock/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -835,7 +835,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/LoadoutManager/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1008,7 +1008,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/CustomizerUnrestricted/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1136,7 +1136,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Artillery_Rework/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1186,7 +1186,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC-Chat-Rework/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1357,7 +1357,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/VehiclePreloader/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1381,7 +1381,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/MinHud/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1406,7 +1406,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Cyances/Any-Tank-Any-Campaign/releases/latest",
     "TargetFileNameKeyword": ".dll",
