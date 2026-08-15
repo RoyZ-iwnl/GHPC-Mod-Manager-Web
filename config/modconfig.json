@@ -47,7 +47,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -77,7 +77,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -253,7 +253,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2BradleyExtended/releases/latest",
     "TargetFileNameKeyword": ".zip",
