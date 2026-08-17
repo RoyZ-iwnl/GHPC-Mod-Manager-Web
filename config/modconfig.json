@@ -544,7 +544,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/CanadianLeopards/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -572,7 +572,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Accurate_BMP2/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -596,7 +596,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/vical1145-source/GHPC-Weapon-Sound-Effect-Mod/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -623,7 +623,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2-Bradley-Sound-Replacement/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -654,7 +654,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/FAJAgaming/GHPCVoiceChanger/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -683,7 +683,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Music_Controller/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -884,7 +884,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Faster-Ballistics-Indexing/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -908,7 +908,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Pact-Night-Sight-Illumination/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -932,7 +932,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/SquadLeaders/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -946,8 +946,8 @@
       "zh-CN": "苏军VDV皮肤"
     },
     "Description": {
-      "en-US": "This mod converts the Soviet motor-rifle infantry into the airborne or air-mobile forces, distinguished by sky blue facings, open collars with stripped undershirts on display, branch patches on the left sleeve, and a distinctive blue beret worn instead of a helmet or garrison cap. Their rifles will also be converted into the AKS-74, with a skeletal metal folding stock in place of the solid wood of the AK-74. Configuration options allow you to disable the beret (restoring steel helmets as seen in the 4th screenshot), the AKS-74 (restoring wooden stocks) and armpatches if you wish, as well as silencing the console log messages.\n\nRegarding why VDV forces (or more technically the air-assault units of the ground forces) are operating in the vicinity of Fulda alongside the first or second wave of mechanized forces, we have to use our imaginations a little and say that the 900th Independent Air-Assault Battalion attached to the 8th Guards Army were cautiously deployed for some short-term objective in the close rear and ground forces have now caught up with them, and it's more prudent for them to fill gaps in the line as infantry than to attempt another aerial manoeuvre at this time. The situation is developing by the hour and flexibility is key for any light infantry commander. As for the lack of BMDs... uhh, they were all lost in the drop, sorry. You'll have to hitch a ride on the BMPs and BTRs so generously provided by our comrades in the 39th MRD.\n\nKnown Issues\n-Subtle lighting errors created by seams in the mesh which cannot (yet?) be resolved due to the extraction-importation method for a SkinnedMeshRenderer.\n-Currently incompatible with my SquadLeaders mod. Would-be sergeants and officers appear as privates.",
-      "zh-CN": "该模组将苏联摩托化步兵改造成空降部队或空运部队，其特征包括：天蓝色镶边、敞开的领口露出条纹内衣、左袖上的兵种徽章，以及取代钢盔或驻地帽的标志性蓝色贝雷帽。他们的步枪也将被替换为AKS-74，采用金属镂空折叠枪托，取代了AK-74的实心木制枪托。配置选项允许您根据需要禁用贝雷帽（恢复第四张截图中所示的钢盔）、AKS-74（恢复木制枪托）和腋下补丁，以及关闭控制台日志消息。\n\n关于为何空降兵部队（或更准确地说，陆军的空降突击部队）会与第一或第二波机械化部队一同在富尔达附近行动， 我们需要稍加发挥想象：隶属于第8近卫军的第900独立空降营曾为完成某项短期任务而在近后方谨慎部署，如今地面部队已追上他们，此时以步兵身份填补战线空缺，比尝试再次实施空降行动更为稳妥。局势每小时都在变化，对任何轻步兵指挥官来说，灵活性都是关键。至于缺乏步兵战车……呃，它们在空降时全都损失了，抱歉。你们只能搭乘第39机械化步兵师的战友们慷慨提供的BMP和BTR了。\n已知问题\n- 由于 SkinnedMeshRenderer 的提取-导入方法，网格接缝处会产生细微的光照错误，目前（尚）无法解决。\n- 目前与SquadLeaders 模组不兼容。本应是中士和军官的角色会显示为列兵。"
+      "en-US": "This mod converts the Soviet motor-rifle infantry into the airborne or air-mobile forces, distinguished by sky blue facings, open collars with stripped undershirts on display, branch patches on the left sleeve, and a distinctive blue beret worn instead of a helmet or garrison cap. Their rifles will also be converted into the AKS-74, with a skeletal metal folding stock in place of the solid wood of the AK-74. Configuration options allow you to disable the beret (restoring steel helmets as seen in the 4th screenshot), the AKS-74 (restoring wooden stocks) and armpatches if you wish, as well as silencing the console log messages.\n\nRegarding why VDV forces (or more technically the air-assault units of the ground forces) are operating in the vicinity of Fulda alongside the first or second wave of mechanized forces, we have to use our imaginations a little and say that the 900th Independent Air-Assault Battalion attached to the 8th Guards Army were cautiously deployed for some short-term objective in the close rear and ground forces have now caught up with them, and it's more prudent for them to fill gaps in the line as infantry than to attempt another aerial manoeuvre at this time. The situation is developing by the hour and flexibility is key for any light infantry commander. As for the lack of BMDs... uhh, they were all lost in the drop, sorry. You'll have to hitch a ride on the BMPs and BTRs so generously provided by our comrades in the 39th MRD.\n\nKnown Issues\n-Subtle lighting errors created by seams in the mesh which cannot (yet?) be resolved due to the extraction-importation method for a SkinnedMeshRenderer.",
+      "zh-CN": "该模组将苏联摩托化步兵改造成空降部队或空运部队，其特征包括：天蓝色镶边、敞开的领口露出条纹内衣、左袖上的兵种徽章，以及取代钢盔或驻地帽的标志性蓝色贝雷帽。他们的步枪也将被替换为AKS-74，采用金属镂空折叠枪托，取代了AK-74的实心木制枪托。配置选项允许您根据需要禁用贝雷帽（恢复第四张截图中所示的钢盔）、AKS-74（恢复木制枪托）和腋下补丁，以及关闭控制台日志消息。\n\n关于为何空降兵部队（或更准确地说，陆军的空降突击部队）会与第一或第二波机械化部队一同在富尔达附近行动， 我们需要稍加发挥想象：隶属于第8近卫军的第900独立空降营曾为完成某项短期任务而在近后方谨慎部署，如今地面部队已追上他们，此时以步兵身份填补战线空缺，比尝试再次实施空降行动更为稳妥。局势每小时都在变化，对任何轻步兵指挥官来说，灵活性都是关键。至于缺乏步兵战车……呃，它们在空降时全都损失了，抱歉。你们只能搭乘第39机械化步兵师的战友们慷慨提供的BMP和BTR了。\n已知问题\n- 由于 SkinnedMeshRenderer 的提取-导入方法，网格接缝处会产生细微的光照错误，目前（尚）无法解决。"
     },
     "Tags": {
       "enhancement": {
@@ -956,16 +956,13 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/VDV-Soviet-Airborne/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "VDV.dll",
     "ConfigSectionName": "\"VDV Soviet Airborne\"",
-    "InstallMethod": "DirectRelease",
-    "Conflicts": [
-      "SquadL"
-    ]
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "Pactazi",
@@ -984,7 +981,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Pact-Azimuth-Indicator/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -1032,7 +1029,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Ammo_UI_Extended/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1087,7 +1084,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC-Arcade-Mode/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1111,7 +1108,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_MOD_Guaranteed_Camo_Net/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1161,7 +1158,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Crew_Panic_Customizer/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1194,6 +1191,30 @@
     "ConfigSectionName": "ChatRework",
     "InstallMethod": "DirectRelease"
   },
+    {
+    "Id": "Luchsshowcase",
+    "Name": {
+      "en-US": "Luchs in showcase",
+      "zh-CN": "试车场添加山猫"
+    },
+    "Description": {
+      "en-US": "Puts a luchs a2 in the showcase map. Will probably be deprecated in a week, but if anyone wants to test its armor out, here you go",
+      "zh-CN": "为试车场添加山猫A2"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/Luchs_in_Showcase/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "Luchs_in_Showcase.dll",
+    "InstallMethod": "DirectRelease"
+  },
   {
     "Id": "InfAmmo",
     "Name": {
@@ -1211,7 +1232,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/InfiniteAmmo/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1259,7 +1280,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/k4yt3x/GHPCESP/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1283,7 +1304,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/No-Smoking-on-the-Range/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1307,7 +1328,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Always-Restock/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1332,7 +1353,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Random-Night-Battles/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1431,7 +1452,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Andrix44/GunnerModPC/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1456,7 +1477,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/CinematicTools/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1506,7 +1527,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/SovietGuards/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1531,7 +1552,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_BTR_70_Bocchi_Skin/releases/latest",
     "TargetFileNameKeyword": ".zip",
