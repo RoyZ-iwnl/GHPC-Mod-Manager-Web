@@ -459,7 +459,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/seagullwilleatyoursandwich-netizen/Fulda-1989-Expansion-Pack/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -484,7 +484,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260618"
+      "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1075,7 +1075,7 @@
     },
     "Description": {
       "en-US": "Vehicles now have HP bars and shells do damage instead of destroying internal components. Like in World of Tanks, you penetrate the fighting compartment to do damage to tanks (with RNG of -/+ 10% base damage). Track and barrels are only temporarily destroyed now; they are repaired after 10 seconds. You can see your own HP value in the bottom left. The game is a lot more forgiving now, since you generally won’t die in one hit and can react to an ambush. However some engagements which were trivial before may become challenging. Larger shells and larger payloads (HEAT vs APFSDS mainly) do more hit point damage. A list of HP and Damage values can be found in the readme of the github. This mod is still work in progress. Adding HP bars and other ways to indicate penetration above vehicles in 3d space is currently being developed, as will HE's impact on vehicle damage. If there is enough interest, I will add a way to customize damage/HP values. This can still be easily done if you are willing to build the mod yourself after tweaking some values. I plan on fine there damage values going forward as There may be some missions where you do not have enough ammo to kill all the enemy vehicles.",
-      "zh-CN": "车辆现在拥有生命值条，炮弹会造成伤害，而非直接摧毁内部组件。如同《坦克世界》一样，炮弹穿透战斗舱后会对坦克造成伤害（基础伤害存在±10%的随机波动）。履带和炮管现在仅会暂时损毁；10秒后即可修复。您可以在屏幕左下角查看自身的生命值。 游戏现在更加宽容，因为你通常不会被一击击毁，并且能够对伏击做出反应。不过，一些以前轻而易举的交战现在可能会变得具有挑战性。 更大口径的炮弹和更高装药量（主要是高爆反装甲弹 vs 穿甲弹）会造成更多的生命值伤害。生命值和伤害值的列表可在 GitHub 的自述文件中找到。 该模组仍在开发中。目前正在开发HP条以及在3D空间中显示车辆上方穿透效果的其他方式，同时也会加入高爆弹（HE）对车辆伤害的影响。 如果兴趣足够大，我会添加自定义伤害/生命值的功能。当然，如果你愿意自己调整一些数值后构建模组，这仍然可以轻松实现。 我计划今后进一步微调伤害数值，因为在某些任务中，你的弹药可能不足以摧毁所有敌方载具。 通过DeepL.com（免费版）翻译"
+      "zh-CN": "车辆现在拥有生命值条，炮弹会造成伤害，而非直接摧毁内部组件。如同《坦克世界》一样，炮弹穿透战斗舱后会对坦克造成伤害（基础伤害存在±10%的随机波动）。履带和炮管现在仅会暂时损毁；10秒后即可修复。您可以在屏幕左下角查看自身的生命值。 游戏现在更加宽容，因为你通常不会被一击击毁，并且能够对伏击做出反应。不过，一些以前轻而易举的交战现在可能会变得具有挑战性。 更大口径的炮弹和更高装药量（主要是高爆反装甲弹 vs 穿甲弹）会造成更多的生命值伤害。生命值和伤害值的列表可在 GitHub 的自述文件中找到。 该模组仍在开发中。目前正在开发HP条以及在3D空间中显示车辆上方穿透效果的其他方式，同时也会加入高爆弹（HE）对车辆伤害的影响。 如果兴趣足够大，我会添加自定义伤害/生命值的功能。当然，如果你愿意自己调整一些数值后构建模组，这仍然可以轻松实现。 我计划今后进一步微调伤害数值，因为在某些任务中，你的弹药可能不足以摧毁所有敌方载具。 "
     },
     "Tags": {
       "enhancement": {
@@ -1191,7 +1191,7 @@
     "ConfigSectionName": "ChatRework",
     "InstallMethod": "DirectRelease"
   },
-    {
+  {
     "Id": "Luchsshowcase",
     "Name": {
       "en-US": "Luchs in showcase",
@@ -1213,6 +1213,30 @@
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/Luchs_in_Showcase/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "Luchs_in_Showcase.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "ExcludeACAAR",
+    "Name": {
+      "en-US": "Exclude Autocannon AAR (F7)",
+      "zh-CN": "后效分析排除机炮(F7)"
+    },
+    "Description": {
+      "en-US": "Tired of hundreds of autocannon rounds clogging up your AAR with no way to get rid of them? This mod allows you to disable viewing them with F7.\nWorks with ATLAS's 50mm bradley mod (excludes those shots)",
+      "zh-CN": "是否厌倦了数百发机炮堵塞你的战后报告（AAR），却又无从清除？这个模组允许你通过按F7键禁用显示这些炮弹。\n兼容ATLAS的M2布雷德利模组（不包括该模组中的50mm炮弹）"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Exclude_Autocannon_AAR/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "Exclude_Autocannon_AAR.dll",
     "InstallMethod": "DirectRelease"
   },
   {
@@ -1383,7 +1407,8 @@
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/VehiclePreloader/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "VehiclePreloader.dll",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Delisted": true
   },
   {
     "Id": "minhud",
