@@ -1407,8 +1407,7 @@
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/VehiclePreloader/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "VehiclePreloader.dll",
-    "InstallMethod": "DirectRelease",
-    "Delisted": true
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "minhud",
