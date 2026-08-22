@@ -984,7 +984,7 @@
       "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/Pact-Azimuth-Indicator/releases/latest",
-    "TargetFileNameKeyword": ".zip",
+    "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "PactAzimuthIndicator.dll",
     "InstallMethod": "DirectRelease"
   },
