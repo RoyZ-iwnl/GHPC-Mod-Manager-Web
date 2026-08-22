@@ -1555,7 +1555,7 @@
       "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/SovietGuards/releases/latest",
-    "TargetFileNameKeyword": ".dll",
+    "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "SovietGuards.dll",
     "ConfigSectionName": "SovietGuards",
     "InstallMethod": "DirectRelease"
