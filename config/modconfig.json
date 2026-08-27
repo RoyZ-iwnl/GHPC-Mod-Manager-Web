@@ -989,6 +989,30 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "PACTGrntracer",
+    "Name": {
+      "en-US": "Pact Green Tracers",
+      "zh-CN": "华约机枪绿色曳光"
+    },
+    "Description": {
+      "en-US": "A simple GHPC mod that changes the colour of Warsaw Pact machine-gun tracers in 7.62x54R and 12.7x108mm from red to green.",
+      "zh-CN": "将华约7.62x54R 以及 12.7x108mm曳光弹改为绿色"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/PactGreenTracers/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "PactGreenTracers.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "UCust",
     "Name": {
       "en-US": "Unrestricted Customizer",
@@ -1213,7 +1237,8 @@
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/Luchs_in_Showcase/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "Luchs_in_Showcase.dll",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Delisted":true
   },
   {
     "Id": "ExcludeACAAR",
@@ -1237,6 +1262,30 @@
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Exclude_Autocannon_AAR/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "Exclude_Autocannon_AAR.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "CameraTrans",
+    "Name": {
+      "en-US": "Camera Transitions",
+      "zh-CN": "载具间平滑切换"
+    },
+    "Description": {
+      "en-US": "This mod makes the camera smoothly transition between a custom bird's eye view of the battlefield and your TC's view when you press tab. \nWhile this slows down transitions, it is useful for seeing where vehicles are before you transition over to them, and less jarring, in my opinion. ",
+      "zh-CN": "TAB切换载具时会变为俯视并平滑移动，降低切换速度但能使你明白切换的目标在哪"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/Camera-Transitions-Mod/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "Camera_Rework.dll",
     "InstallMethod": "DirectRelease"
   },
   {
