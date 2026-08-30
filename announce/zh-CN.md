@@ -1,6 +1,7 @@
 # 欢迎使用GHPC 模组管理器
 
 [赞助此项目](https://ifdian.net/a/GHPCMM)
+- 感谢开心果赞助的20RMB*3
 
 ## 公告
 
