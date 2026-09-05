@@ -1010,7 +1010,33 @@
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/PactGreenTracers/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "PactGreenTracers.dll",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Delisted":true
+  },
+  {
+    "Id": "CustomTracers",
+    "Name": {
+      "en-US": "Customizable Tracers",
+      "zh-CN": "自定义曳光颜色"
+    },
+    "Description": {
+      "en-US": "A GHPC mod that allows the user to differentiate NATO and Warsaw Pact small-calibre tracers by colour, and to customize the RGB values of both through the MelonLoader config file. By default, the mod assigns red to NATO and green to Pact forces.\nThe frequency of tracers in the belt can also be changed, the default value of 5 signifies one tracer in every 5 rounds. Assigning 10, for example, will make tracers half as common, but a value of 0 will eliminate tracers altogether.",
+      "zh-CN": "用户可以通过颜色来区分北约和华沙条约组织的曳光弹，并且可以通过配置自定义两者的RGB值。默认情况下，该模组将红色分配给北约曳光弹，绿色分配给华约曳光弹。此外，还可以改变曳光弹的出现频率，默认值为5表示每5发子弹会出现一个曳光弹。例如，设置为10则会使曳光弹出现频率减半，而设置为0则会使曳光弹完全消失。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/PactGreenTracers/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "CustomizableTracers.dll",
+    "InstallMethod": "DirectRelease",
+    "ConfigSectionName": "Customizable Tracers"
   },
   {
     "Id": "UCust",

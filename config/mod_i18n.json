@@ -4711,6 +4711,10 @@
         "Quick Refill Ammo Bins": {
           "zh-CN": "快速补充弹药箱",
           "en-US": "Quick Refill Ammo Bins"
+        },
+        "Alternative Tracking Gate Controls": {
+          "zh-CN": "替代跟踪框控制",
+          "en-US": "Alternative Tracking Gate Controls"
         }
       },
       "ConfigComments": {
@@ -4745,6 +4749,10 @@
         "Reduces time to replenish autocannon ammo bins to 15 seconds": {
           "zh-CN": "将机炮弹药箱补充时间缩短至15秒。",
           "en-US": "Reduces time to replenish autocannon ammo bins to 15 seconds"
+        },
+        "For Super Javelin seeker view; accelerate and brake replace up and down arrows; steer right and left replace right and left arrows.": {
+          "zh-CN": "用于超级标枪导引头视图；油门和刹车替代上下方向键；左右转向替代左右方向键。",
+          "en-US": "For Super Javelin seeker view; accelerate and brake replace up and down arrows; steer right and left replace right and left arrows."
         }
       },
       "multiplechoice": {},
@@ -5306,6 +5314,71 @@
         "Mutes log messages in the MelonLoader console.": {
           "zh-CN": "在MelonLoader控制台中屏蔽日志消息",
           "en-US": "Mutes log messages in the MelonLoader console."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
+    },
+    "CustomTracers": {
+      "ModId": "CustomTracers",
+      "ConfigLabels": {
+        "NATO Red": {
+          "zh-CN": "北约红色",
+          "en-US": "NATO Red"
+        },
+        "NATO Green": {
+          "zh-CN": "北约绿色",
+          "en-US": "NATO Green"
+        },
+        "NATO Blue": {
+          "zh-CN": "北约蓝色",
+          "en-US": "NATO Blue"
+        },
+        "Pact Red": {
+          "zh-CN": "华约红色",
+          "en-US": "Pact Red"
+        },
+        "Pact Green": {
+          "zh-CN": "华约绿色",
+          "en-US": "Pact Green"
+        },
+        "Pact Blue": {
+          "zh-CN": "华约蓝色",
+          "en-US": "Pact Blue"
+        },
+        "Tracer frequency": {
+          "zh-CN": "曳光弹频率",
+          "en-US": "Tracer frequency"
+        }
+      },
+      "ConfigComments": {
+        "11.34": {
+          "zh-CN": "默认：11.34",
+          "en-US": "11.34"
+        },
+        "0.55": {
+          "zh-CN": "默认：0.55",
+          "en-US": "0.55"
+        },
+        "0.18": {
+          "zh-CN": "默认：0.18",
+          "en-US": "0.18"
+        },
+        "1.57": {
+          "zh-CN": "默认：1.57",
+          "en-US": "1.57"
+        },
+        "6": {
+          "zh-CN": "默认：6",
+          "en-US": "6"
+        },
+        "0.63": {
+          "zh-CN": "默认：0.63",
+          "en-US": "0.63"
+        },
+        "default '5' for 1-in-5; 0 for none": {
+          "zh-CN": "默认 '5' 表示每5发1发曳光；0 表示无曳光",
+          "en-US": "default '5' for 1-in-5; 0 for none"
         }
       },
       "multiplechoice": {},
