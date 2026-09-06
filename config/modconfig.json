@@ -1036,7 +1036,7 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "CustomizableTracers.dll",
     "InstallMethod": "DirectRelease",
-    "ConfigSectionName": "Customizable Tracers"
+    "ConfigSectionName": "\"Customizable Tracers\""
   },
   {
     "Id": "UCust",
