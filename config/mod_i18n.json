@@ -5331,6 +5331,712 @@
       "multiplechoice": {},
       "singlechoice": {}
     },
+    "CFSupport": {
+      "ModId": "CFSupport",
+      "ConfigLabels": {
+        "Enabled": {
+          "zh-CN": "总开关",
+          "en-US": "Enabled"
+        },
+        "HideVanillaFireSupport": {
+          "zh-CN": "隐藏原版火力支援",
+          "en-US": "HideVanillaFireSupport"
+        },
+        "IlluminationOnlyAtNight": {
+          "zh-CN": "照明仅夜间",
+          "en-US": "IlluminationOnlyAtNight"
+        },
+        "SmokeOnlyDuringDay": {
+          "zh-CN": "烟幕仅白天",
+          "en-US": "SmokeOnlyDuringDay"
+        },
+        "VerboseLogging": {
+          "zh-CN": "详细日志",
+          "en-US": "VerboseLogging"
+        },
+        "CasDeployDistanceMeters": {
+          "zh-CN": "CAS部署距离（米）",
+          "en-US": "CasDeployDistanceMeters"
+        },
+        "CasDeployBearingDegrees": {
+          "zh-CN": "CAS部署方位角（度）",
+          "en-US": "CasDeployBearingDegrees"
+        },
+        "CasPrewarmKeys": {
+          "zh-CN": "CAS预加载键",
+          "en-US": "CasPrewarmKeys"
+        },
+        "Slot1_Enabled": {
+          "zh-CN": "槽位1开关",
+          "en-US": "Slot1_Enabled"
+        },
+        "Slot1_Type": {
+          "zh-CN": "槽位1类型",
+          "en-US": "Slot1_Type"
+        },
+        "Slot1_DisplayName": {
+          "zh-CN": "槽位1显示名",
+          "en-US": "Slot1_DisplayName"
+        },
+        "Slot1_Missions": {
+          "zh-CN": "槽位1呼叫次数",
+          "en-US": "Slot1_Missions"
+        },
+        "Slot1_RoundsPerCall": {
+          "zh-CN": "槽位1单次弹数",
+          "en-US": "Slot1_RoundsPerCall"
+        },
+        "Slot1_Munition": {
+          "zh-CN": "槽位1弹种",
+          "en-US": "Slot1_Munition"
+        },
+        "Slot1_Weapon": {
+          "zh-CN": "槽位1武器",
+          "en-US": "Slot1_Weapon"
+        },
+        "Slot1_ImpactDelaySeconds": {
+          "zh-CN": "槽位1首弹延迟倍率",
+          "en-US": "Slot1_ImpactDelaySeconds"
+        },
+        "Slot1_InterShotDelaySeconds": {
+          "zh-CN": "槽位1发间隔倍率",
+          "en-US": "Slot1_InterShotDelaySeconds"
+        },
+        "Slot1_DispersionMeters": {
+          "zh-CN": "槽位1散布倍率",
+          "en-US": "Slot1_DispersionMeters"
+        },
+        "Slot1_CooldownSeconds": {
+          "zh-CN": "槽位1冷却",
+          "en-US": "Slot1_CooldownSeconds"
+        },
+        "Slot1_AmmoName": {
+          "zh-CN": "槽位1弹药名",
+          "en-US": "Slot1_AmmoName"
+        },
+        "Slot1_CasFlyover": {
+          "zh-CN": "槽位1飞行方式",
+          "en-US": "Slot1_CasFlyover"
+        },
+        "Slot1_CasAccuracy": {
+          "zh-CN": "槽位1 CAS精度",
+          "en-US": "Slot1_CasAccuracy"
+        },
+        "Slot1_CasAttackTypes": {
+          "zh-CN": "槽位1攻击方式",
+          "en-US": "Slot1_CasAttackTypes"
+        },
+        "Slot2_Enabled": {
+          "zh-CN": "槽位2开关",
+          "en-US": "Slot2_Enabled"
+        },
+        "Slot2_Type": {
+          "zh-CN": "槽位2类型",
+          "en-US": "Slot2_Type"
+        },
+        "Slot2_DisplayName": {
+          "zh-CN": "槽位2显示名",
+          "en-US": "Slot2_DisplayName"
+        },
+        "Slot2_Missions": {
+          "zh-CN": "槽位2呼叫次数",
+          "en-US": "Slot2_Missions"
+        },
+        "Slot2_RoundsPerCall": {
+          "zh-CN": "槽位2单次弹数",
+          "en-US": "Slot2_RoundsPerCall"
+        },
+        "Slot2_Munition": {
+          "zh-CN": "槽位2弹种",
+          "en-US": "Slot2_Munition"
+        },
+        "Slot2_Weapon": {
+          "zh-CN": "槽位2武器",
+          "en-US": "Slot2_Weapon"
+        },
+        "Slot2_ImpactDelaySeconds": {
+          "zh-CN": "槽位2首弹延迟倍率",
+          "en-US": "Slot2_ImpactDelaySeconds"
+        },
+        "Slot2_InterShotDelaySeconds": {
+          "zh-CN": "槽位2发间隔倍率",
+          "en-US": "Slot2_InterShotDelaySeconds"
+        },
+        "Slot2_DispersionMeters": {
+          "zh-CN": "槽位2散布倍率",
+          "en-US": "Slot2_DispersionMeters"
+        },
+        "Slot2_CooldownSeconds": {
+          "zh-CN": "槽位2冷却",
+          "en-US": "Slot2_CooldownSeconds"
+        },
+        "Slot2_AmmoName": {
+          "zh-CN": "槽位2弹药名",
+          "en-US": "Slot2_AmmoName"
+        },
+        "Slot2_CasFlyover": {
+          "zh-CN": "槽位2飞行方式",
+          "en-US": "Slot2_CasFlyover"
+        },
+        "Slot2_CasAccuracy": {
+          "zh-CN": "槽位2 CAS精度",
+          "en-US": "Slot2_CasAccuracy"
+        },
+        "Slot2_CasAttackTypes": {
+          "zh-CN": "槽位2攻击方式",
+          "en-US": "Slot2_CasAttackTypes"
+        },
+        "Slot3_Enabled": {
+          "zh-CN": "槽位3开关",
+          "en-US": "Slot3_Enabled"
+        },
+        "Slot3_Type": {
+          "zh-CN": "槽位3类型",
+          "en-US": "Slot3_Type"
+        },
+        "Slot3_DisplayName": {
+          "zh-CN": "槽位3显示名",
+          "en-US": "Slot3_DisplayName"
+        },
+        "Slot3_Missions": {
+          "zh-CN": "槽位3呼叫次数",
+          "en-US": "Slot3_Missions"
+        },
+        "Slot3_RoundsPerCall": {
+          "zh-CN": "槽位3单次弹数",
+          "en-US": "Slot3_RoundsPerCall"
+        },
+        "Slot3_Munition": {
+          "zh-CN": "槽位3弹种",
+          "en-US": "Slot3_Munition"
+        },
+        "Slot3_Weapon": {
+          "zh-CN": "槽位3武器",
+          "en-US": "Slot3_Weapon"
+        },
+        "Slot3_ImpactDelaySeconds": {
+          "zh-CN": "槽位3首弹延迟倍率",
+          "en-US": "Slot3_ImpactDelaySeconds"
+        },
+        "Slot3_InterShotDelaySeconds": {
+          "zh-CN": "槽位3发间隔倍率",
+          "en-US": "Slot3_InterShotDelaySeconds"
+        },
+        "Slot3_DispersionMeters": {
+          "zh-CN": "槽位3散布倍率",
+          "en-US": "Slot3_DispersionMeters"
+        },
+        "Slot3_CooldownSeconds": {
+          "zh-CN": "槽位3冷却",
+          "en-US": "Slot3_CooldownSeconds"
+        },
+        "Slot3_AmmoName": {
+          "zh-CN": "槽位3弹药名",
+          "en-US": "Slot3_AmmoName"
+        },
+        "Slot3_CasFlyover": {
+          "zh-CN": "槽位3飞行方式",
+          "en-US": "Slot3_CasFlyover"
+        },
+        "Slot3_CasAccuracy": {
+          "zh-CN": "槽位3 CAS精度",
+          "en-US": "Slot3_CasAccuracy"
+        },
+        "Slot3_CasAttackTypes": {
+          "zh-CN": "槽位3攻击方式",
+          "en-US": "Slot3_CasAttackTypes"
+        },
+        "Slot4_Enabled": {
+          "zh-CN": "槽位4开关",
+          "en-US": "Slot4_Enabled"
+        },
+        "Slot4_Type": {
+          "zh-CN": "槽位4类型",
+          "en-US": "Slot4_Type"
+        },
+        "Slot4_DisplayName": {
+          "zh-CN": "槽位4显示名",
+          "en-US": "Slot4_DisplayName"
+        },
+        "Slot4_Missions": {
+          "zh-CN": "槽位4呼叫次数",
+          "en-US": "Slot4_Missions"
+        },
+        "Slot4_RoundsPerCall": {
+          "zh-CN": "槽位4单次弹数",
+          "en-US": "Slot4_RoundsPerCall"
+        },
+        "Slot4_Munition": {
+          "zh-CN": "槽位4弹种",
+          "en-US": "Slot4_Munition"
+        },
+        "Slot4_Weapon": {
+          "zh-CN": "槽位4武器",
+          "en-US": "Slot4_Weapon"
+        },
+        "Slot4_ImpactDelaySeconds": {
+          "zh-CN": "槽位4首弹延迟倍率",
+          "en-US": "Slot4_ImpactDelaySeconds"
+        },
+        "Slot4_InterShotDelaySeconds": {
+          "zh-CN": "槽位4发间隔倍率",
+          "en-US": "Slot4_InterShotDelaySeconds"
+        },
+        "Slot4_DispersionMeters": {
+          "zh-CN": "槽位4散布倍率",
+          "en-US": "Slot4_DispersionMeters"
+        },
+        "Slot4_CooldownSeconds": {
+          "zh-CN": "槽位4冷却",
+          "en-US": "Slot4_CooldownSeconds"
+        },
+        "Slot4_AmmoName": {
+          "zh-CN": "槽位4弹药名",
+          "en-US": "Slot4_AmmoName"
+        },
+        "Slot4_CasFlyover": {
+          "zh-CN": "槽位4飞行方式",
+          "en-US": "Slot4_CasFlyover"
+        },
+        "Slot4_CasAccuracy": {
+          "zh-CN": "槽位4 CAS精度",
+          "en-US": "Slot4_CasAccuracy"
+        },
+        "Slot4_CasAttackTypes": {
+          "zh-CN": "槽位4攻击方式",
+          "en-US": "Slot4_CasAttackTypes"
+        },
+        "Slot5_Enabled": {
+          "zh-CN": "槽位5开关",
+          "en-US": "Slot5_Enabled"
+        },
+        "Slot5_Type": {
+          "zh-CN": "槽位5类型",
+          "en-US": "Slot5_Type"
+        },
+        "Slot5_DisplayName": {
+          "zh-CN": "槽位5显示名",
+          "en-US": "Slot5_DisplayName"
+        },
+        "Slot5_Missions": {
+          "zh-CN": "槽位5呼叫次数",
+          "en-US": "Slot5_Missions"
+        },
+        "Slot5_RoundsPerCall": {
+          "zh-CN": "槽位5单次弹数",
+          "en-US": "Slot5_RoundsPerCall"
+        },
+        "Slot5_Munition": {
+          "zh-CN": "槽位5弹种",
+          "en-US": "Slot5_Munition"
+        },
+        "Slot5_Weapon": {
+          "zh-CN": "槽位5武器",
+          "en-US": "Slot5_Weapon"
+        },
+        "Slot5_ImpactDelaySeconds": {
+          "zh-CN": "槽位5首弹延迟倍率",
+          "en-US": "Slot5_ImpactDelaySeconds"
+        },
+        "Slot5_InterShotDelaySeconds": {
+          "zh-CN": "槽位5发间隔倍率",
+          "en-US": "Slot5_InterShotDelaySeconds"
+        },
+        "Slot5_DispersionMeters": {
+          "zh-CN": "槽位5散布倍率",
+          "en-US": "Slot5_DispersionMeters"
+        },
+        "Slot5_CooldownSeconds": {
+          "zh-CN": "槽位5冷却",
+          "en-US": "Slot5_CooldownSeconds"
+        },
+        "Slot5_AmmoName": {
+          "zh-CN": "槽位5弹药名",
+          "en-US": "Slot5_AmmoName"
+        },
+        "Slot5_CasFlyover": {
+          "zh-CN": "槽位5飞行方式",
+          "en-US": "Slot5_CasFlyover"
+        },
+        "Slot5_CasAccuracy": {
+          "zh-CN": "槽位5 CAS精度",
+          "en-US": "Slot5_CasAccuracy"
+        },
+        "Slot5_CasAttackTypes": {
+          "zh-CN": "槽位5攻击方式",
+          "en-US": "Slot5_CasAttackTypes"
+        },
+        "Slot6_Enabled": {
+          "zh-CN": "槽位6开关",
+          "en-US": "Slot6_Enabled"
+        },
+        "Slot6_Type": {
+          "zh-CN": "槽位6类型",
+          "en-US": "Slot6_Type"
+        },
+        "Slot6_DisplayName": {
+          "zh-CN": "槽位6显示名",
+          "en-US": "Slot6_DisplayName"
+        },
+        "Slot6_Missions": {
+          "zh-CN": "槽位6呼叫次数",
+          "en-US": "Slot6_Missions"
+        },
+        "Slot6_RoundsPerCall": {
+          "zh-CN": "槽位6单次弹数",
+          "en-US": "Slot6_RoundsPerCall"
+        },
+        "Slot6_Munition": {
+          "zh-CN": "槽位6弹种",
+          "en-US": "Slot6_Munition"
+        },
+        "Slot6_Weapon": {
+          "zh-CN": "槽位6武器",
+          "en-US": "Slot6_Weapon"
+        },
+        "Slot6_ImpactDelaySeconds": {
+          "zh-CN": "槽位6首弹延迟倍率",
+          "en-US": "Slot6_ImpactDelaySeconds"
+        },
+        "Slot6_InterShotDelaySeconds": {
+          "zh-CN": "槽位6发间隔倍率",
+          "en-US": "Slot6_InterShotDelaySeconds"
+        },
+        "Slot6_DispersionMeters": {
+          "zh-CN": "槽位6散布倍率",
+          "en-US": "Slot6_DispersionMeters"
+        },
+        "Slot6_CooldownSeconds": {
+          "zh-CN": "槽位6冷却",
+          "en-US": "Slot6_CooldownSeconds"
+        },
+        "Slot6_AmmoName": {
+          "zh-CN": "槽位6弹药名",
+          "en-US": "Slot6_AmmoName"
+        },
+        "Slot6_CasFlyover": {
+          "zh-CN": "槽位6飞行方式",
+          "en-US": "Slot6_CasFlyover"
+        },
+        "Slot6_CasAccuracy": {
+          "zh-CN": "槽位6 CAS精度",
+          "en-US": "Slot6_CasAccuracy"
+        },
+        "Slot6_CasAttackTypes": {
+          "zh-CN": "槽位6攻击方式",
+          "en-US": "Slot6_CasAttackTypes"
+        }
+      },
+      "ConfigComments": {
+        "false = mod 完全不动作": {
+          "zh-CN": "false = mod 完全不动作",
+          "en-US": "false = mod completely inactive"
+        },
+        "true = 地图上只显示你的槽位（官方炮组/架次数组不动，脚本火力照常）": {
+          "zh-CN": "true = 地图上只显示你的槽位（官方炮组/架次数组不动，脚本火力照常）",
+          "en-US": "true = only show your slots on map (vanilla arrays untouched, scripted fire still works)"
+        },
+        "true = 照明槽位只在夜间出现（默认）；false = 白天也能用": {
+          "zh-CN": "true = 照明槽位只在夜间出现（默认）；false = 白天也能用",
+          "en-US": "true = illumination slots only at night (default); false = available in daytime"
+        },
+        "true = 烟幕槽位只在白天出现（默认）；夜间烟雾看不见，自动隐藏；false = 全天可用": {
+          "zh-CN": "true = 烟幕槽位只在白天出现（默认）；夜间烟雾看不见，自动隐藏；false = 全天可用",
+          "en-US": "true = smoke slots only during day (default); night smoke invisible, auto-hidden; false = always available"
+        },
+        "true = 把模板发现/槽位解析细节打印到日志": {
+          "zh-CN": "true = 把模板发现/槽位解析细节打印到日志",
+          "en-US": "true = print template discovery/slot parsing details to log"
+        },
+        "仅当关卡没有 CasSupportManager 时：自建管理器的飞机起飞点距玩家起始位置多远（米）": {
+          "zh-CN": "仅当关卡没有 CasSupportManager 时：自建管理器的飞机起飞点距玩家起始位置多远（米）",
+          "en-US": "Only when level has no CasSupportManager: distance from player start to aircraft spawn point (meters)"
+        },
+        "上述起飞点方位角（度），0 = +Z（北），顺时针": {
+          "zh-CN": "上述起飞点方位角（度），0 = +Z（北），顺时针",
+          "en-US": "Above spawn point bearing (degrees), 0 = +Z (north), clockwise"
+        },
+        "会话启动时额外预加载的 Addressables 键（逗号分隔）；auto = 无（CAS 机型/挂架/弹药都由随 mod 的 cas_assets 包提供，无需额外键）。空 = 关": {
+          "zh-CN": "会话启动时额外预加载的 Addressables 键（逗号分隔）；auto = 无（CAS 机型/挂架/弹药都由随 mod 的 cas_assets 包提供，无需额外键）。空 = 关",
+          "en-US": "Additional Addressables keys to prewarm on session start (comma-separated); auto = none (CAS models/pylons/ammo from mod's cas_assets bundle, no extra keys needed). Empty = off"
+        },
+        "槽位开关（默认全开）": {
+          "zh-CN": "槽位开关（默认全开）",
+          "en-US": "Slot switch (all enabled by default)"
+        },
+        "Artillery | ArtillerySmoke | ArtilleryIllumination | CASSupport（固定翼 CAS）；别名 HE/Smoke/Illum/CAS 也认": {
+          "zh-CN": "Artillery | ArtillerySmoke | ArtilleryIllumination | CASSupport（固定翼 CAS）；别名 HE/Smoke/Illum/CAS 也认",
+          "en-US": "Artillery | ArtillerySmoke | ArtilleryIllumination | CASSupport (fixed-wing CAS); aliases HE/Smoke/Illum/CAS also recognized"
+        },
+        "地图按钮上的名字": {
+          "zh-CN": "地图按钮上的名字",
+          "en-US": "Name on map button"
+        },
+        "可用呼叫次数（CAS 为架次）：-1 = 无限": {
+          "zh-CN": "可用呼叫次数（CAS 为架次）：-1 = 无限",
+          "en-US": "Available call count (CAS as sorties): -1 = unlimited"
+        },
+        "单次弹数：-1 = 用游戏自己炮组的弹数；>0 = 指定": {
+          "zh-CN": "单次弹数：-1 = 用游戏自己炮组的弹数；>0 = 指定",
+          "en-US": "Rounds per call: -1 = use game's own battery count; >0 = specify"
+        },
+        "弹种（仅火炮）：AntiPersonnel | AntiArmor | Smoke | Illumination；留空 = 随槽位类型": {
+          "zh-CN": "弹种（仅火炮）：AntiPersonnel | AntiArmor | Smoke | Illumination；留空 = 随槽位类型",
+          "en-US": "Munition (artillery only): AntiPersonnel | AntiArmor | Smoke | Illumination; empty = follow slot type"
+        },
+        "Guns | Mortars | Rockets | Any（仅影响 WeaponType 属性）": {
+          "zh-CN": "Guns | Mortars | Rockets | Any（仅影响 WeaponType 属性）",
+          "en-US": "Guns | Mortars | Rockets | Any (only affects WeaponType property)"
+        },
+        "首弹延迟倍率：1 = 游戏原值；<1 = 取消首弹延迟（首弹立即到）；0/负数 = 整梭子当帧打完。只影响首弹，不压缩发间隔": {
+          "zh-CN": "首弹延迟倍率：1 = 游戏原值；<1 = 取消首弹延迟（首弹立即到）；0/负数 = 整梭子当帧打完。只影响首弹，不压缩发间隔",
+          "en-US": "First round delay multiplier: 1 = game default; <1 = cancel first round delay (instant first impact); 0/negative = entire salvo same frame. Only affects first round, does not compress inter-shot interval"
+        },
+        "发间隔倍率（发间隔只由本键决定）：1 = 原值（通常 0.7 秒），0.5 = 一半，0 = 同一帧打完": {
+          "zh-CN": "发间隔倍率（发间隔只由本键决定）：1 = 原值（通常 0.7 秒），0.5 = 一半，0 = 同一帧打完",
+          "en-US": "Inter-shot delay multiplier (interval determined solely by this key): 1 = default (typically 0.7s), 0.5 = half, 0 = same frame"
+        },
+        "散布倍率：1 = 原值，0.5 = 一半，0 = 全部同一点（仅火炮）": {
+          "zh-CN": "散布倍率：1 = 原值，0.5 = 一半，0 = 全部同一点（仅火炮）",
+          "en-US": "Dispersion multiplier: 1 = default, 0.5 = half, 0 = all same point (artillery only)"
+        },
+        "冷却：火炮 = 倍率（1=原值）；CAS = 直接秒数（已去除游戏原生 120 秒）；-1/0 = 无冷却": {
+          "zh-CN": "冷却：火炮 = 倍率（1=原值）；CAS = 直接秒数（已去除游戏原生 120 秒）；-1/0 = 无冷却",
+          "en-US": "Cooldown: artillery = multiplier (1=default); CAS = direct seconds (vanilla 120s removed); -1/0 = no cooldown"
+        },
+        "可选：弹药名包含该文本（如 155mm）；留空 = 取该弹种第一个模板": {
+          "zh-CN": "可选：弹药名包含该文本（如 155mm）；留空 = 取该弹种第一个模板",
+          "en-US": "Optional: ammo name contains this text (e.g. 155mm); empty = first template of that munition type"
+        },
+        "飞行方式：留空 = 按机型自动；也可写 SinglePass（单次通过）| Linger（盘旋约 60 秒）": {
+          "zh-CN": "飞行方式：留空 = 按机型自动；也可写 SinglePass（单次通过）| Linger（盘旋约 60 秒）",
+          "en-US": "Flyover pattern: empty = auto by aircraft type; can specify SinglePass (single pass) | Linger (loiter ~60s)"
+        },
+        "CAS 落点圆半径 = 值 × 15 米（0–1 之间按百分比；0.5 = 7.5 m，1 = 15 m，>1 更大）：0 = 每一发都飞进目标中心（机炮/火箭弹/炸弹都精确命中）；**对空地导弹无效**——它固定 1 发、永远 100% 命中锁定目标中心；对游戏自带导弹挂载也无效（仍由游戏自己制导）": {
+          "zh-CN": "CAS 落点圆半径 = 值 × 15 米（0–1 之间按百分比；0.5 = 7.5 m，1 = 15 m，>1 更大）：0 = 每一发都飞进目标中心（机炮/火箭弹/炸弹都精确命中）；**对空地导弹无效**——它固定 1 发、永远 100% 命中锁定目标中心；对游戏自带导弹挂载也无效（仍由游戏自己制导）",
+          "en-US": "CAS impact circle radius = value × 15m (0–1 as percentage; 0.5 = 7.5m, 1 = 15m, >1 larger): 0 = every round hits target center (guns/rockets/bombs all pinpoint); **no effect on AGM** — it's always 1 round, 100% center hit; also no effect on vanilla missile loadouts (still game-guided)"
+        },
+        "攻击方式：Any | 逗号列表 Bombs,Rockets,AirToGroundMissile(AGM/ATGM/Missile),GunRun（只保留机型实际挂载的；空地导弹机型固定为 A-10/MiG-23BN）；留空 = 用机型自带挂载。空空导弹与训练弹（AirToAirMissile / Inert）已移除，写了会被忽略并记警告": {
+          "zh-CN": "攻击方式：Any | 逗号列表 Bombs,Rockets,AirToGroundMissile(AGM/ATGM/Missile),GunRun（只保留机型实际挂载的；空地导弹机型固定为 A-10/MiG-23BN）；留空 = 用机型自带挂载。空空导弹与训练弹（AirToAirMissile / Inert）已移除，写了会被忽略并记警告",
+          "en-US": "Attack types: Any | comma list Bombs,Rockets,AirToGroundMissile(AGM/ATGM/Missile),GunRun (only keeps aircraft's actual loadout; AGM aircraft fixed as A-10/MiG-23BN); empty = use aircraft default loadout. Air-to-air missiles & inert (AirToAirMissile / Inert) removed, will be ignored with warning logged"
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "Slot1_Type": [
+          "Artillery",
+          "ArtillerySmoke",
+          "ArtilleryIllumination",
+          "CASSupport"
+        ],
+        "Slot1_Munition": [
+          "AntiPersonnel",
+          "AntiArmor",
+          "Smoke",
+          "Illumination"
+        ],
+        "Slot1_Weapon": [
+          "Guns",
+          "Mortars",
+          "Rockets",
+          "Any"
+        ],
+        "Slot1_CasFlyover": [
+          "",
+          "SinglePass",
+          "Linger"
+        ],
+        "Slot1_CasAttackTypes": [
+          "Any",
+          "Bombs",
+          "Rockets",
+          "AirToGroundMissile",
+          "GunRun"
+        ],
+        "Slot2_Type": [
+          "Artillery",
+          "ArtillerySmoke",
+          "ArtilleryIllumination",
+          "CASSupport"
+        ],
+        "Slot2_Munition": [
+          "AntiPersonnel",
+          "AntiArmor",
+          "Smoke",
+          "Illumination"
+        ],
+        "Slot2_Weapon": [
+          "Guns",
+          "Mortars",
+          "Rockets",
+          "Any"
+        ],
+        "Slot2_CasFlyover": [
+          "",
+          "SinglePass",
+          "Linger"
+        ],
+        "Slot2_CasAttackTypes": [
+          "Any",
+          "Bombs",
+          "Rockets",
+          "AirToGroundMissile",
+          "GunRun"
+        ],
+        "Slot3_Type": [
+          "Artillery",
+          "ArtillerySmoke",
+          "ArtilleryIllumination",
+          "CASSupport"
+        ],
+        "Slot3_Munition": [
+          "AntiPersonnel",
+          "AntiArmor",
+          "Smoke",
+          "Illumination"
+        ],
+        "Slot3_Weapon": [
+          "Guns",
+          "Mortars",
+          "Rockets",
+          "Any"
+        ],
+        "Slot3_CasFlyover": [
+          "",
+          "SinglePass",
+          "Linger"
+        ],
+        "Slot3_CasAttackTypes": [
+          "Any",
+          "Bombs",
+          "Rockets",
+          "AirToGroundMissile",
+          "GunRun"
+        ],
+        "Slot4_Type": [
+          "Artillery",
+          "ArtillerySmoke",
+          "ArtilleryIllumination",
+          "CASSupport"
+        ],
+        "Slot4_Munition": [
+          "AntiPersonnel",
+          "AntiArmor",
+          "Smoke",
+          "Illumination"
+        ],
+        "Slot4_Weapon": [
+          "Guns",
+          "Mortars",
+          "Rockets",
+          "Any"
+        ],
+        "Slot4_CasFlyover": [
+          "",
+          "SinglePass",
+          "Linger"
+        ],
+        "Slot4_CasAttackTypes": [
+          "Any",
+          "Bombs",
+          "Rockets",
+          "AirToGroundMissile",
+          "GunRun"
+        ],
+        "Slot5_Type": [
+          "Artillery",
+          "ArtillerySmoke",
+          "ArtilleryIllumination",
+          "CASSupport"
+        ],
+        "Slot5_Munition": [
+          "AntiPersonnel",
+          "AntiArmor",
+          "Smoke",
+          "Illumination"
+        ],
+        "Slot5_Weapon": [
+          "Guns",
+          "Mortars",
+          "Rockets",
+          "Any"
+        ],
+        "Slot5_CasFlyover": [
+          "",
+          "SinglePass",
+          "Linger"
+        ],
+        "Slot5_CasAttackTypes": [
+          "Any",
+          "Bombs",
+          "Rockets",
+          "AirToGroundMissile",
+          "GunRun"
+        ],
+        "Slot6_Type": [
+          "Artillery",
+          "ArtillerySmoke",
+          "ArtilleryIllumination",
+          "CASSupport"
+        ],
+        "Slot6_Munition": [
+          "AntiPersonnel",
+          "AntiArmor",
+          "Smoke",
+          "Illumination"
+        ],
+        "Slot6_Weapon": [
+          "Guns",
+          "Mortars",
+          "Rockets",
+          "Any"
+        ],
+        "Slot6_CasFlyover": [
+          "",
+          "SinglePass",
+          "Linger"
+        ],
+        "Slot6_CasAttackTypes": [
+          "Any",
+          "Bombs",
+          "Rockets",
+          "AirToGroundMissile",
+          "GunRun"
+        ]
+      }
+    },
+    "Cheatmod": {
+      "ModId": "Cheatmod",
+      "ConfigLabels": {
+        "SelfInvincible": {
+          "zh-CN": "自身无敌",
+          "en-US": "SelfInvincible"
+        },
+        "FriendlyInvincible": {
+          "zh-CN": "友军无敌",
+          "en-US": "FriendlyInvincible"
+        },
+        "SelfInfiniteAmmo": {
+          "zh-CN": "自身无限弹药",
+          "en-US": "SelfInfiniteAmmo"
+        },
+        "FriendlyInfiniteAmmo": {
+          "zh-CN": "友军无限弹药",
+          "en-US": "FriendlyInfiniteAmmo"
+        },
+        "NoReload": {
+          "zh-CN": "无需装填",
+          "en-US": "NoReload"
+        },
+        "ESP": {
+          "zh-CN": "透视",
+          "en-US": "ESP"
+        }
+      },
+      "ConfigComments": {},
+      "multiplechoice": {},
+      "singlechoice": {}
+    },
     "CustomTracers": {
       "ModId": "CustomTracers",
       "ConfigLabels": {
