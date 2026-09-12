@@ -1011,7 +1011,7 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "PactGreenTracers.dll",
     "InstallMethod": "DirectRelease",
-    "Delisted":true
+    "Delisted": true
   },
   {
     "Id": "CustomTracers",
@@ -1035,8 +1035,8 @@
     "ReleaseUrl": "https://api.github.com/repos/Bluehawk8908/PactGreenTracers/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "CustomizableTracers.dll",
-    "InstallMethod": "DirectRelease",
-    "ConfigSectionName": "\"Customizable Tracers\""
+    "ConfigSectionName": "\"Customizable Tracers\"",
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "UCust",
@@ -1167,6 +1167,34 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "CFSupport",
+    "Name": {
+      "en-US": "Custom Fire Support",
+      "zh-CN": "自定义火力支援"
+    },
+    "Description": {
+      "en-US": "The mod puts 6 configurable slots on the mission map's fire-support panel.",
+      "zh-CN": "可自定义任务地图中火力支援的各类参数"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/WpsxX/GHPC-CustomFireSupport/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "CustomFireSupport.dll",
+    "ConfigSectionName": "CustomFireSupport",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "ArtilleryEx"
+    ]
+  },
+  {
     "Id": "ArtilleryEx",
     "Name": {
       "en-US": "Artillery Extended",
@@ -1264,7 +1292,7 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "Luchs_in_Showcase.dll",
     "InstallMethod": "DirectRelease",
-    "Delisted":true
+    "Delisted": true
   },
   {
     "Id": "ExcludeACAAR",
@@ -1363,6 +1391,35 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "Cheatmod",
+    "Name": {
+      "en-US": "Cheat Mode",
+      "zh-CN": "作弊模式"
+    },
+    "Description": {
+      "en-US": "Invincibility — separately protect the player's own unit and/or friendly AI units.\nInfinite ammo — player and/or friendly vehicles, infantry, throwables and crew-served weapon emplacements.\nNo reload (player vehicle only) — the clip never empties; toggled in-game with F9.\nESP — toggle vehicles, ATGM and infantry boxes together with F8; labels show distance.",
+      "zh-CN": "无敌——单独保护玩家自己的单位以及友军的AI单位。  \n无限弹药——适用于玩家和友军的车辆、步兵、投掷武器等装备。  \n无须重新装填（仅适用于玩家车辆）——弹药永远不会耗尽；可以在游戏中通过 F9 键切换此功能。  \n透视功能——通过 F8 键将车辆、反坦克导弹以及步兵单位合并处理；标签上会显示它们之间的距离。"
+    },
+    "Tags": {
+      "Cheat": {
+        "zh-CN": "作弊",
+        "en-US": "Cheat"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/WpsxX/GHPC-CheatMode/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "CheatMode.dll",
+    "ConfigSectionName": "CheatMode",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "GHPCESP",
+      "InvinciT"
+    ]
+  },
+  {
     "Id": "GHPCESP",
     "Name": {
       "en-US": "GHPC ESP",
@@ -1373,9 +1430,9 @@
       "zh-CN": "一个简易的 ESP（超感透视）模组，通过在载具、反坦克导弹和步兵周围绘制带标签的方框与距离指示来标记其位置，可穿透地形显示。F8 切换载具/ATGM 透视，F9 切换步兵透视。需配合 MelonLoader 使用，将 DLL 放入游戏的 Mods 目录。"
     },
     "Tags": {
-      "enhancement": {
-        "zh-CN": "游戏增强",
-        "en-US": "Game Enhancement"
+      "Cheat": {
+        "zh-CN": "作弊",
+        "en-US": "Cheat"
       }
     },
     "SupportedGameVersions": [
