@@ -5,6 +5,9 @@
 
 ## 公告
 
+### 2026-09-12
+- v1.3.10 正式版已发布，新增路径安全加固、备份完整性校验、清单并发安全、安装回滚与卸载/状态检测修复，详情见下方[更新日志](#v1310)。
+
 ### 2026-07-11
 - v1.3.9 正式版已发布，新增赞助者冠名与名单、存档编辑器安全改进与UI修复，详情见下方[更新日志](#v139)。
 
@@ -103,6 +106,21 @@
 - GHPC版本20250902已发布，部分mod可能出现不适配的情况，请根据实际情况安装或更新。
 
 ## 更新日志
+
+### v1.3.10
+#### feat: 发布1.3.10版本，新增路径安全加固、备份完整性校验、清单并发安全、安装回滚与卸载/状态检测修复
+- 版本升级至1.3.10 "Cellinia Texas"
+- 已安装的普通Mod无论启用或禁用均可卸载（此前仅启用状态允许卸载）
+- 已有安装清单时一律以记录文件判断安装/启用状态，避免配置中旧DLL名称导致状态误判
+- 新增PathSecurityHelper防止zip-slip路径遍历，应用于MelonLoader解压、TrackedFileOperations压缩包解压与Replace模式目标路径校验
+- 恢复前校验备份文件SHA256，损坏或被篡改时中止；校验manifest记录与磁盘实际文件一致，避免部分丢失时报成功导致快速重装不完整；构建恢复计划时检测manifest记录但磁盘缺失的文件
+- 为清单读写新增SemaphoreSlim锁与原子写入(临时文件+File.Move)，防止并发读到半写文件与空清单覆盖磁盘；LoadAvailableModsAsync加锁与清单操作串行化
+- 新增RollbackReplaceInstallAsync，Replace模式安装失败时删除已写新文件并还原备份；禁用时还原失败回滚(重新启用Mod并保留BackupFiles供重试)；残留备份选「否」时还原原文件而非删除，避免永久丢失
+- 下载后写入前复查游戏运行状态防止TOCTOU；游戏运行时禁止卸载/启用/禁用；安装/更新前校验游戏根目录已配置且存在
+- 已安装的Mod走更新流程避免Replace模式活动备份被误删；快速重装执行依赖/冲突检查；Direct模式更新失败时恢复前清理残留文件；启动时清理残留download_临时文件并在异常时try/finally清理
+- 移除备份路径下划线回退解码(导致my_mod.dll被错误还原为my/mod.dll)；IsModInstalledAsync改用backup_paths.json精确匹配
+- 速率限制标记与会话缓存Dictionary改ConcurrentDictionary保证线程安全；速率限制标记1小时后过期允许重试避免永久跳过；GitHub releases按PublishedAt倒序确保FirstOrDefault取到最新发布版本
+- 安装/更新/重装前强制刷新最新release避免7天缓存的旧TagName/资产URL；版本比较前归一化(去v前缀与空白)避免v2.0与2.0误判为有更新；LatestVersion保持TagName原样以精确匹配下载
 
 ### v1.3.9
 #### feat: 发布1.3.9版本，新增赞助者冠名与名单、存档编辑器安全改进与UI修复

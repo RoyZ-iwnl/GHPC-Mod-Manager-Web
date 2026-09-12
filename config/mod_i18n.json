@@ -40,11 +40,11 @@
           "en-US": "BDD Applique (T-62)"
         },
         "BMP-1 Patch": {
-          "zh-CN": "BMP-1 补丁",
+          "zh-CN": "BMP-1 修改",
           "en-US": "BMP-1 Patch"
         },
         "BMP-2 Patch": {
-          "zh-CN": "BMP-2 补丁",
+          "zh-CN": "BMP-2 修改",
           "en-US": "BMP-2 Patch"
         },
         "BMP-23-4 Conversion": {
@@ -56,7 +56,7 @@
           "en-US": "BMP-23-4 Conversion Chance"
         },
         "BTR-60 Patch": {
-          "zh-CN": "BTR-60 补丁",
+          "zh-CN": "BTR-60 修改",
           "en-US": "BTR-60 Patch"
         },
         "Better Stabilizer (T-55)": {
@@ -304,27 +304,27 @@
           "en-US": "Super FCS (T-80B)"
         },
         "T-55 Patch": {
-          "zh-CN": "T-55 补丁",
+          "zh-CN": "T-55 修改",
           "en-US": "T-55 Patch"
         },
         "T-62 Patch": {
-          "zh-CN": "T-62 补丁",
+          "zh-CN": "T-62 修改",
           "en-US": "T-62 Patch"
         },
         "T-64A Patch": {
-          "zh-CN": "T-64A 补丁",
+          "zh-CN": "T-64A 修改",
           "en-US": "T-64A Patch"
         },
         "T-64B Patch": {
-          "zh-CN": "T-64B 补丁",
+          "zh-CN": "T-64B 修改",
           "en-US": "T-64B Patch"
         },
         "T-72 Patch": {
-          "zh-CN": "T-72 补丁",
+          "zh-CN": "T-72 修改",
           "en-US": "T-72 Patch"
         },
         "T-80B Patch": {
-          "zh-CN": "T-80B 补丁",
+          "zh-CN": "T-80B 修改",
           "en-US": "T-80B Patch"
         },
         "TPN-3 Night Sight (T-55)": {
@@ -792,11 +792,11 @@
           "en-US": "BDD Applique (T-62)"
         },
         "BMP-1 Patch": {
-          "zh-CN": "BMP-1 补丁",
+          "zh-CN": "BMP-1 修改",
           "en-US": "BMP-1 Patch"
         },
         "BMP-2 Patch": {
-          "zh-CN": "BMP-2 补丁",
+          "zh-CN": "BMP-2 修改",
           "en-US": "BMP-2 Patch"
         },
         "BMP-23-4 Conversion": {
@@ -808,7 +808,7 @@
           "en-US": "BMP-23-4 Conversion Chance"
         },
         "BTR-60 Patch": {
-          "zh-CN": "BTR-60 补丁",
+          "zh-CN": "BTR-60 修改",
           "en-US": "BTR-60 Patch"
         },
         "Better Stabilizer": {
@@ -1128,31 +1128,31 @@
           "en-US": "Super Kontakt-1"
         },
         "T-55 Patch": {
-          "zh-CN": "T-55 补丁",
+          "zh-CN": "T-55 修改",
           "en-US": "T-55 Patch"
         },
         "T-62 Patch": {
-          "zh-CN": "T-62 补丁",
+          "zh-CN": "T-62 修改",
           "en-US": "T-62 Patch"
         },
         "T-64 Patch": {
-          "zh-CN": "T-64 补丁",
+          "zh-CN": "T-64 修改",
           "en-US": "T-64 Patch"
         },
         "T-64A Patch": {
-          "zh-CN": "T-64A 补丁",
+          "zh-CN": "T-64A 修改",
           "en-US": "T-64A Patch"
         },
         "T-64B Patch": {
-          "zh-CN": "T-64B 补丁",
+          "zh-CN": "T-64B 修改",
           "en-US": "T-64B Patch"
         },
         "T-72 Patch": {
-          "zh-CN": "T-72 补丁",
+          "zh-CN": "T-72 修改",
           "en-US": "T-72 Patch"
         },
         "T-80B Patch": {
-          "zh-CN": "T-80B 补丁",
+          "zh-CN": "T-80B 修改",
           "en-US": "T-80B Patch"
         },
         "TPN-3 Night Sight (T-55)": {
@@ -4669,7 +4669,7 @@
       "ModId": "M2Ex",
       "ConfigLabels": {
         "M2 Bradley Patch": {
-          "zh-CN": "M2布雷德利补丁",
+          "zh-CN": "M2布雷德利修改",
           "en-US": "M2 Bradley Patch"
         },
         "Use Preset Bundle": {
@@ -5111,7 +5111,7 @@
       "ModId": "Fulda89",
       "ConfigLabels": {
         "T-64AV Patch": {
-          "zh-CN": "T-64AV 补丁",
+          "zh-CN": "T-64AV 修改",
           "en-US": "T-64AV Patch"
         },
         "Kontakt-1 (T-64AV)": {
@@ -5139,7 +5139,7 @@
           "en-US": "HEAT Round (T-64AV)"
         },
         "T-64BV Patch": {
-          "zh-CN": "T-64BV 补丁",
+          "zh-CN": "T-64BV 修改",
           "en-US": "T-64BV Patch"
         },
         "AP Round (T-64BV)": {
@@ -5201,6 +5201,14 @@
         "M60A3 TTS Conversion Chance (%)": {
           "zh-CN": "M60A3 TTS 转换几率 (%)",
           "en-US": "M60A3 TTS Conversion Chance (%)"
+        },
+        "BMP-2D Patch": {
+          "zh-CN": "BMP-2D 修改",
+          "en-US": "BMP-2D Patch"
+        },
+        "BMP-2D Spawnrate (%)": {
+          "zh-CN": "BMP-2D 生成率 (%)",
+          "en-US": "BMP-2D Spawnrate (%)"
         }
       },
       "ConfigComments": {
@@ -5213,7 +5221,7 @@
           "en-US": "3BK18M"
         },
         "Enables T64BV Patch": {
-          "zh-CN": "启用T-64BV补丁",
+          "zh-CN": "启用T-64BV修改",
           "en-US": "Enables T64BV Patch"
         },
         "3BM26, 3BM32, 3BM42, 3BM46": {
@@ -5243,6 +5251,10 @@
         "Random chance for an M60A3 TTS to spawn with ERA": {
           "zh-CN": "M60A3 TTS 生成时附带爆反装甲的随机几率",
           "en-US": "Random chance for an M60A3 TTS to spawn with ERA"
+        },
+        "Enables the BMP-2D, which gives the BMP-2 applique side hull and turret armour.": {
+          "zh-CN": "启用BMP-2D，为BMP-2加装车体侧面和炮塔附加装甲。",
+          "en-US": "Enables the BMP-2D, which gives the BMP-2 applique side hull and turret armour."
         }
       },
       "multiplechoice": {

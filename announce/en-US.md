@@ -4,6 +4,9 @@
 
 ## Announcement
 
+### 2026-09-12
+- v1.3.10 stable release is now available with path security hardening, backup integrity verification, manifest concurrency safety, install rollback, and uninstall/state detection fixes. See the [changelog](#v1310) below for details.
+
 ### 2026-07-11
 - v1.3.9 stable release is now available with sponsor naming & sponsors list, save editor safety improvements, and UI fixes. See the [changelog](#v139) below for details.
 
@@ -99,6 +102,21 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.10
+#### feat: Release version 1.3.10 with path security hardening, backup integrity verification, manifest concurrency safety, install rollback, and uninstall/state detection fixes
+- Bump version to 1.3.10 "Cellinia Texas"
+- Allow uninstall of installed mods regardless of enabled/disabled state (previously only enabled mods could be uninstalled)
+- When an install manifest record exists, always detect installed/enabled state from recorded files instead of MainBinaryFileName, avoiding misjudgment when the config still lists an old DLL name
+- Add PathSecurityHelper to prevent zip-slip path traversal; apply to MelonLoader extraction, TrackedFileOperations archive extraction, and Replace mode target path validation
+- Verify backup file SHA256 before restore and abort on corruption/tampering; validate manifest records match actual disk files to avoid incomplete fast reinstall on partial loss; detect manifest-recorded but disk-missing files during restore plan build
+- Add SemaphoreSlim lock and atomic write (temp file + File.Move) to manifest load/save to prevent concurrent read of half-written file and empty manifest overwriting disk; lock LoadAvailableModsAsync to serialize with manifest operations
+- Add RollbackReplaceInstallAsync to delete written new files and restore backups on Replace install failure; rollback disable on restore failure (re-enable mod, keep BackupFiles for retry); stale backup "No" restores original files instead of deleting to avoid permanent loss
+- Re-check game running state before writing after download to prevent TOCTOU; forbid uninstall/enable/disable while game running; validate game root path configured and exists before install/update
+- Route already-installed mods through update flow to avoid Replace mode active backup being deleted; run dependency/conflict check on quick reinstall; clean partial files before restore on Direct mode update failure; cleanup stale download_ temp files on startup and in try/finally on exception
+- Remove underscore fallback decoding for backup paths (caused my_mod.dll being wrongly restored as my/mod.dll); IsModInstalledAsync now uses backup_paths.json for precise matching
+- Switch rate limit tracking and session cache from Dictionary to ConcurrentDictionary for thread safety; expire rate limit block after 1 hour to allow retry instead of permanent skip; sort GitHub releases by PublishedAt descending so FirstOrDefault returns the latest published version
+- Force refresh latest release before install/update/reinstall to avoid 7-day cached stale TagName/asset URL; normalize version (strip v prefix and whitespace) before comparison to avoid v2.0 vs 2.0 false update; keep LatestVersion as raw TagName for exact download matching
 
 ### v1.3.9
 #### feat: Release version 1.3.9 with sponsor naming & sponsors list, save editor safety improvements, and UI fixes

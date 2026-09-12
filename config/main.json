@@ -545,6 +545,102 @@
                 "zh-CN": "收集自互联网",
                 "en-US": "From Internet"
             }
+        },
+        {
+            "Id": "GithubCnxiaobaiCom",
+            "Domain": "github.cnxiaobai.com",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "HubGitmirrorCom",
+            "Domain": "hub.gitmirror.com",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "Cab5555",
+            "Domain": "5555.cab",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GitTangbaiCc",
+            "Domain": "git.tangbai.cc",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhproxyXiaopaCc",
+            "Domain": "ghproxy.xiaopa.cc",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhproxyCfd",
+            "Domain": "ghproxy.cfd",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhproxyCc",
+            "Domain": "ghproxy.cc",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "CfGhproxyCc",
+            "Domain": "cf.ghproxy.cc",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GhXxoooCf",
+            "Domain": "gh.xxooo.cf",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubMlmleCn",
+            "Domain": "github.mlmle.cn",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "Gh1kInk",
+            "Domain": "gh.1k.ink",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
+        },
+        {
+            "Id": "GithubBoringhexTop",
+            "Domain": "github.boringhex.top",
+            "DisplayName": {
+                "zh-CN": "收集自互联网",
+                "en-US": "From Internet"
+            }
         }
     ]
 }
