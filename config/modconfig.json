@@ -496,6 +496,31 @@
     ]
   },
   {
+    "Id": "BVVDT34",
+    "Name": {
+      "en-US": "BVVD T-34",
+      "zh-CN": "BVVD T-34"
+    },
+    "Description": {
+      "en-US": "Adds major upgrades to the T-34 with config\n\nThanks to ATLAS and Ziron for helping me making this bs\n\nSmoothbore Cannon (Firepower upgrade)\n\nReplaces the standard 85mm gun with a fictional smoothbore, replaces the MG with a much more powerful high-penetration gatling cannon to shred light targets\n\n85mm Smoothbore Ammo\n\nBR999PM APHEFSDS-T\n\nPenetrates the target and explodes with nearly 2kg of TNT, intense spalling. Extreme Penetration\nUBP-988M SAPHEAT-FS\n\nExplodes with 4kg of TNT, and generating a HEAT jet capable of penetrating just about anything, including the M1IP turret cheeks.\n3BV85 MicroNuke\n\nits a nuke\n9M94ML Velikan\n\nGun launched direct fire ATGM, high velocity and pen, with 10.5kg TNT\nStalinium Armor\n\nMakes the armor really powerful, be mindful of gap in the mantlet with any APFSDS, and side armor when dealing with very powerful modded ammo.\nDemonstrations Seen Below\nSuper Engine\n\n80kmh forward and reverse speed, boosted horsepower to boot\nStabilizer\n\nStabilizes the gun\n\nSpeeds up turret traverse\n\nFCS Upgrade\n\nLRF\n\nHigh zoom optics\n\nSoviet Crew\n\nits a soviet crew",
+      "zh-CN": "通过配置对T-34进行了重大升级\n\n感谢ATLAS和Ziron帮助我制作了这个垃圾\n\n滑膛炮（火力升级）\n\n用虚构的滑膛炮替换了标准的85毫米火炮，并将机枪替换为威力更强、穿透力极高的高穿透加特林机炮，用于撕碎轻型目标\n\n85毫米滑膛炮弹药\n\nBR999PM APHEFSDS-T\n\n穿透目标后引爆，相当于近2公斤TNT的威力，产生剧烈剥片效应。极强穿透力\nUBP-988M SAPHEAT-FS\n\n引爆时相当于4公斤TNT的威力，并产生高爆反坦克热流，几乎能穿透任何物体，包括M1IP炮塔侧板。\n3BV85 微型核弹\n\n这是一款核弹\n9M94ML “维利坎”\n\n火炮发射的直射反坦克导弹，具有高初速和穿透力，装药量为10.5公斤TNT\n斯大林装甲\n\n使装甲极为坚固，使用穿甲弹时需注意炮盾的间隙，面对威力极强的改装弹药时需注意侧面装甲。\n\n超级引擎\n\n前进和倒车速度均为80公里/小时，马力也得到了提升\n稳定器\n\n稳定火炮\n\n加快炮塔转动速度\n\n火控系统升级\n\n激光测距仪\n\n高倍光学瞄准镜\n\n苏联车组\n\n"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/aeiou6-db/BVVDT34/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "BVVDT34.dll",
+    "ConfigSectionName": "T34Config",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "NATOERA",
     "Name": {
       "en-US": "NATO ERA",
@@ -1316,6 +1341,30 @@
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Exclude_Autocannon_AAR/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "Exclude_Autocannon_AAR.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "ImprovedAI",
+    "Name": {
+      "en-US": "Improved AI",
+      "zh-CN": "AI增强"
+    },
+    "Description": {
+      "en-US": "This mod tweaks the AI to engage enemies more sensibly in combat. It also provides a suite of commands you can issue to your platoon to better prepare for engagements.\n\nWhen AI units ingame see a target, most of them never turn to engage the enemy with their front armor, instead remaining on their original heading. This means flanking the enemy is often an easy win, since the AI never uses their front armor in such a situation.\nNow, AI units (outside of your platoon's units) will face their front armor towards enemies and also stop to engage. This also dramatically increases their hit rate; my own testing showed it raises the AI's hitrate at maximum settings by over 100%. The AI should feel more dynamic and alive as a result of this.\n\nA ping system has been added. It is usable either in default TC view, or when using the binoculars.\nTo ping something, align your aim point with any unit or spot on the terrain, and press your middle mouse button or the '5' key on your keyboard (not the numpad 5).\nPinging once will produce an orange marker; the vehicles in your platoon will watch the marker for 30 seconds or until a new ping is sent. Pinging a spot twice within a 10 meter distance and 2 seconds of the original ping will produce a red marker. The vehicles in your platoon will immediately halt and turn to face the red marker with their front armor. This is useful in engagements when your AI platoonmates have gotten stuck maneuvering and have their sides to the enemy, when they should be using their front armor.\nThe aim point is the center of the reticle in default commander view (when holding right click) or the center cross on the binoculars. The mod accounts for which binoculars you are using. Due to the wide variety of gunner reticles ingame, support for pinging while in gunner view is not planned, since a) the center of the aim point is not clear relative to onscreen markings, and b) this would conflict with features in Pact Increased Lethality, which also uses the middle mouse.\n\nA toggle for IR lights in your platoon has been added. You can access this toggle in the context menu or the tactical map by right clicking on your platoon marker. Very useful in night engagements when you don't want your platoon to give away your position by turning on IR lights.\nNote that selecting 'On' doesn't instantly force the AI to turn on IR lights, rather, it allows the AI to turn them on again, which they may choose to do so later rather than instantly.\n\nHold Fire Toggle\nSelf-explanatory. Stops the AI in your platoon from shooting any weapons. You can access this toggle in the context menu or the tactical map by right clicking on your platoon marker.",
+      "zh-CN": "本模组调整了AI，使其在战斗中更合理地接敌。它还提供了一整套命令，你可以向你的坦克排下达这些命令，以便更好地为交战做准备。\n\n当游戏中的AI单位看到目标时，大多数AI从不会转向以正面装甲迎敌，而是保持原来的航向。这意味着侧翼包抄敌人往往很容易获胜，因为AI在这种情况下从不使用正面装甲。\n\n1.现在，AI单位（你排里的单位除外）会将正面装甲朝向敌人，并停下来交战。这也大幅提高了它们的命中率；我自己的测试显示，在最高设置下，AI的命中率提高了100%以上。因此，AI应该会显得更动态、更有生气。\n\n2.已添加标记（ping）系统。它可在默认车长视角或使用望远镜时使用。\n\n要标记某个目标，将瞄准点对准任意单位或地形上的任意位置，然后按鼠标中键或键盘上的“5”键（不是小键盘5）。\n\n标记一次会产生橙色标记；你排里的车辆将观察该标记30秒，或直到发送新的标记。如果在距首次标记10米范围内、且首次标记后2秒内再次标记同一地点，则会产生红色标记。你排里的车辆将立即停下，并转动车体，以正面装甲朝向红色标记。这在交战中很有用：当你的AI排友在机动中卡住、侧面暴露给敌人，而本应用正面装甲迎敌时。\n\n瞄准点是默认车长视角（按住右键时）中瞄准分划的中心，或望远镜上的中心十字。本模组会考虑你正在使用的是哪种望远镜。由于游戏内炮手瞄准分划种类繁多，不计划支持在炮手视角中标记，因为：a）瞄准点中心相对于屏幕上的标记并不明确；b）这会与 Pact Increased Lethality 的功能冲突，该模组也使用鼠标中键。\n\n3.已为你排添加红外灯开关。你可以通过右键点击你的排标记，在上下文菜单或战术地图中访问此开关。在夜战中，当你不想让排里的车打开红外灯暴露位置时，这非常有用。\n\n注意：选择“开启”不会立刻强制AI打开红外灯，而是允许AI再次打开它们；AI可能选择稍后打开，而不是立即打开。\n\n4.停火系统，顾名思义。阻止你排里的AI使用任何武器开火。你可以通过右键点击你的排标记，在上下文菜单或战术地图中访问此开关。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/GHPC_Improved_AI_Mod/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "ImprovedAI.dll",
     "InstallMethod": "DirectRelease"
   },
   {

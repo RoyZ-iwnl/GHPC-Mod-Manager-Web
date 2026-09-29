@@ -6101,6 +6101,38 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "BVVDT34": {
+      "ModId": "BVVDT34",
+      "ConfigLabels": {
+        "Use Advanced Ammo for machine gun and cannon": {
+          "zh-CN": "为机枪和火炮使用高级弹药",
+          "en-US": "Use Advanced Ammo for machine gun and cannon"
+        },
+        "Use Advanced armor blessed by stalin himself": {
+          "zh-CN": "使用由斯大林亲自祝福的高级装甲",
+          "en-US": "Use Advanced armor blessed by stalin himself"
+        },
+        "Use Super Engine": {
+          "zh-CN": "使用超级引擎",
+          "en-US": "Use Super Engine"
+        },
+        "Fire Control System Upgrade": {
+          "zh-CN": "火控系统升级",
+          "en-US": "Fire Control System Upgrade"
+        },
+        "Stabilizer + Improved Turret rotation": {
+          "zh-CN": "稳定器 + 改进炮塔转速",
+          "en-US": "Stabilizer + Improved Turret rotation"
+        },
+        "Soviet Crew": {
+          "zh-CN": "苏联车组",
+          "en-US": "Soviet Crew"
+        }
+      },
+      "ConfigComments": {},
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
