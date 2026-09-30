@@ -5209,6 +5209,38 @@
         "BMP-2D Spawnrate (%)": {
           "zh-CN": "BMP-2D 生成率 (%)",
           "en-US": "BMP-2D Spawnrate (%)"
+        },
+        "Leopard 2K Patch": {
+          "zh-CN": "豹2K修改",
+          "en-US": "Leopard 2K Patch"
+        },
+        "Leopard 2K1 Enabled": {
+          "zh-CN": "启用豹2K1",
+          "en-US": "Leopard 2K1 Enabled"
+        },
+        "Leopard 2K2 Enabled": {
+          "zh-CN": "启用豹2K2",
+          "en-US": "Leopard 2K2 Enabled"
+        },
+        "Leopard 2K3 Enabled": {
+          "zh-CN": "启用豹2K3",
+          "en-US": "Leopard 2K3 Enabled"
+        },
+        "Leopard 2K Spawnrate (Replaces Leopard 1A4) (%)": {
+          "zh-CN": "豹2K生成率（替换豹1A4）(%)",
+          "en-US": "Leopard 2K Spawnrate (Replaces Leopard 1A4) (%)"
+        },
+        "Conversion chance for Leopard 2K1 (%)": {
+          "zh-CN": "转换为豹2K1的几率 (%)",
+          "en-US": "Conversion chance for Leopard 2K1 (%)"
+        },
+        "Conversion chance for Leopard 2K2 (%)": {
+          "zh-CN": "转换为豹2K2的几率 (%)",
+          "en-US": "Conversion chance for Leopard 2K2 (%)"
+        },
+        "Conversion chance for Leopard 2K3 (%)": {
+          "zh-CN": "转换为豹2K3的几率 (%)",
+          "en-US": "Conversion chance for Leopard 2K3 (%)"
         }
       },
       "ConfigComments": {
@@ -5255,6 +5287,38 @@
         "Enables the BMP-2D, which gives the BMP-2 applique side hull and turret armour.": {
           "zh-CN": "启用BMP-2D，为BMP-2加装车体侧面和炮塔附加装甲。",
           "en-US": "Enables the BMP-2D, which gives the BMP-2 applique side hull and turret armour."
+        },
+        "Enables the Leopard 2K (THIS WILL FORCIBLY DISABLE CANADIAN LEOPARD'S 1A4 & UNDERDOGS ENHANCEDS' 1A4 CONVERTS FOR ALL VARIANTS!)": {
+          "zh-CN": "启用豹2K（这将强制禁用加拿大豹MOD的1A4和弱势载具增强模MOD对所有型号的1A4转换！）",
+          "en-US": "Enables the Leopard 2K (THIS WILL FORCIBLY DISABLE CANADIAN LEOPARD'S 1A4 & UNDERDOGS ENHANCEDS' 1A4 CONVERTS FOR ALL VARIANTS!)"
+        },
+        "Enables/Disables Leopard 2K1's from spawning": {
+          "zh-CN": "启用/禁用豹2K1的生成",
+          "en-US": "Enables/Disables Leopard 2K1's from spawning"
+        },
+        "Enables/Disables Leopard 2K2's from spawning": {
+          "zh-CN": "启用/禁用豹2K2的生成",
+          "en-US": "Enables/Disables Leopard 2K2's from spawning"
+        },
+        "Enables/Disables Leopard 2K3's from spawning": {
+          "zh-CN": "启用/禁用豹2K3的生成",
+          "en-US": "Enables/Disables Leopard 2K3's from spawning"
+        },
+        "Random chance for a Leopard 1A4 to be converted into a Leopard 2K": {
+          "zh-CN": "豹1A4转换为豹2K的随机几率",
+          "en-US": "Random chance for a Leopard 1A4 to be converted into a Leopard 2K"
+        },
+        "Random chance for a Leopard 2K to be converted into a Leopard 2K1 (1984) - Comes with an improved FCS (Thermals) and better 120mm ammunition.": {
+          "zh-CN": "豹2K转换为豹2K1（1984）的随机几率 - 配备改进的火控系统（热成像）和更好的120毫米弹药。",
+          "en-US": "Random chance for a Leopard 2K to be converted into a Leopard 2K1 (1984) - Comes with an improved FCS (Thermals) and better 120mm ammunition."
+        },
+        "Random chance for a Leopard 2K1 to be converted into a Leopard 2K2 (1986) - Further FCS improvements, better AP and HEAT for the 120mm, new armour package.": {
+          "zh-CN": "豹2K1转换为豹2K2（1986）的随机几率 - 进一步改进火控系统，120毫米炮配备更好的穿甲弹和破甲弹，新增装甲套件。",
+          "en-US": "Random chance for a Leopard 2K1 to be converted into a Leopard 2K2 (1986) - Further FCS improvements, better AP and HEAT for the 120mm, new armour package."
+        },
+        "Random chance for a Leopard 2K2 to be converted into a Leopard 2K3 (1989) - Massive armour overhaul, EMES-12K FCS + PERI-R12K3 CITV - comes with rotate azimuth, experimental DM43K APFSDS round and DM63 APDS for the roof 20mm.": {
+          "zh-CN": "豹2K2转换为豹2K3（1989）的随机几率 - 大幅装甲改进，配备EMES-12K火控系统 + PERI-R12K3车长独立热像仪 - 带有方位旋转功能，实验型DM43K尾翼稳定脱壳穿甲弹和车顶20毫米机炮用DM63脱壳穿甲弹。",
+          "en-US": "Random chance for a Leopard 2K2 to be converted into a Leopard 2K3 (1989) - Massive armour overhaul, EMES-12K FCS + PERI-R12K3 CITV - comes with rotate azimuth, experimental DM43K APFSDS round and DM63 APDS for the roof 20mm."
         }
       },
       "multiplechoice": {
