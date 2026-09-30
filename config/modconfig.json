@@ -623,7 +623,7 @@
     "SupportedGameVersions": [
       "20260814"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/vical1145-source/GHPC-Weapon-Sound-Effect-Mod/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/Vical-GD/GHPC-Weapon-Sound-Replacement-Mod/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "InstallMethod": "Replace",
     "ReplaceTargetPath": "GHPC_Data\\StreamingAssets",
