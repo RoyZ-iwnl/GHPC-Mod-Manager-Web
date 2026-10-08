@@ -468,6 +468,34 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "M163",
+    "Name": {
+      "en-US": "M163 PIVADS",
+      "zh-CN": "M163 PIVADS"
+    },
+    "Description": {
+      "en-US": "Replaces the playable US M113 with the M163 PIVADS self-propelled anti-aircraft vehicle.\n\nFeatures\nComplete M163 vehicle model with olive-drab HD materials\nM168 20 mm six-barrel Vulcan cannon\nIndependent turret traverse, gun elevation and barrel rotation\nReplacement wheels bound to the original M113 suspension\nOriginal animated tracks, vehicle physics and collision retained\nFixed-size day and thermal gunner reticles with live range readout\nCustom weapon audio and ammunition configuration",
+      "zh-CN": "将可操作的美国 M113 车辆替换为 M163 PIVADS 自行式防空车。\n\n\n完整的 M163 车辆模型，采用橄榄绿调色的优质材料制作而成。\n\nM168 20 毫米六管火炮\n\n独立的炮塔旋转功能、炮管升降以及炮管旋转功能\n\n这些替换车轮将被安装在原 M113 车辆的悬挂系统上。\n\n原有的动画音轨、车辆物理效果以及碰撞机制都得到了保留。\n\n具有实时距离显示功能的固定尺寸日视和热成像瞄准镜\n\n自定义武器音效和弹药配置"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/AIM928/M163-PIVADS/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "M113PIVADS.dll",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "M113TOW"
+    ],
+    "RequiredManagerVersion": "M163 PIVADS"
+  },
+  {
     "Id": "M113TOW",
     "Name": {
       "en-US": "M113 TOW",
