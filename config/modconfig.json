@@ -54,6 +54,9 @@
     "MainBinaryFileName": "PactIncreasedLethality.dll",
     "ConfigSectionName": "PactIncreasedLethality",
     "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "VanillaAssetUtil"
+    ],
     "Conflicts": [
       "PactILROY",
       "VoiceC",
@@ -84,6 +87,9 @@
     "MainBinaryFileName": "M1A1Abrams.dll",
     "ConfigSectionName": "M1A1Config",
     "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "VanillaAssetUtil"
+    ],
     "Conflicts": [
       "M1A1AMP",
       "NATOERA"
@@ -260,6 +266,9 @@
     "MainBinaryFileName": "M2BradleyExtended.dll",
     "ConfigSectionName": "M2Extended",
     "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "VanillaAssetUtil"
+    ],
     "Conflicts": [
       "M6A2ROY",
       "M6A2",
@@ -515,12 +524,12 @@
       "20260814"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
-    "TargetFileNameKeyword": ".dll",
+    "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "M113Tow.dll",
     "ConfigSectionName": "M113TOW",
     "InstallMethod": "DirectRelease",
     "Requirements": [
-      "Vprel"
+      "VanillaAssetUtil"
     ]
   },
   {
@@ -1593,6 +1602,31 @@
     "MainBinaryFileName": "RandomNightBattles.dll",
     "ConfigSectionName": "RandomNightBattles",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "VanillaAssetUtil",
+    "Name": {
+      "en-US": "Vanilla Asset Util",
+      "zh-CN": "原生载具资源加载器"
+    },
+    "Description": {
+      "en-US": "Loads a vanilla vehicle's prefab, returning its Vehicle component",
+      "zh-CN": "加载了标准车辆的预制部件，并返回了与该车辆相关的组件。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "ReleaseUrl": "https://api.github.com/repos/thebeninator/VanillaAssetUtil/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "VanillaAssetUtil.dll",
+    "ConfigSectionName": "VanillaAssetUtil",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "Vprel"
+    ]
   },
   {
     "Id": "Vprel",
