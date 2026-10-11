@@ -505,6 +505,34 @@
     "RequiredManagerVersion": "M163 PIVADS"
   },
   {
+    "Id": "HMMWVLOSAT",
+    "Name": {
+      "en-US": "HMMWV LOSAT",
+      "zh-CN": "悍马HMMWV LOSAT（超高速直瞄反坦克导弹）"
+    },
+    "Description": {
+      "en-US": "HMMWV LOSAT / MGM-166 vehicle mod for Gunner, HEAT, PC! Replaces the native M151M232 / TOW vehicle.",
+      "zh-CN": "替换M151M232 / TOW至HMMWV LOSAT"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/AIM928/M151-LOSAT/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "M151LOSATTest.dll",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "M113TOW",
+      "M163"
+    ]
+  },
+  {
     "Id": "M113TOW",
     "Name": {
       "en-US": "M113 TOW",
@@ -1619,6 +1647,9 @@
         "en-US": "Utility"
       }
     },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/VanillaAssetUtil/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "VanillaAssetUtil.dll",
