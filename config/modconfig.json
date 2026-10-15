@@ -47,7 +47,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260814"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/Pact-Increased-Lethality/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -80,7 +80,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260814"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M1A1Abrams/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -259,7 +259,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260814"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M2BradleyExtended/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -549,10 +549,10 @@
       }
     },
     "SupportedGameVersions": [
-      "20260814"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/M113-TOW/releases/latest",
-    "TargetFileNameKeyword": ".zip",
+    "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "M113Tow.dll",
     "ConfigSectionName": "M113TOW",
     "InstallMethod": "DirectRelease",
@@ -563,12 +563,12 @@
   {
     "Id": "BVVDT34",
     "Name": {
-      "en-US": "BVVD T-34",
-      "zh-CN": "BVVD T-34"
+      "en-US": "BVVD Pack",
+      "zh-CN": "BVVD 载具拓展版"
     },
     "Description": {
       "en-US": "Adds major upgrades to the T-34 with config\n\nThanks to ATLAS and Ziron for helping me making this bs\n\nSmoothbore Cannon (Firepower upgrade)\n\nReplaces the standard 85mm gun with a fictional smoothbore, replaces the MG with a much more powerful high-penetration gatling cannon to shred light targets\n\n85mm Smoothbore Ammo\n\nBR999PM APHEFSDS-T\n\nPenetrates the target and explodes with nearly 2kg of TNT, intense spalling. Extreme Penetration\nUBP-988M SAPHEAT-FS\n\nExplodes with 4kg of TNT, and generating a HEAT jet capable of penetrating just about anything, including the M1IP turret cheeks.\n3BV85 MicroNuke\n\nits a nuke\n9M94ML Velikan\n\nGun launched direct fire ATGM, high velocity and pen, with 10.5kg TNT\nStalinium Armor\n\nMakes the armor really powerful, be mindful of gap in the mantlet with any APFSDS, and side armor when dealing with very powerful modded ammo.\nDemonstrations Seen Below\nSuper Engine\n\n80kmh forward and reverse speed, boosted horsepower to boot\nStabilizer\n\nStabilizes the gun\n\nSpeeds up turret traverse\n\nFCS Upgrade\n\nLRF\n\nHigh zoom optics\n\nSoviet Crew\n\nits a soviet crew",
-      "zh-CN": "通过配置对T-34进行了重大升级\n\n感谢ATLAS和Ziron帮助我制作了这个垃圾\n\n滑膛炮（火力升级）\n\n用虚构的滑膛炮替换了标准的85毫米火炮，并将机枪替换为威力更强、穿透力极高的高穿透加特林机炮，用于撕碎轻型目标\n\n85毫米滑膛炮弹药\n\nBR999PM APHEFSDS-T\n\n穿透目标后引爆，相当于近2公斤TNT的威力，产生剧烈剥片效应。极强穿透力\nUBP-988M SAPHEAT-FS\n\n引爆时相当于4公斤TNT的威力，并产生高爆反坦克热流，几乎能穿透任何物体，包括M1IP炮塔侧板。\n3BV85 微型核弹\n\n这是一款核弹\n9M94ML “维利坎”\n\n火炮发射的直射反坦克导弹，具有高初速和穿透力，装药量为10.5公斤TNT\n斯大林装甲\n\n使装甲极为坚固，使用穿甲弹时需注意炮盾的间隙，面对威力极强的改装弹药时需注意侧面装甲。\n\n超级引擎\n\n前进和倒车速度均为80公里/小时，马力也得到了提升\n稳定器\n\n稳定火炮\n\n加快炮塔转动速度\n\n火控系统升级\n\n激光测距仪\n\n高倍光学瞄准镜\n\n苏联车组\n\n"
+      "zh-CN": "通过配置对T-34和PT76进行了重大升级\n\n感谢ATLAS和Ziron帮助我制作了这个垃圾\n\n滑膛炮（火力升级）\n\n用虚构的滑膛炮替换了标准的85毫米火炮，并将机枪替换为威力更强、穿透力极高的高穿透加特林机炮，用于撕碎轻型目标\n\n85毫米滑膛炮弹药\n\nBR999PM APHEFSDS-T\n\n穿透目标后引爆，相当于近2公斤TNT的威力，产生剧烈剥片效应。极强穿透力\nUBP-988M SAPHEAT-FS\n\n引爆时相当于4公斤TNT的威力，并产生高爆反坦克热流，几乎能穿透任何物体，包括M1IP炮塔侧板。\n3BV85 微型核弹\n\n这是一款核弹\n9M94ML “维利坎”\n\n火炮发射的直射反坦克导弹，具有高初速和穿透力，装药量为10.5公斤TNT\n斯大林装甲\n\n使装甲极为坚固，使用穿甲弹时需注意炮盾的间隙，面对威力极强的改装弹药时需注意侧面装甲。\n\n超级引擎\n\n前进和倒车速度均为80公里/小时，马力也得到了提升\n稳定器\n\n稳定火炮\n\n加快炮塔转动速度\n\n火控系统升级\n\n激光测距仪\n\n高倍光学瞄准镜\n\n苏联车组\n\n"
     },
     "Tags": {
       "modify": {
