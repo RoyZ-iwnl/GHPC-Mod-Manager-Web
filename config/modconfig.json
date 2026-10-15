@@ -1648,7 +1648,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260814"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/VanillaAssetUtil/releases/latest",
     "TargetFileNameKeyword": ".dll",
