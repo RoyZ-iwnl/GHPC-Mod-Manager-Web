@@ -92,7 +92,41 @@
     ],
     "Conflicts": [
       "M1A1AMP",
-      "NATOERA"
+      "NATOERA",
+      "M1A1CROWFIX"
+    ]
+  },
+  {
+    "Id": "M1A1CROWFIX",
+    "Name": {
+      "en-US": "M1A1 Abrams CORW FIX",
+      "zh-CN": "M1A1艾布拉姆斯 遥控武器站修复版"
+    },
+    "Description": {
+      "en-US": "The M1A1 Abrams mod introduces the iconic US main battle tank M1A1, that converts all in‑game M1IPs into M1A1s fitted with the 120mm M256 and a default ammo load of M829 APFSDS‑T (22 rounds) plus M830 HEAT‑MP‑T (18 rounds with a shoulder fuze); it also adds config‑driven options such as alternate APFSDS rounds (M827, M829A1, M829A2), an alternate HEAT round (M830A1 with a proximity fuse toggleable via middle mouse), per‑vehicle customization of how many M829/M830 rounds are carried, and several advanced features disabled by default (non‑IP M1 → M1E1 conversion, randomized M1A1/E1 conversions, horizontal sight stabilization when applying lead, commander CITV, depleted‑uranium cheek armor for M1A1s, M153 CROWS, and different gunner thermal settings), plus preset conversion “profiles” mapping feature toggles to variants like M1A1HA/HC, M1A2, and M1A2 SEP (e.g., DU armor generation, azimuth rotation, CITV, higher‑gen FLIR or CROWS)..",
+      "zh-CN": "M1A1模组为游戏加入了标志性的美军主战坦克 M1A1，把游戏内所有 M1IP 统一转换为配备 120mm M256 主炮的 M1A1，并默认装填 M829 APFSDS‑T（22 发）与 M830 HEAT‑MP‑T（18 发、带触发引信）；同时在模组配置里提供可选功能与细节定制，包括可切换的备用穿甲弹（M827、M829A1、M829A2）、备用破甲弹（M830A1，带可用鼠标中键开关的近炸/距离引信）、自定义每辆车携行的 M829/M830 数量，以及一系列默认关闭的“高级改装”选项：将非 IP 的 M1 转换为 M1E1、随机化 M1A1/E1 转换、在提前量修正时启用水平视线稳定、加入车长 CITV、为 M1A1 添加贫铀“脸颊”装甲、加装 M153 CROWS、以及不同的炮手热像设置；此外它还用不同开关组合来对应多种衍生型转换（如 M1A1HA/HC 的贫铀装甲代次、M1A2 的炮塔方位旋转与 CITV、M1A2 SEP 的更高代次 FLIR 或 CROWS 等）。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/WpsxX/M1A1Abrams-CROWSFIX/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "M1A1Abrams-CROWSFIX.dll",
+    "ConfigSectionName": "M1A1-CROWSFIX",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "VanillaAssetUtil"
+    ],
+    "Conflicts": [
+      "M1A1AMP",
+      "NATOERA",
+      "M1A1"
     ]
   },
   {
@@ -123,7 +157,8 @@
       "Vprel"
     ],
     "Conflicts": [
-      "M1A1"
+      "M1A1",
+      "M1A1CROWFIX"
     ],
     "Delisted": true
   },
@@ -153,7 +188,8 @@
     "InstallMethod": "DirectRelease",
     "Conflicts": [
       "BMP1ST",
-      "CLeopards"
+      "CLeopards",
+      "Ammouppack"
     ]
   },
   {
@@ -500,7 +536,8 @@
     "MainBinaryFileName": "M113PIVADS.dll",
     "InstallMethod": "DirectRelease",
     "Conflicts": [
-      "M113TOW"
+      "M113TOW",
+      "HMMWVLOSAT"
     ],
     "RequiredManagerVersion": "M163 PIVADS"
   },
@@ -558,6 +595,10 @@
     "InstallMethod": "DirectRelease",
     "Requirements": [
       "VanillaAssetUtil"
+    ],
+    "Conflicts": [
+      "M163",
+      "HMMWVLOSAT"
     ]
   },
   {
@@ -613,7 +654,8 @@
       "50mm",
       "M3A2",
       "M1A1",
-      "50mmROY"
+      "50mmROY",
+      "M1A1CROWFIX"
     ],
     "Delisted": true
   },
@@ -932,6 +974,33 @@
     "MainBinaryFileName": "LoadoutManager.dll",
     "ConfigSectionName": "LoadoutManager",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "Ammouppack",
+    "Name": {
+      "en-US": "Ammo Upgrade Pack",
+      "zh-CN": "弹药升级拓展包"
+    },
+    "Description": {
+      "en-US": "LEOPARD 2s:DM33, DM53\nM1/M1IP:M900,M60s:M900\nLEOPARD 1:105mm DM33\nT-62:3BM36",
+      "zh-CN": "LEOPARD 2s:DM33, DM53\nM1/M1IP:M900,M60s:M900\nLEOPARD 1:105mm DM33\nT-62:3BM36"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/aeiou6-db/AmmoUpgradePack/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "AmmoUpgradePack.dll",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "underdog"
+    ]
   },
   {
     "Id": "SovietHE",
@@ -1273,7 +1342,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260814"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/WpsxX/GHPC-CustomFireSupport/releases/latest",
     "TargetFileNameKeyword": ".zip",
@@ -1307,7 +1376,10 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "GHPC_Artillery_Rework.dll",
     "ConfigSectionName": "\"GHPC Artillery Rework\"",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "CFSupport"
+    ]
   },
   {
     "Id": "PanicC",
@@ -1502,7 +1574,10 @@
     "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/Invincible-Tank/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "Invincible_Tank.dll",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "Cheatmod"
+    ]
   },
   {
     "Id": "Cheatmod",
@@ -1521,7 +1596,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260814"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/WpsxX/GHPC-CheatMode/releases/latest",
     "TargetFileNameKeyword": ".dll",
@@ -1555,7 +1630,10 @@
     "ReleaseUrl": "https://api.github.com/repos/k4yt3x/GHPCESP/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "GHPCESP.dll",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "Cheatmod"
+    ]
   },
   {
     "Id": "NoSmoking",
@@ -1681,7 +1759,10 @@
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/VehiclePreloader/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "VehiclePreloader.dll",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "VanillaAssetUtil"
+    ]
   },
   {
     "Id": "minhud",
