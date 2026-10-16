@@ -998,6 +998,7 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "AmmoUpgradePack.dll",
     "InstallMethod": "DirectRelease",
+    "ConfigSectionName": "AmmoUpgradePack",
     "Conflicts": [
       "underdog"
     ]
