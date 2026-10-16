@@ -1938,9 +1938,9 @@
           "zh-CN": "自定义M1A1/M1E1使用的弹药类型",
           "en-US": "Customize which rounds M1A1s/M1E1s use"
         },
-        "M827, M829, M829A1, M829A2, M829A3": {
-          "zh-CN": "M827、M829、M829A1、M829A2、M829A3",
-          "en-US": "M827, M829, M829A1, M829A2, M829A3"
+        "M827, M829, M829A1, M829A2, M829A3, M829A4": {
+          "zh-CN": "M827, M829, M829A1, M829A2, M829A3, M829A4",
+          "en-US": "M827, M829, M829A1, M829A2, M829A3, M829A4"
         },
         "M830, M830A1 (has proximity fuse that can be toggled by double tapping the ammo 2 key)": {
           "zh-CN": "M830、M830A1（具有可通过双击弹药2键切换的近炸引信）",
@@ -1998,7 +1998,8 @@
           "M829",
           "M829A1",
           "M829A2",
-          "M829A3"
+          "M829A3",
+          "M829A4"
         ],
         "HEAT Round (M1E1),HEAT Round (M1A1)": [
           "M830",
