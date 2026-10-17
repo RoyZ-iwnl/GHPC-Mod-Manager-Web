@@ -997,8 +997,8 @@
     "ReleaseUrl": "https://api.github.com/repos/aeiou6-db/AmmoUpgradePack/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "AmmoUpgradePack.dll",
-    "InstallMethod": "DirectRelease",
     "ConfigSectionName": "AmmoUpgradePack",
+    "InstallMethod": "DirectRelease",
     "Conflicts": [
       "underdog"
     ]
@@ -1530,6 +1530,34 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "RepairKit",
+    "Name": {
+      "en-US": "Repair Kit",
+      "zh-CN": "维修工具"
+    },
+    "Description": {
+      "en-US": "RepairKit — Vehicle Repair Mod for GHPC\nPress a key to put your vehicle into a repair state. After a set duration, damaged components are restored to a configurable health (70% by default) while all functionality is fully restored — engine, transmission, turret, fire control, weapons, optics and ammo feed.\n\nAppearance damage, crew casualties and ammo count are not repaired.\nConfiguration\n\nRepairKey\tJ\tKey used to start/cancel repair. Any Unity KeyCode name, e.g. J, K, F5, Keypad0.\nRepairDuration\t30\tRepair duration in seconds. Minimum 1.\nRepairHealthPercent\t70\tComponent health after repair, 1–100. Components already above this value are not lowered.\nShowHud\ttrue\tShow the repair progress bar and result messages.\nSettings are read each time the key is pressed, so edits to the config file take effect without restarting the game (the remaining timer of an in-progress repair is not changed).\n\nBehavior\nStart: bring the vehicle to a stop, then press RepairKey while inside it. A progress bar appears at the bottom of the screen; repair completes automatically when the timer ends.\nComplete: every damaged component is raised to RepairHealthPercent, then all \"damaged\" state flags are cleared and the affected systems are re-enabled.\nCancel: pressing the same key again during repair aborts it immediately with no repair effect; the vehicle's previous state (parking brake, broken tracks, etc.) is restored exactly.\nDamage during repair: if any non-crew component of the vehicle loses health during the repair, the repair is aborted immediately with no effect.\nNo repair limit, no cooldown: repair as often as you like.\nCannot repair when:\nthe vehicle is considered destroyed,\nthe vehicle has been abandoned,\nthe entire crew is incapacitated,\nthe vehicle is still moving (horizontal speed above ~0.5 m/s / 1.8 km/h),\nyou are not in a vehicle.\nWhile repairing:\n\nthe vehicle cannot move (driving input is blocked, the parking brake is applied, cruise control is disabled);\nthe vehicle cannot fire (main gun, missiles and the generic weapon system are all blocked);\nthe turret can still be traversed normally.",
+      "zh-CN": "按一次按键，载具进入维修状态；持续若干秒后，受损部件血量补到设定值（默认 70%）， 同时发动机、传动、炮塔、火控、武器、瞄具、供弹等全部功能恢复正常。\n\n维修不涉及外观凹陷、乘员伤亡和弹药数量。\n配置\n\nRepairKey\tJ\t维修按键。填 Unity KeyCode 名称，如 J、K、F5、Keypad0。\nRepairDuration\t30\t维修时长（秒）。最小 1 秒。\nRepairHealthPercent\t70\t维修后部件血量百分比，范围 1–100。\nShowHud\ttrue\t是否在屏幕下方显示维修进度条与结果提示。\n\n配置项在每次使用时按键名现读，改完配置无需重启（MelonPreferences.cfg 存盘后 下一次按键即生效，维修中的剩余时间不会变）。\n使用与行为\n开始：先把车停稳，再坐在载具里按一次 RepairKey。屏幕下方出现读条，倒计时结束自动完成。\n完成：所有受损部件血量补到 RepairHealthPercent；比该值更高的部件不会被降低。 随后清掉各系统的“已损坏”状态标记并重新启用相应功能。\n中途取消：维修中再按一次同一个键，立即退出维修，不获得任何维修效果， 车辆原有状态（含手刹、断履带等）原样恢复。\n受到伤害：维修期间本车任一非乘员部件血量下降，立刻中断维修，无维修效果。\n无次数限制、无冷却：随时可以再修。\n无法维修的情况：\n载具已被判定摧毁；\n已弃车；\n车组全部失能；\n车辆仍在行驶（水平速度高于约 0.5 m/s，即 1.8 km/h）；\n不在任何载具内。\n维修期间：\n\n无法移动（驾驶输入被拦截，手刹强制拉紧，定速巡航关闭）；\n无法开火（主炮、导弹、通用武器系统的开火入口全部拦截）；\n炮塔仍可正常转动瞄准，方便观察周围。\n"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/DDDDWWWWDZW/GHPC-RepairKit/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "RepairKit.dll",
+    "ConfigSectionName": "RepairKit",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "underdog"
+    ]
+  },
+  {
     "Id": "InfAmmo",
     "Name": {
       "en-US": "Infinite Ammo",
@@ -1781,9 +1809,6 @@
         "en-US": "Utility"
       }
     },
-    "SupportedGameVersions": [
-      "20260814"
-    ],
     "ReleaseUrl": "https://api.github.com/repos/thebeninator/MinHud/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "MinHud.dll",
@@ -1863,6 +1888,31 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "CinematicTools.dll",
     "ConfigSectionName": "CinematicTools",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "HitRec",
+    "Name": {
+      "en-US": "Hit Recorder",
+      "zh-CN": "命中纪录"
+    },
+    "Description": {
+      "en-US": "Records accepted impacts from ammunition fired by the player-controlled vehicle. Each original shot produces one console message containing a staged contact table and one local CSV record. Shots with no accepted contact do not produce a record.\n\nMay cause stuttering or reduced game performance. Full gameplay compatibility has not been verified.\n\nFeatures\nFirst-contact range, impact angle and speed.\nObserved native armor decisions: perforated, not perforated, ricochet or unconfirmed.\nNative capability before comparison, contact resistance and remaining capability when available.\nChinese console output by default; English and automatic language selection are supported.\nOriginal component names and readings retained in CSV.\nReadings are observations of the game's native decisions, not a guaranteed maximum penetration measurement or an independent physical armor model. Missing observations remain unknown. Terrain contacts are not armor perforations.",
+      "zh-CN": "这些记录记录了由玩家操控的车辆发射的弹药所产生的影响。每次有效射击都会产生一条控制台消息，其中包含一次接触情况的详细信息，同时还会生成一个本地CSV记录。如果没有发生有效接触，则不会生成任何记录。\n\n这可能会导致游戏运行中出现卡顿或性能下降的情况。目前尚未验证该功能的完整游戏兼容性。\n\n功能包括：\n- 首次接触范围、撞击角度和速度的信息。\n- 游戏内置的护甲模型设置：有穿孔的护甲、无穿孔的护甲、跳弹效果或未确认的情况。\n- 在比较之前，系统会先记录当前的接触情况；如果接触失败，则会记录抵抗情况以及剩余的能力值。\n- 默认输出为中文版本；支持英语和自动语言选择功能。\n- CSV文件中保留了原始组件名称和数值。\n- 这些数值只是游戏内置的决策结果，并非保证的最大穿透量或独立的物理护甲模型。如果某些观察数据缺失，则仍保持未知状态。地形接触点并非护甲的穿孔处。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/AIM928/Ammo-Hit-Recorder/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "AIMAmmoHitRecorder.dll",
+    "ConfigSectionName": "AIMAmmoHitRecorder",
     "InstallMethod": "DirectRelease"
   },
   {

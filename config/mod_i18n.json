@@ -6466,6 +6466,98 @@
           "DM53"
         ]
       }
+    },
+    "HitRec": {
+      "ModId": "HitRec",
+      "ConfigLabels": {
+        "Language": {
+          "zh-CN": "语言",
+          "en-US": "Language"
+        }
+      },
+      "ConfigComments": {
+        "auto = system UI language; zh = Chinese; en = English. Restart the game after editing this setting.": {
+          "zh-CN": "auto = 系统UI语言；zh = 中文；en = 英文。编辑此设置后需重启游戏。",
+          "en-US": "auto = system UI language; zh = Chinese; en = English. Restart the game after editing this setting."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "Language": [
+          "auto",
+          "zh",
+          "en"
+        ]
+      }
+    },
+    "RepairKit": {
+      "ModId": "RepairKit",
+      "ConfigLabels": {
+        "RepairKey": {
+          "zh-CN": "维修按键",
+          "en-US": "RepairKey"
+        },
+        "RepairDuration": {
+          "zh-CN": "维修持续时间",
+          "en-US": "RepairDuration"
+        },
+        "RepairHealthPercent": {
+          "zh-CN": "维修生命值百分比",
+          "en-US": "RepairHealthPercent"
+        },
+        "ShowHud": {
+          "zh-CN": "显示HUD",
+          "en-US": "ShowHud"
+        },
+        "DebugDamage": {
+          "zh-CN": "调试伤害",
+          "en-US": "DebugDamage"
+        }
+      },
+      "ConfigComments": {
+        "Press once to start repairing; press again while repairing to cancel (no repair is applied). Use a Unity KeyCode name, e.g. J, K, F5, Keypad0.": {
+          "zh-CN": "按一次开始维修；维修过程中再次按下取消（不应用维修）。使用Unity键码名称，例如J、K、F5、Keypad0。",
+          "en-US": "Press once to start repairing; press again while repairing to cancel (no repair is applied). Use a Unity KeyCode name, e.g. J, K, F5, Keypad0."
+        },
+        "Default: J": {
+          "zh-CN": "默认：J",
+          "en-US": "Default: J"
+        },
+        "How long the repair state must be maintained before it completes. Taking damage during the repair aborts it immediately.": {
+          "zh-CN": "维修完成前必须保持的时长。维修期间受到伤害会立即中止。",
+          "en-US": "How long the repair state must be maintained before it completes. Taking damage during the repair aborts it immediately."
+        },
+        "Default: 30": {
+          "zh-CN": "默认：30",
+          "en-US": "Default: 30"
+        },
+        "Repair only restores damaged components up to this percentage, but all functionality (engine, transmission, turret, aiming, weapons, ammo feed, etc.) is restored. Components already above this value are left unchanged.": {
+          "zh-CN": "维修仅将受损部件恢复到此百分比，但所有功能（引擎、变速箱、炮塔、瞄准、武器、弹药供给等）都会恢复。已高于此值的部件保持不变。",
+          "en-US": "Repair only restores damaged components up to this percentage, but all functionality (engine, transmission, turret, aiming, weapons, ammo feed, etc.) is restored. Components already above this value are left unchanged."
+        },
+        "Default: 70, range 1-100": {
+          "zh-CN": "默认：70，范围1-100",
+          "en-US": "Default: 70, range 1-100"
+        },
+        "Show the repair progress bar and result messages at the bottom of the screen.": {
+          "zh-CN": "在屏幕底部显示维修进度条和结果消息。",
+          "en-US": "Show the repair progress bar and result messages at the bottom of the screen."
+        },
+        "true / false": {
+          "zh-CN": "true / false",
+          "en-US": "true / false"
+        },
+        "Temporary troubleshooting option: logs every projectile hit, the hit zone it matched and the resulting health change to the MelonLoader console.": {
+          "zh-CN": "临时故障排查选项：将每次弹丸命中、匹配的命中区域和生命值变化记录到MelonLoader控制台。",
+          "en-US": "Temporary troubleshooting option: logs every projectile hit, the hit zone it matched and the resulting health change to the MelonLoader console."
+        },
+        "Disable once the damage issue is resolved": {
+          "zh-CN": "伤害问题解决后请禁用",
+          "en-US": "Disable once the damage issue is resolved"
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
