@@ -504,13 +504,16 @@
       }
     },
     "SupportedGameVersions": [
-      "20260814"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/seagullwilleatyoursandwich-netizen/Fulda-1989-Expansion-Pack/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "FuldaExpansion1989.dll",
     "ConfigSectionName": "\"Fulda 1989 | Expansion Pack\"",
-    "InstallMethod": "DirectRelease"
+    "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "VanillaAssetUtil"
+    ]
   },
   {
     "Id": "M163",
