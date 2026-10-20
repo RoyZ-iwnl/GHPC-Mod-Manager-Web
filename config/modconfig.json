@@ -520,6 +520,10 @@
     "InstallMethod": "DirectRelease",
     "Requirements": [
       "VanillaAssetUtil"
+    ],
+    "Conflicts": [
+      "M1A1AMP",
+      "ATAC"
     ]
   },
   {
@@ -539,7 +543,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260814"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/AIM928/M163-PIVADS/releases/latest",
     "TargetFileNameKeyword": ".dll",
