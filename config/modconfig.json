@@ -6,8 +6,8 @@
       "zh-CN": "GHPC 战斗系统改造"
     },
     "Description": {
-      "en-US": "X-ray kill cam, damage that stays on the vehicles, APFSDS rods that bend and break, explosions at their real size, a War Thunder style HUD, an Armor Sim, a proving ground and an After Action Report for Gunner, HEAT, PC!",
-      "zh-CN": "X 射线追踪系统，车辆上的损伤痕迹，会弯曲并断裂的 APFSDS 弹药，真实的爆炸效果，类似 War Thunder 界面的 HUD 界面，装甲模拟系统，实战演练场，以及针对枪手、火焰兵的作战行动报告！"
+      "en-US": "X-ray kill cam that replays each of your hits from the game's own simulation, damage that stays on the vehicles (holes, torn barrels, broken tracks), APFSDS that erodes, bends and breaks, real-size explosions, an optional War Thunder style HUD, a proving ground with a shot lab, an Armor Sim and an After Action Report. Settings in game on F12.",
+      "zh-CN": "X光击杀镜头，按游戏本身的模拟回放你的每一次命中；留在车辆上的真实损伤（弹孔、撕裂的炮管、断裂的履带）；会侵蚀、弯曲和断裂的尾翼稳定脱壳穿甲弹；按真实装药大小的爆炸；可选的战争雷霆风格HUD；带射击实验室的试验场、装甲模拟和战后报告。游戏中按F12打开设置。"
     },
     "Tags": {
       "enhancement": {
