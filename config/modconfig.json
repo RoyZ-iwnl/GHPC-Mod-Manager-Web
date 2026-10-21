@@ -21,6 +21,7 @@
     "ReleaseUrl": "https://api.github.com/repos/Dami1189/ghpc-combat-overhaul/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "GHPCCombatOverhaul.dll",
+    "ConfigSectionName": "HitCam",
     "InstallMethod": "DirectRelease"
   },
   {
@@ -936,7 +937,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260814"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/WeatherMod/releases/latest",
     "TargetFileNameKeyword": ".dll",
