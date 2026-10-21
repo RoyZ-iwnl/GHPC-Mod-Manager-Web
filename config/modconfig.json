@@ -1,5 +1,29 @@
 [
   {
+    "Id": "GHPCCO",
+    "Name": {
+      "en-US": "GHPC Combat Overhaul",
+      "zh-CN": "GHPC 战斗系统改造"
+    },
+    "Description": {
+      "en-US": "X-ray kill cam, damage that stays on the vehicles, APFSDS rods that bend and break, explosions at their real size, a War Thunder style HUD, an Armor Sim, a proving ground and an After Action Report for Gunner, HEAT, PC!",
+      "zh-CN": "X 射线追踪系统，车辆上的损伤痕迹，会弯曲并断裂的 APFSDS 弹药，真实的爆炸效果，类似 War Thunder 界面的 HUD 界面，装甲模拟系统，实战演练场，以及针对枪手、火焰兵的作战行动报告！"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Dami1189/ghpc-combat-overhaul/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "GHPCCombatOverhaul.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "PactILROY",
     "Name": {
       "en-US": "Pact Increased Lethality(Temp version)",
@@ -497,12 +521,12 @@
   {
     "Id": "Fulda89",
     "Name": {
-      "en-US": "1989 Expansion Modpack",
-      "zh-CN": "1989拓展包"
+      "en-US": "Fulda Expansion Modpack",
+      "zh-CN": "富尔达拓展包"
     },
     "Description": {
       "en-US": "Breaking away from PIL enhanced, an expanded lineup of vehicles for Gunner HEAT, PC! This vehicle pack aims to add new vehicles to GHPC in order to emulate 1989 Fulda. \n\nSome vehicles may be present early as 1986, whilst others at the end of the 1980’s (like the ERA on the M60)\n\nAttributions/Credits\nATLAS and his mod, Pact Increased Lethality, for the ERA framework, & numerous assets used for the T64BV/AV/BVU.\n\nIn this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and implementations of previously scrapped technologies like Agava-1 Thermal imagers for the soviets, etc.",
-      "zh-CN": "其实只有T-64BV/AV and M60A1/3 ERA\n脱离PIL Enhanced模组，为《Gunner HEAT, PC》带来扩充版载具阵容！本载具包旨在为GHPC添加新载具，以还原1989年的富尔达战场。\n\n部分载具可能早至1986年便已出现，而另一些则出现在1980年代末（如M60坦克上的ERA装甲）。\n\n致谢/鸣谢\n感谢ATLAS及其模组《Pact Increased Lethality》，提供了ERA防护框架，以及用于T64BV/AV/BVU的众多资源。\n\n在这个基于原版游戏1985年背景的虚构情景中，冷战并未立即爆发，而是北约与苏联在接下来的几年里展开了一系列小规模交火和代理人战争，这极大地加速了已知坦克的研发，并促使此前被搁置的技术（如苏联的Agava-1热成像仪等）得以重新应用。"
+      "zh-CN": "脱离PIL Enhanced模组，为《Gunner HEAT, PC》带来扩充版载具阵容！本载具包旨在为GHPC添加新载具，以还原1989年的富尔达战场。\n\n部分载具可能早至1986年便已出现，而另一些则出现在1980年代末（如M60坦克上的ERA装甲）。\n\n致谢/鸣谢\n感谢ATLAS及其模组《Pact Increased Lethality》，提供了ERA防护框架，以及用于T64BV/AV/BVU的众多资源。\n\n在这个基于原版游戏1985年背景的虚构情景中，冷战并未立即爆发，而是北约与苏联在接下来的几年里展开了一系列小规模交火和代理人战争，这极大地加速了已知坦克的研发，并促使此前被搁置的技术（如苏联的Agava-1热成像仪等）得以重新应用。"
     },
     "Tags": {
       "modify": {
