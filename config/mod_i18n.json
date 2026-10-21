@@ -6562,7 +6562,7 @@
     "GHPCCO": {
       "ModId": "GHPCCO",
       "ConfigLabels": {
-        "Enabled": {"zh-CN": "启用命中镜头", "en-US": "Enabled"},
+        "Enabled": {"zh-CN": "启用", "en-US": "Enabled"},
         "PlayerShotsOnly": {"zh-CN": "仅玩家射击触发", "en-US": "PlayerShotsOnly"},
         "MinCaliberMm": {"zh-CN": "最小口径（毫米）", "en-US": "MinCaliberMm"},
         "PipWidth": {"zh-CN": "窗口宽度（旧设置，已停用）", "en-US": "PipWidth"},
