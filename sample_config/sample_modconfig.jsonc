@@ -96,5 +96,31 @@
     "Requirements": ["BaseMod", "CoreLibrary"],
     // 安装前检查：与以下 Mod 不兼容
     "Conflicts": ["IncompatibleMod1", "IncompatibleMod2"]
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // GHPC Combat Overhaul: one DLL in a zip on the GitHub release, settings in [HitCam]
+  // ═══════════════════════════════════════════════════════════════════════════
+  {
+    "Id": "CombatOverhaul",
+    "Name": {
+      "en-US": "GHPC Combat Overhaul",
+      "zh-CN": "GHPC 战斗大修"
+    },
+    "Description": {
+      "en-US": "X-ray kill cam that replays each of your hits from the game's own simulation, damage that stays on the vehicles (holes, torn barrels, broken tracks), APFSDS that erodes, bends and breaks, real-size explosions, an optional War Thunder style HUD, a proving ground with a shot lab, an Armor Sim and an After Action Report. Settings in game on F12.",
+      "zh-CN": "X光击杀镜头，按游戏本身的模拟回放你的每一次命中；留在车辆上的真实损伤（弹孔、撕裂的炮管、断裂的履带）；会侵蚀、弯曲和断裂的尾翼稳定脱壳穿甲弹；按真实装药大小的爆炸；可选的战争雷霆风格HUD；带射击实验室的试验场、装甲模拟和战后报告。游戏中按F12打开设置。"
+    },
+    "Tags": {
+      "enhancement": { "zh-CN": "游戏增强", "en-US": "Game Enhancement" }
+    },
+    "SupportedGameVersions": ["20261014"],
+    "ReleaseUrl": "https://api.github.com/repos/Dami1189/ghpc-combat-overhaul/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "GHPCCombatOverhaul.dll",
+    "ConfigSectionName": "HitCam",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [],
+    "Conflicts": []
   }
 ]

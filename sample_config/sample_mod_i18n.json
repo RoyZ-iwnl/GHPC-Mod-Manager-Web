@@ -76,6 +76,810 @@
           "en-US": "Customize which rounds M1A1s/M1E1s use"
         }
       }
+    },
+    "CombatOverhaul": {
+      "ModId": "CombatOverhaul",
+      "ConfigLabels": {
+        "AarEnabled": {
+          "zh-CN": "战后报告",
+          "en-US": "After Action Report"
+        },
+        "AarKey": {
+          "zh-CN": "战后报告按键",
+          "en-US": "AAR key"
+        },
+        "AarPauseGame": {
+          "zh-CN": "报告打开时暂停游戏",
+          "en-US": "AAR pause game"
+        },
+        "AarFullModels": {
+          "zh-CN": "保留完整模型数",
+          "en-US": "Full models kept"
+        },
+        "ArcadeHud": {
+          "zh-CN": "街机HUD",
+          "en-US": "Arcade HUD"
+        },
+        "ArcadeKey": {
+          "zh-CN": "街机HUD按键",
+          "en-US": "Arcade key"
+        },
+        "ArcadeCallouts": {
+          "zh-CN": "命中提示",
+          "en-US": "Arcade callouts"
+        },
+        "ArcadePenIndicator": {
+          "zh-CN": "击穿指示器",
+          "en-US": "Arcade pen indicator"
+        },
+        "ArcadeMarkers": {
+          "zh-CN": "敌人标记",
+          "en-US": "Arcade markers"
+        },
+        "ArcadeImpactMarker": {
+          "zh-CN": "落点标记",
+          "en-US": "Arcade impact marker"
+        },
+        "ArcadeLeadMarker": {
+          "zh-CN": "提前量标记",
+          "en-US": "Arcade lead marker"
+        },
+        "ArcadeMinimap": {
+          "zh-CN": "小地图",
+          "en-US": "Arcade minimap"
+        },
+        "MarkerSource": {
+          "zh-CN": "标记来源",
+          "en-US": "Marker source"
+        },
+        "MarkerRange": {
+          "zh-CN": "标记距离",
+          "en-US": "Marker range"
+        },
+        "MarkerMemorySeconds": {
+          "zh-CN": "标记保留时间（秒）",
+          "en-US": "Marker memory seconds"
+        },
+        "MinimapPlayerUp": {
+          "zh-CN": "小地图跟随车头",
+          "en-US": "Minimap player up"
+        },
+        "MinimapCorner": {
+          "zh-CN": "小地图位置",
+          "en-US": "Minimap corner"
+        },
+        "MinimapSize": {
+          "zh-CN": "小地图大小",
+          "en-US": "Minimap size"
+        },
+        "MinimapTerrain": {
+          "zh-CN": "小地图地形",
+          "en-US": "Minimap terrain"
+        },
+        "MinimapEnemies": {
+          "zh-CN": "小地图敌人",
+          "en-US": "Minimap enemies"
+        },
+        "MinimapInfantry": {
+          "zh-CN": "小地图步兵",
+          "en-US": "Minimap infantry"
+        },
+        "MinimapObjectives": {
+          "zh-CN": "小地图目标",
+          "en-US": "Minimap objectives"
+        },
+        "MarkerClassIcons": {
+          "zh-CN": "标记类别图标",
+          "en-US": "Marker class icons"
+        },
+        "MinimapZoomInKey": {
+          "zh-CN": "小地图放大按键",
+          "en-US": "Minimap zoom in key"
+        },
+        "MinimapZoomOutKey": {
+          "zh-CN": "小地图缩小按键",
+          "en-US": "Minimap zoom out key"
+        },
+        "ArcadeKillFeed": {
+          "zh-CN": "击杀信息",
+          "en-US": "Arcade kill feed"
+        },
+        "KillFeedSide": {
+          "zh-CN": "击杀信息位置",
+          "en-US": "Kill feed side"
+        },
+        "KillCreditSeconds": {
+          "zh-CN": "击杀归属时间（秒）",
+          "en-US": "Kill credit seconds"
+        },
+        "ArcadeSfx": {
+          "zh-CN": "命中音效",
+          "en-US": "Arcade SFX"
+        },
+        "ArcadeSfxVolume": {
+          "zh-CN": "命中音效音量",
+          "en-US": "Arcade SFX volume"
+        },
+        "HudScaleCallouts": {
+          "zh-CN": "命中提示大小",
+          "en-US": "HUD scale callouts"
+        },
+        "HudScaleMarkers": {
+          "zh-CN": "敌人标记大小",
+          "en-US": "HUD scale markers"
+        },
+        "HudScaleCross": {
+          "zh-CN": "落点十字大小",
+          "en-US": "HUD scale cross"
+        },
+        "HudScaleKillFeed": {
+          "zh-CN": "击杀信息大小",
+          "en-US": "HUD scale kill feed"
+        },
+        "ConfigKey": {
+          "zh-CN": "设置窗口按键",
+          "en-US": "Config key"
+        },
+        "ConfigPauseGame": {
+          "zh-CN": "设置窗口打开时暂停游戏",
+          "en-US": "Config pause game"
+        },
+        "ArcadePenNumbers": {
+          "zh-CN": "显示穿深数值",
+          "en-US": "Arcade pen numbers"
+        },
+        "ArcadeLayoutVersion": {
+          "zh-CN": "街机HUD布局版本（内部）",
+          "en-US": "Arcade layout version"
+        },
+        "ArmorSimKey": {
+          "zh-CN": "装甲模拟按键",
+          "en-US": "Armor sim key"
+        },
+        "ArmorSimMapBudgetMs": {
+          "zh-CN": "装甲模拟绘制预算（毫秒）",
+          "en-US": "Armor sim map budget ms"
+        },
+        "ArmorSimMenuButton": {
+          "zh-CN": "主菜单装甲模拟按钮",
+          "en-US": "Armor sim menu button"
+        },
+        "ArmorSimMission": {
+          "zh-CN": "装甲模拟任务",
+          "en-US": "Armor sim mission"
+        },
+        "ExplosionSound": {
+          "zh-CN": "真实爆炸声",
+          "en-US": "Realistic explosion sound"
+        },
+        "ExplosionLoudness": {
+          "zh-CN": "爆炸音量",
+          "en-US": "Explosion loudness"
+        },
+        "ShockwaveShake": {
+          "zh-CN": "冲击波震动",
+          "en-US": "Shockwave shake"
+        },
+        "Enabled": {
+          "zh-CN": "击杀镜头",
+          "en-US": "Hit cam"
+        },
+        "PlayerShotsOnly": {
+          "zh-CN": "只看我的射击",
+          "en-US": "Only my shots"
+        },
+        "MinCaliberMm": {
+          "zh-CN": "最小口径（毫米）",
+          "en-US": "Min caliber (mm)"
+        },
+        "PipWidth": {
+          "zh-CN": "窗口宽度（旧）",
+          "en-US": "Pip width"
+        },
+        "PipSize": {
+          "zh-CN": "击杀镜头大小",
+          "en-US": "Hit cam size"
+        },
+        "PipCorner": {
+          "zh-CN": "击杀镜头位置",
+          "en-US": "Hit cam corner"
+        },
+        "ApproachSeconds": {
+          "zh-CN": "飞行段（秒）",
+          "en-US": "Approach (s)"
+        },
+        "InteriorSeconds": {
+          "zh-CN": "击穿段（秒）",
+          "en-US": "Penetration (s)"
+        },
+        "AftermathSeconds": {
+          "zh-CN": "后续段（秒）",
+          "en-US": "Aftermath (s)"
+        },
+        "CinematicXray": {
+          "zh-CN": "电影化X光镜头",
+          "en-US": "Cinematic x-ray camera"
+        },
+        "CookOffWait": {
+          "zh-CN": "等待殉爆（秒）",
+          "en-US": "Wait for cook-off (s)"
+        },
+        "HitCamAntiAliasing": {
+          "zh-CN": "抗锯齿",
+          "en-US": "Anti-aliasing"
+        },
+        "DebugLog": {
+          "zh-CN": "调试日志",
+          "en-US": "Debug log"
+        },
+        "ConfigVersion": {
+          "zh-CN": "设置版本（内部）",
+          "en-US": "Config version"
+        },
+        "AmmoExplosionKillsCrew": {
+          "zh-CN": "弹药殉爆杀死乘员",
+          "en-US": "Ammo explosion kills crew"
+        },
+        "RodSoftBody": {
+          "zh-CN": "可变形的穿甲弹杆",
+          "en-US": "Deforming APFSDS rod"
+        },
+        "CrewPanic": {
+          "zh-CN": "乘员惊慌",
+          "en-US": "Crew panic"
+        },
+        "CookOffReplay": {
+          "zh-CN": "殉爆回放",
+          "en-US": "Cook-off replay"
+        },
+        "ImpactSlowMo": {
+          "zh-CN": "命中慢动作（秒）",
+          "en-US": "Impact slow motion (s)"
+        },
+        "HitCamPace": {
+          "zh-CN": "击杀镜头节奏",
+          "en-US": "Hit cam pace"
+        },
+        "ConstantSlowMo": {
+          "zh-CN": "恒定慢动作倍数",
+          "en-US": "Constant slow motion (x)"
+        },
+        "ShowAllSpall": {
+          "zh-CN": "显示全部破片",
+          "en-US": "Show all spall"
+        },
+        "ArmorHoles": {
+          "zh-CN": "装甲弹孔",
+          "en-US": "Armour holes"
+        },
+        "BurstCaliberMm": {
+          "zh-CN": "短回放口径（毫米）",
+          "en-US": "Short replay below (mm)"
+        },
+        "QueueHits": {
+          "zh-CN": "命中排队",
+          "en-US": "Queue hits"
+        },
+        "SaveRecords": {
+          "zh-CN": "保存命中到磁盘",
+          "en-US": "Save hits to disk"
+        },
+        "PastMissionsKept": {
+          "zh-CN": "保留过往任务数",
+          "en-US": "Past missions kept"
+        },
+        "WorldDamage": {
+          "zh-CN": "世界损伤",
+          "en-US": "World damage"
+        },
+        "CutModels": {
+          "zh-CN": "在模型上切出弹孔",
+          "en-US": "Cut holes into models"
+        },
+        "DebrisSeconds": {
+          "zh-CN": "破片停留时间（秒）",
+          "en-US": "Shrapnel stays (s)"
+        },
+        "WorldShrapnel": {
+          "zh-CN": "破片碎块",
+          "en-US": "Shrapnel pieces"
+        },
+        "MaxDebris": {
+          "zh-CN": "最多散落碎块",
+          "en-US": "Max loose pieces"
+        },
+        "MaxWorldPlates": {
+          "zh-CN": "最多3D弹孔",
+          "en-US": "Max 3D holes"
+        },
+        "WorldVentJets": {
+          "zh-CN": "弹孔喷火",
+          "en-US": "Flames out of holes"
+        },
+        "DetailedCrew": {
+          "zh-CN": "真实乘员模型",
+          "en-US": "Real crew models"
+        },
+        "XrayPhysics": {
+          "zh-CN": "布娃娃和物理",
+          "en-US": "Ragdolls and physics"
+        },
+        "XrayPhysicsSpeed": {
+          "zh-CN": "物理速度",
+          "en-US": "Physics speed"
+        },
+        "HullTexture": {
+          "zh-CN": "车体涂装",
+          "en-US": "Hull texture"
+        },
+        "Style": {
+          "zh-CN": "风格",
+          "en-US": "Style"
+        },
+        "ToggleKey": {
+          "zh-CN": "开关按键",
+          "en-US": "Toggle key"
+        },
+        "ReplayKey": {
+          "zh-CN": "回放按键",
+          "en-US": "Replay key"
+        },
+        "ArsenalKey": {
+          "zh-CN": "军械库按键",
+          "en-US": "Arsenal key"
+        },
+        "FireNowKey": {
+          "zh-CN": "立即开火按键",
+          "en-US": "Fire now key"
+        },
+        "RangeKey": {
+          "zh-CN": "测试靶场按键",
+          "en-US": "Range key"
+        },
+        "ProvingGroundMenuButton": {
+          "zh-CN": "主菜单试验场按钮",
+          "en-US": "Proving ground menu button"
+        },
+        "ProvingGroundKey": {
+          "zh-CN": "试验场按键",
+          "en-US": "Proving ground key"
+        },
+        "ProvingGroundRows": {
+          "zh-CN": "试验场排数",
+          "en-US": "Proving ground rows"
+        },
+        "ProvingGroundPerRow": {
+          "zh-CN": "每排目标数",
+          "en-US": "Proving ground per row"
+        },
+        "ProvingGroundBigCam": {
+          "zh-CN": "试验场大镜头",
+          "en-US": "Proving ground big cam"
+        },
+        "RodCam": {
+          "zh-CN": "弹杆镜头",
+          "en-US": "Rod cam"
+        }
+      },
+      "ConfigComments": {
+        "After Action Report: keeps every hit of the mission (yours and the ones on you) for 3D replays and stats.": {
+          "zh-CN": "战后报告：保留本场任务的每一次命中（你的命中和你被命中的），用于3D回放和统计。",
+          "en-US": "After Action Report: keeps every hit of the mission (yours and the ones on you) for 3D replays and stats."
+        },
+        "Opens and closes the After Action Report.": {
+          "zh-CN": "打开和关闭战后报告。",
+          "en-US": "Opens and closes the After Action Report."
+        },
+        "Pause the game while the report is open.": {
+          "zh-CN": "战后报告打开时暂停游戏。",
+          "en-US": "Pause the game while the report is open."
+        },
+        "How many of the newest hits keep the full x-ray model for the replays; older ones replay on a box model.": {
+          "zh-CN": "最新的多少次命中保留完整的X光模型用于回放；更早的命中用方块模型回放。",
+          "en-US": "How many of the newest hits keep the full x-ray model for the replays; older ones replay on a box model."
+        },
+        "War Thunder style aids. Master switch: each aid below has its own.": {
+          "zh-CN": "战争雷霆风格的辅助功能。总开关：下面每一项都有自己的开关。",
+          "en-US": "War Thunder style aids. Master switch: each aid below has its own."
+        },
+        "Turns the whole arcade HUD on and off.": {
+          "zh-CN": "整体开关街机HUD。",
+          "en-US": "Turns the whole arcade HUD on and off."
+        },
+        "Big text after your hits: PENETRATION, CRITICAL HIT and what was damaged.": {
+          "zh-CN": "命中后显示大字提示：击穿、致命命中以及损坏的部件。",
+          "en-US": "Big text after your hits: PENETRATION, CRITICAL HIT and what was damaged."
+        },
+        "Colour at your aim point: green = will penetrate, yellow = maybe, red = no, blue = ricochet.": {
+          "zh-CN": "瞄准点的颜色：绿色=能击穿，黄色=可能，红色=不能，蓝色=跳弹。",
+          "en-US": "Colour at your aim point: green = will penetrate, yellow = maybe, red = no, blue = ricochet."
+        },
+        "Name, type and distance above spotted enemies; off-screen ones at the screen edge.": {
+          "zh-CN": "在已发现的敌人上方显示名称、类型和距离；屏幕外的敌人显示在屏幕边缘。",
+          "en-US": "Name, type and distance above spotted enemies; off-screen ones at the screen edge."
+        },
+        "Where your loaded round lands at the range of what's under the crosshair.": {
+          "zh-CN": "按准星下目标的距离，显示你已装填弹药的落点。",
+          "en-US": "Where your loaded round lands at the range of what's under the crosshair."
+        },
+        "Lead circle on helicopters and planes for the weapon you have selected.": {
+          "zh-CN": "针对当前所选武器，在直升机和飞机上显示提前量圆圈。",
+          "en-US": "Lead circle on helicopters and planes for the weapon you have selected."
+        },
+        "Corner minimap with you, friendlies and spotted enemies.": {
+          "zh-CN": "角落的小地图，显示你、友军和已发现的敌人。",
+          "en-US": "Corner minimap with you, friendlies and spotted enemies."
+        },
+        "Spotted: what your side has spotted. LineOfSight: whatever your sight can see.": {
+          "zh-CN": "Spotted：显示己方已发现的目标。LineOfSight：显示你的瞄准镜能看到的一切。",
+          "en-US": "Spotted: what your side has spotted. LineOfSight: whatever your sight can see."
+        },
+        "LineOfSight: the furthest marker distance in metres.": {
+          "zh-CN": "LineOfSight模式：标记的最远距离（米）。",
+          "en-US": "LineOfSight: the furthest marker distance in metres."
+        },
+        "How long an enemy stays marked after you lose sight of it.": {
+          "zh-CN": "失去视线后，敌人标记保留的时间。",
+          "en-US": "How long an enemy stays marked after you lose sight of it."
+        },
+        "On: your hull points up. Off: north up.": {
+          "zh-CN": "开：车体朝上。关：北方朝上。",
+          "en-US": "On: your hull points up. Off: north up."
+        },
+        "Which corner the minimap sits in.": {
+          "zh-CN": "小地图所在的屏幕角落。",
+          "en-US": "Which corner the minimap sits in."
+        },
+        "Minimap size, as a part of the screen height.": {
+          "zh-CN": "小地图大小，占屏幕高度的比例。",
+          "en-US": "Minimap size, as a part of the screen height."
+        },
+        "A top-down picture of the terrain under the grid.": {
+          "zh-CN": "在网格下方显示俯视地形图。",
+          "en-US": "A top-down picture of the terrain under the grid."
+        },
+        "Spotted: only spotted enemies. Always: all of them. Off: none.": {
+          "zh-CN": "Spotted：只显示已发现的敌人。Always：显示全部。Off：不显示。",
+          "en-US": "Spotted: only spotted enemies. Always: all of them. Off: none."
+        },
+        "Infantry and anti-tank teams on the minimap too.": {
+          "zh-CN": "在小地图上也显示步兵和反坦克小组。",
+          "en-US": "Infantry and anti-tank teams on the minimap too."
+        },
+        "Mission objectives with a map marker, lettered A, B, C.": {
+          "zh-CN": "带地图标记的任务目标，以字母A、B、C标注。",
+          "en-US": "Mission objectives with a map marker, lettered A, B, C."
+        },
+        "The vehicle's class icon (light / medium / heavy tank, IFV, ...) in its marker.": {
+          "zh-CN": "在标记中显示车辆类别图标（轻型/中型/重型坦克、步战车等）。",
+          "en-US": "The vehicle's class icon (light / medium / heavy tank, IFV, ...) in its marker."
+        },
+        "Minimap zoom in.": {
+          "zh-CN": "放大小地图。",
+          "en-US": "Minimap zoom in."
+        },
+        "Minimap zoom out.": {
+          "zh-CN": "缩小小地图。",
+          "en-US": "Minimap zoom out."
+        },
+        "Messages when your hits damage or kill a vehicle (later too: fire, cook-off, crew bailing out).": {
+          "zh-CN": "你的命中损坏或击毁车辆时显示消息（之后的起火、殉爆、乘员弃车也会显示）。",
+          "en-US": "Messages when your hits damage or kill a vehicle (later too: fire, cook-off, crew bailing out)."
+        },
+        "Right: small lines above the minimap. Left: above the game's weapon panel.": {
+          "zh-CN": "Right：小地图上方的小字。Left：游戏武器面板上方。",
+          "en-US": "Right: small lines above the minimap. Left: above the game's weapon panel."
+        },
+        "A vehicle that dies this long after your last hit (fire, cook-off) still counts as your kill.": {
+          "zh-CN": "在你最后一次命中后这段时间内毁坏的车辆（起火、殉爆）仍算作你的击杀。",
+          "en-US": "A vehicle that dies this long after your last hit (fire, cook-off) still counts as your kill."
+        },
+        "Hit, penetration and kill sounds (made by the mod, no game files).": {
+          "zh-CN": "命中、击穿和击杀音效（由模组生成，不含游戏文件）。",
+          "en-US": "Hit, penetration and kill sounds (made by the mod, no game files)."
+        },
+        "Volume of those sounds.": {
+          "zh-CN": "这些音效的音量。",
+          "en-US": "Volume of those sounds."
+        },
+        "Size of the hit callouts.": {
+          "zh-CN": "命中提示的大小。",
+          "en-US": "Size of the hit callouts."
+        },
+        "Size of the enemy markers.": {
+          "zh-CN": "敌人标记的大小。",
+          "en-US": "Size of the enemy markers."
+        },
+        "Size of the impact cross, gun ring and lead circle.": {
+          "zh-CN": "落点十字、炮口圈和提前量圆圈的大小。",
+          "en-US": "Size of the impact cross, gun ring and lead circle."
+        },
+        "Size of the kill feed and kill banner.": {
+          "zh-CN": "击杀信息和击杀横幅的大小。",
+          "en-US": "Size of the kill feed and kill banner."
+        },
+        "Opens this window. There is also a gear button in the corner while the mouse cursor is free.": {
+          "zh-CN": "打开设置窗口。鼠标光标空闲时，角落里也有一个齿轮按钮。",
+          "en-US": "Opens this window. There is also a gear button in the corner while the mouse cursor is free."
+        },
+        "Pause the game while this window is open.": {
+          "zh-CN": "设置窗口打开时暂停游戏。",
+          "en-US": "Pause the game while this window is open."
+        },
+        "Also show the pen and armour in millimetres next to it.": {
+          "zh-CN": "同时在旁边显示穿深和装甲厚度（毫米）。",
+          "en-US": "Also show the pen and armour in millimetres next to it."
+        },
+        "Opens the Armor Sim: pick a vehicle and a round, see where it gets through, click to fire.": {
+          "zh-CN": "打开装甲模拟：选择车辆和弹药，查看能在哪里击穿，点击开火。",
+          "en-US": "Opens the Armor Sim: pick a vehicle and a round, see where it gets through, click to fire."
+        },
+        "Armor Sim: time per frame spent drawing the pen map (higher = the map is ready sooner, but frames are slower while it draws).": {
+          "zh-CN": "装甲模拟：每帧用于绘制穿深图的时间（越高图越快完成，但绘制时帧率更低）。",
+          "en-US": "Armor Sim: time per frame spent drawing the pen map (higher = the map is ready sooner, but frames are slower while it draws)."
+        },
+        "ARMOR SIM button in the main menu: pick a vehicle and a round, see where it penetrates, fire.": {
+          "zh-CN": "主菜单中的ARMOR SIM按钮：选择车辆和弹药，查看能在哪里击穿，开火。",
+          "en-US": "ARMOR SIM button in the main menu: pick a vehicle and a round, see where it penetrates, fire."
+        },
+        "The mission that button loads (advanced: theatre key, mission scene).": {
+          "zh-CN": "该按钮加载的任务（高级：战区键，任务场景）。",
+          "en-US": "The mission that button loads (advanced: theatre key, mission scene)."
+        },
+        "Explosions as loud as their size: an ammo rack going off is a huge boom you hear from far away, arriving at the speed of sound. A vehicle's later blasts are quieter. Off: the game's own sounds.": {
+          "zh-CN": "爆炸声与爆炸规模相符：弹药架殉爆是远处也能听到的巨响，并以声速传来。车辆之后的爆炸更小声。关：使用游戏自带的声音。",
+          "en-US": "Explosions as loud as their size: an ammo rack going off is a huge boom you hear from far away, arriving at the speed of sound. A vehicle's later blasts are quieter. Off: the game's own sounds."
+        },
+        "Extra volume for the explosions on top of that (1 = as computed).": {
+          "zh-CN": "在此基础上额外增加的爆炸音量（1 = 按计算值）。",
+          "en-US": "Extra volume for the explosions on top of that (1 = as computed)."
+        },
+        "A short camera kick when a blast wave reaches you.": {
+          "zh-CN": "冲击波到达你时镜头短暂震动。",
+          "en-US": "A short camera kick when a blast wave reaches you."
+        },
+        "The hit cam: after each of your hits, an x-ray replay of the round going in, in a window in the corner.": {
+          "zh-CN": "击杀镜头：你每次命中后，在角落窗口中用X光回放炮弹击入的过程。",
+          "en-US": "The hit cam: after each of your hits, an x-ray replay of the round going in, in a window in the corner."
+        },
+        "Only your own shots get a hit cam. Off: hits by everyone (AI on AI too).": {
+          "zh-CN": "只有你自己的射击才有击杀镜头。关：所有人的命中（包括AI之间）。",
+          "en-US": "Only your own shots get a hit cam. Off: hits by everyone (AI on AI too)."
+        },
+        "Rounds smaller than this get no hit cam (machine guns).": {
+          "zh-CN": "小于此口径的弹药没有击杀镜头（机枪）。",
+          "en-US": "Rounds smaller than this get no hit cam (machine guns)."
+        },
+        "Old setting, not used any more (see Hit cam size).": {
+          "zh-CN": "旧设置，已不再使用（见击杀镜头大小）。",
+          "en-US": "Old setting, not used any more (see Hit cam size)."
+        },
+        "Size of the hit cam window, as a part of the screen height (0.2 = a fifth of it).": {
+          "zh-CN": "击杀镜头窗口的大小，占屏幕高度的比例（0.2 = 五分之一）。",
+          "en-US": "Size of the hit cam window, as a part of the screen height (0.2 = a fifth of it)."
+        },
+        "Which corner of the screen the hit cam window sits in.": {
+          "zh-CN": "击杀镜头窗口所在的屏幕角落。",
+          "en-US": "Which corner of the screen the hit cam window sits in."
+        },
+        "Slow-motion seconds of the round flying in before it hits.": {
+          "zh-CN": "炮弹命中前飞来的慢动作秒数。",
+          "en-US": "Slow-motion seconds of the round flying in before it hits."
+        },
+        "Seconds the penetration and the spall inside are stretched to.": {
+          "zh-CN": "击穿过程和车内破片被拉长到的秒数。",
+          "en-US": "Seconds the penetration and the spall inside are stretched to."
+        },
+        "Seconds the hit cam stays on after the spall settles (fires, explosions, crew).": {
+          "zh-CN": "破片停止后击杀镜头继续显示的秒数（起火、爆炸、乘员）。",
+          "en-US": "Seconds the hit cam stays on after the spall settles (fires, explosions, crew)."
+        },
+        "Camera shake, close-ups, slow motion and flashes in the hit cam. Off: a calm, steady camera.": {
+          "zh-CN": "击杀镜头中的镜头震动、特写、慢动作和闪光。关：平稳的镜头。",
+          "en-US": "Camera shake, close-ups, slow motion and flashes in the hit cam. Off: a calm, steady camera."
+        },
+        "When your hit starts an ammo fire, the hit cam keeps watching this many seconds for the cook-off.": {
+          "zh-CN": "你的命中引发弹药起火时，击杀镜头继续等待殉爆的秒数。",
+          "en-US": "When your hit starts an ammo fire, the hit cam keeps watching this many seconds for the cook-off."
+        },
+        "Smooths jagged edges in the hit cam window.": {
+          "zh-CN": "平滑击杀镜头窗口中的锯齿边缘。",
+          "en-US": "Smooths jagged edges in the hit cam window."
+        },
+        "Writes slow frames and what the mod did in them to the MelonLoader log. Only for reporting a lag problem.": {
+          "zh-CN": "把卡顿帧以及模组在其中做了什么写入MelonLoader日志。仅用于报告卡顿问题。",
+          "en-US": "Writes slow frames and what the mod did in them to the MelonLoader log. Only for reporting a lag problem."
+        },
+        "Settings layout version (internal).": {
+          "zh-CN": "设置布局版本（内部）。",
+          "en-US": "Settings layout version (internal)."
+        },
+        "When an ammo rack blows up inside a vehicle, the crew around it die (the game sometimes leaves one alive). This changes the game, not only the picture.": {
+          "zh-CN": "车内弹药架爆炸时，周围的乘员死亡（游戏有时会留下一人存活）。这会改变游戏结果，而不只是画面。",
+          "en-US": "When an ammo rack blows up inside a vehicle, the crew around it die (the game sometimes leaves one alive). This changes the game, not only the picture."
+        },
+        "Long-rod rounds (APFSDS) erode, mushroom, bend and break like real metal. Off: a rigid rod that just gets shorter.": {
+          "zh-CN": "长杆穿甲弹（APFSDS）会像真实金属一样侵蚀、镦粗、弯曲和断裂。关：只会变短的刚性弹杆。",
+          "en-US": "Long-rod rounds (APFSDS) erode, mushroom, bend and break like real metal. Off: a rigid rod that just gets shorter."
+        },
+        "Crew still alive with fire in their compartment thrash in their seats.": {
+          "zh-CN": "所在舱室起火时仍存活的乘员会在座位上挣扎。",
+          "en-US": "Crew still alive with fire in their compartment thrash in their seats."
+        },
+        "If the ammo blows up after the hit cam closed, it opens again and shows the explosion (not when your hit had already knocked the vehicle out).": {
+          "zh-CN": "如果击杀镜头关闭后弹药才殉爆，镜头会再次打开显示爆炸（你的命中已经让车辆失去战斗力时除外）。",
+          "en-US": "If the ammo blows up after the hit cam closed, it opens again and shows the explosion (not when your hit had already knocked the vehicle out)."
+        },
+        "Extra slow motion with a close-up while the round goes through the first plate.": {
+          "zh-CN": "炮弹穿过第一块装甲时额外的慢动作和特写。",
+          "en-US": "Extra slow motion with a close-up while the round goes through the first plate."
+        },
+        "Cinematic: slows right down as the round goes through the plate, then speeds up for the spall. Constant: one steady slow motion from the round flying in to the last fragment, like War Thunder (the timing seconds above are then worked out from it).": {
+          "zh-CN": "Cinematic：炮弹穿过装甲时大幅放慢，之后为破片加快。Constant：从炮弹飞来到最后一块破片都是同一种稳定的慢动作，像战争雷霆（上面的时间秒数会据此计算）。",
+          "en-US": "Cinematic: slows right down as the round goes through the plate, then speeds up for the spall. Constant: one steady slow motion from the round flying in to the last fragment, like War Thunder (the timing seconds above are then worked out from it)."
+        },
+        "Constant pace: how many times slower than real time the round and the spall play.": {
+          "zh-CN": "Constant节奏：炮弹和破片比真实时间慢多少倍。",
+          "en-US": "Constant pace: how many times slower than real time the round and the spall play."
+        },
+        "Draw every spall fragment, also the ones that hit nothing (faint). Off: only the ones that hit something, like War Thunder.": {
+          "zh-CN": "绘制每一块破片，包括没有击中任何东西的（淡色）。关：只显示击中了东西的破片，像战争雷霆。",
+          "en-US": "Draw every spall fragment, also the ones that hit nothing (faint). Off: only the ones that hit something, like War Thunder."
+        },
+        "Entry holes, petals and armour pieces in the hit cam.": {
+          "zh-CN": "击杀镜头中的入口弹孔、花瓣状撕裂和装甲碎片。",
+          "en-US": "Entry holes, petals and armour pieces in the hit cam."
+        },
+        "Rounds smaller than this (autocannons) get a short replay; more hits on the same vehicle join the one playing.": {
+          "zh-CN": "小于此口径的弹药（机炮）只有短回放；同一车辆上的更多命中会并入正在播放的回放。",
+          "en-US": "Rounds smaller than this (autocannons) get a short replay; more hits on the same vehicle join the one playing."
+        },
+        "On: hits play one after another. Off: a new hit replaces the one playing.": {
+          "zh-CN": "开：命中依次播放。关：新的命中替换正在播放的。",
+          "en-US": "On: hits play one after another. Off: a new hit replaces the one playing."
+        },
+        "Save hits to UserData/HitCam for the report's past missions (only while Past missions kept is above 0).": {
+          "zh-CN": "把命中保存到UserData/HitCam，用于报告中的过往任务（仅当保留过往任务数大于0时）。",
+          "en-US": "Save hits to UserData/HitCam for the report's past missions (only while Past missions kept is above 0)."
+        },
+        "How many finished missions' hits stay on disk for the report. Older ones are deleted when you close the report or start a mission. 0: nothing is written to disk (the report shows this mission and the last one from memory).": {
+          "zh-CN": "有多少场已完成任务的命中保留在磁盘上供报告查看。更早的会在关闭报告或开始任务时删除。0：不写入磁盘（报告从内存中显示本场和上一场任务）。",
+          "en-US": "How many finished missions' hits stay on disk for the report. Older ones are deleted when you close the report or start a mission. 0: nothing is written to disk (the report shows this mission and the last one from memory)."
+        },
+        "Damage on the real vehicles in the game world: holes, petals, scorch marks, sparks and shrapnel. Looks only, no effect on the game.": {
+          "zh-CN": "游戏世界中真实车辆上的损伤：弹孔、花瓣状撕裂、烧痕、火花和破片。仅视觉效果，不影响游戏。",
+          "en-US": "Damage on the real vehicles in the game world: holes, petals, scorch marks, sparks and shrapnel. Looks only, no effect on the game."
+        },
+        "Cut real see-through holes into the vehicle models where the model allows it.": {
+          "zh-CN": "在模型允许的地方，在车辆模型上切出真正透光的弹孔。",
+          "en-US": "Cut real see-through holes into the vehicle models where the model allows it."
+        },
+        "How long shrapnel pieces stay on the ground.": {
+          "zh-CN": "破片在地面上停留的时间。",
+          "en-US": "How long shrapnel pieces stay on the ground."
+        },
+        "Hot plate chunks thrown out of each hit that bounce and land. Looks only: the game's own spall does the damage inside.": {
+          "zh-CN": "每次命中飞出的灼热装甲碎块，会弹跳并落地。仅视觉效果：车内的伤害由游戏自己的破片造成。",
+          "en-US": "Hot plate chunks thrown out of each hit that bounce and land. Looks only: the game's own spall does the damage inside."
+        },
+        "Most shrapnel pieces (and torn-off track links, barrel ends) in the world at once.": {
+          "zh-CN": "世界中同时存在的最多破片（以及扯下的履带板、炮管末端）。",
+          "en-US": "Most shrapnel pieces (and torn-off track links, barrel ends) in the world at once."
+        },
+        "How many 3D holes (petals, craters) can be on vehicles at once; older ones turn into flat marks.": {
+          "zh-CN": "车辆上同时存在的3D弹孔（花瓣状撕裂、弹坑）的数量；更早的会变成平面痕迹。",
+          "en-US": "How many 3D holes (petals, craters) can be on vehicles at once; older ones turn into flat marks."
+        },
+        "While ammo burns inside a vehicle, flames shoot out of the holes your rounds made.": {
+          "zh-CN": "车内弹药燃烧时，火焰从你的炮弹打出的弹孔中喷出。",
+          "en-US": "While ammo burns inside a vehicle, flames shoot out of the holes your rounds made."
+        },
+        "The game's real crew models in the hit cam. Off: simple capsule figures.": {
+          "zh-CN": "击杀镜头中使用游戏的真实乘员模型。关：简单的胶囊人形。",
+          "en-US": "The game's real crew models in the hit cam. Off: simple capsule figures."
+        },
+        "Crew fall as ragdolls, plate pieces fly and bounce inside the hull. Off: the crew stay in their seats.": {
+          "zh-CN": "乘员以布娃娃方式倒下，装甲碎片在车内飞散和弹跳。关：乘员留在座位上。",
+          "en-US": "Crew fall as ragdolls, plate pieces fly and bounce inside the hull. Off: the crew stay in their seats."
+        },
+        "Speed of that physics after the spall settles (1 = real time, lower = slow motion).": {
+          "zh-CN": "破片停止后这些物理效果的速度（1 = 真实时间，越低越慢）。",
+          "en-US": "Speed of that physics after the spall settles (1 = real time, lower = slow motion)."
+        },
+        "How much of the vehicle's own paint shows on the x-ray hull (0 = plain dark glass).": {
+          "zh-CN": "X光车体上显示多少车辆本身的涂装（0 = 纯暗色玻璃）。",
+          "en-US": "How much of the vehicle's own paint shows on the x-ray hull (0 = plain dark glass)."
+        },
+        "WarThunder: dark see-through hull, bright parts inside. Blueprint: light blue glass hull.": {
+          "zh-CN": "WarThunder：深色透明车体，内部部件明亮。Blueprint：浅蓝色玻璃车体。",
+          "en-US": "WarThunder: dark see-through hull, bright parts inside. Blueprint: light blue glass hull."
+        },
+        "Turns the hit cam on and off.": {
+          "zh-CN": "开关击杀镜头。",
+          "en-US": "Turns the hit cam on and off."
+        },
+        "Replays your last hit.": {
+          "zh-CN": "回放你最后一次命中。",
+          "en-US": "Replays your last hit."
+        },
+        "Arsenal: your main gun fires any round you pick (for testing).": {
+          "zh-CN": "军械库：你的主炮发射你选择的任何弹药（用于测试）。",
+          "en-US": "Arsenal: your main gun fires any round you pick (for testing)."
+        },
+        "Arsenal: fires the picked round at once, no reload.": {
+          "zh-CN": "军械库：立即发射所选弹药，无需装填。",
+          "en-US": "Arsenal: fires the picked round at once, no reload."
+        },
+        "Test range: spawns targets and flying helicopters around you.": {
+          "zh-CN": "测试靶场：在你周围生成目标和飞行的直升机。",
+          "en-US": "Test range: spawns targets and flying helicopters around you."
+        },
+        "PROVING GROUND button in the main menu: a flat test range with targets every 100 m and a shot lab.": {
+          "zh-CN": "主菜单中的PROVING GROUND按钮：平坦的测试靶场，每100米一排目标，还有射击实验室。",
+          "en-US": "PROVING GROUND button in the main menu: a flat test range with targets every 100 m and a shot lab."
+        },
+        "On the proving ground: shows or hides its tools window. Ctrl + this key builds a proving ground in any mission.": {
+          "zh-CN": "在试验场中：显示或隐藏工具窗口。Ctrl+此键可在任何任务中建造试验场。",
+          "en-US": "On the proving ground: shows or hides its tools window. Ctrl + this key builds a proving ground in any mission."
+        },
+        "Rows of targets, one every 100 m down range.": {
+          "zh-CN": "目标排数，每100米一排。",
+          "en-US": "Rows of targets, one every 100 m down range."
+        },
+        "Targets in each row.": {
+          "zh-CN": "每排的目标数量。",
+          "en-US": "Targets in each row."
+        },
+        "A bigger hit cam on the proving ground, for close-ups.": {
+          "zh-CN": "在试验场中使用更大的击杀镜头，便于看特写。",
+          "en-US": "A bigger hit cam on the proving ground, for close-ups."
+        },
+        "Follow the round itself through every plate in deep slow motion, from the side (for studying penetration).": {
+          "zh-CN": "在深度慢动作中从侧面跟随炮弹穿过每一块装甲（用于研究击穿）。",
+          "en-US": "Follow the round itself through every plate in deep slow motion, from the side (for studying penetration)."
+        }
+      },
+      "singlechoice": {
+        "MarkerSource": [
+          "Spotted",
+          "LineOfSight"
+        ],
+        "MinimapCorner": [
+          "BottomRight",
+          "BottomLeft",
+          "TopLeft",
+          "TopRight"
+        ],
+        "MinimapEnemies": [
+          "Spotted",
+          "Always",
+          "Off"
+        ],
+        "KillFeedSide": [
+          "Left",
+          "Right"
+        ],
+        "PipCorner": [
+          "TopRight",
+          "TopLeft",
+          "BottomRight",
+          "BottomLeft"
+        ],
+        "HitCamAntiAliasing": [
+          "Off",
+          "2x",
+          "4x",
+          "8x"
+        ],
+        "HitCamPace": [
+          "Cinematic",
+          "Constant"
+        ],
+        "Style": [
+          "WarThunder",
+          "Blueprint"
+        ]
+      }
     }
   }
 }
