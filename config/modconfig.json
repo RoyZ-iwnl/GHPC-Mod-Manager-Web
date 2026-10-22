@@ -5,6 +5,7 @@
       "en-US": "GHPC Combat Overhaul",
       "zh-CN": "GHPC 战斗系统改造"
     },
+    "Author": "Dami1189",
     "Description": {
       "en-US": "X-ray kill cam that replays each of your hits from the game's own simulation, damage that stays on the vehicles (holes, torn barrels, broken tracks), APFSDS that erodes, bends and breaks, real-size explosions, an optional War Thunder style HUD, a proving ground with a shot lab, an Armor Sim and an After Action Report. Settings in game on F12.",
       "zh-CN": "X光击杀镜头，按游戏本身的模拟回放你的每一次命中；留在车辆上的真实损伤（弹孔、撕裂的炮管、断裂的履带）；会侵蚀、弯曲和断裂的尾翼稳定脱壳穿甲弹；按真实装药大小的爆炸；可选的战争雷霆风格HUD；带射击实验室的试验场、装甲模拟和战后报告。游戏中按F12打开设置。"
@@ -61,6 +62,7 @@
       "en-US": "Pact Increased Lethality",
       "zh-CN": "华约增强模组"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "Pact Increased Lethality is specifically designed to bolster the firepower and survivability of Warsaw Pact forces. It introduces a wide array of advanced vehicle variants, modern defensive systems, and upgraded ammunition to bring Eastern Bloc armor to a new level of lethality.\nIncluding: multiple types of ERA, improved composite armor, Super FCS (Sosna-U) and guidance tweaks for T‑72 variants (with some T‑72M automatically upgraded to T‑72M1); enhanced protection and fire control for modern T‑80BV/U; BDD add‑on composite armor, Drozd APS, better stabilizers, laser rangefinders, improved HEAT rounds and 9M117 gun‑launched missiles, plus stronger engines and drivetrains for T‑55/T‑62/T‑64A; an added AGS‑17D coaxial automatic grenade launcher for BMP‑1; higher‑penetration and better‑ballistic 30 mm ammo plus 9M113AS top‑attack and 9M133 Kornet missiles for BMP‑2; and a stabilizer plus an optional 30 mm 2A72 turret “BTR‑60A” refit for BTR‑60 that grants BMP‑2‑level ammo and day/night sights, all significantly boosting survivability and firepower without breaking overall faction balance.",
       "zh-CN": "华约增强模组是一款专门用于提升华约阵营的火力与生存能力。该模组引入了大量先进的载具变体、现代防御系统以及升级后的弹药，旨在将东欧集团的装甲力量提升至全新的杀伤水平。\n为 T‑72 系列增加多型反应装甲、改良复合装甲、松树-U火控与导引修正等，并自动将部分 T‑72M 升级为 T‑72M1；为 T‑80BV/U等现代坦克强化防护与火控；为 T‑55/T‑62/T‑64A 增加 BDD 复合加装装甲、Drozd 主动防护系统、更稳的稳定器、激光测距仪、改良 HEAT 弹与 9M117 等炮射导弹，以及更强的发动机与传动系统；为 BMP‑1 增加 AGS‑17D 同轴自动榴弹发射器，为 BMP‑2 增加更高穿深与更好弹道的 30 毫米弹种及 9M113AS 顶攻导弹和 9M133“短号”导弹；为 BTR‑60 增加稳定器并可改装为装有 30 毫米 2A72 炮塔的 BTR‑60A，获得与 BMP‑2 相同的高性能弹药和昼夜瞄具，显著提升多型华约载具的生存性与打击能力。"
@@ -94,6 +96,7 @@
       "en-US": "M1A1 Abrams",
       "zh-CN": "M1A1艾布拉姆斯"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "The M1A1 Abrams mod introduces the iconic US main battle tank M1A1, that converts all in‑game M1IPs into M1A1s fitted with the 120mm M256 and a default ammo load of M829 APFSDS‑T (22 rounds) plus M830 HEAT‑MP‑T (18 rounds with a shoulder fuze); it also adds config‑driven options such as alternate APFSDS rounds (M827, M829A1, M829A2), an alternate HEAT round (M830A1 with a proximity fuse toggleable via middle mouse), per‑vehicle customization of how many M829/M830 rounds are carried, and several advanced features disabled by default (non‑IP M1 → M1E1 conversion, randomized M1A1/E1 conversions, horizontal sight stabilization when applying lead, commander CITV, depleted‑uranium cheek armor for M1A1s, M153 CROWS, and different gunner thermal settings), plus preset conversion “profiles” mapping feature toggles to variants like M1A1HA/HC, M1A2, and M1A2 SEP (e.g., DU armor generation, azimuth rotation, CITV, higher‑gen FLIR or CROWS)..",
       "zh-CN": "M1A1模组为游戏加入了标志性的美军主战坦克 M1A1，把游戏内所有 M1IP 统一转换为配备 120mm M256 主炮的 M1A1，并默认装填 M829 APFSDS‑T（22 发）与 M830 HEAT‑MP‑T（18 发、带触发引信）；同时在模组配置里提供可选功能与细节定制，包括可切换的备用穿甲弹（M827、M829A1、M829A2）、备用破甲弹（M830A1，带可用鼠标中键开关的近炸/距离引信）、自定义每辆车携行的 M829/M830 数量，以及一系列默认关闭的“高级改装”选项：将非 IP 的 M1 转换为 M1E1、随机化 M1A1/E1 转换、在提前量修正时启用水平视线稳定、加入车长 CITV、为 M1A1 添加贫铀“脸颊”装甲、加装 M153 CROWS、以及不同的炮手热像设置；此外它还用不同开关组合来对应多种衍生型转换（如 M1A1HA/HC 的贫铀装甲代次、M1A2 的炮塔方位旋转与 CITV、M1A2 SEP 的更高代次 FLIR 或 CROWS 等）。"
@@ -116,8 +119,6 @@
       "VanillaAssetUtil"
     ],
     "Conflicts": [
-      "M1A1AMP",
-      "NATOERA",
       "M1A1CROWFIX"
     ]
   },
@@ -127,6 +128,7 @@
       "en-US": "M1A1 Abrams CROW FIX",
       "zh-CN": "M1A1艾布拉姆斯 遥控武器站修复版"
     },
+    "Author": "ATLAS, 我怕肾虚",
     "Description": {
       "en-US": "The M1A1 Abrams mod introduces the iconic US main battle tank M1A1, that converts all in‑game M1IPs into M1A1s fitted with the 120mm M256 and a default ammo load of M829 APFSDS‑T (22 rounds) plus M830 HEAT‑MP‑T (18 rounds with a shoulder fuze); it also adds config‑driven options such as alternate APFSDS rounds (M827, M829A1, M829A2), an alternate HEAT round (M830A1 with a proximity fuse toggleable via middle mouse), per‑vehicle customization of how many M829/M830 rounds are carried, and several advanced features disabled by default (non‑IP M1 → M1E1 conversion, randomized M1A1/E1 conversions, horizontal sight stabilization when applying lead, commander CITV, depleted‑uranium cheek armor for M1A1s, M153 CROWS, and different gunner thermal settings), plus preset conversion “profiles” mapping feature toggles to variants like M1A1HA/HC, M1A2, and M1A2 SEP (e.g., DU armor generation, azimuth rotation, CITV, higher‑gen FLIR or CROWS)..",
       "zh-CN": "M1A1模组为游戏加入了标志性的美军主战坦克 M1A1，把游戏内所有 M1IP 统一转换为配备 120mm M256 主炮的 M1A1，并默认装填 M829 APFSDS‑T（22 发）与 M830 HEAT‑MP‑T（18 发、带触发引信）；同时在模组配置里提供可选功能与细节定制，包括可切换的备用穿甲弹（M827、M829A1、M829A2）、备用破甲弹（M830A1，带可用鼠标中键开关的近炸/距离引信）、自定义每辆车携行的 M829/M830 数量，以及一系列默认关闭的“高级改装”选项：将非 IP 的 M1 转换为 M1E1、随机化 M1A1/E1 转换、在提前量修正时启用水平视线稳定、加入车长 CITV、为 M1A1 添加贫铀“脸颊”装甲、加装 M153 CROWS、以及不同的炮手热像设置；此外它还用不同开关组合来对应多种衍生型转换（如 M1A1HA/HC 的贫铀装甲代次、M1A2 的炮塔方位旋转与 CITV、M1A2 SEP 的更高代次 FLIR 或 CROWS 等）。"
@@ -149,8 +151,6 @@
       "VanillaAssetUtil"
     ],
     "Conflicts": [
-      "M1A1AMP",
-      "NATOERA",
       "M1A1"
     ]
   },
@@ -160,6 +160,7 @@
       "en-US": "M1A1 Abrams AMP WPSX Fix Version",
       "zh-CN": "M1A1艾布拉姆斯AMP 我怕肾虚修复版"
     },
+    "Author": "我怕肾虚",
     "Description": {
       "en-US": "This mod adds a fully configurable “Abrams Modernization Package” for M1-series vehicles (centered on the M1A1/M1E1): it introduces the XM1147 AMP-T multi‑purpose programmable round and a broad set of selectable ammo options (up to four ammo slots, 50 total rounds; default loadouts include M829A4/M830A2/XM1147/LAHAT), plus a 120mm M256 main gun with a new model and detailed fuzing/proximity logic for rounds like XM1147 and M830A1, including modeled anti‑ERA/tandem interactions; it also adds multiple switchable armor variants (Base/HA/HC/SA/HU, etc.) with corresponding weight changes, optional CITV, enhanced optics/FLIR/GAS, crew proficiency tuning, smoke-system upgrades, an APU, and hardware options like M153 CROWS II and a coax upgrade; finally, it offers extensive vehicle-dynamics tweaks (engine choices, upgraded 6F/3R transmission, suspension, tracks, governor delete for higher top speed, stability control).\n[THIS MOD IS NOT WORKING ON 20260319.1]",
       "zh-CN": "该模组为 M1 系列（以 M1A1/M1E1 为核心）加入“AMP（XM1147）多用途可编程弹”等一整套可配置升级：提供带新模型的 120mm M256 主炮、可选多种弹药并自定义装填（最多 4 个弹种槽位、总备弹上限 50，默认含 M829A4/M830A2/XM1147/LAHAT），实现 XM1147 的多引信/近炸与 M830A1 等弹种逻辑，并加入对反应装甲/双战斗部等“抗 ERA”效果的建模；同时提供可切换的多套“装甲变体”（基础/HA/HC/SA/HU 等）与随之变化的车重，配套可选 CITV、改进光学与热像、车组熟练度、烟幕系统升级、APU、以及 M153 CROWS II、同轴机枪升级等外观与火控附件；在机动方面还能选择发动机、增强变速箱（6 前进 3 倒档）、悬挂、履带、解除限速器、稳定控制等，使整车的防护、火力、感知与机动都能按偏好组合。\n[此模组在20260319.1版本无效]"
@@ -192,6 +193,7 @@
       "en-US": "Underdogs Enhanced",
       "zh-CN": "弱势载具增强"
     },
+    "Author": "RoyZ",
     "Description": {
       "en-US": "Underdogs Enhanced is a MelonLoader mod for equips underdog vehicles like BMP-1, Marder 1A2, BRDM-2, BTR-70, Leopard 1 series, and PT-76B with vector stabilizers, laser rangefinders, faster turret traverse, and improved gunner sights—bringing new life to vintage armor. ",
       "zh-CN": "弱势载具增强模组，通过为 BMP-1、Marder 1A2、BRDM-2、BTR-70、Leopard 1 系列和 PT-76B 等载具添加矢量稳定器、激光测距仪、转塔转速提升和瞄具变焦等功能，大幅提升这些\"弱势\"载具的作战能力，让老式装备焕发新生。"
@@ -223,6 +225,7 @@
       "en-US": "Stabilized BMP-1",
       "zh-CN": "BMP-1稳定器"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "Give BMP-1/1P stabilizer",
       "zh-CN": "给予BMP-1/1P双稳"
@@ -280,6 +283,7 @@
       "en-US": "Super M60",
       "zh-CN": "超级M60"
     },
+    "Author": "Cyances",
     "Description": {
       "en-US": "Super M60 is a WIP mod upgrading M60A1/A3 to hypothetical M60A4 standard, boosting armor (KE+60%, CE+80%), 1250HP engine, ammo (e.g., M900A1/2 APFSDS-T pen 550-580mm), Cupola HMG with LRF/stabilization, and optional elite crew. M60A3 adds GPS/FLIR; M60A1 keeps manual rangefinder but improved optics. Note: Cupola LRF works only on M60A3; full turret/hull armor due to model limits.",
       "zh-CN": "超级M60是一款将 M60A1 和 M60A3 升级为假想 M60A4 标准的模组，目前处于开发中（WIP）。它提升了装甲（KE+60%、CE+80%）、1250马力发动机、弹药性能（如 M900A1/2 APFSDS-T 穿深550-580mm）、Cupola 机枪 LRF/稳定系统，以及可选精英乘员。M60A3 获GPS/FLIR，M60A1 保留手动测距但改善光学；注意 Cupola LRF 仅 M60A3 有效，全塔/车体装甲强化为模型限制。"
@@ -438,7 +442,6 @@
     "Conflicts": [
       "50mm",
       "M6A2",
-      "NATOERA",
       "M6A2ROY",
       "50mmROY",
       "M8LOSAT"
@@ -474,7 +477,6 @@
     "Conflicts": [
       "M6A2",
       "M3A2",
-      "NATOERA",
       "50mm",
       "M6A2ROY",
       "M2ReSound",
@@ -509,7 +511,6 @@
     "Conflicts": [
       "M6A2",
       "M3A2",
-      "NATOERA",
       "50mmROY",
       "M6A2ROY",
       "M2ReSound",
@@ -524,6 +525,7 @@
       "en-US": "Fulda Expansion Modpack",
       "zh-CN": "富尔达拓展包"
     },
+    "Author": "ziron",
     "Description": {
       "en-US": "Breaking away from PIL enhanced, an expanded lineup of vehicles for Gunner HEAT, PC! This vehicle pack aims to add new vehicles to GHPC in order to emulate 1989 Fulda. \n\nSome vehicles may be present early as 1986, whilst others at the end of the 1980’s (like the ERA on the M60)\n\nAttributions/Credits\nATLAS and his mod, Pact Increased Lethality, for the ERA framework, & numerous assets used for the T64BV/AV/BVU.\n\nIn this fictional scenario, based on the original games' 1985 setting, instead of the cold war kicking off immediately both NATO and the USSR begin small skirmishes and proxies for the next few years, massively accelerating development of known tanks and implementations of previously scrapped technologies like Agava-1 Thermal imagers for the soviets, etc.",
       "zh-CN": "脱离PIL Enhanced模组，为《Gunner HEAT, PC》带来扩充版载具阵容！本载具包旨在为GHPC添加新载具，以还原1989年的富尔达战场。\n\n部分载具可能早至1986年便已出现，而另一些则出现在1980年代末（如M60坦克上的ERA装甲）。\n\n致谢/鸣谢\n感谢ATLAS及其模组《Pact Increased Lethality》，提供了ERA防护框架，以及用于T64BV/AV/BVU的众多资源。\n\n在这个基于原版游戏1985年背景的虚构情景中，冷战并未立即爆发，而是北约与苏联在接下来的几年里展开了一系列小规模交火和代理人战争，这极大地加速了已知坦克的研发，并促使此前被搁置的技术（如苏联的Agava-1热成像仪等）得以重新应用。"
@@ -546,7 +548,6 @@
       "VanillaAssetUtil"
     ],
     "Conflicts": [
-      "M1A1AMP",
       "ATAC"
     ]
   },
@@ -556,6 +557,7 @@
       "en-US": "M163 PIVADS",
       "zh-CN": "M163 PIVADS"
     },
+    "Author": "AIM",
     "Description": {
       "en-US": "Replaces the playable US M113 with the M163 PIVADS self-propelled anti-aircraft vehicle.\n\nFeatures\nComplete M163 vehicle model with olive-drab HD materials\nM168 20 mm six-barrel Vulcan cannon\nIndependent turret traverse, gun elevation and barrel rotation\nReplacement wheels bound to the original M113 suspension\nOriginal animated tracks, vehicle physics and collision retained\nFixed-size day and thermal gunner reticles with live range readout\nCustom weapon audio and ammunition configuration",
       "zh-CN": "将可操作的美国 M113 车辆替换为 M163 PIVADS 自行式防空车。\n\n\n完整的 M163 车辆模型，采用橄榄绿调色的优质材料制作而成。\n\nM168 20 毫米六管火炮\n\n独立的炮塔旋转功能、炮管升降以及炮管旋转功能\n\n这些替换车轮将被安装在原 M113 车辆的悬挂系统上。\n\n原有的动画音轨、车辆物理效果以及碰撞机制都得到了保留。\n\n具有实时距离显示功能的固定尺寸日视和热成像瞄准镜\n\n自定义武器音效和弹药配置"
@@ -585,6 +587,7 @@
       "en-US": "HMMWV LOSAT",
       "zh-CN": "悍马HMMWV LOSAT（超高速直瞄反坦克导弹）"
     },
+    "Author": "AIM",
     "Description": {
       "en-US": "HMMWV LOSAT / MGM-166 vehicle mod for Gunner, HEAT, PC! Replaces the native M151M232 / TOW vehicle.",
       "zh-CN": "替换M151M232 / TOW至HMMWV LOSAT"
@@ -613,6 +616,7 @@
       "en-US": "M113 TOW",
       "zh-CN": "M113 “陶”"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "This equips the M113 with the M220 launcher system and 10 BGM-71A TOW missiles, featuring longer reload times than TOW emplacements; the launcher lacks stabilization and thermal sights by default, with a 40% default appearance chance.",
       "zh-CN": "为M113步兵战车配备M220发射系统和10枚BGM-71A TOW导弹，重新装填时间长于固定TOW阵地；发射器默认无稳定功能，默认无热成像瞄具，默认40%出现概率。"
@@ -645,6 +649,7 @@
       "en-US": "M8 LOSAT",
       "zh-CN": "M8 LOSAT （超高速直瞄反坦克导弹）"
     },
+    "Author": "AIM",
     "Description": {
       "en-US": "M8 vehicle conversion for Gunner, HEAT, PC! Replaces stock M2 Bradley instances.\nE: auto-lock targets\nBackspace: clear all locks\nMiddle mouse: lock a single target\nTube status: R ready, E empty, X damaged; F indicates sight failure.",
       "zh-CN": "将M2布雷德利替换为M8 LOSAT\nE：自动锁定目标  \nBackspace：清除所有锁定状态  \n鼠标中键：锁定单个目标  \n状态：R表示已准备就绪，E表示为空，X表示已损坏；F表示视线受阻。"
@@ -703,6 +708,7 @@
       "en-US": "NATO ERA WPSX Fix Version",
       "zh-CN": "北约爆反 我怕肾虚修复版"
     },
+    "Author": "我怕肾虚",
     "Description": {
       "en-US": "NATO ERA adds configurable Explosive Reactive Armor (ERA) to M1/IP Abrams and M2 Bradley, with customizable arrangement, performance, color (to match custom skins), and optional weight penalty. Compatible with vanilla Abrams, M1A1 Abrams v1.1.4+, M1A1 Abrams AMP v2.3.3+, 50mm Bradley, M3A2 Bradley, and M6A2 ADATS mods; only models ARAT-1, BRAT M3, and M5 bricks for performance optimization (no triangular M4 bricks). Special thanks to thebeninator for coding and 3D modeling advice; contact author for custom texture model files, ARAT-1 weighs 29.48KG per tile (rounded).[THIS MOD IS NOT WORKING ON 20260319.1]",
       "zh-CN": "北约爆反为 M1/IP Abrams 和 M2 Bradley 添加可配置的爆炸反应装甲（ERA），支持自定义排列、性能、颜色（适配自定义皮肤）和可选重量惩罚。兼容原版 Abrams、M1A1 Abrams v1.1.4+、M1A1 Abrams AMP v2.3.3+、50mm Bradley、M3A2 Bradley 和 M6A2 ADATS 模组，仅建模 ARAT-1、BRAT M3 和 M5 砖块以优化性能（未包含三角形 M4 砖块）。特别感谢 thebeninator 提供的编码和 3D 建模指导；如需自定义纹理模型文件可联系作者，ARAT-1 每块重 29.48KG（四舍五入）。[此模组在20260319.1版本无效]"
@@ -723,11 +729,39 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "T90A",
+    "Name": {
+      "en-US": "T-90A",
+      "zh-CN": "T-90A"
+    },
+    "Author": "marsattackk",
+    "Description": {
+      "en-US": "The Russian T-90A main battle tank as its own unit in GHPC, built to be as close to the real tank as the game allows.",
+      "zh-CN": "俄罗斯T-90A主战坦克作为GHPC游戏中的独立单位出现。这款坦克的设计目标是尽可能贴近真实坦克的外观和性能。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/marsattackk/GHPC-T90A/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "T90A.dll",
+    "ConfigSectionName": "T-90A",
+    "InstallMethod": "DirectRelease",
+    "RequiredManagerVersion": "1.3.11"
+  },
+  {
     "Id": "CLeopards",
     "Name": {
       "en-US": "Canadian Leopards",
       "zh-CN": "加拿大 Leopard C1"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "This mod overhauls the various German Leopard 1 variants in-game to represent Canadian Leopard C1s serving with the 4th Canadian Mechanized Brigade Group at CFB Lahr. It features an approximation of the SABCA Cobelda fire control system, including laser rangefinding and automatic lead calculation, enforces use of the PZB-200 night sight, replaces the MG3 with the C6 machine gun, and swaps German markings and crew voices for Canadian-style visual details and English audio. The mod also includes multiple ammunition and cosmetic options, allowing players to choose between historical Canadian, American, or default German loadouts, along with alternate paint schemes, camouflage settings, callsigns, maple leaf markings, tactical symbols, and load classification numbers for a more authentic Cold War-era Canadian Leopard C1 presentation.",
       "zh-CN": "本模组将游戏中的各型德制 Leopard 1 主战坦克全面重制为驻扎于拉尔加拿大空军基地、隶属加拿大第4机械化旅群的加拿大 Leopard C1。内容包括以 SABCA Cobelda 火控系统为蓝本的瞄准设备、激光测距与自动提前量计算、强制使用 PZB-200 夜视仪、将 MG3 更换为 C6 机枪，以及替换涂装、编号、战术标识与英文车组语音。模组还提供多种弹药与外观选项，包括更贴近加拿大陆军历史编制的弹种搭配、不同车体底色、三色迷彩开关，以及枫叶、呼号、战术符号和载重等级标识等细节调整，力求还原冷战时期加拿大装甲部队的 Leopard C1 风貌。"
@@ -756,6 +790,7 @@
       "en-US": "Accurate BMP2",
       "zh-CN": "BMP2散布降低"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "Makes the BMP2 main gun as accurate as the Bradley's.",
       "zh-CN": "大大降低BMP2机炮散布。"
@@ -780,6 +815,7 @@
       "en-US": "BlackGearFNI's Weapon Sound Replacement Mod",
       "zh-CN": "BlackGearFN的枪炮音效改进模组"
     },
+    "Author": "BlackGearFNI",
     "Description": {
       "en-US": "This mod replaces the weapon sounds of most in-game vehicles.This mod is still in the testing stage, so minor bugs may occur. \nTo resolve compatibility issues, this sound mod has been exported using a new encoding method, which has significantly increased its file size (from 20MB to 140MB)\nCheck more info at https://discord.com/channels/500496986865139712/1463838278603243593",
       "zh-CN": "通过替换文件的方式进行游戏音效替换，参见：https://www.bilibili.com/video/BV1MyzHBgEaY/，注意此文件较大（20MB提升至140MB），且在游戏更新或检查完整性后可能需要重新安装"
@@ -807,6 +843,7 @@
       "en-US": "M2 Bradley Sound Replacement",
       "zh-CN": "M2布雷德利声音替换"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "Replace M2 Bradley Sound",
       "zh-CN": "替换M2布雷德利的音效"
@@ -839,6 +876,7 @@
       "en-US": "Voice Changer",
       "zh-CN": "乘员语音修改器"
     },
+    "Author": "FAJAgaming",
     "Description": {
       "en-US": "Overview\n\nVoiceChanger is a GHPC mod that lets each vehicle use either a built-in voice protocol or a custom voice pack.\nThe mod automatically checks the player’s current vehicle and applies the matching voice setting from the config.\n\nDescription\n\nIt supports two main modes: switching a vehicle to one of the built-in protocols, Russian, German, or American, or assigning a custom voice pack folder by name.\nCustom voice packs are placed in Mods/VoiceChanger/, and the mod matches .wav or .ogg files by action name, with optional state folders such as regular, combat, panicked, and calm.\n\nConfig Notes\n\nAll vehicle voice settings are managed through the [GHPCVoiceChanger] section in UserData/MelonPreferences.cfg, which is also consistent with how GHPC MelonLoader mods commonly store configurable options.\n\nFor example, M1 = \"American\" makes the M1 use the built-in American protocol, while M1 = \"MyVoicePack\" makes it use a custom pack named MyVoicePack.\nEach vehicle also has a VehicleName_MixedVoicelines option, such as M1_MixedVoicelines = true.\n\nVoice Behavior\n\nWhen MixedVoicelines is set to true, any missing custom lines will fall back to the vanilla voice lines.\nWhen it is set to false, only custom lines will play, and missing lines will remain silent.\nYou can also provide multiple variations for one action, such as ontheway.wav, ontheway_1.wav, and ontheway_2.wav, and the mod will choose one at random.\n\nNotes\n\nThe mod refreshes the active voice setup when the scene initializes or when the player changes vehicle.\nIf a vehicle key in the config is not recognized, that replacement will be skipped.\nFor vehicles that do not use a custom pack, the mod switches their voice protocol to the configured Russian, German, or American crew style.",
       "zh-CN": "VoiceChanger 是一个用于 GHPC 的车组语音替换模组，可为不同载具切换内置语音协议，或加载自定义语音包。\n模组会根据当前玩家所操控的载具，自动读取配置并应用对应语音设置。\n内容说明\n模组支持两种用法：一种是把载具语音切换为 Russian、German、American 这三种内置语音协议，另一种是指定一个自定义语音包文件夹名称来播放自定义语音。\n自定义语音包放在 Mods/VoiceChanger/ 下，模组会按语音动作名称匹配 .wav 或 .ogg 文件，并支持 regular、combat、panicked、calm 等状态子文件夹。\n\n配置说明\n所有载具语音设置都通过配置段管理\n例如 M1 = \"American\" 表示 M1 使用美式内置语音，M1 = \"MyVoicePack\" 表示 M1 使用名为 MyVoicePack 的自定义语音包。\n每台载具还带有一个 载具名_MixedVoicelines 开关，例如 M1_MixedVoicelines = true。\n\n语音规则\n当 混合语音 启用时 时，未被自定义语音包覆盖的语音会回退到原版语音。\n当 混合语音 未启用，只播放自定义语音，缺失的语音不会自动补原版。\n同一动作可以放入多个同名变体文件，例如 ontheway.wav、ontheway_1.wav、ontheway_2.wav，播放时会随机选取。\n\n补充说明\n模组会在切换玩家载具或场景初始化后自动刷新当前生效的语音配置。\n如果配置中的载具键名无法识别，模组不会应用对应替换，并会跳过该载具。\n对于未使用自定义语音包的载具，模组会按配置把其语音协议改为俄语、德语或美语对应的车组流程。"
@@ -868,6 +906,7 @@
       "en-US": "Music Controller",
       "zh-CN": "音乐控制器"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "Choose between any of the 6 in-game battle music tracks in GHPC to play all the time, or play your own music in Gunner HEAT PC!\nDue to how Broken Arrow and Not One Step Back are accessed by the game, if you want to play them, you need to download the zip from the github\nBin/\n├── Mods/\n│   ├── GHPC_Music_Controller.dll\n│   └── Music_Controller_Assets/\n│       └── Broken Arrow_L1.ogg\n└── GHPC.Exe",
       "zh-CN": "在 GHPC 中选择任意 6 首游戏内战斗音乐曲目持续播放，或者在 Gunner HEAT PC 中播放你自己的音乐！\n于游戏访问《Broken Arrow》和《Not One Step Back》的方式，这两个曲子需要从github下载资源包并放置\nBin/\n├── Mods/\n│   ├── GHPC_Music_Controller.dll\n│   └── Music_Controller_Assets/\n│       └── Broken Arrow_L1.ogg\n└── GHPC.Exe"
@@ -893,6 +932,7 @@
       "en-US": "NVA Voice Patch",
       "zh-CN": "人民军条令+语音补丁"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "This mod firstly forces the commander to designate the desired ammunition instead of whatever is currently loaded when using \"manual\" or \"doctrinal\" loading, for both Soviet and East German crews. Secondly, the mod moves the \"Schuß\" voice line spoken by East-German tank commanders to the gunner, which was the callout the gunner made when firing (subtitled as \"on the way!\") and not a command to fire. The associated subtitles are modified to correspond logically. Bundeswehr gunners still call out \"achtung\" when firing. Commanders of both armies always say \"feuer\" and never \"Schuß\" as the executive command.",
       "zh-CN": "这个模组首先会强制车长在使用“手动”或“条令”装填时，先明确指定所需弹种，而不是默认装填当前已经装上的弹药；这一改动同时适用于苏军和东德车组。\n其次，该模组将东德坦克车长所说的“Schuß”语音移交给炮手，因为这句话本来就是炮手在开火时的报话（字幕可理解为“出膛！”或“发射！”），而不是下达开火命令。与之对应的字幕也做了调整，使逻辑更加合理。联邦德国国防军的炮手在开火时仍然会喊“achtung”。两支军队的车长都会始终使用“feuer”作为最终开火命令，而不会说“Schuß”。"
@@ -917,6 +957,7 @@
       "en-US": "Weather & Time Control",
       "zh-CN": "天气与时间控制"
     },
+    "Author": "RoyZ",
     "Description": {
       "en-US": "A comprehensive weather control mod for Gunner, HEAT, PC! that allows real-time manipulation of weather conditions, sky lighting, and dynamic weather systems.Support always sunny options.",
       "zh-CN": "为 GHPC开发的综合天气控制模组，支持实时调整天气状况、天空光照和动态天气系统。支持永远晴天选项。"
@@ -942,6 +983,7 @@
       "en-US": "M2/BMP2 Fire Rate Toggle(Press B)",
       "zh-CN": "B键M2/BMP2射速切换"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "Toggle Fire Rate for M2/BMP2, press B to switch.",
       "zh-CN": "M2/BMP2射速切换,B键生效。"
@@ -970,6 +1012,7 @@
       "en-US": "Bino Aim",
       "zh-CN": "车长超控瞄准放大限制解除"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "Allows turret traversal while using binoculars,can be configured to allow shooting while using binoculars (disabled by default)",
       "zh-CN": "允许在使用双筒望远镜时进行炮塔转动，可配置为允许在使用双筒望远镜时射击（默认禁用）"
@@ -995,6 +1038,7 @@
       "en-US": "Fast Restock",
       "zh-CN": "快速搬弹"
     },
+    "Author": "lucaspevidor",
     "Description": {
       "en-US": "This mod applies a runtime patch (using Harmony) to the game's internal LoadoutManager logic, significantly reducing the wait time for player weapon resupply and making the pace of battle more fluid. By default, it reduces the resupply time to just 50 milliseconds (0.05 seconds). This applies only to players and does not affect AI units.",
       "zh-CN": "该模组通过对游戏内部 LoadoutManager 逻辑进行运行时补丁（使用 Harmony），大幅缩短玩家武器补给的等待时间，让战场节奏更加流畅。 默认将补给时间压缩至仅 50 毫秒（0.05 秒），仅对玩家生效，不影响 AI 单位"
@@ -1020,6 +1064,7 @@
       "en-US": "LoadoutManager",
       "zh-CN": "弹药架管理器"
     },
+    "Author": "RoyZ",
     "Description": {
       "en-US": "A MelonLoader mod allows players to customize ammo loadout distribution across ammo racks.\n\nFeatures\nAmmo Rack Editor: Customize the distribution of each ammo type across different ammo racks\nAutocannon Feed Support: Adjust the composition of loaded ammo belts for autocannon weapons\nChambered Ammo Selection: Choose which ammo type is loaded in the chamber\nDual Language Support: English and Chinese UI\nTotal Ammo Limit Option: Limit editable ammo to the vehicle's current total (free distribution under fixed total)\nPreset System: Save and load ammo configurations for each vehicle\n\nHow to Use\nEnter any vehicle with weapons\nThe loadout editor window will appear automatically ONCE\nAdjust ammo distribution using sliders:\nSet the count for each ammo type in each rack\nUse \"Fill\" button to fill a rack with one ammo type exclusively\nUse \"Clear\" button to remove all ammo of that type from the rack\nSelect chambered ammo type at the bottom\nClick \"Apply\" to save changes\n\nNotes for Autocannon Vehicles\nRack 0 represents the ready-to-fire ammo on the feed (ammo box)\nFor autocannon vehicles, Rack 0 is hidden by default since it's not a standard ammo rack\nYou can adjust the loaded belt composition in the \"Loaded Ammo\" section\nThe total loaded rounds are fixed - adjusting one ammo type will rebalance others\n\nUsing Presets\n\nConfigure your desired ammo distribution\nEnter a name in the preset text field and click \"Save\" to save the current configuration\nUse the dropdown to select a previously saved preset\nClick \"Load\" to apply the selected preset\nClick \"Delete\" to remove the selected preset\nPresets are saved per vehicle type in `UserData/GHPCLoadout/`.",
       "zh-CN": "允许玩家自定义弹药架上的弹药数量分布。\n功能\n弹药架编辑器：自定义各类型弹药在不同弹药架上的分布\n机炮供弹支持：调整机炮武器已装填弹链中的弹药组成\n膛内弹药选择：选择装填入膛的弹药类型\n双语支持：支持英文和中文界面\n弹药总量限制选项：限制可编辑弹药总数为打开UI瞬间该载具当前弹药总数（在固定总量下自由分配）\n预设配置系统：为每辆载具保存和加载弹药配置\n\n使用方法\n进入任意搭载武器的载具\n弹药配置窗口会自动弹出一次\n使用滑块调整弹药分布：\n设置各弹药架上各类型弹药的数量\n使用\"填满\"按钮将弹药架全部填满某一类型弹药\n使用\"清空\"按钮清空该类型弹药\n在底部选择膛内弹药类型\n点击\"应用\"保存更改\n\n机炮载具说明\nRack 0 代表供弹接口架上的待发弹药（弹药箱）\n机炮载具默认隐藏 Rack 0，因为它不是常规弹药架\n可以在\"已装填弹药\"区域调整弹链组成\n已装填弹药总数是固定的，调整某一类型会自动重新平衡其他类型\n\n使用预设配置\n配置好想要的弹药分布\n在预设文本框中输入名称，点击\"保存\"保存当前配置\n使用下拉框选择之前保存的预设\n点击\"加载\"应用选中的预设\n点击\"删除\"移除选中的预设\n预设按载具类型保存在 `UserData/GHPCLoadout/` 目录中。"
@@ -1045,6 +1090,7 @@
       "en-US": "Ammo Upgrade Pack",
       "zh-CN": "弹药升级拓展包"
     },
+    "Author": "aeiou",
     "Description": {
       "en-US": "LEOPARD 2s:DM33, DM53\nM1/M1IP:M900,M60s:M900\nLEOPARD 1:105mm DM33\nT-62:3BM36",
       "zh-CN": "LEOPARD 2s:DM33, DM53\nM1/M1IP:M900,M60s:M900\nLEOPARD 1:105mm DM33\nT-62:3BM36"
@@ -1073,6 +1119,7 @@
       "en-US": "Soviet HE-Frag variable fuses",
       "zh-CN": "苏系高爆可变引信"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "This mod adds selectable fuse behavior to Soviet HE-Frag rounds on multiple tanks and IFVs, addressing the issue where only the T-55’s OF-412 shell has delayed fuse functionality in the base game.  \nHistorically, many Soviet HE-Frag rounds featured adjustable fuses and removable nose caps, allowing crews to configure the shell for different target types.  \nThis mod brings that flexibility to more vehicles, making HE-Frag ammunition more realistic and more useful against infantry, fortifications, and lightly armored targets.\n\nBy default, compatible HE-Frag rounds receive a \\(0.027\\) second delay. Players can also switch the shell to an uncapped extra-sensitive mode or a longer delayed fuse mode during gameplay.\n\nHow to Use\nWhen an HE-Frag round is loaded, use the following keys to change fuse settings:\n- Comma key \\([<,]\\): remove the nose cap and switch to extra-sensitive fragmentation mode.\n- Period key \\([>.]\\): switch to \\(0.063\\) second delayed fuse mode.\n\nAn empty slot in the ready rack or autoloader carousel is required, since the gun must unload and reload the round to simulate the time needed to adjust the fuse.  \nAfter reloading, press the same key again to revert the setting if needed.  \nThe bottom-left GUI will show the shell status with one of the following suffixes:\n\n- capped\n- uncapped\n- delayed\n\n### Supported Vehicles\n\nFull HE-Frag fuse functionality is available for:T-54/55,T-62,T-72 series,T-64,T-80B\n\nThe following vehicles can only toggle the nose cap and do not support adjustable fuse delay:BMP-1,PT-76B\n\n### Gameplay Effect\nEach fuse setting changes how the shell behaves:\n- Uncapped mode is more sensitive and better suited for fragmentation effects against exposed or soft targets.\n- Capped mode improves performance against light armor and light cover.\n- Delayed mode is useful for firing through obstacles, walls, or into lightly armored vehicles, though it may overpenetrate very light targets and detonate behind them.\n\n### Known Issues\n- On the T-62 and T-72, changing fuse settings may still show a spent casing being ejected. This is only a visual issue.\n- In X-ray mode (O key), the ready rack or carousel may appear to gain a round during unloading, but the player’s actual ammunition count remains unchanged.",
       "zh-CN": "本模组为多种苏联系坦克与步战车的 HE 破片弹加入了可切换的引信工作模式，修正了原版中仅有 T-55 的 OF-412 具备延期引信效果的问题。\n在历史上，这类苏联 HE-Frag 弹通常带有可调引信和可拆卸保护帽，因此可以根据目标类型在不同起爆模式之间切换。\n本模组将这一机制扩展到更多车辆，使 HE 破片弹在对付步兵、掩体和轻装甲目标时拥有更真实的表现。\n默认情况下，其他适用 HE 破片弹也会获得0.027秒延期效果。玩家还可以在战斗中手动切换为“去帽超敏感”或“长延期”模式，以适应不同战场环境。\n使用说明\n当 HE 破片弹装填后，可使用以下按键调整引信状态：\n逗号键[<,]：拆除保护帽，切换为超敏感“破片”模式。\n句号键[>.]：切换为 0.063秒延期引信模式。\n\n切换时需要待发弹架或自动装弹机转盘中有一个空位，因为系统会先将炮弹卸下，再重新装填，以模拟调整引信所需时间。\n调整完成后，可再次按对应按键恢复原状态。\n界面左下角会显示当前弹药状态后缀：\ncapped：带帽\nuncapped：去帽\ndelayed：延期\n\n适用载具\n完整支持以下载具的 HE 破片弹：T-54/55、T-62、各型 T-72、T-64、T-80B\n以下载具仅支持保护帽切换，不支持可调延期引信：BMP-1、PT-76B\n\n效果说明\n不同引信模式会显著影响 HE 弹的杀伤方式：\n去帽模式更敏感，适合对无遮蔽物或软目标实施破片杀伤。\n带帽模式可增强穿过轻型装甲或轻度障碍后的起爆能力。\n延期模式适合攻击墙体、工事或部分轻装甲车辆，但对极轻目标时可能发生过穿，在目标后方爆炸。\n\n已知问题\n切换引信状态时，T-62 和 T-72 仍可能显示抛出空弹壳，这是纯视觉问题。\n开启 X 光模式（O 键）时，可以看到卸弹过程中待发弹架或转盘中多出一发炮弹，但玩家实际弹药总数不会变化。"
@@ -1097,6 +1144,7 @@
       "en-US": "Faster Ballistics Indexing",
       "zh-CN": "快速弹道切换"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "Inspired by a suggestion in the feedback for “Make sight change quicker for e…”, this small mod changes when the fire control system switches the selected ammunition. Instead of updating at the end of the reload sequence, it now switches at the beginning.\nThis allows you to place the crosshair on target and fire the moment the gun is ready, with no more unexpected ammo changes.",
       "zh-CN": "本模组灵感来自 “Make sight change quicker for e…” 反馈中的一条建议。它对火控系统切换当前弹种的时机进行了一个简单调整：不再在装填流程结束时切换，而是在装填开始时就完成切换。\n这样一来，你可以提前将准星对准目标，并在火炮装填完成后立即开火，不会再遇到弹种突然变化的情况。"
@@ -1121,6 +1169,7 @@
       "en-US": "Pact Night Sight Illumination",
       "zh-CN": "华约夜视仪分化点亮"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "This mod allows the player to toggle reticle illumination in the TPN-1 series of night sights, just like the day sights, using the [I] key by default. This will apply to the T-54/55, T-62, T-64 and T-72 variants.",
       "zh-CN": "此模组允许玩家通过默认的 [I] 键，在 TPN-1 系列夜视瞄准镜中切换瞄准点照明功能，其操作方式与日间瞄准镜相同。此功能适用于 T-54/55、T-62、T-64 和 T-72 的各型号。"
@@ -1145,6 +1194,7 @@
       "en-US": "Squad Leaders",
       "zh-CN": "步兵小队长&班长标识"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "A mod for Gunner Heat PC! that cosmetically distinguishes squad/section leaders from other infantry For compatibility with the Soviet uniform tweaks mod and the Canadian Leopards mod, there are options in the config file for choosing which style of shoulder-straps Soviet squadleaders should have, and to enable Canadian squadleaders (if you don't enable this, you'll get Bundeswehr Heer NCOs running around in Canadian squads!)",
       "zh-CN": "这个MOD能够直观地区分 Squad/Section 领导角色与其他步兵角色。为了与苏联军团的制服风格保持一致，在配置文件中提供了选项，可以选择苏联部队的肩带应采用哪种样式。此外，还可以启用加拿大风格的肩带样式（如果不启用此选项，那么联邦国防军的士官们就会穿着加拿大军队的制服行动！）"
@@ -1169,6 +1219,7 @@
       "en-US": "Soviet Airborne - VDV Skin",
       "zh-CN": "苏军VDV皮肤"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "This mod converts the Soviet motor-rifle infantry into the airborne or air-mobile forces, distinguished by sky blue facings, open collars with stripped undershirts on display, branch patches on the left sleeve, and a distinctive blue beret worn instead of a helmet or garrison cap. Their rifles will also be converted into the AKS-74, with a skeletal metal folding stock in place of the solid wood of the AK-74. Configuration options allow you to disable the beret (restoring steel helmets as seen in the 4th screenshot), the AKS-74 (restoring wooden stocks) and armpatches if you wish, as well as silencing the console log messages.\n\nRegarding why VDV forces (or more technically the air-assault units of the ground forces) are operating in the vicinity of Fulda alongside the first or second wave of mechanized forces, we have to use our imaginations a little and say that the 900th Independent Air-Assault Battalion attached to the 8th Guards Army were cautiously deployed for some short-term objective in the close rear and ground forces have now caught up with them, and it's more prudent for them to fill gaps in the line as infantry than to attempt another aerial manoeuvre at this time. The situation is developing by the hour and flexibility is key for any light infantry commander. As for the lack of BMDs... uhh, they were all lost in the drop, sorry. You'll have to hitch a ride on the BMPs and BTRs so generously provided by our comrades in the 39th MRD.\n\nKnown Issues\n-Subtle lighting errors created by seams in the mesh which cannot (yet?) be resolved due to the extraction-importation method for a SkinnedMeshRenderer.",
       "zh-CN": "该模组将苏联摩托化步兵改造成空降部队或空运部队，其特征包括：天蓝色镶边、敞开的领口露出条纹内衣、左袖上的兵种徽章，以及取代钢盔或驻地帽的标志性蓝色贝雷帽。他们的步枪也将被替换为AKS-74，采用金属镂空折叠枪托，取代了AK-74的实心木制枪托。配置选项允许您根据需要禁用贝雷帽（恢复第四张截图中所示的钢盔）、AKS-74（恢复木制枪托）和腋下补丁，以及关闭控制台日志消息。\n\n关于为何空降兵部队（或更准确地说，陆军的空降突击部队）会与第一或第二波机械化部队一同在富尔达附近行动， 我们需要稍加发挥想象：隶属于第8近卫军的第900独立空降营曾为完成某项短期任务而在近后方谨慎部署，如今地面部队已追上他们，此时以步兵身份填补战线空缺，比尝试再次实施空降行动更为稳妥。局势每小时都在变化，对任何轻步兵指挥官来说，灵活性都是关键。至于缺乏步兵战车……呃，它们在空降时全都损失了，抱歉。你们只能搭乘第39机械化步兵师的战友们慷慨提供的BMP和BTR了。\n已知问题\n- 由于 SkinnedMeshRenderer 的提取-导入方法，网格接缝处会产生细微的光照错误，目前（尚）无法解决。"
@@ -1194,6 +1245,7 @@
       "en-US": "Pact Azimuth Indicator",
       "zh-CN": "华约坦克方向指示"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "This mod augments the HUD in the lower-left to indicate the precise turret orientation in Warsaw Pact miliradians (6000ths of a circle), as would appear on the gunner's azimuth indicator (ie. the turret clock). Likewise, the pictogram is replaced with a clock-face design showing 500mil intervals - the same positions that the Soviet tank commander uses when calling out targets.",
       "zh-CN": "该模组增强了左下角的HUD显示，以华沙条约的军用弧度（1圈的6000分之一）为单位，精确显示炮塔方位，这与炮手方位指示器（即炮塔时钟）上的显示方式一致。同样，原有的图标也被替换为带有500mil刻度的钟面设计——这与苏联坦克车长在呼叫目标时所使用的方位标记完全一致。"
@@ -1218,6 +1270,7 @@
       "en-US": "Pact Green Tracers",
       "zh-CN": "华约机枪绿色曳光"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "A simple GHPC mod that changes the colour of Warsaw Pact machine-gun tracers in 7.62x54R and 12.7x108mm from red to green.",
       "zh-CN": "将华约7.62x54R 以及 12.7x108mm曳光弹改为绿色"
@@ -1240,6 +1293,7 @@
       "en-US": "Customizable Tracers",
       "zh-CN": "自定义曳光颜色"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "A GHPC mod that allows the user to differentiate NATO and Warsaw Pact small-calibre tracers by colour, and to customize the RGB values of both through the MelonLoader config file. By default, the mod assigns red to NATO and green to Pact forces.\nThe frequency of tracers in the belt can also be changed, the default value of 5 signifies one tracer in every 5 rounds. Assigning 10, for example, will make tracers half as common, but a value of 0 will eliminate tracers altogether.",
       "zh-CN": "用户可以通过颜色来区分北约和华沙条约组织的曳光弹，并且可以通过配置自定义两者的RGB值。默认情况下，该模组将红色分配给北约曳光弹，绿色分配给华约曳光弹。此外，还可以改变曳光弹的出现频率，默认值为5表示每5发子弹会出现一个曳光弹。例如，设置为10则会使曳光弹出现频率减半，而设置为0则会使曳光弹完全消失。"
@@ -1265,6 +1319,7 @@
       "en-US": "Unrestricted Customizer",
       "zh-CN": "无限制自定义"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "Unrestricted Mission Custom menu",
       "zh-CN": "为任务自定义菜单开放所有单位"
@@ -1289,6 +1344,7 @@
       "en-US": "Ammo UI Extended",
       "zh-CN": "弹药HUD增强"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "Your ammo UI will now show (X+Y+Z), where X is the amount of rounds in your current clip/breech, Y is the amount of rounds in your ready rack, and Z is the amount of rounds you have in storage. This can be useful in determining how much ammo you have in total to work with.",
       "zh-CN": "弹药界面现在将显示 (X+Y+Z)，其中 X 代表当前炮膛内的弹药数量，Y 代表备用弹架中的弹药数量，Z 代表库存中的弹药数量。这有助于判断您总共拥有多少可用弹药。"
@@ -1313,6 +1369,7 @@
       "en-US": "Hard Mode",
       "zh-CN": "困难模式"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "Version 1.0 of GHPC Hard Mode Adds additional enemies to base game maps. Currently only supports Patton Pass and Abrams Alley.\nKnown Bugs:\nEnemies not required to be killed to finish mission.",
       "zh-CN": "GHPC 困难模式 1.0 版本为基础游戏地图增加了额外的敌人。目前仅支持 Patton Pass巴顿通道和 Abrams Alley艾布拉姆斯小巷。\n已知问题：\n无需击杀敌人即可完成任务。"
@@ -1344,6 +1401,7 @@
       "en-US": "Arcade Mode",
       "zh-CN": "血条模式"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "Vehicles now have HP bars and shells do damage instead of destroying internal components. Like in World of Tanks, you penetrate the fighting compartment to do damage to tanks (with RNG of -/+ 10% base damage). Track and barrels are only temporarily destroyed now; they are repaired after 10 seconds. You can see your own HP value in the bottom left. The game is a lot more forgiving now, since you generally won’t die in one hit and can react to an ambush. However some engagements which were trivial before may become challenging. Larger shells and larger payloads (HEAT vs APFSDS mainly) do more hit point damage. A list of HP and Damage values can be found in the readme of the github. This mod is still work in progress. Adding HP bars and other ways to indicate penetration above vehicles in 3d space is currently being developed, as will HE's impact on vehicle damage. If there is enough interest, I will add a way to customize damage/HP values. This can still be easily done if you are willing to build the mod yourself after tweaking some values. I plan on fine there damage values going forward as There may be some missions where you do not have enough ammo to kill all the enemy vehicles.",
       "zh-CN": "车辆现在拥有生命值条，炮弹会造成伤害，而非直接摧毁内部组件。如同《坦克世界》一样，炮弹穿透战斗舱后会对坦克造成伤害（基础伤害存在±10%的随机波动）。履带和炮管现在仅会暂时损毁；10秒后即可修复。您可以在屏幕左下角查看自身的生命值。 游戏现在更加宽容，因为你通常不会被一击击毁，并且能够对伏击做出反应。不过，一些以前轻而易举的交战现在可能会变得具有挑战性。 更大口径的炮弹和更高装药量（主要是高爆反装甲弹 vs 穿甲弹）会造成更多的生命值伤害。生命值和伤害值的列表可在 GitHub 的自述文件中找到。 该模组仍在开发中。目前正在开发HP条以及在3D空间中显示车辆上方穿透效果的其他方式，同时也会加入高爆弹（HE）对车辆伤害的影响。 如果兴趣足够大，我会添加自定义伤害/生命值的功能。当然，如果你愿意自己调整一些数值后构建模组，这仍然可以轻松实现。 我计划今后进一步微调伤害数值，因为在某些任务中，你的弹药可能不足以摧毁所有敌方载具。 "
@@ -1368,6 +1426,7 @@
       "en-US": "Guaranteed Camo Nets",
       "zh-CN": "强制伪装网"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "Guaranteed Camo Nets is a mod that ensures camo nets always spawn on supported vehicles and that every available camo net on the vehicle appears correctly. In UserData/MelonLoaderPreferences.cfg, players can choose which vehicles are guaranteed to receive camo nets by setting them to True or False; when set to False, camo nets will never spawn on that vehicle. If a vehicle does not appear in the config file, it usually means that it cannot mount camo nets. If you find a vehicle that can use camo nets but is missing from the config, please report it in Issues.",
       "zh-CN": "本模组可确保伪装网在对应载具上始终生成，并保证该载具所有可用的伪装网都会完整出现。玩家还可以在 UserData/MelonLoaderPreferences.cfg 中将各载具设置为 True 或 False，自由决定哪些载具必定生成伪装网；若设为 False，则该载具将完全不会生成伪装网。若某辆载具未出现在配置文件中，通常表示它无法安装伪装网；如果你发现某辆能够生成伪装网的载具却未被列入配置文件，可前往 Issues 反馈。"
@@ -1393,6 +1452,7 @@
       "en-US": "Custom Fire Support",
       "zh-CN": "自定义火力支援"
     },
+    "Author": "我怕肾虚",
     "Description": {
       "en-US": "The mod puts 6 configurable slots on the mission map's fire-support panel.",
       "zh-CN": "可自定义任务地图中火力支援的各类参数"
@@ -1449,6 +1509,7 @@
       "en-US": "Crew Panic Customizer",
       "zh-CN": "载具成员紧张度"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "This mods your crew to remain permanently panicked, permanently chill, and has the option to enable vanilla gameplay in the configuration without disabling the mod itself.",
       "zh-CN": "保持乘员时刻为紧张状态，可通过配置关闭 "
@@ -1474,6 +1535,7 @@
       "en-US": "Chat Rework",
       "zh-CN": "消息增强"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "Changes the platoon chat. Now teammates will call out target name and direction.",
       "zh-CN": "现在排内报点将包含敌方车辆型号信息"
@@ -1499,6 +1561,7 @@
       "en-US": "Luchs in showcase",
       "zh-CN": "试车场添加山猫"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "Puts a luchs a2 in the showcase map. Will probably be deprecated in a week, but if anyone wants to test its armor out, here you go",
       "zh-CN": "为试车场添加山猫A2"
@@ -1524,6 +1587,7 @@
       "en-US": "Exclude Autocannon AAR (F7)",
       "zh-CN": "后效分析排除机炮(F7)"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "Tired of hundreds of autocannon rounds clogging up your AAR with no way to get rid of them? This mod allows you to disable viewing them with F7.\nWorks with ATLAS's 50mm bradley mod (excludes those shots)",
       "zh-CN": "是否厌倦了数百发机炮堵塞你的战后报告（AAR），却又无从清除？这个模组允许你通过按F7键禁用显示这些炮弹。\n兼容ATLAS的M2布雷德利模组（不包括该模组中的50mm炮弹）"
@@ -1548,6 +1612,7 @@
       "en-US": "Improved AI",
       "zh-CN": "AI增强"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "This mod tweaks the AI to engage enemies more sensibly in combat. It also provides a suite of commands you can issue to your platoon to better prepare for engagements.\n\nWhen AI units ingame see a target, most of them never turn to engage the enemy with their front armor, instead remaining on their original heading. This means flanking the enemy is often an easy win, since the AI never uses their front armor in such a situation.\nNow, AI units (outside of your platoon's units) will face their front armor towards enemies and also stop to engage. This also dramatically increases their hit rate; my own testing showed it raises the AI's hitrate at maximum settings by over 100%. The AI should feel more dynamic and alive as a result of this.\n\nA ping system has been added. It is usable either in default TC view, or when using the binoculars.\nTo ping something, align your aim point with any unit or spot on the terrain, and press your middle mouse button or the '5' key on your keyboard (not the numpad 5).\nPinging once will produce an orange marker; the vehicles in your platoon will watch the marker for 30 seconds or until a new ping is sent. Pinging a spot twice within a 10 meter distance and 2 seconds of the original ping will produce a red marker. The vehicles in your platoon will immediately halt and turn to face the red marker with their front armor. This is useful in engagements when your AI platoonmates have gotten stuck maneuvering and have their sides to the enemy, when they should be using their front armor.\nThe aim point is the center of the reticle in default commander view (when holding right click) or the center cross on the binoculars. The mod accounts for which binoculars you are using. Due to the wide variety of gunner reticles ingame, support for pinging while in gunner view is not planned, since a) the center of the aim point is not clear relative to onscreen markings, and b) this would conflict with features in Pact Increased Lethality, which also uses the middle mouse.\n\nA toggle for IR lights in your platoon has been added. You can access this toggle in the context menu or the tactical map by right clicking on your platoon marker. Very useful in night engagements when you don't want your platoon to give away your position by turning on IR lights.\nNote that selecting 'On' doesn't instantly force the AI to turn on IR lights, rather, it allows the AI to turn them on again, which they may choose to do so later rather than instantly.\n\nHold Fire Toggle\nSelf-explanatory. Stops the AI in your platoon from shooting any weapons. You can access this toggle in the context menu or the tactical map by right clicking on your platoon marker.",
       "zh-CN": "本模组调整了AI，使其在战斗中更合理地接敌。它还提供了一整套命令，你可以向你的坦克排下达这些命令，以便更好地为交战做准备。\n\n当游戏中的AI单位看到目标时，大多数AI从不会转向以正面装甲迎敌，而是保持原来的航向。这意味着侧翼包抄敌人往往很容易获胜，因为AI在这种情况下从不使用正面装甲。\n\n1.现在，AI单位（你排里的单位除外）会将正面装甲朝向敌人，并停下来交战。这也大幅提高了它们的命中率；我自己的测试显示，在最高设置下，AI的命中率提高了100%以上。因此，AI应该会显得更动态、更有生气。\n\n2.已添加标记（ping）系统。它可在默认车长视角或使用望远镜时使用。\n\n要标记某个目标，将瞄准点对准任意单位或地形上的任意位置，然后按鼠标中键或键盘上的“5”键（不是小键盘5）。\n\n标记一次会产生橙色标记；你排里的车辆将观察该标记30秒，或直到发送新的标记。如果在距首次标记10米范围内、且首次标记后2秒内再次标记同一地点，则会产生红色标记。你排里的车辆将立即停下，并转动车体，以正面装甲朝向红色标记。这在交战中很有用：当你的AI排友在机动中卡住、侧面暴露给敌人，而本应用正面装甲迎敌时。\n\n瞄准点是默认车长视角（按住右键时）中瞄准分划的中心，或望远镜上的中心十字。本模组会考虑你正在使用的是哪种望远镜。由于游戏内炮手瞄准分划种类繁多，不计划支持在炮手视角中标记，因为：a）瞄准点中心相对于屏幕上的标记并不明确；b）这会与 Pact Increased Lethality 的功能冲突，该模组也使用鼠标中键。\n\n3.已为你排添加红外灯开关。你可以通过右键点击你的排标记，在上下文菜单或战术地图中访问此开关。在夜战中，当你不想让排里的车打开红外灯暴露位置时，这非常有用。\n\n注意：选择“开启”不会立刻强制AI打开红外灯，而是允许AI再次打开它们；AI可能选择稍后打开，而不是立即打开。\n\n4.停火系统，顾名思义。阻止你排里的AI使用任何武器开火。你可以通过右键点击你的排标记，在上下文菜单或战术地图中访问此开关。"
@@ -1596,6 +1661,7 @@
       "en-US": "Repair Kit",
       "zh-CN": "维修工具"
     },
+    "Author": "芝士大嘴蛙",
     "Description": {
       "en-US": "RepairKit — Vehicle Repair Mod for GHPC\nPress a key to put your vehicle into a repair state. After a set duration, damaged components are restored to a configurable health (70% by default) while all functionality is fully restored — engine, transmission, turret, fire control, weapons, optics and ammo feed.\n\nAppearance damage, crew casualties and ammo count are not repaired.\nConfiguration\n\nRepairKey\tJ\tKey used to start/cancel repair. Any Unity KeyCode name, e.g. J, K, F5, Keypad0.\nRepairDuration\t30\tRepair duration in seconds. Minimum 1.\nRepairHealthPercent\t70\tComponent health after repair, 1–100. Components already above this value are not lowered.\nShowHud\ttrue\tShow the repair progress bar and result messages.\nSettings are read each time the key is pressed, so edits to the config file take effect without restarting the game (the remaining timer of an in-progress repair is not changed).\n\nBehavior\nStart: bring the vehicle to a stop, then press RepairKey while inside it. A progress bar appears at the bottom of the screen; repair completes automatically when the timer ends.\nComplete: every damaged component is raised to RepairHealthPercent, then all \"damaged\" state flags are cleared and the affected systems are re-enabled.\nCancel: pressing the same key again during repair aborts it immediately with no repair effect; the vehicle's previous state (parking brake, broken tracks, etc.) is restored exactly.\nDamage during repair: if any non-crew component of the vehicle loses health during the repair, the repair is aborted immediately with no effect.\nNo repair limit, no cooldown: repair as often as you like.\nCannot repair when:\nthe vehicle is considered destroyed,\nthe vehicle has been abandoned,\nthe entire crew is incapacitated,\nthe vehicle is still moving (horizontal speed above ~0.5 m/s / 1.8 km/h),\nyou are not in a vehicle.\nWhile repairing:\n\nthe vehicle cannot move (driving input is blocked, the parking brake is applied, cruise control is disabled);\nthe vehicle cannot fire (main gun, missiles and the generic weapon system are all blocked);\nthe turret can still be traversed normally.",
       "zh-CN": "按一次按键，载具进入维修状态；持续若干秒后，受损部件血量补到设定值（默认 70%）， 同时发动机、传动、炮塔、火控、武器、瞄具、供弹等全部功能恢复正常。\n\n维修不涉及外观凹陷、乘员伤亡和弹药数量。\n配置\n\nRepairKey\tJ\t维修按键。填 Unity KeyCode 名称，如 J、K、F5、Keypad0。\nRepairDuration\t30\t维修时长（秒）。最小 1 秒。\nRepairHealthPercent\t70\t维修后部件血量百分比，范围 1–100。\nShowHud\ttrue\t是否在屏幕下方显示维修进度条与结果提示。\n\n配置项在每次使用时按键名现读，改完配置无需重启（MelonPreferences.cfg 存盘后 下一次按键即生效，维修中的剩余时间不会变）。\n使用与行为\n开始：先把车停稳，再坐在载具里按一次 RepairKey。屏幕下方出现读条，倒计时结束自动完成。\n完成：所有受损部件血量补到 RepairHealthPercent；比该值更高的部件不会被降低。 随后清掉各系统的“已损坏”状态标记并重新启用相应功能。\n中途取消：维修中再按一次同一个键，立即退出维修，不获得任何维修效果， 车辆原有状态（含手刹、断履带等）原样恢复。\n受到伤害：维修期间本车任一非乘员部件血量下降，立刻中断维修，无维修效果。\n无次数限制、无冷却：随时可以再修。\n无法维修的情况：\n载具已被判定摧毁；\n已弃车；\n车组全部失能；\n车辆仍在行驶（水平速度高于约 0.5 m/s，即 1.8 km/h）；\n不在任何载具内。\n维修期间：\n\n无法移动（驾驶输入被拦截，手刹强制拉紧，定速巡航关闭）；\n无法开火（主炮、导弹、通用武器系统的开火入口全部拦截）；\n炮塔仍可正常转动瞄准，方便观察周围。\n"
@@ -1619,19 +1685,46 @@
     ]
   },
   {
+    "Id": "IAllemegeHeli",
+    "Name": {
+      "en-US": "Flyable Heli",
+      "zh-CN": "可飞行的直升机"
+    },
+    "Author": "iallemege",
+    "Description": {
+      "en-US": "Flyable Heli",
+      "zh-CN": "Gunner, HEAT, PC! 可操控直升机 MelonLoader 模组。飞模锁定为 0.4.0 刚体公式。不是 DCS。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/iallemege/GHPC.IAllemegeHeli/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "GHPC.IAllemegeHeli.dll",
+    "ConfigSectionName": "RepairKit",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "InfAmmo",
     "Name": {
       "en-US": "Infinite Ammo",
       "zh-CN": "无限弹药"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "replenishes your ready rack every time you reload",
       "zh-CN": "每次填装时补充您的待发弹药架"
     },
     "Tags": {
       "enhancement": {
-        "zh-CN": "游戏增强",
-        "en-US": "Game Enhancement"
+        "zh-CN": "作弊",
+        "en-US": "Cheat"
       }
     },
     "SupportedGameVersions": [
@@ -1648,14 +1741,15 @@
       "en-US": "Invincible Tanks",
       "zh-CN": "无敌模式"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "Makes you and your allies invincible to all damage.",
       "zh-CN": "这会让你和你的队友免受所有伤害的影响。"
     },
     "Tags": {
       "enhancement": {
-        "zh-CN": "游戏增强",
-        "en-US": "Game Enhancement"
+        "zh-CN": "作弊",
+        "en-US": "Cheat"
       }
     },
     "SupportedGameVersions": [
@@ -1675,6 +1769,7 @@
       "en-US": "Cheat Mode",
       "zh-CN": "作弊模式"
     },
+    "Author": "我怕肾虚",
     "Description": {
       "en-US": "Invincibility — separately protect the player's own unit and/or friendly AI units.\nInfinite ammo — player and/or friendly vehicles, infantry, throwables and crew-served weapon emplacements.\nNo reload (player vehicle only) — the clip never empties; toggled in-game with F9.\nESP — toggle vehicles, ATGM and infantry boxes together with F8; labels show distance.",
       "zh-CN": "无敌——单独保护玩家自己的单位以及友军的AI单位。  \n无限弹药——适用于玩家和友军的车辆、步兵、投掷武器等装备。  \n无须重新装填（仅适用于玩家车辆）——弹药永远不会耗尽；可以在游戏中通过 F9 键切换此功能。  \n透视功能——通过 F8 键将车辆、反坦克导弹以及步兵单位合并处理；标签上会显示它们之间的距离。"
@@ -1704,6 +1799,7 @@
       "en-US": "GHPC ESP",
       "zh-CN": "GHPC 透视模组"
     },
+    "Author": "k4yt3x",
     "Description": {
       "en-US": "A simple Extra-Sensory Perception (ESP) mod that draws labeled boxes and distance indicators around vehicles, ATGMs, and infantry to reveal their positions through terrain. Toggle Vehicle/ATGM ESP with F8 and Infantry ESP with F9. Requires MelonLoader; place the DLL in the game's Mods directory.",
       "zh-CN": "一个简易的 ESP（超感透视）模组，通过在载具、反坦克导弹和步兵周围绘制带标签的方框与距离指示来标记其位置，可穿透地形显示。F8 切换载具/ATGM 透视，F9 切换步兵透视。需配合 MelonLoader 使用，将 DLL 放入游戏的 Mods 目录。"
@@ -1731,6 +1827,7 @@
       "en-US": " No Smoking on the Range",
       "zh-CN": "射击场AI禁烟"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "A GHPC mod that disables smoke grenades on all Grafenwöhr missions, including the vehicle showcase, so that you can practice your gunnery or test the game's ballistics simulation without annoying interruptions from the AI.",
       "zh-CN": "这是一个GHPC模组，可以禁用所有射击场任务中的烟雾弹，包括展示，这样你可以练习射击或测试弹道模拟，而不会被AI打扰。"
@@ -1755,6 +1852,7 @@
       "en-US": "Always Restock",
       "zh-CN": "重伤装弹"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "GHPC quality-of-life mod that enables restocking without a conscious loader. When the loader is killed or unconsciousness, a penalty is added to the loading time, which by default is 3 seconds per shell to be moved. This value can be customized in the configuration, but cannot be set below 0.",
       "zh-CN": "允许在重伤装填手的情况下进行弹药补给。当装填手阵亡或失去意识时，装填时间会增加惩罚，默认值为每发炮弹 3 秒。该数值可在配置中自定义，但不能设置为低于 0。"
@@ -1780,6 +1878,7 @@
       "en-US": "Random Night Battles",
       "zh-CN": "随机夜战"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "Random Night Battles in chance.",
       "zh-CN": "随机夜战,概率可调。"
@@ -1805,6 +1904,7 @@
       "en-US": "Vanilla Asset Util",
       "zh-CN": "原生载具资源加载器"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "Loads a vanilla vehicle's prefab, returning its Vehicle component",
       "zh-CN": "加载了标准车辆的预制部件，并返回了与该车辆相关的组件。"
@@ -1833,6 +1933,7 @@
       "en-US": "Vehicle Preloader",
       "zh-CN": "载具预载支持模块"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "Loads all vehicle prefabs w/o needing to start a mission",
       "zh-CN": "载具预载支持模块，很多模组都需要此Mod进行预载prefebs，以完成任务初始化。"
@@ -1861,6 +1962,7 @@
       "en-US": "Min HUD",
       "zh-CN": "最小化UI"
     },
+    "Author": "ATLAS",
     "Description": {
       "en-US": "Hides the version, controls tooltip, and timescale from the HUD,also has these cfg options (both enabled by default)",
       "zh-CN": "最小化UI是一个轻量级界面优化模组，能隐藏版本号、控件提示和时间缩放显示，并提供默认启用的配置选项，如自定义HUD透明度和按键绑定，方便调整显示偏好。"
@@ -1886,6 +1988,7 @@
       "en-US": "Any Tank Any Campaign",
       "zh-CN": "自定义战役坦克"
     },
+    "Author": "Cyances",
     "Description": {
       "en-US": "ATAC is a mod that lets you choose what vehicles spawn in campaigns, enabling East vs East, NATO vs NATO, T-34s vs M60s and more—configure replacement chances (NEED TO TURN ON Playing Campaign SWITCH)(full unit list on GitHub).",
       "zh-CN": "自定义战役坦克是一款让您自定义战役中载具生成的模组，支持东欧对东欧、NATO对NATO、T-34 对 M60 等任意组合对战，通过配置替换概率（需要先在配置中打开总开关才能生效）（完整单位列表详见 GitHub）。"
@@ -1911,6 +2014,7 @@
       "en-US": "Gunner Mod PC",
       "zh-CN": "GMPC增强插件"
     },
+    "Author": "Andrix44",
     "Description": {
       "en-US": "GunnerModPC is a lightweight mod enhancing the Gunner, HEAT, PC! experience, adding playable T-34-85 and T-54A vehicles plus helicopter targets (OH-58A, AH-1, Mi-2, Mi-8T, Mi-24, Mi-24V) at Grafenwoehr range, along with live shot damage reports, FPS counter, custom 3rd person crosshair color, and map selector fixes—all toggleable via Mod Manager.",
       "zh-CN": "GMPC增强插件是一款增强体验的轻量模组，在Grafenwoehr坦克靶场新增T-34-85、T-54A可玩载具，以及多种直升机靶机（OH-58A、AH-1、Mi-2、Mi-8T、Mi-24、Mi-24V），同时提供实时射击损伤报告、FPS计数器、自定义三视角准星颜色及地图选择修复等实用功能，所有设置可在开关。"
@@ -1936,6 +2040,7 @@
       "en-US": "Cinematic Tools",
       "zh-CN": "电影工具"
     },
+    "Author": "RoyZ",
     "Description": {
       "en-US": "GHPC Cinematic Tools is a cinematic camera tool that supports smooth camera path recording, Depth of Field (DOF) control, easing curves, slow motion, Catmull-Rom spline interpolation and other professional features in F3 freecam mode, plus HTTP API interface and full English/Chinese bilingual support. Simply press F9 to open the menu, F5 to add keyframes, F6 to play paths for easy high-quality gameplay footage creation. Don't install it when you are normally playing.",
       "zh-CN": "GHPC电影工具是一款电影镜头工具，支持在 F3 自由摄像模式下录制平滑相机路径、景深控制（DOF）、缓动曲线、慢动作、Catmull-Rom 样条插值等专业功能，还提供 HTTP API 接口和中英双语支持。只需按 F9 打开菜单、F5 添加关键帧、F6 播放路径，即可轻松制作高质量游戏录像。请勿在正常游戏时安装它。"
@@ -1961,6 +2066,7 @@
       "en-US": "Hit Recorder",
       "zh-CN": "命中纪录"
     },
+    "Author": "AIM",
     "Description": {
       "en-US": "Records accepted impacts from ammunition fired by the player-controlled vehicle. Each original shot produces one console message containing a staged contact table and one local CSV record. Shots with no accepted contact do not produce a record.\n\nMay cause stuttering or reduced game performance. Full gameplay compatibility has not been verified.\n\nFeatures\nFirst-contact range, impact angle and speed.\nObserved native armor decisions: perforated, not perforated, ricochet or unconfirmed.\nNative capability before comparison, contact resistance and remaining capability when available.\nChinese console output by default; English and automatic language selection are supported.\nOriginal component names and readings retained in CSV.\nReadings are observations of the game's native decisions, not a guaranteed maximum penetration measurement or an independent physical armor model. Missing observations remain unknown. Terrain contacts are not armor perforations.",
       "zh-CN": "这些记录记录了由玩家操控的车辆发射的弹药所产生的影响。每次有效射击都会产生一条控制台消息，其中包含一次接触情况的详细信息，同时还会生成一个本地CSV记录。如果没有发生有效接触，则不会生成任何记录。\n\n这可能会导致游戏运行中出现卡顿或性能下降的情况。目前尚未验证该功能的完整游戏兼容性。\n\n功能包括：\n- 首次接触范围、撞击角度和速度的信息。\n- 游戏内置的护甲模型设置：有穿孔的护甲、无穿孔的护甲、跳弹效果或未确认的情况。\n- 在比较之前，系统会先记录当前的接触情况；如果接触失败，则会记录抵抗情况以及剩余的能力值。\n- 默认输出为中文版本；支持英语和自动语言选择功能。\n- CSV文件中保留了原始组件名称和数值。\n- 这些数值只是游戏内置的决策结果，并非保证的最大穿透量或独立的物理护甲模型。如果某些观察数据缺失，则仍保持未知状态。地形接触点并非护甲的穿孔处。"
@@ -1986,6 +2092,7 @@
       "en-US": "GMPC Texture Loader",
       "zh-CN": "贴图更换工具"
     },
+    "Author": "Andrix44",
     "Description": {
       "en-US": "GunnerModPC Texture Loader is a convenient texture replacement mod that lets you easily swap in-game textures with custom PNG files. Simply place same-named textures in the Gunner, HEAT, PC!\\Bin\\Mods\\GMPCTextureLoader folder, enable auto-refresh in config for real-time previews during scene reloads. Extract originals via CinematicUnityExplorer by searching Texture2D objects and saving as PNG; find more skins on the official Discord.",
       "zh-CN": "贴图更换工具是一款便捷的贴图替换工具模组，让您轻松用自定义 PNG 文件替换游戏内贴图。只需将同名贴图放入 Gunner, HEAT, PC!\\Bin\\Mods\\GMPCTextureLoader 文件夹，配置文件中开启自动刷新功能，即可实时预览修改效果。提取原贴图可通过 CinematicUnityExplorer 工具，搜索 Texture2D 对象后保存为 PNG；此mod并不带有皮肤，各种贴图皮肤请前往官方 Discord 获取。"
@@ -2011,6 +2118,7 @@
       "en-US": "Soviet Guards Regiment",
       "zh-CN": "苏军红金近卫军徽章替换"
     },
+    "Author": "Bluehawk",
     "Description": {
       "en-US": "Soviet Guards Regiment Mod (Version 1.3, 6 April 2026) is a visual replacement mod for Gunner, HEAT, PC that swaps the tactical markings found on Soviet ground vehicles—usually placed on turret cheeks, spotlight covers, or stowage boxes—with the red-and-gold Guards badge awarded to elite “Guards” units. The idea draws on the historical use of these insignia not only during parades and inspections, but also on exercises and maneuvers. If war were to break out suddenly, or under the cover of a training operation, it is easy to imagine these vehicles going into combat before anyone had time to paint the emblems over, carrying their full regalia into battle just as earlier generations might have done. The mod currently affects the BMP-1(P), BMP-2, BRDM-2, BTR-60PB, BTR-70, T-62, all T-64 variants, and the T-80. These changes appear across all missions, including vehicles added through the in-game customizer, and they are also visible in the main menu dioramas. In addition, the mod gives Soviet infantry a proper Guards badge worn on the right breast of the tunic.\nAfter the first launch, the mod generates a MelonPreferences configuration file with several optional settings, including the ability to remove camouflage netting that would otherwise hide the new insignia, disable the console log messages used to report detected and modified vehicles, and individually enable or disable each supported vehicle type and infantry according to personal preference. Known issues currently include insignia remaining visible even after a vehicle has been destroyed and burned out, infantry badges lacking proper specularity because they share the same dull material as vehicle decals, and possible compatibility conflicts with other mods that heavily alter Soviet vehicle components, although Pact Increased Lethality appears to work without major problems.",
       "zh-CN": "Soviet Guards Regiment Mod外观替换模组，它会将苏军地面载具上原本出现于炮塔侧面、探照灯罩或储物箱位置的战术符号，替换为象征“近卫”荣誉称号的红金近卫军徽章。这个设定基于一种很有历史感的想象：近卫部队在阅兵、检阅乃至演习中都会保留这些荣耀标识，而如果战争在演习或高度戒备状态下突然爆发，他们也许根本来不及涂掉徽记，就会像他们的父辈与祖辈一样，带着完整的荣誉标识直接投入战斗。该模组目前会影响 BMP-1(P)、BMP-2、BRDM-2、BTR-60PB、BTR-70、T-62、全部 T-64 变体以及 T-80，并且这些改动会在所有任务中生效，包括通过自定义器添加苏军载具的情况，同时主菜单中的场景展示模型也会同步显示变化。除此之外，模组还为苏军步兵添加了真实样式的近卫军徽章，佩戴位置为制服右胸。\n模组在首次运行后会生成 MelonPreferences 配置文件，玩家可以按需启用或关闭多个选项，例如移除可能遮挡徽章的炮塔伪装网、关闭载具识别与修改相关的控制台日志，以及分别控制各类载具和步兵是否启用近卫徽章效果。当前已知问题包括：载具被击毁并烧毁后，徽章不会随之消失或变暗；步兵徽章由于共用载具贴花材质，因此缺乏更真实的金属反光效果；另外，如果与大幅修改苏军载具组件的其他模组同时使用，可能会出现兼容性问题，不过 华约增强模组已确认基本可以正常共存。"
@@ -2036,6 +2144,7 @@
       "en-US": "Bocchi the Rock! skin for BTR-70",
       "zh-CN": "孤独摇滚！BTR70涂装"
     },
+    "Author": "QwertyRyo",
     "Description": {
       "en-US": "This is a Bocchi the Rock! themed anime camouflage mod for the BTR-70 in Gunner, HEAT, PC!, currently released as version \n\nBuilt around all four members of Kessoku Band, the mod gives the vehicle a distinctive anime-inspired camouflage scheme along with custom Cyrillic lettering for “BTR-70” and “Kessoku Band,” creating the feel of a Soviet crew taking their favorite anime band’s colors and decals into battle.\n\nVersion serves as the base release and focuses on establishing the core visual identity of the skin. In addition to the main character-themed elements, the mod includes custom decals and supporting art assets designed to blend the look of the vehicle with the aesthetic of Bocchi the Rock! while still keeping the BTR-70 recognizable in-game. More content is planned for future updates, including additional decals, higher-quality graphics, and reticle skins.\n\nProgramming for the mod was done by Qwertyryo. Most visual assets are sourced from CloverWorks, the Bocchi Blob on the front hatches was provided by Reddit user u/Chainwalker, and the custom Cyrillic lettering was created by Discord user @megalomantia654. The mod also makes use of source code written by @Bluehawk, whose other Gunner, HEAT, PC! mods are well worth checking out.\n\nAt the moment, there are a few known issues. Under freecam thermals, some decals may appear with visible color beneath them, and certain areas of the vehicle still have texturing or mapping imperfections.",
       "zh-CN": "模组以结束乐队四位成员为核心视觉主题，为 BTR-70 装甲车加入了具有鲜明动画风格的迷彩外观，并特别制作了“BTR-70”与“结束乐队”的西里尔字样，使整辆载具呈现出一种“苏系车组成员带着自己最喜欢的动画乐队奔赴战场”的独特设定感。\n\n重点在于完成整体车体外观的主题化改造与视觉统一。除了主要角色相关元素外，模组还包含定制贴花和相关美术处理，力求在保留载具辨识度的同时，尽可能还原《孤独摇滚！》的作品氛围。后续版本还计划继续扩展内容，包括更多额外贴花、更高质量的图像表现，以及瞄具皮肤等附加视觉内容。\n\n本模组由 Qwertyryo 负责程序实现。所使用的素材主要来源于 CloverWorks，前部舱盖上的 Bocchi Blob 图案来自 Reddit 用户 u/Chainwalker，西里尔文字样由 Discord 用户 @megalomantia654 制作。同时，本模组也参考并使用了 @Bluehawk 的相关源代码；如果你也在玩《Gunner, HEAT, PC!》模组，Bluehawk 的作品同样值得关注。\n\n目前已知问题包括：在自由视角热成像模式下，部分贴花会出现带底色显示的情况；此外，载具表面的个别区域仍存在一定的贴图瑕疵或纹理映射问题。"
@@ -2060,6 +2169,7 @@
       "en-US": "3BM60 Rebalance",
       "zh-CN": "3BM60削弱"
     },
+    "Author": "通往大马士革之路",
     "Description": {
       "en-US": "The drag coefficient has been reduced, bringing the velocity decay and penetration loss of the 3BM60 closer to those of 21st-century APFSDS projectiles. Furthermore, what is the point of using the velocity decay figures of the 3BM32 to analyze the 3BM60?What a overcooked fulda.\nFirst author Deepseek,Corresponding author me.",
       "zh-CN": "降低了阻力系数，使 3BM60的降速和穿深衰减更接近 21 世纪的尾翼稳定脱壳穿甲弹。以及拿3BM32的降速去套3BM60何意味，胡闹富尔达这一块\n一作蓝色大肥鱼，通讯作者我。"
@@ -2087,6 +2197,7 @@
       "en-US": "Leo2 C-Tech rebalance",
       "zh-CN": "豹2A4 C甲削弱"
     },
+    "Author": "通往大马士革之路",
     "Description": {
       "en-US": "The equivalent armor values ​​for C-Tech armor have been officially adjusted to better align, overall, with the data from live-fire tests conducted in Sweden in 1993.\nIn fact, DeepSeek did the vast majority of the work for me.",
       "zh-CN": "正式调整了C-Tech装甲的等效数据，使之能总体上拟合1993年瑞典对C-Tech装甲实弹试射的数据\n事实上DeepSeek替我完成了绝大部分工作。"
@@ -2114,6 +2225,7 @@
       "en-US": "M1 Laser Range Hold",
       "zh-CN": "M1激光测距保持"
     },
+    "Author": "AIM",
     "Description": {
       "en-US": "GHPC M1/M1IP mod: invalid smoke or dust returns blink 0000; the last valid ballistic range is retained.Known limitation: failed ranging does not re-engage lead tracking.",
       "zh-CN": "无效的烟雾/灰尘返回闪烁操作 0000 ；最后有效的弹道范围会被保留。仅适用于 M1/M1IP 模式。已知的限制：在测距失败的情况下，系统不会重新启动对移动目标位置的跟踪。"
@@ -2133,7 +2245,6 @@
     "InstallMethod": "DirectRelease",
     "Conflicts": [
       "M1A1",
-      "M1A1AMP",
       "M1A1CROWFIX"
     ]
   }

@@ -570,6 +570,7 @@
         directRelease: 'DirectRelease（安装到 Mods 目录）',
         replace: 'Replace（替换到目标目录）',
         modName: 'Mod 名称（多语言）',
+        author: '作者（Author）',
         releaseUrl: 'GitHub Release URL',
         targetFileKeyword: '目标文件关键词',
         replaceTargetPath: 'Replace 目标目录',
@@ -612,6 +613,7 @@
         directRelease: 'DirectRelease (Install to Mods directory)',
         replace: 'Replace (Replace into target directory)',
         modName: 'Mod Name (Multilingual)',
+        author: 'Author',
         releaseUrl: 'GitHub Release URL',
         targetFileKeyword: 'Target File Keyword',
         replaceTargetPath: 'Replace Target Path',
@@ -676,6 +678,7 @@
     function addMod() {
       mods.push({
         Id: '',
+        Author: '',
         Name: { 'en-US': '', 'zh-CN': '' },
         Description: { 'en-US': '', 'zh-CN': '' },
         Tags: {},
@@ -991,6 +994,12 @@
               oninput="updateField(${i},'RequiredManagerVersion',this.value)" />
           </div>
 
+          <div class="form-row">
+            <label>${t('author')}</label>
+            <input type="text" value="${esc(mod.Author || '')}" placeholder="Author"
+              oninput="updateField(${i},'Author',this.value)" />
+          </div>
+
           <!-- 多语言名称 -->
           <div class="form-row">
             <label>Mod 名称（多语言）</label>
@@ -1132,6 +1141,7 @@
     // ===== 构建输出对象 =====
     function buildModObj(mod) {
       const obj = { Id: mod.Id, Name: mod.Name };
+      if (mod.Author?.trim()) obj.Author = mod.Author.trim();
       if (mod.Description?.['en-US'] || mod.Description?.['zh-CN']) obj.Description = mod.Description;
       if (mod.Tags && Object.keys(mod.Tags).length > 0) obj.Tags = mod.Tags;
       if (mod.SupportedGameVersions?.length > 0) obj.SupportedGameVersions = mod.SupportedGameVersions;
@@ -1222,6 +1232,7 @@
           if (!Array.isArray(parsed)) throw new Error('顶层必须是数组');
           mods = parsed.map(m => ({
             Id: m.Id || '',
+            Author: m.Author || '',
             Name: { 'en-US': m.Name?.['en-US'] || '', 'zh-CN': m.Name?.['zh-CN'] || '' },
             Description: { 'en-US': m.Description?.['en-US'] || '', 'zh-CN': m.Description?.['zh-CN'] || '' },
             Tags: (m.Tags && typeof m.Tags === 'object') ? m.Tags : {},

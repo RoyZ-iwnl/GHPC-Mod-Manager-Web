@@ -6764,6 +6764,109 @@
         "MinimapEnemies": ["Spotted", "Always", "Off"],
         "KillFeedSide": ["Right", "Left"]
       }
+    },
+    "T90A": {
+      "ModId": "T90A",
+      "ConfigLabels": {
+        "Enabled": {
+          "zh-CN": "启用T-90A单位",
+          "en-US": "Enabled"
+        },
+        "Add to campaign roster": {
+          "zh-CN": "加入战役编制",
+          "en-US": "Add to campaign roster"
+        },
+        "Campaign prevalence": {
+          "zh-CN": "战役出现频率",
+          "en-US": "Campaign prevalence"
+        },
+        "Campaign unlock after missions": {
+          "zh-CN": "战役解锁所需任务数",
+          "en-US": "Campaign unlock after missions"
+        },
+        "APFSDS": {
+          "zh-CN": "尾翼稳定脱壳穿甲弹",
+          "en-US": "APFSDS"
+        },
+        "Gunner night sight": {
+          "zh-CN": "炮手夜间瞄准具",
+          "en-US": "Gunner night sight"
+        },
+        "ESSA electronic zoom": {
+          "zh-CN": "ESSA电子变焦",
+          "en-US": "ESSA electronic zoom"
+        },
+        "Armour preset": {
+          "zh-CN": "装甲预设",
+          "en-US": "Armour preset"
+        }
+      },
+      "ConfigComments": {
+        "Adds the T-90A as its own unit (Instant Action / mission editor, campaign roster, ATAC key \"T90A\").": {
+          "zh-CN": "将T-90A作为独立单位加入游戏（即时行动/任务编辑器、战役编制，ATAC键为\"T90A\"）。",
+          "en-US": "Adds the T-90A as its own unit (Instant Action / mission editor, campaign roster, ATAC key \"T90A\")."
+        },
+        "Adds the T-90A to the Soviet campaign roster.": {
+          "zh-CN": "将T-90A加入苏联战役编制。",
+          "en-US": "Adds the T-90A to the Soviet campaign roster."
+        },
+        "How common it is compared to other tanks (1 = as common as a typical tank).": {
+          "zh-CN": "相较于其他坦克的出现频率（1 = 与常见坦克出现频率相同）。",
+          "en-US": "How common it is compared to other tanks (1 = as common as a typical tank)."
+        },
+        "3BM42 Mango (default) or 3BM60 Svinets-2 (late/upgraded T-90A).": {
+          "zh-CN": "3BM42“芒果”（默认），或3BM60“铅-2”（后期/升级型T-90A）。",
+          "en-US": "3BM42 Mango (default) or 3BM60 Svinets-2 (late/upgraded T-90A)."
+        },
+        "ESSA = thermal sight, T-90A from 2006 (default); Buran-M = 3rd-gen image intensifier of the first T-90As (obr. 2004).": {
+          "zh-CN": "ESSA = 热成像瞄准具，适用于2006年起的T-90A（默认）；Buran-M = 早期T-90A（2004年型）使用的第三代微光增强瞄准具。",
+          "en-US": "ESSA = thermal sight, T-90A from 2006 (default); Buran-M = 3rd-gen image intensifier of the first T-90As (obr. 2004)."
+        },
+        "ESSA x2 electronic zoom (1.125 deg, half the thermal resolution); not fitted on every tank.": {
+          "zh-CN": "ESSA x2电子变焦（视场角1.125度，热成像分辨率减半）；并非每辆坦克都配备。",
+          "en-US": "ESSA x2 electronic zoom (1.125 deg, half the thermal resolution); not fitted on every tank."
+        },
+        "game-scale (default: matched to GHPC's other tanks; turret 690/820, glacis 550/750 without ERA) or source-only (open-source figures; turret 575/750, glacis 500/650).": {
+          "zh-CN": "game-scale（默认：与GHPC其他坦克数值匹配；无爆反装甲时炮塔690/820、首上装甲550/750），或source-only（公开来源数据；炮塔575/750、首上装甲500/650）。",
+          "en-US": "game-scale (default: matched to GHPC's other tanks; turret 690/820, glacis 550/750 without ERA) or source-only (open-source figures; turret 575/750, glacis 500/650)."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "APFSDS": [
+          "3BM42",
+          "3BM60"
+        ],
+        "Gunner night sight": [
+          "ESSA",
+          "Buran-M"
+        ],
+        "Armour preset": [
+          "game-scale",
+          "source-only"
+        ]
+      }
+    },
+    "IAllemegeHeli": {
+      "ModId": "IAllemegeHeli",
+      "ConfigLabels": {
+        "logSceneLoads": {"zh-CN": "记录场景加载", "en-US": "logSceneLoads"},
+        "probeHelicopters": {"zh-CN": "探查直升机状态", "en-US": "probeHelicopters"},
+        "experimentalPilot": {"zh-CN": "实验性飞行员", "en-US": "experimentalPilot"},
+        "useCustomFlightModel": {"zh-CN": "使用自定义飞行模型", "en-US": "useCustomFlightModel"},
+        "debugHud": {"zh-CN": "调试HUD", "en-US": "debugHud"},
+        "spawnRangeHeli": {"zh-CN": "测试场直升机", "en-US": "spawnRangeHeli"}
+      },
+      "ConfigComments": {
+        "Log every scene name as it loads.": {"zh-CN": "记录每一次场景加载的名称。", "en-US": "Log every scene name as it loads."},
+        "When a mission is ready, dump HelicopterController / IAircraft state to the MelonLoader log.": {"zh-CN": "当任务准备就绪时，将 HelicopterController / IAircraft 状态输出到 MelonLoader 日志。", "en-US": "When a mission is ready, dump HelicopterController / IAircraft state to the MelonLoader log."},
+        "Take helicopter controls (F8 claims nearest). Suppresses HelicopterAIController.": {"zh-CN": "接管直升机控制（F8 抢占最近的）。抑制 HelicopterAIController。", "en-US": "Take helicopter controls (F8 claims nearest). Suppresses HelicopterAIController."},
+        "0.4.0 rigidbody FM: collective scales thrust, cyclic tilts the disk. Not BEMT, not DCS.": {"zh-CN": "0.4.0 刚体飞行模型：集控控制推力，操纵杆倾斜盘面。不使用 BEMT，不使用 DCS。", "en-US": "0.4.0 rigidbody FM: collective scales thrust, cyclic tilts the disk. Not BEMT, not DCS."},
+        "On-screen RPM / AGL / control overlay while flying.": {"zh-CN": "飞行时在屏幕上显示转速、高度/海拔和控制叠加层。", "en-US": "On-screen RPM / AGL / control overlay while flying."},
+        "When a mission becomes ready, spawn one test helicopter beside the player on any map. F6 cycles type. F7 always spawns another.": {"zh-CN": "当任务准备就绪时，在任何地图上玩家附近生成一架测试直升机。F6 循环类型，F7 总是生成另一架。", "en-US": "When a mission becomes ready, spawn one test helicopter beside the player on any map. F6 cycles type. F7 always spawns another."}
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
