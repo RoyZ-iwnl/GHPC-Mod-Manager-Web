@@ -157,8 +157,8 @@
   {
     "Id": "M1A1AMP",
     "Name": {
-      "en-US": "M1A1 Abrams AMP",
-      "zh-CN": "M1A1艾布拉姆斯AMP"
+      "en-US": "M1A1 Abrams AMP WPSX Fix Version",
+      "zh-CN": "M1A1艾布拉姆斯AMP 我怕肾虚修复版"
     },
     "Description": {
       "en-US": "This mod adds a fully configurable “Abrams Modernization Package” for M1-series vehicles (centered on the M1A1/M1E1): it introduces the XM1147 AMP-T multi‑purpose programmable round and a broad set of selectable ammo options (up to four ammo slots, 50 total rounds; default loadouts include M829A4/M830A2/XM1147/LAHAT), plus a 120mm M256 main gun with a new model and detailed fuzing/proximity logic for rounds like XM1147 and M830A1, including modeled anti‑ERA/tandem interactions; it also adds multiple switchable armor variants (Base/HA/HC/SA/HU, etc.) with corresponding weight changes, optional CITV, enhanced optics/FLIR/GAS, crew proficiency tuning, smoke-system upgrades, an APU, and hardware options like M153 CROWS II and a coax upgrade; finally, it offers extensive vehicle-dynamics tweaks (engine choices, upgraded 6F/3R transmission, suspension, tracks, governor delete for higher top speed, stability control).\n[THIS MOD IS NOT WORKING ON 20260319.1]",
@@ -171,11 +171,11 @@
       }
     },
     "SupportedGameVersions": [
-      "20250630"
+      "20261014"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/Cyances/M1A1AbramsAMP/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/WpsxX/M1A1Abrams-AMP/releases/latest",
     "TargetFileNameKeyword": ".zip",
-    "MainBinaryFileName": "zzM1A1AbramsAMP.dll",
+    "MainBinaryFileName": "M1A1Abrams-AMP.dll",
     "ConfigSectionName": "M1A1AMPConfig",
     "InstallMethod": "DirectRelease",
     "Requirements": [
@@ -184,8 +184,7 @@
     "Conflicts": [
       "M1A1",
       "M1A1CROWFIX"
-    ],
-    "Delisted": true
+    ]
   },
   {
     "Id": "underdog",
@@ -701,8 +700,8 @@
   {
     "Id": "NATOERA",
     "Name": {
-      "en-US": "NATO ERA",
-      "zh-CN": "北约爆反"
+      "en-US": "NATO ERA WPSX Fix Version",
+      "zh-CN": "北约爆反 我怕肾虚修复版"
     },
     "Description": {
       "en-US": "NATO ERA adds configurable Explosive Reactive Armor (ERA) to M1/IP Abrams and M2 Bradley, with customizable arrangement, performance, color (to match custom skins), and optional weight penalty. Compatible with vanilla Abrams, M1A1 Abrams v1.1.4+, M1A1 Abrams AMP v2.3.3+, 50mm Bradley, M3A2 Bradley, and M6A2 ADATS mods; only models ARAT-1, BRAT M3, and M5 bricks for performance optimization (no triangular M4 bricks). Special thanks to thebeninator for coding and 3D modeling advice; contact author for custom texture model files, ARAT-1 weighs 29.48KG per tile (rounded).[THIS MOD IS NOT WORKING ON 20260319.1]",
@@ -715,21 +714,13 @@
       }
     },
     "SupportedGameVersions": [
-      "20250630"
+      "20261014"
     ],
-    "ReleaseUrl": "https://api.github.com/repos/Cyances/NATO-ERA/releases/latest",
+    "ReleaseUrl": "https://api.github.com/repos/WpsxX/NatoERA/releases/latest",
     "TargetFileNameKeyword": ".zip",
-    "MainBinaryFileName": "1NatoERA.dll",
+    "MainBinaryFileName": "NatoERA.dll",
     "ConfigSectionName": "NATOERAConfig",
-    "InstallMethod": "DirectRelease",
-    "Conflicts": [
-      "50mm",
-      "M3A2",
-      "M1A1",
-      "50mmROY",
-      "M1A1CROWFIX"
-    ],
-    "Delisted": true
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "CLeopards",
