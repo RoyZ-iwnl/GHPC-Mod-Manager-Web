@@ -2116,5 +2116,34 @@
     "Requirements": [
       "Fulda89"
     ]
+  },
+  {
+    "Id": "M1laserFIX",
+    "Name": {
+      "en-US": "M1 Laser Range Hold",
+      "zh-CN": "M1激光测距保持"
+    },
+    "Description": {
+      "en-US": "GHPC M1/M1IP mod: invalid smoke or dust returns blink 0000; the last valid ballistic range is retained.Known limitation: failed ranging does not re-engage lead tracking.",
+      "zh-CN": "无效的烟雾/灰尘返回闪烁操作 0000 ；最后有效的弹道范围会被保留。仅适用于 M1/M1IP 模式。已知的限制：在测距失败的情况下，系统不会重新启动对移动目标位置的跟踪。"
+    },
+    "Tags": {
+      "Patch": {
+        "zh-CN": "补丁",
+        "en-US": "Patch"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/AIM928/M1-Laser-Range-Hold/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "M1LaserRangeHold.dll",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "M1A1",
+      "M1A1AMP",
+      "M1A1CROWFIX"
+    ]
   }
 ]
