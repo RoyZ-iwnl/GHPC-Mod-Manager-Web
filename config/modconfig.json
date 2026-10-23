@@ -2260,7 +2260,7 @@
         "en-US": "Vehicle Modify"
       }
     },
-    "ReleaseUrl": "https://api.github.com/repos/AIM928/Challenger2/releases/tags/v0.4.43",
+    "ReleaseUrl": "https://api.github.com/repos/AIM928/Challenger2/releases/latest",
     "TargetFileNameKeyword": "Full.zip",
     "MainBinaryFileName": "Challenger2.dll",
     "InstallMethod": "DirectRelease"
