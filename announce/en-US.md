@@ -2,7 +2,8 @@
 
 [Donate](https://ifdian.net/a/GHPCMM)
 
-## Discord Server Update: Due to certain reasons, we have to stop updating in the MOD section thread of the official GHPC Discord. Therefore, we have created a separate Discord server. Welcome to join: [https://discord.gg/FTKVyHDzRj](https://discord.gg/FTKVyHDzRj)
+## Discord Server Update: Due to certain reasons, we have to stop updating in the MOD section thread of the official GHPC Discord. Therefore, we have created a separate Discord server. Welcome to join: 
+[https://discord.gg/FTKVyHDzRj](https://discord.gg/FTKVyHDzRj)
 
 ## Announcement
 

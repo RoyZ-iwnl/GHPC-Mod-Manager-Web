@@ -3,7 +3,8 @@
 [赞助此项目](https://ifdian.net/a/GHPCMM)
 - 感谢开心果赞助的20RMB * 3  蝉鸣深树 66RMB 臭鱼烂虾 20RMB * 1 qilin 20RMB * 1
 
-## Discord 服务器更新：由于一些原因，我们不得不停止在 GHPC 官方 Discord 的 MOD 板块线程中更新。因此我们创建了独立的 Discord 服务器，欢迎加入：[https://discord.gg/FTKVyHDzRj](https://discord.gg/FTKVyHDzRj)
+## Discord 服务器更新：由于一些原因，我们不得不停止在 GHPC 官方 Discord 的 MOD 板块线程中更新。因此我们创建了独立的 Discord 服务器，欢迎加入：
+[https://discord.gg/FTKVyHDzRj](https://discord.gg/FTKVyHDzRj)
 
 ## 公告
 
