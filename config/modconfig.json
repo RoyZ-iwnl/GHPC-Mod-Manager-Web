@@ -577,8 +577,7 @@
     "MainBinaryFileName": "M113PIVADS.dll",
     "InstallMethod": "DirectRelease",
     "Conflicts": [
-      "M113TOW",
-      "HMMWVLOSAT"
+      "M113TOW"
     ],
     "RequiredManagerVersion": "M163 PIVADS"
   },
@@ -605,11 +604,7 @@
     "ReleaseUrl": "https://api.github.com/repos/AIM928/M151-LOSAT/releases/latest",
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "M151LOSATTest.dll",
-    "InstallMethod": "DirectRelease",
-    "Conflicts": [
-      "M113TOW",
-      "M163"
-    ]
+    "InstallMethod": "DirectRelease"
   },
   {
     "Id": "M113TOW",
@@ -640,8 +635,7 @@
       "VanillaAssetUtil"
     ],
     "Conflicts": [
-      "M163",
-      "HMMWVLOSAT"
+      "M163"
     ]
   },
   {
@@ -2172,7 +2166,7 @@
     },
     "Author": "通往大马士革之路",
     "Description": {
-      "en-US": "The drag coefficient has been reduced, bringing the velocity decay and penetration loss of the 3BM60 closer to those of 21st-century APFSDS projectiles. Furthermore, what is the point of using the velocity decay figures of the 3BM32 to analyze the 3BM60?What a overcooked fulda.\nFirst author Deepseek,Corresponding author me.",
+      "en-US": "The drag coefficient has been reduced, bringing the velocity decay and penetration loss of the 3BM60 closer to those of 21st-century APFSDS projectiles. Furthermore, what is the point of using the velocity decay figures of the 3BM32 to analyze the 3BM60?What a overcooked fulda.\nFirst author Bluefat Whale,Corresponding author me.",
       "zh-CN": "降低了阻力系数，使 3BM60的降速和穿深衰减更接近 21 世纪的尾翼稳定脱壳穿甲弹。以及拿3BM32的降速去套3BM60何意味，胡闹富尔达这一块\n一作蓝色大肥鱼，通讯作者我。"
     },
     "Tags": {
@@ -2193,15 +2187,15 @@
     ]
   },
   {
-    "Id": "M1A1rebalance",
+    "Id": "Leo2A4CTechFix",
     "Name": {
       "en-US": "Leo2 C-Tech rebalance",
       "zh-CN": "豹2A4 C甲削弱"
     },
     "Author": "通往大马士革之路",
     "Description": {
-      "en-US": "The equivalent armor values ​​for C-Tech armor have been officially adjusted to better align, overall, with the data from live-fire tests conducted in Sweden in 1993.\nIn fact, DeepSeek did the vast majority of the work for me.",
-      "zh-CN": "正式调整了C-Tech装甲的等效数据，使之能总体上拟合1993年瑞典对C-Tech装甲实弹试射的数据\n事实上DeepSeek替我完成了绝大部分工作。"
+      "en-US": "The equivalent armor values ​​for C-Tech armor have been officially adjusted to better align, overall, with the data from live-fire tests conducted in Sweden in 1993.",
+      "zh-CN": "正式调整了C-Tech装甲的等效数据，使之能总体上拟合1993年瑞典对C-Tech装甲实弹试射的数据"
     },
     "Tags": {
       "Patch": {

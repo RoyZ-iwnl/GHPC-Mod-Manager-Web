@@ -2010,439 +2010,671 @@
     "M1A1AMP": {
       "ModId": "M1A1AMP",
       "ConfigLabels": {
-        "M1A1 1st Round Type": {
-          "zh-CN": "M1A1 第1种弹种",
-          "en-US": "M1A1 1st Round Type"
+        "Use Preset Bundle": {
+          "zh-CN": "使用预设捆绑包",
+          "en-US": "Use Preset Bundle"
         },
-        "M1A1 2nd Round Type": {
-          "zh-CN": "M1A1 第2种弹种",
-          "en-US": "M1A1 2nd Round Type"
+        "Preset Bundle Path (M1)": {
+          "zh-CN": "预设捆绑包路径 (M1)",
+          "en-US": "Preset Bundle Path (M1)"
         },
-        "M1A1 3rd Round Type": {
-          "zh-CN": "M1A1 第3种弹种",
-          "en-US": "M1A1 3rd Round Type"
+        "Preset Bundle Path (M1IP)": {
+          "zh-CN": "预设捆绑包路径 (M1IP)",
+          "en-US": "Preset Bundle Path (M1IP)"
         },
-        "M1A1 4th Round Type": {
-          "zh-CN": "M1A1 第4种弹种",
-          "en-US": "M1A1 4th Round Type"
+        "M256 Gun (M1)": {
+          "zh-CN": "M256火炮 (M1)",
+          "en-US": "M256 Gun (M1)"
         },
-        "M1A1 1st Round Count": {
-          "zh-CN": "M1A1 第1种弹药数量",
-          "en-US": "M1A1 1st Round Count"
+        "M256 Gun (M1IP)": {
+          "zh-CN": "M256火炮 (M1IP)",
+          "en-US": "M256 Gun (M1IP)"
         },
-        "M1A1 2nd Round Count": {
-          "zh-CN": "M1A1 第2种弹药数量",
-          "en-US": "M1A1 2nd Round Count"
+        "AP Round Count (M1E1)": {
+          "zh-CN": "穿甲弹数量 (M1E1)",
+          "en-US": "AP Round Count (M1E1)"
         },
-        "M1A1 3rd Round Count": {
-          "zh-CN": "M1A1 第3种弹药数量",
-          "en-US": "M1A1 3rd Round Count"
+        "HEAT Round Count (M1E1)": {
+          "zh-CN": "破甲弹数量 (M1E1)",
+          "en-US": "HEAT Round Count (M1E1)"
         },
-        "M1A1 4th Round Count": {
-          "zh-CN": "M1A1 第4种弹药数量",
-          "en-US": "M1A1 4th Round Count"
+        "AP Round Count (M1A1)": {
+          "zh-CN": "穿甲弹数量 (M1A1)",
+          "en-US": "AP Round Count (M1A1)"
         },
-        "M1E1 1st Round Type": {
-          "zh-CN": "M1E1 第1种弹种",
-          "en-US": "M1E1 1st Round Type"
+        "HEAT Round Count (M1A1)": {
+          "zh-CN": "破甲弹数量 (M1A1)",
+          "en-US": "HEAT Round Count (M1A1)"
         },
-        "M1E1 2nd Round Type": {
-          "zh-CN": "M1E1 第2种弹种",
-          "en-US": "M1E1 2nd Round Type"
+        "Vanilla Ammo Capacity (M1E1)": {
+          "zh-CN": "原版弹药容量 (M1E1)",
+          "en-US": "Vanilla Ammo Capacity (M1E1)"
         },
-        "M1E1 3rd Round Type": {
-          "zh-CN": "M1E1 第3种弹种",
-          "en-US": "M1E1 3rd Round Type"
+        "Vanilla Ammo Capacity (M1A1)": {
+          "zh-CN": "原版弹药容量 (M1A1)",
+          "en-US": "Vanilla Ammo Capacity (M1A1)"
         },
-        "M1E1 4th Round Type": {
-          "zh-CN": "M1E1 第4种弹种",
-          "en-US": "M1E1 4th Round Type"
+        "AP Round (M1E1)": {
+          "zh-CN": "穿甲弹 (M1E1)",
+          "en-US": "AP Round (M1E1)"
         },
-        "M1E1 1st Round Count": {
-          "zh-CN": "M1E1 第1种弹药数量",
-          "en-US": "M1E1 1st Round Count"
+        "AP Round (M1A1)": {
+          "zh-CN": "穿甲弹 (M1A1)",
+          "en-US": "AP Round (M1A1)"
         },
-        "M1E1 2nd Round Count": {
-          "zh-CN": "M1E1 第2种弹药数量",
-          "en-US": "M1E1 2nd Round Count"
+        "HEAT Round (M1E1)": {
+          "zh-CN": "破甲弹 (M1E1)",
+          "en-US": "HEAT Round (M1E1)"
         },
-        "M1E1 3rd Round Count": {
-          "zh-CN": "M1E1 第3种弹药数量",
-          "en-US": "M1E1 3rd Round Count"
+        "HEAT Round (M1A1)": {
+          "zh-CN": "破甲弹 (M1A1)",
+          "en-US": "HEAT Round (M1A1)"
         },
-        "M1E1 4th Round Count": {
-          "zh-CN": "M1E1 第4种弹药数量",
-          "en-US": "M1E1 4th Round Count"
+        "3rd Round (M1E1)": {
+          "zh-CN": "第3种弹药 (M1E1)",
+          "en-US": "3rd Round (M1E1)"
         },
-        "M1A1 Gunner": {
-          "zh-CN": "M1A1 炮手",
-          "en-US": "M1A1 Gunner"
+        "4th Round (M1E1)": {
+          "zh-CN": "第4种弹药 (M1E1)",
+          "en-US": "4th Round (M1E1)"
         },
-        "M1E1 Gunner": {
-          "zh-CN": "M1E1 炮手",
-          "en-US": "M1E1 Gunner"
+        "3rd Round (M1A1)": {
+          "zh-CN": "第3种弹药 (M1A1)",
+          "en-US": "3rd Round (M1A1)"
         },
-        "M1A1 Loader": {
-          "zh-CN": "M1A1 装填手",
-          "en-US": "M1A1 Loader"
+        "4th Round (M1A1)": {
+          "zh-CN": "第4种弹药 (M1A1)",
+          "en-US": "4th Round (M1A1)"
         },
-        "M1E1 Loader": {
-          "zh-CN": "M1E1 装填手",
-          "en-US": "M1E1 Loader"
+        "3rd Round Count (M1E1)": {
+          "zh-CN": "第3种弹药数量 (M1E1)",
+          "en-US": "3rd Round Count (M1E1)"
         },
-        "M1A1 Commander": {
-          "zh-CN": "M1A1 车长",
-          "en-US": "M1A1 Commander"
+        "4th Round Count (M1E1)": {
+          "zh-CN": "第4种弹药数量 (M1E1)",
+          "en-US": "4th Round Count (M1E1)"
         },
-        "M1E1 Commander": {
-          "zh-CN": "M1E1 车长",
-          "en-US": "M1E1 Commander"
+        "3rd Round Count (M1A1)": {
+          "zh-CN": "第3种弹药数量 (M1A1)",
+          "en-US": "3rd Round Count (M1A1)"
         },
-        "M2 Coax": {
-          "zh-CN": "M2 并列机枪",
-          "en-US": "M2 Coax"
+        "4th Round Count (M1A1)": {
+          "zh-CN": "第4种弹药数量 (M1A1)",
+          "en-US": "4th Round Count (M1A1)"
         },
-        "M2 SLAP": {
-          "zh-CN": "M2 SLAP 弹",
-          "en-US": "M2 SLAP"
+        "M1E1 Engine": {
+          "zh-CN": "M1E1发动机",
+          "en-US": "M1E1 Engine"
         },
-        "M829 Spall+": {
-          "zh-CN": "M829 破片效应+",
-          "en-US": "M829 Spall+"
+        "M1A1 Engine": {
+          "zh-CN": "M1A1发动机",
+          "en-US": "M1A1 Engine"
         },
-        "M829SB": {
-          "zh-CN": "M829（SB 穿深）",
-          "en-US": "M829SB"
+        "Rotate Azimuth (M1E1)": {
+          "zh-CN": "方位旋转稳定 (M1E1)",
+          "en-US": "Rotate Azimuth (M1E1)"
         },
-        "AMP Fragments": {
-          "zh-CN": "AMP 破片数量",
-          "en-US": "AMP Fragments"
+        "Rotate Azimuth (M1A1)": {
+          "zh-CN": "方位旋转稳定 (M1A1)",
+          "en-US": "Rotate Azimuth (M1A1)"
         },
-        "MPAT Fragments": {
-          "zh-CN": "MPAT 破片数量",
-          "en-US": "MPAT Fragments"
+        "FLIR Generation (M1E1)": {
+          "zh-CN": "FLIR代数 (M1E1)",
+          "en-US": "FLIR Generation (M1E1)"
         },
-        "HEOR Fragments": {
-          "zh-CN": "HEOR 破片数量",
-          "en-US": "HEOR Fragments"
+        "FLIR Generation (M1A1)": {
+          "zh-CN": "FLIR代数 (M1A1)",
+          "en-US": "FLIR Generation (M1A1)"
         },
-        "AMP Proxy Fuze": {
-          "zh-CN": "AMP 近炸引信",
-          "en-US": "AMP Proxy Fuze"
+        "Fixed Reticle Size (Global)": {
+          "zh-CN": "固定瞄准线大小（全局）",
+          "en-US": "Fixed Reticle Size (Global)"
         },
-        "ProxyDistance": {
-          "zh-CN": "近炸触发距离",
-          "en-US": "ProxyDistance"
+        "CITV (M1E1)": {
+          "zh-CN": "车长独立热像仪 (M1E1)",
+          "en-US": "CITV (M1E1)"
         },
-        "Daysight+": {
-          "zh-CN": "昼视+",
-          "en-US": "Daysight+"
+        "CITV (M1A1)": {
+          "zh-CN": "车长独立热像仪 (M1A1)",
+          "en-US": "CITV (M1A1)"
         },
-        "FLIR+": {
-          "zh-CN": "FLIR+（热像增强）",
-          "en-US": "FLIR+"
+        "Smooth CITV Panning (Global)": {
+          "zh-CN": "CITV平滑转动（全局）",
+          "en-US": "Smooth CITV Panning (Global)"
         },
-        "GAS+": {
-          "zh-CN": "GAS+（辅助瞄具）",
-          "en-US": "GAS+"
+        "DU Armour (M1A1)": {
+          "zh-CN": "贫铀装甲 (M1A1)",
+          "en-US": "DU Armour (M1A1)"
         },
-        "RotateAzimuth": {
-          "zh-CN": "旋转方位角",
-          "en-US": "RotateAzimuth"
+        "DU Generation (M1A1)": {
+          "zh-CN": "贫铀代数 (M1A1)",
+          "en-US": "DU Generation (M1A1)"
         },
-        "M1A1 CITV": {
-          "zh-CN": "M1A1 车长独立热像仪（CITV）",
-          "en-US": "M1A1 CITV"
+        "DU Armour (M1E1)": {
+          "zh-CN": "贫铀装甲 (M1E1)",
+          "en-US": "DU Armour (M1E1)"
         },
-        "M1E1 CITV": {
-          "zh-CN": "M1E1 车长独立热像仪（CITV）",
-          "en-US": "M1E1 CITV"
+        "DU Generation (M1E1)": {
+          "zh-CN": "贫铀代数 (M1E1)",
+          "en-US": "DU Generation (M1E1)"
         },
-        "No Blur CITV": {
-          "zh-CN": "CITV 无模糊",
-          "en-US": "No Blur CITV"
+        "M1 -> M1IP": {
+          "zh-CN": "M1转换为M1IP",
+          "en-US": "M1 -> M1IP"
         },
-        "CITV Reticle": {
-          "zh-CN": "CITV 十字线",
-          "en-US": "CITV Reticle"
-        },
-        "Perfect CITV Override": {
-          "zh-CN": "CITV 完美超控",
-          "en-US": "Perfect CITV Override"
-        },
-        "Smooth CITV Panning": {
-          "zh-CN": "CITV 平滑转动",
-          "en-US": "Smooth CITV Panning"
-        },
-        "M1A1 CROWS": {
-          "zh-CN": "M1A1 CROWS 遥控武器站",
-          "en-US": "M1A1 CROWS"
-        },
-        "M1E1 CROWS": {
-          "zh-CN": "M1E1 CROWS 遥控武器站",
-          "en-US": "M1E1 CROWS"
-        },
-        "M1A1 CROWS Alt Pos": {
-          "zh-CN": "M1A1 CROWS 替代位置",
-          "en-US": "M1A1 CROWS Alt Pos"
-        },
-        "M1E1 CROWS Alt Pos": {
-          "zh-CN": "M1E1 CROWS 替代位置",
-          "en-US": "M1E1 CROWS Alt Pos"
-        },
-        "CROWS SLAP": {
-          "zh-CN": "CROWS 使用 SLAP-T",
-          "en-US": "CROWS SLAP"
-        },
-        "M1E1": {
-          "zh-CN": "M1E1",
-          "en-US": "M1E1"
+        "M1E1 IP Model": {
+          "zh-CN": "M1E1使用IP模型",
+          "en-US": "M1E1 IP Model"
         },
         "Random": {
-          "zh-CN": "随机",
+          "zh-CN": "随机转换",
           "en-US": "Random"
         },
         "ConversionChance": {
-          "zh-CN": "转换概率",
+          "zh-CN": "转换几率",
           "en-US": "ConversionChance"
         },
-        "M1A1 Armor": {
-          "zh-CN": "M1A1 装甲",
-          "en-US": "M1A1 Armor"
+        "M829 Spall+": {
+          "zh-CN": "M829破片增强",
+          "en-US": "M829 Spall+"
         },
-        "M1E1 Armor": {
-          "zh-CN": "M1E1 装甲",
-          "en-US": "M1E1 Armor"
+        "CROWS (M1E1)": {
+          "zh-CN": "CROWS遥控武器站 (M1E1)",
+          "en-US": "CROWS (M1E1)"
         },
-        "UAP": {
-          "zh-CN": "UAP 装甲包",
-          "en-US": "UAP"
+        "CROWS (M1A1)": {
+          "zh-CN": "CROWS遥控武器站 (M1A1)",
+          "en-US": "CROWS (M1A1)"
         },
-        "Demigod Armor": {
-          "zh-CN": "近乎无敌装甲",
-          "en-US": "Demigod Armor"
+        "CROWS/M2 Ammo": {
+          "zh-CN": "CROWS/M2弹药",
+          "en-US": "CROWS/M2 Ammo"
         },
-        "M1A1 Smoke+": {
-          "zh-CN": "M1A1 烟幕+",
-          "en-US": "M1A1 Smoke+"
+        "CROWS/MK19 Instead Of M2": {
+          "zh-CN": "CROWS使用MK19替代M2",
+          "en-US": "CROWS/MK19 Instead Of M2"
         },
-        "M1E1 Smoke+": {
-          "zh-CN": "M1E1 烟幕+",
-          "en-US": "M1E1 Smoke+"
+        "CROWS/MK19 Ammo": {
+          "zh-CN": "CROWS/MK19弹药",
+          "en-US": "CROWS/MK19 Ammo"
         },
-        "M1A1 ROSY": {
-          "zh-CN": "M1A1 ROSY 快速遮蔽系统",
-          "en-US": "M1A1 ROSY"
+        "M2 Coax": {
+          "zh-CN": "M2并列机枪",
+          "en-US": "M2 Coax"
         },
-        "M1E1 ROSY": {
-          "zh-CN": "M1E1 ROSY 快速遮蔽系统",
-          "en-US": "M1E1 ROSY"
+        "Alternative Position": {
+          "zh-CN": "CROWS替代位置",
+          "en-US": "Alternative Position"
         },
-        "ROSY+": {
-          "zh-CN": "ROSY+",
-          "en-US": "ROSY+"
+        "AMP Fragments": {
+          "zh-CN": "AMP破片数量",
+          "en-US": "AMP Fragments"
         },
-        "Multispectral ROSY": {
-          "zh-CN": "多光谱 ROSY",
-          "en-US": "Multispectral ROSY"
+        "MPAT Fragments": {
+          "zh-CN": "MPAT破片数量",
+          "en-US": "MPAT Fragments"
         },
-        "M1A1 Engine": {
-          "zh-CN": "M1A1 发动机",
-          "en-US": "M1A1 Engine"
+        "HEOR Fragments": {
+          "zh-CN": "HEOR破片数量",
+          "en-US": "HEOR Fragments"
         },
-        "M1E1 Engine": {
-          "zh-CN": "M1E1 发动机",
-          "en-US": "M1E1 Engine"
+        "AMP Proxy Fuze": {
+          "zh-CN": "AMP近炸引信",
+          "en-US": "AMP Proxy Fuze"
+        },
+        "AMP Proxy Distance": {
+          "zh-CN": "AMP近炸距离",
+          "en-US": "AMP Proxy Distance"
         },
         "Transmission+": {
-          "zh-CN": "变速箱+",
+          "zh-CN": "变速箱增强",
           "en-US": "Transmission+"
         },
         "GovernorDelete": {
-          "zh-CN": "删除调速器",
+          "zh-CN": "移除调速器",
           "en-US": "GovernorDelete"
         },
         "Suspension+": {
-          "zh-CN": "悬挂+",
+          "zh-CN": "悬挂增强",
           "en-US": "Suspension+"
         },
         "Tracks+": {
-          "zh-CN": "履带+",
+          "zh-CN": "履带增强",
           "en-US": "Tracks+"
-        },
-        "M1A1 APU": {
-          "zh-CN": "M1A1 辅助动力装置",
-          "en-US": "M1A1 APU"
-        },
-        "M1E1 APU": {
-          "zh-CN": "M1E1 辅助动力装置",
-          "en-US": "M1E1 APU"
-        },
-        "Traverse+": {
-          "zh-CN": "炮塔横向旋转+",
-          "en-US": "Traverse+"
         },
         "StabilityControl": {
           "zh-CN": "稳定性控制",
           "en-US": "StabilityControl"
         },
+        "M1A1 APU": {
+          "zh-CN": "M1A1辅助动力装置",
+          "en-US": "M1A1 APU"
+        },
+        "M1E1 APU": {
+          "zh-CN": "M1E1辅助动力装置",
+          "en-US": "M1E1 APU"
+        },
+        "FLIR+": {
+          "zh-CN": "FLIR增强",
+          "en-US": "FLIR+"
+        },
+        "Daysight+": {
+          "zh-CN": "昼视增强",
+          "en-US": "Daysight+"
+        },
+        "GAS+": {
+          "zh-CN": "GAS增强",
+          "en-US": "GAS+"
+        },
+        "Smoke+": {
+          "zh-CN": "烟幕增强（已弃用）",
+          "en-US": "Smoke+"
+        },
+        "ROSY+": {
+          "zh-CN": "ROSY增强",
+          "en-US": "ROSY+"
+        },
         "Clean Turret": {
           "zh-CN": "清理炮塔外挂",
           "en-US": "Clean Turret"
         },
-        "M1E1 IP Model": {
-          "zh-CN": "M1E1 IP 模型",
-          "en-US": "M1E1 IP Model"
+        "M1A1 Armor": {
+          "zh-CN": "M1A1装甲套件",
+          "en-US": "M1A1 Armor"
         },
-        "M1A1 M256Model": {
-          "zh-CN": "M1A1 M256 炮模型",
-          "en-US": "M1A1 M256Model"
+        "M1E1 Armor": {
+          "zh-CN": "M1E1装甲套件",
+          "en-US": "M1E1 Armor"
         },
-        "M1E1 M256Model": {
-          "zh-CN": "M1E1 M256 炮模型",
-          "en-US": "M1E1 M256Model"
+        "UAP": {
+          "zh-CN": "UAP轻量装甲包",
+          "en-US": "UAP"
         },
-        "M1A1 Camo Net": {
-          "zh-CN": "M1A1 伪装网",
-          "en-US": "M1A1 Camo Net"
+        "Demigod Armor": {
+          "zh-CN": "半神装甲",
+          "en-US": "Demigod Armor"
         },
-        "M1E1 Camo Net": {
-          "zh-CN": "M1E1 伪装网",
-          "en-US": "M1E1 Camo Net"
+        "Traverse+": {
+          "zh-CN": "炮塔旋转速度增强",
+          "en-US": "Traverse+"
+        },
+        "No Blur CITV": {
+          "zh-CN": "CITV无模糊",
+          "en-US": "No Blur CITV"
+        },
+        "CITV Reticle": {
+          "zh-CN": "CITV瞄准线",
+          "en-US": "CITV Reticle"
+        },
+        "Perfect CITV Override": {
+          "zh-CN": "CITV完美超控",
+          "en-US": "Perfect CITV Override"
+        },
+        "M1A1 Gunner": {
+          "zh-CN": "M1A1炮手",
+          "en-US": "M1A1 Gunner"
+        },
+        "M1E1 Gunner": {
+          "zh-CN": "M1E1炮手",
+          "en-US": "M1E1 Gunner"
+        },
+        "M1A1 Loader": {
+          "zh-CN": "M1A1装填手",
+          "en-US": "M1A1 Loader"
+        },
+        "M1E1 Loader": {
+          "zh-CN": "M1E1装填手",
+          "en-US": "M1E1 Loader"
+        },
+        "M1A1 Commander": {
+          "zh-CN": "M1A1车长",
+          "en-US": "M1A1 Commander"
+        },
+        "M1E1 Commander": {
+          "zh-CN": "M1E1车长",
+          "en-US": "M1E1 Commander"
+        },
+        "M1A1 Smoke+": {
+          "zh-CN": "M1A1烟幕增强",
+          "en-US": "M1A1 Smoke+"
+        },
+        "M1E1 Smoke+": {
+          "zh-CN": "M1E1烟幕增强",
+          "en-US": "M1E1 Smoke+"
+        },
+        "M1A1 ROSY": {
+          "zh-CN": "M1A1 ROSY快速遮蔽",
+          "en-US": "M1A1 ROSY"
+        },
+        "M1E1 ROSY": {
+          "zh-CN": "M1E1 ROSY快速遮蔽",
+          "en-US": "M1E1 ROSY"
         }
       },
       "ConfigComments": {
-        "Round types carried by M1A1: 'M829', 'M829A1', 'M829A2', 'M829A3', 'M829A4', 'M830', 'M830A1', 'M830A2', 'M830A3', 'M908', 'XM1147' or 'LAHAT'": {
-          "zh-CN": "M1A1 可携带的弹种：'M829'、'M829A1'、'M829A2'、'M829A3'、'M829A4'、'M830'、'M830A1'、'M830A2'、'M830A3'、'M908'、'XM1147' 或 'LAHAT'。",
-          "en-US": "Round types carried by M1A1: 'M829', 'M829A1', 'M829A2', 'M829A3', 'M829A4', 'M830', 'M830A1', 'M830A2', 'M830A3', 'M908', 'XM1147' or 'LAHAT'"
+        "120mm cannon (Note: anything relating to ammo is ignored if this is false)": {
+          "zh-CN": "120毫米主炮（注意：若此项为false，所有弹药相关设置将被忽略）",
+          "en-US": "120mm cannon (Note: anything relating to ammo is ignored if this is false)"
         },
-        "How many rounds per type each M1A1 should carry. Maximum of 50 rounds total. Bring in at least one primary round.": {
-          "zh-CN": "设置每种弹药的携带数量；单车总数上限为 50 发；至少携带一种主战弹种。",
-          "en-US": "How many rounds per type each M1A1 should carry. Maximum of 50 rounds total. Bring in at least one primary round."
+        "Maximum of 40 rounds total. Bring in at least one AP round.": {
+          "zh-CN": "总计最多40发。至少携带一发穿甲弹。",
+          "en-US": "Maximum of 40 rounds total. Bring in at least one AP round."
         },
-        "Round types carried by M1E1: 'M829', 'M829A1', 'M829A2', 'M829A3', 'M829A4', 'M830', 'M830A1', 'M830A2', 'M830A3', 'M908', 'XM1147' or 'LAHAT'": {
-          "zh-CN": "M1E1 可携带的弹种：'M829'、'M829A1'、'M829A2'、'M829A3'、'M829A4'、'M830'、'M830A1'、'M830A2'、'M830A3'、'M908'、'XM1147' 或 'LAHAT'。",
-          "en-US": "Round types carried by M1E1: 'M829', 'M829A1', 'M829A2', 'M829A3', 'M829A4', 'M830', 'M830A1', 'M830A2', 'M830A3', 'M908', 'XM1147' or 'LAHAT'"
+        "Counts are for the whole vehicle, including stowed racks. Native HUD shows loaded and ready-rack ammo.": {
+          "zh-CN": "数量为整车总数，包括储藏架。原生HUD显示已装填和就绪架弹药。",
+          "en-US": "Counts are for the whole vehicle, including stowed racks. Native HUD shows loaded and ready-rack ammo."
         },
-        "How many rounds per type each M1E1 should carry. Maximum of 50 rounds total. Bring in at least one primary round.": {
-          "zh-CN": "设置每种弹药的携带数量；单车总数上限为 50 发；至少携带一种主战弹种。",
-          "en-US": "How many rounds per type each M1E1 should carry. Maximum of 50 rounds total. Bring in at least one primary round."
+        "Carry a total of 52 rounds instead of 40.": {
+          "zh-CN": "携带总计52发而非40发。",
+          "en-US": "Carry a total of 52 rounds instead of 40."
         },
-        "Crew proficiency: Cadet, Regular, Veteran or Ace": {
-          "zh-CN": "乘员熟练度：Cadet(学员)、Regular(普通)、Veteran(老兵)或Ace(王牌)。[填写英文即可]",
-          "en-US": "Crew proficiency: Cadet, Regular, Veteran or Ace"
+        "Customize which rounds M1A1s/M1E1s use": {
+          "zh-CN": "自定义M1A1/M1E1使用的弹药类型",
+          "en-US": "Customize which rounds M1A1s/M1E1s use"
         },
-        "Replaces M240 coaxial gun with M2.": {
-          "zh-CN": "将并列 M240 机枪替换为 M2 重机枪。",
-          "en-US": "Replaces M240 coaxial gun with M2."
+        "M827, M829, M829A1, M829A2, M829A3, M829A4": {
+          "zh-CN": "M827、M829、M829A1、M829A2、M829A3、M829A4",
+          "en-US": "M827, M829, M829A1, M829A2, M829A3, M829A4"
         },
-        "Use M962 SLAP-T for M2 coax.": {
-          "zh-CN": "并列 M2 机枪改用 M962 SLAP-T 弹。",
-          "en-US": "Use M962 SLAP-T for M2 coax."
+        "M830, M830A1 (has proximity fuse that can be toggled by double tapping the ammo 2 key)": {
+          "zh-CN": "M830、M830A1（带近炸引信，可通过双击弹药2键切换）",
+          "en-US": "M830, M830A1 (has proximity fuse that can be toggled by double tapping the ammo 2 key)"
         },
-        "Enhanced spalling for all M829s.": {
-          "zh-CN": "增强所有 M829 系列的破片效应。",
-          "en-US": "Enhanced spalling for all M829s."
+        "Original M1 uses this setting, including M1 -> M1IP conversion. Same engine choices as M1A1 Engine; edit while game is closed, then restart.": {
+          "zh-CN": "原版M1使用此设置，包括M1→M1IP转换。发动机选项与M1A1 Engine相同；关闭游戏后编辑，然后重启。",
+          "en-US": "Original M1 uses this setting, including M1 -> M1IP conversion. Same engine choices as M1A1 Engine; edit while game is closed, then restart."
         },
-        "Use Steel Beasts M829 penetration values": {
-          "zh-CN": "使用 Steel Beasts 的 M829 穿甲数据。",
-          "en-US": "Use Steel Beasts M829 penetration values"
+        "Native M1IP uses this setting (also after CITV renaming): AGT1500 / AGT2000 / AGT2500 / AGT3000 / T64 / T55. Edit while game is closed, then restart.": {
+          "zh-CN": "原生M1IP使用此设置（CITV重命名后也是）：AGT1500/AGT2000/AGT2500/AGT3000/T64/T55。关闭游戏后编辑，然后重启。",
+          "en-US": "Native M1IP uses this setting (also after CITV renaming): AGT1500 / AGT2000 / AGT2500 / AGT3000 / T64 / T55. Edit while game is closed, then restart."
         },
-        "How many fragments are generated when the below round explodes. NOTE: Higher number, means higher performance hit. Be careful in using higher number.": {
-          "zh-CN": "设置下列弹药爆炸时生成的破片数量。注意：数值越高，对性能影响越大，请谨慎提高。",
-          "en-US": "How many fragments are generated when the below round explodes. NOTE: Higher number, means higher performance hit. Be careful in using higher number."
+        "Horizontal stabilization of sights when applying lead.": {
+          "zh-CN": "应用超前量时瞄准具的水平稳定。",
+          "en-US": "Horizontal stabilization of sights when applying lead."
         },
-        "Switch AMP fuze to proximity instead of time-delay.": {
-          "zh-CN": "将 AMP 引信由定时改为近炸。",
-          "en-US": "Switch AMP fuze to proximity instead of time-delay."
+        "Settings for the gunner's thermals": {
+          "zh-CN": "炮手热像仪设置",
+          "en-US": "Settings for the gunner's thermals"
         },
-        "Trigger distance of proximity fuze (in meters).": {
-          "zh-CN": "近炸引信的触发距离（米）。",
-          "en-US": "Trigger distance of proximity fuze (in meters)."
+        "Higher generation = higher resolution (1-3, integer)": {
+          "zh-CN": "代数越高分辨率越高（1-3，整数）",
+          "en-US": "Higher generation = higher resolution (1-3, integer)"
         },
-        "More zoom levels/clearer image for gunner optics.": {
-          "zh-CN": "为炮手光学瞄具提供更多变焦档位/更清晰的成像。",
-          "en-US": "More zoom levels/clearer image for gunner optics."
-        },
-        "Horizontal stabilization of M1A1 sights when applying lead.": {
-          "zh-CN": "在计算超前量时保持 M1A1 瞄具的水平稳定。",
-          "en-US": "Horizontal stabilization of M1A1 sights when applying lead."
+        "Keep GPS day/thermal reticle size constant across all zoom levels, including FLIR+/Daysight+.": {
+          "zh-CN": "在所有变焦档位保持GPS昼/热瞄准线大小恒定，包括FLIR+/昼视+。",
+          "en-US": "Keep GPS day/thermal reticle size constant across all zoom levels, including FLIR+/Daysight+."
         },
         "Replaces commander's NVGs with variable-zoom thermals.": {
-          "zh-CN": "将车长夜视镜替换为可变倍热像仪。",
+          "zh-CN": "将车长夜视镜替换为可变焦热像仪。",
           "en-US": "Replaces commander's NVGs with variable-zoom thermals."
         },
-        "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals.": {
-          "zh-CN": "遥控武器站配备 12.7 毫米 M2HB；400 发供弹，自动超前，带热像。",
-          "en-US": "Remote weapons system equipped with a .50 caliber M2HB; 400 rounds, automatic lead, thermals."
+        "No longer has any effect; retained for compatibility.": {
+          "zh-CN": "不再有任何效果；为兼容性保留。",
+          "en-US": "No longer has any effect; retained for compatibility."
         },
-        "Moves the CROWS to the right side of the commander instead of directly in front.": {
-          "zh-CN": "将 CROWS 从车长正前方移至其右侧。",
-          "en-US": "Moves the CROWS to the right side of the commander instead of directly in front."
+        "DU inserts for the composite turret cheeks: increased KE protection. M1A1/M1IP exclusive. Increased weight.": {
+          "zh-CN": "炮塔颊部复合装甲贫铀插件：提升动能防护。M1A1/M1IP专属。增加重量。",
+          "en-US": "DU inserts for the composite turret cheeks: increased KE protection. M1A1/M1IP exclusive. Increased weight."
         },
-        "Use M962 SLAP-T for CROWS.": {
-          "zh-CN": "CROWS 改用 M962 SLAP-T 弹。",
-          "en-US": "Use M962 SLAP-T for CROWS."
+        "Higher generation = more KE protection (1-3, integer)": {
+          "zh-CN": "代数越高动能防护越强（1-3，整数）",
+          "en-US": "Higher generation = more KE protection (1-3, integer)"
         },
-        "Convert M1s to M1E1s (i.e: they get the 120mm gun and enables armor upgrades).": {
-          "zh-CN": "将 M1 转换为 M1E1（获得 120 毫米炮并解锁装甲升级）。",
-          "en-US": "Convert M1s to M1E1s (i.e: they get the 120mm gun and enables armor upgrades)."
+        "Doesn't apply to M1/M1E1, only those converted to M1A1/M1IP": {
+          "zh-CN": "不适用于M1/M1E1，仅适用于转换为M1A1/M1IP的车辆",
+          "en-US": "Doesn't apply to M1/M1E1, only those converted to M1A1/M1IP"
         },
-        "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s.": {
-          "zh-CN": "M1IP/M1 将有几率随机转换为 M1A1/M1E1。",
-          "en-US": "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s."
-        },
-        "Armor used by M1A1 and M1E1: 'HA', 'HC', 'SA', 'HU', 'L' or blank for base M1/IP armor": {
-          "zh-CN": "M1A1 与 M1E1 使用的装甲：'HA'、'HC'、'SA'、'HU'、'L'；留空则为基础 M1/IP 装甲。",
-          "en-US": "Armor used by M1A1 and M1E1: 'HA', 'HC', 'SA', 'HU', 'L' or blank for base M1/IP armor"
-        },
-        "Unobtanium armor package for HU that gives it HA weight": {
-          "zh-CN": "HU 配置“难得素”装甲包，使其重量等同 HA。",
-          "en-US": "Unobtanium armor package for HU that gives it HA weight"
-        },
-        "Almost deathproof Abrooms (HU variant only)": {
-          "zh-CN": "近乎不可能被击毁的“阿布鲁姆斯”（仅限 HU 型）。",
-          "en-US": "Almost deathproof Abrooms (HU variant only)"
-        },
-        "Twice the ammo and better throw distance.": {
-          "zh-CN": "弹量翻倍且投放距离更远。",
-          "en-US": "Twice the ammo and better throw distance."
-        },
-        "Replaces M250 with 4 charges of \"Rapid Obscuring Sytem\" (Smoke+ required)": {
-          "zh-CN": "将 M250 替换为 4 枚“快速遮蔽系统”药剂（需开启 Smoke+）。",
-          "en-US": "Replaces M250 with 4 charges of \"Rapid Obscuring Sytem\" (Smoke+ required)"
-        },
-        "Faster/larger smoke effect and if thermals are blocked for ROSY": {
-          "zh-CN": "加快/扩大 ROSY 烟幕效果，并可阻断热像。",
-          "en-US": "Faster/larger smoke effect and if thermals are blocked for ROSY"
-        },
-        "SPEEEED AND POWWAAAAH!": {
-          "zh-CN": "速度与力量！！！",
-          "en-US": "SPEEEED AND POWWAAAAH!"
-        },
-        "Makes the tank more controllable at higher speeds": {
-          "zh-CN": "提升高速状态下的车辆可控性。",
-          "en-US": "Makes the tank more controllable at higher speeds"
-        },
-        "Remove items attached to turret like ALICE packs or MRE boxes": {
-          "zh-CN": "移除炮塔上附挂的 ALICE 背包、口粮箱等物件。",
-          "en-US": "Remove items attached to turret like ALICE packs or MRE boxes"
+        "Convert all M1s to M1IPs (will still use M1E1 settings)": {
+          "zh-CN": "将所有M1转换为M1IP（仍使用M1E1设置）",
+          "en-US": "Convert all M1s to M1IPs (will still use M1E1 settings)"
         },
         "Gives the M1IP model to base M1": {
-          "zh-CN": "让基础 M1 使用 M1IP 的外观模型。",
+          "zh-CN": "为基础M1使用M1IP模型",
           "en-US": "Gives the M1IP model to base M1"
         },
-        "Uses appropriate M256 model instead of scaled up M68A1": {
-          "zh-CN": "使用正确的 M256 模型，不再放大 M68A1 代替。",
-          "en-US": "Uses appropriate M256 model instead of scaled up M68A1"
+        "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s.": {
+          "zh-CN": "M1IP/M1将有随机几率转换为M1A1/M1E1。",
+          "en-US": "M1IPs/M1s will have a random chance of being converted to M1A1s/M1E1s."
         },
-        "Force camo net appearance instead of randomizing it": {
-          "zh-CN": "强制启用伪装网外观，而非随机。",
-          "en-US": "Force camo net appearance instead of randomizing it"
+        "Enhanced spalling for all M829s.": {
+          "zh-CN": "所有M829系列增强破片效应。",
+          "en-US": "Enhanced spalling for all M829s."
+        },
+        "Replaces the commander's exposed .50 cal with the M153 CROWS II remote weapon station.": {
+          "zh-CN": "将车长暴露式.50口径替换为M153 CROWS II遥控武器站。",
+          "en-US": "Replaces the commander's exposed .50 cal with the M153 CROWS II remote weapon station."
+        },
+        "M8 API, Mk 211 Mod 0, M903 SLAP (4 M903 + 1 M962 SLAP-T). Shared with M2 Coax; reload mission after changing.": {
+          "zh-CN": "M8 API、Mk 211 Mod 0、M903 SLAP（4发M903 + 1发M962 SLAP-T）。与M2并列机枪共用；更改后重载任务。",
+          "en-US": "M8 API, Mk 211 Mod 0, M903 SLAP (4 M903 + 1 M962 SLAP-T). Shared with M2 Coax; reload mission after changing."
+        },
+        "Mounts an Mk 19 grenade launcher on the CROWS instead of the .50 cal. The coaxial M2 is not affected.": {
+          "zh-CN": "在CROWS上安装Mk 19榴弹发射器替代.50口径。并列M2不受影响。",
+          "en-US": "Mounts an Mk 19 grenade launcher on the CROWS instead of the .50 cal. The coaxial M2 is not affected."
+        },
+        "M430 (51 mm RHA, 32 g Comp A5), M430A1 (76 mm RHA, 39 g Comp A5). Only used when the CROWS carries the Mk 19.": {
+          "zh-CN": "M430（51毫米RHA，32克Comp A5）、M430A1（76毫米RHA，39克Comp A5）。仅当CROWS携带Mk 19时使用。",
+          "en-US": "M430 (51 mm RHA, 32 g Comp A5), M430A1 (76 mm RHA, 39 g Comp A5). Only used when the CROWS carries the Mk 19."
+        },
+        "Replace the coaxial machine gun with an M2HB and bind it to the CROWS/M2 ammunition selection.": {
+          "zh-CN": "将并列机枪替换为M2HB并绑定到CROWS/M2弹药选择。",
+          "en-US": "Replace the coaxial machine gun with an M2HB and bind it to the CROWS/M2 ammunition selection."
+        },
+        "Moves the CROWS to the right side of the commander instead of directly in front.": {
+          "zh-CN": "将CROWS移至车长右侧而非正前方。",
+          "en-US": "Moves the CROWS to the right side of the commander instead of directly in front."
+        },
+        "XM1147 explosion fragments (impact/time/proximity fuze). Positive integer; default 600. Reload the mission after changing. Higher counts cost more performance.": {
+          "zh-CN": "XM1147爆炸破片（碰炸/定时/近炸引信）。正整数；默认600。更改后重载任务。数值越高性能消耗越大。",
+          "en-US": "XM1147 explosion fragments (impact/time/proximity fuze). Positive integer; default 600. Reload the mission after changing. Higher counts cost more performance."
+        },
+        "M830A1 explosion fragments (impact/proximity fuze). Positive integer; default 600. Existing 25 forward proximity fragments are additional. Reload the mission after changing.": {
+          "zh-CN": "M830A1爆炸破片（碰炸/近炸引信）。正整数；默认600。现有25个前向近炸破片为额外破片。更改后重载任务。",
+          "en-US": "M830A1 explosion fragments (impact/proximity fuze). Positive integer; default 600. Existing 25 forward proximity fragments are additional. Reload the mission after changing."
+        },
+        "M908 HE-OR explosion fragments. Positive integer; default 300. Reload the mission after changing.": {
+          "zh-CN": "M908 HE-OR爆炸破片。正整数；默认300。更改后重载任务。",
+          "en-US": "M908 HE-OR explosion fragments. Positive integer; default 300. Reload the mission after changing."
+        },
+        "true: middle mouse toggles the XM1147 between point-detonate and proximity; the HUD shows [Proximity] after the ammunition name only in proximity mode. false: time-delay airburst at the fire-control range and the middle mouse is ignored. The MPAT (M830A1) proximity fuze is always available and needs no config entry.": {
+          "zh-CN": "true：中键切换XM1147在触发引爆和近炸之间；仅近炸模式下HUD在弹药名后显示[Proximity]。false：火控距离定时空爆，忽略中键。MPAT（M830A1）近炸引信始终可用，无需配置项。",
+          "en-US": "true: middle mouse toggles the XM1147 between point-detonate and proximity; the HUD shows [Proximity] after the ammunition name only in proximity mode. false: time-delay airburst at the fire-control range and the middle mouse is ignored. The MPAT (M830A1) proximity fuze is always available and needs no config entry."
+        },
+        "AMP speed commands: forward 36 m/s, reverse 20 m/s; removes the secondary NWH speed limiter. Does not increase engine power or gearing. Reload mission.": {
+          "zh-CN": "AMP速度指令：前进36 m/s，倒车20 m/s；移除次级NWH速度限制器。不增加发动机功率或齿轮比。重载任务。",
+          "en-US": "AMP speed commands: forward 36 m/s, reverse 20 m/s; removes the secondary NWH speed limiter. Does not increase engine power or gearing. Reload mission."
+        },
+        "Enable AMP's native lateral-slip assist at intensity 0.1. Acts while driving on the ground; reload mission.": {
+          "zh-CN": "启用AMP原生横向防滑辅助，强度0.1。地面行驶时生效；重载任务。",
+          "en-US": "Enable AMP's native lateral-slip assist at intensity 0.1. Acts while driving on the ground; reload mission."
+        },
+        "Enhances both GPS and CROWS thermals. Reload the mission after changing.": {
+          "zh-CN": "增强GPS和CROWS热像仪。更改后重载任务。",
+          "en-US": "Enhances both GPS and CROWS thermals. Reload the mission after changing."
+        },
+        "Enhances GPS day sights independently of FLIR+. CROWS keeps its 1/5/10/15x zooms.": {
+          "zh-CN": "独立于FLIR+增强GPS昼视瞄准镜。CROWS保持其1/5/10/15x变焦。",
+          "en-US": "Enhances GPS day sights independently of FLIR+. CROWS keeps its 1/5/10/15x zooms."
+        },
+        "Legacy migration default only. Use M1A1 Smoke+ / M1E1 Smoke+.": {
+          "zh-CN": "仅用于旧版迁移默认值。请使用M1A1 Smoke+/M1E1 Smoke+。",
+          "en-US": "Legacy migration default only. Use M1A1 Smoke+ / M1E1 Smoke+."
+        },
+        "Upgrade enabled per-model ROSY to fast/large ROSY+. Does not enable smoke on disabled models.": {
+          "zh-CN": "将已启用的单型号ROSY升级为快速/大型ROSY+。不会为已禁用型号启用烟幕。",
+          "en-US": "Upgrade enabled per-model ROSY to fast/large ROSY+. Does not enable smoke on disabled models."
+        },
+        "Remove items attached to turret like ALICE packs or MRE boxes": {
+          "zh-CN": "移除炮塔上附加物，如ALICE背包或MRE箱",
+          "en-US": "Remove items attached to turret like ALICE packs or MRE boxes"
+        },
+        "HA / HC / SA / HU / L; blank = base armor; Legacy = existing DU/preset settings. Explicit choice overrides DU.": {
+          "zh-CN": "HA/HC/SA/HU/L；空白=基础装甲；Legacy=现有DU/预设设置。显式选择覆盖DU。",
+          "en-US": "HA / HC / SA / HU / L; blank = base armor; Legacy = existing DU/preset settings. Explicit choice overrides DU."
+        },
+        "HU only: use HA package mass (+5261 kg) instead of HU (+17327 kg).": {
+          "zh-CN": "仅限HU：使用HA装甲包质量（+5261 kg）而非HU（+17327 kg）。",
+          "en-US": "HU only: use HA package mass (+5261 kg) instead of HU (+17327 kg)."
+        },
+        "HU only: AMP's extreme armor values; not unconditional invulnerability.": {
+          "zh-CN": "仅限HU：AMP的极限装甲值；并非无条件无敌。",
+          "en-US": "HU only: AMP's extreme armor values; not unconditional invulnerability."
+        },
+        "AMP rule: 60 deg/s main turret with APU and engine power >3300 kW (T64/T55).": {
+          "zh-CN": "AMP规则：配备APU且发动机功率>3300 kW（T64/T55）时，主炮塔旋转速度60度/秒。",
+          "en-US": "AMP rule: 60 deg/s main turret with APU and engine power >3300 kW (T64/T55)."
+        },
+        "While using CITV, hold Smooth Aim to slave the current weapon to the sight point.": {
+          "zh-CN": "使用CITV时，按住平滑瞄准将当前武器从属于瞄准点。",
+          "en-US": "While using CITV, hold Smooth Aim to slave the current weapon to the sight point."
+        },
+        "Cadet / Regular / Veteran / Ace; applied on mission load.": {
+          "zh-CN": "学员/普通/老兵/王牌；任务加载时应用。",
+          "en-US": "Cadet / Regular / Veteran / Ace; applied on mission load."
+        },
+        "Per-model enhanced multispectral smoke. Required for ROSY.": {
+          "zh-CN": "单型号增强多光谱烟幕。ROSY所需。",
+          "en-US": "Per-model enhanced multispectral smoke. Required for ROSY."
+        },
+        "Requires this model's Smoke+. ROSY+ selects the faster/larger variant.": {
+          "zh-CN": "需要该型号的Smoke+。ROSY+选择更快/更大的变体。",
+          "en-US": "Requires this model's Smoke+. ROSY+ selects the faster/larger variant."
         }
       },
       "multiplechoice": {},
-      "singlechoice": {}
+      "singlechoice": {
+        "AP Round (M1E1)": [
+          "M827",
+          "M829",
+          "M829A1",
+          "M829A2",
+          "M829A3",
+          "M829A4"
+        ],
+        "AP Round (M1A1)": [
+          "M827",
+          "M829",
+          "M829A1",
+          "M829A2",
+          "M829A3",
+          "M829A4"
+        ],
+        "HEAT Round (M1E1)": [
+          "M830",
+          "M830A1"
+        ],
+        "HEAT Round (M1A1)": [
+          "M830",
+          "M830A1"
+        ],
+        "3rd Round (M1E1)": [
+          "M830A2",
+          "XM1147",
+          "M830A3",
+          "M908",
+          "LAHAT"
+        ],
+        "4th Round (M1E1)": [
+          "M830A2",
+          "XM1147",
+          "M830A3",
+          "M908",
+          "LAHAT"
+        ],
+        "3rd Round (M1A1)": [
+          "M830A2",
+          "XM1147",
+          "M830A3",
+          "M908",
+          "LAHAT"
+        ],
+        "4th Round (M1A1)": [
+          "M830A2",
+          "XM1147",
+          "M830A3",
+          "M908",
+          "LAHAT"
+        ],
+        "M1E1 Engine": [
+          "AGT1500",
+          "AGT2000",
+          "AGT2500",
+          "AGT3000",
+          "T64",
+          "T55"
+        ],
+        "M1A1 Engine": [
+          "AGT1500",
+          "AGT2000",
+          "AGT2500",
+          "AGT3000",
+          "T64",
+          "T55"
+        ],
+        "CROWS/M2 Ammo": [
+          "M8 API",
+          "Mk 211 Mod 0",
+          "M903 SLAP"
+        ],
+        "CROWS/MK19 Ammo": [
+          "M430",
+          "M430A1"
+        ],
+        "M1A1 Armor": [
+          "",
+          "HA",
+          "HC",
+          "SA",
+          "HU",
+          "L",
+          "Legacy"
+        ],
+        "M1E1 Armor": [
+          "",
+          "HA",
+          "HC",
+          "SA",
+          "HU",
+          "L",
+          "Legacy"
+        ],
+        "M1A1 Gunner": [
+          "Cadet",
+          "Regular",
+          "Veteran",
+          "Ace"
+        ],
+        "M1E1 Gunner": [
+          "Cadet",
+          "Regular",
+          "Veteran",
+          "Ace"
+        ],
+        "M1A1 Loader": [
+          "Cadet",
+          "Regular",
+          "Veteran",
+          "Ace"
+        ],
+        "M1E1 Loader": [
+          "Cadet",
+          "Regular",
+          "Veteran",
+          "Ace"
+        ],
+        "M1A1 Commander": [
+          "Cadet",
+          "Regular",
+          "Veteran",
+          "Ace"
+        ],
+        "M1E1 Commander": [
+          "Cadet",
+          "Regular",
+          "Veteran",
+          "Ace"
+        ]
+      }
     },
     "M6A2": {
       "ModId": "M6A2",
@@ -2866,6 +3098,18 @@
         "BRAT B": {
           "zh-CN": "BRAT 颜色B通道",
           "en-US": "BRAT B"
+        },
+        "NatoEra Caliber Threshold (mm)": {
+          "zh-CN": "北约爆反口径阈值（毫米）",
+          "en-US": "NatoEra Caliber Threshold (mm)"
+        },
+        "NatoEra Penetration Threshold (mm)": {
+          "zh-CN": "北约爆反穿深阈值（毫米）",
+          "en-US": "NatoEra Penetration Threshold (mm)"
+        },
+        "NatoEra M2Extended Overlay": {
+          "zh-CN": "M2扩展装甲时BRAT外移",
+          "en-US": "NatoEra M2Extended Overlay"
         }
       },
       "ConfigComments": {
@@ -2928,6 +3172,18 @@
         "Adjust BRAT colors with RGB values (float)": {
           "zh-CN": "使用RGB浮点值调整BRAT配色",
           "en-US": "Adjust BRAT colors with RGB values (float)"
+        },
+        "Rounds with a smaller caliber only detonate ERA when their penetration exceeds the penetration threshold": {
+          "zh-CN": "小口径弹药仅在穿深超过阈值时才能引爆爆反装甲",
+          "en-US": "Rounds with a smaller caliber only detonate ERA when their penetration exceeds the penetration threshold"
+        },
+        "Penetration needed for a below-threshold-caliber round to detonate ERA": {
+          "zh-CN": "低于口径阈值的弹药引爆爆反装甲所需的穿深",
+          "en-US": "Penetration needed for a below-threshold-caliber round to detonate ERA"
+        },
+        "Set to true to shift BRAT outwards when the M2Extended addon armor is fitted, so it sits outside it": {
+          "zh-CN": "设为true时，M2Extended附加装甲安装后BRAT会外移，使其位于附加装甲外侧",
+          "en-US": "Set to true to shift BRAT outwards when the M2Extended addon armor is fitted, so it sits outside it"
         }
       },
       "multiplechoice": {},
