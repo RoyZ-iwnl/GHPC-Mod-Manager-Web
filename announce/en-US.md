@@ -2,7 +2,12 @@
 
 [Donate](https://ifdian.net/a/GHPCMM)
 
+**Discord Server Update**: Due to certain reasons, we have to stop updating in the MOD section thread of the official GHPC Discord. Therefore, we have created a separate Discord server. Welcome to join: https://discord.gg/FTKVyHDzRj
+
 ## Announcement
+
+### 2026-10-24
+- v1.3.11 stable release is now available with release notes viewer, README viewer, update flow optimization, and installation improvements. See the [changelog](#v1311) below for details.
 
 ### 2026-09-12
 - v1.3.10 stable release is now available with path security hardening, backup integrity verification, manifest concurrency safety, install rollback, and uninstall/state detection fixes. See the [changelog](#v1310) below for details.
@@ -102,6 +107,24 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.11
+#### feat: Release version 1.3.11 with release notes viewer, README viewer, update flow optimization, and installation improvements
+- Bump version to 1.3.11 "Nailoong"
+- Add ReleaseNotesWindow with Markdig markdown rendering and HtmlSanitizer for secure display; support viewing release changelog and GitHub README
+- Add ViewReleaseNotes and ViewReadme commands in ModDetailViewModel to display selected release body and repository README in modal window
+- Add GetGitHubReadmeAsync to NetworkService for fetching base64-encoded README via GitHub API with proxy/token support; extract base URL from download_url or construct from ref/path for relative link resolution
+- Add api.github.com to GitHub URL whitelist for token/proxy routing
+- Preserve disabled state through update flow: enable before update, restore disabled after success, rollback on failure; prevent Replace mode active backup being deleted when updating already-installed mod
+- Add IsTogglingMod guard to prevent concurrent toggle operations; add immediate status feedback on toggle success/failure; trigger RefreshRequested after toggle completes
+- Remove IsEnabled condition from CanUpdate (allow update disabled mods); notify CanUpdate when IsEnabled changes
+- Add detectDllRoot parameter to ExtractArchiveAsync for auto-detecting and stripping common root directory containing DLL files; skip root-level non-DLL files when common root detected
+- Optimize InitializeBackupDirectoryAsync with same-game-root deduplication via SemaphoreSlim lock to avoid redundant log spam when checking multiple mods concurrently
+- Add Author field to ModConfig; add InstalledListAuthorDisplay computed property to ModViewModel returning Config.Author for normal mods or Id for manually installed mods; bind to InstalledModsView list
+- Add Body field to GitHubRelease for storing release notes markdown
+- Add Markdig and HtmlSanitizer package references for markdown rendering and XSS protection
+- Add localization strings for ViewReleaseNotes, ReleaseNotesTitle, ViewReadme, ReadmeLoadFailed; refine ModBackupDirectoryCreated message to "structure initialized"
+- Wrap DeleteModBackupAsync in try-catch during update to prevent previous backup cleanup failure from aborting update
 
 ### v1.3.10
 #### feat: Release version 1.3.10 with path security hardening, backup integrity verification, manifest concurrency safety, install rollback, and uninstall/state detection fixes

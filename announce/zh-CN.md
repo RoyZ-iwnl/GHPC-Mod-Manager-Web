@@ -5,6 +5,10 @@
 
 ## 公告
 
+### 2026-10-24
+- **Discord 服务器更新**：由于一些原因，我们不得不停止在 GHPC 官方 Discord 的 MOD 板块线程中更新。因此我们创建了独立的 Discord 服务器，欢迎加入：https://discord.gg/FTKVyHDzRj
+- v1.3.11 正式版已发布，新增更新日志查看器、README 查看器、更新流程优化与安装改进，详情见下方[更新日志](#v1311)。
+
 ### 2026-09-12
 - v1.3.10 正式版已发布，新增路径安全加固、备份完整性校验、清单并发安全、安装回滚与卸载/状态检测修复，详情见下方[更新日志](#v1310)。
 
@@ -106,6 +110,24 @@
 - GHPC版本20250902已发布，部分mod可能出现不适配的情况，请根据实际情况安装或更新。
 
 ## 更新日志
+
+### v1.3.11
+#### feat: 发布1.3.11版本，新增更新日志查看器、README查看器、更新流程优化与安装改进
+- 版本升级至1.3.11 "Nailoong"
+- 新增ReleaseNotesWindow使用Markdig渲染Markdown并用HtmlSanitizer安全过滤，支持查看发行说明与GitHub README
+- 在ModDetailViewModel中新增ViewReleaseNotes和ViewReadme命令，弹窗展示所选版本更新日志与仓库README
+- 在NetworkService中新增GetGitHubReadmeAsync通过GitHub API拉取base64编码README，支持代理/令牌；从download_url或ref/path构建base URL供相对链接解析
+- 将api.github.com加入GitHub URL白名单供令牌/代理路由
+- 更新流程保持禁用状态：更新前启用，成功后恢复禁用，失败时回滚；防止已安装Mod更新时Replace模式活动备份被误删
+- 新增IsTogglingMod守卫防止并发切换操作；切换成功/失败立即显示状态反馈；切换完成后触发RefreshRequested
+- 移除CanUpdate的IsEnabled条件(允许更新已禁用Mod)；IsEnabled变化时通知CanUpdate
+- 为ExtractArchiveAsync新增detectDllRoot参数自动检测并剥离包含DLL的公共根目录；检测到公共根时跳过根级非DLL文件
+- 用SemaphoreSlim锁为InitializeBackupDirectoryAsync新增同游戏根目录去重，避免并发检查多个Mod时重复写日志
+- 为ModConfig新增Author字段；为ModViewModel新增InstalledListAuthorDisplay计算属性，普通Mod返回Config.Author，手动安装Mod返回Id；绑定至已安装列表
+- 为GitHubRelease新增Body字段存储发行说明Markdown
+- 新增Markdig与HtmlSanitizer包引用用于Markdown渲染与XSS防护
+- 新增ViewReleaseNotes、ReleaseNotesTitle、ViewReadme、ReadmeLoadFailed国际化字符串；ModBackupDirectoryCreated消息优化为"结构已初始化"
+- 更新时用try-catch包裹DeleteModBackupAsync防止旧备份清理失败中止更新
 
 ### v1.3.10
 #### feat: 发布1.3.10版本，新增路径安全加固、备份完整性校验、清单并发安全、安装回滚与卸载/状态检测修复
