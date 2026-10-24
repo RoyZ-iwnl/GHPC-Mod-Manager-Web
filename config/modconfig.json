@@ -2295,28 +2295,6 @@
     ]
   },
   {
-    "Id": "Challenger2",
-    "Author": "AIM",
-    "Name": {
-      "en-US": "Challenger 2",
-      "zh-CN": "挑战者 2"
-    },
-    "Description": {
-      "en-US": "Replaces the base Leopard 2 with Challenger 2. Full package, v0.4.43. Test build; some mission-loading compatibility issues remain unresolved.",
-      "zh-CN": "将基础豹 2 替换为挑战者 2，0.4.43 完整包。测试版，部分关卡加载兼容问题仍待排查。"
-    },
-    "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
-      }
-    },
-    "ReleaseUrl": "https://api.github.com/repos/AIM928/Challenger2/releases/latest",
-    "TargetFileNameKeyword": "Full.zip",
-    "MainBinaryFileName": "Challenger2.dll",
-    "InstallMethod": "DirectRelease"
-  },
-  {
     "Id": "CoaxFire",
     "Author": "rhino2024",
     "Name": {
