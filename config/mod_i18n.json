@@ -7194,6 +7194,45 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "LeadIndicator": {
+      "ModId": "LeadIndicator",
+      "ConfigLabels": {
+        "Enabled": {"zh-CN": "总开关", "en-US": "Master switch"},
+        "ToggleKey": {"zh-CN": "开关按键", "en-US": "Toggle key"},
+        "RangeKey": {"zh-CN": "锁定按键", "en-US": "Lock key"},
+        "ShowBox": {"zh-CN": "绿色方框", "en-US": "Target box"},
+        "ShowLeadCircle": {"zh-CN": "提前量小圈", "en-US": "Lead circle"},
+        "ShowRange": {"zh-CN": "显示距离", "en-US": "Range readout"},
+        "SuppressFcsLead": {"zh-CN": "压制火控提前量", "en-US": "Suppress FCS lead"},
+        "AutoRange": {"zh-CN": "自动校正距离", "en-US": "Auto range"},
+        "LockConeDegrees": {"zh-CN": "锁定角度 (度)", "en-US": "Lock cone (deg)"},
+        "MaxRange": {"zh-CN": "最大锁定距离 (米)", "en-US": "Max lock range (m)"},
+        "CircleRadius": {"zh-CN": "小圈半径 (像素)", "en-US": "Lead circle radius (px)"},
+        "BoxPadding": {"zh-CN": "绿框外扩 (像素)", "en-US": "Box padding (px)"},
+        "RequireLineOfSight": {"zh-CN": "只锁看得见的", "en-US": "Require line of sight"},
+        "MinScreenRadiusPixels": {"zh-CN": "最小屏幕尺寸 (像素)", "en-US": "Min screen radius (px)"},
+        "DebugLog": {"zh-CN": "写调试日志", "en-US": "Debug log"}
+      },
+      "ConfigComments": {
+        "主开关。关掉后按锁定键不再框目标": {"zh-CN": "主开关。关掉后按锁定键不再框目标", "en-US": "Master switch. With it off the lock key no longer boxes targets"},
+        "任务里开关这个模组的按键": {"zh-CN": "任务里开关这个模组的按键", "en-US": "Key that turns this mod on or off during a mission"},
+        "在炮手镜里单按它打开：锁定准星下的敌方载具并测距、画出提前圈；再按一次就是关掉（不管准星下有没有车）。想换目标就先按一下关掉、挪准星、再按一下打开。只有真按下了这一个键、期间没碰别的键才算一次，Alt+数字选 GO 码、Alt+Tab 切窗口都不会误触发": {"zh-CN": "在炮手镜里单按它打开：锁定准星下的敌方载具并测距、画出提前圈；再按一次就是关掉（不管准星下有没有车）。想换目标就先按一下关掉、挪准星、再按一下打开。只有真按下了这一个键、期间没碰别的键才算一次，Alt+数字选 GO 码、Alt+Tab 切窗口都不会误触发", "en-US": "Tap it in the gunner sight to lock the enemy vehicle under the reticle, measure the range and draw the lead circle; tapping it again turns it off, whatever is under the reticle. To switch targets, tap once to turn it off, move the reticle and tap again. It only counts a press of this key alone with no other key touched in between, so Alt+digit ammo selection and Alt+Tab never trigger it"},
+        "在目标车体上画绿色方框": {"zh-CN": "在目标车体上画绿色方框", "en-US": "Draw a green box on the target hull"},
+        "从绿框画一条绿线连到提前量小圈；把准星压在小圈上开火": {"zh-CN": "从绿框画一条绿线连到提前量小圈；把准星压在小圈上开火", "en-US": "Draw a green line from the box to the lead circle; put the reticle on the circle and fire"},
+        "在绿框下面显示测出的距离": {"zh-CN": "在绿框下面显示测出的距离", "en-US": "Show the measured range under the green box"},
+        "锁定期间压掉火控自己的提前量。GHPC 的 FCS 是按你转镜头的角速度反推提前量的，不压掉的话，你把准星往我们画的圈上移，它会在圈上再加一份，变成双倍提前": {"zh-CN": "锁定期间压掉火控自己的提前量。GHPC 的 FCS 是按你转镜头的角速度反推提前量的，不压掉的话，你把准星往我们画的圈上移，它会在圈上再加一份，变成双倍提前", "en-US": "Suppress the fire control's own lead while locked. GHPC's FCS infers lead from your turret traverse rate, so without this it adds another copy on top of the circle as you move the reticle onto it, doubling the lead"},
+        "锁定期间把火控距离校正到目标真实距离。没有激光测距仪的车靠这个才能直接打中": {"zh-CN": "锁定期间把火控距离校正到目标真实距离。没有激光测距仪的车靠这个才能直接打中", "en-US": "Correct the FCS range to the target's true range while locked. Vehicles without a laser rangefinder need this to hit at all"},
+        "按锁定键时，相机正前方多少度以内算“准星指着它”（角度越大越容易锁到旁边的车）": {"zh-CN": "按锁定键时，相机正前方多少度以内算“准星指着它”（角度越大越容易锁到旁边的车）", "en-US": "How many degrees off the camera axis still counts as aiming at the vehicle when locking (a larger value makes it easier to lock a neighbouring vehicle)"},
+        "超过这个距离（米）的载具不锁定": {"zh-CN": "超过这个距离（米）的载具不锁定", "en-US": "Vehicles farther than this (metres) are not locked"},
+        "提前量小圈的半径（1080p 下的像素，高分屏会按比例放大）": {"zh-CN": "提前量小圈的半径（1080p 下的像素，高分屏会按比例放大）", "en-US": "Radius of the lead circle in 1080p pixels; it scales up on high-resolution screens"},
+        "绿框比车体包围盒外扩多少像素": {"zh-CN": "绿框比车体包围盒外扩多少像素", "en-US": "How many pixels the green box is expanded beyond the hull bounding box"},
+        "只锁视野里真看得见的目标。借用游戏 AI 自己那套判断（GHPC.AI.VisibilityManager.IsPositionVisible：从炮镜往目标中心打射线，命中地形＝看不见，命中别的车的视准盒＝被挡住），所以山后面、树线后面那类「准星方向上恰好有一辆几公里外的车」不会再被锁上；顺带每帧复查，目标躲到山背后绿框就消失": {"zh-CN": "只锁视野里真看得见的目标。借用游戏 AI 自己那套判断（GHPC.AI.VisibilityManager.IsPositionVisible：从炮镜往目标中心打射线，命中地形＝看不见，命中别的车的视准盒＝被挡住），所以山后面、树线后面那类「准星方向上恰好有一辆几公里外的车」不会再被锁上；顺带每帧复查，目标躲到山背后绿框就消失", "en-US": "Only lock targets that are really visible. Uses the game AI's own test (GHPC.AI.VisibilityManager.IsPositionVisible: cast from the sight to the target centre; hitting terrain means invisible, hitting another vehicle's sight box means blocked), so a vehicle that happens to sit kilometres away along the reticle behind a hill or tree line is no longer locked; it rechecks every frame, so the box disappears as the target hides behind a hill"},
+        "目标在屏幕上的尺寸门槛：拿游戏自己的车体可见性点位（Unit.Extremities，车体四角）量「中心到最远点」的像素半径，不足这个数就不锁定。远处的车在屏幕上只有几个像素，你肉眼认不出来，模组也不该替你锁；炮镜放大倍率越大这个门槛越容易过，所以瞄具拉着打远距离不受影响。填 0 关掉这条": {"zh-CN": "目标在屏幕上的尺寸门槛：拿游戏自己的车体可见性点位（Unit.Extremities，车体四角）量「中心到最远点」的像素半径，不足这个数就不锁定。远处的车在屏幕上只有几个像素，你肉眼认不出来，模组也不该替你锁；炮镜放大倍率越大这个门槛越容易过，所以瞄具拉着打远距离不受影响。填 0 关掉这条", "en-US": "On-screen size gate: measures the pixel radius from the centre to the farthest of the game's own hull visibility points (Unit.Extremities, the hull corners) and does not lock below this value. A distant vehicle is only a few pixels across and you cannot recognise it, so the mod should not lock it for you; a higher sight magnification makes the gate easier to pass, so shooting far away through the optic is unaffected. Set it to 0 to turn this gate off"},
+        "把锁定/测距/飞行时间/火控距离写进 Bin/Mods/LeadIndicator.debug.log，只在排查问题时打开": {"zh-CN": "把锁定/测距/飞行时间/火控距离写进 Bin/Mods/LeadIndicator.debug.log，只在排查问题时打开", "en-US": "Write the lock, range, flight time and FCS range to Bin/Mods/LeadIndicator.debug.log; only turn this on when troubleshooting"}
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
