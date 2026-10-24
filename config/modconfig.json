@@ -2293,5 +2293,53 @@
       "M1A1",
       "M1A1CROWFIX"
     ]
+  },
+  {
+    "Id": "Challenger2",
+    "Author": "AIM",
+    "Name": {
+      "en-US": "Challenger 2",
+      "zh-CN": "挑战者 2"
+    },
+    "Description": {
+      "en-US": "Replaces the base Leopard 2 with Challenger 2. Full package, v0.4.43. Test build; some mission-loading compatibility issues remain unresolved.",
+      "zh-CN": "将基础豹 2 替换为挑战者 2，0.4.43 完整包。测试版，部分关卡加载兼容问题仍待排查。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "ReleaseUrl": "https://api.github.com/repos/AIM928/Challenger2/releases/latest",
+    "TargetFileNameKeyword": "Full.zip",
+    "MainBinaryFileName": "Challenger2.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "CoaxFire",
+    "Author": "rhino2024",
+    "Name": {
+      "en-US": "Machine Guns on the Fire Key",
+      "zh-CN": "空格直接开副武器机枪"
+    },
+    "Description": {
+      "en-US": "Hold Space to fire the coaxial and roof machine guns without switching weapons, so the main gun stays aimed where it was. The roof gun's fire control is also aimed along the main gun every frame, which stops it firing into the ground. F6 toggles it, and the fire key can be changed.",
+      "zh-CN": "按住空格直接打同轴机枪和车顶高射机枪，不用先把武器切过去，主炮该指哪还指哪。车顶机枪的火控也每帧跟着主炮，修掉它一开火就打脚下地板的问题。F6 开关，开火键可以改。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/rhino2024/GHPC-CoaxFire/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "CoaxFire.dll",
+    "ConfigSectionName": "CoaxFire",
+    "InstallMethod": "DirectRelease"
   }
 ]
