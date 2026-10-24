@@ -7123,6 +7123,29 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "CoaxFire": {
+      "ModId": "CoaxFire",
+      "ConfigLabels": {
+        "Enabled": {"zh-CN": "总开关", "en-US": "Master switch"},
+        "ToggleKey": {"zh-CN": "开关按键", "en-US": "Toggle key"},
+        "FireKey": {"zh-CN": "开火键", "en-US": "Fire key"},
+        "FireCoaxial": {"zh-CN": "同轴机枪", "en-US": "Coaxial gun"},
+        "FireRoofGun": {"zh-CN": "车顶机枪", "en-US": "Roof gun"},
+        "AimRoofGunAlongMainGun": {"zh-CN": "车顶火控跟主炮", "en-US": "Aim roof gun along main gun"},
+        "DebugLog": {"zh-CN": "写调试日志", "en-US": "Debug log"}
+      },
+      "ConfigComments": {
+        "Master switch. With it off these guns can only be fired the old way, by switching to them first": {"zh-CN": "总开关。关掉之后这些机枪只能按原版先切换再打", "en-US": "Master switch. With it off these guns can only be fired the old way, by switching to them first"},
+        "Key that turns the feature on or off during a mission; the current state is printed on screen": {"zh-CN": "任务中开关这个功能的按键，当前状态会打在屏幕上", "en-US": "Key that turns the feature on or off during a mission; the current state is printed on screen"},
+        "Hold this key to fire the secondary machine guns. Note: Space is the game's own Let Commander Aim by default, so both actions overlap and the commander override clears the main gun's lead. Rebinding that game action is cleanest, or set this fire key to a free one such as LeftAlt or V": {"zh-CN": "按住就用副武器机枪开火的键。注意空格默认是游戏的「车长超控瞄准」，两个会叠在一起，超控会清掉主炮提前量；最好把游戏那条绑定改掉，或把这键改成 LeftAlt、V 之类空键", "en-US": "Hold this key to fire the secondary machine guns. Note: Space is the game's own Let Commander Aim by default, so both actions overlap and the commander override clears the main gun's lead. Rebinding that game action is cleanest, or set this fire key to a free one such as LeftAlt or V"},
+        "Fire the coaxial machine gun while the fire key is held (Role=Coaxial)": {"zh-CN": "按住开火键时打同轴机枪", "en-US": "Fire the coaxial machine gun while the fire key is held (Role=Coaxial)"},
+        "Also fire the roof or loader AA machine gun while the fire key is held (Role=RoofGun). Its rounds leave that gun's own muzzle, so where they land depends on the next option aiming its fire control": {"zh-CN": "按住开火键时连车顶／装填手的高射机枪一起打。子弹从它自己的炮口出去，准不准看下面那项有没有把它的火控瞄过去", "en-US": "Also fire the roof or loader AA machine gun while the fire key is held (Role=RoofGun). Its rounds leave that gun's own muzzle, so where they land depends on the next option aiming its fire control"},
+        "Aim the roof gun's fire control where the main gun points, which fixes the AA gun firing into the ground. It has its own CWS fire control that the player never touches, so by default it sits at depression and ploughs the dirt; with this on, the main gun's direction is fed to it every frame and it follows at its own traverse rate, so a fast swing will lag. Switching to the roof gun yourself hands it back to the game": {"zh-CN": "把车顶机枪的火控瞄到主炮指的方向，修掉高射机枪打脚下地板的问题。它有自己的火控、玩家操作不到，默认停在下俯角；开着这项时每帧把主炮指向喂给它，它按自己的转速追，急转会滞后。玩家自己切到车顶那挺时让路给游戏", "en-US": "Aim the roof gun's fire control where the main gun points, which fixes the AA gun firing into the ground. It has its own CWS fire control that the player never touches, so by default it sits at depression and ploughs the dirt; with this on, the main gun's direction is fed to it every frame and it follows at its own traverse rate, so a fast swing will lag. Switching to the roof gun yourself hands it back to the game"},
+        "Write the decisions to Bin/Mods/CoaxFire.debug.log; only turn this on when something is wrong": {"zh-CN": "把判定写进 Bin/Mods/CoaxFire.debug.log，只在出问题时打开", "en-US": "Write the decisions to Bin/Mods/CoaxFire.debug.log; only turn this on when something is wrong"}
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
