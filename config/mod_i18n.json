@@ -7233,6 +7233,31 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "AmmoDisplay": {
+      "ModId": "AmmoDisplay",
+      "ConfigLabels": {
+        "Enabled": {"zh-CN": "总开关", "en-US": "Master switch"},
+        "ToggleKey": {"zh-CN": "开关按键", "en-US": "Toggle key"},
+        "CellSize": {"zh-CN": "格子大小", "en-US": "Cell size"},
+        "ShowMachineGuns": {"zh-CN": "显示机枪排", "en-US": "Show machine gun row"},
+        "Anchor": {"zh-CN": "位置", "en-US": "Anchor"},
+        "MarginBottom": {"zh-CN": "离底边距离", "en-US": "Bottom margin"},
+        "IconDirectory": {"zh-CN": "图标文件夹", "en-US": "Icon folder"},
+        "DebugLog": {"zh-CN": "写调试日志", "en-US": "Debug log"}
+      },
+      "ConfigComments": {
+        "主开关：在屏幕下方显示弹药栏": {"zh-CN": "主开关：在屏幕下方显示弹药栏", "en-US": "Master switch: show the ammo bar at the bottom of the screen"},
+        "任务里开关弹药栏的按键": {"zh-CN": "任务里开关弹药栏的按键", "en-US": "Key that turns the ammo bar on or off during a mission"},
+        "主炮每个弹种格子的边长（像素），图标就按这个大小画；上面那排机枪格子取它的 0.8 倍": {"zh-CN": "主炮每个弹种格子的边长（像素），图标就按这个大小画；上面那排机枪格子取它的 0.8 倍", "en-US": "Side length in pixels of each main gun shell cell; icons are drawn at this size, and the machine gun row above uses 0.8 of it"},
+        "是否额外显示非主炮武器（同轴机枪、车顶枪、烟幕发射器）的剩余弹量。默认关着——主炮那排才是要盯着看的，多一排会把画面下方挡得更多": {"zh-CN": "是否额外显示非主炮武器（同轴机枪、车顶枪、烟幕发射器）的剩余弹量。默认关着——主炮那排才是要盯着看的，多一排会把画面下方挡得更多", "en-US": "Also show remaining rounds for weapons other than the main gun (coaxial gun, roof gun, smoke launchers). Off by default: the main gun row is what you watch, and an extra row covers more of the lower screen"},
+        "弹药栏的位置：BottomCenter、BottomLeft 或 BottomRight": {"zh-CN": "弹药栏的位置：BottomCenter、BottomLeft 或 BottomRight", "en-US": "Where the ammo bar sits: BottomCenter, BottomLeft or BottomRight"},
+        "弹药栏离屏幕底边多少像素（是底边到弹链进度条的距离，填小就是贴在最下面）": {"zh-CN": "弹药栏离屏幕底边多少像素（是底边到弹链进度条的距离，填小就是贴在最下面）", "en-US": "Distance in pixels from the bottom of the screen to the ammo bar (measured to the belt reload bar, so a small value pins it to the very bottom)"},
+        "你自己的弹种图标文件夹（相对游戏目录或绝对路径）。mod 自带一套图标，这里的同名文件会覆盖它们；文件名按弹种匹配，例如 apfsds.png、heat.png、he.png、atgm.png、mg.png": {"zh-CN": "你自己的弹种图标文件夹（相对游戏目录或绝对路径）。mod 自带一套图标，这里的同名文件会覆盖它们；文件名按弹种匹配，例如 apfsds.png、heat.png、he.png、atgm.png、mg.png", "en-US": "Your own shell icon folder, relative to the game folder or absolute. The mod ships icons, and files here with the same name override them; names are matched by shell type, such as apfsds.png, heat.png, he.png, atgm.png, mg.png"},
+        "把每个弹种匹配到哪张图标、每种弹的待发/全车总数是多少写进 Bin/Mods/AmmoDisplay.debug.log，只在图标或数字不对时打开": {"zh-CN": "把每个弹种匹配到哪张图标、每种弹的待发/全车总数是多少写进 Bin/Mods/AmmoDisplay.debug.log，只在图标或数字不对时打开", "en-US": "Write which icon each shell matched and the loaded/vehicle-wide count per shell to Bin/Mods/AmmoDisplay.debug.log; only turn this on when an icon or number looks wrong"}
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }

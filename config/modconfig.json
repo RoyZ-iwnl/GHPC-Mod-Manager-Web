@@ -2397,5 +2397,31 @@
     "MainBinaryFileName": "LeadIndicator.dll",
     "ConfigSectionName": "LeadIndicator",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "AmmoDisplay",
+    "Author": "rhino2024",
+    "Name": {
+      "en-US": "Ammo Display",
+      "zh-CN": "弹药架显示"
+    },
+    "Description": {
+      "en-US": "A War Thunder style ammo bar along the bottom of the screen: one cell per shell type, each showing the vehicle-wide count across racks, feed belts and the chamber. Spent cells dim, the loaded round is outlined, autocannon belts get a belt icon, guided missiles get their own cell, and a reload bar sits under the row. Six original icons are included; your own PNGs in UserData/AmmoIcons override them by file name. F3 toggles it.",
+      "zh-CN": "屏幕下方一条战雷式弹药栏：每个弹种一格，格子上是全车总数（弹架、供弹机弹链和炮膛一起算）。打空的格子变暗，当前装填的弹种描白框，机炮弹链显示弹链图标，制导导弹单独占一格，弹链下面还有装填进度条。自带六张原创图标；把你自己的 PNG 放进 UserData/AmmoIcons 会按文件名覆盖。F3 开关。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/rhino2024/GHPC-AmmoDisplay/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "AmmoDisplay.dll",
+    "ConfigSectionName": "AmmoDisplay",
+    "InstallMethod": "DirectRelease"
   }
 ]
