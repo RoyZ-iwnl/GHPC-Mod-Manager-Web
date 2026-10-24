@@ -7146,6 +7146,54 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "WreckCleanup": {
+      "ModId": "WreckCleanup",
+      "ConfigLabels": {
+        "Enabled": {"zh-CN": "自动清理", "en-US": "Enable cleanup"},
+        "WreckThreshold": {"zh-CN": "触发清理的残骸数", "en-US": "Wreck threshold"},
+        "WreckDelay": {"zh-CN": "残骸燃烧判定 (秒)", "en-US": "Wreck age before cleanup (s)"},
+        "CheckInterval": {"zh-CN": "扫描间隔 (秒)", "en-US": "Scan interval (s)"},
+        "HideOnMap": {"zh-CN": "同时隐藏地图图标", "en-US": "Hide on the map"},
+        "RestoreInAar": {"zh-CN": "战后回放期间还原", "en-US": "Show during AAR"},
+        "ToggleKey": {"zh-CN": "开关按键", "en-US": "Toggle key"},
+        "DebugLog": {"zh-CN": "写调试日志", "en-US": "Debug log"}
+      },
+      "ConfigComments": {
+        "Clean up automatically once the field holds enough wrecks": {"zh-CN": "场上残骸达到阈值后自动清理", "en-US": "Clean up automatically once the field holds enough wrecks"},
+        "How many vehicle wrecks have to be on the field before they are cleared": {"zh-CN": "场上残骸达到多少辆才触发清理", "en-US": "How many vehicle wrecks have to be on the field before they are cleared"},
+        "A wreck has to burn this long before it counts as clearable, so the kill is still watchable": {"zh-CN": "残骸要烧这么久才算可清理，保证击杀画面还能看到", "en-US": "A wreck has to burn this long before it counts as clearable, so the kill is still watchable"},
+        "Seconds between field sweeps": {"zh-CN": "两次扫描之间的间隔（秒）", "en-US": "Seconds between field sweeps"},
+        "Also mark the wreck as hidden so no stale icon is left on the tactical map": {"zh-CN": "同时把残骸标记为隐藏，战术地图上不留旧图标", "en-US": "Also mark the wreck as hidden so no stale icon is left on the tactical map"},
+        "Show the wrecks again while the after action replay runs, since it films them, and hide them again afterwards": {"zh-CN": "战后回放期间重新显示残骸（回放会拍到它们），结束后再隐藏", "en-US": "Show the wrecks again while the after action replay runs, since it films them, and hide them again afterwards"},
+        "Switch the cleanup on or off during a mission": {"zh-CN": "任务中开关自动清理", "en-US": "Switch the cleanup on or off during a mission"},
+        "Write sweep diagnostics to Bin/Mods/WreckCleanup.debug.log; only turn this on when something is wrong": {"zh-CN": "把扫描诊断写入 Bin/Mods/WreckCleanup.debug.log，只在出问题时打开", "en-US": "Write sweep diagnostics to Bin/Mods/WreckCleanup.debug.log; only turn this on when something is wrong"}
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
+    },
+    "FreeAim": {
+      "ModId": "FreeAim",
+      "ConfigLabels": {
+        "Enabled": {"zh-CN": "总开关", "en-US": "Master switch"},
+        "ToggleKey": {"zh-CN": "开关按键", "en-US": "Toggle key"},
+        "Sensitivity": {"zh-CN": "灵敏度", "en-US": "Sensitivity"},
+        "Deadzone": {"zh-CN": "死区", "en-US": "Deadzone"},
+        "InvertYaw": {"zh-CN": "水平反转", "en-US": "Invert yaw"},
+        "InvertPitch": {"zh-CN": "俯仰反转", "en-US": "Invert pitch"},
+        "DebugLog": {"zh-CN": "写调试日志", "en-US": "Debug log"}
+      },
+      "ConfigComments": {
+        "Master switch. Turn it off and aiming behaves as before, where the sight only moves while the right mouse button is held": {"zh-CN": "总开关。关掉就是原版，必须按住右键才能动炮镜", "en-US": "Master switch. Turn it off and aiming behaves as before, where the sight only moves while the right mouse button is held"},
+        "Key that turns the feature on or off at any time; the current state is printed on screen, so a stray press is not a silent failure": {"zh-CN": "随时开关这个功能的按键，当前状态会打在屏幕上，误按也不会莫名其妙失灵", "en-US": "Key that turns the feature on or off at any time; the current state is printed on screen, so a stray press is not a silent failure"},
+        "Mouse to turret speed factor: each frame's mouse delta is multiplied by it and by the gun's own maximum traverse speed. The raw delta is only about 1, so 0.05 is nearly invisible; numpad + / - adjust it while playing and the value is saved": {"zh-CN": "鼠标到炮塔转速的系数：每帧鼠标量乘它，再乘火炮自身的最大转向速度。鼠标量本身只有 1 左右，0.05 几乎看不出来；小键盘 +/- 可以边打边调，调完自动存", "en-US": "Mouse to turret speed factor: each frame's mouse delta is multiplied by it and by the gun's own maximum traverse speed. The raw delta is only about 1, so 0.05 is nearly invisible; numpad + / - adjust it while playing and the value is saved"},
+        "Mouse deltas below this count as zero. It stops a resting mouse axis from drifting the sight; the threshold is measured in clicks, and vertical deltas are naturally smaller than horizontal ones when you pan slowly, so too large a value eats pitch": {"zh-CN": "小于这个值的鼠标量当 0 处理，防止鼠标自己飘；这个门限按「格」算，慢速上下挪时垂直量本来就小，调太大会吃掉俯仰", "en-US": "Mouse deltas below this count as zero. It stops a resting mouse axis from drifting the sight; the threshold is measured in clicks, and vertical deltas are naturally smaller than horizontal ones when you pan slowly, so too large a value eats pitch"},
+        "Flip the horizontal axis. Tick this if pushing left turns you right, no code change needed": {"zh-CN": "水平方向反过来，左右推反了就勾它", "en-US": "Flip the horizontal axis. Tick this if pushing left turns you right, no code change needed"},
+        "Flip the pitch axis. Tick this if up and down are reversed; the game's own invert Y setting takes priority and this mod follows it": {"zh-CN": "俯仰方向反过来，上下反了就勾它；游戏设置里的 Y 轴反转优先级更高，本模组跟着一起翻", "en-US": "Flip the pitch axis. Tick this if up and down are reversed; the game's own invert Y setting takes priority and this mod follows it"},
+        "Write the per-frame decisions to Bin/Mods/FreeAim.debug.log; only turn this on when something is wrong": {"zh-CN": "把每帧的判定写进 Bin/Mods/FreeAim.debug.log，只在出问题时打开", "en-US": "Write the per-frame decisions to Bin/Mods/FreeAim.debug.log; only turn this on when something is wrong"}
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
