@@ -7123,6 +7123,31 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "WreckCleanup": {
+      "ModId": "WreckCleanup",
+      "ConfigLabels": {
+        "Enabled": {"zh-CN": "自动清理", "en-US": "Enable cleanup"},
+        "WreckThreshold": {"zh-CN": "触发清理的残骸数", "en-US": "Wreck threshold"},
+        "WreckDelay": {"zh-CN": "残骸燃烧判定 (秒)", "en-US": "Wreck age before cleanup (s)"},
+        "CheckInterval": {"zh-CN": "扫描间隔 (秒)", "en-US": "Scan interval (s)"},
+        "HideOnMap": {"zh-CN": "同时隐藏地图图标", "en-US": "Hide on the map"},
+        "RestoreInAar": {"zh-CN": "战后回放期间还原", "en-US": "Show during AAR"},
+        "ToggleKey": {"zh-CN": "开关按键", "en-US": "Toggle key"},
+        "DebugLog": {"zh-CN": "写调试日志", "en-US": "Debug log"}
+      },
+      "ConfigComments": {
+        "Clean up automatically once the field holds enough wrecks": {"zh-CN": "场上残骸达到阈值后自动清理", "en-US": "Clean up automatically once the field holds enough wrecks"},
+        "How many vehicle wrecks have to be on the field before they are cleared": {"zh-CN": "场上残骸达到多少辆才触发清理", "en-US": "How many vehicle wrecks have to be on the field before they are cleared"},
+        "A wreck has to burn this long before it counts as clearable, so the kill is still watchable": {"zh-CN": "残骸要烧这么久才算可清理，保证击杀画面还能看到", "en-US": "A wreck has to burn this long before it counts as clearable, so the kill is still watchable"},
+        "Seconds between field sweeps": {"zh-CN": "两次扫描之间的间隔（秒）", "en-US": "Seconds between field sweeps"},
+        "Also mark the wreck as hidden so no stale icon is left on the tactical map": {"zh-CN": "同时把残骸标记为隐藏，战术地图上不留旧图标", "en-US": "Also mark the wreck as hidden so no stale icon is left on the tactical map"},
+        "Show the wrecks again while the after action replay runs, since it films them, and hide them again afterwards": {"zh-CN": "战后回放期间重新显示残骸（回放会拍到它们），结束后再隐藏", "en-US": "Show the wrecks again while the after action replay runs, since it films them, and hide them again afterwards"},
+        "Switch the cleanup on or off during a mission": {"zh-CN": "任务中开关自动清理", "en-US": "Switch the cleanup on or off during a mission"},
+        "Write sweep diagnostics to Bin/Mods/WreckCleanup.debug.log; only turn this on when something is wrong": {"zh-CN": "把扫描诊断写入 Bin/Mods/WreckCleanup.debug.log，只在出问题时打开", "en-US": "Write sweep diagnostics to Bin/Mods/WreckCleanup.debug.log; only turn this on when something is wrong"}
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }

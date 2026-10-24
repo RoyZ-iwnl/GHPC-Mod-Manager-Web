@@ -2264,5 +2264,31 @@
     "TargetFileNameKeyword": "Full.zip",
     "MainBinaryFileName": "Challenger2.dll",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "WreckCleanup",
+    "Author": "rhino2024",
+    "Name": {
+      "en-US": "Wreck Cleanup",
+      "zh-CN": "残骸清理"
+    },
+    "Description": {
+      "en-US": "Once 3 or more wrecks are sitting on the field, every wreck that has been burning for 8 seconds is cleared away, so a long battle stops losing frames to vehicles nobody is driving. Nothing happens below that count, F8 turns it off mid-mission, and the wrecks are shown again while the after action replay runs.",
+      "zh-CN": "场上堆了 3 辆以上残骸后，烧了 8 秒以上的那些会被收走，免得长时间作战一直为没人开的空车掉帧。不到这个数它什么都不做，F8 可以随时关掉，战后回放期间残骸会重新显示。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/rhino2024/GHPC-WreckCleanup/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "WreckCleanup.dll",
+    "ConfigSectionName": "WreckCleanup",
+    "InstallMethod": "DirectRelease"
   }
 ]
