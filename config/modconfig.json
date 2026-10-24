@@ -2371,5 +2371,57 @@
     "MainBinaryFileName": "FreeAim.dll",
     "ConfigSectionName": "FreeAim",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "LeadIndicator",
+    "Author": "rhino2024",
+    "Name": {
+      "en-US": "Lead Indicator",
+      "zh-CN": "提前量指示器"
+    },
+    "Description": {
+      "en-US": "Tap LeftAlt in the gunner sight to lock the enemy vehicle under the reticle: a green box on its hull, the range under the box, and a line to a small lead circle computed from the game's own ballistic flight time. Put the reticle on the circle and fire, and the target drives into the impact point. While locked it suppresses the fire control's own lead and corrects the FCS range to the true range, which is what lets vehicles without a laser rangefinder hit; both are restored on unlock. It only locks vehicles that are really visible to the game's AI line-of-sight check and big enough on screen to be recognised. Since 1.7.0 it is a pure indicator: it never drives the turret or the sight, so whether to press onto the circle is your own call. Tap LeftAlt again to unlock whatever is under the reticle; to switch targets, unlock, move the reticle and lock again. F4 is the master switch. Requires MelonLoader. Tested on 0.1.0-alpha+20261014.",
+      "zh-CN": "炮手镜里按一下 LeftAlt 锁住准星下的敌方载具：车体上一个绿框、框下是距离，一条绿线连到提前量小圈——按游戏自己弹道表里的飞行时间算出来的落点。把准星压到圈上开火，目标正好走进弹着点。锁定期间压住火控自己那份提前量，并把火控距离校正到真实距离（没有激光测距仪的车靠这条才打得中），解除时原样还原。只锁视野里真看得见的目标（沿用游戏 AI 的视线判断），屏幕上只剩几个像素的远车也不锁。1.7.0 起是纯指示器：炮口不动、炮塔不转，要不要压到圈上由你自己操作。再按一次 LeftAlt 一律解除；换目标就是关一下、挪准星、开一下。F4 总开关。需要 MelonLoader。在 0.1.0-alpha+20261014 实测。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/rhino2024/GHPC-LeadIndicator/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "LeadIndicator.dll",
+    "ConfigSectionName": "LeadIndicator",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "AmmoDisplay",
+    "Author": "rhino2024",
+    "Name": {
+      "en-US": "Ammo Display",
+      "zh-CN": "弹药架显示"
+    },
+    "Description": {
+      "en-US": "A War Thunder style ammo bar along the bottom of the screen: one cell per shell type, each showing the vehicle-wide count across racks, feed belts and the chamber. Spent cells dim, the loaded round is outlined, autocannon belts get a belt icon, guided missiles get their own cell, and a reload bar sits under the row. Six original icons are included; your own PNGs in UserData/AmmoIcons override them by file name. F3 toggles it.",
+      "zh-CN": "屏幕下方一条战雷式弹药栏：每个弹种一格，格子上是全车总数（弹架、供弹机弹链和炮膛一起算）。打空的格子变暗，当前装填的弹种描白框，机炮弹链显示弹链图标，制导导弹单独占一格，弹链下面还有装填进度条。自带六张原创图标；把你自己的 PNG 放进 UserData/AmmoIcons 会按文件名覆盖。F3 开关。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/rhino2024/GHPC-AmmoDisplay/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "AmmoDisplay.dll",
+    "ConfigSectionName": "AmmoDisplay",
+    "InstallMethod": "DirectRelease"
   }
 ]
