@@ -220,6 +220,28 @@
     ]
   },
   {
+    "Id": "Challenger2",
+    "Author": "AIM",
+    "Name": {
+      "en-US": "Challenger 2",
+      "zh-CN": "挑战者 2"
+    },
+    "Description": {
+      "en-US": "Replaces the base Leopard 2 with Challenger 2. Full package, v0.4.43. Test build; some mission-loading compatibility issues remain unresolved.",
+      "zh-CN": "将基础豹 2 替换为挑战者 2，0.4.43 完整包。测试版，部分关卡加载兼容问题仍待排查。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "ReleaseUrl": "https://api.github.com/repos/AIM928/Challenger2/releases/latest",
+    "TargetFileNameKeyword": "Full.zip",
+    "MainBinaryFileName": "Challenger2.dll",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "BMP1ST",
     "Name": {
       "en-US": "Stabilized BMP-1",
@@ -2213,6 +2235,35 @@
     "Requirements": [
       "Fulda89"
     ]
+  },
+  {
+    "Id": "M1A1rebalance",
+    "Name": {
+      "en-US": "M1A1 DU rebalance",
+      "zh-CN": "M1A1 DU甲削弱"
+    },
+    "Author": "通往大马士革之路",
+    "Description": {
+      "en-US": "gen1 DU armor,usually we believe that it provide a KE of about 600mm,and cannot defend 9M133 reliably.",
+      "zh-CN": "gen1 DU armor,usually we believe that it provide a KE of about 600mm,and cannot defend 9M133 reliably."
+    },
+    "Tags": {
+      "Patch": {
+        "zh-CN": "补丁",
+        "en-US": "Patch"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Fulda833/GHPC-M1A1-DU-rebalance/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "m1a1durebalance.dll",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "Fulda89"
+    ],
+    "Delisted":true
   },
   {
     "Id": "M1laserFIX",
