@@ -2264,5 +2264,31 @@
     "TargetFileNameKeyword": "Full.zip",
     "MainBinaryFileName": "Challenger2.dll",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "FreeAim",
+    "Author": "rhino2024",
+    "Name": {
+      "en-US": "Free Aim",
+      "zh-CN": "第一人称自由瞄准"
+    },
+    "Description": {
+      "en-US": "Aims the turret in first person without holding the right mouse button. The stock game only moves the sight while the button is held, and it keeps the turret turning after the mouse stops; here the turret follows the mouse and stops with it. It only takes over where you really have turret control and stays out of the way while you do hold the button. F11 toggles it, and numpad + / - tune sensitivity while playing.",
+      "zh-CN": "第一人称下不用按住右键就能转炮塔，鼠标停下来炮塔就停。原版要按住右键才动，而且会把鼠标量攒成一个速度档位，鼠标停了炮塔还在转；这里鼠标动多少就转多少。只在真的能控制炮塔的位置接管，按住右键时完全不插手。F11 开关，小键盘 + / - 边打边调灵敏度。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/rhino2024/GHPC-FreeAim/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "FreeAim.dll",
+    "ConfigSectionName": "FreeAim",
+    "InstallMethod": "DirectRelease"
   }
 ]
