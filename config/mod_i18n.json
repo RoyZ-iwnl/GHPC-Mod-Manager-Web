@@ -7123,6 +7123,21 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "RepairMenu": {
+      "ModId": "RepairMenu",
+      "ConfigLabels": {
+        "RepairSeconds": {"zh-CN": "维修总时长 (秒)", "en-US": "Total repair time (s)"},
+        "ShowProgress": {"zh-CN": "显示维修进度", "en-US": "Show repair progress"},
+        "DebugLog": {"zh-CN": "写调试日志", "en-US": "Debug log"}
+      },
+      "ConfigComments": {
+        "How long repairing every module takes; one module costs its share of that. Set 0 for an instant fix": {"zh-CN": "修完所有模块的总时长，单个模块按比例分摊；设为 0 就是立刻修完", "en-US": "How long repairing every module takes; one module costs its share of that. Set 0 for an instant fix"},
+        "Show the remaining repair time at the bottom of the screen while a repair is running": {"zh-CN": "读条期间在屏幕底部显示剩余维修时间", "en-US": "Show the remaining repair time at the bottom of the screen while a repair is running"},
+        "Write repair diagnostics to Bin/Mods/RepairMenu.debug.log; only turn this on when something is wrong": {"zh-CN": "把维修诊断写入 Bin/Mods/RepairMenu.debug.log，只在出问题时打开", "en-US": "Write repair diagnostics to Bin/Mods/RepairMenu.debug.log; only turn this on when something is wrong"}
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }

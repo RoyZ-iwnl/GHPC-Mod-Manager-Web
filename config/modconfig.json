@@ -2264,5 +2264,31 @@
     "TargetFileNameKeyword": "Full.zip",
     "MainBinaryFileName": "Challenger2.dll",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "RepairMenu",
+    "Author": "rhino2024",
+    "Name": {
+      "en-US": "Vehicle Repair Menu",
+      "zh-CN": "载具维修菜单"
+    },
+    "Description": {
+      "en-US": "Adds a Repair submenu to the game's own Q context menu, so you pick which module to fix instead of repairing everything at once: engine, transmission, radiator, left track or right track. Each module has its own countdown - all five together take 30 seconds - and the remaining time is shown at the bottom of the screen. Pressing Q again cancels the job and keeps whatever was already repaired.",
+      "zh-CN": "在游戏原生的 Q 菜单里加一个 Repair 子菜单，点哪个模块修哪个，而不是一键全修：发动机、变速箱、散热器、左履带、右履带。每个模块各自读条，五个全修完正好 30 秒，读条期间屏幕底部显示剩余时间。再按一次 Q 取消，已经修好的部分保留。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/rhino2024/GHPC-RepairMenu/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "RepairMenu.dll",
+    "ConfigSectionName": "RepairMenu",
+    "InstallMethod": "DirectRelease"
   }
 ]
