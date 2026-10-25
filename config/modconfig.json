@@ -2423,5 +2423,30 @@
     "MainBinaryFileName": "AmmoDisplay.dll",
     "ConfigSectionName": "AmmoDisplay",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "PreillumReticle",
+    "Author": "oilpeanut",
+    "Name": {
+      "en-US": "Preilluminate Reticles",
+      "zh-CN": "预点亮准星"
+    },
+    "Description": {
+      "en-US": "This mod illuminate all the reticles (except if they cannot be illuminated, like the Abrams' .50 cal) on you and your friendlies' vehicles, so that you don't have to go through the trouble of pressing I on every optics.This mod now also offers the ability to change the brightness of the current reticle. (Keybind: Right Alt + Up/Down Arrow)",
+      "zh-CN": "这个模组可以预照亮你和你队友的载具上所有的瞄准具（当然，那些无法被照明的瞄准具除外，比如.50 的瞄准具）。这样你就不需要每次都手动点击I键光学瞄准器来照亮它们了。这个模组现在还提供了调整当前瞄准镜亮度的功能。（按键组合：右 Alt 键 + 上下方向键）"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/oilpeanut/PreilluminateReticles/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "PreilluminateReticles.dll",
+    "InstallMethod": "DirectRelease"
   }
 ]
