@@ -118,5 +118,30 @@
     "TargetFileNameKeyword": "Full.zip",
     "MainBinaryFileName": "Challenger2.dll",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "M1Trophy",
+    "Author": "AIM",
+    "Name": {
+      "en-US": "M1 Trophy",
+      "zh-CN": "M1 战利品"
+    },
+    "Description": {
+      "en-US": "M1 Trophy vehicle conversion with Trophy APS, M829A4, CITV and a remote weapon station. Full package includes both DLLs and required assets. Retopologized War Thunder model; original assets: Gaijin Entertainment; weapon station: 我怕肾虚, with upstream CROWS contributors. Live firing/camera verification remains pending.",
+      "zh-CN": "M1 战利品载具改装，包含主动防御、M829A4、车长热像及遥控武器站。完整包包含两个 DLL 和所需资源。采用经过重拓扑（Retopo）处理的战争雷霆模型；原始素材归 Gaijin Entertainment 所有；武器站：我怕肾虚及上游 CROWS 贡献者。开火与视角效果仍待游戏内复测。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "ReleaseUrl": "https://api.github.com/repos/AIM928/M1-Trophy/releases/latest",
+    "TargetFileNameKeyword": "Full.zip",
+    "MainBinaryFileName": "M1Trophy.dll",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "VanillaAssetUtil"
+    ]
   }
 ]
