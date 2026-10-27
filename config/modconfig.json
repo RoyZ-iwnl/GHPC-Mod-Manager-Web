@@ -2473,6 +2473,37 @@
     "TargetFileNameKeyword": "Full.zip",
     "MainBinaryFileName": "M1Trophy.dll",
     "InstallMethod": "DirectRelease",
+    "Conflicts":[
+      "TrophyAPS"
+    ],
+    "Requirements": [
+      "VanillaAssetUtil"
+    ]
+  },
+  {
+    "Id": "TrophyAPS",
+    "Author": "simon145",
+    "Name": {
+      "en-US": "TrophyAPS",
+      "zh-CN": "战利品主动防御系统"
+    },
+    "Description": {
+      "en-US": "Initial inspiration and implementation came from part of ATLAS's APS source code, and a general framework has since been developed that can be applied to other APS systems such as Tekken, Arena, GL6, etc.",
+      "zh-CN": "初期灵感和实现来自ATLAS的部分APS源码，后期已有通用框架可以套到铁拳、竞技场、GL6等其他APS上"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "ReleaseUrl": "https://api.github.com/repos/RoyZ-iwnl/TrophyAPS/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "TrophyAPS.dll",
+    "InstallMethod": "DirectRelease",
+    "Conflicts":[
+      "M1Trophy"
+    ],
     "Requirements": [
       "VanillaAssetUtil"
     ]

@@ -7258,6 +7258,63 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "TrophyAPS": {
+      "ModId": "TrophyAPS",
+      "ConfigLabels": {
+        "Enabled": {
+          "zh-CN": "启用Trophy主动防护系统",
+          "en-US": "Enabled"
+        },
+        "Detection Radius": {
+          "zh-CN": "探测半径",
+          "en-US": "Detection Radius"
+        },
+        "Detection Height": {
+          "zh-CN": "探测高度",
+          "en-US": "Detection Height"
+        },
+        "Rounds per Launcher": {
+          "zh-CN": "每个发射器弹药数",
+          "en-US": "Rounds per Launcher"
+        },
+        "Friendly Fire Filter": {
+          "zh-CN": "友军火力过滤",
+          "en-US": "Friendly Fire Filter"
+        },
+        "Show Range Visual": {
+          "zh-CN": "显示探测范围可视化",
+          "en-US": "Show Range Visual"
+        }
+      },
+      "ConfigComments": {
+        "Master switch. Disables mounting on every vehicle, useful for A/B comparison. APFSDS is never engaged; its velocity is far outside the window.": {
+          "zh-CN": "总开关。禁用所有载具上的Trophy系统，便于A/B对比测试。尾翼稳定脱壳穿甲弹不会被拦截；其速度远超拦截窗口范围。",
+          "en-US": "Master switch. Disables mounting on every vehicle, useful for A/B comparison. APFSDS is never engaged; its velocity is far outside the window."
+        },
+        "Horizontal semi-axis of the detection volume in meters - how far out a side-on threat is engaged, 360 degrees all round. Range 5 ~ 30, default 30. Below 10 the interceptor blast spatters the vehicle and the AAR fills with Hit ... with blast": {
+          "zh-CN": "探测体积的水平半轴（米）- 侧向威胁在多远处被拦截，360度全向。范围5~30，默认30。低于10时拦截器爆炸会溅射到载具上，战后报告会充满\"Hit ... with blast\"。",
+          "en-US": "Horizontal semi-axis of the detection volume in meters - how far out a side-on threat is engaged, 360 degrees all round. Range 5 ~ 30, default 30. Below 10 the interceptor blast spatters the vehicle and the AAR fills with Hit ... with blast"
+        },
+        "Vertical semi-axis of the detection volume in meters - how high a target still counts as incoming. Range 5 ~ 30, default 12. Smaller: rounds passing overhead are no longer engaged by mistake, but top-attack rounds are caught later. Larger: top-attack rounds are caught earlier, at the cost of engaging anything passing a dozen meters overhead. Equal to Radius degenerates into a sphere (old behaviour).": {
+          "zh-CN": "探测体积的垂直半轴（米）- 目标在多高时仍被视为来袭威胁。范围5~30，默认12。较小值：头顶上方掠过的弹药不会被误拦截，但顶部攻击弹药拦截较晚。较大值：顶部攻击弹药拦截较早，但会拦截头顶十几米高的任何物体。等于半径时退化为球体（旧行为）。",
+          "en-US": "Vertical semi-axis of the detection volume in meters - how high a target still counts as incoming. Range 5 ~ 30, default 12. Smaller: rounds passing overhead are no longer engaged by mistake, but top-attack rounds are caught later. Larger: top-attack rounds are caught earlier, at the cost of engaging anything passing a dozen meters overhead. Equal to Radius degenerates into a sphere (old behaviour)."
+        },
+        "Rounds per launcher. Range 1 ~ 8, default 4 (3 in the magazine plus 1 loaded). The upper bound of 8 corresponds to 7+1.": {
+          "zh-CN": "每个发射器的弹药数。范围1~8，默认4（弹匣3发+已装填1发）。上限8对应7+1。",
+          "en-US": "Rounds per launcher. Range 1 ~ 8, default 4 (3 in the magazine plus 1 loaded). The upper bound of 8 corresponds to 7+1."
+        },
+        "Let rounds fired by friendly units (same vehicle, same platoon, same allegiance) pass, so two M1s close together do not intercept each other. On the test range every vehicle is in the player switch list and counts as one side; set this to false if the APS should engage vehicles you switched into.": {
+          "zh-CN": "让友军单位（同一载具、同一排、同一阵营）发射的弹药通过，避免两辆靠近的M1相互拦截。在测试场上所有载具都在玩家切换列表中并计为同一方；如果希望APS拦截你切换过的载具，请设为false。",
+          "en-US": "Let rounds fired by friendly units (same vehicle, same platoon, same allegiance) pass, so two M1s close together do not intercept each other. On the test range every vehicle is in the player switch list and counts as one side; set this to false if the APS should engage vehicles you switched into."
+        },
+        "Draw the detection volume outline of each quadrant (debug): A red, B yellow, C green, D blue. Turn it off once the shape has been verified.": {
+          "zh-CN": "绘制每个象限的探测体积轮廓（调试）：A红色、B黄色、C绿色、D蓝色。验证完形状后请关闭。",
+          "en-US": "Draw the detection volume outline of each quadrant (debug): A red, B yellow, C green, D blue. Turn it off once the shape has been verified."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
