@@ -7315,6 +7315,35 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "M1Trophy": {
+      "ModId": "M1Trophy",
+      "ConfigLabels": {
+        "M829A4Count": {
+          "zh-CN": "M829A4 钢针携弹数量",
+          "en-US": "M829A4 APFSDS-T round count"
+        },
+        "AMPCount": {
+          "zh-CN": "M1147 AMP 携弹数量",
+          "en-US": "M1147 AMP round count"
+        }
+      },
+      "ConfigComments": {
+        "M829A4 数量，0-40。总携弹上限40；超额时优先保留M829A4，AMP使用剩余容量。重新进入关卡生效。": {
+          "zh-CN": "M829A4 数量：0～40。两种弹药合计最多 40 发；超额时优先保留 M829A4，AMP 使用剩余容量。重启游戏后生效。",
+          "en-US": "M829A4 count: 0–40. Combined capacity is 40 rounds; M829A4 is allocated first and AMP uses the remaining capacity. Restart the game after changing."
+        },
+        "M1147 AMP 数量，0-40。总数等于M829A4Count+AMPCount，最多40发；旧HEATCount设置自动兼容。重新进入关卡生效。": {
+          "zh-CN": "M1147 AMP 数量：0～40。两种弹药合计最多 40 发；超额的 AMP 会自动减少。兼容旧 HEATCount 设置。重启游戏后生效。",
+          "en-US": "M1147 AMP count: 0–40. Combined capacity is 40 rounds; excess AMP is reduced automatically. Legacy HEATCount settings are migrated. Restart the game after changing."
+        },
+        "M829A4 + AMP 总携弹上限 40 发。超额时优先保留 M829A4；重新进入关卡生效。": {
+          "zh-CN": "M829A4 与 AMP 合计最多 40 发，超额时优先保留 M829A4。重启游戏后生效。",
+          "en-US": "M829A4 and AMP share a 40-round capacity. M829A4 is allocated first if the total exceeds 40. Restart the game after changing."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
