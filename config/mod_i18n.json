@@ -7315,6 +7315,197 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "M1A2C": {
+      "ModId": "M1A2C",
+      "ConfigLabels": {
+        "AP Ammo (M1A2C)": {
+          "zh-CN": "穿甲弹（M1A2C）",
+          "en-US": "AP Ammo (M1A2C)"
+        },
+        "HEAT Ammo (M1A2C)": {
+          "zh-CN": "破甲弹（M1A2C）",
+          "en-US": "HEAT Ammo (M1A2C)"
+        },
+        "AP Round Count (M1A2C)": {
+          "zh-CN": "穿甲弹携带数量（M1A2C）",
+          "en-US": "AP Round Count (M1A2C)"
+        },
+        "HEAT Round Count (M1A2C)": {
+          "zh-CN": "破甲弹携带数量（M1A2C）",
+          "en-US": "HEAT Round Count (M1A2C)"
+        },
+        "Vanilla Ammo Capacity (M1A2C)": {
+          "zh-CN": "使用原版弹药容量（M1A2C）",
+          "en-US": "Vanilla Ammo Capacity (M1A2C)"
+        },
+        "FLIR Generation (M1A2C)": {
+          "zh-CN": "前视红外世代（M1A2C）",
+          "en-US": "FLIR Generation (M1A2C)"
+        },
+        "Digital Enhancement (M1A2C)": {
+          "zh-CN": "数字增强（M1A2C）",
+          "en-US": "Digital Enhancement (M1A2C)"
+        },
+        "Fixed Reticle Size (M1A2C)": {
+          "zh-CN": "固定准星尺寸（M1A2C）",
+          "en-US": "Fixed Reticle Size (M1A2C)"
+        },
+        "CITV (M1A2C)": {
+          "zh-CN": "车长独立热像仪（M1A2C）",
+          "en-US": "CITV (M1A2C)"
+        },
+        "Rotate Azimuth (M1A2C)": {
+          "zh-CN": "方位旋转（M1A2C）",
+          "en-US": "Rotate Azimuth (M1A2C)"
+        },
+        "Smooth CITV Panning (M1A2C)": {
+          "zh-CN": "平滑CITV移动（M1A2C）",
+          "en-US": "Smooth CITV Panning (M1A2C)"
+        },
+        "Texture Saturation (M1A2C)": {
+          "zh-CN": "贴图饱和度（M1A2C）",
+          "en-US": "Texture Saturation (M1A2C)"
+        },
+        "Texture Mip Bias (M1A2C)": {
+          "zh-CN": "贴图Mip偏移（M1A2C）",
+          "en-US": "Texture Mip Bias (M1A2C)"
+        },
+        "Texture Brightness (M1A2C)": {
+          "zh-CN": "贴图亮度（M1A2C）",
+          "en-US": "Texture Brightness (M1A2C)"
+        },
+        "Texture Contrast (M1A2C)": {
+          "zh-CN": "贴图对比度（M1A2C）",
+          "en-US": "Texture Contrast (M1A2C)"
+        },
+        "Texture Clean (M1A2C)": {
+          "zh-CN": "贴图清洁度（M1A2C）",
+          "en-US": "Texture Clean (M1A2C)"
+        },
+        "Texture Green Strength (M1A2C)": {
+          "zh-CN": "贴图涂装强度（M1A2C）",
+          "en-US": "Texture Green Strength (M1A2C)"
+        },
+        "Paint Scheme (M1A2C)": {
+          "zh-CN": "涂装方案（M1A2C）",
+          "en-US": "Paint Scheme (M1A2C)"
+        },
+        "LFP Armor Kit (M1A2C)": {
+          "zh-CN": "首下装甲套件（M1A2C）",
+          "en-US": "LFP Armor Kit (M1A2C)"
+        },
+        "Breech Armor Kit (M1A2C)": {
+          "zh-CN": "炮闩装甲套件（M1A2C）",
+          "en-US": "Breech Armor Kit (M1A2C)"
+        },
+        "TUSK Armor (M1A2C)": {
+          "zh-CN": "TUSK装甲（M1A2C）",
+          "en-US": "TUSK Armor (M1A2C)"
+        }
+      },
+      "ConfigComments": {
+        "M829e2, M829e3 or M829e4": {
+          "zh-CN": "M829e2、M829e3或M829e4",
+          "en-US": "M829e2, M829e3 or M829e4"
+        },
+        "M830 or M830A1": {
+          "zh-CN": "M830或M830A1",
+          "en-US": "M830 or M830A1"
+        },
+        "M829E3 APFSDS-T rounds carried (total 42 with HEAT)": {
+          "zh-CN": "携带M829E3尾翼稳定脱壳穿甲曳光弹数量（与破甲弹合计42发）",
+          "en-US": "M829E3 APFSDS-T rounds carried (total 42 with HEAT)"
+        },
+        "M830 HEAT-MP-T rounds carried": {
+          "zh-CN": "携带M830破甲多用途曳光弹数量",
+          "en-US": "M830 HEAT-MP-T rounds carried"
+        },
+        "Keep the M1IP 52-round rack layout instead of the 40-round M1A2C layout": {
+          "zh-CN": "保留M1IP的52发弹药架布局，而非M1A2C的40发布局",
+          "en-US": "Keep the M1IP 52-round rack layout instead of the 40-round M1A2C layout"
+        },
+        "1-3; 2 = 1024x576, 3 = 1366x768": {
+          "zh-CN": "1-3；2 = 1024x576，3 = 1366x768",
+          "en-US": "1-3; 2 = 1024x576, 3 = 1366x768"
+        },
+        "Additional zoom levels for the gunner's thermals": {
+          "zh-CN": "为炮手热成像提供额外变焦档位",
+          "en-US": "Additional zoom levels for the gunner's thermals"
+        },
+        "Digital zoom levels do not enlarge the reticle": {
+          "zh-CN": "数字变焦档位不会放大准星",
+          "en-US": "Digital zoom levels do not enlarge the reticle"
+        },
+        "Commander's independent thermal viewer": {
+          "zh-CN": "车长独立热像仪",
+          "en-US": "Commander's independent thermal viewer"
+        },
+        "Horizontal stabilization of sights when applying lead.": {
+          "zh-CN": "应用提前量时瞄准具水平稳定。",
+          "en-US": "Horizontal stabilization of sights when applying lead."
+        },
+        "Makes CITV feel more like a camera.": {
+          "zh-CN": "使CITV操作手感更像相机。",
+          "en-US": "Makes CITV feel more like a camera."
+        },
+        "1.0 = original; 1.15-1.30 = more saturated": {
+          "zh-CN": "1.0 = 原始；1.15-1.30 = 更饱和",
+          "en-US": "1.0 = original; 1.15-1.30 = more saturated"
+        },
+        "Positive = softer/blurrier; negative = sharper": {
+          "zh-CN": "正值 = 更柔和/模糊；负值 = 更锐利",
+          "en-US": "Positive = softer/blurrier; negative = sharper"
+        },
+        "1.0 = original; 1.1-1.3 = brighter/cleaner": {
+          "zh-CN": "1.0 = 原始；1.1-1.3 = 更亮/更干净",
+          "en-US": "1.0 = original; 1.1-1.3 = brighter/cleaner"
+        },
+        "1.0 = original; lower = flatter/cleaner": {
+          "zh-CN": "1.0 = 原始；较低 = 更平/更干净",
+          "en-US": "1.0 = original; lower = flatter/cleaner"
+        },
+        "0-1: blend toward a blurred albedo, hides fine dirt/scratches": {
+          "zh-CN": "0-1：混合至模糊反照率，隐藏细微污垢/划痕",
+          "en-US": "0-1: blend toward a blurred albedo, hides fine dirt/scratches"
+        },
+        "0-1: blend body albedo toward the selected paint colour": {
+          "zh-CN": "0-1：将车体反照率混合至所选涂装颜色",
+          "en-US": "0-1: blend body albedo toward the selected paint colour"
+        },
+        "Temporarily fixed to Olive": {
+          "zh-CN": "暂时固定为橄榄绿",
+          "en-US": "Temporarily fixed to Olive"
+        },
+        "Install the lower-front-plate enhanced armour package.": {
+          "zh-CN": "安装首下装甲板增强套件。",
+          "en-US": "Install the lower-front-plate enhanced armour package."
+        },
+        "Provides additional protection around the turret breech.": {
+          "zh-CN": "为炮塔炮闩周围提供额外防护。",
+          "en-US": "Provides additional protection around the turret breech."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "AP Ammo (M1A2C)": [
+          "M829e2",
+          "M829e3",
+          "M829e4"
+        ],
+        "HEAT Ammo (M1A2C)": [
+          "M830",
+          "M830A1"
+        ],
+        "FLIR Generation (M1A2C)": [
+          "1",
+          "2",
+          "3"
+        ],
+        "Paint Scheme (M1A2C)": [
+          "Olive"
+        ]
+      }
     }
   }
 }

@@ -2507,5 +2507,31 @@
     "Requirements": [
       "VanillaAssetUtil"
     ]
+  },
+  {
+    "Id": "M1A2C",
+    "Author": "芝士大嘴蛙",
+    "Name": {
+      "en-US": "M1A2C",
+      "zh-CN": "M1A2C"
+    },
+    "Description": {
+      "en-US": "It aims to add the M1A2C tank and its modified variants to GHPC, restoring its unique functions and armament.",
+      "zh-CN": "一个M1A2C模组，带你进入富尔达2026，用m829e4把敌人狠狠上市吧！"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "ReleaseUrl": "https://api.github.com/repos/DDDDWWWWDZW/M1A2C-mod-of-GHPC-/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "M1A2C.dll",
+    "InstallMethod": "DirectRelease",
+    "ConfigSectionName": "M1A2C",
+    "Requirements": [
+      "VanillaAssetUtil"
+    ]
   }
 ]
