@@ -139,6 +139,7 @@
     "ReleaseUrl": "https://api.github.com/repos/AIM928/M1-Trophy/releases/latest",
     "TargetFileNameKeyword": "Full.zip",
     "MainBinaryFileName": "M1Trophy.dll",
+    "ConfigSectionName": "M1Trophy",
     "InstallMethod": "DirectRelease",
     "Requirements": [
       "VanillaAssetUtil"
