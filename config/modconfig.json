@@ -2534,5 +2534,31 @@
     "Requirements": [
       "VanillaAssetUtil"
     ]
+  },
+  {
+    "Id": "Leopard2A7V",
+    "Author": "rhino2024",
+    "Name": {
+      "en-US": "Leopard 2A7V",
+      "zh-CN": "豹 2A7V"
+    },
+    "Description": {
+      "en-US": "Adds a Leopard 2A7V built on the vanilla LEO2A3: 2A7V hull and turret re-rigged onto the donor's skeleton, the donor's skinned track loops rolling at their measured pitch, the gun renamed Rh-120 L/55 and firing DM53 APFSDS-T, a -9/+20 gun arc, the roof MG3 turned into a real weapon, and the 2A7V daylight reticle in the gunner's sight. The release carries the vehicle model, its material and the 37 textures as well - this mod's own art - so unzipping to the game root is all the setup there is.",
+      "zh-CN": "以本体 LEO2A3 为供体新增一辆豹 2A7V：2A7V 的车体与炮塔挂到供体骨骼上，供体那套蒙皮履带按实测节距滚动，主炮换 Rh-120 L/55 配 DM53 APFSDS-T，行程 -9/+20，车顶 MG3 做成可选可瞄可开的武器，炮手昼间镜换成 2A7V 分划板。发布包自带模型、材质与 37 张贴图（本模组自制），解压到游戏根目录即可用。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/rhino2024/GHPC-Leopard2A7V/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "Leopard2A7V.dll",
+    "ConfigSectionName": "Leopard2A7V",
+    "InstallMethod": "DirectRelease"
   }
 ]
