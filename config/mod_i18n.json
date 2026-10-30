@@ -7800,6 +7800,39 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "XrayInterior": {
+      "ModId": "XrayInterior",
+      "ConfigLabels": {
+        "Enabled": {
+          "zh-CN": "总开关",
+          "en-US": "Master switch"
+        },
+        "KeepOriginalTextures": {
+          "zh-CN": "用内构自带贴图",
+          "en-US": "Keep original textures"
+        },
+        "DebugLog": {
+          "zh-CN": "写调试日志",
+          "en-US": "Debug log"
+        }
+      },
+      "ConfigComments": {
+        "Master switch. When off, the X-ray key shows only what the game shows by itself": {
+          "zh-CN": "总开关。关掉后按 X 光键只剩游戏自己会显示的那部分",
+          "en-US": "Master switch. When off, the X-ray key shows only what the game shows by itself"
+        },
+        "Show the interior with its own textures instead of the flat post-battle-review look": {
+          "zh-CN": "用内构自己的贴图显示，而不是赛后回放那种单色高亮",
+          "en-US": "Show the interior with its own textures instead of the flat post-battle-review look"
+        },
+        "Write how many interior pieces were lit and skipped, which layers the X-ray camera draws and why a piece was refused, to Bin/Mods/XrayInterior.debug.log; only turn it on when something is wrong": {
+          "zh-CN": "把点亮/跳过了多少内构件、X 光相机画哪些图层、某一件为什么被拒绝写进 Bin/Mods/XrayInterior.debug.log；只在出问题时打开",
+          "en-US": "Write how many interior pieces were lit and skipped, which layers the X-ray camera draws and why a piece was refused, to Bin/Mods/XrayInterior.debug.log; only turn it on when something is wrong"
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }
