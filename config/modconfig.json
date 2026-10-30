@@ -2560,5 +2560,31 @@
     "MainBinaryFileName": "Leopard2A7V.dll",
     "ConfigSectionName": "Leopard2A7V",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "XrayInterior",
+    "Author": "rhino2024",
+    "Name": {
+      "en-US": "Xray Interior",
+      "zh-CN": "载具内构透视"
+    },
+    "Description": {
+      "en-US": "Press the game's own X-ray key (O by default) and the whole interior of the vehicle you are driving lights up: crew stations, engine, transmission, armour liners and ammo racks, not just the few ammo boxes the vanilla game shows, using the same highlighted look the after-action replay gives them. The mod binds no key of its own: it follows GHPC's X-ray toggle, so remapping X-ray to another key keeps working. Everything is restored when you release the key, switch vehicles, leave the vehicle, enter the replay or disable the mod. It does not move colliders, so hit detection is untouched, and it never touches the turret, fire control or AI. Optionally keeps the interior's own textures instead of the flat replay material. It ships no models or textures: the interior art it lights up is GHPC's own, loaded by the game at runtime, so nothing is redistributed and no retopology was involved. Requires MelonLoader. Tested on 0.1.0-alpha+20261014.",
+      "zh-CN": "按住游戏自己的 X 光键（默认 O），你正在驾驶的这辆车的内构整台亮起来：乘员席、发动机、变速箱、装甲衬层、弹架，不再只有原版那几盒弹药——显示效果沿用游戏赛后回放给它们的那套高亮材质。模组不绑自己的键，认的是 GHPC 的 X 光开关，把 X 光改到别的键照样有效。松手、换车、退出载具、进入回放、关掉模组，都会逐项还原。它不搬动碰撞体，命中判定不受影响；炮塔、火控、AI 一律不碰。可选保留内构自带贴图，而不是回放那种单色材质。模组不含模型与贴图：被点亮的内构美术是 GHPC 本体自带的，运行时由游戏加载，因此不分发任何游戏素材，也没有涉及重拓扑处理。需要 MelonLoader。在 0.1.0-alpha+20261014 实测。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/rhino2024/GHPC-XrayInterior/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "XrayInterior.dll",
+    "ConfigSectionName": "XrayInterior",
+    "InstallMethod": "DirectRelease"
   }
 ]
