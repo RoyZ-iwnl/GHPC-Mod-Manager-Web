@@ -2543,8 +2543,8 @@
       "zh-CN": "豹 2A7V"
     },
     "Description": {
-      "en-US": "Adds a Leopard 2A7V built on the vanilla LEO2A3: 2A7V hull and turret re-rigged onto the donor's skeleton, the donor's skinned track loops rolling at their measured pitch, the gun renamed Rh-120 L/55 and firing DM53 APFSDS-T, a -9/+20 gun arc, the roof MG3 turned into a real weapon, and the 2A7V daylight reticle in the gunner's sight. The release carries the vehicle model, its material and the 37 textures as well - this mod's own art - so unzipping to the game root is all the setup there is.",
-      "zh-CN": "以本体 LEO2A3 为供体新增一辆豹 2A7V：2A7V 的车体与炮塔挂到供体骨骼上，供体那套蒙皮履带按实测节距滚动，主炮换 Rh-120 L/55 配 DM53 APFSDS-T，行程 -9/+20，车顶 MG3 做成可选可瞄可开的武器，炮手昼间镜换成 2A7V 分划板。发布包自带模型、材质与 37 张贴图（本模组自制），解压到游戏根目录即可用。"
+      "en-US": "Adds a Leopard 2A7V built on the vanilla LEO2A3: 2A7V hull and turret on the donor's skeleton, the donor's track loops rolling at their measured pitch, the gun renamed Rh-120 L/55 and firing DM53 APFSDS-T (1750 m/s, 800 mm at the muzzle), a -9/+20 gun arc, the roof MG3 turned into a real weapon, the 2A7V daylight reticle, a 49-plate armour table read off this model's own geometry, the x-ray crew compartment, four paint schemes and a sharper gunner thermal. The vehicle model is retopologised from the Leopard 2A7V in War Thunder and heavily reworked here (decimated, re-UV'd, textures rebuilt for this game's lighting); the original model and textures remain Gaijin Entertainment's. The full art set ships with the release.",
+      "zh-CN": "以本体 LEO2A3 为供体新增一辆豹 2A7V：2A7V 的车体与炮塔挂到供体骨骼上，供体那套履带按实测节距滚动，主炮换 Rh-120 L/55 配 DM53 APFSDS-T（1750 m/s，炮口 800 mm），行程 -9/+20，车顶 MG3 做成可选可瞄可开的武器，炮手昼间镜换成 2A7V 分划板；另有按模型几何读出的 49 块装甲表、x-ray 乘员舱、四套涂装和更清楚的炮手热像。模型重拓扑自《战争雷霆》的豹 2A7V 并做了大量优化（减面、UV 重展、贴图与涂装重制），原始模型与贴图版权归 Gaijin Entertainment；素材随发布包提供。"
     },
     "Tags": {
       "modify": {
