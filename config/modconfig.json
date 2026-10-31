@@ -2383,8 +2383,8 @@
       "zh-CN": "提前量指示器"
     },
     "Description": {
-      "en-US": "Tap LeftAlt in the gunner sight to lock the enemy vehicle under the reticle: a green box on its hull, the range under the box, and a line to a small lead circle computed from the game's own ballistic flight time. Put the reticle on the circle and fire, and the target drives into the impact point. While locked it suppresses the fire control's own lead and corrects the FCS range to the true range, which is what lets vehicles without a laser rangefinder hit; both are restored on unlock. It only locks vehicles that are really visible to the game's AI line-of-sight check and big enough on screen to be recognised. Since 1.7.0 it is a pure indicator: it never drives the turret or the sight, so whether to press onto the circle is your own call. Tap LeftAlt again to unlock whatever is under the reticle; to switch targets, unlock, move the reticle and lock again. F4 is the master switch. Requires MelonLoader. Tested on 0.1.0-alpha+20261014.",
-      "zh-CN": "炮手镜里按一下 LeftAlt 锁住准星下的敌方载具：车体上一个绿框、框下是距离，一条绿线连到提前量小圈——按游戏自己弹道表里的飞行时间算出来的落点。把准星压到圈上开火，目标正好走进弹着点。锁定期间压住火控自己那份提前量，并把火控距离校正到真实距离（没有激光测距仪的车靠这条才打得中），解除时原样还原。只锁视野里真看得见的目标（沿用游戏 AI 的视线判断），屏幕上只剩几个像素的远车也不锁。1.7.0 起是纯指示器：炮口不动、炮塔不转，要不要压到圈上由你自己操作。再按一次 LeftAlt 一律解除；换目标就是关一下、挪准星、开一下。F4 总开关。需要 MelonLoader。在 0.1.0-alpha+20261014 实测。"
+      "en-US": "Tap LeftAlt in the gunner sight to lock the enemy vehicle under the reticle: a green box on its hull, the range under the box, and a line to a small lead circle computed from the game's own ballistic flight time. Put the reticle on the circle and fire, and the target drives into the impact point. The circle follows the range dial on your sight, too, so a 400 m dial against a 1000 m target puts it where that dial actually hits. While locked the mod suppresses the fire control's own lead (GHPC's FCS infers it from your traverse rate, which would otherwise double it) and can optionally correct the FCS range to the true range. Since 1.9.0 the target can also come to you: with LeadMode=AutoSpot (the default) the enemy vehicle your commander or squadmates last reported over the radio is locked through that same path - same green box, same lead circle, one laser rangefinder pulse, no key pressed at all. AutoSpot and a manual LeftAlt share one lock, so pick one in the config, and the reported-target layer only works while your own fire control is intact. It only locks vehicles that are really visible to the game's AI line-of-sight check and big enough on screen to be recognised. It never drives the turret or the sight, it only draws, so pressing onto the circle stays your call. F4 is the master switch. Requires MelonLoader. Tested on 0.1.0-alpha+20261014.",
+      "zh-CN": "炮手镜里按一下 LeftAlt 锁住准星下的敌方载具：车体上一个绿框、框下是距离，一条绿线连到提前量小圈——圈按游戏自己弹道表里的飞行时间算。把准星压到圈上开火，目标正好走进弹着点。圈还跟着你炮镜上的标尺抬落：拿 400 m 标尺打 1000 m 的车，圈就落在这个标尺下真能命中的位置。锁定期间压住火控自己那份提前量（GHPC 的 FCS 按你转镜头的角速度反推，不压掉会变成双倍提前），另外可以打开 AutoRange 把火控距离校正到真实距离。1.9.0 起目标也能自己送上门：LeadMode=AutoSpot（默认）时，车长或队友最后一次用无线电报过的那辆敌方载具会走同一条路自动锁上——同一个绿框、同一个提前圈、打一次激光测距，全程不用按键。报点自动锁和手动 LeftAlt 用的是同一把锁，配置里二选一；报点这一层只在本车火控完好时生效。只锁视野里真看得见的目标（沿用游戏 AI 的视线判断），屏幕上只剩几个像素的远车也不锁。模组不碰炮塔、不碰炮镜，只画，要不要压到圈上由你自己操作。F4 总开关。需要 MelonLoader。在 0.1.0-alpha+20261014 实测。"
     },
     "Tags": {
       "enhancement": {
@@ -2543,8 +2543,8 @@
       "zh-CN": "豹 2A7V"
     },
     "Description": {
-      "en-US": "Adds a Leopard 2A7V built on the vanilla LEO2A3: 2A7V hull and turret re-rigged onto the donor's skeleton, the donor's skinned track loops rolling at their measured pitch, the gun renamed Rh-120 L/55 and firing DM53 APFSDS-T, a -9/+20 gun arc, the roof MG3 turned into a real weapon, and the 2A7V daylight reticle in the gunner's sight. The release carries the vehicle model, its material and the 37 textures as well - this mod's own art - so unzipping to the game root is all the setup there is.",
-      "zh-CN": "以本体 LEO2A3 为供体新增一辆豹 2A7V：2A7V 的车体与炮塔挂到供体骨骼上，供体那套蒙皮履带按实测节距滚动，主炮换 Rh-120 L/55 配 DM53 APFSDS-T，行程 -9/+20，车顶 MG3 做成可选可瞄可开的武器，炮手昼间镜换成 2A7V 分划板。发布包自带模型、材质与 37 张贴图（本模组自制），解压到游戏根目录即可用。"
+      "en-US": "Adds a Leopard 2A7V built on the vanilla LEO2A3: 2A7V hull and turret on the donor's skeleton, the donor's track loops rolling at their measured pitch, the gun renamed Rh-120 L/55 and firing DM53 APFSDS-T (1750 m/s, 800 mm at the muzzle), a -9/+20 gun arc, the roof MG3 turned into a real weapon, the 2A7V daylight reticle, a 49-plate armour table read off this model's own geometry, the x-ray crew compartment, four paint schemes, a sharper gunner thermal, and a 2k/4k texture detail switch. Paint scheme and texture detail are picked from a list, not typed. The vehicle model is retopologised from the Leopard 2A7V in War Thunder and heavily reworked here (decimated, re-UV'd, textures rebuilt for this game's lighting); the original model and textures remain Gaijin Entertainment's. The full art set, 4K maps included, ships with the release.",
+      "zh-CN": "以本体 LEO2A3 为供体新增一辆豹 2A7V：2A7V 的车体与炮塔挂到供体骨骼上，供体那套履带按实测节距滚动，主炮换 Rh-120 L/55 配 DM53 APFSDS-T（1750 m/s，炮口 800 mm），行程 -9/+20，车顶 MG3 做成可选可瞄可开的武器，炮手昼间镜换成 2A7V 分划板；另有按模型几何读出的 49 块装甲表、x-ray 乘员舱、四套涂装、更清楚的炮手热像，以及可切的 2k/4k 贴图精度。涂装与贴图精度在管理器里是下拉选择，不用手打。模型重拓扑自《战争雷霆》的豹 2A7V 并做了大量优化（减面、UV 重展、贴图与涂装重制），原始模型与贴图版权归 Gaijin Entertainment；素材（含 4K 贴图）随发布包提供。"
     },
     "Tags": {
       "modify": {
@@ -2559,6 +2559,32 @@
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "Leopard2A7V.dll",
     "ConfigSectionName": "Leopard2A7V",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "XrayInterior",
+    "Author": "rhino2024",
+    "Name": {
+      "en-US": "Xray Interior",
+      "zh-CN": "载具内构透视"
+    },
+    "Description": {
+      "en-US": "Press the game's own X-ray key (O by default) and the whole interior of the vehicle you are driving lights up: crew stations, engine, transmission, armour liners and ammo racks, not just the few ammo boxes the vanilla game shows, using the same highlighted look the after-action replay gives them. The mod binds no key of its own: it follows GHPC's X-ray toggle, so remapping X-ray to another key keeps working. Everything is restored when you release the key, switch vehicles, leave the vehicle, enter the replay or disable the mod. It does not move colliders, so hit detection is untouched, and it never touches the turret, fire control or AI. Optionally keeps the interior's own textures instead of the flat replay material. It ships no models or textures: the interior art it lights up is GHPC's own, loaded by the game at runtime, so nothing is redistributed and no retopology was involved. Requires MelonLoader. Tested on 0.1.0-alpha+20261014.",
+      "zh-CN": "按住游戏自己的 X 光键（默认 O），你正在驾驶的这辆车的内构整台亮起来：乘员席、发动机、变速箱、装甲衬层、弹架，不再只有原版那几盒弹药——显示效果沿用游戏赛后回放给它们的那套高亮材质。模组不绑自己的键，认的是 GHPC 的 X 光开关，把 X 光改到别的键照样有效。松手、换车、退出载具、进入回放、关掉模组，都会逐项还原。它不搬动碰撞体，命中判定不受影响；炮塔、火控、AI 一律不碰。可选保留内构自带贴图，而不是回放那种单色材质。模组不含模型与贴图：被点亮的内构美术是 GHPC 本体自带的，运行时由游戏加载，因此不分发任何游戏素材，也没有涉及重拓扑处理。需要 MelonLoader。在 0.1.0-alpha+20261014 实测。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/rhino2024/GHPC-XrayInterior/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "XrayInterior.dll",
+    "ConfigSectionName": "XrayInterior",
     "InstallMethod": "DirectRelease"
   }
 ]

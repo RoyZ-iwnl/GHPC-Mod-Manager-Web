@@ -7206,33 +7206,39 @@
         "ShowRange": {"zh-CN": "显示距离", "en-US": "Range readout"},
         "SuppressFcsLead": {"zh-CN": "压制火控提前量", "en-US": "Suppress FCS lead"},
         "AutoRange": {"zh-CN": "自动校正距离", "en-US": "Auto range"},
+        "RespectSightRange": {"zh-CN": "提前圈按炮镜标尺", "en-US": "Lead circle follows sight dial"},
         "LockConeDegrees": {"zh-CN": "锁定角度 (度)", "en-US": "Lock cone (deg)"},
         "MaxRange": {"zh-CN": "最大锁定距离 (米)", "en-US": "Max lock range (m)"},
         "CircleRadius": {"zh-CN": "小圈半径 (像素)", "en-US": "Lead circle radius (px)"},
         "BoxPadding": {"zh-CN": "绿框外扩 (像素)", "en-US": "Box padding (px)"},
         "RequireLineOfSight": {"zh-CN": "只锁看得见的", "en-US": "Require line of sight"},
         "MinScreenRadiusPixels": {"zh-CN": "最小屏幕尺寸 (像素)", "en-US": "Min screen radius (px)"},
-        "DebugLog": {"zh-CN": "写调试日志", "en-US": "Debug log"}
+        "DebugLog": {"zh-CN": "写调试日志", "en-US": "Debug log"},
+        "LeadMode": {"zh-CN": "锁定方式", "en-US": "Lock mode"}
       },
       "ConfigComments": {
         "主开关。关掉后按锁定键不再框目标": {"zh-CN": "主开关。关掉后按锁定键不再框目标", "en-US": "Master switch. With it off the lock key no longer boxes targets"},
         "任务里开关这个模组的按键": {"zh-CN": "任务里开关这个模组的按键", "en-US": "Key that turns this mod on or off during a mission"},
-        "在炮手镜里单按它打开：锁定准星下的敌方载具并测距、画出提前圈；再按一次就是关掉（不管准星下有没有车）。想换目标就先按一下关掉、挪准星、再按一下打开。只有真按下了这一个键、期间没碰别的键才算一次，Alt+数字选 GO 码、Alt+Tab 切窗口都不会误触发": {"zh-CN": "在炮手镜里单按它打开：锁定准星下的敌方载具并测距、画出提前圈；再按一次就是关掉（不管准星下有没有车）。想换目标就先按一下关掉、挪准星、再按一下打开。只有真按下了这一个键、期间没碰别的键才算一次，Alt+数字选 GO 码、Alt+Tab 切窗口都不会误触发", "en-US": "Tap it in the gunner sight to lock the enemy vehicle under the reticle, measure the range and draw the lead circle; tapping it again turns it off, whatever is under the reticle. To switch targets, tap once to turn it off, move the reticle and tap again. It only counts a press of this key alone with no other key touched in between, so Alt+digit ammo selection and Alt+Tab never trigger it"},
+        "在炮手镜里单按它打开：锁定准星下的敌方载具并测距、画出提前圈；再按一次就是关掉（不管准星下有没有车）。想换目标就先按一下关掉、挪准星、再按一下打开。只有真按下了这一个键、期间没碰别的键才算一次，Alt+数字选 GO 码、Alt+Tab 切窗口都不会误触发。LeadMode=AutoSpot 时这个键不生效": {"zh-CN": "在炮手镜里单按它打开：锁定准星下的敌方载具并测距、画出提前圈；再按一次就是关掉（不管准星下有没有车）。想换目标就先按一下关掉、挪准星、再按一下打开。只有真按下了这一个键、期间没碰别的键才算一次，Alt+数字选 GO 码、Alt+Tab 切窗口都不会误触发。LeadMode=AutoSpot 时这个键不生效", "en-US": "Tap it in the gunner sight to lock the enemy vehicle under the reticle, measure the range and draw the lead circle; tapping it again turns it off, whatever is under the reticle. To switch targets, tap once to turn it off, move the reticle and tap again. It only counts a press of this key alone with no other key touched in between, so Alt+digit ammo selection and Alt+Tab never trigger it. With LeadMode=AutoSpot this key does nothing"},
         "在目标车体上画绿色方框": {"zh-CN": "在目标车体上画绿色方框", "en-US": "Draw a green box on the target hull"},
         "从绿框画一条绿线连到提前量小圈；把准星压在小圈上开火": {"zh-CN": "从绿框画一条绿线连到提前量小圈；把准星压在小圈上开火", "en-US": "Draw a green line from the box to the lead circle; put the reticle on the circle and fire"},
         "在绿框下面显示测出的距离": {"zh-CN": "在绿框下面显示测出的距离", "en-US": "Show the measured range under the green box"},
         "锁定期间压掉火控自己的提前量。GHPC 的 FCS 是按你转镜头的角速度反推提前量的，不压掉的话，你把准星往我们画的圈上移，它会在圈上再加一份，变成双倍提前": {"zh-CN": "锁定期间压掉火控自己的提前量。GHPC 的 FCS 是按你转镜头的角速度反推提前量的，不压掉的话，你把准星往我们画的圈上移，它会在圈上再加一份，变成双倍提前", "en-US": "Suppress the fire control's own lead while locked. GHPC's FCS infers lead from your turret traverse rate, so without this it adds another copy on top of the circle as you move the reticle onto it, doubling the lead"},
-        "锁定期间把火控距离校正到目标真实距离。没有激光测距仪的车靠这个才能直接打中": {"zh-CN": "锁定期间把火控距离校正到目标真实距离。没有激光测距仪的车靠这个才能直接打中", "en-US": "Correct the FCS range to the target's true range while locked. Vehicles without a laser rangefinder need this to hit at all"},
+        "锁定期间自动把火控距离校正到目标真实距离（全自动，不占用任何按键）。默认关闭；打开后没有激光测距仪的车也能直接按圈打中": {"zh-CN": "锁定期间自动把火控距离校正到目标真实距离（全自动，不占用任何按键）。默认关闭；打开后没有激光测距仪的车也能直接按圈打中", "en-US": "Correct the FCS range to the target's true range while locked, entirely on its own - it does not use any key. Off by default; turn it on and a vehicle with no laser rangefinder can hit by putting the reticle on the circle"},
+        "按炮镜上显示的标尺（准星旁边那个 400/800…，即火控当前距离）来画提前圈。标尺比目标真实距离短时，圈会抬到「用这个标尺打」真正该瞄的位置（打远目标要抬着打）；标尺等于真实距离时和以前一样。关掉则只按真实距离画水平提前量，不管标尺": {"zh-CN": "按炮镜上显示的标尺（准星旁边那个 400/800…，即火控当前距离）来画提前圈。标尺比目标真实距离短时，圈会抬到「用这个标尺打」真正该瞄的位置（打远目标要抬着打）；标尺等于真实距离时和以前一样。关掉则只按真实距离画水平提前量，不管标尺", "en-US": "Draw the lead circle according to the range dial shown in the sight (the 400/800... beside the reticle, i.e. the fire control's current range). When the dial is shorter than the target's true range, the circle rises to the point you would actually hold on that dial - distant targets are shot with hold-over; when the dial equals the true range it behaves exactly as before. Turn it off to draw only the plain horizontal lead from the true range, ignoring the dial"},
         "按锁定键时，相机正前方多少度以内算“准星指着它”（角度越大越容易锁到旁边的车）": {"zh-CN": "按锁定键时，相机正前方多少度以内算“准星指着它”（角度越大越容易锁到旁边的车）", "en-US": "How many degrees off the camera axis still counts as aiming at the vehicle when locking (a larger value makes it easier to lock a neighbouring vehicle)"},
         "超过这个距离（米）的载具不锁定": {"zh-CN": "超过这个距离（米）的载具不锁定", "en-US": "Vehicles farther than this (metres) are not locked"},
         "提前量小圈的半径（1080p 下的像素，高分屏会按比例放大）": {"zh-CN": "提前量小圈的半径（1080p 下的像素，高分屏会按比例放大）", "en-US": "Radius of the lead circle in 1080p pixels; it scales up on high-resolution screens"},
         "绿框比车体包围盒外扩多少像素": {"zh-CN": "绿框比车体包围盒外扩多少像素", "en-US": "How many pixels the green box is expanded beyond the hull bounding box"},
-        "只锁视野里真看得见的目标。借用游戏 AI 自己那套判断（GHPC.AI.VisibilityManager.IsPositionVisible：从炮镜往目标中心打射线，命中地形＝看不见，命中别的车的视准盒＝被挡住），所以山后面、树线后面那类「准星方向上恰好有一辆几公里外的车」不会再被锁上；顺带每帧复查，目标躲到山背后绿框就消失": {"zh-CN": "只锁视野里真看得见的目标。借用游戏 AI 自己那套判断（GHPC.AI.VisibilityManager.IsPositionVisible：从炮镜往目标中心打射线，命中地形＝看不见，命中别的车的视准盒＝被挡住），所以山后面、树线后面那类「准星方向上恰好有一辆几公里外的车」不会再被锁上；顺带每帧复查，目标躲到山背后绿框就消失", "en-US": "Only lock targets that are really visible. Uses the game AI's own test (GHPC.AI.VisibilityManager.IsPositionVisible: cast from the sight to the target centre; hitting terrain means invisible, hitting another vehicle's sight box means blocked), so a vehicle that happens to sit kilometres away along the reticle behind a hill or tree line is no longer locked; it rechecks every frame, so the box disappears as the target hides behind a hill"},
+        "只锁视野里真看得见的目标。借用游戏 AI 自己那套判断（GHPC.AI.VisibilityManager.IsPositionVisible），先朝车体中心打一条射线；中心被挡（比如只露上半车体）时会补测车体角点，任意一处露出来就算看得见。所以山后面、树线后面那类「准星方向上恰好有一辆几公里外的车」不会再被锁上；顺带每帧复查，目标整个躲到山背后绿框就消失": {"zh-CN": "只锁视野里真看得见的目标。借用游戏 AI 自己那套判断（GHPC.AI.VisibilityManager.IsPositionVisible），先朝车体中心打一条射线；中心被挡（比如只露上半车体）时会补测车体角点，任意一处露出来就算看得见。所以山后面、树线后面那类「准星方向上恰好有一辆几公里外的车」不会再被锁上；顺带每帧复查，目标整个躲到山背后绿框就消失", "en-US": "Only lock targets that are really visible. Uses the game AI's own test (GHPC.AI.VisibilityManager.IsPositionVisible): a ray is cast at the hull centre first, and if the centre is blocked (say only the upper hull shows) the hull corners are probed - any one of them in clear counts as visible. So a vehicle that happens to sit kilometres away along the reticle behind a hill or tree line is no longer locked; it rechecks every frame, so the box disappears once the target hides completely behind a hill"},
         "目标在屏幕上的尺寸门槛：拿游戏自己的车体可见性点位（Unit.Extremities，车体四角）量「中心到最远点」的像素半径，不足这个数就不锁定。远处的车在屏幕上只有几个像素，你肉眼认不出来，模组也不该替你锁；炮镜放大倍率越大这个门槛越容易过，所以瞄具拉着打远距离不受影响。填 0 关掉这条": {"zh-CN": "目标在屏幕上的尺寸门槛：拿游戏自己的车体可见性点位（Unit.Extremities，车体四角）量「中心到最远点」的像素半径，不足这个数就不锁定。远处的车在屏幕上只有几个像素，你肉眼认不出来，模组也不该替你锁；炮镜放大倍率越大这个门槛越容易过，所以瞄具拉着打远距离不受影响。填 0 关掉这条", "en-US": "On-screen size gate: measures the pixel radius from the centre to the farthest of the game's own hull visibility points (Unit.Extremities, the hull corners) and does not lock below this value. A distant vehicle is only a few pixels across and you cannot recognise it, so the mod should not lock it for you; a higher sight magnification makes the gate easier to pass, so shooting far away through the optic is unaffected. Set it to 0 to turn this gate off"},
-        "把锁定/测距/飞行时间/火控距离写进 Bin/Mods/LeadIndicator.debug.log，只在排查问题时打开": {"zh-CN": "把锁定/测距/飞行时间/火控距离写进 Bin/Mods/LeadIndicator.debug.log，只在排查问题时打开", "en-US": "Write the lock, range, flight time and FCS range to Bin/Mods/LeadIndicator.debug.log; only turn this on when troubleshooting"}
+        "把锁定/测距/飞行时间/火控距离写进 Bin/Mods/LeadIndicator.debug.log，只在排查问题时打开": {"zh-CN": "把锁定/测距/飞行时间/火控距离写进 Bin/Mods/LeadIndicator.debug.log，只在排查问题时打开", "en-US": "Write the lock, range, flight time and FCS range to Bin/Mods/LeadIndicator.debug.log; only turn this on when troubleshooting"},
+        "提前量目标从哪来。两种模式用的是同一个锁，不能同时开，只能选一个：ManualAlt＝老行为，炮手镜里单按锁定键（默认 LeftAlt）锁准星下方那辆车，队友报点不自动锁；AutoSpot＝车长或队友用无线电报过的敌方载具里，自动取最新那条报点、相当于替你按了一次 Alt：同一个绿框、同一个提前圈、同样压掉火控提前量、同样打一次激光测距，全程不用按键，也只锁这一辆。AutoSpot 下按 Alt 不生效（想手动锁就切回 ManualAlt）。被报点的车要真的从炮手镜看得见、还在 90 秒报点时效内才会锁；本车火控损坏（计算机被打掉或没电）时不锁": {"zh-CN": "提前量目标从哪来。两种模式用的是同一个锁，不能同时开，只能选一个：ManualAlt＝老行为，炮手镜里单按锁定键（默认 LeftAlt）锁准星下方那辆车，队友报点不自动锁；AutoSpot＝车长或队友用无线电报过的敌方载具里，自动取最新那条报点、相当于替你按了一次 Alt：同一个绿框、同一个提前圈、同样压掉火控提前量、同样打一次激光测距，全程不用按键，也只锁这一辆。AutoSpot 下按 Alt 不生效（想手动锁就切回 ManualAlt）。被报点的车要真的从炮手镜看得见、还在 90 秒报点时效内才会锁；本车火控损坏（计算机被打掉或没电）时不锁", "en-US": "Where the lead target comes from. Both modes drive the same single lock, so they cannot be on at once - pick one: ManualAlt = the old behaviour, tap the lock key (LeftAlt by default) in the gunner sight to lock the vehicle under the reticle, and spot reports never lock anything; AutoSpot = the mod takes the most recent radio report of an enemy vehicle and locks it as if it had pressed Alt for you: same green box, same lead circle, the fire control's own lead suppressed, one laser rangefinder pulse, no key touched at all, and only that one vehicle. While AutoSpot is on the lock key does nothing (switch back to ManualAlt to lock by hand). A reported vehicle is only locked when it is genuinely visible through the gunner sight and its report is still inside the 90-second window; nothing is auto-locked while your own fire control is broken (computer destroyed or unpowered)"}
       },
       "multiplechoice": {},
-      "singlechoice": {}
+      "singlechoice": {
+        "LeadMode": ["AutoSpot", "ManualAlt"]
+      }
     },
     "AmmoDisplay": {
       "ModId": "AmmoDisplay",
@@ -7539,263 +7545,68 @@
     "Leopard2A7V": {
       "ModId": "Leopard2A7V",
       "ConfigLabels": {
+        "Skin": {
+          "zh-CN": "涂装",
+          "en-US": "Skin"
+        },
+        "TextureResolution": {
+          "zh-CN": "贴图精度",
+          "en-US": "Texture resolution"
+        }
+      },
+      "ConfigComments": {
+        "Paint scheme: factory, nato, desert, winter, parade": {
+          "zh-CN": "涂装方案：factory / nato / desert / winter / parade",
+          "en-US": "Paint scheme: factory, nato, desert, winter, parade"
+        },
+        "Texture detail: 2k or 4k. 4k is sharper up close but needs far more video memory and load time": {
+          "zh-CN": "贴图精度：2k 或 4k；4k 读 textures_uhq 里那套 4096 的图，更清楚但吃显存",
+          "en-US": "Texture detail: 2k or 4k. 4k is sharper up close but needs far more video memory and load time"
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "Skin": [
+          "factory",
+          "nato",
+          "desert",
+          "winter",
+          "parade"
+        ],
+        "TextureResolution": [
+          "2k",
+          "4k"
+        ]
+      }
+    },
+    "XrayInterior": {
+      "ModId": "XrayInterior",
+      "ConfigLabels": {
         "Enabled": {
           "zh-CN": "总开关",
           "en-US": "Master switch"
         },
-        "SourceUnitKey": {
-          "zh-CN": "供体单位",
-          "en-US": "Source unit"
+        "KeepOriginalTextures": {
+          "zh-CN": "用内构自带贴图",
+          "en-US": "Keep original textures"
         },
-        "FriendlyName": {
-          "zh-CN": "显示名",
-          "en-US": "Display name"
-        },
-        "ConvertSourceUnit": {
-          "zh-CN": "连供体一起换",
-          "en-US": "Also convert donor"
-        },
-        "UseDonorRunningGear": {
-          "zh-CN": "用供体负重轮",
-          "en-US": "Donor running gear"
-        },
-        "UseDonorTrackArt": {
-          "zh-CN": "用供体履带",
-          "en-US": "Donor track art"
-        },
-        "TrackTreadsPerMetre": {
-          "zh-CN": "履带节距",
-          "en-US": "Treads per metre"
-        },
-        "ApplyArmor": {
-          "zh-CN": "改写装甲",
-          "en-US": "Override armor"
-        },
-        "LogArmor": {
-          "zh-CN": "打印装甲",
-          "en-US": "Log armor"
-        },
-        "VisualOffset": {
-          "zh-CN": "整车偏移",
-          "en-US": "Visual offset"
-        },
-        "ModelTurretAxis": {
-          "zh-CN": "炮塔转轴",
-          "en-US": "Turret axis"
-        },
-        "ModelGunAxis": {
-          "zh-CN": "火炮俯仰轴",
-          "en-US": "Gun axis"
-        },
-        "CommanderViewOffset": {
-          "zh-CN": "车长机位偏移",
-          "en-US": "Commander view offset"
-        },
-        "MaxTextureSize": {
-          "zh-CN": "贴图最大边长",
-          "en-US": "Max texture size"
-        },
-        "AlbedoLuminance": {
-          "zh-CN": "反照率亮度",
-          "en-US": "Albedo luminance"
-        },
-        "PaintMaskLevel": {
-          "zh-CN": "涂装遮罩",
-          "en-US": "Paint mask level"
-        },
-        "SmoothnessLevel": {
-          "zh-CN": "基础光泽",
-          "en-US": "Smoothness level"
-        },
-        "NeutralMaps": {
-          "zh-CN": "中性遮罩",
-          "en-US": "Neutral maps"
-        },
-        "UseDetailMaps": {
-          "zh-CN": "细节贴图",
-          "en-US": "Detail maps"
-        },
-        "AddHeatSource": {
-          "zh-CN": "热源",
-          "en-US": "Heat source"
-        },
-        "ReplaceDayReticle": {
-          "zh-CN": "昼间分划板",
-          "en-US": "Daylight reticle"
-        },
-        "LimitMainGunElevation": {
-          "zh-CN": "主炮行程",
-          "en-US": "Gun elevation limit"
-        },
-        "GunElevationDegrees": {
-          "zh-CN": "最大仰角",
-          "en-US": "Max elevation"
-        },
-        "GunDepressionDegrees": {
-          "zh-CN": "最大俯角",
-          "en-US": "Max depression"
-        },
-        "AddRoofGun": {
-          "zh-CN": "车顶机枪",
-          "en-US": "Roof machine gun"
-        },
-        "RoofGunYawPoint": {
-          "zh-CN": "机枪回旋轴",
-          "en-US": "MG traverse axis"
-        },
-        "RoofGunTrunnion": {
-          "zh-CN": "机枪俯仰轴",
-          "en-US": "MG trunnion"
-        },
-        "RoofGunMuzzle": {
-          "zh-CN": "机枪枪口",
-          "en-US": "MG muzzle"
-        },
-        "RoofGunSight": {
-          "zh-CN": "机枪镜机位",
-          "en-US": "MG eyepiece"
-        },
-        "RoofGunRack": {
-          "zh-CN": "弹链箱",
-          "en-US": "MG belt box"
-        },
-        "RoofGunSightFov": {
-          "zh-CN": "机枪镜视场",
-          "en-US": "MG sight FOV"
-        },
-        "DumpMaterials": {
-          "zh-CN": "打印材质",
-          "en-US": "Dump materials"
+        "DebugLog": {
+          "zh-CN": "写调试日志",
+          "en-US": "Debug log"
         }
       },
       "ConfigComments": {
-        "Mod enabled": {
-          "zh-CN": "模组总开关",
-          "en-US": "Mod enabled"
+        "Master switch. When off, the X-ray key shows only what the game shows by itself": {
+          "zh-CN": "总开关。关掉后按 X 光键只剩游戏自己会显示的那部分",
+          "en-US": "Master switch. When off, the X-ray key shows only what the game shows by itself"
         },
-        "Vanilla unit key whose prefab, ammo and rig are reused": {
-          "zh-CN": "被复用的原版单位 key：外观、弹药与骨骼都从它来",
-          "en-US": "Vanilla unit key whose prefab, ammo and rig are reused"
+        "Show the interior with its own textures instead of the flat post-battle-review look": {
+          "zh-CN": "用内构自己的贴图显示，而不是赛后回放那种单色高亮",
+          "en-US": "Show the interior with its own textures instead of the flat post-battle-review look"
         },
-        "Name shown in the in-game UI": {
-          "zh-CN": "游戏界面上显示的名字",
-          "en-US": "Name shown in the in-game UI"
-        },
-        "Also restyle plain LEO2A3 spawns (useful when the new entry is missing from the UI)": {
-          "zh-CN": "连本体原本出生的 LEO2A3 一起换皮（新条目没出现在界面里时有用）",
-          "en-US": "Also restyle plain LEO2A3 spawns (useful when the new entry is missing from the UI)"
-        },
-        "Keep the donor's own wheels and track art. Off builds the imported road wheels, idlers and drive sprockets as separate parts and rides each one on the donor's matching bone, so they turn with the suspension; the return rollers and arms travel with the hull, which is what the donor's own skin does with them, and the loops are the other switch's business": {
-          "zh-CN": "沿用供体自己的负重轮与履带美术。关掉时把模型里的负重轮、诱导轮和主动轮建成独立零件，各自挂在供体对应的骨头上，随悬挂一起转；托带轮和悬挂臂跟着车体走，供体自己的蒙皮也是这么处理的，至于履带环是另一个开关的事",
-          "en-US": "Keep the donor's own wheels and track art. Off builds the imported road wheels, idlers and drive sprockets as separate parts and rides each one on the donor's matching bone, so they turn with the suspension; the return rollers and arms travel with the hull, which is what the donor's own skin does with them, and the loops are the other switch's business"
-        },
-        "Keep the donor's own track loops and leave the imported ones out. This is the default and the only setting that actually shows a complete, moving tread: the donor's LEO2_tracks loops are skinned to the track bones the physics turns and UV'd face by face into its D570P sheet, which measures as one link's ground face split into about ten u-columns in no particular order across the width. That mapping belongs to the donor's own triangles - re-UV any other mesh onto the same sheet and each face stretches between columns of unrelated parts, which is the flat brown-black band this mod used to show. On is also the only way to keep tracks at all, because the imported War Thunder sheet cannot scroll either: its ground faces scatter over u 0.014-1.000 and v -4.77..4.23 with no repeat direction whatsoever. Off is a dead end, kept only as a knob for whoever bakes a genuine repeating tread strip first": {
-          "zh-CN": "沿用供体自己的履带环，不画模型里那两条。这是默认值，也是唯一能显示出完整、会滚动的履带的选择：供体的 LEO2_tracks 环蒙皮到物理驱动的那几根履带骨上，并且逐个面 UV 到它那张 D570P 贴图上——这张图里一节履带的着地面被拆成十来个 u 列，横向顺序还是打乱的。那套映射属于供体自己的三角形；把别的网格重新 UV 到同一张图上，每个面会在互不相干的零件列之间拉伸，就是这模组以前那条棕黑色扁平带子。开着也是唯一还能留住履带的办法，因为模型带进来的战雷贴图同样滚不了：它的着地面散落在 u 0.014-1.000、v -4.77..4.23 之间，没有任何重复方向。关掉是条死路，只留给将来真烘出一条可重复履带条的人",
-          "en-US": "Keep the donor's own track loops and leave the imported ones out. This is the default and the only setting that actually shows a complete, moving tread: the donor's LEO2_tracks loops are skinned to the track bones the physics turns and UV'd face by face into its D570P sheet, which measures as one link's ground face split into about ten u-columns in no particular order across the width. That mapping belongs to the donor's own triangles - re-UV any other mesh onto the same sheet and each face stretches between columns of unrelated parts, which is the flat brown-black band this mod used to show. On is also the only way to keep tracks at all, because the imported War Thunder sheet cannot scroll either: its ground faces scatter over u 0.014-1.000 and v -4.77..4.23 with no repeat direction whatsoever. Off is a dead end, kept only as a knob for whoever bakes a genuine repeating tread strip first"
-        },
-        "Only read when UseDonorTrackArt is off, which is the only case where this mod lays out a sheet of its own. Repeats of the tread pattern per metre of run; 0.746 is the donor's own measured gradient along the bottom run, where eight pads of its 64-pixel pattern period cross one metre at a link pitch of about 0.18 m": {
-          "zh-CN": "只在「用供体履带」关掉时读，那是本模组自己铺一张履带图的唯一情形。每米行进里花纹重复几次；0.746 是供体底边实测的斜率——它 64 像素的图案周期在约 0.18 m 的链节距下，八块履带板跨过一米",
-          "en-US": "Only read when UseDonorTrackArt is off, which is the only case where this mod lays out a sheet of its own. Repeats of the tread pattern per metre of run; 0.746 is the donor's own measured gradient along the bottom run, where eight pads of its 64-pixel pattern period cross one metre at a link pitch of about 0.18 m"
-        },
-        "Override the protection values. Off keeps the donor's layout, which is what should be used here: the LEO2A3 models its composite armor as raycast thickness arrays (upper glacis array, turret cheek composite, lower glacis array) rather than as flat RHA numbers, so overwriting the few uniform plates that do carry values would only make the vehicle less accurate than the vanilla tank": {
-          "zh-CN": "改写防护数值。关掉保留供体的装甲布局，这辆车就该这么用：LEO2A3 把复合装甲建成射线厚度数组（首上数组、炮塔颊部复合、首下数组），而不是一串平整的均质钢数值，所以把少数带值的均质板覆盖掉，只会让这辆车比原版更不准",
-          "en-US": "Override the protection values. Off keeps the donor's layout, which is what should be used here: the LEO2A3 models its composite armor as raycast thickness arrays (upper glacis array, turret cheek composite, lower glacis array) rather than as flat RHA numbers, so overwriting the few uniform plates that do carry values would only make the vehicle less accurate than the vanilla tank"
-        },
-        "Print every armor layer to the log": {
-          "zh-CN": "把每一层装甲都打到日志里",
-          "en-US": "Print every armor layer to the log"
-        },
-        "Model space offset for the whole vehicle in meters, in the GHPC unit frame (+X starboard, +Y up, +Z forward). The 2.7 cm of the imported art's own frame that this leaves over is nothing: the value is the least-squares fit of the seven imported road-wheel centres onto the donor's, which agree to 0.27-0.39 m with a mean of 0.336 m": {
-          "zh-CN": "整车在 GHPC 单位坐标系（+X 右舷、+Y 上、+Z 前）里的模型空间偏移，单位米。剩下那 2.7 cm 是模型自身坐标系留下的，无所谓：这个值是把七个导入负重轮圆心最小二乘拟合到供体轮心上的结果，两者相差 0.27-0.39 m，均值 0.336 m",
-          "en-US": "Model space offset for the whole vehicle in meters, in the GHPC unit frame (+X starboard, +Y up, +Z forward). The 2.7 cm of the imported art's own frame that this leaves over is nothing: the value is the least-squares fit of the seven imported road-wheel centres onto the donor's, which agree to 0.27-0.39 m with a mean of 0.336 m"
-        },
-        "Turret traverse axis in model space, read off the model's own bone table (bone_turret). The imported turret is hung on the rig bone that actually turns, leo2_rig/hull/turret, and this point is placed exactly on it, so the turret spins in place instead of orbiting the ring. The donor's ring is 7.7 cm forward of and 3.2 cm above the model's own, which this correction absorbs at the hidden ring joint rather than in the visible hull": {
-          "zh-CN": "模型空间的炮塔回旋轴，从模型自带的骨骼表（bone_turret）读出。导入的炮塔挂在真正会转的那根骨骼 leo2_rig/hull/turret 上，这个点正好放在它上面，所以炮塔是原地转，不是绕着炮塔环公转。供体的炮塔环比模型自己的靠前 7.7 cm、高 3.2 cm，这点偏差在藏起来的炮塔环接缝处吸收，不动看得见的车体",
-          "en-US": "Turret traverse axis in model space, read off the model's own bone table (bone_turret). The imported turret is hung on the rig bone that actually turns, leo2_rig/hull/turret, and this point is placed exactly on it, so the turret spins in place instead of orbiting the ring. The donor's ring is 7.7 cm forward of and 3.2 cm above the model's own, which this correction absorbs at the hidden ring joint rather than in the visible hull"
-        },
-        "Gun elevation axis in model space. Ring to trunnion is 0.966 m in the model against 0.964 m between the donor's leo2_rig/hull/turret and its mantlet bone, so both land on their donor counterparts with the same shift. The lateral figure is not the model's own gun centreline: those two bones differ by 0.0032 m in x and nothing else, and because elevation turns about X, an anchor's x only ever slides the gun sideways - so the two anchors may differ by that 3.2 mm and no more, which is what keeps the source art's own mantlet-in-window fit. The model's barrel axis is itself 0.024 m to port of its turret's symmetry plane; centring the barrel on the donor's axis instead would correct War Thunder's art and open a gap on the other side": {
-          "zh-CN": "模型空间的主炮俯仰轴。模型里从炮塔环到耳轴是 0.966 m，供体 leo2_rig/hull/turret 到它炮盾骨之间是 0.964 m，所以两边用同一个位移就都落到各自的供体对应件上。横向那个数不是模型自己的炮管中线：那两根骨骼在 x 上只差 0.0032 m，别的没有差别；而俯仰是绕 X 转的，锚点的 x 只会把炮整体左右滑，所以两个锚点最多只能差这 3.2 mm——正是这一点保住了原美术自己「炮盾卡在窗口里」的配合。模型炮管轴线本身比它炮塔的对称面偏左 0.024 m；硬把炮管对到供体轴线上，等于去改战雷的美术，反而会在另一侧开一道缝",
-          "en-US": "Gun elevation axis in model space. Ring to trunnion is 0.966 m in the model against 0.964 m between the donor's leo2_rig/hull/turret and its mantlet bone, so both land on their donor counterparts with the same shift. The lateral figure is not the model's own gun centreline: those two bones differ by 0.0032 m in x and nothing else, and because elevation turns about X, an anchor's x only ever slides the gun sideways - so the two anchors may differ by that 3.2 mm and no more, which is what keeps the source art's own mantlet-in-window fit. The model's barrel axis is itself 0.024 m to port of its turret's symmetry plane; centring the barrel on the donor's axis instead would correct War Thunder's art and open a gap on the other side"
-        },
-        "Moves the commander's camera slot in unit frame meters, where +X is starboard and +Z is forward. The donor puts him at (0.64, 2.88, 0.20) while this model's cupola sight occupies (0.05-0.50, 2.59-2.98, -0.56--0.10), i.e. to port of and behind him, so 0,0,0 is fine. Raise it if the PERI housing still clips his view": {
-          "zh-CN": "把车长的相机位在单位坐标系里挪动，单位米，+X 右舷、+Z 前。供体把他放在 (0.64, 2.88, 0.20)，而模型的车长镜占着 (0.05-0.50, 2.59-2.98, -0.56--0.10)，即在他的左边和后面，所以 0,0,0 就行。PERI 壳体要是还挡住视野，就往上抬",
-          "en-US": "Moves the commander's camera slot in unit frame meters, where +X is starboard and +Z is forward. The donor puts him at (0.64, 2.88, 0.20) while this model's cupola sight occupies (0.05-0.50, 2.59-2.98, -0.56--0.10), i.e. to port of and behind him, so 0,0,0 is fine. Raise it if the PERI housing still clips his view"
-        },
-        "Largest texture size loaded from disk. The imported body, turret and gun maps are 2048 and the occlusion bakes 512; drop to 1024 if the extra memory is not worth it": {
-          "zh-CN": "从磁盘加载贴图时的最大边长。导入的车体、炮塔、火炮图都是 2048，AO 烘焙是 512；嫌占内存就降到 1024",
-          "en-US": "Largest texture size loaded from disk. The imported body, turret and gun maps are 2048 and the occlusion bakes 512; drop to 1024 if the extra memory is not worth it"
-        },
-        "Target mean colour of the imported albedos, applied at load. Leave at 0 (keep as authored): lp_texpass.py already re-centres the painted maps on the donor LEO2_co means of 42/42/35, which every vanilla vehicle map sits inside. Set it if you drop a raw War Thunder map in without running the pass": {
-          "zh-CN": "导入的反照率图在加载时被拉到的目标平均色。留 0（保持原样）：整理那道工序已经把画好的图重新居中到供体 LEO2_co 的 42/42/35 均值上，原版所有载具的图都落在这个区间里。要是没跑那道工序就把原始的战雷图丢进来，再设它",
-          "en-US": "Target mean colour of the imported albedos, applied at load. Leave at 0 (keep as authored): lp_texpass.py already re-centres the painted maps on the donor LEO2_co means of 42/42/35, which every vanilla vehicle map sits inside. Set it if you drop a raw War Thunder map in without running the pass"
-        },
-        "Red 0-255 of the neutral paint mask, where 255 reads as fully painted. 0 makes the hull read as bare metal": {
-          "zh-CN": "中性涂装遮罩的红通道 0-255，255 读作「全涂装」。设 0 会让车体看成裸金属",
-          "en-US": "Red 0-255 of the neutral paint mask, where 255 reads as fully painted. 0 makes the hull read as bare metal"
-        },
-        "Base gloss 0-255 for the materials without a map_ks bake. The donor's LEO2_sm alpha measures 63, and the painted body, turret, gun and MG mount now carry their own gloss maps": {
-          "zh-CN": "没有光泽烘焙的材质用的基础光泽 0-255。供体 LEO2_sm 的 alpha 实测是 63，而画过的车体、炮塔、火炮和机枪座现在各自带自己的光泽图",
-          "en-US": "Base gloss 0-255 for the materials without a map_ks bake. The donor's LEO2_sm alpha measures 63, and the painted body, turret, gun and MG mount now carry their own gloss maps"
-        },
-        "Replace the vanilla paint mask slot with a flat neutral texture, and the gloss slot too. Off keeps the donor's own maps, which are UV-baked for its layout": {
-          "zh-CN": "把原版涂装遮罩那一格换成一张平的中性贴图，光泽那格也一样。关掉就保留供体自己的图，那些是按它的布局 UV 烘的",
-          "en-US": "Replace the vanilla paint mask slot with a flat neutral texture, and the gloss slot too. Off keeps the donor's own maps, which are UV-baked for its layout"
-        },
-        "Bind the model's own ambient occlusion bakes. This is what puts the shading in panel seams, bolts and hatches; off leaves the paint flatly lit however close the camera gets": {
-          "zh-CN": "绑模型自带的 AO 烘焙。板缝、螺栓、舱盖里的阴影全靠它；关掉之后镜头凑多近，漆面都是平的",
-          "en-US": "Bind the model's own ambient occlusion bakes. This is what puts the shading in panel seams, bolts and hatches; off leaves the paint flatly lit however close the camera gets"
-        },
-        "Attach a heat signature source to the imported visual": {
-          "zh-CN": "给导入的外观挂一个热信号源",
-          "en-US": "Attach a heat signature source to the imported visual"
-        },
-        "Rebuild the gunner's daylight reticle as the Leopard 2A7V plate. The donor's FERO Z18 picture is kept as the light source and as the VerticalRange wiring, so the FCS still moves the aiming mark with the superelevation of the loaded round": {
-          "zh-CN": "把炮手昼间镜改建成豹 2A7V 的分划板。供体 FERO Z18 的原图保留下来当光源，也保留VerticalRange 那条接线，所以火控仍会按装填弹种的过抬高移动瞄准标记",
-          "en-US": "Rebuild the gunner's daylight reticle as the Leopard 2A7V plate. The donor's FERO Z18 picture is kept as the light source and as the VerticalRange wiring, so the FCS still moves the aiming mark with the superelevation of the loaded round"
-        },
-        "Re-state the gun arc on the platform that poses the mantlet. GHPC clamps with AimablePlatform.LocalEulerLimits and treats x == y - a pair of zeros included - as unlimited travel, so this is what guarantees the barrel cannot run past the mount however the donor arrived": {
-          "zh-CN": "在摆炮盾的那个平台上重新写一遍火炮行程。GHPC 用 AimablePlatform.LocalEulerLimits 做限制，且把 x == y（包括一对 0）当成无限行程，所以不管供体是怎么来的，这一项才真正保证炮管不会跑出炮座",
-          "en-US": "Re-state the gun arc on the platform that poses the mantlet. GHPC clamps with AimablePlatform.LocalEulerLimits and treats x == y - a pair of zeros included - as unlimited travel, so this is what guarantees the barrel cannot run past the mount however the donor arrived"
-        },
-        "Highest angle above horizontal the gun may reach. +20 degrees is what War Thunder's page for the 2A7V writes on its 120 mm Rh120 L/55 A1 block ('Vertical guidance -9 / 20'), which is the figure this mod follows. The donor LEO2A3 prefab happens to carry the same +20, but the donor is the LEO2A3 and not this vehicle, so the number is stated here rather than inherited": {
-          "zh-CN": "火炮能到的最高仰角（水平以上）。+20 度是战雷 2A7V 页面上那台 120 mm Rh120 L/55 A1 写的（Vertical guidance -9 / 20），本模组照这个数。供体 LEO2A3 的 prefab 恰好也是 +20，但供体是 LEO2A3 不是这辆车，所以这个数在这里写明，而不是继承来的",
-          "en-US": "Highest angle above horizontal the gun may reach. +20 degrees is what War Thunder's page for the 2A7V writes on its 120 mm Rh120 L/55 A1 block ('Vertical guidance -9 / 20'), which is the figure this mod follows. The donor LEO2A3 prefab happens to carry the same +20, but the donor is the LEO2A3 and not this vehicle, so the number is stated here rather than inherited"
-        },
-        "Lowest angle below horizontal, negative. -9 degrees, same War Thunder block. It is one degree shallower than the donor's own -10, and that single degree is the whole point of restating the arc: the mount inherited from an LEO2A3 would otherwise let the barrel dig one degree deeper than this vehicle can": {
-          "zh-CN": "最低俯角（水平以下，负值）。-9 度，同一份战雷数据。它比供体自己的 -10 浅一度，而重新写行程这件事的要害就是这一度：从 LEO2A3 继承来的炮座本来会让炮管比这辆车能压的再深一度",
-          "en-US": "Lowest angle below horizontal, negative. -9 degrees, same War Thunder block. It is one degree shallower than the donor's own -10, and that single degree is the whole point of restating the arc: the mount inherited from an LEO2A3 would otherwise let the barrel dig one degree deeper than this vehicle can"
-        },
-        "Make the imported commander's machine gun a real weapon: its own traverse and elevation platforms, a roof-gun WeaponSystem cloned from the donor's coaxial MG3 (so the same 1200 rpm sound and 7.62 mm ammunition), its own fire control system, a gunsight the player can cycle into, and a third entry in Next Weapon. Off leaves it as decoration only": {
-          "zh-CN": "把导入的车长机枪做成真武器：自己的回旋与俯仰平台、一套从供体同轴 MG3 克隆出来的车顶机枪武器系统（所以是同一个 1200 rpm 的声音和 7.62 mm 弹）、自己的火控系统、一面玩家能切进去的镜，以及「下一件武器」里的第三个条目。关掉就只当装饰",
-          "en-US": "Make the imported commander's machine gun a real weapon: its own traverse and elevation platforms, a roof-gun WeaponSystem cloned from the donor's coaxial MG3 (so the same 1200 rpm sound and 7.62 mm ammunition), its own fire control system, a gunsight the player can cycle into, and a third entry in Next Weapon. Off leaves it as decoration only"
-        },
-        "Model space vertical traverse axis of the mount, in the same frame as ModelTurretAxis. Taken from the imported mg_aa_mount_h box x[-1.18,-0.87] y[2.63,2.84] z[-0.45,-0.21]: centred across the mount, at its base, midway along its travel": {
-          "zh-CN": "机枪座在模型空间的垂直回旋轴，坐标系同炮塔转轴。取自导入的 mg_aa_mount_h 包围盒 x[-1.18,-0.87] y[2.63,2.84] z[-0.45,-0.21]：横向取中、落在座子底部、行程中点",
-          "en-US": "Model space vertical traverse axis of the mount, in the same frame as ModelTurretAxis. Taken from the imported mg_aa_mount_h box x[-1.18,-0.87] y[2.63,2.84] z[-0.45,-0.21]: centred across the mount, at its base, midway along its travel"
-        },
-        "Model space elevation axis. The cradle (mg_aa_mount_v) spans x[-1.02,-0.90] y[2.68,2.85] and the gun body (bone_mg_aa_v) y[2.69,2.92], so the pin sits low in the cradle and 3.8 cm below the bore line of 2.838, which the muzzle entry carries instead": {
-          "zh-CN": "模型空间的俯仰轴。摇架（mg_aa_mount_v）占 x[-1.02,-0.90] y[2.68,2.85]，枪身（bone_mg_aa_v）y[2.69,2.92]，所以轴销压在摇架偏下、比 2.838 的炮膛线低 3.8 cm——那个高度归枪口那一项管",
-          "en-US": "Model space elevation axis. The cradle (mg_aa_mount_v) spans x[-1.02,-0.90] y[2.68,2.85] and the gun body (bone_mg_aa_v) y[2.69,2.92], so the pin sits low in the cradle and 3.8 cm below the bore line of 2.838, which the muzzle entry carries instead"
-        },
-        "Model space muzzle, where the live round and the flash spawn. The imported gun body (bone_mg_aa_v) ends 4.5 cm aft of this point, and its muzzle ring measures -0.911 across, y 2.819..2.858 about a bore line of 2.838; the old 2.80 sat under the barrel's underside, so the burst read as firing from beneath the gun": {
-          "zh-CN": "模型空间的枪口，实弹和枪口焰从这里出。导入的枪身（bone_mg_aa_v）比这个点还短 4.5 cm，它的枪口环横向量到 -0.911，y 2.819..2.858，炮膛线在 2.838；旧的 2.80 落在枪管下沿，所以连发看着像从枪底下往外打",
-          "en-US": "Model space muzzle, where the live round and the flash spawn. The imported gun body (bone_mg_aa_v) ends 4.5 cm aft of this point, and its muzzle ring measures -0.911 across, y 2.819..2.858 about a bore line of 2.838; the old 2.80 sat under the barrel's underside, so the burst read as firing from beneath the gun"
-        },
-        "Model space eyepiece, near the rear of the receiver and at the height of the sight ring": {
-          "zh-CN": "模型空间的目镜，在机匣后段、跟照门环同高",
-          "en-US": "Model space eyepiece, near the rear of the receiver and at the height of the sight ring"
-        },
-        "Model space belt box, the centre of the imported ammo part": {
-          "zh-CN": "模型空间的弹链箱，取导入弹药件的中心",
-          "en-US": "Model space belt box, the centre of the imported ammo part"
-        },
-        "Horizontal degrees for the roof gun sight. The donor's daylight eyepiece is cloned for its post-process wiring and re-scaled to this, because an anti-aircraft gun needs a wide field. The plate's line and letter widths grow with this number to stay as legible as at 10 degrees": {
-          "zh-CN": "车顶机枪镜的水平视场（度）。供体的昼间目镜被克隆过来，主要是要它那套后处理接线，再缩放到这个数值，因为高射机枪需要宽视场。分划板的线与字宽跟着这个数放大，保证和 10 度时一样看得清",
-          "en-US": "Horizontal degrees for the roof gun sight. The donor's daylight eyepiece is cloned for its post-process wiring and re-scaled to this, because an anti-aircraft gun needs a wide field. The plate's line and letter widths grow with this number to stay as legible as at 10 degrees"
-        },
-        "Print the full material and renderer state once after the visual is built": {
-          "zh-CN": "外观建好之后把材质与渲染器的完整状态打一遍日志",
-          "en-US": "Print the full material and renderer state once after the visual is built"
+        "Write how many interior pieces were lit and skipped, which layers the X-ray camera draws and why a piece was refused, to Bin/Mods/XrayInterior.debug.log; only turn it on when something is wrong": {
+          "zh-CN": "把点亮/跳过了多少内构件、X 光相机画哪些图层、某一件为什么被拒绝写进 Bin/Mods/XrayInterior.debug.log；只在出问题时打开",
+          "en-US": "Write how many interior pieces were lit and skipped, which layers the X-ray camera draws and why a piece was refused, to Bin/Mods/XrayInterior.debug.log; only turn it on when something is wrong"
         }
       },
       "multiplechoice": {},
