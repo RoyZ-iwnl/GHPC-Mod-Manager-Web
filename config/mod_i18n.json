@@ -7552,6 +7552,10 @@
         "TextureResolution": {
           "zh-CN": "贴图精度",
           "en-US": "Texture resolution"
+        },
+        "ArmorCoefficient": {
+          "zh-CN": "装甲系数",
+          "en-US": "Armour multiplier"
         }
       },
       "ConfigComments": {
@@ -7562,6 +7566,10 @@
         "Texture detail: 2k or 4k. 4k is sharper up close but needs far more video memory and load time": {
           "zh-CN": "贴图精度：2k 或 4k；4k 读 textures_uhq 里那套 4096 的图，更清楚但吃显存",
           "en-US": "Texture detail: 2k or 4k. 4k is sharper up close but needs far more video memory and load time"
+        },
+        "Armour strength multiplier over every zone (1 = real-data protection, 0.3-3)": {
+          "zh-CN": "所有区域装甲的强度倍率，1 = 公开数据，范围 0.3-3",
+          "en-US": "Armour strength multiplier over every zone (1 = real-data protection, 0.3-3)"
         }
       },
       "multiplechoice": {},
