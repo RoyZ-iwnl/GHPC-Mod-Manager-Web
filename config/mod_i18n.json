@@ -7545,135 +7545,23 @@
     "Leopard2A7V": {
       "ModId": "Leopard2A7V",
       "ConfigLabels": {
-        "Enabled": {
-          "zh-CN": "总开关",
-          "en-US": "Master switch"
-        },
-        "FriendlyName": {
-          "zh-CN": "显示名",
-          "en-US": "Display name"
-        },
-        "ConvertSourceUnit": {
-          "zh-CN": "连供体一起换",
-          "en-US": "Also convert donor"
-        },
-        "UseDonorRunningGear": {
-          "zh-CN": "用供体负重轮",
-          "en-US": "Donor running gear"
-        },
-        "UseDonorTrackArt": {
-          "zh-CN": "用供体履带",
-          "en-US": "Donor track art"
-        },
-        "ShowInterior": {
-          "zh-CN": "舱内视图",
-          "en-US": "Interior view"
-        },
-        "WtArmor": {
-          "zh-CN": "x-ray 装甲",
-          "en-US": "Model armor"
-        },
         "Skin": {
           "zh-CN": "涂装",
           "en-US": "Skin"
         },
-        "AddHeatSource": {
-          "zh-CN": "热源",
-          "en-US": "Heat source"
-        },
-        "ReplaceDayReticle": {
-          "zh-CN": "昼间分划板",
-          "en-US": "Daylight reticle"
-        },
-        "ThermalResolution": {
-          "zh-CN": "热像分辨率",
-          "en-US": "Thermal resolution"
-        },
-        "LimitMainGunElevation": {
-          "zh-CN": "主炮行程",
-          "en-US": "Gun elevation limit"
-        },
-        "GunElevationDegrees": {
-          "zh-CN": "最大仰角",
-          "en-US": "Max elevation"
-        },
-        "GunDepressionDegrees": {
-          "zh-CN": "最大俯角",
-          "en-US": "Max depression"
-        },
-        "AddRoofGun": {
-          "zh-CN": "车顶机枪",
-          "en-US": "Roof machine gun"
-        },
-        "RoofGunSightFov": {
-          "zh-CN": "机枪镜视场",
-          "en-US": "MG sight FOV"
+        "TextureResolution": {
+          "zh-CN": "贴图精度",
+          "en-US": "Texture resolution"
         }
       },
       "ConfigComments": {
-        "Turns the mod off without uninstalling it": {
-          "zh-CN": "关掉即停用整个模组，不用卸载",
-          "en-US": "Turns the mod off without uninstalling it"
-        },
-        "Name this vehicle shows in the menus": {
-          "zh-CN": "菜单里显示的名字",
-          "en-US": "Name this vehicle shows in the menus"
-        },
-        "Also restyle the stock LEO2A3s, not just the new entry": {
-          "zh-CN": "连原版 LEO2A3 一起换皮，不只是新条目",
-          "en-US": "Also restyle the stock LEO2A3s, not just the new entry"
-        },
-        "Keep the donor's wheels and tracks. Off builds the model's own road wheels on the donor bones": {
-          "zh-CN": "沿用供体的负重轮和履带。关掉后建模型自己的负重轮并挂到供体骨头上；托带轮和悬挂臂仍然跟着车体动",
-          "en-US": "Keep the donor's wheels and tracks. Off builds the model's own road wheels on the donor bones"
-        },
-        "Keep the donor's track loops. Only this shows a complete, rolling track": {
-          "zh-CN": "用供体自己的履带环，只有这一档是完整会滚的履带",
-          "en-US": "Keep the donor's track loops. Only this shows a complete, rolling track"
-        },
-        "Draw the crew compartment inside the hull. It follows the game's own x-ray view": {
-          "zh-CN": "画舱内乘员舱，跟随游戏自己的透视视图；关掉只剩供体的内构",
-          "en-US": "Draw the crew compartment inside the hull. It follows the game's own x-ray view"
-        },
-        "Set the armour thickness from this model's geometry instead of the donor's": {
-          "zh-CN": "按本模型几何给装甲定厚，而不是沿用供体的实测值",
-          "en-US": "Set the armour thickness from this model's geometry instead of the donor's"
-        },
         "Paint scheme: nato, desert, winter, parade. Empty keeps the factory scheme": {
           "zh-CN": "涂装方案：nato / desert / winter / parade，空 = 出厂涂装",
           "en-US": "Paint scheme: nato, desert, winter, parade. Empty keeps the factory scheme"
         },
-        "Give the vehicle a heat signature source": {
-          "zh-CN": "给车加一个热信号源",
-          "en-US": "Give the vehicle a heat signature source"
-        },
-        "Draw the 2A7V graticule in the gunner's daylight sight": {
-          "zh-CN": "炮手昼间镜画 2A7V 分划板，瞄点仍由火控驱动",
-          "en-US": "Draw the 2A7V graticule in the gunner's daylight sight"
-        },
-        "The gunner's thermal picture as \"width,height\" in pixels; keep the ratio 2:1": {
-          "zh-CN": "炮手热像画面的像素尺寸，填「宽,高」，保持 2:1",
-          "en-US": "The gunner's thermal picture as \"width,height\" in pixels; keep the ratio 2:1"
-        },
-        "Apply the gun arc below; this is the switch that actually stops the barrel": {
-          "zh-CN": "应用下面的俯仰行程；真正挡住炮管的是这一项",
-          "en-US": "Apply the gun arc below; this is the switch that actually stops the barrel"
-        },
-        "Highest elevation above horizontal, in degrees": {
-          "zh-CN": "水平以上的最大仰角（度）",
-          "en-US": "Highest elevation above horizontal, in degrees"
-        },
-        "Lowest depression below horizontal, in degrees; negative": {
-          "zh-CN": "水平以下的最大俯角（度），填负数",
-          "en-US": "Lowest depression below horizontal, in degrees; negative"
-        },
-        "Make the roof MG a real weapon with its own mount, fire control and sight": {
-          "zh-CN": "把车顶机枪做成真武器，有自己的枪座、火控和镜",
-          "en-US": "Make the roof MG a real weapon with its own mount, fire control and sight"
-        },
-        "Horizontal field of view of the roof MG sight, in degrees; wider tracks aircraft more easily": {
-          "zh-CN": "车顶机枪镜的水平视场（度）；开大更好跟飞机",
-          "en-US": "Horizontal field of view of the roof MG sight, in degrees; wider tracks aircraft more easily"
+        "Texture detail: 2k or 4k. 4k is sharper up close but needs far more video memory and load time": {
+          "zh-CN": "贴图精度：2k 或 4k；4k 读 textures_uhq 里那套 4096 的图，更清楚但吃显存",
+          "en-US": "Texture detail: 2k or 4k. 4k is sharper up close but needs far more video memory and load time"
         }
       },
       "multiplechoice": {},
