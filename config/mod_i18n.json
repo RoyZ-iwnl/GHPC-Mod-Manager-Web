@@ -7555,9 +7555,9 @@
         }
       },
       "ConfigComments": {
-        "Paint scheme: nato, desert, winter, parade. Empty keeps the factory scheme": {
-          "zh-CN": "涂装方案：nato / desert / winter / parade，空 = 出厂涂装",
-          "en-US": "Paint scheme: nato, desert, winter, parade. Empty keeps the factory scheme"
+        "Paint scheme: factory, nato, desert, winter, parade": {
+          "zh-CN": "涂装方案：factory / nato / desert / winter / parade",
+          "en-US": "Paint scheme: factory, nato, desert, winter, parade"
         },
         "Texture detail: 2k or 4k. 4k is sharper up close but needs far more video memory and load time": {
           "zh-CN": "贴图精度：2k 或 4k；4k 读 textures_uhq 里那套 4096 的图，更清楚但吃显存",
@@ -7565,7 +7565,19 @@
         }
       },
       "multiplechoice": {},
-      "singlechoice": {}
+      "singlechoice": {
+        "Skin": [
+          "factory",
+          "nato",
+          "desert",
+          "winter",
+          "parade"
+        ],
+        "TextureResolution": [
+          "2k",
+          "4k"
+        ]
+      }
     },
     "XrayInterior": {
       "ModId": "XrayInterior",
