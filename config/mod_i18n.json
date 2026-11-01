@@ -7523,6 +7523,18 @@
         "AMPCount": {
           "zh-CN": "M1147 AMP 携弹数量",
           "en-US": "M1147 AMP round count"
+        },
+        "PaintScheme": {
+          "zh-CN": "涂装",
+          "en-US": "Paint scheme"
+        },
+        "Enable100xZoom": {
+          "zh-CN": "启用100倍热成像档位",
+          "en-US": "Enable 100x thermal zoom"
+        },
+        "Enable1080pThermal": {
+          "zh-CN": "启用1080P热成像",
+          "en-US": "Enable 1080p thermal"
         }
       },
       "ConfigComments": {
@@ -7537,10 +7549,27 @@
         "M829A4 + AMP 总携弹上限 40 发。超额时优先保留 M829A4；重新进入关卡生效。": {
           "zh-CN": "M829A4 与 AMP 合计最多 40 发，超额时优先保留 M829A4。重启游戏后生效。",
           "en-US": "M829A4 and AMP share a 40-round capacity. M829A4 is allocated first if the total exceeds 40. Restart the game after changing."
+        },
+        "涂装：绿色涂装 / 三色涂装。保存后重启游戏生效。": {
+          "zh-CN": "涂装：绿色涂装 / 三色涂装。保存后重启游戏生效。",
+          "en-US": "Paint scheme: 绿色涂装 = Green; 三色涂装 = NATO three-colour camouflage. Select one of these Chinese option values. Save and restart the game."
+        },
+        "炮手热成像增加100倍档；重启游戏生效。": {
+          "zh-CN": "炮手热成像增加100倍档；重启游戏生效。",
+          "en-US": "Add a 100x gunner thermal zoom step. Disabled by default; restart the game after changing."
+        },
+        "炮手热成像固定1920x1080，取消高倍附加模糊；重启游戏生效。": {
+          "zh-CN": "炮手热成像固定1920x1080，取消高倍附加模糊；重启游戏生效。",
+          "en-US": "Use 1920x1080 gunner thermal imaging without additional high-zoom blur. Disabled by default; restart the game after changing."
         }
       },
       "multiplechoice": {},
-      "singlechoice": {}
+      "singlechoice": {
+        "PaintScheme": [
+          "绿色涂装",
+          "三色涂装"
+        ]
+      }
     },
     "Leopard2A7V": {
       "ModId": "Leopard2A7V",
