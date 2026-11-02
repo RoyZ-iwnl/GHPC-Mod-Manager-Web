@@ -221,11 +221,11 @@
   },
   {
     "Id": "Challenger2",
-    "Author": "AIM",
     "Name": {
       "en-US": "Challenger 2",
       "zh-CN": "挑战者 2"
     },
+    "Author": "AIM",
     "Description": {
       "en-US": "Replaces the base Leopard 2 with Challenger 2. Full package, v0.4.43. Test build; some mission-loading compatibility issues remain unresolved.",
       "zh-CN": "将基础豹 2 替换为挑战者 2，0.4.43 完整包。测试版，部分关卡加载兼容问题仍待排查。"
@@ -769,10 +769,42 @@
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "T90A.dll",
     "ConfigSectionName": "T-90A",
-    "Conflicts":[
-      "Ammouppack"
-    ],
     "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "Ammouppack",
+      "BVVDT34"
+    ],
+    "RequiredManagerVersion": "1.3.11"
+  },
+  {
+    "Id": "T90M",
+    "Name": {
+      "en-US": "T-90M",
+      "zh-CN": "T-90M"
+    },
+    "Author": "marsattackk",
+    "Description": {
+      "en-US": "A Russian T-90M \"Proryv\" you can drive and fight in GHPC, as its own unit. Relikt ERA, the Sosna-U gunner's sight, the commander's PK PAN panorama with the remote Kord on top of it, the TShU-1-2M screen system, 3BM60 and the Invar-M missile, and the 3OF82 Telnik air-burst round.",
+      "zh-CN": "你可以驾驶并作为自己的单位来操作俄罗斯的 T-90M“Proryv”坦克。该坦克配备了 ERA 系统的遗物设备、Sosna-U 炮手瞄准镜、指挥官用的 PK PAN 全景显示器，还配备了远程 Kord 武器系统、TShU-1-2M 屏幕系统、3BM60 导弹以及 Invar-M。"
+    },
+    "Tags": {
+      "modify": {
+        "zh-CN": "载具改装",
+        "en-US": "Vehicle Modify"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/marsattackk/GHPC-T90M/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "T90M.dll",
+    "ConfigSectionName": "T-90M",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "Ammouppack",
+      "BVVDT34"
+    ],
     "RequiredManagerVersion": "1.3.11"
   },
   {
@@ -1464,6 +1496,32 @@
     "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "GuaranteedCamoNets.dll",
     "ConfigSectionName": "GuaranteedCamoNets",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "DustReducer",
+    "Name": {
+      "en-US": "Dust Reducer",
+      "zh-CN": "减少烟尘"
+    },
+    "Author": "QwertyRyo",
+    "Description": {
+      "en-US": "A GHPC Mod that can remove barrel and impact dust/smoke effects for visibility purposes",
+      "zh-CN": "可以消除枪管以及射击产生的灰尘和烟雾效果，从而提高可视性。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/QwertyRyo/Dust-Reducer-Mod/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "DustReducer.dll",
+    "ConfigSectionName": "DustReducer",
     "InstallMethod": "DirectRelease"
   },
   {
@@ -2266,7 +2324,7 @@
     "Requirements": [
       "Fulda89"
     ],
-    "Delisted":true
+    "Delisted": true
   },
   {
     "Id": "M1laserFIX",
@@ -2299,11 +2357,11 @@
   },
   {
     "Id": "CoaxFire",
-    "Author": "rhino2024",
     "Name": {
       "en-US": "Machine Guns on the Fire Key",
       "zh-CN": "空格直接开副武器机枪"
     },
+    "Author": "rhino2024",
     "Description": {
       "en-US": "Hold Space to fire the coaxial and roof machine guns without switching weapons, so the main gun stays aimed where it was. The roof gun's fire control is also aimed along the main gun every frame, which stops it firing into the ground. F6 toggles it, and the fire key can be changed.",
       "zh-CN": "按住空格直接打同轴机枪和车顶高射机枪，不用先把武器切过去，主炮该指哪还指哪。车顶机枪的火控也每帧跟着主炮，修掉它一开火就打脚下地板的问题。F6 开关，开火键可以改。"
@@ -2325,11 +2383,11 @@
   },
   {
     "Id": "WreckCleanup",
-    "Author": "rhino2024",
     "Name": {
       "en-US": "Wreck Cleanup",
       "zh-CN": "残骸清理"
     },
+    "Author": "rhino2024",
     "Description": {
       "en-US": "Once 3 or more wrecks are sitting on the field, every wreck that has been burning for 8 seconds is cleared away, so a long battle stops losing frames to vehicles nobody is driving. Nothing happens below that count, F8 turns it off mid-mission, and the wrecks are shown again while the after action replay runs.",
       "zh-CN": "场上堆了 3 辆以上残骸后，烧了 8 秒以上的那些会被收走，免得长时间作战一直为没人开的空车掉帧。不到这个数它什么都不做，F8 可以随时关掉，战后回放期间残骸会重新显示。"
@@ -2351,11 +2409,11 @@
   },
   {
     "Id": "FreeAim",
-    "Author": "rhino2024",
     "Name": {
       "en-US": "Free Aim",
       "zh-CN": "第一人称自由瞄准"
     },
+    "Author": "rhino2024",
     "Description": {
       "en-US": "Aims the turret in first person without holding the right mouse button. The stock game only moves the sight while the button is held, and it keeps the turret turning after the mouse stops; here the turret follows the mouse and stops with it. It only takes over where you really have turret control and stays out of the way while you do hold the button. F11 toggles it, and numpad + / - tune sensitivity while playing.",
       "zh-CN": "第一人称下不用按住右键就能转炮塔，鼠标停下来炮塔就停。原版要按住右键才动，而且会把鼠标量攒成一个速度档位，鼠标停了炮塔还在转；这里鼠标动多少就转多少。只在真的能控制炮塔的位置接管，按住右键时完全不插手。F11 开关，小键盘 + / - 边打边调灵敏度。"
@@ -2377,11 +2435,11 @@
   },
   {
     "Id": "LeadIndicator",
-    "Author": "rhino2024",
     "Name": {
       "en-US": "Lead Indicator",
       "zh-CN": "提前量指示器"
     },
+    "Author": "rhino2024",
     "Description": {
       "en-US": "Tap LeftAlt in the gunner sight to lock the enemy vehicle under the reticle: a green box on its hull, the range under the box, and a line to a small lead circle computed from the game's own ballistic flight time. Put the reticle on the circle and fire, and the target drives into the impact point. The circle follows the sight's range dial as well, so a 400 m dial against a 1000 m target puts it where that dial actually hits. Since 1.10.0 the report-driven mode leaves ranging entirely to you - no laser pulse, no FCS range writes - and it sticks to the first reported vehicle until that vehicle is destroyed instead of hopping to the freshest report. Since 1.11.0 a reported vehicle outside the gunner sight's circle gets a green arrow along the inside of that circle pointing at it until it enters the sight. Since 1.11.1 infantry are skipped entirely: no box, no lead circle, no arrow. The mod never drives the turret or the sight, it only draws. F4 is the master switch. Requires MelonLoader. Tested on 0.1.0-alpha+20261014. Ships no models or textures: everything is drawn on screen and the only art involved is GHPC's own reticle and optic, so nothing is redistributed and no retopology is involved.",
       "zh-CN": "炮手镜里按一下 LeftAlt 锁住准星下的敌方载具：车体上一个绿框、框下是距离，一条绿线连到提前量小圈——圈按游戏自己弹道表里的飞行时间算。把准星压到圈上开火，目标正好走进弹着点。圈还跟着炮镜上的标尺抬落：拿 400 m 标尺打 1000 m 的车，圈就落在这个标尺下真能命中的位置。1.10.0 起报点自动锁不再替你打激光、也不写火控距离，标尺完全留给你，并且咬住第一辆报点车：它被消灭之前不换目标。1.11.0 起报点目标不在炮镜圆圈里时，镜内沿圆圈内侧出现指向它的绿色箭头，进圈即消失。1.11.1 起报点目标是步兵时不画任何东西。模组不碰炮塔、不碰炮镜，只画。F4 总开关。需要 MelonLoader。在 0.1.0-alpha+20261014 实测。不含模型与贴图：所有内容都是屏幕绘制，用到的美术只有 GHPC 本体自带的准星与瞄具，不分发游戏素材，未做重拓扑处理。"
@@ -2403,11 +2461,11 @@
   },
   {
     "Id": "AmmoDisplay",
-    "Author": "rhino2024",
     "Name": {
       "en-US": "Ammo Display",
       "zh-CN": "弹药架显示"
     },
+    "Author": "rhino2024",
     "Description": {
       "en-US": "A War Thunder style ammo bar along the bottom of the screen: one cell per shell type, each showing the vehicle-wide count across racks, feed belts and the chamber. Spent cells dim, the loaded round is outlined, autocannon APDS get a belt icon while tank APDS keep the single-shell icon (split at 50 mm calibre), guided missiles get their own cell, a smoke discharger adds a smoke cell with its remaining rounds, and a reload bar sits under the row. Seven original icons are included; your own PNGs in UserData/AmmoIcons override them by file name. F3 toggles it.",
       "zh-CN": "屏幕下方一条战雷式弹药栏：每个弹种一格，格子上是全车总数（弹架、供弹机弹链和炮膛一起算）。打空的格子变暗，当前装填的弹种描白框，机炮的 APDS 用弹链图标、主炮穿甲弹仍是单发图标（按 50mm 口径区分），制导导弹单独占一格，装了烟幕发射器的车末尾多一格烟幕剩余发数，弹链下面还有装填进度条。自带七张原创图标；把你自己的 PNG 放进 UserData/AmmoIcons 会按文件名覆盖。F3 开关。"
@@ -2429,11 +2487,11 @@
   },
   {
     "Id": "PreillumReticle",
-    "Author": "oilpeanut",
     "Name": {
       "en-US": "Preilluminate Reticles",
       "zh-CN": "预点亮准星"
     },
+    "Author": "oilpeanut",
     "Description": {
       "en-US": "This mod illuminate all the reticles (except if they cannot be illuminated, like the Abrams' .50 cal) on you and your friendlies' vehicles, so that you don't have to go through the trouble of pressing I on every optics.This mod now also offers the ability to change the brightness of the current reticle. (Keybind: Right Alt + Up/Down Arrow)",
       "zh-CN": "这个模组可以预照亮你和你队友的载具上所有的瞄准具（当然，那些无法被照明的瞄准具除外，比如.50 的瞄准具）。这样你就不需要每次都手动点击I键光学瞄准器来照亮它们了。这个模组现在还提供了调整当前瞄准镜亮度的功能。（按键组合：右 Alt 键 + 上下方向键）"
@@ -2454,11 +2512,11 @@
   },
   {
     "Id": "M1Trophy",
-    "Author": "AIM",
     "Name": {
       "en-US": "M1 Trophy",
       "zh-CN": "M1 战利品"
     },
+    "Author": "AIM",
     "Description": {
       "en-US": "M1 Trophy vehicle conversion with Trophy APS, M829A4, CITV and a remote weapon station. Full package includes one unified DLL plus 4K NATO three-colour and green textures and required assets. Retopologized War Thunder model; original assets: Gaijin Entertainment; weapon station: 我怕肾虚, with upstream CROWS contributors. Live firing/camera verification remains pending.",
       "zh-CN": "M1 战利品载具改装，包含主动防御、M829A4、车长热像及遥控武器站。完整包包含一个整合 DLL、4K 北约三色和绿色涂装和所需资源。采用经过重拓扑（Retopo）处理的战争雷霆模型；原始素材归 Gaijin Entertainment 所有；武器站：我怕肾虚及上游 CROWS 贡献者。开火与视角效果仍待游戏内复测。"
@@ -2474,20 +2532,20 @@
     "MainBinaryFileName": "M1Trophy.dll",
     "ConfigSectionName": "M1Trophy",
     "InstallMethod": "DirectRelease",
-    "Conflicts": [
-      "TrophyAPS"
-    ],
     "Requirements": [
       "VanillaAssetUtil"
+    ],
+    "Conflicts": [
+      "TrophyAPS"
     ]
   },
   {
     "Id": "TrophyAPS",
-    "Author": "simon145",
     "Name": {
       "en-US": "TrophyAPS",
       "zh-CN": "战利品主动防御系统"
     },
+    "Author": "simon145",
     "Description": {
       "en-US": "Initial inspiration and implementation came from part of ATLAS's APS source code, and a general framework has since been developed that can be applied to other APS systems such as Tekken, Arena, GL6, etc.",
       "zh-CN": "初期灵感和实现来自ATLAS的部分APS源码，后期已有通用框架可以套到铁拳、竞技场、GL6等其他APS上"
@@ -2502,20 +2560,20 @@
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "TrophyAPS.dll",
     "InstallMethod": "DirectRelease",
-    "Conflicts":[
-      "M1Trophy"
-    ],
     "Requirements": [
       "VanillaAssetUtil"
+    ],
+    "Conflicts": [
+      "M1Trophy"
     ]
   },
   {
     "Id": "M1A2C",
-    "Author": "芝士大嘴蛙",
     "Name": {
       "en-US": "M1A2C",
       "zh-CN": "M1A2C"
     },
+    "Author": "芝士大嘴蛙",
     "Description": {
       "en-US": "It aims to add the M1A2C tank and its modified variants to GHPC, restoring its unique functions and armament.",
       "zh-CN": "一个M1A2C模组，带你进入富尔达2026，用m829e4把敌人狠狠上市吧！"
@@ -2529,19 +2587,19 @@
     "ReleaseUrl": "https://api.github.com/repos/DDDDWWWWDZW/M1A2C-mod-of-GHPC-/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "M1A2C.dll",
-    "InstallMethod": "DirectRelease",
     "ConfigSectionName": "M1A2C",
+    "InstallMethod": "DirectRelease",
     "Requirements": [
       "VanillaAssetUtil"
     ]
   },
   {
     "Id": "Leopard2A7V",
-    "Author": "rhino2024",
     "Name": {
       "en-US": "Leopard 2A7V",
       "zh-CN": "豹 2A7V"
     },
+    "Author": "rhino2024",
     "Description": {
       "en-US": "Adds a Leopard 2A7V built on the vanilla LEO2A3: 2A7V hull and turret on the donor's skeleton, the donor's track loops rolling at their measured pitch, the gun renamed Rh-120 L/55 and firing DM53 APFSDS-T (1750 m/s, 800 mm at the muzzle), a -9/+20 gun arc, the roof MG3 turned into a real weapon, the 2A7V daylight reticle that lights up on the game's own illumination key, a 49-zone armour table carrying this vehicle's published protection (about 600/1200 on the glacis, 800/1400 on the turret front) converted to perpendicular thickness, the x-ray crew compartment with its own crew figures, real glass in the commander's sight window, four paint schemes in 2k and 4k, track imprints on the terrain, a sharper gunner thermal, and a 2k/4k texture detail switch. Paint scheme and texture detail are picked from a list, not typed, and an armour multiplier scales every zone if you want it softer or tougher. The vehicle model is retopologised from the Leopard 2A7V in War Thunder and heavily reworked here (decimated, re-UV'd, textures rebuilt for this game's lighting); the original model and textures remain Gaijin Entertainment's. The full art set, 4K maps included, ships with the release.",
       "zh-CN": "以本体 LEO2A3 为供体新增一辆豹 2A7V：2A7V 的车体与炮塔挂到供体骨骼上，供体那套履带按实测节距滚动，主炮换 Rh-120 L/55 配 DM53 APFSDS-T（1750 m/s，炮口 800 mm），行程 -9/+20，车顶 MG3 做成可选可瞄可开的武器，炮手昼间镜换成 2A7V 分划板（按游戏自己的照明键点亮）；49 块装甲区域按这辆车自己的公开数据落表（首上约 600/1200，炮塔正面 800/1400，已按倾角折算成垂直厚度），舱内是带乘员人形的 x-ray 乘员舱，车长镜窗是真玻璃，四套涂装各有 2K 与 4K 两版，车会在草地上压出履带印，另有更清楚的炮手热像和可切的 2k/4k 贴图精度。涂装与贴图精度在管理器里是下拉选择，不用手打；装甲另有系数可整体缩放。模型重拓扑自《战争雷霆》的豹 2A7V 并做了大量优化（减面、UV 重展、贴图与涂装重制），原始模型与贴图版权归 Gaijin Entertainment；素材（含 4K 贴图）随发布包提供。"
@@ -2563,11 +2621,11 @@
   },
   {
     "Id": "XrayInterior",
-    "Author": "rhino2024",
     "Name": {
       "en-US": "Xray Interior",
       "zh-CN": "载具内构透视"
     },
+    "Author": "rhino2024",
     "Description": {
       "en-US": "Press the game's own X-ray key (O by default) and the whole interior of the vehicle you are driving lights up: crew stations, engine, transmission, armour liners and ammo racks, not just the few ammo boxes the vanilla game shows, using the same highlighted look the after-action replay gives them. The mod binds no key of its own: it follows GHPC's X-ray toggle, so remapping X-ray to another key keeps working. Everything is restored when you release the key, switch vehicles, leave the vehicle, enter the replay or disable the mod. It does not move colliders, so hit detection is untouched, and it never touches the turret, fire control or AI. Optionally keeps the interior's own textures instead of the flat replay material. It ships no models or textures: the interior art it lights up is GHPC's own, loaded by the game at runtime, so nothing is redistributed and no retopology was involved. Requires MelonLoader. Tested on 0.1.0-alpha+20261014.",
       "zh-CN": "按住游戏自己的 X 光键（默认 O），你正在驾驶的这辆车的内构整台亮起来：乘员席、发动机、变速箱、装甲衬层、弹架，不再只有原版那几盒弹药——显示效果沿用游戏赛后回放给它们的那套高亮材质。模组不绑自己的键，认的是 GHPC 的 X 光开关，把 X 光改到别的键照样有效。松手、换车、退出载具、进入回放、关掉模组，都会逐项还原。它不搬动碰撞体，命中判定不受影响；炮塔、火控、AI 一律不碰。可选保留内构自带贴图，而不是回放那种单色材质。模组不含模型与贴图：被点亮的内构美术是 GHPC 本体自带的，运行时由游戏加载，因此不分发任何游戏素材，也没有涉及重拓扑处理。需要 MelonLoader。在 0.1.0-alpha+20261014 实测。"

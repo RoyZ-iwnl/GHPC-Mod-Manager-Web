@@ -7654,6 +7654,164 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "DustReducer": {
+      "ModId": "DustReducer",
+      "ConfigLabels": {
+        "DisableImpactSmoke": {
+          "zh-CN": "禁用弹着烟尘",
+          "en-US": "DisableImpactSmoke"
+        },
+        "DisableGunSmoke": {
+          "zh-CN": "禁用炮口烟雾",
+          "en-US": "DisableGunSmoke"
+        }
+      },
+      "ConfigComments": {},
+      "multiplechoice": {},
+      "singlechoice": {}
+    },
+    "T-90M": {
+      "ModId": "T-90M",
+      "ConfigLabels": {
+        "Enabled": {
+          "zh-CN": "启用T-90M单位",
+          "en-US": "Enabled"
+        },
+        "Add to campaign roster": {
+          "zh-CN": "加入战役编制",
+          "en-US": "Add to campaign roster"
+        },
+        "Campaign prevalence": {
+          "zh-CN": "战役出现频率",
+          "en-US": "Campaign prevalence"
+        },
+        "Campaign unlock after missions": {
+          "zh-CN": "战役解锁所需任务数",
+          "en-US": "Campaign unlock after missions"
+        },
+        "APFSDS": {
+          "zh-CN": "尾翼稳定脱壳穿甲弹",
+          "en-US": "APFSDS"
+        },
+        "Weathered paint": {
+          "zh-CN": "风化涂装",
+          "en-US": "Weathered paint"
+        },
+        "Armour preset": {
+          "zh-CN": "装甲预设",
+          "en-US": "Armour preset"
+        },
+        "TShU-1-2M": {
+          "zh-CN": "TShU-1-2M屏蔽系统",
+          "en-US": "TShU-1-2M"
+        },
+        "TShU-1-2M automatic screens": {
+          "zh-CN": "TShU-1-2M自动屏蔽",
+          "en-US": "TShU-1-2M automatic screens"
+        },
+        "TShU-1-2M alarm tone": {
+          "zh-CN": "TShU-1-2M警报音",
+          "en-US": "TShU-1-2M alarm tone"
+        },
+        "TShU-1-2M warning page": {
+          "zh-CN": "TShU-1-2M警报页面",
+          "en-US": "TShU-1-2M warning page"
+        },
+        "TShU-1-2M page always on screen": {
+          "zh-CN": "TShU-1-2M页面常驻显示",
+          "en-US": "TShU-1-2M page always on screen"
+        },
+        "Kord spent cases": {
+          "zh-CN": "科德机枪弹壳",
+          "en-US": "Kord spent cases"
+        },
+        "ERA destruction effects": {
+          "zh-CN": "爆反装甲毁伤效果",
+          "en-US": "ERA destruction effects"
+        },
+        "Check for updates": {
+          "zh-CN": "检查更新",
+          "en-US": "Check for updates"
+        },
+        "ConfigVersion": {
+          "zh-CN": "配置版本（内部）",
+          "en-US": "ConfigVersion"
+        }
+      },
+      "ConfigComments": {
+        "Adds the T-90M as its own unit (Instant Action, campaign roster, ATAC key \"T90M\").": {
+          "zh-CN": "将T-90M作为独立单位加入游戏（即时行动、战役编制，ATAC键为\"T90M\"）。",
+          "en-US": "Adds the T-90M as its own unit (Instant Action, campaign roster, ATAC key \"T90M\")."
+        },
+        "Adds the T-90M to the Soviet campaign roster.": {
+          "zh-CN": "将T-90M加入苏联战役编制。",
+          "en-US": "Adds the T-90M to the Soviet campaign roster."
+        },
+        "How common it is compared to other tanks (1 = as common as a typical tank).": {
+          "zh-CN": "相较于其他坦克的出现频率（1 = 与常见坦克出现频率相同）。",
+          "en-US": "How common it is compared to other tanks (1 = as common as a typical tank)."
+        },
+        "Default APFSDS where the game does not choose one (the mission customizer's ammo dropdown and the campaign's ammo supply override it): 3BM60 Svinets-2 (default; the round the T-90M's autoloader was made for) or 3BM42 Mango.": {
+          "zh-CN": "游戏未指定时的默认尾翼稳定脱壳穿甲弹（任务自定义器的弹药下拉菜单和战役弹药供应会覆盖此设置）：3BM60“铅-2”（默认；T-90M自动装弹机专用弹）或3BM42“芒果”。",
+          "en-US": "Default APFSDS where the game does not choose one (the mission customizer's ammo dropdown and the campaign's ammo supply override it): 3BM60 Svinets-2 (default; the round the T-90M's autoloader was made for) or 3BM42 Mango."
+        },
+        "Dirt, wear and rust on the paint (default); false = clean factory paint. For T-90Ms spawned after the change.": {
+          "zh-CN": "涂装上的污垢、磨损和锈迹（默认）；false = 工厂洁净涂装。适用于更改后生成的T-90M。",
+          "en-US": "Dirt, wear and rust on the paint (default); false = clean factory paint. For T-90Ms spawned after the change."
+        },
+        "game-scale (default: matched to GHPC's other tanks; turret 690/820, glacis 550/750 without ERA) or source-only (open-source figures; turret 575/750, glacis 500/650). For T-90Ms spawned after the change.": {
+          "zh-CN": "game-scale（默认：与GHPC其他坦克数值匹配；无爆反装甲时炮塔690/820、首上装甲550/750），或source-only（公开来源数据；炮塔575/750、首上装甲500/650）。适用于更改后生成的T-90M。",
+          "en-US": "game-scale (default: matched to GHPC's other tanks; turret 690/820, glacis 550/750 without ERA) or source-only (open-source figures; turret 575/750, glacis 500/650). For T-90Ms spawned after the change."
+        },
+        "The TShU-1-2M screen system (default): laser warning heads all round, the warning on the commander's screen with a tone, and automatic 3D17 aerosol screens toward a laser from the front. false = none of it: the smoke launchers fire the game's ordinary smoke salvo. For T-90Ms spawned after the change.": {
+          "zh-CN": "TShU-1-2M系统（默认）：全向激光警告探头，车长屏幕警告并发出声音，前方激光自动释放3D17气溶胶屏蔽。false = 禁用：烟雾发射器发射游戏原版烟雾。适用于更改后生成的T-90M。",
+          "en-US": "The TShU-1-2M screen system (default): laser warning heads all round, the warning on the commander's screen with a tone, and automatic 3D17 aerosol screens toward a laser from the front. false = none of it: the smoke launchers fire the game's ordinary smoke salvo. For T-90Ms spawned after the change."
+        },
+        "true (default): a laser from the front fires an aerosol screen toward it by itself (automatic mode). false = semi-automatic mode: the warning only, the screen is fired by hand (vehicle menu: TShU-1-2M, or the smoke key). For T-90Ms spawned after the change.": {
+          "zh-CN": "true（默认）：前方激光自动触发气溶胶屏蔽（自动模式）。false = 半自动模式：仅警告，屏蔽需手动触发（载具菜单：TShU-1-2M，或烟雾键）。适用于更改后生成的T-90M。",
+          "en-US": "true (default): a laser from the front fires an aerosol screen toward it by itself (automatic mode). false = semi-automatic mode: the warning only, the screen is fired by hand (vehicle menu: TShU-1-2M, or the smoke key). For T-90Ms spawned after the change."
+        },
+        "true (default): the laser warning sounds a tone. false = the screen page only, no sound. For T-90Ms spawned after the change.": {
+          "zh-CN": "true（默认）：激光警告发出声音。false = 仅显示屏幕页面，无声音。适用于更改后生成的T-90M。",
+          "en-US": "true (default): the laser warning sounds a tone. false = the screen page only, no sound. For T-90Ms spawned after the change."
+        },
+        "true (default): the laser warning shows the commander's screen page (the four sensor sectors, the direction, what the system did) at the bottom right. false = no page, the tone only. For T-90Ms spawned after the change.": {
+          "zh-CN": "true（默认）：激光警告在右下角显示车长屏幕页面（四个传感器扇区、方向、系统动作）。false = 无页面，仅声音。适用于更改后生成的T-90M。",
+          "en-US": "true (default): the laser warning shows the commander's screen page (the four sensor sectors, the direction, what the system did) at the bottom right. false = no page, the tone only. For T-90Ms spawned after the change."
+        },
+        "false (default): the screen page comes up on a laser warning and goes away a few seconds after. true = it stays on screen the whole time you're in the T-90M, showing the grenades left and the mode between warnings. Either way, in the thermal sight, the PDT and the panorama it sits larger in the black bar right of the picture (on a widescreen), and in the day sight smaller, under the picture. For T-90Ms spawned after the change.": {
+          "zh-CN": "false（默认）：屏幕页面在激光警告时出现，数秒后消失。true = 在T-90M中全程显示，警告间隙显示剩余烟雾弹和模式。无论哪种情况，在热成像瞄准具、PDT和全景镜中页面较大（宽屏时位于画面右侧黑条），日间瞄准具中较小（位于画面下方）。适用于更改后生成的T-90M。",
+          "en-US": "false (default): the screen page comes up on a laser warning and goes away a few seconds after. true = it stays on screen the whole time you're in the T-90M, showing the grenades left and the mode between warnings. Either way, in the thermal sight, the PDT and the panorama it sits larger in the black bar right of the picture (on a widescreen), and in the day sight smaller, under the picture. For T-90Ms spawned after the change."
+        },
+        "true (default): the station's Kord MT throws its spent cases out of the chute, and they lie on the tank until it tilts or brakes hard. false = no cases (the belt still feeds). For T-90Ms spawned after the change.": {
+          "zh-CN": "true（默认）：站位的Kord MT机枪将弹壳从抛壳口抛出，弹壳留在坦克上直到坦克倾斜或急刹车。false = 无弹壳（弹链仍正常供弹）。适用于更改后生成的T-90M。",
+          "en-US": "true (default): the station's Kord MT throws its spent cases out of the chute, and they lie on the tank until it tilts or brakes hard. false = no cases (the belt still feeds). For T-90Ms spawned after the change."
+        },
+        "true (default): a set-off ERA container is gone with a blast, the plate round it sooted, nets over it cut. false = it looks as before (it still works as armour, once). For T-90Ms spawned after the change.": {
+          "zh-CN": "true（默认）：触发的爆反装甲容器爆炸消失，周围装甲板被烟熏黑，网格被切断。false = 外观保持不变（仍可作为装甲使用一次）。适用于更改后生成的T-90M。",
+          "en-US": "true (default): a set-off ERA container is gone with a blast, the plate round it sooted, nets over it cut. false = it looks as before (it still works as armour, once). For T-90Ms spawned after the change."
+        },
+        "true (default): once per game start, asks GitHub whether a newer T-90M release is out and, if so, says so in the MelonLoader console (nothing is downloaded or installed). false = no check.": {
+          "zh-CN": "true（默认）：每次游戏启动时向GitHub检查是否有新版T-90M发布，若有则在MelonLoader控制台提示（不会下载或安装任何内容）。false = 不检查。",
+          "en-US": "true (default): once per game start, asks GitHub whether a newer T-90M release is out and, if so, says so in the MelonLoader console (nothing is downloaded or installed). false = no check."
+        },
+        "The mod version that last wrote these settings (a newer version uses it to move settings still at an old default to the new one). Leave it as it is.": {
+          "zh-CN": "上次写入这些设置的模组版本（新版本用它将仍使用旧默认值的设置迁移至新值）。保持原样。",
+          "en-US": "The mod version that last wrote these settings (a newer version uses it to move settings still at an old default to the new one). Leave it as it is."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "APFSDS": [
+          "3BM60",
+          "3BM42"
+        ],
+        "Armour preset": [
+          "game-scale",
+          "source-only"
+        ]
+      }
     }
   }
 }
