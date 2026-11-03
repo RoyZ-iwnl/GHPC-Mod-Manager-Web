@@ -715,8 +715,8 @@
     ],
     "ReleaseUrl": "https://api.github.com/repos/aeiou6-db/BVVDT34/releases/latest",
     "TargetFileNameKeyword": ".dll",
-    "MainBinaryFileName": "BVVDT34.dll",
-    "ConfigSectionName": "T34Config",
+    "MainBinaryFileName": "BVVDVehiclePack.dll",
+    "ConfigSectionName": "BVVDConfig",
     "InstallMethod": "DirectRelease"
   },
   {
