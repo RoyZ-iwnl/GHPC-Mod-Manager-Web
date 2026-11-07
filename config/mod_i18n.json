@@ -7820,6 +7820,55 @@
           "source-only"
         ]
       }
+    },
+    "FSR4": {
+      "ModId": "FSR4",
+      "ConfigLabels": {
+        "FpCameraIdle": {
+          "zh-CN": "第一人称相机空闲时停止渲染",
+          "en-US": "FpCameraIdle"
+        },
+        "FpCameraNoShadows": {
+          "zh-CN": "第一人称相机不渲染阴影",
+          "en-US": "FpCameraNoShadows"
+        },
+        "InstancerCameraFilter": {
+          "zh-CN": "实例化器相机过滤",
+          "en-US": "InstancerCameraFilter"
+        },
+        "DistortionCameraForward": {
+          "zh-CN": "畸变相机使用正向渲染",
+          "en-US": "DistortionCameraForward"
+        },
+        "MapCameraIdle": {
+          "zh-CN": "地图相机空闲时停止渲染",
+          "en-US": "MapCameraIdle"
+        }
+      },
+      "ConfigComments": {
+        "The game's first-person camera (binoculars, hands) renders every frame even when it has nothing to draw. Off while the first-person figure is hidden (or its culling mask is empty), back the same frame it shows.": {
+          "zh-CN": "游戏的第一人称相机（望远镜、手部）即使没有可绘制内容也会每帧渲染。第一人称模型隐藏时（或其剔除遮罩为空）停止渲染，显示的同一帧恢复渲染。",
+          "en-US": "The game's first-person camera (binoculars, hands) renders every frame even when it has nothing to draw. Off while the first-person figure is hidden (or its culling mask is empty), back the same frame it shows."
+        },
+        "While the first-person camera renders, the sun's shadow map is not rendered a second time for it.": {
+          "zh-CN": "第一人称相机渲染时，不再为它重复渲染太阳的阴影贴图。",
+          "en-US": "While the first-person camera renders, the sun's shadow map is not rendered a second time for it."
+        },
+        "The game's grass and detail instancer prepares its meshes for every camera, also cameras that cannot show them (the first-person camera, the rain-distortion camera, the track-marks camera, FSR's presenter). Those are skipped.": {
+          "zh-CN": "游戏的草地和细节实例化器会为每个相机准备网格，包括无法显示这些内容的相机（第一人称相机、雨水畸变相机、履带印相机、FSR呈现器）。这些相机会被跳过。",
+          "en-US": "The game's grass and detail instancer prepares its meshes for every camera, also cameras that cannot show them (the first-person camera, the rain-distortion camera, the track-marks camera, FSR's presenter). Those are skipped."
+        },
+        "The game's heat-haze / exhaust-shimmer / rain-distortion camera renders a full-screen deferred pass for objects that are all transparent. Forward rendering gives the same picture without that pass.": {
+          "zh-CN": "游戏的热浪/排气闪烁/雨水畸变相机会为完全透明的物体执行全屏延迟渲染通道。正向渲染无需该通道即可获得相同画面。",
+          "en-US": "The game's heat-haze / exhaust-shimmer / rain-distortion camera renders a full-screen deferred pass for objects that are all transparent. Forward rendering gives the same picture without that pass."
+        },
+        "The game's map camera redraws the map every frame, also while the map screen is closed. Off while the map is not on screen, back the same frame it opens.": {
+          "zh-CN": "游戏的地图相机会每帧重绘地图，即使地图界面处于关闭状态。地图不在屏幕上时停止渲染，打开地图的同一帧恢复渲染。",
+          "en-US": "The game's map camera redraws the map every frame, also while the map screen is closed. Off while the map is not on screen, back the same frame it opens."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }

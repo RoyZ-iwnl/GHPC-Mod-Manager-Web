@@ -2090,6 +2090,32 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "FSR4",
+    "Name": {
+      "en-US": "FSR 4 Upscaling",
+      "zh-CN": "FSR 4上采样"
+    },
+    "Author": "marsattackk",
+    "Description": {
+      "en-US": "AMD FSR 4.1 in GHPC. The game renders at a lower resolution and FSR rebuilds the full picture, so you get more frames and better anti-aliasing than the game's own. Cards without FSR 4 get FSR 3.1.\nThis is a janky mod. GHPC is Direct3D 11 and FSR 4 only runs on Direct3D 12, so the mod runs FSR on a second device next to the game's and passes the frame back and forth every frame. It's a hack and it might give you glitches, crashes or worse performance. I've only tested it on my own PC (RX 9070 XT at 4K). If it doesn't work on yours, delete the DLL and you're back to the normal game.",
+      "zh-CN": "AMD FSR 4.1 技术应用于 GHPC 游戏中。该游戏在较低分辨率下运行，而 FSR 则能够重建完整的画面效果，因此相比游戏本身，使用该显卡可以获得更多的帧数以及更出色的抗锯齿效果。不具备 FSR 4 技术的显卡则只能使用 FSR 3.1 版本。最小化UI是一个轻量级界面优化模组，能隐藏版本号、控件提示和时间缩放显示，并提供默认启用的配置选项，如自定义HUD透明度和按键绑定，方便调整显示偏好。\n 这是一个有问题的模组。GHPC 支持 Direct3D 11，而 FSR 4 则仅能在 Direct3D 12 上运行。因此，这个模组会在游戏的另一个设备上运行 FSR，从而逐帧传递画面。这是一种作弊手段，可能会导致各种问题、崩溃，甚至性能下降。我只在我自己的电脑上测试过这个模组（使用的是 RX 9070 XT 显卡，分辨率 4K）。如果你的电脑无法运行这个模组，请删除，这样就能恢复到正常游戏状态了。"
+    },
+    "Tags": {
+      "utility": {
+        "zh-CN": "实用工具",
+        "en-US": "Utility"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/marsattackk/GHPC-FSR4/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "FSR4.dll",
+    "ConfigSectionName": "FSR4_Performance",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "ATAC",
     "Name": {
       "en-US": "Any Tank Any Campaign",
