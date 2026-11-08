@@ -7869,6 +7869,194 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "T-80UM2": {
+      "ModId": "T-80UM2",
+      "ConfigLabels": {
+        "Enabled": {
+          "zh-CN": "启用T-80UM2单位",
+          "en-US": "Enabled"
+        },
+        "Add to campaign roster": {
+          "zh-CN": "加入战役编制",
+          "en-US": "Add to campaign roster"
+        },
+        "Campaign prevalence": {
+          "zh-CN": "战役出现频率",
+          "en-US": "Campaign prevalence"
+        },
+        "Campaign unlock after missions": {
+          "zh-CN": "战役解锁所需任务数",
+          "en-US": "Campaign unlock after missions"
+        },
+        "Weathered paint": {
+          "zh-CN": "风化涂装",
+          "en-US": "Weathered paint"
+        },
+        "APFSDS": {
+          "zh-CN": "尾翼稳定脱壳穿甲弹",
+          "en-US": "APFSDS"
+        },
+        "Drozd": {
+          "zh-CN": "鹬鸟主动防护系统",
+          "en-US": "Drozd"
+        },
+        "Fire only when the gun is laid": {
+          "zh-CN": "仅在火炮就位时开火",
+          "en-US": "Fire only when the gun is laid"
+        },
+        "ERA destruction effects": {
+          "zh-CN": "爆反装甲毁伤效果",
+          "en-US": "ERA destruction effects"
+        },
+        "NSVT spent cases": {
+          "zh-CN": "NSVT机枪弹壳",
+          "en-US": "NSVT spent cases"
+        },
+        "Night sight": {
+          "zh-CN": "夜间瞄准具",
+          "en-US": "Night sight"
+        },
+        "Armour preset": {
+          "zh-CN": "装甲预设",
+          "en-US": "Armour preset"
+        },
+        "ConfigVersion": {
+          "zh-CN": "配置版本（内部）",
+          "en-US": "ConfigVersion"
+        }
+      },
+      "ConfigComments": {
+        "Adds the T-80UM2 as its own unit (Instant Action, campaign roster, ATAC key \"T80UM2\").": {
+          "zh-CN": "将T-80UM2作为独立单位加入游戏（即时行动、战役编制，ATAC键为\"T80UM2\"）。",
+          "en-US": "Adds the T-80UM2 as its own unit (Instant Action, campaign roster, ATAC key \"T80UM2\")."
+        },
+        "Adds the T-80UM2 to the Soviet campaign roster.": {
+          "zh-CN": "将T-80UM2加入苏联战役编制。",
+          "en-US": "Adds the T-80UM2 to the Soviet campaign roster."
+        },
+        "How common it is compared to other tanks (1 = as common as a typical tank).": {
+          "zh-CN": "相较于其他坦克的出现频率（1 = 与常见坦克出现频率相同）。",
+          "en-US": "How common it is compared to other tanks (1 = as common as a typical tank)."
+        },
+        "Dirt, wear and rust on the paint (default); false = clean factory paint. For T-80UM2s spawned after the change.": {
+          "zh-CN": "涂装上的污垢、磨损和锈迹（默认）；false = 工厂洁净涂装。适用于更改后生成的T-80UM2。",
+          "en-US": "Dirt, wear and rust on the paint (default); false = clean factory paint. For T-80UM2s spawned after the change."
+        },
+        "Default APFSDS where the game does not choose one (the mission customizer's ammo dropdown and the campaign's ammo supply override it): 3BM42 Mango (default; the serial T-80U's round), 3BM59 Svinets-1 or 3BM60 Svinets-2 (long rods: the loading mechanism reworked for them, inferred).": {
+          "zh-CN": "游戏未指定时的默认尾翼稳定脱壳穿甲弹（任务自定义器的弹药下拉菜单和战役弹药供应会覆盖此设置）：3BM42“芒果”（默认；量产型T-80U弹药），3BM59“铅-1”或3BM60“铅-2”（长杆弹：装填机构已为其改造，推测）。",
+          "en-US": "Default APFSDS where the game does not choose one (the mission customizer's ammo dropdown and the campaign's ammo supply override it): 3BM42 Mango (default; the serial T-80U's round), 3BM59 Svinets-1 or 3BM60 Svinets-2 (long rods: the loading mechanism reworked for them, inferred)."
+        },
+        "true (default): the Drozd active protection is fitted (two radar heads, four launcher blocks, 8 rounds; switched on and off in play from the vehicle menu). false = the tank has the blocks but no active protection. For T-80UM2s spawned after the change.": {
+          "zh-CN": "true（默认）：安装鹬鸟主动防护系统（2个雷达头、4个发射器组、8发弹药；游戏中可从载具菜单开关）。false = 坦克装有发射器组但无主动防护功能。适用于更改后生成的T-80UM2。",
+          "en-US": "true (default): the Drozd active protection is fitted (two radar heads, four launcher blocks, 8 rounds; switched on and off in play from the vehicle menu). false = the tank has the blocks but no active protection. For T-80UM2s spawned after the change."
+        },
+        "true (default): after a lase the trigger does nothing until the gun has climbed to the elevation the computer set, as the real firing-permission circuit. false = the gun fires at any time, as the game's own tanks do.": {
+          "zh-CN": "true（默认）：激光测距后，扳机在火炮抬升至计算机设定的仰角前不会触发，模拟真实的射击许可电路。false = 火炮随时可开火，与游戏原有坦克相同。",
+          "en-US": "true (default): after a lase the trigger does nothing until the gun has climbed to the elevation the computer set, as the real firing-permission circuit. false = the gun fires at any time, as the game's own tanks do."
+        },
+        "true (default): a set-off Kontakt-5 container is gone with a blast and the plate round it sooted. false = it looks as before (it still works as armour, spent after one hit).": {
+          "zh-CN": "true（默认）：触发的“接触-5”容器爆炸消失，周围装甲板被烟熏黑。false = 外观保持不变（仍可作为装甲使用，一次命中后失效）。",
+          "en-US": "true (default): a set-off Kontakt-5 container is gone with a blast and the plate round it sooted. false = it looks as before (it still works as armour, spent after one hit)."
+        },
+        "true (default): the commander's NSVT drops its spent cases into the canvas catcher bag beside the gun. false = no cases. For T-80UM2s spawned after the change.": {
+          "zh-CN": "true（默认）：车长的NSVT机枪将弹壳抛入炮旁的帆布收集袋。false = 无弹壳。适用于更改后生成的T-80UM2。",
+          "en-US": "true (default): the commander's NSVT drops its spent cases into the canvas catcher bag beside the gun. false = no cases. For T-80UM2s spawned after the change."
+        },
+        "Agava-2 (default) = the gunner's thermal sight of the T-80UM (a guess for the T-80UM2: its photos show the older image intensifier); Buran-PA = that image intensifier, as the photos show. Can be changed in play.": {
+          "zh-CN": "Agava-2（默认）= T-80UM的炮手热成像瞄准具（对T-80UM2的推测：其照片显示使用较旧的微光增强瞄准具）；Buran-PA = 照片所示的微光增强瞄准具。可在游戏中更改。",
+          "en-US": "Agava-2 (default) = the gunner's thermal sight of the T-80UM (a guess for the T-80UM2: its photos show the older image intensifier); Buran-PA = that image intensifier, as the photos show. Can be changed in play."
+        },
+        "game-scale (default: matched to GHPC's other tanks; turret 744/984, glacis 473/653 without ERA) or source-only (open-source figures; turret 620/900, glacis 430/566). For T-80UM2s spawned after the change.": {
+          "zh-CN": "game-scale（默认：与GHPC其他坦克数值匹配；无爆反装甲时炮塔744/984、首上装甲473/653），或source-only（公开来源数据；炮塔620/900、首上装甲430/566）。适用于更改后生成的T-80UM2。",
+          "en-US": "game-scale (default: matched to GHPC's other tanks; turret 744/984, glacis 473/653 without ERA) or source-only (open-source figures; turret 620/900, glacis 430/566). For T-80UM2s spawned after the change."
+        },
+        "The mod version that last wrote these settings (a newer version uses it to move settings still at an old default to the new one). Leave it as it is.": {
+          "zh-CN": "上次写入这些设置的模组版本（新版本用它将仍使用旧默认值的设置迁移至新值）。保持原样。",
+          "en-US": "The mod version that last wrote these settings (a newer version uses it to move settings still at an old default to the new one). Leave it as it is."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "APFSDS": [
+          "3BM42",
+          "3BM59",
+          "3BM60"
+        ],
+        "Night sight": [
+          "Agava-2",
+          "Buran-PA"
+        ],
+        "Armour preset": [
+          "game-scale",
+          "source-only"
+        ]
+      }
+    },
+    "L2A4M": {
+      "ModId": "L2A4M",
+      "ConfigLabels": {
+        "CITV (Leo2A4M)": {
+          "zh-CN": "车长独立热像仪（Leo2A4M）",
+          "en-US": "CITV (Leo2A4M)"
+        },
+        "Paint Scheme (Leo2A4M)": {
+          "zh-CN": "涂装方案（Leo2A4M）",
+          "en-US": "Paint Scheme (Leo2A4M)"
+        },
+        "Hull Armour Level (Leo2A4M)": {
+          "zh-CN": "车体装甲等级（Leo2A4M）",
+          "en-US": "Hull Armour Level (Leo2A4M)"
+        },
+        "Turret Add-on Armour (Leo2A4M)": {
+          "zh-CN": "炮塔附加装甲（Leo2A4M）",
+          "en-US": "Turret Add-on Armour (Leo2A4M)"
+        },
+        "AP Ammo (Leo2A4M)": {
+          "zh-CN": "穿甲弹（Leo2A4M）",
+          "en-US": "AP Ammo (Leo2A4M)"
+        }
+      },
+      "ConfigComments": {
+        "Commander's independent thermal viewer (gen-1 imager)": {
+          "zh-CN": "车长独立热像仪（第一代成像仪）",
+          "en-US": "Commander's independent thermal viewer (gen-1 imager)"
+        },
+        "Bronzegrun (default), Sand, or Tricolor": {
+          "zh-CN": "青铜绿（默认）、沙色或三色迷彩",
+          "en-US": "Bronzegrun (default), Sand, or Tricolor"
+        },
+        "Choose the hull armour package: b / c / d. d is the strongest, b is the stock Leo 2A3 armour. Default: b": {
+          "zh-CN": "选择车体装甲套件：b / c / d。d最强，b为原版Leo 2A3装甲。默认：b",
+          "en-US": "Choose the hull armour package: b / c / d. d is the strongest, b is the stock Leo 2A3 armour. Default: b"
+        },
+        "Adds extra protection to the turret front add-on armour. Default: false": {
+          "zh-CN": "为炮塔正面附加装甲增加额外防护。默认：false",
+          "en-US": "Adds extra protection to the turret front add-on armour. Default: false"
+        },
+        "kewa1 (608 mm), dm43 (562 mm), dm53 (668 mm, ignores 30% of ERA)": {
+          "zh-CN": "kewa1（608毫米）、dm43（562毫米）、dm53（668毫米，忽略30%爆反装甲）",
+          "en-US": "kewa1 (608 mm), dm43 (562 mm), dm53 (668 mm, ignores 30% of ERA)"
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "Paint Scheme (Leo2A4M)": [
+          "Bronzegrun",
+          "Sand",
+          "Tricolor"
+        ],
+        "Hull Armour Level (Leo2A4M)": [
+          "b",
+          "c",
+          "d"
+        ],
+        "AP Ammo (Leo2A4M)": [
+          "kewa1",
+          "dm43",
+          "dm53"
+        ]
+      }
     }
   }
 }

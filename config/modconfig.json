@@ -231,9 +231,9 @@
       "zh-CN": "将基础豹 2 替换为挑战者 2，0.4.43 完整包。测试版，部分关卡加载兼容问题仍待排查。"
     },
     "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
       }
     },
     "ReleaseUrl": "https://api.github.com/repos/AIM928/Challenger2/releases/latest",
@@ -557,6 +557,10 @@
       "modify": {
         "zh-CN": "载具改装",
         "en-US": "Vehicle Modify"
+      },
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
       }
     },
     "SupportedGameVersions": [
@@ -586,9 +590,9 @@
       "zh-CN": "将可操作的美国 M113 车辆替换为 M163 PIVADS 自行式防空车。\n\n\n完整的 M163 车辆模型，采用橄榄绿调色的优质材料制作而成。\n\nM168 20 毫米六管火炮\n\n独立的炮塔旋转功能、炮管升降以及炮管旋转功能\n\n这些替换车轮将被安装在原 M113 车辆的悬挂系统上。\n\n原有的动画音轨、车辆物理效果以及碰撞机制都得到了保留。\n\n具有实时距离显示功能的固定尺寸日视和热成像瞄准镜\n\n自定义武器音效和弹药配置"
     },
     "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
+      "ReplaceVehicle": {
+        "zh-CN": "载具替换",
+        "en-US": "Replace Vehicle"
       }
     },
     "SupportedGameVersions": [
@@ -615,9 +619,9 @@
       "zh-CN": "替换M151M232 / TOW至HMMWV LOSAT"
     },
     "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
+      "ReplaceVehicle": {
+        "zh-CN": "载具替换",
+        "en-US": "Replace Vehicle"
       }
     },
     "SupportedGameVersions": [
@@ -672,9 +676,9 @@
       "zh-CN": "将M2布雷德利替换为M8 LOSAT\nE：自动锁定目标  \nBackspace：清除所有锁定状态  \n鼠标中键：锁定单个目标  \n状态：R表示已准备就绪，E表示为空，X表示已损坏；F表示视线受阻。"
     },
     "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
+      "ReplaceVehicle": {
+        "zh-CN": "载具替换",
+        "en-US": "Replace Vehicle"
       }
     },
     "SupportedGameVersions": [
@@ -746,6 +750,37 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "T-80UM2",
+    "Name": {
+      "en-US": "T-80UM2",
+      "zh-CN": "T-80UM2"
+    },
+    "Author": "marsattackk",
+    "Description": {
+      "en-US": "A Russian T-80UM2 you can drive and fight in GHPC, as its own unit. A T-80U with the Drozd active protection system on the turret front, Kontakt-5, the 1G46 sight, the TKN-4S with Dubl for the commander, the NSVT on its pedestal, 3BM42 / 3BM59 / 3BM60 and the Invar missile, and the GTD-1250 gas turbine.",
+      "zh-CN": "你可以驾驶并作为自己的单位来操控俄罗斯制造的 T-80UM2 坦克。这辆坦克配备了 Drozd 主动防护系统，炮塔前端装有 Kontakt-5 火炮，配备 1G46 瞄准镜，指挥官端装备了 TKN-4S 装置，带有 Dubl 的 NSVT 导弹，以及 3BM42/3BM59/3BM60 导弹和 Invar 导弹。此外，它还配备了 GTD-1250 燃气轮机。"
+    },
+    "Tags": {
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/marsattackk/GHPC-T80UM2/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "T80UM2.dll",
+    "ConfigSectionName": "T-80UM2",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "Ammouppack",
+      "BVVDT34"
+    ],
+    "RequiredManagerVersion": "1.3.11"
+  },
+  {
     "Id": "T90A",
     "Name": {
       "en-US": "T-90A",
@@ -757,9 +792,9 @@
       "zh-CN": "俄罗斯T-90A主战坦克作为GHPC游戏中的独立单位出现。这款坦克的设计目标是尽可能贴近真实坦克的外观和性能。"
     },
     "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
       }
     },
     "SupportedGameVersions": [
@@ -788,9 +823,9 @@
       "zh-CN": "你可以驾驶并作为自己的单位来操作俄罗斯的 T-90M“Proryv”坦克。该坦克配备了 ERA 系统的遗物设备、Sosna-U 炮手瞄准镜、指挥官用的 PK PAN 全景显示器，还配备了远程 Kord 武器系统、TShU-1-2M 屏幕系统、3BM60 导弹以及 Invar-M。"
     },
     "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
       }
     },
     "SupportedGameVersions": [
@@ -819,9 +854,9 @@
       "zh-CN": "将 T-90M 添加到 GHPC 中，配备有昼夜和热成像瞄准装置、指挥官全景瞄准镜、Kord 远程武器站，以及定制化的装甲和内部组件。你可以在指挥官控制台中瞄准目标，将其传递给炮手，或者自行控制主炮。击中目标和受损组件会在 GHPC 的后行动态评估中显示出来。你可以驾驶并作为自己的单位来操作俄罗斯的 T-90M“Proryv”坦克。该坦克配备了 ERA 系统的遗物设备、Sosna-U 炮手瞄准镜、指挥官用的 PK PAN 全景显示器，还配备了远程 Kord 武器系统、TShU-1-2M 屏幕系统、3BM60 导弹以及 Invar-M。"
     },
     "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
       }
     },
     "SupportedGameVersions": [
@@ -2578,9 +2613,9 @@
       "zh-CN": "M1 战利品载具改装，包含主动防御、M829A4、车长热像及遥控武器站。完整包包含一个整合 DLL、4K 北约三色和绿色涂装和所需资源。采用经过重拓扑（Retopo）处理的战争雷霆模型；原始素材归 Gaijin Entertainment 所有；武器站：我怕肾虚及上游 CROWS 贡献者。开火与视角效果仍待游戏内复测。"
     },
     "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
+      "ReplaceVehicle": {
+        "zh-CN": "载具替换",
+        "en-US": "Replace Vehicle"
       }
     },
     "ReleaseUrl": "https://api.github.com/repos/AIM928/M1-Trophy/releases/latest",
@@ -2635,15 +2670,41 @@
       "zh-CN": "一个M1A2C模组，带你进入富尔达2026，用m829e4把敌人狠狠上市吧！"
     },
     "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
       }
     },
     "ReleaseUrl": "https://api.github.com/repos/DDDDWWWWDZW/M1A2C-mod-of-GHPC-/releases/latest",
     "TargetFileNameKeyword": ".zip",
     "MainBinaryFileName": "M1A2C.dll",
     "ConfigSectionName": "M1A2C",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "VanillaAssetUtil"
+    ]
+  },
+  {
+    "Id": "L2A4M",
+    "Name": {
+      "en-US": "Leopard 2A4M",
+      "zh-CN": "Leopard 2A4M"
+    },
+    "Author": "芝士大嘴蛙",
+    "Description": {
+      "en-US": "Adds a new L2A4M to the game,built on the vanill aLEO2A3 donor: add-on armour, hull armour packages, selectable 120 mm rounds and a commander's independent thermal viewer. — you can take it for a test drive at the range or use it in missions. Please note! This version is still a work in progress (WIP): details are not yet polished, and there may be some minor bugs, but the overall gameplay is fully functional.",
+      "zh-CN": "为游戏新增一个l2a4m，你可以在靶场试驾或者在关卡中使用l2a4m。注意！该版本还处于开发中状态（wip），细节没有完善，也可能存在一些小bug，不过整体的游玩功能都是正常的。"
+    },
+    "Tags": {
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
+      }
+    },
+    "ReleaseUrl": "https://api.github.com/repos/DDDDWWWWDZW/L2A4M_mod_of_GHPC/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "Leo2A4M.dll",
+    "ConfigSectionName": "Leo2A4M",
     "InstallMethod": "DirectRelease",
     "Requirements": [
       "VanillaAssetUtil"
@@ -2661,9 +2722,9 @@
       "zh-CN": "以本体 LEO2A3 为供体新增一辆豹 2A7V：2A7V 的车体与炮塔挂到供体骨骼上，供体那套履带按实测节距滚动，主炮换 Rh-120 L/55 配 DM53 APFSDS-T（1750 m/s，炮口 800 mm），行程 -9/+20，车顶 MG3 做成可选可瞄可开的武器，炮手昼间镜换成 2A7V 分划板（按游戏自己的照明键点亮）；49 块装甲区域按这辆车自己的公开数据落表（首上约 600/1200，炮塔正面 800/1400，已按倾角折算成垂直厚度），舱内是带乘员人形的 x-ray 乘员舱，车长镜窗是真玻璃，四套涂装各有 2K 与 4K 两版，车会在草地上压出履带印，另有更清楚的炮手热像和可切的 2k/4k 贴图精度。涂装与贴图精度在管理器里是下拉选择，不用手打；装甲另有系数可整体缩放。模型重拓扑自《战争雷霆》的豹 2A7V 并做了大量优化（减面、UV 重展、贴图与涂装重制），原始模型与贴图版权归 Gaijin Entertainment；素材（含 4K 贴图）随发布包提供。"
     },
     "Tags": {
-      "modify": {
-        "zh-CN": "载具改装",
-        "en-US": "Vehicle Modify"
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
       }
     },
     "SupportedGameVersions": [
