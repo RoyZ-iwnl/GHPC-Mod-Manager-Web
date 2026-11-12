@@ -8057,6 +8057,23 @@
           "dm53"
         ]
       }
+    },
+    "Puma": {
+      "ModId": "Puma",
+      "ConfigLabels": {
+        "MissileBlacklist": {
+          "zh-CN": "红外干扰导弹黑名单",
+          "en-US": "IR missile blacklist"
+        }
+      },
+      "ConfigComments": {
+        "Comma-separated missile name prefixes excluded from IR interference; empty allows all incoming guided missiles.": {
+          "zh-CN": "以逗号分隔不参与红外干扰的导弹名称前缀；留空表示允许干扰所有来袭制导导弹。",
+          "en-US": "Comma-separated missile name prefixes excluded from IR interference; empty allows all incoming guided missiles."
+        }
+      },
+      "singlechoice": {},
+      "multiplechoice": {}
     }
   }
 }

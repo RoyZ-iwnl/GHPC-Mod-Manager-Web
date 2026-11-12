@@ -2761,5 +2761,34 @@
     "MainBinaryFileName": "XrayInterior.dll",
     "ConfigSectionName": "XrayInterior",
     "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "Puma",
+    "Name": {
+      "en-US": "Puma",
+      "zh-CN": "美洲狮"
+    },
+    "Author": "AIM",
+    "Description": {
+      "en-US": "Independent Puma IFV with a 30 mm autocannon, Spike missiles and TV mode, rotating infrared countermeasures, laser warning and ERA spent-module visuals. Includes required assets and a Chinese-left/English-right first-run guide. Retopologized War Thunder vehicle model and original textures: Gaijin Entertainment. GHPC integration and tuning: AIM.",
+      "zh-CN": "独立美洲狮步兵战车，含30毫米机炮、Spike导弹及TV模式、可旋转红外对抗、激光告警和ERA消耗外观。完整包附带所需资源与左中文、右英文的首次操作介绍。采用经过重拓扑（Retopo）处理的战争雷霆模型；原始模型与贴图归Gaijin Entertainment所有；GHPC整合及调校：AIM。"
+    },
+    "Tags": {
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014",
+      "20261014.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/AIM928/Puma/releases/latest",
+    "TargetFileNameKeyword": "Full.zip",
+    "MainBinaryFileName": "PumaVJTF.dll",
+    "ConfigSectionName": "PumaCountermeasures",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [],
+    "Conflicts": []
   }
 ]
