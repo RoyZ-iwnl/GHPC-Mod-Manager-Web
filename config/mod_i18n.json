@@ -8068,7 +8068,7 @@
       },
       "ConfigComments": {
         "Comma-separated missile name prefixes excluded from IR interference; empty allows all incoming guided missiles.": {
-          "zh-CN": "以逗号分隔不参与红外干扰的导弹名称前缀；留空表示允许干扰所有来袭制导导弹。",
+          "zh-CN": "以英文逗号分隔不参与红外干扰的导弹名称前缀；留空表示允许干扰所有来袭制导导弹。",
           "en-US": "Comma-separated missile name prefixes excluded from IR interference; empty allows all incoming guided missiles."
         }
       },
