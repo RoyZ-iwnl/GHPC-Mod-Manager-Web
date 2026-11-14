@@ -7898,7 +7898,7 @@
           "en-US": "APFSDS"
         },
         "Drozd": {
-          "zh-CN": "鹬鸟主动防护系统",
+          "zh-CN": "鸫主动防护系统",
           "en-US": "Drozd"
         },
         "Fire only when the gun is laid": {
@@ -7948,7 +7948,7 @@
           "en-US": "Default APFSDS where the game does not choose one (the mission customizer's ammo dropdown and the campaign's ammo supply override it): 3BM42 Mango (default; the serial T-80U's round), 3BM59 Svinets-1 or 3BM60 Svinets-2 (long rods: the loading mechanism reworked for them, inferred)."
         },
         "true (default): the Drozd active protection is fitted (two radar heads, four launcher blocks, 8 rounds; switched on and off in play from the vehicle menu). false = the tank has the blocks but no active protection. For T-80UM2s spawned after the change.": {
-          "zh-CN": "true（默认）：安装鹬鸟主动防护系统（2个雷达头、4个发射器组、8发弹药；游戏中可从载具菜单开关）。false = 坦克装有发射器组但无主动防护功能。适用于更改后生成的T-80UM2。",
+          "zh-CN": "true（默认）：安装鸫主动防护系统（2个雷达头、4个发射器组、8发弹药；游戏中可从载具菜单开关）。false = 坦克装有发射器组但无主动防护功能。适用于更改后生成的T-80UM2。",
           "en-US": "true (default): the Drozd active protection is fitted (two radar heads, four launcher blocks, 8 rounds; switched on and off in play from the vehicle menu). false = the tank has the blocks but no active protection. For T-80UM2s spawned after the change."
         },
         "true (default): after a lase the trigger does nothing until the gun has climbed to the elevation the computer set, as the real firing-permission circuit. false = the gun fires at any time, as the game's own tanks do.": {
