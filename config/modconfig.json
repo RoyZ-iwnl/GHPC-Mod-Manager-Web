@@ -2475,7 +2475,7 @@
       "M1A1",
       "M1A1CROWFIX"
     ],
-    "Delisted":true
+    "Delisted": true
   },
   {
     "Id": "CoaxFire",
@@ -2820,6 +2820,37 @@
     "ConfigSectionName": "PumaCountermeasures",
     "InstallMethod": "DirectRelease",
     "Requirements": [],
+    "Conflicts": []
+  },
+  {
+    "Id": "Leopard2A7HU",
+    "Name": {
+      "en-US": "Leopard 2A7HU",
+      "zh-CN": "豹 2A7HU"
+    },
+    "Author": "AIM",
+    "Description": {
+      "en-US": "Leopard 2A7HU full package with DM73, modern optics, CITV and armor changes. Requires M1 Trophy, installed separately. Retopologized War Thunder model and original textures: Gaijin Entertainment; GHPC integration: AIM.",
+      "zh-CN": "豹2A7HU完整包，含DM73、现代化观瞄、CITV和装甲调整。需要另行安装M1 Trophy。采用重拓扑处理的战争雷霆模型；原始模型与贴图归Gaijin Entertainment所有，GHPC整合：AIM。"
+    },
+    "Tags": {
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014",
+      "20261014.1"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/AIM928/Leopard2A7HU/releases/latest",
+    "TargetFileNameKeyword": "Full.zip",
+    "MainBinaryFileName": "Leopard2A7HU.dll",
+    "ConfigSectionName": "Leopard2A7HU",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [
+      "M1Trophy"
+    ],
     "Conflicts": []
   }
 ]
