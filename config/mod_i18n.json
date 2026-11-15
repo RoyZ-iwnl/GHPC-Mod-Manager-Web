@@ -8074,6 +8074,31 @@
       },
       "singlechoice": {},
       "multiplechoice": {}
+    },
+    "LeclercSXXI": {
+      "ModId": "LeclercSXXI",
+      "ConfigLabels": {
+        "Enabled": {
+          "zh-CN": "启用勒克莱尔SXXI单位",
+          "en-US": "Enabled"
+        },
+        "Weathered paint": {
+          "zh-CN": "风化涂装",
+          "en-US": "Weathered paint"
+        }
+      },
+      "ConfigComments": {
+        "Adds the Leclerc SXXI as its own unit (Instant Action / mission editor, ATAC key \"LeclercSXXI\").": {
+          "zh-CN": "将勒克莱尔SXXI作为独立单位加入游戏（即时行动/任务编辑器，ATAC键为\"LeclercSXXI\"）。",
+          "en-US": "Adds the Leclerc SXXI as its own unit (Instant Action / mission editor, ATAC key \"LeclercSXXI\")."
+        },
+        "Dirt, wear and rust on the paint (default); false = clean factory paint. For Leclerc SXXIs spawned after the change.": {
+          "zh-CN": "涂装上的污垢、磨损和锈迹（默认）；false = 工厂洁净涂装。适用于更改后生成的勒克莱尔SXXI。",
+          "en-US": "Dirt, wear and rust on the paint (default); false = clean factory paint. For Leclerc SXXIs spawned after the change."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
     }
   }
 }

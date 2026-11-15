@@ -781,6 +781,37 @@
     "RequiredManagerVersion": "1.3.11"
   },
   {
+    "Id": "LeclercSXXI",
+    "Name": {
+      "en-US": "Leclerc SXXI",
+      "zh-CN": "勒克莱尔 SXXI"
+    },
+    "Author": "marsattackk",
+    "Description": {
+      "en-US": "A French Leclerc SXXI you can drive and fight in GHPC, as its own unit on the NATO side. The bustle autoloader with its conveyor, the HL 130 gunner's sight with its Iris thermal, the HL 120 secours emergency view, OFL 120 F2 darts, the 12.7 mm coax, GALIX smoke and the V8X diesel.",
+      "zh-CN": "你可以在 GHPC 中驾驶并作为法国 Leclerc SXXI的一员进行战斗。该部队属于北约阵营。拥有自动装弹装置与传送系统；配备 HL 130 炮手瞄准镜及 Iris 热成像系统；拥有 HL 120、OFL 120F2、12.7 毫米同轴、GALIX 烟雾弹，以及 V8X 柴油引擎。"
+    },
+    "Tags": {
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/marsattackk/GHPC-LeclercSXXI/releases/latest",
+    "TargetFileNameKeyword": ".zip",
+    "MainBinaryFileName": "LeclercSXXI.dll",
+    "ConfigSectionName": "\"Leclerc SXXI\"",
+    "InstallMethod": "DirectRelease",
+    "Conflicts": [
+      "Ammouppack",
+      "BVVDT34"
+    ],
+    "RequiredManagerVersion": "1.3.12-beta.2"
+  },
+  {
     "Id": "T90A",
     "Name": {
       "en-US": "T-90A",
