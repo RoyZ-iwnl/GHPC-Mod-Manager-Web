@@ -37,9 +37,9 @@
       "zh-CN": "一起玩游戏本身的任务和编辑器任务。多乘坦克，或者PVP战斗中作战——任你选择！需要Steam连接。"
     },
     "Tags": {
-      "enhancement": {
-        "zh-CN": "游戏增强",
-        "en-US": "Game Enhancement"
+      "Multiplayer": {
+        "zh-CN": "多人游戏",
+        "en-US": "Multiplayer"
       }
     },
     "SupportedGameVersions": [
@@ -63,9 +63,9 @@
       "zh-CN": "这是一款游戏中的任务编辑器。选择游戏中的一张地图，部署单位，规划它们的行进路线，描述会发生什么以及时间如何，然后按 F5 播放该地图的情境。"
     },
     "Tags": {
-      "enhancement": {
-        "zh-CN": "游戏增强",
-        "en-US": "Game Enhancement"
+      "CustomTasks": {
+        "zh-CN": "自定义任务",
+        "en-US": "Custom Tasks"
       }
     },
     "SupportedGameVersions": [

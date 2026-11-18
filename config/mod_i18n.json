@@ -8099,6 +8099,311 @@
       },
       "multiplechoice": {},
       "singlechoice": {}
+    },
+    "GHPCPL": {
+      "ModId": "GHPCPL",
+      "ConfigLabels": {
+        "Language": {"zh-CN": "语言", "en-US": "Language"},
+        "UiScale": {"zh-CN": "界面缩放", "en-US": "UiScale"},
+        "Favourites": {"zh-CN": "收藏单位", "en-US": "Favourites"},
+        "Recent": {"zh-CN": "最近使用", "en-US": "Recent"},
+        "SandTableView": {"zh-CN": "沙盘视图", "en-US": "SandTableView"},
+        "WinterDetail": {"zh-CN": "冬季细节等级", "en-US": "WinterDetail"},
+        "FogGlow": {"zh-CN": "灯光在雾中发光", "en-US": "FogGlow"},
+        "BetterWater": {"zh-CN": "增强水效果", "en-US": "BetterWater"},
+        "VolumetricFog": {"zh-CN": "体积雾", "en-US": "VolumetricFog"},
+        "FogLights": {"zh-CN": "雾中灯光模式", "en-US": "FogLights"},
+        "SnowMotionBlur": {"zh-CN": "雪花动态模糊", "en-US": "SnowMotionBlur"},
+        "CinematicFx": {"zh-CN": "电影特效", "en-US": "CinematicFx"},
+        "ColourGrading": {"zh-CN": "色彩分级", "en-US": "ColourGrading"},
+        "WeatherHaze": {"zh-CN": "天气雾霾", "en-US": "WeatherHaze"},
+        "HazeHintSeen": {"zh-CN": "雾霾提示已读", "en-US": "HazeHintSeen"},
+        "Atmosphere": {"zh-CN": "大气效果", "en-US": "Atmosphere"},
+        "AmbientOcclusion": {"zh-CN": "环境遮蔽", "en-US": "AmbientOcclusion"},
+        "DepthOfField": {"zh-CN": "景深", "en-US": "DepthOfField"},
+        "LensSnow": {"zh-CN": "镜头雪花/雨滴", "en-US": "LensSnow"},
+        "ColourGradingLook": {"zh-CN": "色彩分级风格", "en-US": "ColourGradingLook"},
+        "ColourGradingStrength": {"zh-CN": "色彩分级强度", "en-US": "ColourGradingStrength"},
+        "AmbientOcclusionStrength": {"zh-CN": "环境遮蔽强度", "en-US": "AmbientOcclusionStrength"},
+        "AtmosphereStrength": {"zh-CN": "大气效果强度", "en-US": "AtmosphereStrength"},
+        "VolumetricFogStrength": {"zh-CN": "体积雾强度", "en-US": "VolumetricFogStrength"},
+        "FogGlowStrength": {"zh-CN": "雾中发光强度", "en-US": "FogGlowStrength"},
+        "CinematicFxStrength": {"zh-CN": "电影特效强度", "en-US": "CinematicFxStrength"},
+        "DepthOfFieldStrength": {"zh-CN": "景深强度", "en-US": "DepthOfFieldStrength"},
+        "FrostedPanels": {"zh-CN": "磨砂面板", "en-US": "FrostedPanels"},
+        "GroupNames": {"zh-CN": "新建编队命名方式", "en-US": "GroupNames"},
+        "TutorialSeen": {"zh-CN": "教程已读", "en-US": "TutorialSeen"},
+        "TourSeen": {"zh-CN": "导览已读", "en-US": "TourSeen"},
+        "StagesDone": {"zh-CN": "已完成阶段", "en-US": "StagesDone"},
+        "GuideResume": {"zh-CN": "引导续点", "en-US": "GuideResume"},
+        "StageAsked": {"zh-CN": "已询问阶段", "en-US": "StageAsked"},
+        "InspFolds": {"zh-CN": "检视折叠状态", "en-US": "InspFolds"},
+        "CameraSpeed": {"zh-CN": "编辑器镜头速度", "en-US": "CameraSpeed"},
+        "MenuRow": {"zh-CN": "主菜单显示Phase Line入口", "en-US": "MenuRow"},
+        "MouseLook": {"zh-CN": "编辑器鼠标速度", "en-US": "MouseLook"},
+        "InvertY": {"zh-CN": "反转编辑器鼠标Y轴", "en-US": "InvertY"},
+        "ElevenLabsKey": {"zh-CN": "ElevenLabs API密钥", "en-US": "ElevenLabsKey"},
+        "ElevenLabsVoice": {"zh-CN": "ElevenLabs语音ID", "en-US": "ElevenLabsVoice"},
+        "ElevenLabsModel": {"zh-CN": "ElevenLabs模型", "en-US": "ElevenLabsModel"},
+        "Labels": {"zh-CN": "显示单位和区域名称", "en-US": "Labels"},
+        "Autosave": {"zh-CN": "自动保存", "en-US": "Autosave"},
+        "AllRoutes": {"zh-CN": "显示所有路线", "en-US": "AllRoutes"},
+        "Minimap": {"zh-CN": "编辑器小地图", "en-US": "Minimap"},
+        "EditorNightLight": {"zh-CN": "编辑器夜间补光", "en-US": "EditorNightLight"},
+        "Keys": {"zh-CN": "编辑器按键绑定", "en-US": "Keys"},
+        "StockSeason": {"zh-CN": "原版任务季节", "en-US": "StockSeason"},
+        "StockSeasonWinter": {"zh-CN": "冬季类型", "en-US": "StockSeasonWinter"},
+        "StockSeasonSnowCover": {"zh-CN": "积雪覆盖", "en-US": "StockSeasonSnowCover"},
+        "StockSeasonSnowDepth": {"zh-CN": "积雪深度（cm）", "en-US": "StockSeasonSnowDepth"},
+        "StockSeasonRoads": {"zh-CN": "道路积雪状态", "en-US": "StockSeasonRoads"},
+        "StockSeasonWeather": {"zh-CN": "冬季天气", "en-US": "StockSeasonWeather"},
+        "StockSeasonVisibility": {"zh-CN": "能见度（米）", "en-US": "StockSeasonVisibility"},
+        "StockSeasonAutumnWeather": {"zh-CN": "秋季天气", "en-US": "StockSeasonAutumnWeather"},
+        "StockSeasonLater": {"zh-CN": "后续天气变化", "en-US": "StockSeasonLater"},
+        "StockSeasonLaterAfter": {"zh-CN": "天气变化延迟（分钟）", "en-US": "StockSeasonLaterAfter"},
+        "StockSeasonLaterOver": {"zh-CN": "天气过渡时长（分钟）", "en-US": "StockSeasonLaterOver"}
+      },
+      "ConfigComments": {
+        "auto, en, pl, de, ru or zh": {
+          "zh-CN": "auto、en、pl、de、ru或zh，填入zh即为中文",
+          "en-US": "auto, en, pl, de, ru or zh"
+        },
+        "Editor UI scale.": {
+          "zh-CN": "编辑器界面缩放比例。",
+          "en-US": "Editor UI scale."
+        },
+        "Starred units.": {
+          "zh-CN": "收藏的单位。",
+          "en-US": "Starred units."
+        },
+        "Editor view: sand table or vanilla.": {
+          "zh-CN": "编辑器视图：沙盘模式或原版模式。",
+          "en-US": "Editor view: sand table or vanilla."
+        },
+        "Winter detail: 0 low, 1 medium, 2 high.": {
+          "zh-CN": "冬季细节：0低，1中，2高。",
+          "en-US": "Winter detail: 0 low, 1 medium, 2 high."
+        },
+        "Lights and fires glow in fog.": {
+          "zh-CN": "灯光和火焰在雾中发光。",
+          "en-US": "Lights and fires glow in fog."
+        },
+        "Waves, clear shallows, shore foam, hit ripples. Off = vanilla water.": {
+          "zh-CN": "水波、清澈浅水、岸边泡沫、命中涟漪。关闭 = 原版水效果。",
+          "en-US": "Waves, clear shallows, shore foam, hit ripples. Off = vanilla water."
+        },
+        "Volumetric fog lit by lights and fires. Off = light fog.": {
+          "zh-CN": "受灯光和火焰照亮的体积雾。关闭 = 轻度雾效。",
+          "en-US": "Volumetric fog lit by lights and fires. Off = light fog."
+        },
+        "Flash light in fog: realistic or cinematic.": {
+          "zh-CN": "雾中灯光效果：realistic（写实）或cinematic（电影）。",
+          "en-US": "Flash light in fog: realistic or cinematic."
+        },
+        "Motion blur on snowflakes.": {
+          "zh-CN": "雪花的动态模糊效果。",
+          "en-US": "Motion blur on snowflakes."
+        },
+        "Shock waves, heat haze, exhaust steam, ice glitter.": {
+          "zh-CN": "冲击波、热浪、排气蒸汽、冰晶闪烁。",
+          "en-US": "Shock waves, heat haze, exhaust steam, ice glitter."
+        },
+        "Colour grading by time of day and weather.": {
+          "zh-CN": "根据时间和天气进行色彩分级。",
+          "en-US": "Colour grading by time of day and weather."
+        },
+        "Rain haze and valley fog the weather brings. Off = only the fog a mission sets.": {
+          "zh-CN": "天气带来的雨雾和山谷雾。关闭 = 仅显示任务设定的雾效。",
+          "en-US": "Rain haze and valley fog the weather brings. Off = only the fog a mission sets."
+        },
+        "Distance haze, sun rays, heat shimmer.": {
+          "zh-CN": "远景雾霭、阳光光线、热浪扭曲。",
+          "en-US": "Distance haze, sun rays, heat shimmer."
+        },
+        "Ambient occlusion in the normal view.": {
+          "zh-CN": "普通视图中的环境遮蔽。",
+          "en-US": "Ambient occlusion in the normal view."
+        },
+        "Blurs things right next to the camera.": {
+          "zh-CN": "模糊紧靠镜头的物体。",
+          "en-US": "Blurs things right next to the camera."
+        },
+        "Snow and rain on the camera's lens: flakes stick, melt into drops and run off; raindrops run down (more driving into it). Not on thermal or night sights.": {
+          "zh-CN": "相机镜头上的雪和雨：雪花附着、融化成水滴并滑落；雨滴向下流（迎头行驶时更明显）。不影响热成像或夜视瞄具。",
+          "en-US": "Snow and rain on the camera's lens: flakes stick, melt into drops and run off; raindrops run down (more driving into it). Not on thermal or night sights."
+        },
+        "Colour grading look: natural, kodak, fuji, bleach, svema, desert.": {
+          "zh-CN": "色彩分级风格：natural（自然）、kodak、fuji、bleach（漂白）、svema、desert（沙漠）。",
+          "en-US": "Colour grading look: natural, kodak, fuji, bleach, svema, desert."
+        },
+        "Colour grading strength (0..2).": {
+          "zh-CN": "色彩分级强度（0..2）。",
+          "en-US": "Colour grading strength (0..2)."
+        },
+        "Ambient occlusion strength (0..2).": {
+          "zh-CN": "环境遮蔽强度（0..2）。",
+          "en-US": "Ambient occlusion strength (0..2)."
+        },
+        "Haze and sun rays strength (0..2).": {
+          "zh-CN": "雾霭和阳光光线强度（0..2）。",
+          "en-US": "Haze and sun rays strength (0..2)."
+        },
+        "How much light the fog catches (0..2).": {
+          "zh-CN": "雾捕捉光线的程度（0..2）。",
+          "en-US": "How much light the fog catches (0..2)."
+        },
+        "Fog glow strength (0..2).": {
+          "zh-CN": "雾中发光强度（0..2）。",
+          "en-US": "Fog glow strength (0..2)."
+        },
+        "Heat haze and shock waves strength (0..2).": {
+          "zh-CN": "热浪和冲击波强度（0..2）。",
+          "en-US": "Heat haze and shock waves strength (0..2)."
+        },
+        "Depth of field blur strength (0..2).": {
+          "zh-CN": "景深模糊强度（0..2）。",
+          "en-US": "Depth of field blur strength (0..2)."
+        },
+        "Frosted editor panels.": {
+          "zh-CN": "磨砂半透明编辑器面板。",
+          "en-US": "Frosted editor panels."
+        },
+        "Naming for new groups.": {
+          "zh-CN": "新建编队的命名方式。",
+          "en-US": "Naming for new groups."
+        },
+        "Editor camera speed.": {
+          "zh-CN": "编辑器镜头移动速度。",
+          "en-US": "Editor camera speed."
+        },
+        "Phase Line in the main menu.": {
+          "zh-CN": "在主菜单显示Phase Line入口。",
+          "en-US": "Phase Line in the main menu."
+        },
+        "Editor mouse speed.": {
+          "zh-CN": "编辑器鼠标灵敏度。",
+          "en-US": "Editor mouse speed."
+        },
+        "Invert editor mouse.": {
+          "zh-CN": "反转编辑器鼠标Y轴。",
+          "en-US": "Invert editor mouse."
+        },
+        "Your ElevenLabs API key for voice lines. Stays on your PC.": {
+          "zh-CN": "用于语音台词的ElevenLabs API密钥。仅保存在本机。",
+          "en-US": "Your ElevenLabs API key for voice lines. Stays on your PC."
+        },
+        "ElevenLabs voice ID.": {
+          "zh-CN": "ElevenLabs语音ID。",
+          "en-US": "ElevenLabs voice ID."
+        },
+        "ElevenLabs model.": {
+          "zh-CN": "ElevenLabs模型。",
+          "en-US": "ElevenLabs model."
+        },
+        "Unit and zone names in the editor.": {
+          "zh-CN": "在编辑器中显示单位和区域名称。",
+          "en-US": "Unit and zone names in the editor."
+        },
+        "Autosave every 2 minutes.": {
+          "zh-CN": "每2分钟自动保存。",
+          "en-US": "Autosave every 2 minutes."
+        },
+        "Show all routes, not just the selected one.": {
+          "zh-CN": "显示所有路线，而非仅当前选中的路线。",
+          "en-US": "Show all routes, not just the selected one."
+        },
+        "Editor minimap.": {
+          "zh-CN": "编辑器小地图。",
+          "en-US": "Editor minimap."
+        },
+        "Editor only: moonlight at night so you can see.": {
+          "zh-CN": "仅限编辑器：夜间添加月光以便查看。",
+          "en-US": "Editor only: moonlight at night so you can see."
+        },
+        "Your editor key changes. Empty = defaults.": {
+          "zh-CN": "自定义编辑器按键绑定。留空 = 使用默认值。",
+          "en-US": "Your editor key changes. Empty = defaults."
+        },
+        "Season for vanilla missions (coming soon).": {
+          "zh-CN": "原版任务的季节设置（即将推出）。",
+          "en-US": "Season for vanilla missions (coming soon)."
+        },
+        "Random or custom winter.": {
+          "zh-CN": "随机或自定义冬季。",
+          "en-US": "Random or custom winter."
+        },
+        "Snow cover.": {
+          "zh-CN": "积雪覆盖程度。",
+          "en-US": "Snow cover."
+        },
+        "Snow depth in cm.": {
+          "zh-CN": "积雪深度（厘米）。",
+          "en-US": "Snow depth in cm."
+        },
+        "Road snow.": {
+          "zh-CN": "道路积雪状态。",
+          "en-US": "Road snow."
+        },
+        "Winter weather.": {
+          "zh-CN": "冬季天气。",
+          "en-US": "Winter weather."
+        },
+        "Visibility in metres. 0 = from the weather.": {
+          "zh-CN": "能见度（米）。0 = 由天气决定。",
+          "en-US": "Visibility in metres. 0 = from the weather."
+        },
+        "Autumn weather.": {
+          "zh-CN": "秋季天气。",
+          "en-US": "Autumn weather."
+        },
+        "Weather change later in the mission.": {
+          "zh-CN": "任务后期的天气变化。",
+          "en-US": "Weather change later in the mission."
+        },
+        "Minutes before the weather changes.": {
+          "zh-CN": "天气变化前的等待时长（分钟）。",
+          "en-US": "Minutes before the weather changes."
+        },
+        "Minutes the change takes.": {
+          "zh-CN": "天气过渡所需时长（分钟）。",
+          "en-US": "Minutes the change takes."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "Language": ["auto", "en", "pl", "de", "ru", "zh"],
+        "FogLights": ["realistic", "cinematic"],
+        "ColourGradingLook": ["natural", "kodak", "fuji", "bleach", "svema", "desert"],
+        "GroupNames": ["callsigns", "numbers"],
+        "StockSeason": ["Map's own", "Spring", "Summer", "Autumn", "Winter"],
+        "StockSeasonWinter": ["Random", "Custom"],
+        "StockSeasonSnowCover": ["Covered", "Partial", "Bare"],
+        "StockSeasonRoads": ["Packed", "Cleared", "Covered"],
+        "StockSeasonWeather": ["Snow", "Blizzard", "Overcast", "Clear"],
+        "StockSeasonAutumnWeather": ["Random", "Rain", "Overcast", "Clear"],
+        "StockSeasonLater": ["None", "Rain", "Blizzard", "Fog", "Clear"]
+      }
+    },
+    "GHPCCOOP": {
+      "ModId": "GHPCCOOP",
+      "ConfigLabels": {
+        "Theme": {"zh-CN": "面板主题", "en-US": "Theme"},
+        "Glass": {"zh-CN": "磨砂透明面板", "en-US": "Glass"}
+      },
+      "ConfigComments": {
+        "Panel colours: frost, steel, field, contrast.": {
+          "zh-CN": "面板颜色：frost（霜白）、steel（钢铁）、field（野战）、contrast（对比）。",
+          "en-US": "Panel colours: frost, steel, field, contrast."
+        },
+        "Frosted see-through panels.": {
+          "zh-CN": "磨砂半透明面板。",
+          "en-US": "Frosted see-through panels."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {
+        "Theme": ["frost", "steel", "field", "contrast"]
+      }
     }
   }
 }
