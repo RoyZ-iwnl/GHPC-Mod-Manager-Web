@@ -26,6 +26,58 @@
     "InstallMethod": "DirectRelease"
   },
   {
+    "Id": "GHPCCOOP",
+    "Name": {
+      "en-US": "Task Force (COOP)",
+      "zh-CN": "特遣联队（联机MOD）"
+    },
+    "Author": "Dami1189",
+    "Description": {
+      "en-US": "Play the game's own missions and Phase Line ones together. Multicrew tanks, or fight in PVP battles with capture zones - your choice!Integrated with PhaseLine custom missions, steam invites, public lobby system, voice chat, automated mod check, safeguards, and many more!",
+      "zh-CN": "一起玩游戏本身的任务和编辑器任务。多乘坦克，或者PVP战斗中作战——任你选择！需要Steam连接。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Dami1189/ghpc-task-force/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "GHPCCoop.dll",
+    "ConfigSectionName": "SharedUi",
+    "InstallMethod": "DirectRelease"
+  },
+  {
+    "Id": "GHPCPL",
+    "Name": {
+      "en-US": "Phase Line",
+      "zh-CN": "富尔达阵线（自定义任务编辑器）"
+    },
+    "Author": "Dami1189",
+    "Description": {
+      "en-US": "A mission editor for Gunner, HEAT, PC!, inside the game. Pick one of the game's maps, put units down, draw where they drive, write what happens and when, then press F5 and play it.",
+      "zh-CN": "这是一款游戏中的任务编辑器。选择游戏中的一张地图，部署单位，规划它们的行进路线，描述会发生什么以及时间如何，然后按 F5 播放该地图的情境。"
+    },
+    "Tags": {
+      "enhancement": {
+        "zh-CN": "游戏增强",
+        "en-US": "Game Enhancement"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/Dami1189/phase-line/releases/latest",
+    "TargetFileNameKeyword": ".dll",
+    "MainBinaryFileName": "PhaseLine.dll",
+    "ConfigSectionName": "PhaseLine",
+    "InstallMethod": "DirectRelease"
+  },
+  {
     "Id": "PactILROY",
     "Name": {
       "en-US": "Pact Increased Lethality(Temp version)",
