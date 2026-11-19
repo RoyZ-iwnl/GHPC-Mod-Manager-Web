@@ -288,6 +288,9 @@
         "en-US": "New Vehicle"
       }
     },
+    "SupportedGameVersions": [
+      "20260814"
+    ],
     "ReleaseUrl": "https://api.github.com/repos/AIM928/Challenger2/releases/latest",
     "TargetFileNameKeyword": "Full.zip",
     "MainBinaryFileName": "Challenger2.dll",
@@ -2863,8 +2866,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20261014",
-      "20261014.1"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/AIM928/Puma/releases/latest",
     "TargetFileNameKeyword": "Full.zip",
@@ -2892,8 +2894,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20261014",
-      "20261014.1"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/AIM928/Leopard2A7HU/releases/latest",
     "TargetFileNameKeyword": "Full.zip",
