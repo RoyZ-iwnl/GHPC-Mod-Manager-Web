@@ -20,7 +20,7 @@
       "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/Dami1189/ghpc-combat-overhaul/releases/latest",
-    "TargetFileNameKeyword": ".zip",
+    "TargetFileNameKeyword": ".dll",
     "MainBinaryFileName": "GHPCCombatOverhaul.dll",
     "ConfigSectionName": "HitCam",
     "InstallMethod": "DirectRelease"
