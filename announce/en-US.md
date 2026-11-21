@@ -8,7 +8,7 @@
 ## Announcement
 
 ### 2026-11-21
-- v1.3.12 stable release is now available with MelonLoader uninstall, batch mod update selection, IDM-style chunk progress bar, offline mode improvements, and GitHub token masking. See the [changelog](#v1312) below for details.
+- v1.3.12/13 stable release is now available with MelonLoader uninstall, batch mod update selection, IDM-style chunk progress bar, offline mode improvements, and GitHub token masking. See the [changelog](#v131213) below for details.
 
 ### 2026-10-24
 - v1.3.11 stable release is now available with release notes viewer, README viewer, update flow optimization, and installation improvements. See the [changelog](#v1311) below for details.
@@ -112,7 +112,7 @@
 
 ## Changelog
 
-### v1.3.12
+### v1.3.12/13
 #### feat: Release version 1.3.12 with MelonLoader uninstall, batch mod update selection, IDM-style chunk progress bar, offline mode improvements, and GitHub token masking
 - Bump version to 1.3.12 "Raidian"
 - Add MelonLoader uninstall in Settings with confirmation dialog; removes framework files, entry DLLs (version.dll, dobby.dll), and local manifest while preserving Mods/UserData/Plugins directories; add full state recheck after install/uninstall
@@ -129,6 +129,7 @@
 - ConfigSectionName supports string or array; configuration reads, updates, and resets work across multiple sections; keys are qualified by section to support duplicate option names
 - Add drag-and-drop ordering for installed mods with persisted custom order
 - Check for conflicting loader DLLs before startup and show localized error when detected
+- v1.3.13 is a hotfix for 1.3.12
 
 ### v1.3.11
 #### feat: Release version 1.3.11 with release notes viewer, README viewer, update flow optimization, and installation improvements
