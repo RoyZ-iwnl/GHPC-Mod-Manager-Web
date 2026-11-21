@@ -7,6 +7,9 @@
 
 ## Announcement
 
+### 2026-11-21
+- v1.3.12 stable release is now available with MelonLoader uninstall, batch mod update selection, IDM-style chunk progress bar, offline mode improvements, and GitHub token masking. See the [changelog](#v1312) below for details.
+
 ### 2026-10-24
 - v1.3.11 stable release is now available with release notes viewer, README viewer, update flow optimization, and installation improvements. See the [changelog](#v1311) below for details.
 
@@ -108,6 +111,24 @@
 - GHPC version 20250902 has been released. Some mods may not be compatible. Please install or update accordingly.
 
 ## Changelog
+
+### v1.3.12
+#### feat: Release version 1.3.12 with MelonLoader uninstall, batch mod update selection, IDM-style chunk progress bar, offline mode improvements, and GitHub token masking
+- Bump version to 1.3.12 "Raidian"
+- Add MelonLoader uninstall in Settings with confirmation dialog; removes framework files, entry DLLs (version.dll, dobby.dll), and local manifest while preserving Mods/UserData/Plugins directories; add full state recheck after install/uninstall
+- Batch mod update selection: when multiple updates are available, a selection dialog (ModUpdateSelectDialog) lists all updatable mods with checkboxes; confirmed mods are enqueued in parallel
+- Add IDM-style chunk progress bar in download manager, rendering per-segment colored blocks based on download state
+- Redesign download manager layout: action buttons moved to title row, progress bar is now full-width (height 12) below title; progress text format changed to "X MB / Y MB"; speed is suppressed when not actively downloading
+- Offline mode: add banner in main view; show "Restart Now"/"Later" dialog when entering offline mode; disable check-updates and write commands while offline
+- GitHub API Token in Settings now shows bullet-masked read-only box by default; add eye icon toggle button to reveal/hide plain text
+- Show mod author below display name in mod browser list and in installed mod detail view
+- New mods banner items are now clickable, navigating directly to the respective mod
+- Redesign toast notification: uses InverseSurface color, constrained to content column, with increased bottom margin
+- Restrict MelonLoader not-installed overlay to Installed Mods page
+- Skip completed/cancelled tasks when loading persisted downloads on startup
+- ConfigSectionName supports string or array; configuration reads, updates, and resets work across multiple sections; keys are qualified by section to support duplicate option names
+- Add drag-and-drop ordering for installed mods with persisted custom order
+- Check for conflicting loader DLLs before startup and show localized error when detected
 
 ### v1.3.11
 #### feat: Release version 1.3.11 with release notes viewer, README viewer, update flow optimization, and installation improvements

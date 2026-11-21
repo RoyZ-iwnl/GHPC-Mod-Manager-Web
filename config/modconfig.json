@@ -289,7 +289,7 @@
       }
     },
     "SupportedGameVersions": [
-      "20260814"
+      "20261014"
     ],
     "ReleaseUrl": "https://api.github.com/repos/AIM928/Challenger2/releases/latest",
     "TargetFileNameKeyword": "Full.zip",
