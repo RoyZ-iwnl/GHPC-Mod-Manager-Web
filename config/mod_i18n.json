@@ -1,5 +1,46 @@
 {
   "ModConfigs": {
+    "Leopard2A7HU": {
+      "ModId": "Leopard2A7HU",
+      "ConfigLabels": {
+        "DM73Count": {
+          "zh-CN": "DM73 穿甲弹携带数量",
+          "en-US": "DM73 round count"
+        },
+        "HEATCount": {
+          "zh-CN": "HEAT 破甲弹携带数量",
+          "en-US": "HEAT round count"
+        },
+        "TargetTrackerEnabled": {
+          "zh-CN": "炮手目标跟踪",
+          "en-US": "Gunner target tracker"
+        },
+        "TargetTrackerKey": {
+          "zh-CN": "跟踪按键（Mouse2 为中键）",
+          "en-US": "Tracker key (Mouse2 = middle mouse)"
+        }
+      },
+      "ConfigComments": {
+        "DM73 rounds, 0-42. Changes apply on next mission/restart.": {
+          "zh-CN": "每项 0～42 发，两种合计最多 42 发；超限时优先保留 DM73。保存后重启游戏生效。",
+          "en-US": "0–42 rounds per type, 42 total. DM73 takes priority. Save and restart the game."
+        },
+        "HEAT rounds, 0-42. Combined capacity is 42; DM73 takes priority.": {
+          "zh-CN": "每项 0～42 发，两种合计最多 42 发；超限时优先保留 DM73。保存后重启游戏生效。",
+          "en-US": "0–42 rounds per type, 42 total. DM73 takes priority. Save and restart the game."
+        },
+        "HEAT数量：0-42，默认7。合计最多42发，超限时优先保留DM73。": {
+          "zh-CN": "每项 0～42 发，两种合计最多 42 发；超限时优先保留 DM73。保存后重启游戏生效。",
+          "en-US": "0–42 rounds per type, 42 total. DM73 takes priority. Save and restart the game."
+        },
+        "DM73数量：0-42，默认35。重启游戏生效。": {
+          "zh-CN": "每项 0～42 发，两种合计最多 42 发；超限时优先保留 DM73。保存后重启游戏生效。",
+          "en-US": "0–42 rounds per type, 42 total. DM73 takes priority. Save and restart the game."
+        }
+      },
+      "multiplechoice": {},
+      "singlechoice": {}
+    },
     "PactIL": {
       "ModId": "PactIL",
       "ConfigLabels": {
