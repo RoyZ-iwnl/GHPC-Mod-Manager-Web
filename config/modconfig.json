@@ -2932,5 +2932,33 @@
     "InstallMethod": "DirectRelease",
     "Requirements": [],
     "Conflicts": []
+  },
+  {
+    "Id": "XM8",
+    "Name": {
+      "en-US": "M8 Thunderbolt",
+      "zh-CN": "M8 雷霆"
+    },
+    "Author": "芝士大嘴蛙（DDDDWWWWDZW）",
+    "Description": {
+      "en-US": "Adds the standalone M8 Thunderbolt light tank, with an autoloader and case ejection animation, a custom interior, and optional Level III add-on armor. Available on the gunnery range and in compatible custom missions. Base exterior model: Gaijin Entertainment (War Thunder). GHPC integration: DDDDWWWWDZW.",
+      "zh-CN": "新增独立载具 M8 雷霆轻型坦克，配有自动装弹机、抛壳动画、专属内构和可选的三级附加装甲。可在靶场和兼容的自定义任务中使用。外观原始模型来自 Gaijin Entertainment 的《战争雷霆》，GHPC 整合由 DDDDWWWWDZW 完成。"
+    },
+    "Tags": {
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/DDDDWWWWDZW/M8_Thunderbolt_mod_of_-GHPC-/releases/latest",
+    "TargetFileNameKeyword": "-official.zip",
+    "MainBinaryFileName": "XM8.dll",
+    "ConfigSectionName": "XM8",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [],
+    "Conflicts": []
   }
 ]
