@@ -2905,5 +2905,32 @@
       "M1Trophy"
     ],
     "Conflicts": []
+  },
+  {
+    "Id": "BMPT72",
+    "Name": {
+      "en-US": "BMPT-72 Terminator",
+      "zh-CN": "BMPT-72 终结者"
+    },
+    "Author": "AIM",
+    "Description": {
+      "en-US": "Standalone BMPT-72 vehicle with twin 30 mm autocannons, Ataka missiles, laser warning and X-ray replay. The full package includes the vehicle assets. War Thunder model and textures: Gaijin Entertainment. GHPC integration: AIM.",
+      "zh-CN": "独立 BMPT-72 终结者载具，配备双联 30 毫米机炮、Ataka 导弹、激光告警和 X 光回放。完整包包含载具资源。战争雷霆模型及贴图归 Gaijin Entertainment，GHPC 整合：AIM。"
+    },
+    "Tags": {
+      "NewVehicle": {
+        "zh-CN": "载具添加",
+        "en-US": "New Vehicle"
+      }
+    },
+    "SupportedGameVersions": [
+      "20261014"
+    ],
+    "ReleaseUrl": "https://api.github.com/repos/AIM928/BMPT-72/releases/latest",
+    "TargetFileNameKeyword": "GHPC-BMPT72-",
+    "MainBinaryFileName": "BMPT72.dll",
+    "InstallMethod": "DirectRelease",
+    "Requirements": [],
+    "Conflicts": []
   }
 ]
